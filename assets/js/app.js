@@ -6,17 +6,10 @@
 (function () {
   "use strict";
 
-  /* ---------- Verified prices (do not invent or derive) ---------- */
-  var PRICES = {
-    wave:     { name: "Honda Wave",   day: 150000, week: 700000,  month: [900000, 1200000] },
-    sirius:   { name: "Yamaha Sirius",day: 150000, week: 700000,  month: [900000, 1200000] },
-    mio:      { name: "Yamaha Mio",   day: 150000, week: 700000,  month: [900000, 1200000] },
-    click:    { name: "Honda Click",  day: 150000, week: 700000,  month: [900000, 1200000] },
-    vision:   { name: "Honda Vision", day: 200000, week: 1000000, month: [1800000, 2000000] },
-    airblade: { name: "Honda Air Blade", day: 200000, week: 1000000, month: [1500000, 1500000] },
-    electric: { name: "Electric Motorbike", day: 200000, week: 1000000, month: [1500000, 1500000] },
-    cc50:     { name: "50cc Scooter / Motorbike", day: 200000, week: null, month: null }
-  };
+  /* Shared data comes from business-config.js (BUSINESS, PRICES).
+     No duplicated price table here — single source of truth. */
+  var PRICES = window.PRICES || null;
+  var BUSINESS = window.BUSINESS || null;
   var fmt = function (v) { return v.toLocaleString("en-US") + " VND"; };
 
   /* ================= Theme ================= */
@@ -267,7 +260,8 @@
         amount.textContent = "Contact us";
         if (note) note.textContent = "We do not have a verified monthly price for the " + price.name + ". Please contact us for verified monthly pricing.";
       } else {
-        var lo = price.month[0], hi = price.month[1];
+        var range = Array.isArray(price.month) ? price.month : [price.month, price.month];
+        var lo = range[0], hi = range[1];
         if (lo === hi) {
           amount.textContent = fmt(lo * qty);
           if (note) note.textContent = qty > 1 ? fmt(lo) + " per motorbike per month \u00d7 " + qty : fmt(lo) + " per month";
