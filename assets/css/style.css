@@ -694,6 +694,7 @@ html[data-theme="dark"] .chat-msg.bot a{color:var(--brand)}
 @media (max-width:420px){
   .nav-shell{padding:0 var(--s3);gap:var(--s2)}
   .brand{font-size:.92rem}
+  .brand-sub{display:none}
   .hero-cta .btn{width:100%}
   .qc-tip,.chat-tip{display:none}
 }
