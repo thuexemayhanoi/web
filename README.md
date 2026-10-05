@@ -70,3 +70,5 @@ Phone 0942 467 674 · nguyentuantu8x@gmail.com · 09:00–21:00 daily.
 
 Only verified prices are published. Never invent prices, availability,
 promotions, deposits or policies.
+
+Last UI/UX and chatbot update: 2026-10-05.
