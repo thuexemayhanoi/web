@@ -1,51 +1,79 @@
-# Hanoi Motorbike Rental - Nguyen Tu
+# Hanoi Motorbike Rental — app.rentbikehanoi.com
 
-SOURCE REPOSITORY: thuexemayhanoi/web
+Multi-page English SEO blog for **Motorbike Rental - Nguyen Tu**, a motorbike rental
+shop in Long Bien, Hanoi, Vietnam. This repository is the source and deployment source;
+the official production website and ONLY SEO domain is:
 
-OFFICIAL PRODUCTION DOMAIN: https://app.rentbikehanoi.com/
+**https://app.rentbikehanoi.com/**
 
-PRIMARY SEO KEYWORD: Hanoi Motorbike Rental
+All canonical URLs, sitemap entries, Open Graph URLs, structured data, breadcrumbs and
+internal links use https://app.rentbikehanoi.com/ exclusively. The GitHub Pages URL of
+this repository must never be used as the SEO domain.
 
-CONTENT ARCHITECTURE: SEO Hub -> Silo -> Cluster
+## Site architecture
 
-TARGET: scalable foundation for approximately 1,000 English articles
+The site is a real multi-page SEO blog (not a one-page app):
 
-## Structure
+Homepage (root editorial hub)
+→ Hub (category/silo page, one per silo)
+→ Silo / Subtopic sections inside each hub
+→ Articles (cluster pages, added under each hub over time)
 
-- index.html - SEO Hub homepage (Hanoi Motorbike Rental)
-- /hanoi-motorbike-rental/ ... /motorbike-guides/ - 10 hub foundation pages
-- privacy-policy.html, terms-of-use.html - legal pages
-- assets/css/style.css - light/dark theme, app-like UI
-- assets/js/business-config.js - SINGLE SOURCE OF TRUTH for business name, address, phone, email, Maps, opening hours, timezone, pricing, contact methods
-- assets/js/app.js - theme, mega menu, mobile drawer, bottom dock, motorbike filter, rental calculator, Open/Closed status, Quick Contact, chat toggle
-- assets/js/assistant.js - rule-based local chatbot (no API, no backend)
-- robots.txt, sitemap.xml, 404.html, CNAME (do not remove CNAME)
+### Pages
 
-## Shared business configuration
+- `/` — homepage: hero, verified prices, motorbike selector with filters, rental
+  calculator, cost / 50cc / scooter / Old Quarter / monthly / trips sections,
+  how-it-works, contact + map, hub directory, FAQ.
+- `/hanoi-motorbike-rental/` — main Hanoi Motorbike Rental hub
+- `/hanoi-50cc-motorbike-rental/` — 50cc cluster hub
+- `/hanoi-scooter-rental/` — automatic scooter hub
+- `/hanoi-motorbike-rental-cost/` — prices and cost hub
+- `/motorbike-rental-hanoi-old-quarter/` — Old Quarter and Hanoi areas hub
+- `/monthly-motorbike-rental-hanoi/` — monthly / long-term hub
+- `/hanoi-motorbike-trips/` — trips and routes hub
+- `/hanoi-motorbike-for-sale/` — buying vs renting (informational intent)
+- `/renting-a-motorbike-in-vietnam/` — complete Vietnam rental guide
+- `/motorbike-guides/` — safety, parking, fuel, maintenance guides
+- `/privacy-policy.html`, `/terms-of-use.html`, `/404.html`
+- `/sitemap.xml` — homepage + 10 hubs + privacy + terms (13 URLs)
+- `/robots.txt` — points to https://app.rentbikehanoi.com/sitemap.xml
 
-All business data (NAP, hours 09:00-21:00 daily, timezone Asia/Ho_Chi_Minh, verified pricing, contact methods) lives in assets/js/business-config.js. The calculator, Open/Closed status and assistant all read this config. Never hard-code the same data elsewhere.
+Every hub page is a standalone crawlable page with a unique title, meta description,
+H1, canonical URL, breadcrumb (with BreadcrumbList + WebPage schema), introductory
+content, subtopic sections, a planned-cluster section, related-hub links, a link back
+to the homepage, the full header with SEO dropdown navigation, the full footer, the
+mobile dock, Quick Contact and the chatbot assistant.
 
-## Pricing source (verified)
+## Business configuration
 
-- Honda Wave / Yamaha Sirius / Yamaha Mio / Honda Click: 150,000 VND/day, 700,000 VND/week, 900,000-1,200,000 VND/month
-- Honda Vision: 200,000 VND/day, 1,000,000 VND/week, 1,800,000-2,000,000 VND/month
-- Honda Air Blade / Electric: 200,000 VND/day, 1,000,000 VND/week, 1,500,000 VND/month
-- 50cc Scooter / Motorbike: 200,000 VND/day only. No verified weekly/monthly 50cc price - show "Contact us".
+`assets/js/business-config.js` is the single source of truth for NAP, opening hours,
+contact methods and pricing:
 
-The calculator uses these real values. It never derives week = day x 7 or month = day x 30. Monthly ranges stay ranges.
+- Name: Motorbike Rental - Nguyen Tu
+- Address: 112 Nguyen Van Cu, Long Bien, Hanoi, Vietnam
+- Phone: 0942 467 674 (tel:+84942467674)
+- Email: nguyentuantu8x@gmail.com
+- Hours: 09:00–21:00 daily (Asia/Ho_Chi_Minh)
+- Verified prices in VND; monthly entries are ranges and stay ranges;
+  50cc has a verified daily price only (weekly/monthly = contact us).
 
 ## Features
 
-- Light/dark mode: localStorage preference, prefers-color-scheme fallback, theme-color meta update, no flash (pre-paint inline script)
-- Rental calculator: model + period + quantity, Intl.NumberFormat VND, verified ranges preserved
-- Motorbike selector: category filter (semi-automatic, scooter, 50cc, electric), no live availability claims
-- Open/Closed: computed against Asia/Ho_Chi_Minh, never device timezone
-- Quick Contact: round floating bubble (bottom-left) - Call, Email, Maps (verified only; Zalo/WhatsApp hidden until verified)
-- Chat Assistant: separate round bubble (bottom-right), rule-based, English, uses shared config, never invents prices/policies
-- Mobile bottom dock: Home, Rent, Prices, Trips, Contact
+- Light/Dark theme (localStorage + prefers-color-scheme, pre-paint script, theme-color meta)
+- Sticky translucent header with keyboard-first mega dropdowns
+- Mobile drawer with focus trap + mobile bottom dock
+- Open/Closed status badge computed against Asia/Ho_Chi_Minh
+- Motorbike selector with category filters
+- Rental calculator using verified prices only (never day×7 or day×30;
+  monthly ranges stay ranges; unverified periods show a contact message)
+- Floating Quick Contact (Call / Email / Maps) — no Zalo/WhatsApp (unverified)
+- Rule-based English chatbot assistant (no backend, conservative fallbacks)
+- robots.txt, sitemap.xml, 404 page, privacy policy, terms of use
 
-## Business
+## Content rules
 
-Motorbike Rental - Nguyen Tu
-112 Nguyen Van Cu, Long Bien, Hanoi, Vietnam
-Phone 0942 467 674 - Open 09:00-21:00 daily
+- Natural English for tourists, expats and international visitors.
+- Never invent prices, availability, promotions, discounts, guarantees,
+  branches, delivery times, phone numbers or rental policies.
+- No keyword stuffing; one strong page per search intent.
+- Cluster articles link upward to their parent hub and relevant commercial pages.
