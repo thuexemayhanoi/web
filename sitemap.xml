@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://app.rentbikehanoi.com/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://app.rentbikehanoi.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-scooter-rental/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/motorbike-guides/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/privacy-policy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/terms-of-use.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
 </urlset>
