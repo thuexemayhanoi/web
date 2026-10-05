@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://app.rentbikehanoi.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/how-to-rent-a-motorbike-in-hanoi/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-scooter-rental/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
