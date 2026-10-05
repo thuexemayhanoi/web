@@ -247,6 +247,7 @@
     var answer = "";
 
     if (!intent && greeted) intent = "greet";
+    this.lastIntent = intent || this.lastIntent || "default";
 
     switch (intent) {
       case "price":
@@ -318,8 +319,8 @@
           : "Hello! I can help with rental prices, models, our location and opening hours. What would you like to know?";
         break;
       default:
-        // maybe follow-up like "and monthly?" — price period with remembered model
-        if ((period || qty || duration) && this.state.model) {
+        // model mentioned (or follow-up like "and monthly?") with remembered context → price
+        if (this.state.model && (period || qty || duration || model)) {
           answer = this.replyPrice();
         } else {
           answer = vi
@@ -330,10 +331,108 @@
     return (greeted && intent !== "greet" ? hi : "") + answer;
   };
 
-  root.MotorbikeAssistant = { Engine: Engine, norm: norm };
+  /* ---------------- Site search over the repo-built index (no API) ----------------
+     Index: /assets/chat/search-index.json — built from published pages only
+     (titles, URLs, headings, paragraphs; diacritics preserved). Loaded lazily
+     on first chat open, never at page load. */
+  var INDEX_URL = "/assets/chat/search-index.json";
+  var INDEX_VERSION = "20261006.1";
+  var SYN = {
+    "gia": "price", "cost": "price", "fee": "price", "phi": "price", "bao nhieu": "price", "rates": "price", "rate": "price",
+    "thue": "rent", "rental": "rent", "hire": "hire", "cho thue": "rent",
+    "xe may": "motorbike", "motorbike": "motorbike", "scooter": "scooter", "moped": "50cc", "xe": "bike", "bike": "bike",
+    "thang": "month", "monthly": "month", "long term": "month", "tuan": "week", "weekly": "week",
+    "ngay": "day", "daily": "day",
+    "o dau": "where", "dia chi": "address", "location": "where", "address": "address", "map": "map", "vi tri": "where",
+    "gio mo": "hours", "opening": "hours", "hours": "hours", "mo cua": "hours",
+    "pho co": "old quarter", "old quarter": "old quarter",
+    "trip": "trip", "route": "trip", "chuyen di": "trip",
+    "buy": "buy", "mua": "buy", "ban": "buy"
+  };
+  var STOPWORDS = /^(a|an|the|is|are|do|does|for|of|to|in|at|and|va|cua|co|khong|the|nao|ban|toi|muon|can|it|my|our|you|your|i|me|we|please|hi|hello)$/i;
+
+  function SiteSearch() {
+    this.data = null;   // parsed index
+    this.state = "idle"; // idle | loading | ready | error
+    this.waiters = [];
+  }
+  SiteSearch.prototype.load = function () {
+    var self = this;
+    if (this.state !== "idle") return;
+    this.state = "loading";
+    var done = function (ok, data) {
+      self.state = ok ? "ready" : "error";
+      self.data = ok ? data : null;
+      self.waiters.forEach(function (w) { w(self.state); });
+      self.waiters = [];
+    };
+    if (typeof fetch !== "function") { done(false, null); return; }
+    fetch(INDEX_URL + "?v=" + INDEX_VERSION)
+      .then(function (r) { if (!r.ok) throw new Error("http " + r.status); return r.json(); })
+      .then(function (j) { done(!!(j && j.e && j.e.length), j); })
+      .catch(function () { done(false, null); });
+  };
+  /* Browser-side ranking: normalized (accent-insensitive) matching with
+     synonym expansion. Title > heading > body. Returns the best page and
+     section, or null when nothing relevant is found. */
+  SiteSearch.prototype.search = function (q) {
+    if (!this.data) return null;
+    var t = norm(q);
+    if (!t) return null;
+    var terms = t.split(" ").filter(function (w) { return w.length > 1 && !STOPWORDS.test(w); });
+    if (!terms.length) return null;
+    var best = null, bestScore = 0, bestSec = null;
+    for (var i = 0; i < this.data.e.length; i++) {
+      var ent = this.data.e[i];
+      var body = ent.head.join(" ") + " " + ent.s.map(function (s) { return s.h + " " + s.p.join(" "); }).join(" ");
+      var ti = norm(ent.t), hd = norm(ent.head.join(" ")), tx = norm(body);
+      var score = 0;
+      for (var k = 0; k < terms.length; k++) {
+        var w = terms[k], syn = SYN[w] || null;
+        if (ti.indexOf(w) >= 0) score += 3;
+        else if (syn && ti.indexOf(syn) >= 0) score += 2;
+        if (hd.indexOf(w) >= 0 || (syn && hd.indexOf(syn) >= 0)) score += 2;
+        if (tx.indexOf(w) >= 0 || (syn && tx.indexOf(syn) >= 0)) score += 1;
+      }
+      if (score > bestScore) {
+        bestScore = score; best = ent; bestSec = null;
+        var bs = 0;
+        for (var j = 0; j < ent.s.length; j++) {
+          var sec = ent.s[j], st = norm(sec.h + " " + sec.p.join(" ")), ss = 0;
+          for (var k2 = 0; k2 < terms.length; k2++) {
+            var w2 = terms[k2], syn2 = SYN[w2];
+            if (st.indexOf(w2) >= 0) ss += 1;
+            if (syn2 && st.indexOf(syn2) >= 0) ss += 1;
+          }
+          if (ss > bs) { bs = ss; bestSec = sec; }
+        }
+      }
+    }
+    if (!best || bestScore < 2) return null;
+    return { entry: best, section: bestSec, score: bestScore, site: this.data.site || "" };
+  };
+
+  root.MotorbikeAssistant = { Engine: Engine, SiteSearch: SiteSearch, norm: norm };
   if (typeof module !== "undefined" && module.exports) {
     module.exports = root.MotorbikeAssistant;
   }
+
+  /* Topic suggestions shown after each answer (label, question).
+     Max 5 real related topics; chips are follow-ups, session memory intact. */
+  var SUGGEST = {
+    price:    [["Monthly rental", "Monthly motorbike rental prices"], ["50cc rental", "50cc rental price"], ["Scooter prices", "Scooter rental prices"], ["Contact", "Contact"]],
+    where:    [["Old Quarter", "Renting in the Old Quarter"], ["Opening hours", "Opening hours"], ["Contact", "Contact"]],
+    hours:    [["Address", "Address"], ["Contact", "Contact"]],
+    contact:  [["Prices", "Prices"], ["Address", "Address"], ["50cc rental", "50cc rental price"]],
+    travel:   [["Old Quarter", "Renting in the Old Quarter"], ["50cc rental", "50cc rental price"]],
+    docs:     [["50cc rental", "50cc rental price"], ["Contact", "Contact"]],
+    delivery: [["Contact", "Contact"], ["Address", "Address"]],
+    avail:    [["Contact", "Contact"], ["Prices", "Prices"]],
+    deposit:  [["Contact", "Contact"], ["Monthly rental", "Monthly motorbike rental prices"]],
+    buy:      [["Prices", "Prices"], ["Monthly rental", "Monthly motorbike rental prices"]],
+    greet:    [["Prices", "Prices"], ["Monthly rental", "Monthly motorbike rental prices"], ["50cc rental", "50cc rental price"], ["Address", "Address"]],
+    default:  [["Prices", "Prices"], ["Monthly rental", "Monthly motorbike rental prices"], ["50cc rental", "50cc rental price"], ["Opening hours", "Opening hours"], ["Address", "Address"]]
+  };
 
   /* ---------------- DOM wiring ---------------- */
   function wire() {
@@ -343,8 +442,18 @@
     var form = panel.querySelector(".chat-input");
     var input = form ? form.querySelector("input") : null;
     var engine = new Engine();
+    var search = new SiteSearch();
+    var greeted = false;
+
     function esc(s) {
       return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    }
+    /* auto-scroll only when the user is already near the bottom */
+    function nearBottom() {
+      return log.scrollHeight - log.scrollTop - log.clientHeight < 80;
+    }
+    function scrollIfNear() {
+      if (nearBottom()) log.scrollTop = log.scrollHeight;
     }
     function addMsg(html, who) {
       var div = document.createElement("div");
@@ -353,12 +462,72 @@
       log.appendChild(div);
       log.scrollTop = log.scrollHeight;
     }
+    function addSuggestions(keys) {
+      var list = SUGGEST[keys] || SUGGEST.default;
+      var seenQ = {};
+      var wrap = document.createElement("div");
+      wrap.className = "chat-suggest";
+      list.slice(0, 5).forEach(function (pair) {
+        if (seenQ[pair[1]]) return;
+        seenQ[pair[1]] = 1;
+        var b = document.createElement("button");
+        b.type = "button";
+        b.textContent = pair[0];
+        b.addEventListener("click", function () { send(pair[1]); });
+        wrap.appendChild(b);
+      });
+      if (wrap.childNodes.length) log.appendChild(wrap);
+      scrollIfNear();
+    }
+    function contactLine(vi) {
+      return vi
+        ? " " + engine.a("tel:" + engine.BUSINESS.phoneTel, "Gọi " + engine.BUSINESS.phone) + " · " + engine.a("mailto:" + engine.BUSINESS.email, "Email") + " · " + engine.a(engine.BUSINESS.mapsUrl, "Bản đồ", true)
+        : " " + engine.a("tel:" + engine.BUSINESS.phoneTel, "Call " + engine.BUSINESS.phone) + " · " + engine.a("mailto:" + engine.BUSINESS.email, "Email") + " · " + engine.a(engine.BUSINESS.mapsUrl, "Maps", true);
+    }
+    /* Append a source link when the index has a matching published page and
+       the answer does not already link to it. Links come only from the
+       built index — nothing is invented. */
+    function enrich(answer, raw, vi) {
+      var hit = search.search(raw);
+      if (!hit) return answer;
+      var url = (hit.site || "") + hit.entry.u;
+      if (answer.indexOf(hit.entry.u) >= 0) return answer;
+      return answer + " " + engine.a(url, vi ? "Đọc chi tiết" : "Read more", true);
+    }
+    function indexError(vi) {
+      addMsg(vi
+        ? "Không tải được chỉ mục tìm kiếm. Tôi vẫn trả lời câu hỏi phổ biến về giá, giờ mở cửa, địa chỉ." + contactLine(true)
+        : "I could not load the search index. I can still answer common questions about prices, hours and location." + contactLine(false), "bot");
+      scrollIfNear();
+    }
+    function greet() {
+      if (greeted) return;
+      greeted = true;
+      search.load();
+      addMsg("Hello! I am an automated website lookup assistant — I answer from published content on app.rentbikehanoi.com. Ask about rental prices, monthly rental, 50cc bikes, our address or opening hours.", "bot");
+      addSuggestions(["default"]);
+    }
     function send(text) {
       text = (text || "").trim();
       if (!text) return;
       addMsg(esc(text), "user");
-      setTimeout(function () { addMsg(engine.reply(text), "bot"); }, 200);
+      var typing = document.createElement("div");
+      typing.className = "chat-msg bot chat-typing";
+      typing.textContent = "…";
+      log.appendChild(typing);
+      scrollIfNear();
+      setTimeout(function () {
+        typing.remove();
+        var replyText = engine.reply(text);
+        var vi2 = engine.state.lang === "vi";
+        var enriched = enrich(replyText, text, vi2);
+        addMsg(enriched, "bot");
+        if (search.state === "error") indexError(vi2);
+        addSuggestions([engine.lastIntent || "default"]);
+      }, 220);
     }
+    /* First open: greeting + lazy index load (never at page load) */
+    panel.addEventListener("chat:open", greet);
     if (form) form.addEventListener("submit", function (e) {
       e.preventDefault();
       send(input.value);

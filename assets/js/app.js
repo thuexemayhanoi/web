@@ -128,7 +128,7 @@
     });
   }
 
-  /* ================= Floating panels: quick contact + chat ================= */
+  /* ================= Floating UI: quick contact + chat + dock avoidance ================= */
   var qc = document.getElementById("quick-contact");
   var qcMain = qc ? qc.querySelector(".qc-main") : null;
   var chatFab = document.getElementById("chat-fab");
@@ -142,34 +142,115 @@
   }
   function setChat(open) {
     if (!chatFab || !chatPanel) return;
+    var wasOpen = !chatPanel.hidden;
     chatPanel.hidden = !open;
     chatFab.setAttribute("aria-expanded", String(open));
+    if (open && !wasOpen) {
+      /* assistant.js greets + lazily loads the search index on this event */
+      try { chatPanel.dispatchEvent(new CustomEvent("chat:open")); } catch (e) {}
+      var input = chatPanel.querySelector(".chat-input input");
+      if (input) input.focus();
+    }
+    positionFloats();
   }
 
   if (qcMain) qcMain.addEventListener("click", function () {
     var open = qc.getAttribute("data-open") === "true";
-    setChat(false);
+    setChat(false);           /* opening Quick Call collapses chat */
     setQC(!open);
+    positionFloats();
   });
 
   if (chatFab) chatFab.addEventListener("click", function () {
     var open = !chatPanel.hidden;
-    setQC(false);
+    setQC(false);             /* opening chat collapses Quick Call */
     setChat(!open);
-    if (!open) {
-      var input = chatPanel.querySelector(".chat-input input");
-      if (input) input.focus();
-    }
   });
   if (chatClose) chatClose.addEventListener("click", function () { setChat(false); chatFab.focus(); });
 
-  /* Global Escape: close dropdowns, drawer, chat, quick contact */
+  /* -------- Shared floating position manager --------
+     Measures real obstacles (bottom dock height, fixed/sticky banners,
+     CTA bars, back-to-top) and moves the floating buttons and the chat
+     panel above them: dock height + 14px clearance. Recalculates on
+     resize / orientationchange / keyboard via ResizeObserver +
+     visualViewport, rAF-throttled — no layout loops. Dock padding already
+     includes the safe area, so it is never added twice. */
+  var floatRAF = 0;
+  function positionFloats() {
+    if (floatRAF) return;
+    floatRAF = requestAnimationFrame(function () {
+      floatRAF = 0;
+      var vh = window.innerHeight || document.documentElement.clientHeight;
+      var vw = window.innerWidth || document.documentElement.clientWidth;
+      var clear = 16; /* default gap when nothing blocks */
+      function rectOf(el) {
+        var st = getComputedStyle(el);
+        if (st.display === "none" || st.visibility === "hidden" || parseFloat(st.opacity) === "0") return null;
+        var r = el.getBoundingClientRect();
+        if (r.width < 4 || r.height < 4) return null;
+        return r;
+      }
+      /* 1) bottom dock: real measured height + 14px */
+      var dock = document.querySelector(".dock");
+      var dr = dock ? rectOf(dock) : null;
+      if (dr && dr.bottom > vh - 4) clear = Math.max(clear, dr.height + 14);
+      /* 2) other fixed/sticky obstacles near the bottom (cookie banner, CTA bar, back-to-top) */
+      var els = document.body.querySelectorAll("div,section,nav,aside,a,button");
+      for (var i = 0; i < els.length; i++) {
+        var el = els[i];
+        if ((qc && qc.contains(el)) || (chatPanel && chatPanel.contains(el)) || (chatFab && chatFab.contains(el)) ||
+            (dock && dock.contains(el)) || (drawer && drawer.contains(el))) continue;
+        var st;
+        try { st = getComputedStyle(el); } catch (e) { continue; }
+        if (st.position !== "fixed" && st.position !== "sticky") continue;
+        var r = rectOf(el);
+        if (!r) continue;
+        if (r.bottom > vh * 0.7 && (r.left < vw * 0.3 || r.right > vw * 0.7)) {
+          clear = Math.max(clear, (vh - r.top) + 14);
+        }
+      }
+      document.documentElement.style.setProperty("--float-clear", Math.round(clear) + "px");
+      /* keyboard: usable height from visualViewport for the chat panel */
+      var vv = window.visualViewport;
+      var vvH = vv ? Math.round(vv.height) : vh;
+      document.documentElement.style.setProperty("--vv-h", vvH + "px");
+    });
+  }
+
+  var ro = null;
+  try { ro = new ResizeObserver(positionFloats); } catch (e) {}
+  if (ro) {
+    var dockEl = document.querySelector(".dock");
+    if (dockEl) ro.observe(dockEl);
+    ro.observe(document.body);
+  }
+  window.addEventListener("resize", positionFloats, { passive: true });
+  window.addEventListener("orientationchange", positionFloats, { passive: true });
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener("resize", positionFloats, { passive: true });
+    window.visualViewport.addEventListener("scroll", positionFloats, { passive: true });
+  }
+  positionFloats();
+
+  /* hide floating buttons while the full-screen menu (drawer) is open */
+  if (drawer) {
+    new MutationObserver(function () {
+      var open = drawer.classList.contains("open");
+      [qc, chatFab, chatPanel].forEach(function (el) {
+        if (el) (open ? el.setAttribute("data-float-hidden", "") : el.removeAttribute("data-float-hidden"));
+      });
+    }).observe(drawer, { attributes: true, attributeFilter: ["class"] });
+  }
+
+  /* Global Escape: close dropdowns, drawer, chat, quick contact; return focus to the chat button */
   document.addEventListener("keydown", function (e) {
     if (e.key !== "Escape") return;
+    var chatWasOpen = chatPanel && !chatPanel.hidden;
     closeAllDropdowns();
     closeDrawer();
     setQC(false);
     setChat(false);
+    if (chatWasOpen && chatFab) chatFab.focus();
   });
 
   /* ================= Open / Closed status (Asia/Ho_Chi_Minh) ================= */
