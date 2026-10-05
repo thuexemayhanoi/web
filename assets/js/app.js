@@ -1,254 +1,309 @@
-/* =====================================================
-   Hanoi Motorbike Rental — app.rentbikehanoi.com
-   Theme, mega menu, drawer, dock, filters, calculator,
-   open/closed status, quick contact, chat wiring.
-   Depends on business-config.js.
-   ===================================================== */
+/* Hanoi Motorbike Rental — app.js
+   Theme, navigation (dropdowns, drawer, dock), store status,
+   bike filter, price calculator, quick contact and chat toggling.
+   Design system: black / white / orange. */
 
-/* ---------- THEME ---------- */
-(function initTheme() {
+(function () {
+  "use strict";
+
+  /* ---------- Verified prices (do not invent or derive) ---------- */
+  var PRICES = {
+    wave:     { name: "Honda Wave",   day: 150000, week: 700000,  month: [900000, 1200000] },
+    sirius:   { name: "Yamaha Sirius",day: 150000, week: 700000,  month: [900000, 1200000] },
+    mio:      { name: "Yamaha Mio",   day: 150000, week: 700000,  month: [900000, 1200000] },
+    click:    { name: "Honda Click",  day: 150000, week: 700000,  month: [900000, 1200000] },
+    vision:   { name: "Honda Vision", day: 200000, week: 1000000, month: [1800000, 2000000] },
+    airblade: { name: "Honda Air Blade", day: 200000, week: 1000000, month: [1500000, 1500000] },
+    electric: { name: "Electric Motorbike", day: 200000, week: 1000000, month: [1500000, 1500000] },
+    cc50:     { name: "50cc Scooter / Motorbike", day: 200000, week: null, month: null }
+  };
+  var fmt = function (v) { return v.toLocaleString("en-US") + " VND"; };
+
+  /* ================= Theme ================= */
   var root = document.documentElement;
-  var meta = document.querySelector('meta[name="theme-color"]');
-  function apply(t) {
-    root.setAttribute('data-theme', t);
-    try { localStorage.setItem('theme', t); } catch (e) {}
-    if (meta) meta.setAttribute('content', t === 'dark' ? '#070a10' : '#f5f7fb');
-    var btn = document.querySelector('.theme-toggle');
-    if (btn) {
-      btn.setAttribute('aria-pressed', t === 'dark' ? 'true' : 'false');
-      btn.setAttribute('aria-label', t === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
+  var themeColor = document.querySelector('meta[name="theme-color"]');
+  var themeToggle = document.querySelector(".theme-toggle");
+
+  function applyThemeMeta() {
+    var dark = root.getAttribute("data-theme") === "dark";
+    if (themeColor) themeColor.setAttribute("content", dark ? "#090909" : "#f7f7f5");
+    if (themeToggle) {
+      themeToggle.setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme");
     }
   }
-  apply(root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light');
-  var btn = document.querySelector('.theme-toggle');
-  if (btn) btn.addEventListener('click', function () {
-    apply(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
-  });
-  var mq = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
-  if (mq) mq.addEventListener('change', function (e) {
-    var stored = null; try { stored = localStorage.getItem('theme'); } catch (err) {}
-    if (!stored) apply(e.matches ? 'dark' : 'light');
-  });
-})();
+  applyThemeMeta();
 
-/* ---------- DESKTOP MEGA DROPDOWNS (keyboard-first) ---------- */
-(function initDropdowns() {
-  document.querySelectorAll('.nav-group').forEach(function (group) {
-    var btn = group.querySelector('.nav-drop');
-    var dd = group.querySelector('.dropdown');
-    if (!btn || !dd) return;
-    function open() { btn.setAttribute('aria-expanded', 'true'); group.classList.add('open'); }
-    function close() { btn.setAttribute('aria-expanded', 'false'); group.classList.remove('open'); }
-    var t;
-    group.addEventListener('mouseenter', open);
-    group.addEventListener('mouseenter', function () { clearTimeout(t); });
-    group.addEventListener('mouseleave', function () { t = setTimeout(close, 120); });
-    btn.addEventListener('click', function (e) {
+  if (themeToggle) {
+    themeToggle.addEventListener("click", function () {
+      var dark = root.getAttribute("data-theme") === "dark";
+      var next = dark ? "light" : "dark";
+      root.setAttribute("data-theme", next);
+      try { localStorage.setItem("theme", next); } catch (e) {}
+      applyThemeMeta();
+    });
+  }
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function (e) {
+    var saved = null;
+    try { saved = localStorage.getItem("theme"); } catch (err) {}
+    if (!saved) {
+      root.setAttribute("data-theme", e.matches ? "dark" : "light");
+      applyThemeMeta();
+    }
+  });
+
+  /* ================= Desktop dropdowns ================= */
+  var navGroups = Array.prototype.slice.call(document.querySelectorAll(".nav-group"));
+
+  function closeDropdown(group) {
+    group.classList.remove("open");
+    var btn = group.querySelector(".nav-drop");
+    if (btn) btn.setAttribute("aria-expanded", "false");
+  }
+  function closeAllDropdowns() { navGroups.forEach(closeDropdown); }
+
+  navGroups.forEach(function (group) {
+    var btn = group.querySelector(".nav-drop");
+    if (!btn) return;
+    btn.addEventListener("click", function (e) {
       e.stopPropagation();
-      group.classList.contains('open') ? close() : open();
+      var isOpen = group.classList.contains("open");
+      closeAllDropdowns();
+      if (!isOpen) {
+        group.classList.add("open");
+        btn.setAttribute("aria-expanded", "true");
+      }
     });
-    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
-    document.addEventListener('click', function (e) { if (!group.contains(e.target)) close(); });
-    dd.querySelectorAll('a').forEach(function (a) {
-      a.addEventListener('focus', open);
-      a.addEventListener('blur', function () {
-        setTimeout(function () { if (!group.contains(document.activeElement)) close(); }, 10);
-      });
+    group.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") { closeDropdown(group); btn.focus(); }
     });
   });
-})();
 
-/* ---------- MOBILE DRAWER ---------- */
-(function initDrawer() {
-  var drawer = document.getElementById('drawer');
-  var toggle = document.querySelector('.menu-toggle');
-  if (!drawer || !toggle) return;
-  var closeBtn = drawer.querySelector('.drawer-close');
-  var panel = drawer.querySelector('.drawer-panel');
-  function open() {
+  document.addEventListener("click", function (e) {
+    if (!e.target.closest || !e.target.closest(".nav-group")) closeAllDropdowns();
+  });
+
+  /* ================= Mobile drawer ================= */
+  var drawer = document.getElementById("drawer");
+  var menuToggle = document.querySelector(".menu-toggle");
+  var drawerClose = document.querySelector(".drawer-close");
+  var backdrop = document.querySelector(".drawer-backdrop");
+  var lastFocus = null;
+
+  function openDrawer() {
+    if (!drawer) return;
+    lastFocus = document.activeElement;
     drawer.hidden = false;
-    document.body.classList.add('drawer-open');
-    toggle.setAttribute('aria-expanded', 'true');
-    if (closeBtn) closeBtn.focus();
+    drawer.classList.add("open");
+    if (menuToggle) menuToggle.setAttribute("aria-expanded", "true");
+    if (drawerClose) drawerClose.focus();
+    document.body.style.overflow = "hidden";
   }
-  function close() {
+  function closeDrawer() {
+    if (!drawer) return;
+    drawer.classList.remove("open");
     drawer.hidden = true;
-    document.body.classList.remove('drawer-open');
-    toggle.setAttribute('aria-expanded', 'false');
-    toggle.focus();
+    if (menuToggle) menuToggle.setAttribute("aria-expanded", "false");
+    document.body.style.overflow = "";
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
   }
-  toggle.addEventListener('click', open);
-  if (closeBtn) closeBtn.addEventListener('click', close);
-  drawer.querySelectorAll('[data-close-drawer]').forEach(function (el) { el.addEventListener('click', close); });
-  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !drawer.hidden) close(); });
-  drawer.querySelectorAll('a[href]').forEach(function (a) {
-    a.addEventListener('click', function () {
-      drawer.hidden = true;
-      document.body.classList.remove('drawer-open');
-      toggle.setAttribute('aria-expanded', 'false');
-    });
+
+  if (menuToggle) menuToggle.addEventListener("click", function () {
+    drawer && drawer.classList.contains("open") ? closeDrawer() : openDrawer();
   });
-  panel.addEventListener('keydown', function (e) {
-    if (e.key !== 'Tab') return;
-    var f = panel.querySelectorAll('a[href], button');
-    var first = f[0], last = f[f.length - 1];
-    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
-    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
-  });
-  drawer.querySelectorAll('.dr-acc').forEach(function (acc) {
-    acc.addEventListener('click', function () {
+  if (drawerClose) drawerClose.addEventListener("click", closeDrawer);
+  if (backdrop) backdrop.addEventListener("click", closeDrawer);
+
+  // Drawer accordions
+  Array.prototype.slice.call(document.querySelectorAll(".dr-acc")).forEach(function (acc) {
+    acc.addEventListener("click", function () {
       var sub = acc.nextElementSibling;
-      var expanded = acc.getAttribute('aria-expanded') === 'true';
-      acc.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-      if (sub) sub.hidden = expanded;
+      var open = acc.getAttribute("aria-expanded") === "true";
+      acc.setAttribute("aria-expanded", String(!open));
+      if (sub) sub.hidden = open;
     });
   });
-})();
 
-/* ---------- MOBILE BOTTOM DOCK ---------- */
-(function initDock() {
-  var dock = document.querySelector('.dock');
-  if (!dock) return;
-  var path = location.pathname;
-  dock.querySelectorAll('a').forEach(function (a) {
-    var href = a.getAttribute('href') || '';
-    var target = href.split('#')[0] || '/';
-    if (target === '/' && (path === '/' || path === '/index.html')) a.classList.add('active');
-    else if (target !== '/' && path.indexOf(target) === 0) a.classList.add('active');
-  });
-})();
-
-/* ---------- OPEN / CLOSED (Asia/Ho_Chi_Minh) ---------- */
-(function initStatus() {
-  var badge = document.getElementById('store-status');
-  var hoursEl = document.getElementById('status-hours');
-  if (!badge) return;
-  var fmt = new Intl.DateTimeFormat('en-GB', {
-    timeZone: BUSINESS.timezone, hour: '2-digit', minute: '2-digit', hour12: false
-  });
-  function h(n) { return (n < 10 ? '0' : '') + n; }
-  var OPEN_T = h(BUSINESS.openHour) + ':00', CLOSE_T = h(BUSINESS.closeHour) + ':00';
-  function update() {
-    var parts = fmt.format(new Date()).split(':');
-    var hourNow = parseInt(parts[0], 10) + parseInt(parts[1], 10) / 60;
-    var isOpen = hourNow >= BUSINESS.openHour && hourNow < BUSINESS.closeHour;
-    badge.classList.toggle('is-open', isOpen);
-    badge.classList.toggle('is-closed', !isOpen);
-    badge.querySelector('.status-text').textContent = isOpen
-      ? 'OPEN NOW \u00b7 Until ' + CLOSE_T
-      : 'CLOSED \u00b7 Opens at ' + OPEN_T;
-    if (hoursEl) hoursEl.textContent = BUSINESS.hoursText + ' \u00b7 ' + BUSINESS.address;
+  // Drawer focus trap
+  if (drawer) {
+    drawer.addEventListener("keydown", function (e) {
+      if (e.key !== "Tab") return;
+      var focusables = drawer.querySelectorAll("a[href],button:not([disabled])");
+      if (!focusables.length) return;
+      var first = focusables[0], last = focusables[focusables.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    });
   }
-  update();
-  setInterval(update, 60000);
-})();
 
-/* ---------- MOTORBIKE FILTER ---------- */
-(function initFilter() {
-  var chips = document.querySelectorAll('.filter-chip');
-  var cards = document.querySelectorAll('.bike-card');
-  if (!chips.length || !cards.length) return;
+  /* ================= Floating panels: quick contact + chat ================= */
+  var qc = document.getElementById("quick-contact");
+  var qcMain = qc ? qc.querySelector(".qc-main") : null;
+  var chatFab = document.getElementById("chat-fab");
+  var chatPanel = document.getElementById("chat-panel");
+  var chatClose = chatPanel ? chatPanel.querySelector(".chat-close") : null;
+
+  function setQC(open) {
+    if (!qc || !qcMain) return;
+    qc.setAttribute("data-open", String(open));
+    qcMain.setAttribute("aria-expanded", String(open));
+  }
+  function setChat(open) {
+    if (!chatFab || !chatPanel) return;
+    chatPanel.hidden = !open;
+    chatFab.setAttribute("aria-expanded", String(open));
+  }
+
+  if (qcMain) qcMain.addEventListener("click", function () {
+    var open = qc.getAttribute("data-open") === "true";
+    setChat(false);
+    setQC(!open);
+  });
+
+  if (chatFab) chatFab.addEventListener("click", function () {
+    var open = !chatPanel.hidden;
+    setQC(false);
+    setChat(!open);
+    if (!open) {
+      var input = chatPanel.querySelector(".chat-input input");
+      if (input) input.focus();
+    }
+  });
+  if (chatClose) chatClose.addEventListener("click", function () { setChat(false); chatFab.focus(); });
+
+  /* Global Escape: close dropdowns, drawer, chat, quick contact */
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "Escape") return;
+    closeAllDropdowns();
+    closeDrawer();
+    setQC(false);
+    setChat(false);
+  });
+
+  /* ================= Open / Closed status (Asia/Ho_Chi_Minh) ================= */
+  var statusBadge = document.getElementById("store-status");
+  var statusText = statusBadge ? statusBadge.querySelector(".status-text") : null;
+
+  function updateStatus() {
+    if (!statusBadge || !statusText) return;
+    var s;
+    try {
+      s = new Date().toLocaleString("en-US", { timeZone: "Asia/Ho_Chi_Minh" });
+    } catch (e) { s = new Date().toString(); }
+    var now = new Date(s);
+    var mins = now.getHours() * 60 + now.getMinutes();
+    var open = mins >= 9 * 60 && mins < 21 * 60;
+    statusBadge.classList.toggle("is-open", open);
+    statusBadge.classList.toggle("is-closed", !open);
+    statusText.textContent = open ? "Open now \u00b7 until 21:00" : "Closed \u00b7 opens at 09:00";
+  }
+  updateStatus();
+
+  /* ================= Bike filter ================= */
+  var chips = Array.prototype.slice.call(document.querySelectorAll(".filter-chip"));
+  var bikes = Array.prototype.slice.call(document.querySelectorAll(".bike-grid .bike-card"));
+  var filterEmpty = document.getElementById("filter-empty");
+
+  function applyFilter(cat) {
+    var visible = 0;
+    bikes.forEach(function (b) {
+      var show = cat === "all" || b.getAttribute("data-cat") === cat;
+      b.hidden = !show;
+      if (show) visible++;
+    });
+    if (filterEmpty) filterEmpty.hidden = visible !== 0;
+  }
+
   chips.forEach(function (chip) {
-    chip.addEventListener('click', function () {
-      chips.forEach(function (c) { c.classList.remove('active'); c.setAttribute('aria-pressed', 'false'); });
-      chip.classList.add('active');
-      chip.setAttribute('aria-pressed', 'true');
-      var cat = chip.getAttribute('data-cat');
-      var shown = 0;
-      cards.forEach(function (card) {
-        var match = cat === 'all' || card.getAttribute('data-cat') === cat;
-        card.hidden = !match;
-        if (match) shown++;
+    chip.addEventListener("click", function () {
+      chips.forEach(function (c) {
+        c.classList.toggle("active", c === chip);
+        c.setAttribute("aria-pressed", String(c === chip));
       });
-      var empty = document.getElementById('filter-empty');
-      if (empty) empty.hidden = shown !== 0;
+      applyFilter(chip.getAttribute("data-cat"));
     });
   });
-})();
 
-/* ---------- RENTAL CALCULATOR ---------- */
-(function initCalc() {
-  var form = document.getElementById('calc-form');
-  var vEl = document.getElementById('calc-vehicle');
-  var pEl = document.getElementById('calc-period');
-  var qEl = document.getElementById('calc-qty');
-  var out = document.getElementById('calc-result');
-  if (!form || !vEl || !pEl || !qEl || !out) return;
-  var nf = new Intl.NumberFormat('en-US');
-  function fmtVnd(n) { return nf.format(n) + ' VND'; }
-  function calc() {
-    var v = PRICES[vEl.value];
-    var period = pEl.value;
-    var qty = Math.max(1, Math.min(20, parseInt(qEl.value, 10) || 1));
-    qEl.value = qty;
-    var price = v[period];
-    var label = out.querySelector('.calc-label');
-    var amount = out.querySelector('.calc-amount');
-    var note = out.querySelector('.calc-note');
-    if (price === null || price === undefined) {
-      out.classList.add('is-contact');
-      label.textContent = v.name + ' \u2014 ' + period + ' rental';
-      amount.textContent = period === 'week'
-        ? 'Contact us for verified weekly pricing.'
-        : 'Contact us for verified monthly pricing.';
-      note.textContent = '';
-      return;
-    }
-    out.classList.remove('is-contact');
-    label.textContent = 'Estimated price';
-    if (Array.isArray(price)) {
-      amount.textContent = fmtVnd(price[0] * qty) + ' \u2013 ' + fmtVnd(price[1] * qty);
-      note.textContent = 'verified monthly range' + (qty > 1 ? ' \u00b7 ' + qty + ' bikes' : '');
+  /* ================= Rental price calculator ================= */
+  var calcForm = document.getElementById("calc-form");
+  var calcVehicle = document.getElementById("calc-vehicle");
+  var calcPeriod = document.getElementById("calc-period");
+  var calcQty = document.getElementById("calc-qty");
+  var calcResult = document.getElementById("calc-result");
+  var qtyMinus = document.getElementById("qty-minus");
+  var qtyPlus = document.getElementById("qty-plus");
+
+  function clampQty() {
+    if (!calcQty) return 1;
+    var q = parseInt(calcQty.value, 10);
+    if (isNaN(q) || q < 1) q = 1;
+    if (q > 20) q = 20;
+    calcQty.value = String(q);
+    return q;
+  }
+
+  function renderCalc() {
+    if (!calcVehicle || !calcPeriod || !calcResult) return;
+    var price = PRICES[calcVehicle.value];
+    var period = calcPeriod.value;
+    var label = calcResult.querySelector(".calc-label");
+    var amount = calcResult.querySelector(".calc-amount");
+    var note = calcResult.querySelector(".calc-note");
+    var qty = clampQty();
+    if (!price || !amount) return;
+
+    if (period === "day") {
+      amount.textContent = fmt(price.day * qty);
+      if (note) note.textContent = qty > 1 ? fmt(price.day) + " per motorbike per day \u00d7 " + qty : fmt(price.day) + " per day";
+    } else if (period === "week") {
+      if (price.week == null) {
+        amount.textContent = "Contact us";
+        if (note) note.textContent = "We do not have a verified weekly price for the " + price.name + ". Please contact us for verified weekly pricing.";
+      } else {
+        amount.textContent = fmt(price.week * qty);
+        if (note) note.textContent = qty > 1 ? fmt(price.week) + " per motorbike per week \u00d7 " + qty : fmt(price.week) + " per week";
+      }
     } else {
-      amount.textContent = fmtVnd(price * qty);
-      note.textContent = (qty > 1 ? qty + ' bikes' : 'per bike') + ' / ' + period;
+      if (price.month == null) {
+        amount.textContent = "Contact us";
+        if (note) note.textContent = "We do not have a verified monthly price for the " + price.name + ". Please contact us for verified monthly pricing.";
+      } else {
+        var lo = price.month[0], hi = price.month[1];
+        if (lo === hi) {
+          amount.textContent = fmt(lo * qty);
+          if (note) note.textContent = qty > 1 ? fmt(lo) + " per motorbike per month \u00d7 " + qty : fmt(lo) + " per month";
+        } else {
+          amount.textContent = fmt(lo * qty) + " \u2013 " + fmt(hi * qty);
+          if (note) note.textContent = qty > 1
+            ? fmt(lo) + " \u2013 " + fmt(hi) + " per motorbike per month \u00d7 " + qty
+            : "Verified monthly range. Final price depends on the bike.";
+        }
+      }
     }
+    if (label) label.textContent = "Estimated price";
   }
-  form.addEventListener('submit', function (e) { e.preventDefault(); });
-  [vEl, pEl, qEl].forEach(function (el) { el.addEventListener('change', calc); el.addEventListener('input', calc); });
-  var minus = document.getElementById('qty-minus'), plus = document.getElementById('qty-plus');
-  if (minus) minus.addEventListener('click', function () {
-    qEl.value = Math.max(1, (parseInt(qEl.value, 10) || 1) - 1); calc();
-  });
-  if (plus) plus.addEventListener('click', function () {
-    qEl.value = Math.min(20, (parseInt(qEl.value, 10) || 1) + 1); calc();
-  });
-  calc();
-})();
 
-/* ---------- FLOATING QUICK CONTACT (bottom-left) ---------- */
-(function initQuickContact() {
-  var fab = document.getElementById('quick-contact');
-  if (!fab) return;
-  var btn = fab.querySelector('.qc-main');
-  function toggle(force) {
-    var expanded = typeof force === 'boolean' ? force : fab.getAttribute('data-open') !== 'true';
-    fab.setAttribute('data-open', expanded ? 'true' : 'false');
-    btn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
-  }
-  if (btn) btn.addEventListener('click', function (e) { e.stopPropagation(); toggle(); });
-  document.addEventListener('click', function (e) { if (!fab.contains(e.target)) toggle(false); });
-  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') toggle(false); });
-})();
+  if (calcQty) calcQty.addEventListener("input", renderCalc);
+  if (qtyMinus) qtyMinus.addEventListener("click", function () { calcQty.value = String(clampQty() - 1); clampQty(); renderCalc(); });
+  if (qtyPlus) qtyPlus.addEventListener("click", function () { calcQty.value = String(clampQty() + 1); clampQty(); renderCalc(); });
+  if (calcVehicle) calcVehicle.addEventListener("change", renderCalc);
+  if (calcPeriod) calcPeriod.addEventListener("change", renderCalc);
+  if (calcForm) calcForm.addEventListener("submit", function (e) { e.preventDefault(); renderCalc(); });
+  if (calcForm) renderCalc();
 
-/* ---------- CHAT PANEL (logic in assistant.js) ---------- */
-(function initChatToggle() {
-  var fab = document.getElementById('chat-fab');
-  var panel = document.getElementById('chat-panel');
-  if (!fab || !panel) return;
-  function open() {
-    panel.hidden = false;
-    fab.setAttribute('aria-expanded', 'true');
-    var inp = panel.querySelector('.chat-input input');
-    if (inp) inp.focus();
-  }
-  function close() {
-    panel.hidden = true;
-    fab.setAttribute('aria-expanded', 'false');
-    fab.focus();
-  }
-  fab.addEventListener('click', function () { panel.hidden ? open() : close(); });
-  var closeBtn = panel.querySelector('.chat-close');
-  if (closeBtn) closeBtn.addEventListener('click', close);
-  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !panel.hidden) close(); });
+  /* ================= Bottom dock active state ================= */
+  var dockLinks = Array.prototype.slice.call(document.querySelectorAll(".dock a"));
+  var path = location.pathname.replace(/\/+$/, "") || "/";
+  dockLinks.forEach(function (a) {
+    var href = a.getAttribute("href") || "";
+    var target = href.replace(/\/+$/, "") || "/";
+    var isAnchor = href.indexOf("/#") === 0;
+    if (!isAnchor && (target === path || (target !== "/" && path.indexOf(target) === 0))) {
+      a.classList.add("active");
+    }
+  });
+
+  /* ================= Close drawer on nav (small screens) ================= */
+  Array.prototype.slice.call(document.querySelectorAll(".drawer-nav a")).forEach(function (a) {
+    a.addEventListener("click", closeDrawer);
+  });
 })();
