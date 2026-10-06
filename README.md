@@ -72,3 +72,22 @@ Only verified prices are published. Never invent prices, availability,
 promotions, deposits or policies.
 
 Last UI/UX and chatbot update: 2026-10-05.
+
+## Shared navigation and footer
+
+The site uses static HTML for crawlability, but the shared header/drawer and footer are marked with:
+
+- `<!-- SHARED_NAV_START --> ... <!-- SHARED_NAV_END -->`
+- `<!-- SHARED_FOOTER_START --> ... <!-- SHARED_FOOTER_END -->`
+
+Edit the shared navigation/footer in `index.html`, then sync the same structure to all marked HTML pages with:
+
+```bash
+node tools/sync-shared-navigation.mjs
+```
+
+The current top-level order is:
+
+Home → About → Rentals → Prices → Trips & Travel → Guides → FAQ → Contact → Privacy Policy → Terms of Use.
+
+The footer contains the same top-level anchors so navigation labels and URLs stay consistent across the site.
