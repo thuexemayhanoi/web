@@ -13,7 +13,7 @@
     "LEGAL"
   ],
   "draft_extension": ".article",
-  "inbox_dir": "factory/inbox",
+  "inbox_dir": "_factory/inbox",
   "matrix_path": "data/content-matrix.csv",
   "writer_queue_path": "data/writer-queue.json",
   "state_path": "data/factory-state.json",
