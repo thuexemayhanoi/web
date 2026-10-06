@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<link rel="canonical" href="{{canonical}}">
+<link rel="icon" type="image/png" href="/Logonh.png">
+<link rel="apple-touch-icon" href="/Logonh.png">
+<link rel="stylesheet" href="/assets/css/style.css">
+<!-- SLOT:SCHEMA -->
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<!-- SLOT:HEADER -->
+<main id="main">
+  <nav class="crumbs" aria-label="Breadcrumb"><ol>{{breadcrumbs}}</ol></nav>
+  <article class="article">
+    <span class="cat-badge">{{badge}}</span>
+    <h1>{{h1}}</h1>
+    {{content}}
+    <!-- SLOT:RELATED -->
+    <!-- SLOT:CTA -->
+  </article>
+</main>
+<!-- SLOT:FOOTER -->
+<script src="/assets/js/business-config.js" defer></script>
+<script src="/assets/js/app.js" defer></script>
+</body>
+</html>

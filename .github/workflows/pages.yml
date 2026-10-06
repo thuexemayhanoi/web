@@ -19,6 +19,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Build shared site shell
+        run: node tools/build-site.mjs
+      - name: QA site architecture
+        run: node tools/qa-site.mjs
+      - name: Verify idempotent build
+        run: node tools/build-site.mjs --check
       - name: Build search index
         run: node tools/build-search-index.mjs
       - uses: actions/configure-pages@v5

@@ -50,7 +50,7 @@ and a pre-paint inline script (no flash). Radius 10–18px, spacing tokens
 ## Assets
 
 - `assets/css/style.css` — full design system, all components, 320px→desktop responsive
-- `assets/js/business-config.js` — single source of truth: BUSINESS (NAP), PRICES, CONTACT_METHODS
+- `data/site-system.json` — source of truth for business data, prices, related cards and shared site settings\n- `assets/js/business-config.js` — generated runtime mirror of `data/site-system.json`
 - `assets/js/app.js` — theme, dropdowns, drawer, bottom dock, Open/Closed status
   (Asia/Ho_Chi_Minh), bike filter, price calculator, Quick Contact + chat toggling
 - `assets/js/assistant.js` — rule-based English chatbot (verified prices, hours, location; conservative fallbacks)
@@ -58,7 +58,7 @@ and a pre-paint inline script (no flash). Radius 10–18px, spacing tokens
 ## UI features
 
 - Sticky translucent header, mega dropdowns (Rentals / Prices / Travel / Guides), keyboard accessible, Escape and outside-click close
-- Mobile accordion drawer + bottom dock (Home / Rent / Prices / Trips / Contact), safe-area aware
+- Mobile/tablet accordion drawer, safe-area aware; no permanent bottom dock
 - Verified-price calculator: "Number of motorbikes" quantity, real weekly rates (never day×7), monthly ranges stay ranges, 50cc week/month shows a contact message
 - Quick Contact FAB (Call / Email / Maps) and chatbot FAB, mutually exclusive, no auto-open
 - Visible focus states, 44px minimum touch targets, `prefers-reduced-motion` support
@@ -74,6 +74,44 @@ promotions, deposits or policies.
 Last UI/UX and chatbot update: 2026-10-05.
 
 ## Shared navigation and footer
+
+Header/drawer and footer are generated from `site/partials/header.html` and `site/partials/footer.html`.
+Do not use `index.html` as the shared-component source anymore. Run `node tools/build-site.mjs` locally when previewing generated shared components.
+
+
+## Shared build architecture
+
+The site remains plain static HTML with no framework and no external build dependency. GitHub Pages now runs a small Node build before deploy:
+
+```bash
+node tools/build-site.mjs
+node tools/qa-site.mjs
+node tools/build-site.mjs --check
+```
+
+Source-of-truth files:
+
+- `data/site-system.json` — domain, logo, NAP, hours, prices, contact methods, CTA settings, related-link map and card catalog.
+- `site/partials/header.html` — one shared desktop/mobile header + drawer.
+- `site/partials/footer.html` — one shared footer.
+- `site/partials/article-cta.html` — one shared article CTA.
+- `site/partials/related-card.html` — reusable related-link card component.
+- `site/hooks.html` — empty global hook slots for an announcement/banner, article slot, or pre-footer component.
+- `site/templates/article.html` — lightweight template for future generated posts.
+- `assets/css/style.css` — global CSS variables/design tokens and components.
+
+The build keeps current URLs and article bodies intact. It synchronizes shared components, generates JSON-LD from each page's existing title/description/canonical/breadcrumbs, regenerates FAQ schema from the FAQ content, and generates related cards from the centralized map (falling back to `data/content-matrix.csv` for future pages).
+
+**Do not manually copy shared header/footer/CTA/schema into new pages.** Use the slots/template and let the build render them. To change a site-wide CTA, contact detail, logo, hours, schema business entity, related-card metadata, or navigation/footer, edit the corresponding source file once and deploy.
+
+The old command remains supported:
+
+```bash
+node tools/sync-shared-navigation.mjs
+```
+
+It is now a compatibility alias for the full shared-site build.
+
 
 The site uses static HTML for crawlability, but the shared header/drawer and footer are marked with:
 
@@ -91,3 +129,37 @@ The current top-level order is:
 Home → About → Rentals → Prices → Trips & Travel → Guides → FAQ → Contact → Privacy Policy → Terms of Use.
 
 The footer contains the same top-level anchors so navigation labels and URLs stay consistent across the site.
+
+
+## Shared build architecture
+
+The site remains plain static HTML with no framework and no external build dependency. GitHub Pages now runs a small Node build before deploy:
+
+```bash
+node tools/build-site.mjs
+node tools/qa-site.mjs
+node tools/build-site.mjs --check
+```
+
+Source-of-truth files:
+
+- `data/site-system.json` — domain, logo, NAP, hours, prices, contact methods, CTA settings, related-link map and card catalog.
+- `site/partials/header.html` — one shared desktop/mobile header + drawer.
+- `site/partials/footer.html` — one shared footer.
+- `site/partials/article-cta.html` — one shared article CTA.
+- `site/partials/related-card.html` — reusable related-link card component.
+- `site/hooks.html` — empty global hook slots for an announcement/banner, article slot, or pre-footer component.
+- `site/templates/article.html` — lightweight template for future generated posts.
+- `assets/css/style.css` — global CSS variables/design tokens and components.
+
+The build keeps current URLs and article bodies intact. It synchronizes shared components, generates JSON-LD from each page's existing title/description/canonical/breadcrumbs, regenerates FAQ schema from the FAQ content, and generates related cards from the centralized map (falling back to `data/content-matrix.csv` for future pages).
+
+**Do not manually copy shared header/footer/CTA/schema into new pages.** Use the slots/template and let the build render them. To change a site-wide CTA, contact detail, logo, hours, schema business entity, related-card metadata, or navigation/footer, edit the corresponding source file once and deploy.
+
+The old command remains supported:
+
+```bash
+node tools/sync-shared-navigation.mjs
+```
+
+It is now a compatibility alias for the full shared-site build.
