@@ -1,37 +1,121 @@
 {
   "schema_version": 1,
-  "started": "2026-10-06T17:46:45.509Z",
-  "finished": "2026-10-06T17:46:45.518Z",
-  "base_commit": "fd605cc47e5423a14a1c13507d96a3a24500063e",
-  "processed": [],
-  "published_ids": [],
-  "repair_ids": [],
-  "blocked_ids": [],
-  "fatal": null,
-  "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 54,
-    "published": 44,
-    "planned": 10,
-    "writing": 0,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 956,
-    "unplanned_slots": 946
-  },
-  "stats_after": {
-    "target": 1000,
-    "matrix_content_rows": 54,
-    "published": 44,
-    "planned": 0,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 956,
-    "unplanned_slots": 946
-  },
-  "queue_status": "READY",
-  "next_queue": [
+  "started": "2026-10-06T17:52:31.939Z",
+  "finished": "2026-10-06T17:52:32.010Z",
+  "base_commit": "ee7091f31c15ac8fa08c557a252458370026e908",
+  "processed": [
+    {
+      "id": "SEO-047",
+      "draft": "_factory/inbox/SEO-047.article",
+      "output": "hanoi-scooter-rental/honda-click-vs-yamaha-mio-hanoi/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1705,
+      "title_length": 57,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-048",
+      "draft": "_factory/inbox/SEO-048.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-ha-long-motorbike-route/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1985,
+      "title_length": 51,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-049",
+      "draft": "_factory/inbox/SEO-049.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-sapa-motorbike-route/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2034,
+      "title_length": 53,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-050",
+      "draft": "_factory/inbox/SEO-050.article",
+      "output": "hanoi-scooter-rental/electric-vs-petrol-scooter-hanoi/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1729,
+      "title_length": 58,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-051",
+      "draft": "_factory/inbox/SEO-051.article",
+      "output": "hanoi-motorbike-rental/motorbike-rental-deposit-hanoi/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1901,
+      "title_length": 56,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-052",
+      "draft": "_factory/inbox/SEO-052.article",
+      "output": "motorbike-guides/motorbike-fuel-guide-vietnam/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1792,
+      "title_length": 53,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-053",
+      "draft": "_factory/inbox/SEO-053.article",
+      "output": "motorbike-guides/best-time-to-ride-motorbike-hanoi/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1915,
+      "title_length": 58,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-054",
+      "draft": "_factory/inbox/SEO-054.article",
+      "output": "motorbike-guides/riding-with-a-passenger-hanoi/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1924,
+      "title_length": 55,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-055",
+      "draft": "_factory/inbox/SEO-055.article",
+      "output": "renting-a-motorbike-in-vietnam/hanoi-motorbike-traffic-rules/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2311,
+      "title_length": 54,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-056",
+      "draft": "_factory/inbox/SEO-056.article",
+      "output": "hanoi-50cc-motorbike-rental/50cc-vs-125cc-hanoi/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2158,
+      "title_length": 51,
+      "seo_score": 100
+    }
+  ],
+  "published_ids": [
     "SEO-047",
     "SEO-048",
     "SEO-049",
@@ -42,5 +126,32 @@
     "SEO-054",
     "SEO-055",
     "SEO-056"
-  ]
+  ],
+  "repair_ids": [],
+  "blocked_ids": [],
+  "fatal": null,
+  "stats_before": {
+    "target": 1000,
+    "matrix_content_rows": 54,
+    "published": 44,
+    "planned": 0,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 956,
+    "unplanned_slots": 946
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 54,
+    "published": 54,
+    "planned": 0,
+    "writing": 0,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 946,
+    "unplanned_slots": 946
+  },
+  "queue_status": "PLAN_EXHAUSTED",
+  "next_queue": []
 }
