@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths-ignore:
-      - 'factory/inbox/**'
+      - '_factory/inbox/**'
       - 'data/writer-queue.json'
       - 'data/factory-state.json'
       - 'reports/factory-last-run.json'
