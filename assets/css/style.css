@@ -169,7 +169,7 @@ ul{margin:0 0 var(--s3);padding-left:1.25em}
 }
 .dd-link:hover{background:var(--brand-soft);color:var(--brand-hover)}
 
-.nav-actions{display:flex;align-items:center;gap:var(--s2)}
+.nav-actions{display:flex;align-items:center;gap:var(--s2);margin-left:auto}
 .nav-cta{
   display:inline-flex;align-items:center;min-height:40px;padding:0 var(--s4);
   background:var(--brand);color:#111;font-weight:600;
@@ -205,6 +205,14 @@ html[data-theme="dark"] .theme-ico-sun{display:none}
   padding:var(--s3) var(--s4);
   padding-left:calc(var(--s4) + env(safe-area-inset-left));
   border-bottom:1px solid var(--border);
+}
+.drawer-close{
+  position:fixed;
+  top:8px;
+  right:calc(8px + env(safe-area-inset-right));
+  z-index:170;
+  background:var(--surface);
+  box-shadow:var(--shadow-sm);
 }
 .drawer-hours{
   display:inline-flex;align-items:center;gap:8px;
