@@ -81,23 +81,38 @@
   var drawerClose = document.querySelector(".drawer-close");
   var backdrop = document.querySelector(".drawer-backdrop");
   var lastFocus = null;
+  var drawerTimer = 0;
+  var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   function openDrawer() {
     if (!drawer) return;
+    if (drawerTimer) { clearTimeout(drawerTimer); drawerTimer = 0; }
     lastFocus = document.activeElement;
     drawer.hidden = false;
-    drawer.classList.add("open");
+    drawer.classList.remove("closing");
+    requestAnimationFrame(function () {
+      drawer.classList.add("open");
+    });
     if (menuToggle) menuToggle.setAttribute("aria-expanded", "true");
-    if (drawerClose) drawerClose.focus();
     document.body.style.overflow = "hidden";
+    window.setTimeout(function () {
+      if (drawerClose && drawer.classList.contains("open")) drawerClose.focus();
+    }, reduceMotion ? 0 : 120);
   }
   function closeDrawer() {
-    if (!drawer) return;
+    if (!drawer || drawer.hidden) return;
+    if (drawerTimer) clearTimeout(drawerTimer);
     drawer.classList.remove("open");
-    drawer.hidden = true;
+    drawer.classList.add("closing");
     if (menuToggle) menuToggle.setAttribute("aria-expanded", "false");
     document.body.style.overflow = "";
-    if (lastFocus && lastFocus.focus) lastFocus.focus();
+
+    drawerTimer = window.setTimeout(function () {
+      drawer.classList.remove("closing");
+      drawer.hidden = true;
+      drawerTimer = 0;
+      if (lastFocus && lastFocus.focus) lastFocus.focus();
+    }, reduceMotion ? 0 : 270);
   }
 
   if (menuToggle) menuToggle.addEventListener("click", function () {
