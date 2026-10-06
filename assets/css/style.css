@@ -511,36 +511,20 @@ tbody tr:hover td{background:var(--brand-soft)}
 .foot-nap a{color:var(--muted)}
 .foot-nap a:hover{color:var(--brand-hover)}
 
-/* ============ Mobile bottom dock ============ */
-.dock{
-  position:fixed;left:0;right:0;bottom:0;z-index:120;
-  display:flex;
-  background:var(--head-bg);
-  backdrop-filter:blur(10px);
-  -webkit-backdrop-filter:blur(10px);
-  border-top:1px solid var(--border);
-  padding-bottom:env(safe-area-inset-bottom);
-}
-.dock a{
-  flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
-  min-height:56px;padding:6px 2px;
-  color:var(--muted);font-size:.72rem;font-weight:600;
-}
-.dock a svg{flex:none}
-.dock a.active{color:var(--brand-hover)}
-.dock a:hover{color:var(--brand-hover)}
-
-/* ============ Floating UI shared positioning ============
-   --float-clear is measured at runtime by app.js: real dock/obstacle
-   height + 14px (or 16px default). The dock itself already contains the
-   safe-area padding, so env(safe-area) is NOT added again here. */
+/* ============ Floating UI shared positioning ============ */
 .quick-contact,
 .chat-fab{
   position:fixed;
-  bottom:var(--float-clear,calc(16px + env(safe-area-inset-bottom)));
+  bottom:calc(16px + env(safe-area-inset-bottom));
 }
-.quick-contact{left:16px;z-index:130}
-.chat-fab{right:16px;z-index:130}
+.quick-contact{
+  left:calc(16px + env(safe-area-inset-left));
+  z-index:130;
+}
+.chat-fab{
+  right:calc(16px + env(safe-area-inset-right));
+  z-index:130;
+}
 [data-float-hidden]{display:none!important}
 
 /* ============ Quick contact FAB (bottom-left) ============ */
@@ -598,10 +582,10 @@ tbody tr:hover td{background:var(--brand-soft)}
 .chat-panel{
   position:fixed;right:16px;z-index:140;
   /* sits above the floating buttons (56px) + gap, itself above any dock */
-  bottom:calc(var(--float-clear,16px) + 68px);
+  bottom:calc(84px + env(safe-area-inset-bottom));
   width:min(360px,calc(100vw - 32px));
   /* shrinks with the on-screen keyboard via visualViewport height */
-  height:min(480px,calc(var(--vv-h,100dvh) - var(--float-clear,16px) - 150px));
+  height:min(480px,calc(var(--vv-h,100dvh) - 120px - env(safe-area-inset-bottom)));
   display:flex;flex-direction:column;
   background:var(--surface);
   border:1px solid var(--border);
@@ -705,23 +689,20 @@ html[data-theme="dark"] .chat-suggest button{background:var(--bg);color:var(--te
   .drawer{display:none!important}
 }
 @media (max-width:767px){
-  /* floating offsets are runtime-measured via --float-clear (see app.js);
-     body padding only reserves space for the dock itself */
-  .dock{display:flex}
-  body{padding-bottom:72px}
   .hero-inner{grid-template-columns:1fr;padding:var(--s6) var(--s4);gap:var(--s4)}
   .hero-art{order:-1;justify-content:flex-start}
   .hero-art svg{max-width:180px}
   .section{padding-top:var(--s8);padding-bottom:var(--s8)}
   .calc-form{grid-template-columns:1fr}
   .foot-grid{grid-template-columns:repeat(2,1fr);gap:var(--s6) var(--s4)}
-  .chat-panel{right:8px;left:8px;width:auto}
-}
-@media (min-width:768px){
-  .dock{display:none}
+  .chat-panel{right:12px;left:12px;width:auto}
+  .site-foot{padding-bottom:calc(88px + env(safe-area-inset-bottom))}
 }
 @media (min-width:769px) and (max-width:1023px){
   .foot-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:767px), (hover:none){
+  .chat-tip{display:none}
 }
 @media (max-width:420px){
   .nav-shell{padding:0 var(--s3);gap:var(--s2)}
