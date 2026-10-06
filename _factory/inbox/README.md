@@ -9,3 +9,5 @@ Do not use `.html` here. The factory publishes the final `.html` file at the Mat
 Factory smoke-test marker: infrastructure ready.
 
 Smoke test: hidden inbox ready.
+
+QA smoke test: 1500-5000 words, unique URL/title, title 50-75 chars, SEO score 75+.
