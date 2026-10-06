@@ -7,7 +7,7 @@ The external writer writes article drafts only. Do not edit factory workflows, f
 1. Read `data/writer-queue.json`.
 2. For every item in `queue`, create one file: `_factory/inbox/<ID>.article`.
 3. Use `site/templates/article.html` as the page shape.
-4. Fill title, meta description, canonical, breadcrumbs, H1 and article body from the Matrix brief.
+4. Use `working_title` from the queue as the preferred SEO title, then fill meta description, canonical, breadcrumbs, H1 and article body from the Matrix brief. Keep the final title unique and within 50-75 characters.
 5. Keep all `<!-- SLOT:... -->` markers. Do not copy the shared header/footer/schema/CTA manually.
 6. Commit/push up to the queued batch (default 10).
 7. Pull the factory commit and continue with the next queue.

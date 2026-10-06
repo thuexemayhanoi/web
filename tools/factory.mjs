@@ -80,7 +80,7 @@ function queuePayload(m){
       target_min_words:Math.min(cfg.first_pass_max_words,Math.max(cfg.first_pass_min_words,parseInt(r.target_min_words||'0',10)||0)),
       target_max_words:Math.max(cfg.first_pass_min_words,Math.min(cfg.first_pass_max_words,parseInt(r.target_max_words||String(cfg.first_pass_max_words),10)||cfg.first_pass_max_words)),
       title_min_chars:cfg.title_min_chars,title_max_chars:cfg.title_max_chars,seo_score_min:cfg.seo_score_min,
-      content_brief:r.content_brief,
+      working_title:r.working_title||'',content_brief:r.content_brief,
       internal_link_targets:(r.internal_link_targets||'').split(';').filter(Boolean),
       source_policy:r.source_policy,draft_file:cfg.inbox_dir+'/'+r.id+cfg.draft_extension,
       template:'site/templates/article.html'
