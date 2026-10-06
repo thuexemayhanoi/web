@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "started": null,
+  "finished": null,
+  "processed": [],
+  "published_ids": [],
+  "repair_ids": [],
+  "blocked_ids": [],
+  "note": "No article-factory processing run yet."
+}
