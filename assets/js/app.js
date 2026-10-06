@@ -214,9 +214,9 @@
   /* hide floating buttons while the full-screen menu (drawer) is open */
   if (drawer) {
     new MutationObserver(function () {
-      var open = drawer.classList.contains("open");
+      var active = drawer.classList.contains("open") || drawer.classList.contains("closing");
       [qc, chatFab, chatPanel].forEach(function (el) {
-        if (el) (open ? el.setAttribute("data-float-hidden", "") : el.removeAttribute("data-float-hidden"));
+        if (el) (active ? el.setAttribute("data-float-hidden", "") : el.removeAttribute("data-float-hidden"));
       });
     }).observe(drawer, { attributes: true, attributeFilter: ["class"] });
   }
