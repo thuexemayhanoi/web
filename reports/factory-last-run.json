@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "started": "2026-10-06T17:10:22.175Z",
-  "finished": "2026-10-06T17:10:22.183Z",
-  "base_commit": "289699c7c1ebbf7393b76444862b176254f1af74",
+  "started": "2026-10-06T17:21:11.865Z",
+  "finished": "2026-10-06T17:21:11.873Z",
+  "base_commit": "2ec53ee47b2a422ebb305fe0b58aad06f46d0d89",
   "processed": [],
   "published_ids": [],
   "repair_ids": [],
@@ -10,26 +10,37 @@
   "fatal": null,
   "stats_before": {
     "target": 1000,
-    "matrix_content_rows": 14,
-    "published": 14,
-    "planned": 0,
+    "matrix_content_rows": 24,
+    "published": 13,
+    "planned": 10,
     "writing": 0,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 986,
-    "unplanned_slots": 986
+    "remaining_to_target": 987,
+    "unplanned_slots": 976
   },
   "stats_after": {
     "target": 1000,
-    "matrix_content_rows": 14,
-    "published": 14,
+    "matrix_content_rows": 24,
+    "published": 13,
     "planned": 0,
-    "writing": 0,
+    "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 986,
-    "unplanned_slots": 986
+    "remaining_to_target": 987,
+    "unplanned_slots": 976
   },
-  "queue_status": "PLAN_EXHAUSTED",
-  "next_queue": []
+  "queue_status": "READY",
+  "next_queue": [
+    "SEO-017",
+    "SEO-018",
+    "SEO-019",
+    "SEO-020",
+    "SEO-021",
+    "SEO-022",
+    "SEO-023",
+    "SEO-024",
+    "SEO-025",
+    "SEO-026"
+  ]
 }
