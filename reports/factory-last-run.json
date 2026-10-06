@@ -1,37 +1,121 @@
 {
   "schema_version": 1,
-  "started": "2026-10-06T17:21:11.865Z",
-  "finished": "2026-10-06T17:21:11.873Z",
-  "base_commit": "2ec53ee47b2a422ebb305fe0b58aad06f46d0d89",
-  "processed": [],
-  "published_ids": [],
-  "repair_ids": [],
-  "blocked_ids": [],
-  "fatal": null,
-  "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 24,
-    "published": 13,
-    "planned": 10,
-    "writing": 0,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 987,
-    "unplanned_slots": 976
-  },
-  "stats_after": {
-    "target": 1000,
-    "matrix_content_rows": 24,
-    "published": 13,
-    "planned": 0,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 987,
-    "unplanned_slots": 976
-  },
-  "queue_status": "READY",
-  "next_queue": [
+  "started": "2026-10-06T17:27:32.309Z",
+  "finished": "2026-10-06T17:27:32.338Z",
+  "base_commit": "126a5f58278c1cdea9a1c2aad62172d804813ffc",
+  "processed": [
+    {
+      "id": "SEO-017",
+      "draft": "_factory/inbox/SEO-017.article",
+      "output": "hanoi-motorbike-rental-cost/honda-wave-rental-price-hanoi/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1863,
+      "title_length": 60,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-018",
+      "draft": "_factory/inbox/SEO-018.article",
+      "output": "hanoi-motorbike-rental-cost/honda-click-rental-price-hanoi/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1536,
+      "title_length": 56,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-019",
+      "draft": "_factory/inbox/SEO-019.article",
+      "output": "hanoi-motorbike-rental-cost/honda-air-blade-rental-price-hanoi/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1512,
+      "title_length": 58,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-020",
+      "draft": "_factory/inbox/SEO-020.article",
+      "output": "hanoi-motorbike-rental/yamaha-sirius-rental-hanoi/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1536,
+      "title_length": 53,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-021",
+      "draft": "_factory/inbox/SEO-021.article",
+      "output": "hanoi-scooter-rental/electric-motorbike-rental-hanoi/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1547,
+      "title_length": 56,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-022",
+      "draft": "_factory/inbox/SEO-022.article",
+      "output": "monthly-motorbike-rental-hanoi/motorbike-rental-for-expats-hanoi/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1559,
+      "title_length": 51,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-023",
+      "draft": "_factory/inbox/SEO-023.article",
+      "output": "hanoi-50cc-motorbike-rental/50cc-scooter-rental-for-beginners-hanoi/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1567,
+      "title_length": 54,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-024",
+      "draft": "_factory/inbox/SEO-024.article",
+      "output": "motorbike-rental-hanoi-old-quarter/motorbike-parking-old-quarter-hanoi/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1595,
+      "title_length": 55,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-025",
+      "draft": "_factory/inbox/SEO-025.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-ninh-binh-motorbike-route/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1718,
+      "title_length": 53,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-026",
+      "draft": "_factory/inbox/SEO-026.article",
+      "output": "motorbike-guides/motorbike-fuel-guide-hanoi/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1583,
+      "title_length": 56,
+      "seo_score": 100
+    }
+  ],
+  "published_ids": [
     "SEO-017",
     "SEO-018",
     "SEO-019",
@@ -42,5 +126,32 @@
     "SEO-024",
     "SEO-025",
     "SEO-026"
-  ]
+  ],
+  "repair_ids": [],
+  "blocked_ids": [],
+  "fatal": null,
+  "stats_before": {
+    "target": 1000,
+    "matrix_content_rows": 24,
+    "published": 14,
+    "planned": 0,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 986,
+    "unplanned_slots": 976
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 24,
+    "published": 24,
+    "planned": 0,
+    "writing": 0,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 976,
+    "unplanned_slots": 976
+  },
+  "queue_status": "PLAN_EXHAUSTED",
+  "next_queue": []
 }
