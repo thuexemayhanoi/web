@@ -22,9 +22,10 @@ function render(tpl,data){
   });
 }
 const ctx={...system,business:{...system.business,website:system.domain+'/'}};
-const header=render(headerTpl,ctx);
-const footer=render(footerTpl,ctx);
-const cta=render(ctaTpl,ctx);
+// Normalize partial boundaries so repeated builds do not accumulate blank lines.
+const header=render(headerTpl,ctx).trimEnd();
+const footer=render(footerTpl,ctx).trimEnd();
+const cta=render(ctaTpl,ctx).trim();
 
 function parseHook(name){
   const re=new RegExp('<!-- HOOK:'+name+':START -->([\\s\\S]*?)<!-- HOOK:'+name+':END -->');
