@@ -1,0 +1,136 @@
+name: Continuous Article Factory
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'factory/inbox/**'
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Factory control'
+        required: true
+        default: 'status'
+        type: choice
+        options:
+          - process
+          - refresh-queue
+          - pause
+          - resume
+          - status
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site-publish
+  cancel-in-progress: false
+
+jobs:
+  factory:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Resolve action
+        id: control
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            action="${{ inputs.action }}"
+          else
+            action="process"
+          fi
+          echo "action=$action" >> "$GITHUB_OUTPUT"
+
+      - name: Pause
+        if: steps.control.outputs.action == 'pause'
+        run: node tools/factory.mjs pause
+
+      - name: Resume
+        if: steps.control.outputs.action == 'resume'
+        run: node tools/factory.mjs resume
+
+      - name: Refresh queue
+        if: steps.control.outputs.action == 'refresh-queue'
+        run: node tools/factory.mjs refresh-queue
+
+      - name: Status
+        if: steps.control.outputs.action == 'status'
+        run: node tools/factory.mjs status
+
+      - name: Process inbox
+        id: process
+        if: steps.control.outputs.action == 'process'
+        shell: bash
+        run: |
+          node tools/factory.mjs process --before "${{ github.event.before }}" --after "${{ github.sha }}"
+          node tools/build-site.mjs
+          node tools/factory.mjs verify-last
+          count="$(node tools/factory.mjs published-count | tail -n 1)"
+          echo "published=$count" >> "$GITHUB_OUTPUT"
+
+      - name: Build search index
+        if: steps.control.outputs.action == 'process' && steps.process.outputs.published != '0'
+        run: node tools/build-search-index.mjs
+
+      - name: Commit factory results
+        id: commit
+        if: steps.control.outputs.action != 'status'
+        shell: bash
+        run: |
+          set -e
+          git config user.name "rentbike-factory-bot"
+          git config user.email "nguyentuantu2482@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "head=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "factory: ${{ steps.control.outputs.action }} article queue"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "head=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Configure Pages
+        if: steps.control.outputs.action == 'process' && steps.process.outputs.published != '0'
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: steps.control.outputs.action == 'process' && steps.process.outputs.published != '0'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy published batch
+        id: deployment
+        if: steps.control.outputs.action == 'process' && steps.process.outputs.published != '0'
+        uses: actions/deploy-pages@v4
+
+      - name: Summary
+        if: always()
+        shell: bash
+        run: |
+          echo "## Continuous Article Factory" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Action: ${{ steps.control.outputs.action }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Publish commit: ${{ steps.commit.outputs.head }}" >> "$GITHUB_STEP_SUMMARY"
+          node tools/factory.mjs status >> "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Stop safely if blocked
+        if: steps.control.outputs.action == 'process'
+        run: node tools/factory.mjs assert-not-blocked
