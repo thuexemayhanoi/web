@@ -730,7 +730,7 @@ html[data-theme="dark"] .chat-suggest button{background:var(--bg);color:var(--te
 /* ============================================================
    Responsive
    ============================================================ */
-@media (max-width:1023px){
+@media (max-width:1179px){
   .main-nav,.nav-actions .nav-cta{display:none}
   .menu-toggle{display:inline-flex}
 }
@@ -747,11 +747,11 @@ html[data-theme="dark"] .chat-suggest button{background:var(--bg);color:var(--te
   .chat-panel{right:12px;left:12px;width:auto}
   .site-foot{padding-bottom:calc(88px + env(safe-area-inset-bottom))}
 }
-@media (min-width:768px) and (max-width:1023px){
-  .drawer-panel{width:min(400px,48vw)}
+@media (min-width:768px) and (max-width:1179px){
+  .drawer-panel{width:min(420px,46vw)}
   .foot-grid{grid-template-columns:repeat(2,1fr)}
 }
-@media (min-width:1024px){
+@media (min-width:1180px){
   .drawer{display:none!important}
 }
 @media (max-width:767px), (hover:none){
@@ -764,3 +764,28 @@ html[data-theme="dark"] .chat-suggest button{background:var(--bg);color:var(--te
   .hero-cta .btn{width:100%}
   .qc-tip,.chat-tip{display:none}
 }
+
+/* ============ FAQ / AI-search content & related links ============ */
+.faq-page-intro{max-width:820px;color:var(--muted);font-size:1.02rem}
+.faq-ai{max-width:820px;display:grid;gap:var(--s4);margin-top:var(--s5)}
+.faq-entry{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--r-md);
+  padding:var(--s5);
+}
+.faq-entry h2{font-size:1.18rem;margin:0 0 var(--s3)}
+.faq-entry p:last-child{margin-bottom:0}
+.faq-short{color:var(--text);font-weight:600}
+.related-resources{
+  max-width:820px;
+  margin:var(--s7) 0 0;
+  padding:var(--s4);
+  border:1px solid var(--border);
+  border-radius:var(--r-md);
+  background:var(--surface-2);
+}
+.related-resources h2,.related-resources h3{margin-top:0}
+.related-resources ul{margin:0;padding-left:1.2rem}
+.related-resources li{margin:.45rem 0}
+.footer-menu a{font-weight:500}
