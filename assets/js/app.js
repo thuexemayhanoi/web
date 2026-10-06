@@ -1,5 +1,5 @@
 /* Hanoi Motorbike Rental — app.js
-   Theme, navigation (dropdowns, drawer, dock), store status,
+   Theme, navigation (dropdowns, drawer), store status,
    bike filter, price calculator, quick contact and chat toggling.
    Design system: black / white / orange. */
 
@@ -128,7 +128,7 @@
     });
   }
 
-  /* ================= Floating UI: quick contact + chat + dock avoidance ================= */
+  /* ================= Floating UI: quick contact + chat ================= */
   var qc = document.getElementById("quick-contact");
   var qcMain = qc ? qc.querySelector(".qc-main") : null;
   var chatFab = document.getElementById("chat-fab");
@@ -168,61 +168,25 @@
   });
   if (chatClose) chatClose.addEventListener("click", function () { setChat(false); chatFab.focus(); });
 
-  /* -------- Shared floating position manager --------
-     Measures real obstacles (bottom dock height, fixed/sticky banners,
-     CTA bars, back-to-top) and moves the floating buttons and the chat
-     panel above them: dock height + 14px clearance. Recalculates on
-     resize / orientationchange / keyboard via ResizeObserver +
-     visualViewport, rAF-throttled — no layout loops. Dock padding already
-     includes the safe area, so it is never added twice. */
+  document.addEventListener("click", function (e) {
+    if (!qc || qc.getAttribute("data-open") !== "true") return;
+    if (qc.contains(e.target)) return;
+    setQC(false);
+  });
+
+  /* -------- Shared floating viewport manager --------
+     Launch buttons are anchored directly to the safe area in CSS.
+     Only the visual viewport height is tracked for the mobile chat panel. */
   var floatRAF = 0;
   function positionFloats() {
     if (floatRAF) return;
     floatRAF = requestAnimationFrame(function () {
       floatRAF = 0;
       var vh = window.innerHeight || document.documentElement.clientHeight;
-      var vw = window.innerWidth || document.documentElement.clientWidth;
-      var clear = 16; /* default gap when nothing blocks */
-      function rectOf(el) {
-        var st = getComputedStyle(el);
-        if (st.display === "none" || st.visibility === "hidden" || parseFloat(st.opacity) === "0") return null;
-        var r = el.getBoundingClientRect();
-        if (r.width < 4 || r.height < 4) return null;
-        return r;
-      }
-      /* 1) bottom dock: real measured height + 14px */
-      var dock = document.querySelector(".dock");
-      var dr = dock ? rectOf(dock) : null;
-      if (dr && dr.bottom > vh - 4) clear = Math.max(clear, dr.height + 14);
-      /* 2) other fixed/sticky obstacles near the bottom (cookie banner, CTA bar, back-to-top) */
-      var els = document.body.querySelectorAll("div,section,nav,aside,a,button");
-      for (var i = 0; i < els.length; i++) {
-        var el = els[i];
-        if ((qc && qc.contains(el)) || (chatPanel && chatPanel.contains(el)) || (chatFab && chatFab.contains(el)) ||
-            (dock && dock.contains(el)) || (drawer && drawer.contains(el))) continue;
-        var st;
-        try { st = getComputedStyle(el); } catch (e) { continue; }
-        if (st.position !== "fixed" && st.position !== "sticky") continue;
-        var r = rectOf(el);
-        if (!r) continue;
-        if (r.bottom > vh * 0.7 && (r.left < vw * 0.3 || r.right > vw * 0.7)) {
-          clear = Math.max(clear, (vh - r.top) + 14);
-        }
-      }
-      document.documentElement.style.setProperty("--float-clear", Math.round(clear) + "px");
-      /* keyboard: usable height from visualViewport for the chat panel */
       var vv = window.visualViewport;
       var vvH = vv ? Math.round(vv.height) : vh;
       document.documentElement.style.setProperty("--vv-h", vvH + "px");
     });
-  }
-
-  var ro = null;
-  try { ro = new ResizeObserver(positionFloats); } catch (e) {}
-  if (ro) {
-    var dockEl = document.querySelector(".dock");
-    if (dockEl) ro.observe(dockEl);
-    ro.observe(document.body);
   }
   window.addEventListener("resize", positionFloats, { passive: true });
   window.addEventListener("orientationchange", positionFloats, { passive: true });
@@ -364,18 +328,6 @@
   if (calcPeriod) calcPeriod.addEventListener("change", renderCalc);
   if (calcForm) calcForm.addEventListener("submit", function (e) { e.preventDefault(); renderCalc(); });
   if (calcForm) renderCalc();
-
-  /* ================= Bottom dock active state ================= */
-  var dockLinks = Array.prototype.slice.call(document.querySelectorAll(".dock a"));
-  var path = location.pathname.replace(/\/+$/, "") || "/";
-  dockLinks.forEach(function (a) {
-    var href = a.getAttribute("href") || "";
-    var target = href.replace(/\/+$/, "") || "/";
-    var isAnchor = href.indexOf("/#") === 0;
-    if (!isAnchor && (target === path || (target !== "/" && path.indexOf(target) === 0))) {
-      a.classList.add("active");
-    }
-  });
 
   /* ================= Close drawer on nav (small screens) ================= */
   Array.prototype.slice.call(document.querySelectorAll(".drawer-nav a")).forEach(function (a) {
