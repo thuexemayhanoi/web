@@ -220,9 +220,9 @@
   /* ================= Open / Closed status (Asia/Ho_Chi_Minh) ================= */
   var statusBadge = document.getElementById("store-status");
   var statusText = statusBadge ? statusBadge.querySelector(".status-text") : null;
+  var drawerHours = Array.prototype.slice.call(document.querySelectorAll(".drawer-hours"));
 
   function updateStatus() {
-    if (!statusBadge || !statusText) return;
     var s;
     try {
       s = new Date().toLocaleString("en-US", { timeZone: "Asia/Ho_Chi_Minh" });
@@ -230,11 +230,22 @@
     var now = new Date(s);
     var mins = now.getHours() * 60 + now.getMinutes();
     var open = mins >= 9 * 60 && mins < 21 * 60;
-    statusBadge.classList.toggle("is-open", open);
-    statusBadge.classList.toggle("is-closed", !open);
-    statusText.textContent = open ? "Open now \u00b7 until 21:00" : "Closed \u00b7 opens at 09:00";
+
+    if (statusBadge) {
+      statusBadge.classList.toggle("is-open", open);
+      statusBadge.classList.toggle("is-closed", !open);
+    }
+    if (statusText) {
+      statusText.textContent = open ? "Open now \u00b7 until 21:00" : "Closed \u00b7 opens at 09:00";
+    }
+    drawerHours.forEach(function (el) {
+      el.classList.toggle("is-open", open);
+      el.classList.toggle("is-closed", !open);
+      el.setAttribute("aria-label", (open ? "Open now. " : "Closed now. ") + "Opening hours 09:00 to 21:00 daily");
+    });
   }
   updateStatus();
+  setInterval(updateStatus, 60000);
 
   /* ================= Bike filter ================= */
   var chips = Array.prototype.slice.call(document.querySelectorAll(".filter-chip"));
