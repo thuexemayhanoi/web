@@ -18,10 +18,18 @@ Stop only when the queue says `TARGET_REACHED`, `PAUSED`, `BLOCKED`, or `PLAN_EX
 
 - exactly one H1;
 - canonical must match the Matrix URL on `https://app.rentbikehanoi.com/`;
-- at least 1,200 editorial words unless the Matrix target is lower;
+- 1,500-5,000 editorial words;
+- SEO title must be 50-75 characters;
+- URL/path must be unique across the Matrix and current site;
+- SEO title must be unique across the current site;
+- SEO score must be 75-100 before publication;
 - 3-10 useful internal links and at least one Matrix target link;
 - no broken local links;
 - no legacy `github.io` or `/web/` production URLs;
 - do not invent prices, availability, promotions, guarantees, branches, delivery promises, deposits, or policies.
 
 The factory handles shared shell, schema, CTA, related cards, search index, sitemap, commit and deploy.
+
+## SEO score
+
+The factory calculates a deterministic 0-100 first-pass SEO score from title length, unique title, unique URL/path, meta description, canonical, H1, word count, internal links, primary-keyword use and Matrix target linking. A draft below 75 is returned to REPAIR even if the HTML is otherwise valid.
