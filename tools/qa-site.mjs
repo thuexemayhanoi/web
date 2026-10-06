@@ -5,6 +5,9 @@ import path from 'node:path';
 const ROOT=process.cwd();
 const system=JSON.parse(fs.readFileSync(path.join(ROOT,'data/site-system.json'),'utf8'));
 const errors=[];
+const warnings=[];
+const titleOwners=new Map();
+const canonicalOwners=new Map();
 const files=[];
 function walk(dir){
   for(const e of fs.readdirSync(dir,{withFileTypes:true})){
@@ -38,10 +41,35 @@ for(const [p,c] of pages){
   if(p!=='404.html'){
     const canon=(c.match(/<link rel="canonical" href="([^"]+)"/i)||[])[1]||'';
     if(!canon.startsWith(system.domain+'/')) errors.push(p+': bad or missing canonical');
+    const title=((c.match(/<title>([\s\S]*?)<\/title>/i)||[])[1]||'').replace(/<[^>]+>/g,'').trim();
+    const desc=(c.match(/<meta name="description" content="([^"]*)"/i)||[])[1]||'';
+    if(!title) errors.push(p+': missing title');
+    if(!desc) errors.push(p+': missing meta description');
+    if(title && (title.length<25 || title.length>70)) warnings.push(p+': title length '+title.length+' (review 25-70)');
+    if(desc && (desc.length<70 || desc.length>180)) warnings.push(p+': meta description length '+desc.length+' (review 70-180)');
+    if(title){
+      if(titleOwners.has(title)) errors.push(p+': duplicate title with '+titleOwners.get(title));
+      else titleOwners.set(title,p);
+    }
+    if(canon){
+      if(canonicalOwners.has(canon)) errors.push(p+': duplicate canonical with '+canonicalOwners.get(canon));
+      else canonicalOwners.set(canon,p);
+    }
     const h1=(c.match(/<h1\b/gi)||[]).length;
     if(h1!==1) errors.push(p+': expected exactly one H1, got '+h1);
     if(!c.includes('<!-- SHARED_NAV_START -->')||!c.includes('<!-- SHARED_FOOTER_START -->')) errors.push(p+': shared shell markers missing');
     if(/thuexemayhanoi\.github\.io|https:\/\/app\.rentbikehanoi\.com\/web\//i.test(c)) errors.push(p+': legacy production URL found');
+    if(system.features&&system.features.autoSocialMeta!==false){
+      const ogUrl=(c.match(/<meta property="og:url" content="([^"]+)"/i)||[])[1]||'';
+      const ogImg=(c.match(/<meta property="og:image" content="([^"]+)"/i)||[])[1]||'';
+      if(ogUrl!==canon) errors.push(p+': og:url does not match canonical');
+      if(ogImg!==system.brand.logoAbsolute) errors.push(p+': og:image does not match central logo');
+    }
+    if(system.features&&system.features.quickContact!==false && !c.includes('<!-- SHARED_FLOATING_START -->')) errors.push(p+': shared floating component missing');
+    if(!c.includes('<!-- SHARED_SCRIPTS_START -->')) errors.push(p+': shared script component missing');
+  }
+  for(const img of c.matchAll(/<img\b([^>]*)>/gi)){
+    if(!/\balt=/.test(img[1])) errors.push(p+': image missing alt attribute');
   }
   for(const m of c.matchAll(/(?:href|src)=["']([^"']+)["']/g)){
     const target=resolve(p,m[1]);
@@ -65,7 +93,16 @@ for(const [p,list] of Object.entries(system.relatedByPage)){
 }
 if((pages.get('index.html')||'').includes('<iframe')) errors.push('index.html: iframe found; homepage should stay lightweight');
 const sitemap=fs.readFileSync(path.join(ROOT,'sitemap.xml'),'utf8');
-for(const m of sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)) if(!m[1].startsWith(system.domain+'/')) errors.push('sitemap: non-production URL '+m[1]);
+const sitemapUrls=new Set();
+for(const m of sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)){
+  sitemapUrls.add(m[1]);
+  if(!m[1].startsWith(system.domain+'/')) errors.push('sitemap: non-production URL '+m[1]);
+}
+for(const [p,c] of pages){
+  if(p==='404.html' || /<meta name="robots" content="[^"]*noindex/i.test(c)) continue;
+  const canon=(c.match(/<link rel="canonical" href="([^"]+)"/i)||[])[1]||'';
+  if(canon && !sitemapUrls.has(canon)) errors.push(p+': canonical missing from sitemap');
+}
 const robots=fs.readFileSync(path.join(ROOT,'robots.txt'),'utf8');
 if(!robots.includes('Sitemap: '+system.domain+'/sitemap.xml')) errors.push('robots.txt: sitemap URL mismatch');
 const cname=fs.readFileSync(path.join(ROOT,'CNAME'),'utf8').trim();
@@ -75,9 +112,13 @@ if(!home.includes('"@type":"LocalBusiness"')) errors.push('index.html: LocalBusi
 const faq=pages.get('faq/index.html')||'';
 if(!faq.includes('"@type":"FAQPage"')) errors.push('faq/index.html: FAQPage schema missing after build');
 
+if(warnings.length){
+  console.warn('QA WARNINGS ('+warnings.length+')');
+  for(const w of warnings) console.warn('- '+w);
+}
 if(errors.length){
   console.error('QA FAILED ('+errors.length+' issue(s))');
   for(const e of errors) console.error('- '+e);
   process.exit(1);
 }
-console.log('QA PASS: '+htmlPaths.length+' HTML files, no broken internal refs, canonicals/schema/domain checks clean.');
+console.log('QA PASS: '+htmlPaths.length+' HTML files, shared components + links + sitemap + canonical + schema/domain checks clean.');

@@ -163,3 +163,19 @@ node tools/sync-shared-navigation.mjs
 ```
 
 It is now a compatibility alias for the full shared-site build.
+
+
+### Additional shared controls
+
+The shared build also centralizes pieces that used to be copied into every HTML file:
+
+- `site/partials/floating-ui.html` — Quick Contact + chatbot UI.
+- `site/partials/scripts.html` — shared JS includes and one cache-busting version.
+- `data/site-system.json > assets.version` — bump one value to refresh CSS/JS across the whole site.
+- `data/site-system.json > features` — feature flags for schema, social meta, article CTA, related posts, Quick Contact, chatbot and future content-image lazy loading.
+- `data/site-system.json > ctaBySilo` — optional per-silo CTA overrides. Empty by default, so the current UI stays unchanged.
+- Related links use the explicit map first, then Matrix targets, then a same-Hub/Silo fallback for future pages. This keeps automatic linking bounded and avoids random site-wide link injection.
+- Open Graph/Twitter metadata is regenerated at build time from each page's existing title, meta description and canonical, while site name/logo come from central config.
+- Build QA now hard-fails on broken internal references, duplicate canonicals/titles, missing H1/canonical/schema requirements, missing sitemap coverage and missing image alt attributes. Title/description length checks are warnings so publishing is not blocked by subjective SEO thresholds.
+
+The build deliberately does **not** add a bundler/framework. Assets remain plain CSS/JS because that is lighter and easier to maintain for this static GitHub Pages site.

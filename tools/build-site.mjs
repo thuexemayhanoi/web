@@ -10,6 +10,8 @@ const headerTpl=read('site/partials/header.html');
 const footerTpl=read('site/partials/footer.html');
 const ctaTpl=read('site/partials/article-cta.html');
 const cardTpl=read('site/partials/related-card.html');
+const floatingTpl=read('site/partials/floating-ui.html');
+const scriptsTpl=read('site/partials/scripts.html');
 const hooksSource=read('site/hooks.html');
 
 function get(obj,key){
@@ -21,11 +23,16 @@ function render(tpl,data){
     return v==null?'':String(v);
   });
 }
+function featureOn(key){return !system.features || system.features[key]!==false;}
+function applyFeatureSections(tpl){
+  return tpl.replace(/<!-- FEATURE:([A-Za-z0-9_.-]+):START -->([\s\S]*?)<!-- FEATURE:\1:END -->/g,(_,key,body)=>featureOn(key)?body.trim():'');
+}
 const ctx={...system,business:{...system.business,website:system.domain+'/'}};
 // Normalize partial boundaries so repeated builds do not accumulate blank lines.
 const header=render(headerTpl,ctx).trimEnd();
 const footer=render(footerTpl,ctx).trimEnd();
-const cta=render(ctaTpl,ctx).trim();
+const floating=render(applyFeatureSections(floatingTpl),ctx).trim();
+const scripts=render(applyFeatureSections(scriptsTpl),ctx).trim();
 
 function parseHook(name){
   const re=new RegExp('<!-- HOOK:'+name+':START -->([\\s\\S]*?)<!-- HOOK:'+name+':END -->');
@@ -63,6 +70,50 @@ function textOnly(s){
 function titleOf(html){return textOnly((html.match(/<title>([\s\S]*?)<\/title>/i)||[])[1]||'');}
 function descOf(html){return decode((html.match(/<meta name="description" content="([^"]*)"/i)||[])[1]||'');}
 function canonicalOf(html){return (html.match(/<link rel="canonical" href="([^"]*)"/i)||[])[1]||'';}
+function h1Of(html){return textOnly((html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)||[])[1]||'');}
+function attr(s){return String(s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function syncSocialMeta(html,pagePath){
+  if(!featureOn('autoSocialMeta')) return html;
+  const title=titleOf(html),description=descOf(html),canonical=canonicalOf(html);
+  if(!title||!canonical) return html;
+  const oldType=(html.match(/<meta property="og:type" content="([^"]+)"/i)||[])[1];
+  const type=oldType||(pagePath==='index.html'?'website':'article');
+  const locale=(system.language||'en-US').replace('-','_');
+  const block='<!-- SLOT:SOCIAL_META:START -->\n'
+    +'<meta property="og:type" content="'+attr(type)+'">\n'
+    +'<meta property="og:site_name" content="'+attr(system.business.name)+'">\n'
+    +'<meta property="og:locale" content="'+attr(locale)+'">\n'
+    +'<meta property="og:title" content="'+attr(title)+'">\n'
+    +'<meta property="og:description" content="'+attr(description)+'">\n'
+    +'<meta property="og:url" content="'+attr(canonical)+'">\n'
+    +'<meta property="og:image" content="'+attr(system.brand.logoAbsolute)+'">\n'
+    +'<meta name="twitter:card" content="summary">\n'
+    +'<meta name="twitter:title" content="'+attr(title)+'">\n'
+    +'<meta name="twitter:description" content="'+attr(description)+'">\n'
+    +'<meta name="twitter:image" content="'+attr(system.brand.logoAbsolute)+'">\n'
+    +'<!-- SLOT:SOCIAL_META:END -->';
+  const marked=/<!-- SLOT:SOCIAL_META:START -->[\s\S]*?<!-- SLOT:SOCIAL_META:END -->/;
+  if(marked.test(html)) return html.replace(marked,block);
+  const legacy=/<meta property="og:type"[\s\S]*?<meta name="twitter:image"[^>]*>/i;
+  if(legacy.test(html)) return html.replace(legacy,block);
+  const css=html.indexOf('<link rel="stylesheet"');
+  return css>=0?html.slice(0,css)+block+'\n'+html.slice(css):html;
+}
+function syncAssetVersion(html){
+  const v=system.assets&&system.assets.version;
+  if(!v) return html;
+  return html.replace(/<link rel="stylesheet" href="\/assets\/css\/style\.css(?:\?v=[^"]*)?">/i,'<link rel="stylesheet" href="/assets/css/style.css?v='+attr(v)+'">');
+}
+function lazyContentImages(html){
+  if(!featureOn('lazyContentImages')) return html;
+  return html.replace(/<img\b([^>]*)>/gi,(tag,attrs)=>{
+    if(/src=["']\/Logonh\.png["']/i.test(tag) || /loading=/i.test(tag)) return tag;
+    let out=tag.replace(/>$/,'');
+    if(!/decoding=/i.test(out)) out+=' decoding="async"';
+    out+=' loading="lazy">';
+    return out;
+  });
+}
 function breadcrumbItems(html,canonical){
   const nav=(html.match(/<nav class="crumbs"[\s\S]*?<\/nav>/i)||[])[0]||'';
   const items=[];
@@ -85,7 +136,7 @@ function faqItems(html){
   return out;
 }
 function schemaFor(html,pagePath){
-  if(system.schema.excludePaths.includes(pagePath)) return null;
+  if(!featureOn('autoSchema') || system.schema.excludePaths.includes(pagePath)) return null;
   const canonical=canonicalOf(html);
   if(!canonical) return null;
   const title=titleOf(html);
@@ -118,29 +169,74 @@ function parseCSV(text){
   return rows;
 }
 const matrixLinks=new Map();
+const matrixByPath=new Map();
+const matrixRows=[];
 try{
   const rows=parseCSV(read('data/content-matrix.csv'));
   const h=rows[0]||[];
-  const pidx=h.indexOf('path'),lidx=h.indexOf('internal_link_targets');
   for(let i=1;i<rows.length;i++){
-    if(rows[i][pidx]) matrixLinks.set(rows[i][pidx],(rows[i][lidx]||'').split(';').filter(Boolean));
+    if(!rows[i].length) continue;
+    const rec={};
+    h.forEach((k,j)=>rec[k]=rows[i][j]||'');
+    if(!rec.path) continue;
+    matrixRows.push(rec);
+    matrixByPath.set(rec.path,rec);
+    matrixLinks.set(rec.path,(rec.internal_link_targets||'').split(';').filter(Boolean));
   }
 }catch{}
-
+function pathToHref(p){
+  if(p==='index.html') return '/';
+  if(p.endsWith('/index.html')) return '/'+p.slice(0,-'index.html'.length);
+  return '/'+p;
+}
+function hrefToPath(href){
+  const clean=href.split('#')[0].split('?')[0];
+  if(clean==='/') return 'index.html';
+  const p=clean.replace(/^\//,'');
+  if(clean.endsWith('/')) return p+'index.html';
+  return p;
+}
+const genericCardIcon='<svg class="card-ico" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 7h10v10H7zM4 12h3m10 0h3M12 4v3m0 10v3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>';
+function autoCard(href){
+  const pagePath=hrefToPath(href);
+  const full=path.join(ROOT,pagePath);
+  if(!fs.existsSync(full)) return null;
+  const html=fs.readFileSync(full,'utf8');
+  return {href,title:h1Of(html)||titleOf(html),description:descOf(html),icon:genericCardIcon};
+}
+function inferredRelated(pagePath){
+  const row=matrixByPath.get(pagePath);
+  if(!row) return [];
+  return matrixRows
+    .filter(r=>r.path!==pagePath && r.content_role!=='LEGAL' && ((row.hub&&r.hub===row.hub)||(row.silo&&r.silo===row.silo)))
+    .sort((a,b)=>{
+      const rank=x=>x.content_role==='ROOT_HUB'?0:x.content_role==='HUB'?1:x.content_role==='ANSWER_HUB'?2:3;
+      return rank(a)-rank(b);
+    })
+    .map(r=>pathToHref(r.path))
+    .slice(0,5);
+}
 function relatedEntries(pagePath){
   const explicit=system.relatedByPage[pagePath];
-  const raw=explicit||matrixLinks.get(pagePath)||[];
+  const targets=(matrixLinks.get(pagePath)||[]).filter(Boolean);
+  const raw=explicit||(targets.length?targets:inferredRelated(pagePath));
   return raw.map(x=>typeof x==='string'?{href:x}:{...x}).map(x=>{
-    const base=system.cards[x.href];
+    const base=system.cards[x.href]||autoCard(x.href);
     if(!base) return null;
     return {...base,...x};
   }).filter(Boolean).slice(0,5);
 }
 function relatedBlock(pagePath){
+  if(!featureOn('relatedPosts')) return '';
   const entries=relatedEntries(pagePath);
   if(!entries.length) return '';
   const cards=entries.map(e=>render(cardTpl,e)).join('\n');
   return '<!-- SLOT:RELATED:START -->\n<h2>Related hubs</h2>\n<div class="card-grid">\n'+cards+'\n    </div>\n<!-- SLOT:RELATED:END -->';
+}
+function ctaForPage(pagePath){
+  const row=matrixByPath.get(pagePath);
+  const override=row&&system.ctaBySilo&&system.ctaBySilo[row.silo]?system.ctaBySilo[row.silo]:{};
+  return render(ctaTpl,{...ctx,cta:{...system.cta,...override}}).trim();
 }
 function replaceOrInsertHook(html,name,content,anchor,where='before'){
   const block=hookBlock(name,content);
@@ -157,6 +253,21 @@ function buildHtml(html,pagePath){
   if(html.includes('<!-- SLOT:FOOTER -->')) html=html.replace('<!-- SLOT:FOOTER -->',footer);
   else html=html.replace(/<!-- SHARED_FOOTER_START -->[\s\S]*?<!-- SHARED_FOOTER_END -->/,footer);
 
+  if(/<!-- SHARED_FLOATING_START -->[\s\S]*?<!-- SHARED_FLOATING_END -->/.test(html)) html=html.replace(/<!-- SHARED_FLOATING_START -->[\s\S]*?<!-- SHARED_FLOATING_END -->/,floating);
+  else if(/<div class="quick-contact"[\s\S]*?(?=<script src="\/assets\/js\/business-config\.js)/i.test(html)) html=html.replace(/\s*<div class="quick-contact"[\s\S]*?(?=<script src="\/assets\/js\/business-config\.js)/i,'\n'+floating+'\n\n');
+  else html=html.replace('</body>',floating+'\n</body>');
+
+  if(/<!-- SHARED_SCRIPTS_START -->[\s\S]*?<!-- SHARED_SCRIPTS_END -->/.test(html)) html=html.replace(/<!-- SHARED_SCRIPTS_START -->[\s\S]*?<!-- SHARED_SCRIPTS_END -->/,scripts);
+  else {
+    const legacyScripts=/<script src="\/assets\/js\/business-config\.js[^"]*" defer><\/script>\s*<script src="\/assets\/js\/app\.js[^"]*" defer><\/script>\s*(?:<script src="\/assets\/js\/assistant\.js[^"]*" defer><\/script>)?/i;
+    if(legacyScripts.test(html)) html=html.replace(legacyScripts,scripts);
+    else html=html.replace('</body>',scripts+'\n</body>');
+  }
+
+  html=syncAssetVersion(html);
+  html=syncSocialMeta(html,pagePath);
+  html=lazyContentImages(html);
+
   const schema=schemaFor(html,pagePath);
   if(schema){
     if(/<!-- SLOT:SCHEMA:START -->[\s\S]*?<!-- SLOT:SCHEMA:END -->/.test(html)) html=html.replace(/<!-- SLOT:SCHEMA:START -->[\s\S]*?<!-- SLOT:SCHEMA:END -->/,schema);
@@ -171,10 +282,16 @@ function buildHtml(html,pagePath){
     else html=html.replace(/<h2>Related hubs<\/h2>\s*<div class="card-grid">[\s\S]*?<\/div>\s*(?=<div class="contact-cta"|<p class="back-home"|<\/article>)/i,related+'\n');
   }
 
-  const ctaBlock='<!-- SLOT:CTA:START -->\n'+cta+'\n<!-- SLOT:CTA:END -->';
-  if(/<!-- SLOT:CTA:START -->[\s\S]*?<!-- SLOT:CTA:END -->/.test(html)) html=html.replace(/<!-- SLOT:CTA:START -->[\s\S]*?<!-- SLOT:CTA:END -->/,ctaBlock);
-  else if(html.includes('<!-- SLOT:CTA -->')) html=html.replace('<!-- SLOT:CTA -->',ctaBlock);
-  else if(/<div class="contact-cta">[\s\S]*?<div class="hero-cta">[\s\S]*?<\/div>\s*<\/div>/i.test(html)) html=html.replace(/<div class="contact-cta">[\s\S]*?<div class="hero-cta">[\s\S]*?<\/div>\s*<\/div>/i,ctaBlock);
+  if(featureOn('articleCta')){
+    const pageCta=ctaForPage(pagePath);
+    const ctaBlock='<!-- SLOT:CTA:START -->\n'+pageCta+'\n<!-- SLOT:CTA:END -->';
+    if(/<!-- SLOT:CTA:START -->[\s\S]*?<!-- SLOT:CTA:END -->/.test(html)) html=html.replace(/<!-- SLOT:CTA:START -->[\s\S]*?<!-- SLOT:CTA:END -->/,ctaBlock);
+    else if(html.includes('<!-- SLOT:CTA -->')) html=html.replace('<!-- SLOT:CTA -->',ctaBlock);
+    else if(/<div class="contact-cta">[\s\S]*?<div class="hero-cta">[\s\S]*?<\/div>\s*<\/div>/i.test(html)) html=html.replace(/<div class="contact-cta">[\s\S]*?<div class="hero-cta">[\s\S]*?<\/div>\s*<\/div>/i,ctaBlock);
+  }else{
+    html=html.replace(/<!-- SLOT:CTA:START -->[\s\S]*?<!-- SLOT:CTA:END -->/,'');
+    html=html.replace(/<div class="contact-cta">[\s\S]*?<div class="hero-cta">[\s\S]*?<\/div>\s*<\/div>/i,'');
+  }
 
   html=replaceOrInsertHook(html,'AFTER_HEADER',hookAfterHeader,'<!-- SHARED_NAV_END -->','after');
   html=replaceOrInsertHook(html,'BEFORE_FOOTER',hookBeforeFooter,'<!-- SHARED_FOOTER_START -->','before');
