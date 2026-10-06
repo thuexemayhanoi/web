@@ -630,10 +630,9 @@ tbody tr:hover td{background:var(--brand-soft)}
 
 .chat-panel{
   position:fixed;right:16px;z-index:140;
-  /* sits above the floating buttons (56px) + gap, itself above any dock */
+  /* Normal state sits above the two floating launch buttons. */
   bottom:calc(84px + env(safe-area-inset-bottom));
   width:min(360px,calc(100vw - 32px));
-  /* shrinks with the on-screen keyboard via visualViewport height */
   height:min(480px,calc(var(--vv-h,100dvh) - 120px - env(safe-area-inset-bottom)));
   display:flex;flex-direction:column;
   background:var(--surface);
@@ -727,6 +726,27 @@ html[data-theme="dark"] .chat-suggest button{background:var(--bg);color:var(--te
 }
 .chat-input button:hover{background:var(--brand-hover)}
 
+/* iOS/Android keyboard mode.
+   visualViewport JS supplies an exact top + height so the whole chat follows
+   the visible area instead of sitting behind the keyboard/browser dock. */
+.chat-panel[data-keyboard-open="true"]{
+  top:var(--chat-vv-top,8px);
+  bottom:auto;
+  height:var(--chat-vv-height,420px);
+  max-height:none;
+}
+body.chat-keyboard-open .quick-contact,
+body.chat-keyboard-open .chat-fab{
+  visibility:hidden;
+  pointer-events:none;
+}
+body.chat-keyboard-open .chat-panel{
+  border-radius:var(--r-md);
+}
+body.chat-keyboard-open .chat-log{
+  overscroll-behavior:contain;
+}
+
 /* ============================================================
    Responsive
    ============================================================ */
@@ -745,6 +765,9 @@ html[data-theme="dark"] .chat-suggest button{background:var(--bg);color:var(--te
   .calc-form{grid-template-columns:1fr}
   .foot-grid{grid-template-columns:repeat(2,1fr);gap:var(--s6) var(--s4)}
   .chat-panel{right:12px;left:12px;width:auto}
+  .chat-panel[data-keyboard-open="true"]{
+    right:8px;left:8px;width:auto;
+  }
   .site-foot{padding-bottom:calc(88px + env(safe-area-inset-bottom))}
 }
 @media (min-width:768px) and (max-width:1179px){

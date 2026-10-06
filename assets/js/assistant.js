@@ -505,7 +505,6 @@
       greeted = true;
       search.load();
       addMsg("Hello! I am an automated website lookup assistant — I answer from published content on app.rentbikehanoi.com. Ask about rental prices, monthly rental, 50cc bikes, our address or opening hours.", "bot");
-      addSuggestions(["default"]);
     }
     function send(text) {
       text = (text || "").trim();

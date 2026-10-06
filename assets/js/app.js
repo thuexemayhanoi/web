@@ -149,6 +149,9 @@
   var chatFab = document.getElementById("chat-fab");
   var chatPanel = document.getElementById("chat-panel");
   var chatClose = chatPanel ? chatPanel.querySelector(".chat-close") : null;
+  var chatInput = chatPanel ? chatPanel.querySelector(".chat-input input") : null;
+  var chatKeyboardOpen = false;
+  var maxVisualHeight = 0;
 
   function setQC(open) {
     if (!qc || !qcMain) return;
@@ -163,9 +166,12 @@
     if (open && !wasOpen) {
       /* assistant.js greets + lazily loads the search index on this event */
       try { chatPanel.dispatchEvent(new CustomEvent("chat:open")); } catch (e) {}
-      var input = chatPanel.querySelector(".chat-input input");
-      if (input) input.focus();
+      /* Do not force the mobile keyboard open just because chat was opened.
+         Desktop keeps the convenient autofocus. */
+      var coarse = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
+      if (chatInput && !coarse) chatInput.focus();
     }
+    if (!open) setChatKeyboard(false);
     positionFloats();
   }
 
@@ -190,9 +196,16 @@
   });
 
   /* -------- Shared floating viewport manager --------
-     Launch buttons are anchored directly to the safe area in CSS.
-     Only the visual viewport height is tracked for the mobile chat panel. */
+     On mobile, VisualViewport is the reliable source for the area above the
+     software keyboard. The chat panel is fitted entirely inside that area. */
   var floatRAF = 0;
+
+  function setChatKeyboard(open) {
+    chatKeyboardOpen = !!open;
+    if (chatPanel) chatPanel.setAttribute("data-keyboard-open", String(chatKeyboardOpen));
+    document.body.classList.toggle("chat-keyboard-open", chatKeyboardOpen);
+  }
+
   function positionFloats() {
     if (floatRAF) return;
     floatRAF = requestAnimationFrame(function () {
@@ -200,7 +213,30 @@
       var vh = window.innerHeight || document.documentElement.clientHeight;
       var vv = window.visualViewport;
       var vvH = vv ? Math.round(vv.height) : vh;
+      var vvTop = vv ? Math.round(vv.offsetTop || 0) : 0;
+
+      if (!chatKeyboardOpen && vvH > maxVisualHeight) maxVisualHeight = vvH;
+      if (!maxVisualHeight) maxVisualHeight = vvH;
+
       document.documentElement.style.setProperty("--vv-h", vvH + "px");
+
+      var inputFocused = !!(chatInput && document.activeElement === chatInput);
+      var keyboardReducedViewport = vv ? (maxVisualHeight - vvH > 80) : false;
+      var keyboardOpen = inputFocused && keyboardReducedViewport;
+
+      setChatKeyboard(keyboardOpen);
+
+      if (keyboardOpen && chatPanel) {
+        var gap = 8;
+        var available = Math.max(240, vvH - gap * 2);
+        var panelH = Math.min(520, available);
+        var top = vvTop + Math.max(gap, vvH - panelH - gap);
+        document.documentElement.style.setProperty("--chat-vv-top", Math.round(top) + "px");
+        document.documentElement.style.setProperty("--chat-vv-height", Math.round(panelH) + "px");
+      } else {
+        document.documentElement.style.removeProperty("--chat-vv-top");
+        document.documentElement.style.removeProperty("--chat-vv-height");
+      }
     });
   }
   window.addEventListener("resize", positionFloats, { passive: true });
@@ -208,6 +244,19 @@
   if (window.visualViewport) {
     window.visualViewport.addEventListener("resize", positionFloats, { passive: true });
     window.visualViewport.addEventListener("scroll", positionFloats, { passive: true });
+  }
+  if (chatInput) {
+    chatInput.addEventListener("focus", function () {
+      /* Let Safari finish opening the keyboard before measuring. */
+      window.setTimeout(positionFloats, 60);
+      window.setTimeout(positionFloats, 240);
+    });
+    chatInput.addEventListener("blur", function () {
+      window.setTimeout(function () {
+        setChatKeyboard(false);
+        positionFloats();
+      }, 60);
+    });
   }
   positionFloats();
 
