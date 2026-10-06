@@ -5,7 +5,7 @@ The external writer writes article drafts only. Do not edit factory workflows, f
 ## Loop
 
 1. Read `data/writer-queue.json`.
-2. For every item in `queue`, create one file: `factory/inbox/<ID>.article`.
+2. For every item in `queue`, create one file: `_factory/inbox/<ID>.article`.
 3. Use `site/templates/article.html` as the page shape.
 4. Fill title, meta description, canonical, breadcrumbs, H1 and article body from the Matrix brief.
 5. Keep all `<!-- SLOT:... -->` markers. Do not copy the shared header/footer/schema/CTA manually.
