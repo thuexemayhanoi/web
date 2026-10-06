@@ -7,3 +7,5 @@ Example: `SEO-017.article`
 Do not use `.html` here. The factory publishes the final `.html` file at the Matrix `path`.
 
 Factory smoke-test marker: infrastructure ready.
+
+Smoke test: hidden inbox ready.
