@@ -76,8 +76,11 @@ function queuePayload(m){
     unplanned_slots:s.unplanned_slots,
     queue:active.map(r=>({
       id:r.id,url:r.url,path:r.path,silo:r.silo,hub:r.hub,content_role:r.content_role,
-      primary_keyword:r.primary_keyword,intent:r.intent,target_min_words:r.target_min_words,
-      target_max_words:r.target_max_words,content_brief:r.content_brief,
+      primary_keyword:r.primary_keyword,intent:r.intent,
+      target_min_words:Math.min(cfg.first_pass_max_words,Math.max(cfg.first_pass_min_words,parseInt(r.target_min_words||'0',10)||0)),
+      target_max_words:Math.max(cfg.first_pass_min_words,Math.min(cfg.first_pass_max_words,parseInt(r.target_max_words||String(cfg.first_pass_max_words),10)||cfg.first_pass_max_words)),
+      title_min_chars:cfg.title_min_chars,title_max_chars:cfg.title_max_chars,seo_score_min:cfg.seo_score_min,
+      content_brief:r.content_brief,
       internal_link_targets:(r.internal_link_targets||'').split(';').filter(Boolean),
       source_policy:r.source_policy,draft_file:cfg.inbox_dir+'/'+r.id+cfg.draft_extension,
       template:'site/templates/article.html'
@@ -119,6 +122,49 @@ function hrefToPath(href){
   const p=clean.replace(/^\//,'');
   return clean.endsWith('/')?p+'index.html':p;
 }
+function decodedText(value){
+  return String(value||'')
+    .replace(/&amp;/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;|&apos;/gi,"'")
+    .replace(/&ndash;/gi,'–').replace(/&mdash;/gi,'—').replace(/&nbsp;/gi,' ')
+    .replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();
+}
+function normalizedTitle(value){return decodedText(value).toLowerCase().replace(/[^a-z0-9\u00c0-\u024f]+/gi,' ').replace(/\s+/g,' ').trim();}
+function titleLength(value){return [...decodedText(value)].length;}
+function siteSeoIndex(excludePath){
+  const out=[];
+  function walk(dir){
+    for(const e of fs.readdirSync(dir,{withFileTypes:true})){
+      if(['.git','node_modules','site','_factory'].includes(e.name))continue;
+      const full=path.join(dir,e.name);
+      if(e.isDirectory())walk(full);
+      else if(e.isFile()&&e.name.endsWith('.html')){
+        const rel=path.relative(ROOT,full).split(path.sep).join('/');
+        if(rel===excludePath)continue;
+        const html=fs.readFileSync(full,'utf8');
+        const title=(html.match(/<title>([\s\S]*?)<\/title>/i)||[])[1]||'';
+        const canonical=(html.match(/<link rel="canonical" href="([^"]+)"/i)||[])[1]||'';
+        out.push({path:rel,title,canonical});
+      }
+    }
+  }
+  walk(ROOT);
+  return out;
+}
+function seoScore(parts){
+  let score=0;
+  if(parts.titleLength>=cfg.title_min_chars&&parts.titleLength<=cfg.title_max_chars)score+=15;
+  if(parts.titleUnique)score+=10;
+  if(parts.urlUnique)score+=10;
+  if(parts.descriptionLength>=cfg.meta_description_min_chars&&parts.descriptionLength<=cfg.meta_description_max_chars)score+=10;
+  else if(parts.descriptionLength>=50)score+=5;
+  if(parts.canonicalOk)score+=10;
+  if(parts.h1Ok)score+=10;
+  if(parts.wordCount>=cfg.first_pass_min_words&&parts.wordCount<=cfg.first_pass_max_words)score+=15;
+  if(parts.internalLinkCount>=cfg.first_pass_min_internal_links&&parts.internalLinkCount<=cfg.first_pass_max_internal_links)score+=10;
+  if(parts.keywordUsed)score+=5;
+  if(parts.targetLinkUsed)score+=5;
+  return Math.max(0,Math.min(100,score));
+}
 function normalizeDraft(html,row){
   html=html.replace(/<html(?:\s+[^>]*)?>/i,'<html lang="en">');
   const canonical='<link rel="canonical" href="'+row.url+'">';
@@ -132,32 +178,63 @@ function normalizeDraft(html,row){
   if(!/\/assets\/js\/business-config\.js/.test(html))html=html.replace(/<\/body>/i,'<script src="/assets/js/business-config.js" defer></script>\n<script src="/assets/js/app.js" defer></script>\n</body>');
   return html;
 }
-function validateDraft(html,row){
+function validateDraft(html,row,matrix){
   const errors=[],warnings=[];
   const title=(html.match(/<title>([\s\S]*?)<\/title>/i)||[])[1]||'';
   const desc=(html.match(/<meta name="description" content="([^"]+)"/i)||[])[1]||'';
   const canon=(html.match(/<link rel="canonical" href="([^"]+)"/i)||[])[1]||'';
-  const h1=(html.match(/<h1\b/gi)||[]).length;
-  if(!row.url||!row.url.startsWith(cfg.production_domain+'/'))errors.push('matrix URL outside production domain');
-  if(title.trim().length<10)errors.push('title missing/too short');
-  if(desc.trim().length<50)errors.push('meta description missing/too short');
-  if(canon!==row.url)errors.push('canonical mismatch');
-  if(h1!==1)errors.push('expected exactly one H1, got '+h1);
-  if(/thuexemayhanoi\.github\.io|https:\/\/app\.rentbikehanoi\.com\/web\//i.test(html))errors.push('legacy production URL found');
+  const h1Match=(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)||[])[1]||'';
+  const h1Count=(html.match(/<h1\b/gi)||[]).length;
+  const tLen=titleLength(title);
+  const dLen=titleLength(desc);
   const wc=wordCount(html);
-  const matrixMin=parseInt(row.target_min_words||'0',10)||cfg.first_pass_min_words;
-  const min=Math.min(cfg.first_pass_min_words,matrixMin);
-  if(wc<min)errors.push('word count '+wc+' below first-pass minimum '+min);
   const links=internalLinks(html);
+  const targets=(row.internal_link_targets||'').split(';').filter(Boolean);
+  const targetLinkUsed=!targets.length||targets.some(t=>links.includes(t));
+
+  const matrixConflict=matrix.rows.find(r=>r.id!==row.id&&(r.url===row.url||r.path===row.path));
+  const site=siteSeoIndex(row.path);
+  const normalized=normalizedTitle(title);
+  const titleDuplicate=normalized?site.find(x=>normalizedTitle(x.title)===normalized):null;
+  const canonicalDuplicate=row.url?site.find(x=>x.canonical===row.url):null;
+  const outputAlreadyExists=fs.existsSync(path.join(ROOT,row.path));
+  const titleUnique=!titleDuplicate;
+  const urlUnique=!matrixConflict&&!canonicalDuplicate&&!outputAlreadyExists;
+
+  if(!row.url||!row.url.startsWith(cfg.production_domain+'/'))errors.push('matrix URL outside production domain');
+  if(matrixConflict)errors.push('duplicate Matrix URL/path with '+matrixConflict.id);
+  if(canonicalDuplicate)errors.push('duplicate canonical URL already used by '+canonicalDuplicate.path);
+  if(outputAlreadyExists)errors.push('output URL/path already exists: '+row.path);
+  if(tLen<cfg.title_min_chars||tLen>cfg.title_max_chars)errors.push('title length '+tLen+' outside '+cfg.title_min_chars+'-'+cfg.title_max_chars);
+  if(titleDuplicate)errors.push('duplicate title already used by '+titleDuplicate.path);
+  if(dLen<50)errors.push('meta description missing/too short');
+  if(dLen<cfg.meta_description_min_chars||dLen>cfg.meta_description_max_chars)warnings.push('meta description length '+dLen+' outside recommended '+cfg.meta_description_min_chars+'-'+cfg.meta_description_max_chars);
+  if(canon!==row.url)errors.push('canonical mismatch');
+  if(h1Count!==1)errors.push('expected exactly one H1, got '+h1Count);
+  if(/thuexemayhanoi\.github\.io|https:\/\/app\.rentbikehanoi\.com\/web\//i.test(html))errors.push('legacy production URL found');
+  if(wc<cfg.first_pass_min_words||wc>cfg.first_pass_max_words)errors.push('word count '+wc+' outside '+cfg.first_pass_min_words+'-'+cfg.first_pass_max_words);
   if(links.length<cfg.first_pass_min_internal_links)errors.push('internal links '+links.length+' below minimum '+cfg.first_pass_min_internal_links);
   if(links.length>cfg.first_pass_max_internal_links)warnings.push('internal links '+links.length+' above preferred maximum '+cfg.first_pass_max_internal_links);
-  const targets=(row.internal_link_targets||'').split(';').filter(Boolean);
-  if(targets.length&&!targets.some(t=>links.includes(t)))errors.push('no Matrix target link found');
+  if(targets.length&&!targetLinkUsed)errors.push('no Matrix target link found');
   for(const href of links){
     const p=hrefToPath(href);
     if(!fs.existsSync(path.join(ROOT,p)))errors.push('broken internal link: '+href);
   }
-  return {errors:[...new Set(errors)],warnings:[...new Set(warnings)],word_count:wc};
+
+  const keyword=normalizedTitle(row.primary_keyword||'');
+  const keywordUsed=!keyword||normalizedTitle(title+' '+h1Match).includes(keyword);
+  const score=seoScore({
+    titleLength:tLen,titleUnique,urlUnique,descriptionLength:dLen,
+    canonicalOk:canon===row.url,h1Ok:h1Count===1,wordCount:wc,
+    internalLinkCount:links.length,keywordUsed,targetLinkUsed
+  });
+  if(score<cfg.seo_score_min)errors.push('SEO score '+score+' below minimum '+cfg.seo_score_min);
+
+  return {
+    errors:[...new Set(errors)],warnings:[...new Set(warnings)],
+    word_count:wc,title_length:tLen,description_length:dLen,
+    seo_score:score,title_unique:titleUnique,url_unique:urlUnique
+  };
 }
 function changedDrafts(before,after){
   let list=[];
@@ -194,11 +271,13 @@ function processDrafts(before,after){
   }
   for(const draftPath of changedDrafts(before,after)){
     const id=path.basename(draftPath,cfg.draft_extension),row=m.rows.find(r=>r.id===id);
-    const item={id,draft:draftPath,output:null,status:null,errors:[],warnings:[],word_count:0};
+    const item={id,draft:draftPath,output:null,status:null,errors:[],warnings:[],word_count:0,title_length:0,seo_score:0};
     if(!row){item.status='REJECTED';item.errors.push('ID not found in Matrix');report.processed.push(item);continue;}
     if(isExcluded(row)||!['PLANNED','WRITING','REPAIR'].includes(row.factory_status)){item.status='REJECTED';item.errors.push('Matrix status not writable: '+row.factory_status);report.processed.push(item);continue;}
-    const html=normalizeDraft(read(draftPath),row),qa=validateDraft(html,row);
-    item.errors=qa.errors;item.warnings=qa.warnings;item.word_count=qa.word_count;item.output=row.path;
+    const html=normalizeDraft(read(draftPath),row),qa=validateDraft(html,row,m);
+    item.errors=qa.errors;item.warnings=qa.warnings;item.word_count=qa.word_count;item.title_length=qa.title_length;item.seo_score=qa.seo_score;item.output=row.path;
+    row.actual_word_count=String(qa.word_count);
+    row.seo_score=String(qa.seo_score);
     if(qa.errors.length){
       const attempts=(parseInt(row.repair_attempts||'0',10)||0)+1;row.repair_attempts=String(attempts);
       if(attempts>=cfg.max_repair_attempts){row.factory_status='BLOCKED';item.status='BLOCKED';report.blocked_ids.push(id);}
@@ -231,6 +310,7 @@ function verifyLast(){
     if((html.match(/<h1\b/gi)||[]).length!==1)errors.push(id+': H1 invalid');
     const canon=(html.match(/<link rel="canonical" href="([^"]+)"/i)||[])[1]||'';if(canon!==row.url)errors.push(id+': canonical invalid');
     if(!html.includes('<!-- SHARED_NAV_START -->')||!html.includes('<!-- SHARED_FOOTER_START -->'))errors.push(id+': shared shell missing');
+    if((parseInt(row.seo_score||'0',10)||0)<cfg.seo_score_min)errors.push(id+': stored SEO score below '+cfg.seo_score_min);
   }
   if(errors.length){console.error('FACTORY_VERIFY_FAILED\n- '+errors.join('\n- '));process.exit(1);}
   console.log('FACTORY_VERIFY_PASS '+JSON.stringify(rep.published_ids||[]));
