@@ -204,3 +204,5 @@ Operational files:
 Existing non-legal content rows are baseline `PUBLISHED`; legal pages are `EXCLUDED`. Future article rows must be added to `data/content-matrix.csv` with `factory_status=PLANNED`. Refresh Queue claims the next 10 rows by default.
 
 The hot loop deliberately avoids deep SEO/cannibalization audits. A content failure goes to `REPAIR`; after the retry limit it becomes `BLOCKED`, the factory stops safely, keeps previously published work, and records the failing IDs.
+
+Factory infrastructure smoke-tested on 2026-10-06: hidden inbox trigger, no-op processing, state/report commit and safe stop behavior passed.
