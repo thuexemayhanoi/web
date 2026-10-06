@@ -179,3 +179,28 @@ The shared build also centralizes pieces that used to be copied into every HTML 
 - Build QA now hard-fails on broken internal references, duplicate canonicals/titles, missing H1/canonical/schema requirements, missing sitemap coverage and missing image alt attributes. Title/description length checks are warnings so publishing is not blocked by subjective SEO thresholds.
 
 The build deliberately does **not** add a bundler/framework. Assets remain plain CSS/JS because that is lighter and easier to maintain for this static GitHub Pages site.
+
+## Continuous article factory
+
+This repo now has a lightweight production loop for scaling toward **1,000 total content pages** while keeping the external writer focused on writing.
+
+Writer boundary:
+- Read assignments from `data/writer-queue.json`.
+- Write only `factory/inbox/<ID>.article`.
+- Follow `factory/WRITER.md`.
+- Do not edit workflow code, shared components, sitemap, factory state, or Matrix status fields.
+
+Factory boundary:
+`writer draft → structural normalization → scoped first-pass QA → publish to Matrix path → shared build → verify batch → search index → commit → GitHub Pages deploy → next queue`
+
+Operational files:
+- `data/factory-config.json` — target, batch size and hot-loop limits.
+- `data/factory-state.json` — pause/block/target state.
+- `data/writer-queue.json` — next assignments for the writer.
+- `tools/factory.mjs` — queue/process/verify/status engine.
+- `.github/workflows/article-factory.yml` — continuous factory workflow.
+- `reports/factory-last-run.json` — persisted last-run report.
+
+Existing non-legal content rows are baseline `PUBLISHED`; legal pages are `EXCLUDED`. Future article rows must be added to `data/content-matrix.csv` with `factory_status=PLANNED`. Refresh Queue claims the next 10 rows by default.
+
+The hot loop deliberately avoids deep SEO/cannibalization audits. A content failure goes to `REPAIR`; after the retry limit it becomes `BLOCKED`, the factory stops safely, keeps previously published work, and records the failing IDs.
