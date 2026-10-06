@@ -15,3 +15,5 @@ QA smoke test: 1500-5000 words, unique URL/title, title 50-75 chars, SEO score 7
 Writer batch plan SEO-017..SEO-026 submitted for queue refresh (2026-10-06).
 
 Writer batch plan SEO-027..SEO-036 submitted for queue refresh (2026-10-06).
+
+Writer batch plan SEO-037..SEO-046 submitted for queue refresh (2026-10-06).
