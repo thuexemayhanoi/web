@@ -186,7 +186,7 @@ This repo now has a lightweight production loop for scaling toward **1,000 total
 
 Writer boundary:
 - Read assignments from `data/writer-queue.json`.
-- Write only `factory/inbox/<ID>.article`.
+- Write only `_factory/inbox/<ID>.article`.
 - Follow `factory/WRITER.md`.
 - Do not edit workflow code, shared components, sitemap, factory state, or Matrix status fields.
 
