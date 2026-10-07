@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T08:06:43.942Z",
-  "finished": "2026-10-07T08:06:44.143Z",
-  "base_commit": "1704e9f88db6f6fd2d90ad13d4c68d1e2d2cd3ec",
+  "started": "2026-10-07T08:08:13.405Z",
+  "finished": "2026-10-07T08:08:13.561Z",
+  "base_commit": "75b54af39b1056f49c3281f06ae876027ce854ab",
   "processed": [
     {
-      "id": "SEO-535",
-      "draft": "_factory/inbox/SEO-535.article",
-      "output": "motorbike-rental-hanoi-old-quarter/long-bien-rental-planning/index.html",
+      "id": "SEO-536",
+      "draft": "_factory/inbox/SEO-536.article",
+      "output": "motorbike-rental-hanoi-old-quarter/long-bien-parking-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2026,
-      "title_length": 58,
+      "word_count": 2481,
+      "title_length": 56,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-535"
+    "SEO-536"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 532,
-    "planned": 458,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 468,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 533,
@@ -44,9 +33,19 @@
     "remaining_to_target": 467,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 534,
+    "planned": 456,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 466,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-536",
     "SEO-537",
     "SEO-538",
     "SEO-539",
@@ -55,6 +54,7 @@
     "SEO-542",
     "SEO-543",
     "SEO-544",
-    "SEO-545"
+    "SEO-545",
+    "SEO-546"
   ]
 }
