@@ -1,52 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:59:43.458Z",
-  "finished": "2026-10-07T22:59:43.797Z",
-  "base_commit": "61118e38aeb2cdc3d07acaa7ffc5df6e076c3db0",
+  "started": "2026-10-07T23:00:40.882Z",
+  "finished": "2026-10-07T23:00:41.267Z",
+  "base_commit": "11c8b3614e1b211928448f9405ec4d29cf50a519",
   "processed": [
     {
-      "id": "SEO-979",
-      "draft": "_factory/inbox/SEO-979.article",
-      "output": "motorbike-guides/motorbike-chain-pre-ride-checklist/index.html",
+      "id": "SEO-981",
+      "draft": "_factory/inbox/SEO-981.article",
+      "output": "motorbike-guides/motorbike-chain-maintenance-basics/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1747,
+      "word_count": 2064,
       "title_length": 55,
       "seo_score": 95
     },
     {
-      "id": "SEO-980",
-      "draft": "_factory/inbox/SEO-980.article",
-      "output": "motorbike-guides/motorbike-chain-troubleshooting/index.html",
+      "id": "SEO-982",
+      "draft": "_factory/inbox/SEO-982.article",
+      "output": "motorbike-guides/motorbike-battery-pre-ride-checklist/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2103,
-      "title_length": 58,
+      "word_count": 1958,
+      "title_length": 57,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-979",
-    "SEO-980"
+    "SEO-981",
+    "SEO-982"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 976,
-    "planned": 14,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 24,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 978,
@@ -57,10 +46,19 @@
     "remaining_to_target": 22,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 980,
+    "planned": 10,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 20,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-981",
-    "SEO-982",
     "SEO-983",
     "SEO-984",
     "SEO-985",
@@ -68,6 +66,8 @@
     "SEO-987",
     "SEO-988",
     "SEO-989",
-    "SEO-990"
+    "SEO-990",
+    "SEO-991",
+    "SEO-992"
   ]
 }
