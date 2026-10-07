@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:21:27.536Z",
-  "finished": "2026-10-07T07:21:27.615Z",
-  "base_commit": "6211d44182aba24aadea03500001ff23b25b2cda",
+  "started": "2026-10-07T07:22:30.976Z",
+  "finished": "2026-10-07T07:22:31.117Z",
+  "base_commit": "e74b6d24a39d3d7475e347b2915ed13afe751d12",
   "processed": [
     {
-      "id": "SEO-509",
-      "draft": "_factory/inbox/SEO-509.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
+      "id": "SEO-510",
+      "draft": "_factory/inbox/SEO-510.article",
+      "output": "hanoi-motorbike-rental-cost/honda-vision-vs-automatic-scooter-rental-cost/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
       "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
+      "word_count": 2000,
+      "title_length": 63,
+      "seo_score": 95
     }
   ],
-  "published_ids": [],
+  "published_ids": [
+    "SEO-510"
+  ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
@@ -36,12 +36,12 @@
   "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 498,
-    "planned": 492,
+    "published": 499,
+    "planned": 491,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 502,
+    "remaining_to_target": 501,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -55,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-510"
+    "SEO-511"
   ]
 }
