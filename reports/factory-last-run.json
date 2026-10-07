@@ -1,51 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:08:54.086Z",
-  "finished": "2026-10-07T05:08:54.277Z",
-  "base_commit": "21835c2df874aa45b75ba0857371f8b1dacb82c3",
+  "started": "2026-10-07T05:09:38.640Z",
+  "finished": "2026-10-07T05:09:38.780Z",
+  "base_commit": "5adc79e0c4a6846848831dd62351283d8d9a4c9a",
   "processed": [
     {
-      "id": "SEO-331",
-      "draft": "_factory/inbox/SEO-331.article",
-      "output": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-parking/index.html",
+      "id": "SEO-336",
+      "draft": "_factory/inbox/SEO-336.article",
+      "output": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-daily-rental-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2345,
-      "title_length": 64,
-      "seo_score": 100
+      "word_count": 2012,
+      "title_length": 62,
+      "seo_score": 95
     },
     {
-      "id": "SEO-332",
-      "draft": "_factory/inbox/SEO-332.article",
-      "output": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-route-suitability/index.html",
+      "id": "SEO-337",
+      "draft": "_factory/inbox/SEO-337.article",
+      "output": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-vs-automatic-scooter/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2368,
-      "title_length": 74,
-      "seo_score": 100
+      "word_count": 1944,
+      "title_length": 61,
+      "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-331",
-    "SEO-332"
+    "SEO-336",
+    "SEO-337"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 325,
-    "planned": 665,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 675,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 327,
@@ -56,6 +45,17 @@
     "remaining_to_target": 673,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 329,
+    "planned": 661,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 671,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-328",
@@ -64,9 +64,9 @@
     "SEO-333",
     "SEO-334",
     "SEO-335",
-    "SEO-336",
-    "SEO-337",
     "SEO-338",
-    "SEO-339"
+    "SEO-339",
+    "SEO-340",
+    "SEO-341"
   ]
 }
