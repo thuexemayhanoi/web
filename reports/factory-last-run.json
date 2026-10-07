@@ -1,39 +1,54 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:16:44.743Z",
-  "finished": "2026-10-07T03:16:44.874Z",
-  "base_commit": "c1ea7a312d8d2c3daca7059c22f96361c06176fa",
+  "started": "2026-10-07T03:17:26.150Z",
+  "finished": "2026-10-07T03:17:26.259Z",
+  "base_commit": "c6c5750095c34bc1671139c1c278ec08b4b9f48c",
   "processed": [
+    {
+      "id": "SEO-167",
+      "draft": "_factory/inbox/SEO-167.article",
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
+      "warnings": [],
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
+    },
     {
       "id": "SEO-168",
       "draft": "_factory/inbox/SEO-168.article",
-      "output": "hanoi-motorbike-rental/new-riders-pickup-planning/index.html",
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
+      "warnings": [],
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
+    },
+    {
+      "id": "SEO-169",
+      "draft": "_factory/inbox/SEO-169.article",
+      "output": "hanoi-motorbike-rental/new-riders-return-checklist/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2324,
-      "title_length": 54,
+      "word_count": 1759,
+      "title_length": 55,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-168"
+    "SEO-169"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 165,
-    "planned": 825,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 835,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 166,
@@ -44,9 +59,19 @@
     "remaining_to_target": 834,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 167,
+    "planned": 823,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 833,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-169",
     "SEO-170",
     "SEO-171",
     "SEO-172",
@@ -55,6 +80,7 @@
     "SEO-175",
     "SEO-176",
     "SEO-177",
-    "SEO-178"
+    "SEO-178",
+    "SEO-179"
   ]
 }
