@@ -1,51 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:42:31.024Z",
-  "finished": "2026-10-07T04:42:31.167Z",
-  "base_commit": "79c665979b7c3818fa7f8700ab6d4e6ddf8d1597",
+  "started": "2026-10-07T04:43:49.339Z",
+  "finished": "2026-10-07T04:43:49.444Z",
+  "base_commit": "1b3634916a32bec0ed9f23806a4fa279059416c1",
   "processed": [
     {
-      "id": "SEO-292",
-      "draft": "_factory/inbox/SEO-292.article",
-      "output": "hanoi-50cc-motorbike-rental/solo-travelers-vs-automatic-scooter/index.html",
+      "id": "SEO-268",
+      "draft": "_factory/inbox/SEO-268.article",
+      "output": "hanoi-50cc-motorbike-rental/lightweight-riders-parking/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2032,
-      "title_length": 66,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-293",
-      "draft": "_factory/inbox/SEO-293.article",
-      "output": "hanoi-50cc-motorbike-rental/couples-choosing-a-50cc/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2000,
-      "title_length": 54,
+      "word_count": 2620,
+      "title_length": 57,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-292",
-    "SEO-293"
+    "SEO-268"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 281,
-    "planned": 709,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 719,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 283,
@@ -56,9 +33,19 @@
     "remaining_to_target": 717,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 284,
+    "planned": 706,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 716,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-268",
     "SEO-270",
     "SEO-275",
     "SEO-276",
@@ -67,6 +54,7 @@
     "SEO-286",
     "SEO-287",
     "SEO-294",
-    "SEO-295"
+    "SEO-295",
+    "SEO-296"
   ]
 }
