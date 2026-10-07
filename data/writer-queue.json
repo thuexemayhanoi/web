@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T22:36:38.079Z",
+  "generated_at": "2026-10-07T22:36:51.702Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 915,
-  "remaining_to_target": 85,
+  "current_published_content_pages": 916,
+  "remaining_to_target": 84,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-914",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/contract-workers-used-bike-inspection/",
-      "path": "hanoi-motorbike-for-sale/contract-workers-used-bike-inspection/index.html",
-      "silo": "Buying vs Renting",
-      "hub": "Buying vs Renting",
-      "content_role": "CLUSTER",
-      "primary_keyword": "buy vs rent motorbike hanoi contract workers used bike inspection",
-      "intent": "Informational comparison",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Contract Workers: Used Motorbike Inspection for Hanoi Motorbikes",
-      "content_brief": "Buying-versus-renting cluster for contract workers, focused on a used-bike inspection framework covering visible condition and questions before purchase. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-for-sale/",
-        "/monthly-motorbike-rental-hanoi/",
-        "/hanoi-motorbike-rental-cost/"
-      ],
-      "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
-      "draft_file": "_factory/inbox/SEO-914.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-915",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/contract-workers-ownership-costs/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-927.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-928",
+      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/helmet-rules-scooter-riders/",
+      "path": "renting-a-motorbike-in-vietnam/helmet-rules-scooter-riders/index.html",
+      "silo": "Vietnam Rental Guide",
+      "hub": "Renting in Vietnam",
+      "content_role": "CLUSTER",
+      "primary_keyword": "vietnam helmet rules scooter riders",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Helmet Rules for Scooter Riders: Vietnam Motorbike Guide",
+      "content_brief": "Vietnam riding guidance focused on helmet rules for scooter riders. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
+      "internal_link_targets": [
+        "/renting-a-motorbike-in-vietnam/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-928.article",
       "template": "site/templates/article.html"
     }
   ]
