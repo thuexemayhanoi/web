@@ -1,106 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:57:32.083Z",
-  "finished": "2026-10-07T05:57:32.494Z",
-  "base_commit": "6f6585a3fa1b1c3e6376b3d96b16523a6c551e99",
+  "started": "2026-10-07T05:58:49.822Z",
+  "finished": "2026-10-07T05:58:49.988Z",
+  "base_commit": "c8c5ef5e0eb0f24ac9f21524058bd15abcac7c8f",
   "processed": [
     {
       "id": "SEO-414",
       "draft": "_factory/inbox/SEO-414.article",
       "output": "hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-checks-and-mistakes/index.html",
-      "status": "REPAIR",
-      "errors": [
-        "duplicate title already used by hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-selection-guide/index.html"
-      ],
-      "warnings": [],
-      "word_count": 1648,
-      "title_length": 71,
-      "seo_score": 85
-    },
-    {
-      "id": "SEO-415",
-      "draft": "_factory/inbox/SEO-415.article",
-      "output": "hanoi-scooter-rental/honda-click-vs-yamaha-mio-selection-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1548,
+      "word_count": 1601,
       "title_length": 67,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-416",
-      "draft": "_factory/inbox/SEO-416.article",
-      "output": "hanoi-scooter-rental/honda-click-vs-yamaha-mio-checks-and-mistakes/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [
-        "meta description length 181 outside recommended 120-180"
-      ],
-      "word_count": 1623,
-      "title_length": 71,
-      "seo_score": 90
-    },
-    {
-      "id": "SEO-417",
-      "draft": "_factory/inbox/SEO-417.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-vs-50cc-selection-guide/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1564,
-      "title_length": 67,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-418",
-      "draft": "_factory/inbox/SEO-418.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-vs-50cc-checks-and-mistakes/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [
-        "meta description length 185 outside recommended 120-180"
-      ],
-      "word_count": 1621,
-      "title_length": 71,
-      "seo_score": 90
-    },
-    {
-      "id": "SEO-419",
-      "draft": "_factory/inbox/SEO-419.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-vs-semi-automatic-selection-guide/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1567,
-      "title_length": 70,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-415",
-    "SEO-416",
-    "SEO-417",
-    "SEO-418",
-    "SEO-419"
-  ],
-  "repair_ids": [
     "SEO-414"
   ],
+  "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 411,
-    "planned": 579,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 589,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 416,
@@ -111,9 +33,19 @@
     "remaining_to_target": 584,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 417,
+    "planned": 573,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 583,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-414",
     "SEO-420",
     "SEO-421",
     "SEO-422",
@@ -122,6 +54,7 @@
     "SEO-425",
     "SEO-426",
     "SEO-427",
-    "SEO-428"
+    "SEO-428",
+    "SEO-429"
   ]
 }
