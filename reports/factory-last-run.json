@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T17:39:24.280Z",
-  "finished": "2026-10-07T17:39:24.501Z",
-  "base_commit": "eb4a2d93c6d8cbdce58d264af6b1e9fff10582f4",
+  "started": "2026-10-07T17:40:40.816Z",
+  "finished": "2026-10-07T17:40:40.977Z",
+  "base_commit": "7bcfe61f21b3af83308771e2519345cc46599dc8",
   "processed": [
     {
-      "id": "SEO-710",
-      "draft": "_factory/inbox/SEO-710.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-tam-dao-weather-planning/index.html",
+      "id": "SEO-711",
+      "draft": "_factory/inbox/SEO-711.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-tam-dao-fuel-and-rest-stops/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1991,
-      "title_length": 71,
+      "word_count": 2026,
+      "title_length": 58,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-710"
+    "SEO-711"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 705,
-    "planned": 285,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 295,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 706,
@@ -44,17 +33,28 @@
     "remaining_to_target": 294,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 707,
+    "planned": 283,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 293,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-705",
     "SEO-706",
-    "SEO-711",
     "SEO-712",
     "SEO-713",
     "SEO-714",
     "SEO-715",
     "SEO-716",
     "SEO-717",
-    "SEO-718"
+    "SEO-718",
+    "SEO-719"
   ]
 }
