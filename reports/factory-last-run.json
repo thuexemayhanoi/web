@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T08:36:53.322Z",
-  "finished": "2026-10-07T08:36:53.516Z",
-  "base_commit": "b37a6360454928358ed12cdf53733cac75801b20",
+  "started": "2026-10-07T08:37:52.859Z",
+  "finished": "2026-10-07T08:37:53.048Z",
+  "base_commit": "61eed60886c54fabcc1494f31fa616fd19112ac2",
   "processed": [
     {
-      "id": "SEO-562",
-      "draft": "_factory/inbox/SEO-562.article",
-      "output": "motorbike-rental-hanoi-old-quarter/nam-tu-liem-traffic-guide/index.html",
+      "id": "SEO-563",
+      "draft": "_factory/inbox/SEO-563.article",
+      "output": "motorbike-rental-hanoi-old-quarter/nam-tu-liem-route-connections/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2366,
-      "title_length": 58,
+      "word_count": 2663,
+      "title_length": 62,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-562"
+    "SEO-563"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 559,
-    "planned": 431,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 441,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 560,
@@ -44,9 +33,19 @@
     "remaining_to_target": 440,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 561,
+    "planned": 429,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 439,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-563",
     "SEO-564",
     "SEO-565",
     "SEO-566",
@@ -55,6 +54,7 @@
     "SEO-569",
     "SEO-570",
     "SEO-571",
-    "SEO-572"
+    "SEO-572",
+    "SEO-573"
   ]
 }

@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T08:36:53.515Z",
+  "generated_at": "2026-10-07T08:37:53.047Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 560,
-  "remaining_to_target": 440,
+  "current_published_content_pages": 561,
+  "remaining_to_target": 439,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-563",
-      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/nam-tu-liem-route-connections/",
-      "path": "motorbike-rental-hanoi-old-quarter/nam-tu-liem-route-connections/index.html",
-      "silo": "Local Areas",
-      "hub": "Old Quarter & Areas",
-      "content_role": "CLUSTER",
-      "primary_keyword": "nam tu liem hanoi motorbike route connections",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Nam Tu Liem by Motorbike: Motorbike Route Connections in Hanoi",
-      "content_brief": "Local riding cluster for Nam Tu Liem, focused on how to connect the area with central Hanoi and major riding hubs without fabricating journey times. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
-      "internal_link_targets": [
-        "/motorbike-rental-hanoi-old-quarter/",
-        "/hanoi-motorbike-rental/",
-        "/motorbike-guides/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-563.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-564",
       "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/nam-tu-liem-day-ride-ideas/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-572.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-573",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/thanh-xuan-route-connections/",
+      "path": "motorbike-rental-hanoi-old-quarter/thanh-xuan-route-connections/index.html",
+      "silo": "Local Areas",
+      "hub": "Old Quarter & Areas",
+      "content_role": "CLUSTER",
+      "primary_keyword": "thanh xuan hanoi motorbike route connections",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Thanh Xuan by Motorbike: Motorbike Route Connections in Hanoi",
+      "content_brief": "Local riding cluster for Thanh Xuan, focused on how to connect the area with central Hanoi and major riding hubs without fabricating journey times. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
+      "internal_link_targets": [
+        "/motorbike-rental-hanoi-old-quarter/",
+        "/hanoi-motorbike-rental/",
+        "/motorbike-guides/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-573.article",
       "template": "site/templates/article.html"
     }
   ]
