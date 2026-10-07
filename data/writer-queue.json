@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T14:25:40.384Z",
+  "generated_at": "2026-10-07T14:27:03.806Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 682,
-  "remaining_to_target": 318,
+  "current_published_content_pages": 683,
+  "remaining_to_target": 317,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -30,31 +30,6 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-685.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-686",
-      "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/researchers-commuting-setup/",
-      "path": "monthly-motorbike-rental-hanoi/researchers-commuting-setup/index.html",
-      "silo": "Long-Term Rental",
-      "hub": "Monthly Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "monthly motorbike rental hanoi researchers commuting setup",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Researchers: Daily Commuting Setup in Hanoi | Hanoi Motorbike Guide",
-      "content_brief": "Long-term rental cluster for researchers, focused on choosing a practical bike and routine for repeated urban travel. Use verified monthly prices where relevant and never invent discounts, deposits, maintenance guarantees or contract terms.",
-      "internal_link_targets": [
-        "/monthly-motorbike-rental-hanoi/",
-        "/hanoi-motorbike-rental-cost/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-686.article",
       "template": "site/templates/article.html"
     },
     {
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
       "draft_file": "_factory/inbox/SEO-694.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-695",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ba-vi-safety-checklist/",
+      "path": "hanoi-motorbike-trips/hanoi-to-ba-vi-safety-checklist/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to ba vi motorbike safety checklist",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Ba Vi by Motorbike: Safety Checklist | Hanoi Motorbike Guide",
+      "content_brief": "Destination cluster for a Hanoi-to-Ba Vi motorbike trip, focused on pre-departure bike, gear and route checks for the destination. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-695.article",
       "template": "site/templates/article.html"
     }
   ]
