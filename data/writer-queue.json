@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T06:13:55.633Z",
+  "generated_at": "2026-10-07T06:14:34.649Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 437,
-  "remaining_to_target": 563,
+  "current_published_content_pages": 438,
+  "remaining_to_target": 562,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -133,31 +133,6 @@
       "template": "site/templates/article.html"
     },
     {
-      "id": "SEO-445",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/yamaha-sirius-daily-price/",
-      "path": "hanoi-motorbike-rental-cost/yamaha-sirius-daily-price/index.html",
-      "silo": "Pricing",
-      "hub": "Rental Cost & Prices",
-      "content_role": "CLUSTER",
-      "primary_keyword": "yamaha sirius rental daily price hanoi",
-      "intent": "Commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Yamaha Sirius Daily Rental Price in Hanoi: Cost Planning Guide",
-      "content_brief": "Pricing cluster for Yamaha Sirius focused on daily rental price. Use only the verified prices available on the site; if a period has no verified figure, explicitly direct readers to contact rather than estimating.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental-cost/",
-        "/hanoi-motorbike-rental/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_ONLY",
-      "draft_file": "_factory/inbox/SEO-445.article",
-      "template": "site/templates/article.html"
-    },
-    {
       "id": "SEO-446",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/yamaha-sirius-weekly-price/",
       "path": "hanoi-motorbike-rental-cost/yamaha-sirius-weekly-price/index.html",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_ONLY",
       "draft_file": "_factory/inbox/SEO-449.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-450",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/yamaha-mio-weekly-price/",
+      "path": "hanoi-motorbike-rental-cost/yamaha-mio-weekly-price/index.html",
+      "silo": "Pricing",
+      "hub": "Rental Cost & Prices",
+      "content_role": "CLUSTER",
+      "primary_keyword": "yamaha mio rental weekly price hanoi",
+      "intent": "Commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Yamaha Mio Weekly Rental Price in Hanoi: Cost Planning Guide",
+      "content_brief": "Pricing cluster for Yamaha Mio focused on weekly rental price. Use only the verified prices available on the site; if a period has no verified figure, explicitly direct readers to contact rather than estimating.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-rental-cost/",
+        "/hanoi-motorbike-rental/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_ONLY",
+      "draft_file": "_factory/inbox/SEO-450.article",
       "template": "site/templates/article.html"
     }
   ]

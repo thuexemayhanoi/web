@@ -1,52 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:13:55.496Z",
-  "finished": "2026-10-07T06:13:55.633Z",
-  "base_commit": "c54ec1f78da6a7e9444d7662c3fc5eca147fe28d",
+  "started": "2026-10-07T06:14:34.542Z",
+  "finished": "2026-10-07T06:14:34.650Z",
+  "base_commit": "e67a1eb0e3b58d0d31180ebf6edc50c1992b907a",
   "processed": [
     {
-      "id": "SEO-443",
-      "draft": "_factory/inbox/SEO-443.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-444",
-      "draft": "_factory/inbox/SEO-444.article",
-      "output": "hanoi-motorbike-rental-cost/honda-wave-short-vs-long-term-cost/index.html",
+      "id": "SEO-445",
+      "draft": "_factory/inbox/SEO-445.article",
+      "output": "hanoi-motorbike-rental-cost/yamaha-sirius-daily-price/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1930,
-      "title_length": 71,
+      "word_count": 1874,
+      "title_length": 62,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-444"
+    "SEO-445"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 436,
-    "planned": 554,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 564,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 437,
@@ -57,6 +33,17 @@
     "remaining_to_target": 563,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 438,
+    "planned": 552,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 562,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-433",
@@ -64,10 +51,10 @@
     "SEO-435",
     "SEO-436",
     "SEO-440",
-    "SEO-445",
     "SEO-446",
     "SEO-447",
     "SEO-448",
-    "SEO-449"
+    "SEO-449",
+    "SEO-450"
   ]
 }
