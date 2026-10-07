@@ -1,93 +1,25 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:24:32.069Z",
-  "finished": "2026-10-07T22:24:32.691Z",
-  "base_commit": "34abfb11858ad3a9aa451b9761affe75a13f2153",
-  "processed": [
-    {
-      "id": "SEO-893",
-      "draft": "_factory/inbox/SEO-893.article",
-      "output": "hanoi-motorbike-for-sale/frequent-commuters-paperwork-questions/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [
-        "meta description length 191 outside recommended 120-180"
-      ],
-      "word_count": 1625,
-      "title_length": 70,
-      "seo_score": 90
-    },
-    {
-      "id": "SEO-894",
-      "draft": "_factory/inbox/SEO-894.article",
-      "output": "hanoi-motorbike-for-sale/frequent-commuters-break-even-thinking/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [
-        "meta description length 190 outside recommended 120-180"
-      ],
-      "word_count": 1545,
-      "title_length": 60,
-      "seo_score": 90
-    },
-    {
-      "id": "SEO-895",
-      "draft": "_factory/inbox/SEO-895.article",
-      "output": "hanoi-motorbike-for-sale/occasional-riders-rent-vs-buy-decision/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [
-        "meta description length 191 outside recommended 120-180"
-      ],
-      "word_count": 1654,
-      "title_length": 60,
-      "seo_score": 90
-    },
-    {
-      "id": "SEO-896",
-      "draft": "_factory/inbox/SEO-896.article",
-      "output": "hanoi-motorbike-for-sale/occasional-riders-used-bike-inspection/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1660,
-      "title_length": 65,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-897",
-      "draft": "_factory/inbox/SEO-897.article",
-      "output": "hanoi-motorbike-for-sale/occasional-riders-ownership-costs/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [
-        "meta description length 181 outside recommended 120-180"
-      ],
-      "word_count": 1629,
-      "title_length": 63,
-      "seo_score": 90
-    }
-  ],
-  "published_ids": [
-    "SEO-893",
-    "SEO-894",
-    "SEO-895",
-    "SEO-896",
-    "SEO-897"
-  ],
+  "started": "2026-10-07T22:25:21.890Z",
+  "finished": "2026-10-07T22:25:21.935Z",
+  "base_commit": "8e4cad89d426a54705fcb96e700f4e2729d2e33d",
+  "processed": [],
+  "published_ids": [],
   "repair_ids": [],
   "blocked_ids": [],
-  "pruned_stale_drafts": [],
+  "pruned_stale_drafts": [
+    "_factory/inbox/SEO-893.article"
+  ],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 890,
-    "planned": 100,
+    "published": 895,
+    "planned": 95,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 110,
+    "remaining_to_target": 105,
     "unplanned_slots": 0
   },
   "stats_after": {
