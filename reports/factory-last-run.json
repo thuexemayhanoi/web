@@ -1,52 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T23:04:31.218Z",
-  "finished": "2026-10-07T23:04:31.459Z",
-  "base_commit": "2025b9d4842abbacc90cbbc92017d910597f9662",
+  "started": "2026-10-07T23:05:24.151Z",
+  "finished": "2026-10-07T23:05:24.542Z",
+  "base_commit": "0c9be1041b6696422f4c42507847d74428b9afdb",
   "processed": [
     {
-      "id": "SEO-991",
-      "draft": "_factory/inbox/SEO-991.article",
-      "output": "motorbike-guides/rain-gear-pre-ride-checklist/index.html",
+      "id": "SEO-993",
+      "draft": "_factory/inbox/SEO-993.article",
+      "output": "motorbike-guides/rain-gear-maintenance-basics/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1765,
-      "title_length": 51,
+      "word_count": 1722,
+      "title_length": 53,
       "seo_score": 95
     },
     {
-      "id": "SEO-992",
-      "draft": "_factory/inbox/SEO-992.article",
-      "output": "motorbike-guides/rain-gear-troubleshooting/index.html",
+      "id": "SEO-994",
+      "draft": "_factory/inbox/SEO-994.article",
+      "output": "motorbike-guides/motorbike-helmets-pre-ride-checklist/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1808,
-      "title_length": 52,
+      "word_count": 1734,
+      "title_length": 57,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-991",
-    "SEO-992"
+    "SEO-993",
+    "SEO-994"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 988,
-    "planned": 2,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 12,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 990,
@@ -57,10 +46,19 @@
     "remaining_to_target": 10,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 992,
+    "planned": 0,
+    "writing": 8,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 8,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-993",
-    "SEO-994",
     "SEO-995",
     "SEO-996",
     "SEO-997",
