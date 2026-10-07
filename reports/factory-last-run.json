@@ -1,39 +1,79 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:09:54.373Z",
-  "finished": "2026-10-07T04:09:54.518Z",
-  "base_commit": "39ede52829933a40c8016acbfe9fb94be62cad3f",
+  "started": "2026-10-07T04:10:22.873Z",
+  "finished": "2026-10-07T04:10:23.041Z",
+  "base_commit": "da8386100ce3c375a78556db0e94a460830ac1e8",
   "processed": [
     {
-      "id": "SEO-238",
-      "draft": "_factory/inbox/SEO-238.article",
-      "output": "hanoi-50cc-motorbike-rental/beginners-vs-automatic-scooter/index.html",
+      "id": "SEO-206",
+      "draft": "_factory/inbox/SEO-206.article",
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
+      "warnings": [],
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
+    },
+    {
+      "id": "SEO-216",
+      "draft": "_factory/inbox/SEO-216.article",
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
+      "warnings": [],
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
+    },
+    {
+      "id": "SEO-235",
+      "draft": "_factory/inbox/SEO-235.article",
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
+      "warnings": [],
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
+    },
+    {
+      "id": "SEO-244",
+      "draft": "_factory/inbox/SEO-244.article",
+      "output": "hanoi-50cc-motorbike-rental/students-passenger-use/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2636,
-      "title_length": 61,
+      "word_count": 2082,
+      "title_length": 56,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-245",
+      "draft": "_factory/inbox/SEO-245.article",
+      "output": "hanoi-50cc-motorbike-rental/students-rainy-weather/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2128,
+      "title_length": 56,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-238"
+    "SEO-244",
+    "SEO-245"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 235,
-    "planned": 755,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 765,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 236,
@@ -44,6 +84,17 @@
     "remaining_to_target": 764,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 238,
+    "planned": 752,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 762,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-239",
@@ -51,10 +102,10 @@
     "SEO-241",
     "SEO-242",
     "SEO-243",
-    "SEO-244",
-    "SEO-245",
     "SEO-246",
     "SEO-247",
-    "SEO-248"
+    "SEO-248",
+    "SEO-249",
+    "SEO-250"
   ]
 }
