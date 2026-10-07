@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T05:30:51.988Z",
+  "generated_at": "2026-10-07T05:33:42.400Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 373,
-  "remaining_to_target": 627,
+  "current_published_content_pages": 375,
+  "remaining_to_target": 625,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -30,56 +30,6 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-328.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-374",
-      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-for-weekend-use-checks-and-mistakes/",
-      "path": "hanoi-scooter-rental/automatic-scooter-for-weekend-use-checks-and-mistakes/index.html",
-      "silo": "Scooter Rental",
-      "hub": "Hanoi Scooter Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "automatic scooter for weekend use hanoi checks and mistakes",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Automatic Scooter For Weekend Use: Checks and Common Mistakes for Hanoi",
-      "content_brief": "Scooter cluster focused on practical checks, common planning mistakes and how to avoid them without inventing policy. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
-      "internal_link_targets": [
-        "/hanoi-scooter-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/monthly-motorbike-rental-hanoi/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-374.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-375",
-      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-for-daily-commuting-selection-guide/",
-      "path": "hanoi-scooter-rental/automatic-scooter-for-daily-commuting-selection-guide/index.html",
-      "silo": "Scooter Rental",
-      "hub": "Hanoi Scooter Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "automatic scooter for daily commuting hanoi selection guide",
-      "intent": "Commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Automatic Scooter For Daily Commuting: Selection Guide for Hanoi Scooter",
-      "content_brief": "Scooter cluster focused on selection criteria, verified fleet examples and fit for the stated need. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
-      "internal_link_targets": [
-        "/hanoi-scooter-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/monthly-motorbike-rental-hanoi/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-375.article",
       "template": "site/templates/article.html"
     },
     {
@@ -255,6 +205,56 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-385.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-386",
+      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-for-west-lake-riding-checks-and-mistakes/",
+      "path": "hanoi-scooter-rental/automatic-scooter-for-west-lake-riding-checks-and-mistakes/index.html",
+      "silo": "Scooter Rental",
+      "hub": "Hanoi Scooter Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "automatic scooter for West Lake riding hanoi checks and mistakes",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Automatic Scooter For West Lake Riding: Checks and Common Mistakes for",
+      "content_brief": "Scooter cluster focused on practical checks, common planning mistakes and how to avoid them without inventing policy. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
+      "internal_link_targets": [
+        "/hanoi-scooter-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/monthly-motorbike-rental-hanoi/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-386.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-387",
+      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/honda-vision-for-city-riding-selection-guide/",
+      "path": "hanoi-scooter-rental/honda-vision-for-city-riding-selection-guide/index.html",
+      "silo": "Scooter Rental",
+      "hub": "Hanoi Scooter Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "Honda Vision for city riding hanoi selection guide",
+      "intent": "Commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Honda Vision For City Riding: Selection Guide for Hanoi Scooter Rental",
+      "content_brief": "Scooter cluster focused on selection criteria, verified fleet examples and fit for the stated need. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
+      "internal_link_targets": [
+        "/hanoi-scooter-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/monthly-motorbike-rental-hanoi/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-387.article",
       "template": "site/templates/article.html"
     }
   ]
