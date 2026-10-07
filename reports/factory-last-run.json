@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T21:49:43.490Z",
-  "finished": "2026-10-07T21:49:43.698Z",
-  "base_commit": "46e1731d0e4d91e5b2c0ed63c69ec8afb002b962",
+  "started": "2026-10-07T21:50:07.029Z",
+  "finished": "2026-10-07T21:50:07.183Z",
+  "base_commit": "4b58ff2b150f9ba17153e9eced0529f126863daa",
   "processed": [
     {
-      "id": "SEO-837",
-      "draft": "_factory/inbox/SEO-837.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-yen-tu-fuel-and-rest-stops/index.html",
+      "id": "SEO-838",
+      "draft": "_factory/inbox/SEO-838.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-yen-tu-luggage-packing/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2078,
-      "title_length": 57,
+      "word_count": 1999,
+      "title_length": 51,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-837"
+    "SEO-838"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 834,
-    "planned": 156,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 166,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 835,
@@ -45,9 +34,19 @@
     "remaining_to_target": 165,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 836,
+    "planned": 154,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 164,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-838",
     "SEO-839",
     "SEO-840",
     "SEO-841",
@@ -56,6 +55,7 @@
     "SEO-844",
     "SEO-845",
     "SEO-846",
-    "SEO-847"
+    "SEO-847",
+    "SEO-848"
   ]
 }
