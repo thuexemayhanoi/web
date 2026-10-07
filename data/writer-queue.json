@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T20:44:01.314Z",
+  "generated_at": "2026-10-07T20:44:16.715Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 777,
-  "remaining_to_target": 223,
+  "current_published_content_pages": 778,
+  "remaining_to_target": 222,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-780",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-hoa-binh-two-day-itinerary/",
-      "path": "hanoi-motorbike-trips/hanoi-to-hoa-binh-two-day-itinerary/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to hoa binh motorbike two day itinerary",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Hoa Binh by Motorbike: Two-Day Trip Planning",
-      "content_brief": "Destination cluster for a Hanoi-to-Hoa Binh motorbike trip, focused on a flexible two-day structure with rest and weather contingencies rather than fixed timing promises. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-780.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-781",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-hoa-binh-bike-choice/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
       "draft_file": "_factory/inbox/SEO-789.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-790",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-bac-ninh-bike-choice/",
+      "path": "hanoi-motorbike-trips/hanoi-to-bac-ninh-bike-choice/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to bac ninh motorbike bike choice",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Bac Ninh by Motorbike: Choosing a Bike for the Trip",
+      "content_brief": "Destination cluster for a Hanoi-to-Bac Ninh motorbike trip, focused on what bike characteristics matter for this destination and which verified rental categories to discuss. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-790.article",
       "template": "site/templates/article.html"
     }
   ]
