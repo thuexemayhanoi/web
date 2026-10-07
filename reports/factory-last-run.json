@@ -1,52 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:55:52.044Z",
-  "finished": "2026-10-07T22:55:52.376Z",
-  "base_commit": "3946162b9fe14fb0b8680b6355960c3c9ae3c3b3",
+  "started": "2026-10-07T22:56:22.290Z",
+  "finished": "2026-10-07T22:56:22.617Z",
+  "base_commit": "b14aba37d6499bfa6c09717b7d4cc9d1ec843b25",
   "processed": [
     {
-      "id": "SEO-967",
-      "draft": "_factory/inbox/SEO-967.article",
-      "output": "renting-a-motorbike-in-vietnam/rental-contracts-tourists/index.html",
+      "id": "SEO-969",
+      "draft": "_factory/inbox/SEO-969.article",
+      "output": "renting-a-motorbike-in-vietnam/rental-contracts-50cc-riders/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2102,
-      "title_length": 60,
+      "word_count": 2388,
+      "title_length": 63,
       "seo_score": 95
     },
     {
-      "id": "SEO-968",
-      "draft": "_factory/inbox/SEO-968.article",
-      "output": "renting-a-motorbike-in-vietnam/rental-contracts-expats/index.html",
+      "id": "SEO-970",
+      "draft": "_factory/inbox/SEO-970.article",
+      "output": "renting-a-motorbike-in-vietnam/rental-contracts-scooter-riders/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1974,
-      "title_length": 58,
+      "word_count": 1999,
+      "title_length": 66,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-967",
-    "SEO-968"
+    "SEO-969",
+    "SEO-970"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 964,
-    "planned": 26,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 36,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 966,
@@ -57,10 +46,19 @@
     "remaining_to_target": 34,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 968,
+    "planned": 22,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 32,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-969",
-    "SEO-970",
     "SEO-971",
     "SEO-972",
     "SEO-973",
@@ -68,6 +66,8 @@
     "SEO-975",
     "SEO-976",
     "SEO-977",
-    "SEO-978"
+    "SEO-978",
+    "SEO-979",
+    "SEO-980"
   ]
 }
