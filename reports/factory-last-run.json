@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T08:05:22.609Z",
-  "finished": "2026-10-07T08:05:22.710Z",
-  "base_commit": "31959e3ade42387cb5ae05cc9d29773442b02f92",
+  "started": "2026-10-07T08:06:43.942Z",
+  "finished": "2026-10-07T08:06:44.143Z",
+  "base_commit": "1704e9f88db6f6fd2d90ad13d4c68d1e2d2cd3ec",
   "processed": [
     {
-      "id": "SEO-516",
-      "draft": "_factory/inbox/SEO-516.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
+      "id": "SEO-535",
+      "draft": "_factory/inbox/SEO-535.article",
+      "output": "motorbike-rental-hanoi-old-quarter/long-bien-rental-planning/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
       "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
+      "word_count": 2026,
+      "title_length": 58,
+      "seo_score": 95
     }
   ],
-  "published_ids": [],
+  "published_ids": [
+    "SEO-535"
+  ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
@@ -36,17 +36,16 @@
   "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 532,
-    "planned": 458,
+    "published": 533,
+    "planned": 457,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 468,
+    "remaining_to_target": 467,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-535",
     "SEO-536",
     "SEO-537",
     "SEO-538",
@@ -55,6 +54,7 @@
     "SEO-541",
     "SEO-542",
     "SEO-543",
-    "SEO-544"
+    "SEO-544",
+    "SEO-545"
   ]
 }
