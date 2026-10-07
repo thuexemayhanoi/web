@@ -1,51 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:35:49.340Z",
-  "finished": "2026-10-07T04:35:49.455Z",
-  "base_commit": "0216e20d4fa7840406625fe31b5cf53dc8f425bb",
+  "started": "2026-10-07T04:36:10.258Z",
+  "finished": "2026-10-07T04:36:10.420Z",
+  "base_commit": "428b06c6fd6e5a2329b93a66004dc110384bed40",
   "processed": [
     {
-      "id": "SEO-279",
-      "draft": "_factory/inbox/SEO-279.article",
-      "output": "hanoi-50cc-motorbike-rental/first-time-visitors-bridges-and-inclines/index.html",
+      "id": "SEO-284",
+      "draft": "_factory/inbox/SEO-284.article",
+      "output": "hanoi-50cc-motorbike-rental/solo-travelers-choosing-a-50cc/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2141,
-      "title_length": 74,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-280",
-      "draft": "_factory/inbox/SEO-280.article",
-      "output": "hanoi-50cc-motorbike-rental/first-time-visitors-passenger-use/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2165,
-      "title_length": 67,
+      "word_count": 2478,
+      "title_length": 61,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-279",
-    "SEO-280"
+    "SEO-284"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 272,
-    "planned": 718,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 728,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 274,
@@ -54,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 726,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 275,
+    "planned": 715,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 725,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -65,8 +53,8 @@
     "SEO-281",
     "SEO-282",
     "SEO-283",
-    "SEO-284",
     "SEO-285",
-    "SEO-286"
+    "SEO-286",
+    "SEO-287"
   ]
 }
