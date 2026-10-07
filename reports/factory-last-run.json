@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T19:21:24.892Z",
-  "finished": "2026-10-07T19:21:25.060Z",
-  "base_commit": "28d0d18b33d45699c18e92c162aff718b3595d3f",
+  "started": "2026-10-07T19:24:17.191Z",
+  "finished": "2026-10-07T19:24:17.309Z",
+  "base_commit": "1e4cfe594b4c018581880ae5d7c8f907226beb0c",
   "processed": [
     {
-      "id": "SEO-724",
-      "draft": "_factory/inbox/SEO-724.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-ha-long-route-planning/index.html",
+      "id": "SEO-725",
+      "draft": "_factory/inbox/SEO-725.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-ha-long-one-day-feasibility/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2150,
-      "title_length": 69,
+      "word_count": 2178,
+      "title_length": 55,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-724"
+    "SEO-725"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 721,
-    "planned": 269,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 279,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 722,
@@ -45,9 +34,19 @@
     "remaining_to_target": 278,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 723,
+    "planned": 267,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 277,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-725",
     "SEO-726",
     "SEO-727",
     "SEO-728",
@@ -56,6 +55,7 @@
     "SEO-731",
     "SEO-732",
     "SEO-733",
-    "SEO-734"
+    "SEO-734",
+    "SEO-735"
   ]
 }
