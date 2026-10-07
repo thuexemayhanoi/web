@@ -1,63 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:42:37.630Z",
-  "finished": "2026-10-07T07:42:38.106Z",
-  "base_commit": "590e51b24e1cbcebfcc06bbdb9b2b7c5b36d1f0d",
+  "started": "2026-10-07T07:43:24.736Z",
+  "finished": "2026-10-07T07:43:24.941Z",
+  "base_commit": "f9fa88ccf9fda5c63b6d36d2a1468968f5791670",
   "processed": [
     {
-      "id": "SEO-449",
-      "draft": "_factory/inbox/SEO-449.article",
-      "output": "hanoi-motorbike-rental-cost/yamaha-mio-daily-price/index.html",
+      "id": "SEO-519",
+      "draft": "_factory/inbox/SEO-519.article",
+      "output": "motorbike-rental-hanoi-old-quarter/old-quarter-day-ride-ideas/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1804,
+      "word_count": 1791,
       "title_length": 59,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-458",
-      "draft": "_factory/inbox/SEO-458.article",
-      "output": "hanoi-motorbike-rental-cost/honda-vision-weekly-price/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1790,
-      "title_length": 62,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-474",
-      "draft": "_factory/inbox/SEO-474.article",
-      "output": "hanoi-motorbike-rental-cost/automatic-scooter-weekly-price/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1736,
-      "title_length": 67,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-449",
-    "SEO-458",
-    "SEO-474"
+    "SEO-519"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 513,
-    "planned": 477,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 487,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 516,
@@ -68,9 +33,19 @@
     "remaining_to_target": 484,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 517,
+    "planned": 473,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 483,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-519",
     "SEO-520",
     "SEO-521",
     "SEO-522",
@@ -79,6 +54,7 @@
     "SEO-525",
     "SEO-526",
     "SEO-527",
-    "SEO-528"
+    "SEO-528",
+    "SEO-529"
   ]
 }
