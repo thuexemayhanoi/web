@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:24:35.856Z",
-  "finished": "2026-10-07T07:24:35.975Z",
-  "base_commit": "893581f9beabe9997c63ec4a7c916ca1d6265dd7",
+  "started": "2026-10-07T07:25:45.535Z",
+  "finished": "2026-10-07T07:25:45.757Z",
+  "base_commit": "a2ed5f8cf2498ac846f30e0befe7f758f48fbeef",
   "processed": [
     {
-      "id": "SEO-512",
-      "draft": "_factory/inbox/SEO-512.article",
-      "output": "hanoi-motorbike-rental-cost/honda-air-blade-vs-50cc-scooter-rental-cost/index.html",
+      "id": "SEO-513",
+      "draft": "_factory/inbox/SEO-513.article",
+      "output": "hanoi-motorbike-rental-cost/honda-air-blade-vs-automatic-scooter-rental-cost/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1801,
-      "title_length": 61,
+      "word_count": 2016,
+      "title_length": 66,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-512"
+    "SEO-513"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 500,
-    "planned": 490,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 500,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 501,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 499,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 502,
+    "planned": 488,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 498,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -55,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-513"
+    "SEO-514"
   ]
 }
