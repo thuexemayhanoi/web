@@ -1,52 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T23:06:39.747Z",
-  "finished": "2026-10-07T23:06:40.084Z",
-  "base_commit": "9b24c7e5da8b12773413adc4b371a67b4de97dd0",
+  "started": "2026-10-07T23:07:17.389Z",
+  "finished": "2026-10-07T23:07:17.770Z",
+  "base_commit": "b6667c7baadd7b00f06eccca0a06ea8c2d53e847",
   "processed": [
     {
-      "id": "SEO-997",
-      "draft": "_factory/inbox/SEO-997.article",
-      "output": "motorbike-guides/motorbike-luggage-pre-ride-checklist/index.html",
+      "id": "SEO-999",
+      "draft": "_factory/inbox/SEO-999.article",
+      "output": "motorbike-guides/motorbike-luggage-maintenance-basics/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1730,
+      "word_count": 1673,
       "title_length": 57,
       "seo_score": 95
     },
     {
-      "id": "SEO-998",
-      "draft": "_factory/inbox/SEO-998.article",
-      "output": "motorbike-guides/motorbike-luggage-troubleshooting/index.html",
+      "id": "SEO-1000",
+      "draft": "_factory/inbox/SEO-1000.article",
+      "output": "motorbike-guides/motorbike-navigation-pre-ride-checklist/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1825,
+      "word_count": 1675,
       "title_length": 60,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-997",
-    "SEO-998"
+    "SEO-999",
+    "SEO-1000"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 994,
-    "planned": 0,
-    "writing": 6,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 6,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 996,
@@ -57,10 +46,19 @@
     "remaining_to_target": 4,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 998,
+    "planned": 0,
+    "writing": 2,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 2,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-999",
-    "SEO-1000",
     "SEO-1001",
     "SEO-1002"
   ]
