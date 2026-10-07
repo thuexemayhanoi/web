@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T05:39:28.915Z",
+  "generated_at": "2026-10-07T05:40:32.188Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 381,
-  "remaining_to_target": 619,
+  "current_published_content_pages": 382,
+  "remaining_to_target": 618,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -30,31 +30,6 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-328.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-384",
-      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-for-long-bien-riding-checks-and-mistakes/",
-      "path": "hanoi-scooter-rental/automatic-scooter-for-long-bien-riding-checks-and-mistakes/index.html",
-      "silo": "Scooter Rental",
-      "hub": "Hanoi Scooter Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "automatic scooter for Long Bien riding hanoi checks and mistakes",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Automatic Scooter For Long Bien Riding: Checks and Common Mistakes for",
-      "content_brief": "Scooter cluster focused on practical checks, common planning mistakes and how to avoid them without inventing policy. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
-      "internal_link_targets": [
-        "/hanoi-scooter-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/monthly-motorbike-rental-hanoi/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-384.article",
       "template": "site/templates/article.html"
     },
     {
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-393.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-394",
+      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/yamaha-mio-for-city-riding-checks-and-mistakes/",
+      "path": "hanoi-scooter-rental/yamaha-mio-for-city-riding-checks-and-mistakes/index.html",
+      "silo": "Scooter Rental",
+      "hub": "Hanoi Scooter Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "Yamaha Mio for city riding hanoi checks and mistakes",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Yamaha Mio For City Riding: Checks and Common Mistakes for Hanoi Scooter",
+      "content_brief": "Scooter cluster focused on practical checks, common planning mistakes and how to avoid them without inventing policy. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
+      "internal_link_targets": [
+        "/hanoi-scooter-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/monthly-motorbike-rental-hanoi/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-394.article",
       "template": "site/templates/article.html"
     }
   ]

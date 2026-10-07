@@ -1,66 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:39:28.604Z",
-  "finished": "2026-10-07T05:39:28.916Z",
-  "base_commit": "3209e73ba3ff185981fc915796ab035a25170962",
+  "started": "2026-10-07T05:40:31.992Z",
+  "finished": "2026-10-07T05:40:32.189Z",
+  "base_commit": "d05c62733d8c430a1508c4ef6987f5326485c40e",
   "processed": [
-    {
-      "id": "SEO-383",
-      "draft": "_factory/inbox/SEO-383.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-for-long-bien-riding-selection-guide/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2193,
-      "title_length": 73,
-      "seo_score": 95
-    },
     {
       "id": "SEO-384",
       "draft": "_factory/inbox/SEO-384.article",
       "output": "hanoi-scooter-rental/automatic-scooter-for-long-bien-riding-checks-and-mistakes/index.html",
-      "status": "REPAIR",
-      "errors": [
-        "broken internal link: /hanoi-scooter-rental/automatic-scooter-in-rain-checks-and-mistake\ns/"
-      ],
-      "warnings": [],
-      "word_count": 2141,
-      "title_length": 70,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-385",
-      "draft": "_factory/inbox/SEO-385.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-for-west-lake-riding-selection-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2105,
-      "title_length": 73,
+      "word_count": 2133,
+      "title_length": 70,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-383",
-    "SEO-385"
-  ],
-  "repair_ids": [
     "SEO-384"
   ],
+  "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 379,
-    "planned": 611,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 621,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 381,
@@ -71,10 +33,20 @@
     "remaining_to_target": 619,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 382,
+    "planned": 608,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 618,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-328",
-    "SEO-384",
     "SEO-386",
     "SEO-387",
     "SEO-388",
@@ -82,6 +54,7 @@
     "SEO-390",
     "SEO-391",
     "SEO-392",
-    "SEO-393"
+    "SEO-393",
+    "SEO-394"
   ]
 }
