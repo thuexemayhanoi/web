@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:20:27.724Z",
-  "finished": "2026-10-07T06:20:27.897Z",
-  "base_commit": "2acf6e835e4b4d7e0bbf6399088ed2ef70fe095c",
+  "started": "2026-10-07T06:20:56.810Z",
+  "finished": "2026-10-07T06:20:56.983Z",
+  "base_commit": "c1883a4afd3bf814a1cc51e1221b40ac344f029d",
   "processed": [
     {
-      "id": "SEO-454",
-      "draft": "_factory/inbox/SEO-454.article",
-      "output": "hanoi-motorbike-rental-cost/honda-click-weekly-price/index.html",
+      "id": "SEO-455",
+      "draft": "_factory/inbox/SEO-455.article",
+      "output": "hanoi-motorbike-rental-cost/honda-click-monthly-price/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1752,
-      "title_length": 61,
+      "word_count": 1731,
+      "title_length": 62,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-454"
+    "SEO-455"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 443,
-    "planned": 547,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 557,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 444,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 556,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 445,
+    "planned": 545,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 555,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -54,7 +54,7 @@
     "SEO-447",
     "SEO-449",
     "SEO-452",
-    "SEO-455",
-    "SEO-456"
+    "SEO-456",
+    "SEO-457"
   ]
 }
