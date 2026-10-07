@@ -1,65 +1,60 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:17:26.150Z",
-  "finished": "2026-10-07T03:17:26.259Z",
-  "base_commit": "c6c5750095c34bc1671139c1c278ec08b4b9f48c",
+  "started": "2026-10-07T03:18:07.691Z",
+  "finished": "2026-10-07T03:18:07.915Z",
+  "base_commit": "5aebe1aab46f9fca26e06565021970eff36fcc16",
   "processed": [
     {
-      "id": "SEO-167",
-      "draft": "_factory/inbox/SEO-167.article",
-      "output": null,
-      "status": "REJECTED",
+      "id": "SEO-170",
+      "draft": "_factory/inbox/SEO-170.article",
+      "output": "hanoi-motorbike-rental/new-riders-traffic-preparation/index.html",
+      "status": "REPAIR",
       "errors": [
-        "Matrix status not writable: PUBLISHED"
+        "broken internal link: /hanoi-motorbike-rental/new-riders-parking-strategy/",
+        "broken internal link: /hanoi-motorbike-rental/new-riders-route-planning/",
+        "broken internal link: /hanoi-motorbike-rental/new-riders-rainy-day-planning/"
       ],
       "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
+      "word_count": 1846,
+      "title_length": 58,
+      "seo_score": 100
     },
     {
-      "id": "SEO-168",
-      "draft": "_factory/inbox/SEO-168.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-169",
-      "draft": "_factory/inbox/SEO-169.article",
-      "output": "hanoi-motorbike-rental/new-riders-return-checklist/index.html",
+      "id": "SEO-171",
+      "draft": "_factory/inbox/SEO-171.article",
+      "output": "hanoi-motorbike-rental/new-riders-parking-strategy/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1759,
+      "word_count": 1815,
       "title_length": 55,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-172",
+      "draft": "_factory/inbox/SEO-172.article",
+      "output": "hanoi-motorbike-rental/new-riders-rainy-day-planning/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "broken internal link: /hanoi-motorbike-rental/new-riders-traffic-preparation/",
+        "broken internal link: /hanoi-motorbike-rental/new-riders-route-planning/"
+      ],
+      "warnings": [],
+      "word_count": 1876,
+      "title_length": 57,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-169"
+    "SEO-171"
   ],
-  "repair_ids": [],
+  "repair_ids": [
+    "SEO-170",
+    "SEO-172"
+  ],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 166,
-    "planned": 824,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 834,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 167,
@@ -70,10 +65,20 @@
     "remaining_to_target": 833,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 168,
+    "planned": 822,
+    "writing": 8,
+    "repair": 2,
+    "blocked": 0,
+    "remaining_to_target": 832,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-170",
-    "SEO-171",
     "SEO-172",
     "SEO-173",
     "SEO-174",
@@ -81,6 +86,7 @@
     "SEO-176",
     "SEO-177",
     "SEO-178",
-    "SEO-179"
+    "SEO-179",
+    "SEO-180"
   ]
 }
