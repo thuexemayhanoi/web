@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T04:53:00.702Z",
+  "generated_at": "2026-10-07T04:54:26.355Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 302,
-  "remaining_to_target": 698,
+  "current_published_content_pages": 304,
+  "remaining_to_target": 696,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -80,56 +80,6 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-287.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-308",
-      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/city-commuters-rainy-weather/",
-      "path": "hanoi-50cc-motorbike-rental/city-commuters-rainy-weather/index.html",
-      "silo": "50cc Motorbike Rental",
-      "hub": "50cc Motorbike Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "50cc motorbike hanoi city commuters rainy weather",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "City Commuters: 50cc in Rainy Weather for 50cc Rental in Hanoi",
-      "content_brief": "50cc cluster for city commuters, focused on wet-weather visibility, braking and route planning for small-displacement riders. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
-      "internal_link_targets": [
-        "/hanoi-50cc-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-308.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-309",
-      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/city-commuters-daily-rental-planning/",
-      "path": "hanoi-50cc-motorbike-rental/city-commuters-daily-rental-planning/index.html",
-      "silo": "50cc Motorbike Rental",
-      "hub": "50cc Motorbike Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "50cc motorbike hanoi city commuters daily rental planning",
-      "intent": "Commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "City Commuters: 50cc Daily Rental Planning for 50cc Rental in Hanoi",
-      "content_brief": "50cc cluster for city commuters, focused on using the verified 200,000 VND daily price in a practical one-day rental plan without inventing weekly or monthly rates. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
-      "internal_link_targets": [
-        "/hanoi-50cc-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-309.article",
       "template": "site/templates/article.html"
     },
     {
@@ -255,6 +205,56 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-314.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-315",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/budget-travelers-bridges-and-inclines/",
+      "path": "hanoi-50cc-motorbike-rental/budget-travelers-bridges-and-inclines/index.html",
+      "silo": "50cc Motorbike Rental",
+      "hub": "50cc Motorbike Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "50cc motorbike hanoi budget travelers bridges and inclines",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Budget Travelers: 50cc on Bridges and Inclines for 50cc Rental in Hanoi",
+      "content_brief": "50cc cluster for budget travelers, focused on planning for bridges, inclines, load and speed expectations without inventing performance specifications. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
+      "internal_link_targets": [
+        "/hanoi-50cc-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-315.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-316",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/budget-travelers-passenger-use/",
+      "path": "hanoi-50cc-motorbike-rental/budget-travelers-passenger-use/index.html",
+      "silo": "50cc Motorbike Rental",
+      "hub": "50cc Motorbike Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "50cc motorbike hanoi budget travelers passenger use",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Budget Travelers: 50cc With a Passenger for 50cc Rental in Hanoi",
+      "content_brief": "50cc cluster for budget travelers, focused on two-up planning, load awareness and when a larger bike may be the more practical question to ask. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
+      "internal_link_targets": [
+        "/hanoi-50cc-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-316.article",
       "template": "site/templates/article.html"
     }
   ]
