@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T03:41:15.280Z",
+  "generated_at": "2026-10-07T03:41:36.851Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 196,
-  "remaining_to_target": 804,
+  "current_published_content_pages": 197,
+  "remaining_to_target": 803,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-199",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-luggage-rainy-day-planning/",
-      "path": "hanoi-motorbike-rental/riders-with-luggage-rainy-day-planning/index.html",
-      "silo": "Hanoi Motorbike Rental",
-      "hub": "Hanoi Motorbike Rental Guide",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi motorbike rental riders with luggage rainy-day planning",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Riders With Luggage: Rainy-Day Planning for Hanoi Motorbike Rental",
-      "content_brief": "Audience-specific Hanoi rental cluster for riders with luggage, focused strictly on rental planning for wet conditions, visibility, traction and gear choices without live-weather claims. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-199.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-200",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-luggage-route-planning/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-208.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-209",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-a-passenger-route-planning/",
+      "path": "hanoi-motorbike-rental/riders-with-a-passenger-route-planning/index.html",
+      "silo": "Hanoi Motorbike Rental",
+      "hub": "Hanoi Motorbike Rental Guide",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi motorbike rental riders with a passenger route planning",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Riders With A Passenger: Route Planning for Hanoi Motorbike Rental",
+      "content_brief": "Audience-specific Hanoi rental cluster for riders with a passenger, focused strictly on building realistic city routes around experience, luggage and time while avoiding fabricated travel times. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-209.article",
       "template": "site/templates/article.html"
     }
   ]
