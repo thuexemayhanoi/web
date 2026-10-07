@@ -1,51 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:14:16.642Z",
-  "finished": "2026-10-07T04:14:16.815Z",
-  "base_commit": "4a68cab96e4cff82c4d57407821a4f55d8b5a8b1",
+  "started": "2026-10-07T04:15:04.402Z",
+  "finished": "2026-10-07T04:15:04.546Z",
+  "base_commit": "a9ce941c24a98eccd2928ee7b9957f675875eeba",
   "processed": [
     {
-      "id": "SEO-253",
-      "draft": "_factory/inbox/SEO-253.article",
-      "output": "hanoi-50cc-motorbike-rental/expats-passenger-use/index.html",
+      "id": "SEO-249",
+      "draft": "_factory/inbox/SEO-249.article",
+      "output": "hanoi-50cc-motorbike-rental/expats-city-traffic/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1975,
-      "title_length": 54,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-254",
-      "draft": "_factory/inbox/SEO-254.article",
-      "output": "hanoi-50cc-motorbike-rental/expats-rainy-weather/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1968,
-      "title_length": 54,
+      "word_count": 2346,
+      "title_length": 53,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-253",
-    "SEO-254"
+    "SEO-249"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 244,
-    "planned": 746,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 756,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 246,
@@ -56,17 +33,28 @@
     "remaining_to_target": 754,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 247,
+    "planned": 743,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 753,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-240",
     "SEO-243",
-    "SEO-249",
     "SEO-250",
     "SEO-251",
     "SEO-252",
     "SEO-255",
     "SEO-256",
     "SEO-257",
-    "SEO-258"
+    "SEO-258",
+    "SEO-259"
   ]
 }
