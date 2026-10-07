@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:58:49.822Z",
-  "finished": "2026-10-07T05:58:49.988Z",
-  "base_commit": "c8c5ef5e0eb0f24ac9f21524058bd15abcac7c8f",
+  "started": "2026-10-07T06:00:16.454Z",
+  "finished": "2026-10-07T06:00:16.627Z",
+  "base_commit": "90feaa5602656b9ff10b7065842d20cfc61df2bc",
   "processed": [
     {
-      "id": "SEO-414",
-      "draft": "_factory/inbox/SEO-414.article",
-      "output": "hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-checks-and-mistakes/index.html",
+      "id": "SEO-424",
+      "draft": "_factory/inbox/SEO-424.article",
+      "output": "hanoi-scooter-rental/small-scooter-vs-larger-scooter-checks-and-mistakes/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1601,
-      "title_length": 67,
+      "word_count": 1602,
+      "title_length": 69,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-414"
+    "SEO-424"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 416,
-    "planned": 574,
-    "writing": 9,
-    "repair": 1,
-    "blocked": 0,
-    "remaining_to_target": 584,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 417,
@@ -44,17 +33,28 @@
     "remaining_to_target": 583,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 418,
+    "planned": 572,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 582,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-420",
     "SEO-421",
     "SEO-422",
     "SEO-423",
-    "SEO-424",
     "SEO-425",
     "SEO-426",
     "SEO-427",
     "SEO-428",
-    "SEO-429"
+    "SEO-429",
+    "SEO-430"
   ]
 }
