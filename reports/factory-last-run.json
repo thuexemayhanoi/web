@@ -1,51 +1,25 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:34:50.376Z",
-  "finished": "2026-10-07T22:34:50.710Z",
-  "base_commit": null,
-  "processed": [
-    {
-      "id": "SEO-911",
-      "draft": "_factory/inbox/SEO-911.article",
-      "output": "hanoi-motorbike-for-sale/budget-travelers-paperwork-questions/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2015,
-      "title_length": 68,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-912",
-      "draft": "_factory/inbox/SEO-912.article",
-      "output": "hanoi-motorbike-for-sale/budget-travelers-break-even-thinking/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1989,
-      "title_length": 58,
-      "seo_score": 95
-    }
-  ],
-  "published_ids": [
-    "SEO-911",
-    "SEO-912"
-  ],
+  "started": "2026-10-07T22:35:14.189Z",
+  "finished": "2026-10-07T22:35:14.259Z",
+  "base_commit": "50f127ac6a589a7a45fd9c07f33c8393e5589cd5",
+  "processed": [],
+  "published_ids": [],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [
-    "_factory/inbox/SEO-910.article"
+    "_factory/inbox/SEO-912.article"
   ],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 908,
-    "planned": 82,
+    "published": 910,
+    "planned": 80,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 92,
+    "remaining_to_target": 90,
     "unplanned_slots": 0
   },
   "stats_after": {
