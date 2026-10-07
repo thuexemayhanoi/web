@@ -1,51 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:11:39.871Z",
-  "finished": "2026-10-07T04:11:39.976Z",
-  "base_commit": "716d085ad8c58fd7aea207449bb386b6b283ac40",
+  "started": "2026-10-07T04:12:48.070Z",
+  "finished": "2026-10-07T04:12:48.219Z",
+  "base_commit": "b64182ae771c246d67545930d1b6935f59aaa30c",
   "processed": [
     {
-      "id": "SEO-246",
-      "draft": "_factory/inbox/SEO-246.article",
-      "output": "hanoi-50cc-motorbike-rental/students-daily-rental-planning/index.html",
+      "id": "SEO-248",
+      "draft": "_factory/inbox/SEO-248.article",
+      "output": "hanoi-50cc-motorbike-rental/expats-choosing-a-50cc/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1996,
-      "title_length": 61,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-247",
-      "draft": "_factory/inbox/SEO-247.article",
-      "output": "hanoi-50cc-motorbike-rental/students-vs-automatic-scooter/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1973,
-      "title_length": 60,
+      "word_count": 2071,
+      "title_length": 53,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-246",
-    "SEO-247"
+    "SEO-248"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 239,
-    "planned": 751,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 761,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 241,
@@ -56,17 +33,28 @@
     "remaining_to_target": 759,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 242,
+    "planned": 748,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 758,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-240",
     "SEO-241",
     "SEO-242",
     "SEO-243",
-    "SEO-248",
     "SEO-249",
     "SEO-250",
     "SEO-251",
     "SEO-252",
-    "SEO-253"
+    "SEO-253",
+    "SEO-254"
   ]
 }
