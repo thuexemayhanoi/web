@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T20:17:31.857Z",
-  "finished": "2026-10-07T20:17:32.030Z",
-  "base_commit": "2e294a40a53db1b3969d0fd5877f5d7a4c2e1f74",
+  "started": "2026-10-07T20:18:04.747Z",
+  "finished": "2026-10-07T20:18:04.867Z",
+  "base_commit": "580cd63a87bfe837a892a230b769b875f2bca89f",
   "processed": [
     {
-      "id": "SEO-766",
-      "draft": "_factory/inbox/SEO-766.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-moc-chau-luggage-packing/index.html",
+      "id": "SEO-767",
+      "draft": "_factory/inbox/SEO-767.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-moc-chau-safety-checklist/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2123,
-      "title_length": 53,
+      "word_count": 2209,
+      "title_length": 72,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-766"
+    "SEO-767"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 763,
-    "planned": 227,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 237,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 764,
@@ -45,9 +34,19 @@
     "remaining_to_target": 236,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 765,
+    "planned": 225,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 235,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-767",
     "SEO-768",
     "SEO-769",
     "SEO-770",
@@ -56,6 +55,7 @@
     "SEO-773",
     "SEO-774",
     "SEO-775",
-    "SEO-776"
+    "SEO-776",
+    "SEO-777"
   ]
 }
