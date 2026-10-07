@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T08:28:51.837Z",
-  "finished": "2026-10-07T08:28:52.031Z",
-  "base_commit": "e6e340bdfa32102867dde22f65e7a54a3588fa7d",
+  "started": "2026-10-07T08:30:27.906Z",
+  "finished": "2026-10-07T08:30:28.126Z",
+  "base_commit": "e68175d3e535690f5f39cf23143376de571d9da4",
   "processed": [
     {
-      "id": "SEO-555",
-      "draft": "_factory/inbox/SEO-555.article",
-      "output": "motorbike-rental-hanoi-old-quarter/cau-giay-rental-planning/index.html",
+      "id": "SEO-556",
+      "draft": "_factory/inbox/SEO-556.article",
+      "output": "motorbike-rental-hanoi-old-quarter/cau-giay-parking-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2522,
-      "title_length": 57,
+      "word_count": 2502,
+      "title_length": 55,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-555"
+    "SEO-556"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 552,
-    "planned": 438,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 448,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 553,
@@ -44,9 +33,19 @@
     "remaining_to_target": 447,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 554,
+    "planned": 436,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 446,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-556",
     "SEO-557",
     "SEO-558",
     "SEO-559",
@@ -55,6 +54,7 @@
     "SEO-562",
     "SEO-563",
     "SEO-564",
-    "SEO-565"
+    "SEO-565",
+    "SEO-566"
   ]
 }
