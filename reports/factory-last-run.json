@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:18:22.416Z",
-  "finished": "2026-10-07T04:18:22.533Z",
-  "base_commit": "60feaae28ad2e0e43a7608e1752c5ddcdf1183fa",
+  "started": "2026-10-07T04:19:19.236Z",
+  "finished": "2026-10-07T04:19:19.375Z",
+  "base_commit": "f99ab956d0d8dff58328b2fe8d14ab039fffc964",
   "processed": [
     {
-      "id": "SEO-256",
-      "draft": "_factory/inbox/SEO-256.article",
-      "output": "hanoi-50cc-motorbike-rental/expats-vs-automatic-scooter/index.html",
+      "id": "SEO-259",
+      "draft": "_factory/inbox/SEO-259.article",
+      "output": "hanoi-50cc-motorbike-rental/short-riders-parking/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2360,
-      "title_length": 58,
+      "word_count": 1905,
+      "title_length": 51,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-256"
+    "SEO-259"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 251,
-    "planned": 739,
-    "writing": 9,
-    "repair": 1,
-    "blocked": 0,
-    "remaining_to_target": 749,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 252,
@@ -44,17 +33,28 @@
     "remaining_to_target": 748,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 253,
+    "planned": 737,
+    "writing": 9,
+    "repair": 1,
+    "blocked": 0,
+    "remaining_to_target": 747,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-240",
     "SEO-243",
     "SEO-252",
     "SEO-257",
-    "SEO-259",
     "SEO-260",
     "SEO-261",
     "SEO-262",
     "SEO-263",
-    "SEO-264"
+    "SEO-264",
+    "SEO-265"
   ]
 }
