@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:16:25.633Z",
-  "finished": "2026-10-07T03:16:25.737Z",
-  "base_commit": "abc5021b7c865b313f2373d19d1024076b3ac2c9",
+  "started": "2026-10-07T03:16:44.743Z",
+  "finished": "2026-10-07T03:16:44.874Z",
+  "base_commit": "c1ea7a312d8d2c3daca7059c22f96361c06176fa",
   "processed": [
     {
-      "id": "SEO-167",
-      "draft": "_factory/inbox/SEO-167.article",
-      "output": "hanoi-motorbike-rental/new-riders-rental-paperwork-questions/index.html",
+      "id": "SEO-168",
+      "draft": "_factory/inbox/SEO-168.article",
+      "output": "hanoi-motorbike-rental/new-riders-pickup-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2294,
-      "title_length": 65,
+      "word_count": 2324,
+      "title_length": 54,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-167"
+    "SEO-168"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 164,
-    "planned": 826,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 836,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 165,
@@ -44,9 +33,19 @@
     "remaining_to_target": 835,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 166,
+    "planned": 824,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 834,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-168",
     "SEO-169",
     "SEO-170",
     "SEO-171",
@@ -55,6 +54,7 @@
     "SEO-174",
     "SEO-175",
     "SEO-176",
-    "SEO-177"
+    "SEO-177",
+    "SEO-178"
   ]
 }
