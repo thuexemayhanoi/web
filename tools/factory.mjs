@@ -273,7 +273,8 @@ function processDrafts(before,after){
     const id=path.basename(draftPath,cfg.draft_extension),row=m.rows.find(r=>r.id===id);
     const item={id,draft:draftPath,output:null,status:null,errors:[],warnings:[],word_count:0,title_length:0,seo_score:0};
     if(!row){item.status='REJECTED';item.errors.push('ID not found in Matrix');report.processed.push(item);continue;}
-    if(isExcluded(row)||!['PLANNED','WRITING','REPAIR'].includes(row.factory_status)){item.status='REJECTED';item.errors.push('Matrix status not writable: '+row.factory_status);report.processed.push(item);continue;}
+    // An explicitly updated draft can recover from BLOCKED, but must pass every unchanged QA gate.
+    if(isExcluded(row)||!['PLANNED','WRITING','REPAIR','BLOCKED'].includes(row.factory_status)){item.status='REJECTED';item.errors.push('Matrix status not writable: '+row.factory_status);report.processed.push(item);continue;}
     const html=normalizeDraft(read(draftPath),row),qa=validateDraft(html,row,m);
     item.errors=qa.errors;item.warnings=qa.warnings;item.word_count=qa.word_count;item.title_length=qa.title_length;item.seo_score=qa.seo_score;item.output=row.path;
     row.actual_word_count=String(qa.word_count);
