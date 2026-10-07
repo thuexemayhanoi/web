@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "blocked": true,
+  "enabled": true,
+  "blocked": false,
   "target_reached": false,
   "last_successful_id": "SEO-864",
-  "last_error": "BLOCKED: SEO-863,SEO-865,SEO-866,SEO-867",
-  "last_run": "2026-10-07T22:09:01.530Z"
+  "last_error": null,
+  "last_run": "2026-10-07T22:10:09.794Z"
 }
