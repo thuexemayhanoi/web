@@ -236,23 +236,36 @@ function validateDraft(html,row,matrix){
     seo_score:score,title_unique:titleUnique,url_unique:urlUnique
   };
 }
-function changedDrafts(before,after){
-  let list=[];
-  try{
-    if(before&&after&&before!=='0000000000000000000000000000000000000000'){
-      const out=execFileSync('git',['diff','--name-status',before,after,'--',cfg.inbox_dir],{encoding:'utf8'});
-      for(const line of out.split(/\r?\n/)){
-        if(!line.trim())continue;
-        const parts=line.split('\t'),status=parts[0],p=parts[parts.length-1];
-        if((status.startsWith('A')||status.startsWith('M'))&&p.endsWith(cfg.draft_extension))list.push(p);
-      }
-    }
-  }catch{}
-  if(!list.length){
-    const dir=path.join(ROOT,cfg.inbox_dir);
-    if(fs.existsSync(dir))list=fs.readdirSync(dir).filter(n=>n.endsWith(cfg.draft_extension)).map(n=>cfg.inbox_dir+'/'+n);
-  }
-  return [...new Set(list)].slice(0,cfg.batch_size);
+function inboxArticleFiles(){
+  const dir=path.join(ROOT,cfg.inbox_dir);
+  if(!fs.existsSync(dir))return [];
+  return fs.readdirSync(dir)
+    .filter(n=>n.endsWith(cfg.draft_extension))
+    .map(n=>cfg.inbox_dir+'/'+n);
+}
+function draftId(draftPath){return path.basename(draftPath,cfg.draft_extension);}
+function isWritableDraftRow(row){
+  return !!row&&!isExcluded(row)&&['PLANNED','WRITING','REPAIR','BLOCKED'].includes(row.factory_status);
+}
+function candidateDrafts(matrix){
+  const order=new Map(matrix.rows.map((r,i)=>[r.id,i]));
+  return inboxArticleFiles()
+    .map(p=>({path:p,id:draftId(p),row:matrix.rows.find(r=>r.id===draftId(p))}))
+    .filter(x=>isWritableDraftRow(x.row))
+    .sort((a,b)=>(order.get(a.id)??Number.MAX_SAFE_INTEGER)-(order.get(b.id)??Number.MAX_SAFE_INTEGER)||a.path.localeCompare(b.path))
+    .slice(0,cfg.batch_size)
+    .map(x=>x.path);
+}
+function stalePublishedDrafts(matrix){
+  return inboxArticleFiles().filter(draftPath=>{
+    const row=matrix.rows.find(r=>r.id===draftId(draftPath));
+    return !!row&&row.factory_status==='PUBLISHED'&&row.path&&fs.existsSync(path.join(ROOT,row.path));
+  });
+}
+function prunePublishedDrafts(matrix){
+  const stale=stalePublishedDrafts(matrix);
+  for(const draftPath of stale)fs.unlinkSync(path.join(ROOT,draftPath));
+  return stale;
 }
 function appendSitemap(urls){
   if(!urls.length)return;
@@ -264,12 +277,15 @@ function appendSitemap(urls){
 }
 function processDrafts(before,after){
   const m=loadMatrix(),state=loadState(),beforeStats=stats(m);
-  const report={schema_version:1,started:now(),finished:null,base_commit:after||null,processed:[],published_ids:[],repair_ids:[],blocked_ids:[],fatal:null,stats_before:beforeStats,stats_after:null};
+  const report={schema_version:1,started:now(),finished:null,base_commit:after||null,processed:[],published_ids:[],repair_ids:[],blocked_ids:[],pruned_stale_drafts:[],fatal:null,stats_before:beforeStats,stats_after:null};
   if(!state.enabled||state.blocked){
     report.fatal=state.blocked?'factory is BLOCKED':'factory is PAUSED';
     report.finished=now();report.stats_after=beforeStats;write(cfg.report_path,JSON.stringify(report,null,2)+'\n');writeQueue(m);return report;
   }
-  for(const draftPath of changedDrafts(before,after)){
+  // Recovery invariant: every run scans the whole inbox and processes the oldest
+  // writable Matrix rows first. A lost/queued push run therefore cannot orphan a draft.
+  report.pruned_stale_drafts=prunePublishedDrafts(m);
+  for(const draftPath of candidateDrafts(m)){
     const id=path.basename(draftPath,cfg.draft_extension),row=m.rows.find(r=>r.id===id);
     const item={id,draft:draftPath,output:null,status:null,errors:[],warnings:[],word_count:0,title_length:0,seo_score:0};
     if(!row){item.status='REJECTED';item.errors.push('ID not found in Matrix');report.processed.push(item);continue;}
@@ -322,7 +338,11 @@ function setPaused(paused){
 }
 function status(){
   const m=loadMatrix(),s=stats(m),state=loadState(),q=queuePayload(m);
-  console.log(JSON.stringify({...s,enabled:state.enabled,blocked:state.blocked,target_reached:state.target_reached,last_successful_id:state.last_successful_id,queue_status:q.status,queue_ids:q.queue.map(x=>x.id)},null,2));
+  console.log(JSON.stringify({...s,enabled:state.enabled,blocked:state.blocked,target_reached:state.target_reached,last_successful_id:state.last_successful_id,queue_status:q.status,queue_ids:q.queue.map(x=>x.id),pending_inbox_drafts:candidateDrafts(m).length,stale_published_drafts:stalePublishedDrafts(m).length},null,2));
+}
+function pendingCount(){
+  const m=loadMatrix();
+  console.log(String(candidateDrafts(m).length+stalePublishedDrafts(m).length));
 }
 function publishedCount(){try{const rep=JSON.parse(read(cfg.report_path));console.log(String((rep.published_ids||[]).length));}catch{console.log('0');}}
 function assertNotBlocked(){const s=loadState();if(s.blocked){console.error('FACTORY BLOCKED: '+(s.last_error||'manual review required'));process.exit(1);}}
@@ -336,7 +356,8 @@ switch(cmd){
   case 'resume':setPaused(false);break;
   case 'status':status();break;
   case 'verify-last':verifyLast();break;
+  case 'pending-count':pendingCount();break;
   case 'published-count':publishedCount();break;
   case 'assert-not-blocked':assertNotBlocked();break;
-  default:console.log('Usage: node tools/factory.mjs <process|refresh-queue|pause|resume|status|verify-last|published-count|assert-not-blocked>');process.exit(cmd?2:0);
+  default:console.log('Usage: node tools/factory.mjs <process|refresh-queue|pause|resume|status|verify-last|pending-count|published-count|assert-not-blocked>');process.exit(cmd?2:0);
 }

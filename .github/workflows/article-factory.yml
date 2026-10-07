@@ -5,6 +5,12 @@ on:
     branches: [main]
     paths:
       - '_factory/inbox/**'
+      - 'tools/factory.mjs'
+      - '.github/workflows/article-factory.yml'
+  schedule:
+    # Recovery watchdog for lost or permanently queued push-triggered runs.
+    # Offset from :00 to reduce scheduler congestion.
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
     inputs:
       action:
@@ -67,9 +73,19 @@ jobs:
         if: steps.control.outputs.action == 'status'
         run: node tools/factory.mjs status
 
+      - name: Check recovery backlog
+        id: pending
+        if: steps.control.outputs.action == 'process'
+        shell: bash
+        run: |
+          node --check tools/factory.mjs
+          count="$(node tools/factory.mjs pending-count | tail -n 1)"
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          echo "Pending/recovery inbox files: $count"
+
       - name: Process inbox
         id: process
-        if: steps.control.outputs.action == 'process'
+        if: steps.control.outputs.action == 'process' && steps.pending.outputs.count != '0'
         shell: bash
         run: |
           node tools/factory.mjs process --before "${{ github.event.before }}" --after "${{ github.sha }}"
@@ -79,12 +95,12 @@ jobs:
           echo "published=$count" >> "$GITHUB_OUTPUT"
 
       - name: Build search index
-        if: steps.control.outputs.action == 'process' && steps.process.outputs.published != '0'
+        if: steps.control.outputs.action == 'process' && steps.pending.outputs.count != '0' && steps.process.outputs.published != '0'
         run: node tools/build-search-index.mjs
 
       - name: Commit factory results
         id: commit
-        if: steps.control.outputs.action != 'status'
+        if: steps.control.outputs.action != 'status' && (steps.control.outputs.action != 'process' || steps.pending.outputs.count != '0')
         shell: bash
         run: |
           set -e
