@@ -1,51 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:48:51.289Z",
-  "finished": "2026-10-07T04:48:51.422Z",
-  "base_commit": "034163e3bb4be31b7421ab9718d4161f92b69f42",
+  "started": "2026-10-07T04:49:58.939Z",
+  "finished": "2026-10-07T04:49:59.131Z",
+  "base_commit": "58ecbf67ba095f4b5a595f650e1a03ef4ffae0ee",
   "processed": [
     {
-      "id": "SEO-300",
-      "draft": "_factory/inbox/SEO-300.article",
-      "output": "hanoi-50cc-motorbike-rental/couples-daily-rental-planning/index.html",
+      "id": "SEO-302",
+      "draft": "_factory/inbox/SEO-302.article",
+      "output": "hanoi-50cc-motorbike-rental/city-commuters-choosing-a-50cc/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1895,
-      "title_length": 60,
+      "word_count": 1950,
+      "title_length": 61,
       "seo_score": 95
     },
     {
-      "id": "SEO-301",
-      "draft": "_factory/inbox/SEO-301.article",
-      "output": "hanoi-50cc-motorbike-rental/couples-vs-automatic-scooter/index.html",
+      "id": "SEO-303",
+      "draft": "_factory/inbox/SEO-303.article",
+      "output": "hanoi-50cc-motorbike-rental/city-commuters-city-traffic/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1780,
-      "title_length": 59,
+      "word_count": 1871,
+      "title_length": 61,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-300",
-    "SEO-301"
+    "SEO-302",
+    "SEO-303"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 290,
-    "planned": 700,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 710,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 292,
@@ -54,6 +43,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 708,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 294,
+    "planned": 696,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 706,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -65,8 +65,8 @@
     "SEO-285",
     "SEO-286",
     "SEO-287",
-    "SEO-302",
-    "SEO-303",
-    "SEO-304"
+    "SEO-304",
+    "SEO-305",
+    "SEO-306"
   ]
 }
