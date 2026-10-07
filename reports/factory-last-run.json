@@ -1,51 +1,43 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:09:38.640Z",
-  "finished": "2026-10-07T05:09:38.780Z",
-  "base_commit": "5adc79e0c4a6846848831dd62351283d8d9a4c9a",
+  "started": "2026-10-07T05:10:19.595Z",
+  "finished": "2026-10-07T05:10:19.828Z",
+  "base_commit": "d11a1b15179a07ea68b7161cb45035a7bbc5c35e",
   "processed": [
     {
-      "id": "SEO-336",
-      "draft": "_factory/inbox/SEO-336.article",
-      "output": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-daily-rental-planning/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "SEO-329",
+      "draft": "_factory/inbox/SEO-329.article",
+      "output": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-choosing-a-50cc/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "broken internal link: /hanoi-50cc-motorbike-rental/first-time-visitors-c\nhoosing-a-50cc/"
+      ],
       "warnings": [],
-      "word_count": 2012,
-      "title_length": 62,
-      "seo_score": 95
+      "word_count": 2325,
+      "title_length": 72,
+      "seo_score": 100
     },
     {
-      "id": "SEO-337",
-      "draft": "_factory/inbox/SEO-337.article",
-      "output": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-vs-automatic-scooter/index.html",
+      "id": "SEO-330",
+      "draft": "_factory/inbox/SEO-330.article",
+      "output": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-city-traffic/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1944,
-      "title_length": 61,
-      "seo_score": 95
+      "word_count": 2342,
+      "title_length": 72,
+      "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-336",
-    "SEO-337"
+    "SEO-330"
   ],
-  "repair_ids": [],
+  "repair_ids": [
+    "SEO-329"
+  ],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 327,
-    "planned": 663,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 673,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 329,
@@ -56,17 +48,28 @@
     "remaining_to_target": 671,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 330,
+    "planned": 660,
+    "writing": 9,
+    "repair": 1,
+    "blocked": 0,
+    "remaining_to_target": 670,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-328",
     "SEO-329",
-    "SEO-330",
     "SEO-333",
     "SEO-334",
     "SEO-335",
     "SEO-338",
     "SEO-339",
     "SEO-340",
-    "SEO-341"
+    "SEO-341",
+    "SEO-342"
   ]
 }

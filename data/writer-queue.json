@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T05:09:38.779Z",
+  "generated_at": "2026-10-07T05:10:19.828Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 329,
-  "remaining_to_target": 671,
+  "current_published_content_pages": 330,
+  "remaining_to_target": 670,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -55,31 +55,6 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-329.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-330",
-      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/riders-with-light-luggage-city-traffic/",
-      "path": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-city-traffic/index.html",
-      "silo": "50cc Motorbike Rental",
-      "hub": "50cc Motorbike Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "50cc motorbike hanoi riders with light luggage city traffic",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Riders With Light Luggage: 50cc in City Traffic for 50cc Rental in Hanoi",
-      "content_brief": "50cc cluster for riders with light luggage, focused on what low-speed urban traffic changes for 50cc planning and confidence. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
-      "internal_link_targets": [
-        "/hanoi-50cc-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-330.article",
       "template": "site/templates/article.html"
     },
     {
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-341.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-342",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/short-stay-visitors-bridges-and-inclines/",
+      "path": "hanoi-50cc-motorbike-rental/short-stay-visitors-bridges-and-inclines/index.html",
+      "silo": "50cc Motorbike Rental",
+      "hub": "50cc Motorbike Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "50cc motorbike hanoi short-stay visitors bridges and inclines",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Short-stay Visitors: 50cc on Bridges and Inclines for 50cc Rental in Hanoi",
+      "content_brief": "50cc cluster for short-stay visitors, focused on planning for bridges, inclines, load and speed expectations without inventing performance specifications. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
+      "internal_link_targets": [
+        "/hanoi-50cc-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-342.article",
       "template": "site/templates/article.html"
     }
   ]
