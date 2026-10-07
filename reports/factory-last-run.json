@@ -1,27 +1,25 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:27:46.713Z",
-  "finished": "2026-10-07T22:27:47.481Z",
-  "base_commit": "6dcc24d375514892e5aae6f33db68b4837508e2e",
+  "started": "2026-10-07T22:28:06.979Z",
+  "finished": "2026-10-07T22:28:07.449Z",
+  "base_commit": null,
   "processed": [
     {
       "id": "SEO-898",
       "draft": "_factory/inbox/SEO-898.article",
       "output": "hanoi-motorbike-for-sale/occasional-riders-resale-planning/index.html",
-      "status": "REPAIR",
-      "errors": [
-        "word count 1427 outside 1500-5000"
-      ],
+      "status": "PUBLISHED",
+      "errors": [],
       "warnings": [],
-      "word_count": 1427,
+      "word_count": 1915,
       "title_length": 55,
-      "seo_score": 80
+      "seo_score": 95
     },
     {
       "id": "SEO-899",
       "draft": "_factory/inbox/SEO-899.article",
       "output": "hanoi-motorbike-for-sale/occasional-riders-paperwork-questions/index.html",
-      "status": "REPAIR",
+      "status": "BLOCKED",
       "errors": [
         "word count 1392 outside 1500-5000"
       ],
@@ -34,7 +32,7 @@
       "id": "SEO-900",
       "draft": "_factory/inbox/SEO-900.article",
       "output": "hanoi-motorbike-for-sale/occasional-riders-break-even-thinking/index.html",
-      "status": "REPAIR",
+      "status": "BLOCKED",
       "errors": [
         "word count 1407 outside 1500-5000"
       ],
@@ -47,7 +45,7 @@
       "id": "SEO-901",
       "draft": "_factory/inbox/SEO-901.article",
       "output": "hanoi-motorbike-for-sale/first-time-residents-rent-vs-buy-decision/index.html",
-      "status": "REPAIR",
+      "status": "BLOCKED",
       "errors": [
         "word count 1376 outside 1500-5000"
       ],
@@ -60,7 +58,7 @@
       "id": "SEO-902",
       "draft": "_factory/inbox/SEO-902.article",
       "output": "hanoi-motorbike-for-sale/first-time-residents-used-bike-inspection/index.html",
-      "status": "REPAIR",
+      "status": "BLOCKED",
       "errors": [
         "word count 1396 outside 1500-5000"
       ],
@@ -70,29 +68,21 @@
       "seo_score": 80
     }
   ],
-  "published_ids": [],
-  "repair_ids": [
-    "SEO-898",
+  "published_ids": [
+    "SEO-898"
+  ],
+  "repair_ids": [],
+  "blocked_ids": [
     "SEO-899",
     "SEO-900",
     "SEO-901",
     "SEO-902"
   ],
-  "blocked_ids": [],
-  "pruned_stale_drafts": [],
+  "pruned_stale_drafts": [
+    "_factory/inbox/SEO-897.article"
+  ],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 895,
-    "planned": 95,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 105,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 895,
@@ -103,13 +93,19 @@
     "remaining_to_target": 105,
     "unplanned_slots": 0
   },
-  "queue_status": "READY",
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 896,
+    "planned": 95,
+    "writing": 5,
+    "repair": 0,
+    "blocked": 4,
+    "remaining_to_target": 104,
+    "unplanned_slots": 0
+  },
+  "queue_status": "BLOCKED",
   "next_queue": [
-    "SEO-898",
-    "SEO-899",
-    "SEO-900",
-    "SEO-901",
-    "SEO-902",
     "SEO-903",
     "SEO-904",
     "SEO-905",
