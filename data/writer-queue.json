@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T06:34:46.852Z",
+  "generated_at": "2026-10-07T06:35:49.128Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 464,
-  "remaining_to_target": 536,
+  "current_published_content_pages": 465,
+  "remaining_to_target": 535,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -233,28 +233,28 @@
       "template": "site/templates/article.html"
     },
     {
-      "id": "SEO-476",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/automatic-scooter-short-vs-long-term-cost/",
-      "path": "hanoi-motorbike-rental-cost/automatic-scooter-short-vs-long-term-cost/index.html",
+      "id": "SEO-477",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/semi-automatic-motorbike-daily-price/",
+      "path": "hanoi-motorbike-rental-cost/semi-automatic-motorbike-daily-price/index.html",
       "silo": "Pricing",
       "hub": "Rental Cost & Prices",
       "content_role": "CLUSTER",
-      "primary_keyword": "automatic scooter rental short vs long term cost hanoi",
+      "primary_keyword": "semi-automatic motorbike rental daily price hanoi",
       "intent": "Commercial investigation",
       "target_min_words": 1500,
       "target_max_words": 5000,
       "title_min_chars": 50,
       "title_max_chars": 75,
       "seo_score_min": 75,
-      "working_title": "Automatic Scooter Short vs Long-Term Rental Cost in Hanoi: Cost Planning",
-      "content_brief": "Pricing cluster for Automatic Scooter focused on short vs long-term rental cost. Use only the verified prices available on the site; if a period has no verified figure, explicitly direct readers to contact rather than estimating.",
+      "working_title": "Semi-Automatic Motorbike Daily Rental Price in Hanoi: Cost Planning Guide",
+      "content_brief": "Pricing cluster for Semi-Automatic Motorbike focused on daily rental price. Use only the verified prices available on the site; if a period has no verified figure, explicitly direct readers to contact rather than estimating.",
       "internal_link_targets": [
         "/hanoi-motorbike-rental-cost/",
         "/hanoi-motorbike-rental/",
         "/faq/"
       ],
       "source_policy": "VERIFIED_BUSINESS_ONLY",
-      "draft_file": "_factory/inbox/SEO-476.article",
+      "draft_file": "_factory/inbox/SEO-477.article",
       "template": "site/templates/article.html"
     }
   ]
