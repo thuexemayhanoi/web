@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T04:00:17.907Z",
+  "generated_at": "2026-10-07T04:01:23.749Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 221,
-  "remaining_to_target": 779,
+  "current_published_content_pages": 222,
+  "remaining_to_target": 778,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-222",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/photography-travelers-pickup-planning/",
-      "path": "hanoi-motorbike-rental/photography-travelers-pickup-planning/index.html",
-      "silo": "Hanoi Motorbike Rental",
-      "hub": "Hanoi Motorbike Rental Guide",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi motorbike rental photography travelers pickup planning",
-      "intent": "Informational / Commercial assist",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Photography Travelers: Pickup Planning for Hanoi Motorbike Rental",
-      "content_brief": "Audience-specific Hanoi rental cluster for photography travelers, focused strictly on planning the visit to the verified Long Bien shop address without promising delivery or unverified pickup arrangements. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-222.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-223",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/photography-travelers-return-checklist/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-233.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-234",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-bridges-and-inclines/",
+      "path": "hanoi-50cc-motorbike-rental/beginners-bridges-and-inclines/index.html",
+      "silo": "50cc Motorbike Rental",
+      "hub": "50cc Motorbike Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "50cc motorbike hanoi beginners bridges and inclines",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Beginners: 50cc on Bridges and Inclines for 50cc Rental in Hanoi",
+      "content_brief": "50cc cluster for beginners, focused on planning for bridges, inclines, load and speed expectations without inventing performance specifications. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
+      "internal_link_targets": [
+        "/hanoi-50cc-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-234.article",
       "template": "site/templates/article.html"
     }
   ]
