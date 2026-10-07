@@ -1,52 +1,58 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:18:40.044Z",
-  "finished": "2026-10-07T22:18:40.288Z",
+  "started": "2026-10-07T22:19:20.702Z",
+  "finished": "2026-10-07T22:19:21.094Z",
   "base_commit": null,
   "processed": [
     {
-      "id": "SEO-873",
-      "draft": "_factory/inbox/SEO-873.article",
-      "output": "hanoi-motorbike-for-sale/project-workers-ownership-costs/index.html",
+      "id": "SEO-875",
+      "draft": "_factory/inbox/SEO-875.article",
+      "output": "hanoi-motorbike-for-sale/project-workers-paperwork-questions/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1966,
-      "title_length": 61,
+      "word_count": 2011,
+      "title_length": 67,
       "seo_score": 95
     },
     {
-      "id": "SEO-874",
-      "draft": "_factory/inbox/SEO-874.article",
-      "output": "hanoi-motorbike-for-sale/project-workers-resale-planning/index.html",
+      "id": "SEO-876",
+      "draft": "_factory/inbox/SEO-876.article",
+      "output": "hanoi-motorbike-for-sale/project-workers-break-even-thinking/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1916,
-      "title_length": 53,
+      "word_count": 2002,
+      "title_length": 57,
       "seo_score": 95
+    },
+    {
+      "id": "SEO-877",
+      "draft": "_factory/inbox/SEO-877.article",
+      "output": "hanoi-motorbike-for-sale/couples-rent-vs-buy-decision/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [
+        "meta description length 189 outside recommended 120-180"
+      ],
+      "word_count": 1640,
+      "title_length": 50,
+      "seo_score": 90
     }
   ],
   "published_ids": [
-    "SEO-873",
-    "SEO-874"
+    "SEO-875",
+    "SEO-876",
+    "SEO-877"
   ],
   "repair_ids": [],
   "blocked_ids": [],
-  "pruned_stale_drafts": [],
+  "pruned_stale_drafts": [
+    "_factory/inbox/SEO-873.article",
+    "_factory/inbox/SEO-874.article"
+  ],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 870,
-    "planned": 120,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 130,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 872,
@@ -57,17 +63,28 @@
     "remaining_to_target": 128,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 875,
+    "planned": 115,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 125,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-875",
-    "SEO-876",
-    "SEO-877",
     "SEO-878",
     "SEO-879",
     "SEO-880",
     "SEO-881",
     "SEO-882",
     "SEO-883",
-    "SEO-884"
+    "SEO-884",
+    "SEO-885",
+    "SEO-886",
+    "SEO-887"
   ]
 }
