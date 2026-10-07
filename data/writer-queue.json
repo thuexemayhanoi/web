@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T08:21:35.635Z",
+  "generated_at": "2026-10-07T08:22:45.574Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 544,
-  "remaining_to_target": 456,
+  "current_published_content_pages": 545,
+  "remaining_to_target": 455,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-547",
-      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/dong-da-traffic-guide/",
-      "path": "motorbike-rental-hanoi-old-quarter/dong-da-traffic-guide/index.html",
-      "silo": "Local Areas",
-      "hub": "Old Quarter & Areas",
-      "content_role": "CLUSTER",
-      "primary_keyword": "dong da hanoi motorbike traffic guide",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Dong Da by Motorbike: Motorbike Traffic Guide in Hanoi",
-      "content_brief": "Local riding cluster for Dong Da, focused on traffic character, rider preparation and cautious route choices without live-traffic claims. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
-      "internal_link_targets": [
-        "/motorbike-rental-hanoi-old-quarter/",
-        "/hanoi-motorbike-rental/",
-        "/motorbike-guides/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-547.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-548",
       "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/dong-da-route-connections/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-556.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-557",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/cau-giay-traffic-guide/",
+      "path": "motorbike-rental-hanoi-old-quarter/cau-giay-traffic-guide/index.html",
+      "silo": "Local Areas",
+      "hub": "Old Quarter & Areas",
+      "content_role": "CLUSTER",
+      "primary_keyword": "cau giay hanoi motorbike traffic guide",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Cau Giay by Motorbike: Motorbike Traffic Guide in Hanoi",
+      "content_brief": "Local riding cluster for Cau Giay, focused on traffic character, rider preparation and cautious route choices without live-traffic claims. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
+      "internal_link_targets": [
+        "/motorbike-rental-hanoi-old-quarter/",
+        "/hanoi-motorbike-rental/",
+        "/motorbike-guides/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-557.article",
       "template": "site/templates/article.html"
     }
   ]
