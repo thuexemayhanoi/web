@@ -1,100 +1,23 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:09:01.028Z",
-  "finished": "2026-10-07T22:09:01.580Z",
+  "started": "2026-10-07T22:09:15.269Z",
+  "finished": "2026-10-07T22:09:15.269Z",
   "base_commit": null,
-  "processed": [
-    {
-      "id": "SEO-863",
-      "draft": "_factory/inbox/SEO-863.article",
-      "output": "hanoi-motorbike-for-sale/digital-nomads-paperwork-questions/index.html",
-      "status": "BLOCKED",
-      "errors": [
-        "word count 1457 outside 1500-5000"
-      ],
-      "warnings": [
-        "meta description length 189 outside recommended 120-180"
-      ],
-      "word_count": 1457,
-      "title_length": 66,
-      "seo_score": 75
-    },
-    {
-      "id": "SEO-864",
-      "draft": "_factory/inbox/SEO-864.article",
-      "output": "hanoi-motorbike-for-sale/digital-nomads-break-even-thinking/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2124,
-      "title_length": 56,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-865",
-      "draft": "_factory/inbox/SEO-865.article",
-      "output": "hanoi-motorbike-for-sale/teachers-rent-vs-buy-decision/index.html",
-      "status": "BLOCKED",
-      "errors": [
-        "word count 1332 outside 1500-5000"
-      ],
-      "warnings": [],
-      "word_count": 1332,
-      "title_length": 51,
-      "seo_score": 80
-    },
-    {
-      "id": "SEO-866",
-      "draft": "_factory/inbox/SEO-866.article",
-      "output": "hanoi-motorbike-for-sale/teachers-used-bike-inspection/index.html",
-      "status": "BLOCKED",
-      "errors": [
-        "word count 1386 outside 1500-5000"
-      ],
-      "warnings": [
-        "meta description length 191 outside recommended 120-180"
-      ],
-      "word_count": 1386,
-      "title_length": 56,
-      "seo_score": 75
-    },
-    {
-      "id": "SEO-867",
-      "draft": "_factory/inbox/SEO-867.article",
-      "output": "hanoi-motorbike-for-sale/teachers-ownership-costs/index.html",
-      "status": "BLOCKED",
-      "errors": [
-        "word count 1323 outside 1500-5000"
-      ],
-      "warnings": [
-        "meta description length 187 outside recommended 120-180"
-      ],
-      "word_count": 1323,
-      "title_length": 54,
-      "seo_score": 75
-    }
-  ],
-  "published_ids": [
-    "SEO-864"
-  ],
+  "processed": [],
+  "published_ids": [],
   "repair_ids": [],
-  "blocked_ids": [
-    "SEO-863",
-    "SEO-865",
-    "SEO-866",
-    "SEO-867"
-  ],
+  "blocked_ids": [],
   "pruned_stale_drafts": [],
-  "fatal": null,
+  "fatal": "factory is BLOCKED",
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 860,
+    "published": 861,
     "planned": 130,
     "writing": 5,
-    "repair": 5,
-    "blocked": 0,
-    "remaining_to_target": 140,
+    "repair": 0,
+    "blocked": 4,
+    "remaining_to_target": 139,
     "unplanned_slots": 0
   },
   "stats_after": {
@@ -107,13 +30,5 @@
     "blocked": 4,
     "remaining_to_target": 139,
     "unplanned_slots": 0
-  },
-  "queue_status": "BLOCKED",
-  "next_queue": [
-    "SEO-868",
-    "SEO-869",
-    "SEO-870",
-    "SEO-871",
-    "SEO-872"
-  ]
+  }
 }
