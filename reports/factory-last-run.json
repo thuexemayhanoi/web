@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T21:51:18.318Z",
-  "finished": "2026-10-07T21:51:18.526Z",
-  "base_commit": "f48f3308c7ab5fa277684beb9e25f7a9a1826c62",
+  "started": "2026-10-07T21:52:13.042Z",
+  "finished": "2026-10-07T21:52:13.264Z",
+  "base_commit": "78894ba969f33b0cc4203dba3c201d2c50687143",
   "processed": [
     {
-      "id": "SEO-840",
-      "draft": "_factory/inbox/SEO-840.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-yen-tu-return-planning/index.html",
+      "id": "SEO-841",
+      "draft": "_factory/inbox/SEO-841.article",
+      "output": "hanoi-motorbike-for-sale/expats-rent-vs-buy-decision/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2073,
-      "title_length": 54,
+      "word_count": 2056,
+      "title_length": 73,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-840"
+    "SEO-841"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 837,
-    "planned": 153,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 163,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 838,
@@ -45,9 +34,19 @@
     "remaining_to_target": 162,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 839,
+    "planned": 151,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 161,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-841",
     "SEO-842",
     "SEO-843",
     "SEO-844",
@@ -56,6 +55,7 @@
     "SEO-847",
     "SEO-848",
     "SEO-849",
-    "SEO-850"
+    "SEO-850",
+    "SEO-851"
   ]
 }
