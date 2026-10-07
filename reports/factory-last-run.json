@@ -1,36 +1,36 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:14:38.769Z",
-  "finished": "2026-10-07T07:14:38.986Z",
-  "base_commit": "9b84ee55115c0dc077037e1bbd9e2020b3445242",
+  "started": "2026-10-07T07:15:05.908Z",
+  "finished": "2026-10-07T07:15:05.988Z",
+  "base_commit": "3300e5d60a99104f90bf1d39b97b685bc4ae6286",
   "processed": [
     {
       "id": "SEO-504",
       "draft": "_factory/inbox/SEO-504.article",
-      "output": "hanoi-motorbike-rental-cost/honda-click-vs-electric-motorbike-rental-cost/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
       "warnings": [],
-      "word_count": 1778,
-      "title_length": 63,
-      "seo_score": 95
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
     }
   ],
-  "published_ids": [
-    "SEO-504"
-  ],
+  "published_ids": [],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 492,
-    "planned": 498,
+    "published": 493,
+    "planned": 497,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 508,
+    "remaining_to_target": 507,
     "unplanned_slots": 0
   },
   "stats_after": {
