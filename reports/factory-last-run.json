@@ -1,51 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:05:27.182Z",
-  "finished": "2026-10-07T05:05:27.352Z",
-  "base_commit": "49f93f473b6707b825f3c6200278595d436d2374",
+  "started": "2026-10-07T05:07:10.344Z",
+  "finished": "2026-10-07T05:07:10.452Z",
+  "base_commit": "5cc1bb0e038d583dfaab52d2f4204c3cbd3a83a7",
   "processed": [
     {
-      "id": "SEO-320",
-      "draft": "_factory/inbox/SEO-320.article",
-      "output": "hanoi-50cc-motorbike-rental/older-riders-choosing-a-50cc/index.html",
+      "id": "SEO-325",
+      "draft": "_factory/inbox/SEO-325.article",
+      "output": "hanoi-50cc-motorbike-rental/older-riders-passenger-use/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1966,
-      "title_length": 59,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-321",
-      "draft": "_factory/inbox/SEO-321.article",
-      "output": "hanoi-50cc-motorbike-rental/older-riders-city-traffic/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1900,
-      "title_length": 59,
+      "word_count": 2114,
+      "title_length": 60,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-320",
-    "SEO-321"
+    "SEO-325"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 320,
-    "planned": 670,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 680,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 322,
@@ -56,9 +33,19 @@
     "remaining_to_target": 678,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 323,
+    "planned": 667,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 677,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-325",
     "SEO-326",
     "SEO-327",
     "SEO-328",
@@ -67,6 +54,7 @@
     "SEO-331",
     "SEO-332",
     "SEO-333",
-    "SEO-334"
+    "SEO-334",
+    "SEO-335"
   ]
 }
