@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:31:30.470Z",
-  "finished": "2026-10-07T06:31:30.644Z",
-  "base_commit": "2287e44e2c9af5abc2341e2f1fa8b8613bc91f1c",
+  "started": "2026-10-07T06:32:06.646Z",
+  "finished": "2026-10-07T06:32:06.845Z",
+  "base_commit": "e1e1aff9573d655cb7c42827400edf50f4ad5457",
   "processed": [
     {
-      "id": "SEO-470",
-      "draft": "_factory/inbox/SEO-470.article",
-      "output": "hanoi-motorbike-rental-cost/50cc-scooter-weekly-price/index.html",
+      "id": "SEO-471",
+      "draft": "_factory/inbox/SEO-471.article",
+      "output": "hanoi-motorbike-rental-cost/50cc-scooter-monthly-price/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1980,
-      "title_length": 62,
+      "word_count": 2011,
+      "title_length": 63,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-470"
+    "SEO-471"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 459,
-    "planned": 531,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 541,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 460,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 540,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 461,
+    "planned": 529,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 539,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -54,7 +54,7 @@
     "SEO-447",
     "SEO-449",
     "SEO-458",
-    "SEO-471",
-    "SEO-472"
+    "SEO-472",
+    "SEO-473"
   ]
 }
