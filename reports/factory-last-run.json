@@ -1,76 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:52:05.189Z",
-  "finished": "2026-10-07T22:52:05.685Z",
-  "base_commit": null,
+  "started": "2026-10-07T22:52:42.802Z",
+  "finished": "2026-10-07T22:52:43.138Z",
+  "base_commit": "f0f8be8e1b199d6b49d1188e3101a6bc17668a1f",
   "processed": [
     {
-      "id": "SEO-941",
-      "draft": "_factory/inbox/SEO-941.article",
-      "output": "renting-a-motorbike-in-vietnam/insurance-questions-long-distance-riders/index.html",
+      "id": "SEO-959",
+      "draft": "_factory/inbox/SEO-959.article",
+      "output": "renting-a-motorbike-in-vietnam/accident-steps-long-distance-riders/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1740,
+      "word_count": 2070,
+      "title_length": 75,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-960",
+      "draft": "_factory/inbox/SEO-960.article",
+      "output": "renting-a-motorbike-in-vietnam/accident-steps-city-riders/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2033,
       "title_length": 69,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-942",
-      "draft": "_factory/inbox/SEO-942.article",
-      "output": "renting-a-motorbike-in-vietnam/insurance-questions-city-riders/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1607,
-      "title_length": 60,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-957",
-      "draft": "_factory/inbox/SEO-957.article",
-      "output": "renting-a-motorbike-in-vietnam/accident-steps-50cc-riders/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2089,
-      "title_length": 69,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-958",
-      "draft": "_factory/inbox/SEO-958.article",
-      "output": "renting-a-motorbike-in-vietnam/accident-steps-scooter-riders/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2016,
-      "title_length": 72,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-941",
-    "SEO-942",
-    "SEO-957",
-    "SEO-958"
+    "SEO-959",
+    "SEO-960"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 952,
-    "planned": 38,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 48,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 956,
@@ -81,10 +46,19 @@
     "remaining_to_target": 44,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 958,
+    "planned": 32,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 42,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-959",
-    "SEO-960",
     "SEO-961",
     "SEO-962",
     "SEO-963",
@@ -92,6 +66,8 @@
     "SEO-965",
     "SEO-966",
     "SEO-967",
-    "SEO-968"
+    "SEO-968",
+    "SEO-969",
+    "SEO-970"
   ]
 }
