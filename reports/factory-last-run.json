@@ -1,110 +1,26 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:22:03.103Z",
-  "finished": "2026-10-07T22:22:03.765Z",
+  "started": "2026-10-07T22:22:20.263Z",
+  "finished": "2026-10-07T22:22:20.344Z",
   "base_commit": null,
-  "processed": [
-    {
-      "id": "SEO-883",
-      "draft": "_factory/inbox/SEO-883.article",
-      "output": "hanoi-motorbike-for-sale/families-rent-vs-buy-decision/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [
-        "meta description length 187 outside recommended 120-180"
-      ],
-      "word_count": 1669,
-      "title_length": 51,
-      "seo_score": 90
-    },
-    {
-      "id": "SEO-884",
-      "draft": "_factory/inbox/SEO-884.article",
-      "output": "hanoi-motorbike-for-sale/families-used-bike-inspection/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [
-        "meta description length 186 outside recommended 120-180"
-      ],
-      "word_count": 1659,
-      "title_length": 56,
-      "seo_score": 90
-    },
-    {
-      "id": "SEO-885",
-      "draft": "_factory/inbox/SEO-885.article",
-      "output": "hanoi-motorbike-for-sale/families-ownership-costs/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [
-        "meta description length 187 outside recommended 120-180"
-      ],
-      "word_count": 1647,
-      "title_length": 54,
-      "seo_score": 90
-    },
-    {
-      "id": "SEO-886",
-      "draft": "_factory/inbox/SEO-886.article",
-      "output": "hanoi-motorbike-for-sale/families-resale-planning/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [
-        "meta description length 186 outside recommended 120-180"
-      ],
-      "word_count": 1614,
-      "title_length": 70,
-      "seo_score": 90
-    },
-    {
-      "id": "SEO-887",
-      "draft": "_factory/inbox/SEO-887.article",
-      "output": "hanoi-motorbike-for-sale/families-paperwork-questions/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [
-        "meta description length 184 outside recommended 120-180"
-      ],
-      "word_count": 1591,
-      "title_length": 60,
-      "seo_score": 90
-    },
-    {
-      "id": "SEO-888",
-      "draft": "_factory/inbox/SEO-888.article",
-      "output": "hanoi-motorbike-for-sale/families-break-even-thinking/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1586,
-      "title_length": 50,
-      "seo_score": 95
-    }
-  ],
-  "published_ids": [
-    "SEO-883",
-    "SEO-884",
-    "SEO-885",
-    "SEO-886",
-    "SEO-887",
-    "SEO-888"
-  ],
+  "processed": [],
+  "published_ids": [],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [
-    "_factory/inbox/SEO-877.article",
-    "_factory/inbox/SEO-878.article"
+    "_factory/inbox/SEO-885.article",
+    "_factory/inbox/SEO-888.article"
   ],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 880,
-    "planned": 110,
+    "published": 886,
+    "planned": 104,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 120,
+    "remaining_to_target": 114,
     "unplanned_slots": 0
   },
   "stats_after": {
