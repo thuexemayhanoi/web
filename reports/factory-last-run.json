@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T20:21:00.147Z",
-  "finished": "2026-10-07T20:21:00.314Z",
-  "base_commit": "c5b4eff321efd207753724a544f9c94c62b4bc5f",
+  "started": "2026-10-07T20:21:48.273Z",
+  "finished": "2026-10-07T20:21:48.439Z",
+  "base_commit": "fdbefe6ba47ff2bc62ae6642ea2ad771aaca8623",
   "processed": [
     {
-      "id": "SEO-770",
-      "draft": "_factory/inbox/SEO-770.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-pu-luong-one-day-feasibility/index.html",
+      "id": "SEO-771",
+      "draft": "_factory/inbox/SEO-771.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-pu-luong-two-day-itinerary/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2095,
-      "title_length": 56,
+      "word_count": 2054,
+      "title_length": 53,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-770"
+    "SEO-771"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 767,
-    "planned": 223,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 233,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 768,
@@ -45,9 +34,19 @@
     "remaining_to_target": 232,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 769,
+    "planned": 221,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 231,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-771",
     "SEO-772",
     "SEO-773",
     "SEO-774",
@@ -56,6 +55,7 @@
     "SEO-777",
     "SEO-778",
     "SEO-779",
-    "SEO-780"
+    "SEO-780",
+    "SEO-781"
   ]
 }
