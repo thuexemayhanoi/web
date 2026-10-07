@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T21:04:32.672Z",
+  "generated_at": "2026-10-07T21:04:46.436Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 797,
-  "remaining_to_target": 203,
+  "current_published_content_pages": 798,
+  "remaining_to_target": 202,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-800",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-duong-lam-weather-planning/",
-      "path": "hanoi-motorbike-trips/hanoi-to-duong-lam-weather-planning/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to duong lam motorbike weather planning",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Duong Lam by Motorbike: Weather Planning | Hanoi Motorbike Guide",
-      "content_brief": "Destination cluster for a Hanoi-to-Duong Lam motorbike trip, focused on seasonal and same-day weather checks riders should make without pretending to know live conditions. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-800.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-801",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-duong-lam-fuel-and-rest-stops/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
       "draft_file": "_factory/inbox/SEO-809.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-810",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-perfume-pagoda-fuel-and-rest-stops/",
+      "path": "hanoi-motorbike-trips/hanoi-to-perfume-pagoda-fuel-and-rest-stops/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to perfume pagoda motorbike fuel and rest stops",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Perfume Pagoda by Motorbike: Fuel and Rest-Stop Planning",
+      "content_brief": "Destination cluster for a Hanoi-to-Perfume Pagoda motorbike trip, focused on how to plan fuel, food and rest breaks without inventing station locations or opening hours. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-810.article",
       "template": "site/templates/article.html"
     }
   ]
