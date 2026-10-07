@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T20:44:16.589Z",
-  "finished": "2026-10-07T20:44:16.715Z",
+  "started": "2026-10-07T20:44:55.647Z",
+  "finished": "2026-10-07T20:44:55.825Z",
   "base_commit": null,
   "processed": [
     {
-      "id": "SEO-780",
-      "draft": "_factory/inbox/SEO-780.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-hoa-binh-two-day-itinerary/index.html",
+      "id": "SEO-781",
+      "draft": "_factory/inbox/SEO-781.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-hoa-binh-bike-choice/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1923,
-      "title_length": 53,
+      "word_count": 1922,
+      "title_length": 60,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-780"
+    "SEO-781"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 777,
-    "planned": 213,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 223,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 778,
@@ -45,9 +34,19 @@
     "remaining_to_target": 222,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 779,
+    "planned": 211,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 221,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-781",
     "SEO-782",
     "SEO-783",
     "SEO-784",
@@ -56,6 +55,7 @@
     "SEO-787",
     "SEO-788",
     "SEO-789",
-    "SEO-790"
+    "SEO-790",
+    "SEO-791"
   ]
 }
