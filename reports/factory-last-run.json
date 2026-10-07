@@ -1,51 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:51:53.830Z",
-  "finished": "2026-10-07T05:51:54.050Z",
-  "base_commit": "de92900d50c9e515c500df7bf33ffdfe5d6ffb9b",
+  "started": "2026-10-07T05:53:13.660Z",
+  "finished": "2026-10-07T05:53:13.904Z",
+  "base_commit": "c6c97a83ab11366dcb511d96e0bb6a0e5e0eb4f5",
   "processed": [
     {
-      "id": "SEO-404",
-      "draft": "_factory/inbox/SEO-404.article",
-      "output": "hanoi-scooter-rental/honda-vision-for-expats-checks-and-mistakes/index.html",
+      "id": "SEO-406",
+      "draft": "_factory/inbox/SEO-406.article",
+      "output": "hanoi-scooter-rental/honda-air-blade-for-commuters-checks-and-mistakes/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2465,
-      "title_length": 69,
+      "word_count": 2195,
+      "title_length": 67,
       "seo_score": 95
     },
     {
-      "id": "SEO-405",
-      "draft": "_factory/inbox/SEO-405.article",
-      "output": "hanoi-scooter-rental/honda-air-blade-for-commuters-selection-guide/index.html",
+      "id": "SEO-407",
+      "draft": "_factory/inbox/SEO-407.article",
+      "output": "hanoi-scooter-rental/honda-vision-vs-honda-click-selection-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2248,
-      "title_length": 71,
+      "word_count": 2053,
+      "title_length": 69,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-404",
-    "SEO-405"
+    "SEO-406",
+    "SEO-407"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 396,
-    "planned": 594,
-    "writing": 9,
-    "repair": 1,
-    "blocked": 0,
-    "remaining_to_target": 604,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 398,
@@ -56,6 +45,17 @@
     "remaining_to_target": 602,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 400,
+    "planned": 590,
+    "writing": 9,
+    "repair": 1,
+    "blocked": 0,
+    "remaining_to_target": 600,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-328",
@@ -63,10 +63,10 @@
     "SEO-396",
     "SEO-397",
     "SEO-398",
-    "SEO-406",
-    "SEO-407",
     "SEO-408",
     "SEO-409",
-    "SEO-410"
+    "SEO-410",
+    "SEO-411",
+    "SEO-412"
   ]
 }
