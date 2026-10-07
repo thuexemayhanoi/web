@@ -1,51 +1,43 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:34:08.260Z",
-  "finished": "2026-10-07T03:34:08.426Z",
-  "base_commit": "27aea9bac11443712971974e8035d8ccc368c442",
+  "started": "2026-10-07T03:35:51.564Z",
+  "finished": "2026-10-07T03:35:51.670Z",
+  "base_commit": "b739d0c217d1045a15e5ee9de1c53904fadcb3ef",
   "processed": [
     {
-      "id": "SEO-193",
-      "draft": "_factory/inbox/SEO-193.article",
-      "output": "hanoi-motorbike-rental/riders-with-luggage-pre-ride-inspection/index.html",
+      "id": "SEO-195",
+      "draft": "_factory/inbox/SEO-195.article",
+      "output": "hanoi-motorbike-rental/riders-with-luggage-pickup-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1623,
-      "title_length": 67,
+      "word_count": 1520,
+      "title_length": 63,
       "seo_score": 100
     },
     {
-      "id": "SEO-194",
-      "draft": "_factory/inbox/SEO-194.article",
-      "output": "hanoi-motorbike-rental/riders-with-luggage-rental-paperwork-questions/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "SEO-196",
+      "draft": "_factory/inbox/SEO-196.article",
+      "output": "hanoi-motorbike-rental/riders-with-luggage-return-checklist/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "word count 1423 outside 1500-5000"
+      ],
       "warnings": [],
-      "word_count": 1604,
-      "title_length": 74,
-      "seo_score": 100
+      "word_count": 1423,
+      "title_length": 64,
+      "seo_score": 85
     }
   ],
   "published_ids": [
-    "SEO-193",
-    "SEO-194"
+    "SEO-195"
   ],
-  "repair_ids": [],
+  "repair_ids": [
+    "SEO-196"
+  ],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 189,
-    "planned": 800,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 1,
-    "remaining_to_target": 811,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 191,
@@ -56,9 +48,19 @@
     "remaining_to_target": 809,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 192,
+    "planned": 797,
+    "writing": 9,
+    "repair": 1,
+    "blocked": 1,
+    "remaining_to_target": 808,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-195",
     "SEO-196",
     "SEO-197",
     "SEO-198",
@@ -67,6 +69,7 @@
     "SEO-201",
     "SEO-202",
     "SEO-203",
-    "SEO-204"
+    "SEO-204",
+    "SEO-205"
   ]
 }
