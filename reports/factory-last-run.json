@@ -1,51 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:18:52.133Z",
-  "finished": "2026-10-07T05:18:52.512Z",
-  "base_commit": "fef9d1a13da56d6ae0c9d50313cbf2f29945b548",
+  "started": "2026-10-07T05:19:53.267Z",
+  "finished": "2026-10-07T05:19:53.483Z",
+  "base_commit": "511b71b116ac66710167e27242e6569bbfb17434",
   "processed": [
     {
-      "id": "SEO-354",
-      "draft": "_factory/inbox/SEO-354.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-commuters-checks-and-mistakes/index.html",
+      "id": "SEO-356",
+      "draft": "_factory/inbox/SEO-356.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-couples-checks-and-mistakes/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2147,
-      "title_length": 73,
+      "word_count": 2050,
+      "title_length": 71,
       "seo_score": 95
     },
     {
-      "id": "SEO-355",
-      "draft": "_factory/inbox/SEO-355.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-couples-selection-guide/index.html",
+      "id": "SEO-357",
+      "draft": "_factory/inbox/SEO-357.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-solo-travelers-selection-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2026,
-      "title_length": 67,
+      "word_count": 2232,
+      "title_length": 74,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-354",
-    "SEO-355"
+    "SEO-356",
+    "SEO-357"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 344,
-    "planned": 646,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 656,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 346,
@@ -54,6 +43,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 654,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 348,
+    "planned": 642,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 652,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -65,8 +65,8 @@
     "SEO-338",
     "SEO-339",
     "SEO-346",
-    "SEO-356",
-    "SEO-357",
-    "SEO-358"
+    "SEO-358",
+    "SEO-359",
+    "SEO-360"
   ]
 }
