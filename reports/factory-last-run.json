@@ -1,36 +1,36 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:25:45.535Z",
-  "finished": "2026-10-07T07:25:45.757Z",
-  "base_commit": "a2ed5f8cf2498ac846f30e0befe7f758f48fbeef",
+  "started": "2026-10-07T07:26:44.397Z",
+  "finished": "2026-10-07T07:26:44.473Z",
+  "base_commit": "0e8e63e29d4c1e45dfe532b65cf7c350a14daa9a",
   "processed": [
     {
       "id": "SEO-513",
       "draft": "_factory/inbox/SEO-513.article",
-      "output": "hanoi-motorbike-rental-cost/honda-air-blade-vs-automatic-scooter-rental-cost/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
       "warnings": [],
-      "word_count": 2016,
-      "title_length": 66,
-      "seo_score": 95
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
     }
   ],
-  "published_ids": [
-    "SEO-513"
-  ],
+  "published_ids": [],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 501,
-    "planned": 489,
+    "published": 502,
+    "planned": 488,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 499,
+    "remaining_to_target": 498,
     "unplanned_slots": 0
   },
   "stats_after": {
