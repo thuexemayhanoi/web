@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:25:55.831Z",
-  "finished": "2026-10-07T04:25:55.997Z",
-  "base_commit": "b65720675afacf80c9dbbf69de67579442e33e46",
+  "started": "2026-10-07T04:26:31.497Z",
+  "finished": "2026-10-07T04:26:31.644Z",
+  "base_commit": "5b7511f2a87d8e5c539226d5c03dbc63c23a6c57",
   "processed": [
     {
-      "id": "SEO-264",
-      "draft": "_factory/inbox/SEO-264.article",
-      "output": "hanoi-50cc-motorbike-rental/short-riders-daily-rental-planning/index.html",
+      "id": "SEO-257",
+      "draft": "_factory/inbox/SEO-257.article",
+      "output": "hanoi-50cc-motorbike-rental/short-riders-choosing-a-50cc/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2532,
-      "title_length": 65,
+      "word_count": 2396,
+      "title_length": 59,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-264"
+    "SEO-257"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 259,
-    "planned": 731,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 741,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 260,
@@ -44,10 +33,20 @@
     "remaining_to_target": 740,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 261,
+    "planned": 729,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 739,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-243",
-    "SEO-257",
     "SEO-265",
     "SEO-266",
     "SEO-267",
@@ -55,6 +54,7 @@
     "SEO-269",
     "SEO-270",
     "SEO-271",
-    "SEO-272"
+    "SEO-272",
+    "SEO-273"
   ]
 }
