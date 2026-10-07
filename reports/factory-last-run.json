@@ -1,36 +1,71 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:38:17.546Z",
-  "finished": "2026-10-07T03:38:17.697Z",
-  "base_commit": "5160ea62008a9262e9692180fcdd299896e634b6",
+  "started": "2026-10-07T03:39:49.442Z",
+  "finished": "2026-10-07T03:39:49.625Z",
+  "base_commit": "4f407f3cec8678607d879b9fc626bda19d02ab44",
   "processed": [
     {
-      "id": "SEO-173",
-      "draft": "_factory/inbox/SEO-173.article",
-      "output": "hanoi-motorbike-rental/new-riders-route-planning/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "SEO-197",
+      "draft": "_factory/inbox/SEO-197.article",
+      "output": "hanoi-motorbike-rental/riders-with-luggage-traffic-preparation/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "broken internal link: /hanoi-motorbike-rental/riders-with-luggage-route-planning/",
+        "broken internal link: /hanoi-motorbike-rental/riders-with-luggage-rainy-day-planning/",
+        "broken internal link: /hanoi-motorbike-rental/riders-with-luggage-parking-strategy/"
+      ],
       "warnings": [],
-      "word_count": 1784,
-      "title_length": 53,
+      "word_count": 1798,
+      "title_length": 67,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-198",
+      "draft": "_factory/inbox/SEO-198.article",
+      "output": "hanoi-motorbike-rental/riders-with-luggage-parking-strategy/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "broken internal link: /hanoi-motorbike-rental/riders-with-luggage-route-planning/",
+        "broken internal link: /hanoi-motorbike-rental/riders-with-luggage-traffic-preparation/"
+      ],
+      "warnings": [],
+      "word_count": 1631,
+      "title_length": 64,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-199",
+      "draft": "_factory/inbox/SEO-199.article",
+      "output": "hanoi-motorbike-rental/riders-with-luggage-rainy-day-planning/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "broken internal link: /hanoi-motorbike-rental/riders-with-luggage-traffic-preparation/",
+        "broken internal link: /hanoi-motorbike-rental/riders-with-luggage-route-planning/",
+        "broken internal link: /hanoi-motorbike-rental/riders-with-luggage-parking-strategy/"
+      ],
+      "warnings": [],
+      "word_count": 1571,
+      "title_length": 66,
       "seo_score": 100
     }
   ],
-  "published_ids": [
-    "SEO-173"
+  "published_ids": [],
+  "repair_ids": [
+    "SEO-197",
+    "SEO-198",
+    "SEO-199"
   ],
-  "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 192,
+    "published": 193,
     "planned": 797,
     "writing": 9,
     "repair": 1,
-    "blocked": 1,
-    "remaining_to_target": 808,
+    "blocked": 0,
+    "remaining_to_target": 807,
     "unplanned_slots": 0
   },
   "stats_after": {
@@ -38,8 +73,8 @@
     "matrix_content_rows": 1000,
     "published": 193,
     "planned": 797,
-    "writing": 9,
-    "repair": 1,
+    "writing": 6,
+    "repair": 4,
     "blocked": 0,
     "remaining_to_target": 807,
     "unplanned_slots": 0
