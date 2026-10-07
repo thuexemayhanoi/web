@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:56:09.360Z",
-  "finished": "2026-10-07T03:56:09.522Z",
-  "base_commit": "e14ef52e8197f5eda1342f84d21bc3e116549d41",
+  "started": "2026-10-07T03:56:40.484Z",
+  "finished": "2026-10-07T03:56:40.579Z",
+  "base_commit": "cf29b48f5133f6a7cb0fb61c0b6d9367e578089f",
   "processed": [
     {
-      "id": "SEO-215",
-      "draft": "_factory/inbox/SEO-215.article",
-      "output": "hanoi-motorbike-rental/city-commuters-traffic-preparation/index.html",
+      "id": "SEO-216",
+      "draft": "_factory/inbox/SEO-216.article",
+      "output": "hanoi-motorbike-rental/city-commuters-parking-strategy/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2270,
-      "title_length": 62,
+      "word_count": 2165,
+      "title_length": 59,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-215"
+    "SEO-216"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 212,
-    "planned": 778,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 788,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 213,
@@ -44,9 +33,19 @@
     "remaining_to_target": 787,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 214,
+    "planned": 776,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 786,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-216",
     "SEO-217",
     "SEO-218",
     "SEO-219",
@@ -55,6 +54,7 @@
     "SEO-222",
     "SEO-223",
     "SEO-224",
-    "SEO-225"
+    "SEO-225",
+    "SEO-226"
   ]
 }

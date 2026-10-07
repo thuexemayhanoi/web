@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T03:56:09.521Z",
+  "generated_at": "2026-10-07T03:56:40.578Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 213,
-  "remaining_to_target": 787,
+  "current_published_content_pages": 214,
+  "remaining_to_target": 786,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-216",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/city-commuters-parking-strategy/",
-      "path": "hanoi-motorbike-rental/city-commuters-parking-strategy/index.html",
-      "silo": "Hanoi Motorbike Rental",
-      "hub": "Hanoi Motorbike Rental Guide",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi motorbike rental city commuters parking strategy",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "City Commuters: Parking Strategy for Hanoi Motorbike Rental",
-      "content_brief": "Audience-specific Hanoi rental cluster for city commuters, focused strictly on parking decisions, security habits and questions to ask at destinations without fabricating parking guarantees. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-216.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-217",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/city-commuters-rainy-day-planning/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-225.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-226",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/photography-travelers-rainy-day-planning/",
+      "path": "hanoi-motorbike-rental/photography-travelers-rainy-day-planning/index.html",
+      "silo": "Hanoi Motorbike Rental",
+      "hub": "Hanoi Motorbike Rental Guide",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi motorbike rental photography travelers rainy-day planning",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Photography Travelers: Rainy-Day Planning for Hanoi Motorbike Rental",
+      "content_brief": "Audience-specific Hanoi rental cluster for photography travelers, focused strictly on rental planning for wet conditions, visibility, traction and gear choices without live-weather claims. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-226.article",
       "template": "site/templates/article.html"
     }
   ]
