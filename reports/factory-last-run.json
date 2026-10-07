@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T21:59:45.574Z",
-  "finished": "2026-10-07T21:59:45.778Z",
-  "base_commit": "0e1929a7ecb6eb6f532ccbf794cfa10b3d02e9b7",
+  "started": "2026-10-07T22:00:32.707Z",
+  "finished": "2026-10-07T22:00:32.901Z",
+  "base_commit": "dc98815b080c6823008f0da6b4ba8098110502d1",
   "processed": [
     {
-      "id": "SEO-852",
-      "draft": "_factory/inbox/SEO-852.article",
-      "output": "hanoi-motorbike-for-sale/students-break-even-thinking/index.html",
+      "id": "SEO-853",
+      "draft": "_factory/inbox/SEO-853.article",
+      "output": "hanoi-motorbike-for-sale/long-stay-tourists-rent-vs-buy-decision/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2098,
-      "title_length": 50,
+      "word_count": 2085,
+      "title_length": 61,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-852"
+    "SEO-853"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 849,
-    "planned": 141,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 151,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 850,
@@ -45,9 +34,19 @@
     "remaining_to_target": 150,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 851,
+    "planned": 139,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 149,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-853",
     "SEO-854",
     "SEO-855",
     "SEO-856",
@@ -56,6 +55,7 @@
     "SEO-859",
     "SEO-860",
     "SEO-861",
-    "SEO-862"
+    "SEO-862",
+    "SEO-863"
   ]
 }
