@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T08:33:50.807Z",
+  "generated_at": "2026-10-07T08:34:41.902Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 557,
-  "remaining_to_target": 443,
+  "current_published_content_pages": 558,
+  "remaining_to_target": 442,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-560",
-      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/nam-tu-liem-rental-planning/",
-      "path": "motorbike-rental-hanoi-old-quarter/nam-tu-liem-rental-planning/index.html",
-      "silo": "Local Areas",
-      "hub": "Old Quarter & Areas",
-      "content_role": "CLUSTER",
-      "primary_keyword": "nam tu liem hanoi motorbike rental planning",
-      "intent": "Local commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Nam Tu Liem by Motorbike: Motorbike Rental Planning in Hanoi",
-      "content_brief": "Local riding cluster for Nam Tu Liem, focused on how the area relates to the verified Long Bien shop location and practical rental planning. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
-      "internal_link_targets": [
-        "/motorbike-rental-hanoi-old-quarter/",
-        "/hanoi-motorbike-rental/",
-        "/motorbike-guides/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-560.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-561",
       "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/nam-tu-liem-parking-guide/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-569.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-570",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/thanh-xuan-rental-planning/",
+      "path": "motorbike-rental-hanoi-old-quarter/thanh-xuan-rental-planning/index.html",
+      "silo": "Local Areas",
+      "hub": "Old Quarter & Areas",
+      "content_role": "CLUSTER",
+      "primary_keyword": "thanh xuan hanoi motorbike rental planning",
+      "intent": "Local commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Thanh Xuan by Motorbike: Motorbike Rental Planning in Hanoi",
+      "content_brief": "Local riding cluster for Thanh Xuan, focused on how the area relates to the verified Long Bien shop location and practical rental planning. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
+      "internal_link_targets": [
+        "/motorbike-rental-hanoi-old-quarter/",
+        "/hanoi-motorbike-rental/",
+        "/motorbike-guides/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-570.article",
       "template": "site/templates/article.html"
     }
   ]
