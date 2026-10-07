@@ -1,52 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T23:06:00.226Z",
-  "finished": "2026-10-07T23:06:00.559Z",
-  "base_commit": "1b97eb4574045104b8d435b59433db326d692eb1",
+  "started": "2026-10-07T23:06:39.747Z",
+  "finished": "2026-10-07T23:06:40.084Z",
+  "base_commit": "9b24c7e5da8b12773413adc4b371a67b4de97dd0",
   "processed": [
     {
-      "id": "SEO-995",
-      "draft": "_factory/inbox/SEO-995.article",
-      "output": "motorbike-guides/motorbike-helmets-troubleshooting/index.html",
+      "id": "SEO-997",
+      "draft": "_factory/inbox/SEO-997.article",
+      "output": "motorbike-guides/motorbike-luggage-pre-ride-checklist/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1883,
-      "title_length": 60,
+      "word_count": 1730,
+      "title_length": 57,
       "seo_score": 95
     },
     {
-      "id": "SEO-996",
-      "draft": "_factory/inbox/SEO-996.article",
-      "output": "motorbike-guides/motorbike-helmets-maintenance-basics/index.html",
+      "id": "SEO-998",
+      "draft": "_factory/inbox/SEO-998.article",
+      "output": "motorbike-guides/motorbike-luggage-troubleshooting/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1788,
-      "title_length": 57,
+      "word_count": 1825,
+      "title_length": 60,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-995",
-    "SEO-996"
+    "SEO-997",
+    "SEO-998"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 992,
-    "planned": 0,
-    "writing": 8,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 8,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 994,
@@ -57,10 +46,19 @@
     "remaining_to_target": 6,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 996,
+    "planned": 0,
+    "writing": 4,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 4,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-997",
-    "SEO-998",
     "SEO-999",
     "SEO-1000",
     "SEO-1001",
