@@ -775,4 +775,6 @@
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-pu-luong-weather-planning/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-pu-luong-fuel-and-rest-stops/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-pu-luong-luggage-packing/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-pu-luong-safety-checklist/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-pu-luong-return-planning/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
