@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:18:28.082Z",
-  "finished": "2026-10-07T03:18:28.214Z",
-  "base_commit": "06a3fe5814b1bc6e40dd05f7df5851de0a7a229f",
+  "started": "2026-10-07T03:18:47.012Z",
+  "finished": "2026-10-07T03:18:47.131Z",
+  "base_commit": "b5bf5a035816657d2135f6624b2b3436bccb7c06",
   "processed": [
     {
       "id": "SEO-173",
       "draft": "_factory/inbox/SEO-173.article",
       "output": "hanoi-motorbike-rental/new-riders-route-planning/index.html",
-      "status": "REPAIR",
+      "status": "BLOCKED",
       "errors": [
         "broken internal link: /hanoi-motorbike-rental/new-riders-traffic-preparation/"
       ],
@@ -19,23 +19,12 @@
     }
   ],
   "published_ids": [],
-  "repair_ids": [
+  "repair_ids": [],
+  "blocked_ids": [
     "SEO-173"
   ],
-  "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 168,
-    "planned": 822,
-    "writing": 8,
-    "repair": 2,
-    "blocked": 0,
-    "remaining_to_target": 832,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 168,
@@ -46,11 +35,21 @@
     "remaining_to_target": 832,
     "unplanned_slots": 0
   },
-  "queue_status": "READY",
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 168,
+    "planned": 822,
+    "writing": 7,
+    "repair": 2,
+    "blocked": 1,
+    "remaining_to_target": 832,
+    "unplanned_slots": 0
+  },
+  "queue_status": "BLOCKED",
   "next_queue": [
     "SEO-170",
     "SEO-172",
-    "SEO-173",
     "SEO-174",
     "SEO-175",
     "SEO-176",
