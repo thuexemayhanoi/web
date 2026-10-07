@@ -1,62 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T03:53:15.988Z",
+  "generated_at": "2026-10-07T03:53:42.485Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 208,
-  "remaining_to_target": 792,
+  "current_published_content_pages": 210,
+  "remaining_to_target": 790,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-207",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-a-passenger-parking-strategy/",
-      "path": "hanoi-motorbike-rental/riders-with-a-passenger-parking-strategy/index.html",
-      "silo": "Hanoi Motorbike Rental",
-      "hub": "Hanoi Motorbike Rental Guide",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi motorbike rental riders with a passenger parking strategy",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Riders With A Passenger: Parking Strategy for Hanoi Motorbike Rental",
-      "content_brief": "Audience-specific Hanoi rental cluster for riders with a passenger, focused strictly on parking decisions, security habits and questions to ask at destinations without fabricating parking guarantees. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-207.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-208",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-a-passenger-rainy-day-planning/",
-      "path": "hanoi-motorbike-rental/riders-with-a-passenger-rainy-day-planning/index.html",
-      "silo": "Hanoi Motorbike Rental",
-      "hub": "Hanoi Motorbike Rental Guide",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi motorbike rental riders with a passenger rainy-day planning",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Riders With A Passenger: Rainy-Day Planning for Hanoi Motorbike Rental",
-      "content_brief": "Audience-specific Hanoi rental cluster for riders with a passenger, focused strictly on rental planning for wet conditions, visibility, traction and gear choices without live-weather claims. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-208.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-213",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/city-commuters-pickup-planning/",
@@ -255,6 +205,56 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-220.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-221",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/photography-travelers-rental-paperwork-questions/",
+      "path": "hanoi-motorbike-rental/photography-travelers-rental-paperwork-questions/index.html",
+      "silo": "Hanoi Motorbike Rental",
+      "hub": "Hanoi Motorbike Rental Guide",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi motorbike rental photography travelers rental paperwork questions",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Photography Travelers: Rental Paperwork Questions for Hanoi Rental",
+      "content_brief": "Audience-specific Hanoi rental cluster for photography travelers, focused strictly on the questions to clarify before renting while avoiding invented deposit, license or document rules. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-221.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-222",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/photography-travelers-pickup-planning/",
+      "path": "hanoi-motorbike-rental/photography-travelers-pickup-planning/index.html",
+      "silo": "Hanoi Motorbike Rental",
+      "hub": "Hanoi Motorbike Rental Guide",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi motorbike rental photography travelers pickup planning",
+      "intent": "Informational / Commercial assist",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Photography Travelers: Pickup Planning for Hanoi Motorbike Rental",
+      "content_brief": "Audience-specific Hanoi rental cluster for photography travelers, focused strictly on planning the visit to the verified Long Bien shop address without promising delivery or unverified pickup arrangements. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-222.article",
       "template": "site/templates/article.html"
     }
   ]
