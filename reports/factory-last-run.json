@@ -1,36 +1,49 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:26:04.515Z",
-  "finished": "2026-10-07T06:26:04.696Z",
-  "base_commit": "fb18e45e9ea5cbf0b82b0c47965bb857d85e4f71",
+  "started": "2026-10-07T06:26:52.682Z",
+  "finished": "2026-10-07T06:26:52.763Z",
+  "base_commit": "c82f61a2909508c115c9f19c04fdad1a74ac378b",
   "processed": [
     {
-      "id": "SEO-462",
-      "draft": "_factory/inbox/SEO-462.article",
-      "output": "hanoi-motorbike-rental-cost/honda-air-blade-weekly-price/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "SEO-460",
+      "draft": "_factory/inbox/SEO-460.article",
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
       "warnings": [],
-      "word_count": 1810,
-      "title_length": 65,
-      "seo_score": 95
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
+    },
+    {
+      "id": "SEO-461",
+      "draft": "_factory/inbox/SEO-461.article",
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
+      "warnings": [],
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
     }
   ],
-  "published_ids": [
-    "SEO-462"
-  ],
+  "published_ids": [],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 451,
-    "planned": 539,
+    "published": 452,
+    "planned": 538,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 549,
+    "remaining_to_target": 548,
     "unplanned_slots": 0
   },
   "stats_after": {
