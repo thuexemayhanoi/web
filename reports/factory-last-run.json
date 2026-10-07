@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T21:54:50.011Z",
-  "finished": "2026-10-07T21:54:50.214Z",
-  "base_commit": "8319d0b1392a504557899b9627ad7de29aa48a11",
+  "started": "2026-10-07T21:55:17.105Z",
+  "finished": "2026-10-07T21:55:17.311Z",
+  "base_commit": "3ba06fba1bec5a9cd01847b44d2f86bd00d41f2d",
   "processed": [
     {
-      "id": "SEO-845",
-      "draft": "_factory/inbox/SEO-845.article",
-      "output": "hanoi-motorbike-for-sale/expats-paperwork-questions/index.html",
+      "id": "SEO-846",
+      "draft": "_factory/inbox/SEO-846.article",
+      "output": "hanoi-motorbike-for-sale/expats-break-even-thinking/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2171,
-      "title_length": 58,
+      "word_count": 2174,
+      "title_length": 72,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-845"
+    "SEO-846"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 842,
-    "planned": 148,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 158,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 843,
@@ -45,9 +34,19 @@
     "remaining_to_target": 157,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 844,
+    "planned": 146,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 156,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-846",
     "SEO-847",
     "SEO-848",
     "SEO-849",
@@ -56,6 +55,7 @@
     "SEO-852",
     "SEO-853",
     "SEO-854",
-    "SEO-855"
+    "SEO-855",
+    "SEO-856"
   ]
 }
