@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:15:05.908Z",
-  "finished": "2026-10-07T07:15:05.988Z",
-  "base_commit": "3300e5d60a99104f90bf1d39b97b685bc4ae6286",
+  "started": "2026-10-07T07:15:52.385Z",
+  "finished": "2026-10-07T07:15:52.577Z",
+  "base_commit": "0b9274420e1f45d5b9151f9d13d1e19001b97494",
   "processed": [
     {
-      "id": "SEO-504",
-      "draft": "_factory/inbox/SEO-504.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
+      "id": "SEO-505",
+      "draft": "_factory/inbox/SEO-505.article",
+      "output": "hanoi-motorbike-rental-cost/honda-click-vs-50cc-scooter-rental-cost/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
       "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
+      "word_count": 1730,
+      "title_length": 57,
+      "seo_score": 95
     }
   ],
-  "published_ids": [],
+  "published_ids": [
+    "SEO-505"
+  ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
@@ -36,12 +36,12 @@
   "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 493,
-    "planned": 497,
+    "published": 494,
+    "planned": 496,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 507,
+    "remaining_to_target": 506,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -55,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-505"
+    "SEO-506"
   ]
 }
