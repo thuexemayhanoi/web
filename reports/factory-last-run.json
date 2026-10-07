@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:42:15.649Z",
-  "finished": "2026-10-07T06:42:15.820Z",
-  "base_commit": "f3864a4d145c01419645557436caa1f6d706ef05",
+  "started": "2026-10-07T06:43:31.204Z",
+  "finished": "2026-10-07T06:43:31.389Z",
+  "base_commit": "32c72af96a48bda161291e670734da348caf5268",
   "processed": [
     {
-      "id": "SEO-479",
-      "draft": "_factory/inbox/SEO-479.article",
-      "output": "hanoi-motorbike-rental-cost/semi-automatic-motorbike-monthly-price/index.html",
+      "id": "SEO-480",
+      "draft": "_factory/inbox/SEO-480.article",
+      "output": "hanoi-motorbike-rental-cost/semi-automatic-motorbike-short-vs-long-term-cost/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2241,
-      "title_length": 75,
+      "word_count": 2091,
+      "title_length": 70,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-479"
+    "SEO-480"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 467,
-    "planned": 523,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 533,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 468,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 532,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 469,
+    "planned": 521,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 531,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -55,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-480"
+    "SEO-481"
   ]
 }
