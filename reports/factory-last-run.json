@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:57:48.482Z",
-  "finished": "2026-10-07T03:57:48.649Z",
-  "base_commit": "01f2977f21ec022575394d4eb041482730c62577",
+  "started": "2026-10-07T03:58:29.895Z",
+  "finished": "2026-10-07T03:58:30.038Z",
+  "base_commit": "e1a2ab5169630d39e9d997a55bdcccadb6f695f7",
   "processed": [
     {
-      "id": "SEO-217",
-      "draft": "_factory/inbox/SEO-217.article",
-      "output": "hanoi-motorbike-rental/city-commuters-rainy-day-planning/index.html",
+      "id": "SEO-218",
+      "draft": "_factory/inbox/SEO-218.article",
+      "output": "hanoi-motorbike-rental/city-commuters-route-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2207,
-      "title_length": 61,
+      "word_count": 2133,
+      "title_length": 57,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-217"
+    "SEO-218"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 214,
-    "planned": 776,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 786,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 215,
@@ -44,9 +33,19 @@
     "remaining_to_target": 785,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 216,
+    "planned": 774,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 784,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-218",
     "SEO-219",
     "SEO-220",
     "SEO-221",
@@ -55,6 +54,7 @@
     "SEO-224",
     "SEO-225",
     "SEO-226",
-    "SEO-227"
+    "SEO-227",
+    "SEO-228"
   ]
 }
