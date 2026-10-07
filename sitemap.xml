@@ -220,4 +220,6 @@
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/city-commuters-route-planning/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/photography-travelers-bike-choice/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/photography-travelers-pre-ride-inspection/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/photography-travelers-route-planning/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/food-focused-travelers-bike-choice/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>

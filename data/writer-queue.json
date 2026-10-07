@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T03:59:36.435Z",
+  "generated_at": "2026-10-07T03:59:55.619Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 218,
-  "remaining_to_target": 782,
+  "current_published_content_pages": 220,
+  "remaining_to_target": 780,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -158,56 +158,6 @@
       "template": "site/templates/article.html"
     },
     {
-      "id": "SEO-227",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/photography-travelers-route-planning/",
-      "path": "hanoi-motorbike-rental/photography-travelers-route-planning/index.html",
-      "silo": "Hanoi Motorbike Rental",
-      "hub": "Hanoi Motorbike Rental Guide",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi motorbike rental photography travelers route planning",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Photography Travelers: Route Planning for Hanoi Motorbike Rental",
-      "content_brief": "Audience-specific Hanoi rental cluster for photography travelers, focused strictly on building realistic city routes around experience, luggage and time while avoiding fabricated travel times. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-227.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-228",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/food-focused-travelers-bike-choice/",
-      "path": "hanoi-motorbike-rental/food-focused-travelers-bike-choice/index.html",
-      "silo": "Hanoi Motorbike Rental",
-      "hub": "Hanoi Motorbike Rental Guide",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi motorbike rental food-focused travelers bike choice",
-      "intent": "Commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Food-focused Travelers: Choosing the Right Bike for Hanoi Motorbike Rental",
-      "content_brief": "Audience-specific Hanoi rental cluster for food-focused travelers, focused strictly on selecting a suitable rental bike for the rider profile, trip length and confidence level. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-228.article",
-      "template": "site/templates/article.html"
-    },
-    {
       "id": "SEO-229",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/food-focused-travelers-pre-ride-inspection/",
       "path": "hanoi-motorbike-rental/food-focused-travelers-pre-ride-inspection/index.html",
@@ -255,6 +205,56 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-230.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-231",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-city-traffic/",
+      "path": "hanoi-50cc-motorbike-rental/beginners-city-traffic/index.html",
+      "silo": "50cc Motorbike Rental",
+      "hub": "50cc Motorbike Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "50cc motorbike hanoi beginners city traffic",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Beginners: 50cc in City Traffic for 50cc Rental in Hanoi",
+      "content_brief": "50cc cluster for beginners, focused on what low-speed urban traffic changes for 50cc planning and confidence. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
+      "internal_link_targets": [
+        "/hanoi-50cc-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-231.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-232",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-parking/",
+      "path": "hanoi-50cc-motorbike-rental/beginners-parking/index.html",
+      "silo": "50cc Motorbike Rental",
+      "hub": "50cc Motorbike Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "50cc motorbike hanoi beginners parking",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Beginners: 50cc Parking for 50cc Rental in Hanoi | Hanoi Motorbike Guide",
+      "content_brief": "50cc cluster for beginners, focused on parking and maneuverability considerations for compact urban use. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
+      "internal_link_targets": [
+        "/hanoi-50cc-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-232.article",
       "template": "site/templates/article.html"
     }
   ]
