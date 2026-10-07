@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T17:55:50.581Z",
-  "finished": "2026-10-07T17:55:50.818Z",
-  "base_commit": "4760bbcc42a13597b91024597009d7e451846d32",
+  "started": "2026-10-07T17:57:09.764Z",
+  "finished": "2026-10-07T17:57:10.010Z",
+  "base_commit": "e22c572d99da26a82070885b05808b8226f63981",
   "processed": [
     {
-      "id": "SEO-717",
-      "draft": "_factory/inbox/SEO-717.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-mai-chau-two-day-itinerary/index.html",
+      "id": "SEO-718",
+      "draft": "_factory/inbox/SEO-718.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-mai-chau-bike-choice/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2090,
-      "title_length": 53,
+      "word_count": 2044,
+      "title_length": 60,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-717"
+    "SEO-718"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 714,
-    "planned": 276,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 286,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 715,
@@ -44,9 +33,19 @@
     "remaining_to_target": 285,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 716,
+    "planned": 274,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 284,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-718",
     "SEO-719",
     "SEO-720",
     "SEO-721",
@@ -55,6 +54,7 @@
     "SEO-724",
     "SEO-725",
     "SEO-726",
-    "SEO-727"
+    "SEO-727",
+    "SEO-728"
   ]
 }
