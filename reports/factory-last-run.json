@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:02:55.910Z",
-  "finished": "2026-10-07T07:02:56.108Z",
-  "base_commit": "668ccd53aabef12a209eed2be8045152b2b6c513",
+  "started": "2026-10-07T07:04:12.886Z",
+  "finished": "2026-10-07T07:04:13.098Z",
+  "base_commit": "6fe052ca116f73b8428edbaf6a3c391fee09e4de",
   "processed": [
     {
-      "id": "SEO-496",
-      "draft": "_factory/inbox/SEO-496.article",
-      "output": "hanoi-motorbike-rental-cost/yamaha-mio-vs-honda-click-rental-cost/index.html",
+      "id": "SEO-497",
+      "draft": "_factory/inbox/SEO-497.article",
+      "output": "hanoi-motorbike-rental-cost/yamaha-mio-vs-honda-vision-rental-cost/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1895,
-      "title_length": 55,
+      "word_count": 1814,
+      "title_length": 56,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-496"
+    "SEO-497"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 484,
-    "planned": 506,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 516,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 485,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 515,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 486,
+    "planned": 504,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 514,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -55,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-497"
+    "SEO-498"
   ]
 }
