@@ -1,51 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:10:43.231Z",
-  "finished": "2026-10-07T05:10:43.436Z",
-  "base_commit": "0a45d7507989205888e339a90c91827d6bbec7a5",
+  "started": "2026-10-07T05:11:15.787Z",
+  "finished": "2026-10-07T05:11:15.951Z",
+  "base_commit": "df5d616cffbcce76f505e2e5d74670831e839a19",
   "processed": [
     {
-      "id": "SEO-340",
-      "draft": "_factory/inbox/SEO-340.article",
-      "output": "hanoi-50cc-motorbike-rental/short-stay-visitors-parking/index.html",
+      "id": "SEO-329",
+      "draft": "_factory/inbox/SEO-329.article",
+      "output": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-choosing-a-50cc/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1846,
-      "title_length": 58,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-341",
-      "draft": "_factory/inbox/SEO-341.article",
-      "output": "hanoi-50cc-motorbike-rental/short-stay-visitors-route-suitability/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1943,
-      "title_length": 68,
-      "seo_score": 95
+      "word_count": 2323,
+      "title_length": 72,
+      "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-340",
-    "SEO-341"
+    "SEO-329"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 330,
-    "planned": 660,
-    "writing": 9,
-    "repair": 1,
-    "blocked": 0,
-    "remaining_to_target": 670,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 332,
@@ -56,10 +33,20 @@
     "remaining_to_target": 668,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 333,
+    "planned": 657,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 667,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-328",
-    "SEO-329",
     "SEO-333",
     "SEO-334",
     "SEO-335",
@@ -67,6 +54,7 @@
     "SEO-339",
     "SEO-342",
     "SEO-343",
-    "SEO-344"
+    "SEO-344",
+    "SEO-345"
   ]
 }
