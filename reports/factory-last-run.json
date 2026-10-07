@@ -1,51 +1,52 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:51:29.105Z",
-  "finished": "2026-10-07T07:51:29.374Z",
-  "base_commit": "fdd7d5f2d9ffc86bd6ab27c192ac72b3ceb902a1",
+  "started": "2026-10-07T07:54:21.857Z",
+  "finished": "2026-10-07T07:54:22.181Z",
+  "base_commit": "f2416fb0d8e0d947ac7155a59994d722dc7c8ce1",
   "processed": [
     {
-      "id": "SEO-520",
-      "draft": "_factory/inbox/SEO-520.article",
-      "output": "motorbike-rental-hanoi-old-quarter/hoan-kiem-rental-planning/index.html",
+      "id": "SEO-523",
+      "draft": "_factory/inbox/SEO-523.article",
+      "output": "motorbike-rental-hanoi-old-quarter/hoan-kiem-route-connections/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1997,
-      "title_length": 58,
+      "word_count": 1783,
+      "title_length": 60,
       "seo_score": 95
     },
     {
-      "id": "SEO-521",
-      "draft": "_factory/inbox/SEO-521.article",
-      "output": "motorbike-rental-hanoi-old-quarter/hoan-kiem-parking-guide/index.html",
+      "id": "SEO-524",
+      "draft": "_factory/inbox/SEO-524.article",
+      "output": "motorbike-rental-hanoi-old-quarter/hoan-kiem-day-ride-ideas/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1746,
-      "title_length": 56,
+      "word_count": 1732,
+      "title_length": 57,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-525",
+      "draft": "_factory/inbox/SEO-525.article",
+      "output": "motorbike-rental-hanoi-old-quarter/west-lake-rental-planning/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1759,
+      "title_length": 58,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-520",
-    "SEO-521"
+    "SEO-523",
+    "SEO-524",
+    "SEO-525"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 518,
-    "planned": 472,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 482,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 520,
@@ -56,17 +57,28 @@
     "remaining_to_target": 480,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 523,
+    "planned": 467,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 477,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-523",
-    "SEO-524",
-    "SEO-525",
     "SEO-526",
     "SEO-527",
     "SEO-528",
     "SEO-529",
     "SEO-530",
     "SEO-531",
-    "SEO-532"
+    "SEO-532",
+    "SEO-533",
+    "SEO-534",
+    "SEO-535"
   ]
 }
