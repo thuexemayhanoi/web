@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T21:59:07.346Z",
-  "finished": "2026-10-07T21:59:07.552Z",
-  "base_commit": "ec0bfc00722f3ca8867286a71ef829fcae0f0c8f",
+  "started": "2026-10-07T21:59:45.574Z",
+  "finished": "2026-10-07T21:59:45.778Z",
+  "base_commit": "0e1929a7ecb6eb6f532ccbf794cfa10b3d02e9b7",
   "processed": [
     {
-      "id": "SEO-851",
-      "draft": "_factory/inbox/SEO-851.article",
-      "output": "hanoi-motorbike-for-sale/students-paperwork-questions/index.html",
+      "id": "SEO-852",
+      "draft": "_factory/inbox/SEO-852.article",
+      "output": "hanoi-motorbike-for-sale/students-break-even-thinking/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2158,
-      "title_length": 60,
+      "word_count": 2098,
+      "title_length": 50,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-851"
+    "SEO-852"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 848,
-    "planned": 142,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 152,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 849,
@@ -45,9 +34,19 @@
     "remaining_to_target": 151,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 850,
+    "planned": 140,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 150,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-852",
     "SEO-853",
     "SEO-854",
     "SEO-855",
@@ -56,6 +55,7 @@
     "SEO-858",
     "SEO-859",
     "SEO-860",
-    "SEO-861"
+    "SEO-861",
+    "SEO-862"
   ]
 }
