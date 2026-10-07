@@ -1,14 +1,76 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:39:51.370Z",
-  "finished": "2026-10-07T22:39:51.370Z",
-  "base_commit": "bf9a3e956911cc815d86d259ea8ea3949bb0a163",
-  "processed": [],
-  "published_ids": [],
+  "started": "2026-10-07T22:41:16.237Z",
+  "finished": "2026-10-07T22:41:16.874Z",
+  "base_commit": "40fa1145b8ec45f7f602a686291c8fb73b64ce3e",
+  "processed": [
+    {
+      "id": "SEO-927",
+      "draft": "_factory/inbox/SEO-927.article",
+      "output": "renting-a-motorbike-in-vietnam/helmet-rules-50cc-riders/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1739,
+      "title_length": 53,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-929",
+      "draft": "_factory/inbox/SEO-929.article",
+      "output": "renting-a-motorbike-in-vietnam/helmet-rules-long-distance-riders/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1668,
+      "title_length": 62,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-930",
+      "draft": "_factory/inbox/SEO-930.article",
+      "output": "renting-a-motorbike-in-vietnam/helmet-rules-city-riders/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1699,
+      "title_length": 53,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-931",
+      "draft": "_factory/inbox/SEO-931.article",
+      "output": "renting-a-motorbike-in-vietnam/traffic-police-stops-tourists/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1649,
+      "title_length": 58,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-932",
+      "draft": "_factory/inbox/SEO-932.article",
+      "output": "renting-a-motorbike-in-vietnam/traffic-police-stops-expats/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1663,
+      "title_length": 56,
+      "seo_score": 95
+    }
+  ],
+  "published_ids": [
+    "SEO-927",
+    "SEO-929",
+    "SEO-930",
+    "SEO-931",
+    "SEO-932"
+  ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
-  "fatal": "factory is BLOCKED",
+  "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
@@ -23,12 +85,25 @@
   "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 924,
-    "planned": 66,
-    "writing": 9,
+    "published": 929,
+    "planned": 61,
+    "writing": 10,
     "repair": 0,
-    "blocked": 1,
-    "remaining_to_target": 76,
+    "blocked": 0,
+    "remaining_to_target": 71,
     "unplanned_slots": 0
-  }
+  },
+  "queue_status": "READY",
+  "next_queue": [
+    "SEO-918",
+    "SEO-933",
+    "SEO-934",
+    "SEO-935",
+    "SEO-936",
+    "SEO-937",
+    "SEO-938",
+    "SEO-939",
+    "SEO-940",
+    "SEO-941"
+  ]
 }
