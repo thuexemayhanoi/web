@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:22:11.357Z",
-  "finished": "2026-10-07T06:22:11.554Z",
-  "base_commit": "e39f7a9bc04df3683cd19e91b165548d15b7a138",
+  "started": "2026-10-07T06:24:19.216Z",
+  "finished": "2026-10-07T06:24:19.326Z",
+  "base_commit": "e6316819030f3994e6c72980b28dd07b61d59dd3",
   "processed": [
     {
-      "id": "SEO-457",
-      "draft": "_factory/inbox/SEO-457.article",
-      "output": "hanoi-motorbike-rental-cost/honda-vision-daily-price/index.html",
+      "id": "SEO-459",
+      "draft": "_factory/inbox/SEO-459.article",
+      "output": "hanoi-motorbike-rental-cost/honda-vision-monthly-price/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1884,
-      "title_length": 61,
+      "word_count": 1835,
+      "title_length": 63,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-457"
+    "SEO-459"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 447,
-    "planned": 543,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 553,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 448,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 552,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 449,
+    "planned": 541,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 551,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -54,7 +54,7 @@
     "SEO-447",
     "SEO-449",
     "SEO-458",
-    "SEO-459",
-    "SEO-460"
+    "SEO-460",
+    "SEO-461"
   ]
 }
