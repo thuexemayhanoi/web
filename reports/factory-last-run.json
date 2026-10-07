@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:28:56.909Z",
-  "finished": "2026-10-07T06:28:57.005Z",
-  "base_commit": "21ebc22da58b3cca1021545b1988e0bc62035553",
+  "started": "2026-10-07T06:29:25.358Z",
+  "finished": "2026-10-07T06:29:25.538Z",
+  "base_commit": "86e165c6842c045b2233c6d9d740700845cb3d02",
   "processed": [
     {
-      "id": "SEO-466",
-      "draft": "_factory/inbox/SEO-466.article",
-      "output": "hanoi-motorbike-rental-cost/electric-motorbike-weekly-price/index.html",
+      "id": "SEO-467",
+      "draft": "_factory/inbox/SEO-467.article",
+      "output": "hanoi-motorbike-rental-cost/electric-motorbike-monthly-price/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1803,
-      "title_length": 68,
+      "word_count": 1723,
+      "title_length": 69,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-466"
+    "SEO-467"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 455,
-    "planned": 535,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 545,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 456,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 544,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 457,
+    "planned": 533,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 543,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -54,7 +54,7 @@
     "SEO-447",
     "SEO-449",
     "SEO-458",
-    "SEO-467",
-    "SEO-468"
+    "SEO-468",
+    "SEO-469"
   ]
 }
