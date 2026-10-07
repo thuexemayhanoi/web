@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:26:44.397Z",
-  "finished": "2026-10-07T07:26:44.473Z",
-  "base_commit": "0e8e63e29d4c1e45dfe532b65cf7c350a14daa9a",
+  "started": "2026-10-07T07:27:21.344Z",
+  "finished": "2026-10-07T07:27:21.539Z",
+  "base_commit": "071e49f937f86051566055835e78bc4a9c717199",
   "processed": [
     {
-      "id": "SEO-513",
-      "draft": "_factory/inbox/SEO-513.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
+      "id": "SEO-514",
+      "draft": "_factory/inbox/SEO-514.article",
+      "output": "hanoi-motorbike-rental-cost/electric-motorbike-vs-50cc-scooter-rental-cost/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
       "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
+      "word_count": 1877,
+      "title_length": 64,
+      "seo_score": 95
     }
   ],
-  "published_ids": [],
+  "published_ids": [
+    "SEO-514"
+  ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
@@ -36,12 +36,12 @@
   "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 502,
-    "planned": 488,
+    "published": 503,
+    "planned": 487,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 498,
+    "remaining_to_target": 497,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -55,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-514"
+    "SEO-515"
   ]
 }
