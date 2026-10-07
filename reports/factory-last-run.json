@@ -1,37 +1,39 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T21:34:14.094Z",
-  "finished": "2026-10-07T21:34:14.295Z",
-  "base_commit": "1a5e2a2a15d95125dc6780bc1ab210db4e114861",
+  "started": "2026-10-07T21:34:34.479Z",
+  "finished": "2026-10-07T21:34:34.691Z",
+  "base_commit": "dd04cf9faa67ec29c16f174250fdb106a959e9aa",
   "processed": [
     {
-      "id": "SEO-824",
-      "draft": "_factory/inbox/SEO-824.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-cuc-phuong-one-day-feasibility/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "SEO-825",
+      "draft": "_factory/inbox/SEO-825.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-cuc-phuong-two-day-itinerary/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "broken internal link: /hanoi-rental/"
+      ],
       "warnings": [],
-      "word_count": 1966,
-      "title_length": 58,
+      "word_count": 1993,
+      "title_length": 55,
       "seo_score": 95
     }
   ],
-  "published_ids": [
-    "SEO-824"
+  "published_ids": [],
+  "repair_ids": [
+    "SEO-825"
   ],
-  "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 821,
-    "planned": 169,
+    "published": 822,
+    "planned": 168,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 179,
+    "remaining_to_target": 178,
     "unplanned_slots": 0
   },
   "stats_after": {
@@ -39,8 +41,8 @@
     "matrix_content_rows": 1000,
     "published": 822,
     "planned": 168,
-    "writing": 10,
-    "repair": 0,
+    "writing": 9,
+    "repair": 1,
     "blocked": 0,
     "remaining_to_target": 178,
     "unplanned_slots": 0
