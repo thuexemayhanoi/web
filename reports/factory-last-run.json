@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:08:27.596Z",
-  "finished": "2026-10-07T04:08:27.755Z",
-  "base_commit": "3965649e1bc529e0d8377aa8dcea4f9d289d5895",
+  "started": "2026-10-07T04:08:59.236Z",
+  "finished": "2026-10-07T04:08:59.323Z",
+  "base_commit": "e40d7c632fe701b3f82002e61e34a54ec50e94fc",
   "processed": [
     {
-      "id": "SEO-234",
-      "draft": "_factory/inbox/SEO-234.article",
-      "output": "hanoi-50cc-motorbike-rental/beginners-bridges-and-inclines/index.html",
+      "id": "SEO-235",
+      "draft": "_factory/inbox/SEO-235.article",
+      "output": "hanoi-50cc-motorbike-rental/beginners-passenger-use/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2818,
-      "title_length": 64,
-      "seo_score": 100
+      "word_count": 2749,
+      "title_length": 57,
+      "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-234"
+    "SEO-235"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 233,
-    "planned": 757,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 767,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 234,
@@ -44,9 +33,19 @@
     "remaining_to_target": 766,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 235,
+    "planned": 755,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 765,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-235",
     "SEO-238",
     "SEO-239",
     "SEO-240",
@@ -55,6 +54,7 @@
     "SEO-243",
     "SEO-244",
     "SEO-245",
-    "SEO-246"
+    "SEO-246",
+    "SEO-247"
   ]
 }

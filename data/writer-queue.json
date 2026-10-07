@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T04:08:27.755Z",
+  "generated_at": "2026-10-07T04:08:59.323Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 234,
-  "remaining_to_target": 766,
+  "current_published_content_pages": 235,
+  "remaining_to_target": 765,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-235",
-      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-passenger-use/",
-      "path": "hanoi-50cc-motorbike-rental/beginners-passenger-use/index.html",
-      "silo": "50cc Motorbike Rental",
-      "hub": "50cc Motorbike Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "50cc motorbike hanoi beginners passenger use",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Beginners: 50cc With a Passenger for 50cc Rental in Hanoi",
-      "content_brief": "50cc cluster for beginners, focused on two-up planning, load awareness and when a larger bike may be the more practical question to ask. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
-      "internal_link_targets": [
-        "/hanoi-50cc-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-235.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-238",
       "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-vs-automatic-scooter/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-246.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-247",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/students-vs-automatic-scooter/",
+      "path": "hanoi-50cc-motorbike-rental/students-vs-automatic-scooter/index.html",
+      "silo": "50cc Motorbike Rental",
+      "hub": "50cc Motorbike Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "50cc motorbike hanoi students vs automatic scooter",
+      "intent": "Commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Students: 50cc vs Automatic Scooter for 50cc Rental in Hanoi",
+      "content_brief": "50cc cluster for students, focused on decision factors between a 50cc bike and larger automatic scooter for this rider profile. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
+      "internal_link_targets": [
+        "/hanoi-50cc-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-247.article",
       "template": "site/templates/article.html"
     }
   ]
