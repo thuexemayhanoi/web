@@ -1,51 +1,52 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:30:01.592Z",
-  "finished": "2026-10-07T05:30:01.813Z",
-  "base_commit": "b9e93c7d4f778f14e16e8eef3c3689ac4a0e0554",
+  "started": "2026-10-07T05:30:51.707Z",
+  "finished": "2026-10-07T05:30:51.988Z",
+  "base_commit": "0412f03d42fa8ca9dd01d1872a8ff776cdde951c",
   "processed": [
     {
-      "id": "SEO-372",
-      "draft": "_factory/inbox/SEO-372.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-in-hot-weather-checks-and-mistakes/index.html",
+      "id": "SEO-376",
+      "draft": "_factory/inbox/SEO-376.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-for-daily-commuting-checks-and-mistakes/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1898,
-      "title_length": 70,
+      "word_count": 2095,
+      "title_length": 69,
       "seo_score": 95
     },
     {
-      "id": "SEO-373",
-      "draft": "_factory/inbox/SEO-373.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-for-weekend-use-selection-guide/index.html",
+      "id": "SEO-377",
+      "draft": "_factory/inbox/SEO-377.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-for-short-stays-selection-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1749,
+      "word_count": 2019,
       "title_length": 75,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-378",
+      "draft": "_factory/inbox/SEO-378.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-for-short-stays-checks-and-mistakes/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2017,
+      "title_length": 71,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-372",
-    "SEO-373"
+    "SEO-376",
+    "SEO-377",
+    "SEO-378"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 368,
-    "planned": 622,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 632,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 370,
@@ -56,17 +57,28 @@
     "remaining_to_target": 630,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 373,
+    "planned": 617,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 627,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-328",
     "SEO-374",
     "SEO-375",
-    "SEO-376",
-    "SEO-377",
-    "SEO-378",
     "SEO-379",
     "SEO-380",
     "SEO-381",
-    "SEO-382"
+    "SEO-382",
+    "SEO-383",
+    "SEO-384",
+    "SEO-385"
   ]
 }
