@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:12:48.070Z",
-  "finished": "2026-10-07T04:12:48.219Z",
-  "base_commit": "b64182ae771c246d67545930d1b6935f59aaa30c",
+  "started": "2026-10-07T04:13:10.211Z",
+  "finished": "2026-10-07T04:13:10.333Z",
+  "base_commit": "0c299a7b40d41b629d04b0b2b65d1b603966ac18",
   "processed": [
     {
-      "id": "SEO-248",
-      "draft": "_factory/inbox/SEO-248.article",
-      "output": "hanoi-50cc-motorbike-rental/expats-choosing-a-50cc/index.html",
+      "id": "SEO-241",
+      "draft": "_factory/inbox/SEO-241.article",
+      "output": "hanoi-50cc-motorbike-rental/students-parking/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2071,
-      "title_length": 53,
+      "word_count": 2279,
+      "title_length": 71,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-248"
+    "SEO-241"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 241,
-    "planned": 749,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 759,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 242,
@@ -44,10 +33,20 @@
     "remaining_to_target": 758,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 243,
+    "planned": 747,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 757,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-240",
-    "SEO-241",
     "SEO-242",
     "SEO-243",
     "SEO-249",
@@ -55,6 +54,7 @@
     "SEO-251",
     "SEO-252",
     "SEO-253",
-    "SEO-254"
+    "SEO-254",
+    "SEO-255"
   ]
 }
