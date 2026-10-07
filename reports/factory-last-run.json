@@ -1,60 +1,49 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:43:08.464Z",
-  "finished": "2026-10-07T05:43:08.714Z",
-  "base_commit": "c52d88fbdfd27646cb4902ae9e169013c66f9217",
+  "started": "2026-10-07T05:43:59.303Z",
+  "finished": "2026-10-07T05:43:59.381Z",
+  "base_commit": "80d847773c982ed33a06e63c1ff9fbdd9ee40df8",
   "processed": [
     {
-      "id": "SEO-392",
-      "draft": "_factory/inbox/SEO-392.article",
-      "output": "hanoi-scooter-rental/honda-click-for-city-riding-checks-and-mistakes/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "SEO-386",
+      "draft": "_factory/inbox/SEO-386.article",
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
       "warnings": [],
-      "word_count": 2224,
-      "title_length": 65,
-      "seo_score": 100
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
     },
     {
-      "id": "SEO-393",
-      "draft": "_factory/inbox/SEO-393.article",
-      "output": "hanoi-scooter-rental/yamaha-mio-for-city-riding-selection-guide/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "SEO-387",
+      "draft": "_factory/inbox/SEO-387.article",
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
       "warnings": [],
-      "word_count": 2172,
-      "title_length": 68,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-394",
-      "draft": "_factory/inbox/SEO-394.article",
-      "output": "hanoi-scooter-rental/yamaha-mio-for-city-riding-checks-and-mistakes/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2191,
-      "title_length": 64,
-      "seo_score": 100
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
     }
   ],
-  "published_ids": [
-    "SEO-392",
-    "SEO-393",
-    "SEO-394"
-  ],
+  "published_ids": [],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 386,
-    "planned": 604,
+    "published": 389,
+    "planned": 601,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 614,
+    "remaining_to_target": 611,
     "unplanned_slots": 0
   },
   "stats_after": {
