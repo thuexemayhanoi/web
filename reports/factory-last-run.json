@@ -1,48 +1,38 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:50:16.619Z",
-  "finished": "2026-10-07T03:50:16.819Z",
-  "base_commit": "6debe0a1c01d25375e3df3748d124602df6295a9",
+  "started": "2026-10-07T03:50:47.574Z",
+  "finished": "2026-10-07T03:50:47.707Z",
+  "base_commit": "9538615b9a8bd3758b4fbfefe4e2edcc1f68cc2b",
   "processed": [
     {
-      "id": "SEO-203",
-      "draft": "_factory/inbox/SEO-203.article",
-      "output": "hanoi-motorbike-rental/riders-with-a-passenger-rental-paperwork-questions/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "SEO-208",
+      "draft": "_factory/inbox/SEO-208.article",
+      "output": "hanoi-motorbike-rental/riders-with-a-passenger-rainy-day-planning/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "word count 1402 outside 1500-5000"
+      ],
       "warnings": [],
-      "word_count": 1946,
-      "title_length": 68,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-204",
-      "draft": "_factory/inbox/SEO-204.article",
-      "output": "hanoi-motorbike-rental/riders-with-a-passenger-pickup-planning/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1934,
-      "title_length": 67,
-      "seo_score": 100
+      "word_count": 1402,
+      "title_length": 70,
+      "seo_score": 85
     }
   ],
-  "published_ids": [
-    "SEO-203",
-    "SEO-204"
+  "published_ids": [],
+  "repair_ids": [
+    "SEO-208"
   ],
-  "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 201,
-    "planned": 789,
-    "writing": 6,
-    "repair": 4,
+    "published": 203,
+    "planned": 787,
+    "writing": 8,
+    "repair": 2,
     "blocked": 0,
-    "remaining_to_target": 799,
+    "remaining_to_target": 797,
     "unplanned_slots": 0
   },
   "stats_after": {
@@ -50,8 +40,8 @@
     "matrix_content_rows": 1000,
     "published": 203,
     "planned": 787,
-    "writing": 8,
-    "repair": 2,
+    "writing": 7,
+    "repair": 3,
     "blocked": 0,
     "remaining_to_target": 797,
     "unplanned_slots": 0
