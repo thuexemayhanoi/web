@@ -1,75 +1,25 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:31:56.976Z",
-  "finished": "2026-10-07T22:31:57.470Z",
+  "started": "2026-10-07T22:32:14.057Z",
+  "finished": "2026-10-07T22:32:14.142Z",
   "base_commit": null,
-  "processed": [
-    {
-      "id": "SEO-904",
-      "draft": "_factory/inbox/SEO-904.article",
-      "output": "hanoi-motorbike-for-sale/first-time-residents-resale-planning/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1647,
-      "title_length": 58,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-905",
-      "draft": "_factory/inbox/SEO-905.article",
-      "output": "hanoi-motorbike-for-sale/first-time-residents-paperwork-questions/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1672,
-      "title_length": 72,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-906",
-      "draft": "_factory/inbox/SEO-906.article",
-      "output": "hanoi-motorbike-for-sale/first-time-residents-break-even-thinking/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1676,
-      "title_length": 62,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-907",
-      "draft": "_factory/inbox/SEO-907.article",
-      "output": "hanoi-motorbike-for-sale/budget-travelers-rent-vs-buy-decision/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1715,
-      "title_length": 59,
-      "seo_score": 95
-    }
-  ],
-  "published_ids": [
-    "SEO-904",
-    "SEO-905",
-    "SEO-906",
-    "SEO-907"
-  ],
+  "processed": [],
+  "published_ids": [],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [
-    "_factory/inbox/SEO-903.article"
+    "_factory/inbox/SEO-905.article"
   ],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 901,
-    "planned": 89,
+    "published": 905,
+    "planned": 85,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 99,
+    "remaining_to_target": 95,
     "unplanned_slots": 0
   },
   "stats_after": {
