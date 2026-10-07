@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T14:53:17.284Z",
-  "finished": "2026-10-07T14:53:17.495Z",
-  "base_commit": "db2edb33874bc89f7fb9331943b0c71410d61a60",
+  "started": "2026-10-07T14:53:41.357Z",
+  "finished": "2026-10-07T14:53:41.597Z",
+  "base_commit": "16aa9e6e00468edfbce489b579a92278b0c51015",
   "processed": [
     {
-      "id": "SEO-700",
-      "draft": "_factory/inbox/SEO-700.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-ninh-binh-bike-choice/index.html",
+      "id": "SEO-699",
+      "draft": "_factory/inbox/SEO-699.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-ninh-binh-two-day-itinerary/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1928,
-      "title_length": 61,
+      "word_count": 1906,
+      "title_length": 54,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-700"
+    "SEO-699"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 696,
-    "planned": 294,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 304,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 697,
@@ -44,9 +33,19 @@
     "remaining_to_target": 303,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 698,
+    "planned": 292,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 302,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-699",
     "SEO-701",
     "SEO-702",
     "SEO-703",
@@ -55,6 +54,7 @@
     "SEO-706",
     "SEO-707",
     "SEO-708",
-    "SEO-709"
+    "SEO-709",
+    "SEO-710"
   ]
 }
