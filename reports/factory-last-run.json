@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:58:00.031Z",
-  "finished": "2026-10-07T06:58:00.411Z",
-  "base_commit": "f856b95837d484edd5fb61974cb63955715fc490",
+  "started": "2026-10-07T06:58:53.994Z",
+  "finished": "2026-10-07T06:58:54.196Z",
+  "base_commit": "add1f6e2104e74f3d989c61872f6ce5a52896108",
   "processed": [
     {
-      "id": "SEO-491",
-      "draft": "_factory/inbox/SEO-491.article",
-      "output": "hanoi-motorbike-rental-cost/yamaha-sirius-vs-honda-vision-rental-cost/index.html",
+      "id": "SEO-492",
+      "draft": "_factory/inbox/SEO-492.article",
+      "output": "hanoi-motorbike-rental-cost/yamaha-sirius-vs-honda-air-blade-rental-cost/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1811,
-      "title_length": 59,
+      "word_count": 1808,
+      "title_length": 62,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-491"
+    "SEO-492"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 479,
-    "planned": 511,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 521,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 480,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 520,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 481,
+    "planned": 509,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 519,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -55,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-492"
+    "SEO-493"
   ]
 }
