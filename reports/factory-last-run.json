@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:25:21.890Z",
-  "finished": "2026-10-07T22:25:21.935Z",
-  "base_commit": "8e4cad89d426a54705fcb96e700f4e2729d2e33d",
+  "started": "2026-10-07T22:26:20.403Z",
+  "finished": "2026-10-07T22:26:20.479Z",
+  "base_commit": "44ca8d4ca819a0a80add31bbb38552039b9e23f5",
   "processed": [],
   "published_ids": [],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [
-    "_factory/inbox/SEO-893.article"
+    "_factory/inbox/SEO-894.article"
   ],
   "fatal": null,
   "stats_before": {
