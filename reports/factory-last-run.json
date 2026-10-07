@@ -1,67 +1,52 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:40:33.259Z",
-  "finished": "2026-10-07T07:40:33.478Z",
-  "base_commit": "09fae041f676e86c14289517bb982fc9e29c84dd",
+  "started": "2026-10-07T07:42:06.897Z",
+  "finished": "2026-10-07T07:42:07.244Z",
+  "base_commit": "a0fef8cf9ab3cbd9ccb8488a0557544b24c9f24a",
   "processed": [
     {
-      "id": "SEO-433",
-      "draft": "_factory/inbox/SEO-433.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-fuel-planning-selection-guide/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [
-        "meta description length 181 outside recommended 120-180"
-      ],
-      "word_count": 1870,
-      "title_length": 73,
-      "seo_score": 90
-    },
-    {
-      "id": "SEO-434",
-      "draft": "_factory/inbox/SEO-434.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-fuel-planning-checks-and-mistakes/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [
-        "meta description length 190 outside recommended 120-180"
-      ],
-      "word_count": 1713,
-      "title_length": 69,
-      "seo_score": 90
-    },
-    {
-      "id": "SEO-435",
-      "draft": "_factory/inbox/SEO-435.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-route-planning-selection-guide/index.html",
+      "id": "SEO-436",
+      "draft": "_factory/inbox/SEO-436.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-route-planning-checks-and-mistakes/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1618,
-      "title_length": 66,
+      "word_count": 1604,
+      "title_length": 63,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-440",
+      "draft": "_factory/inbox/SEO-440.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-rental-questions-checks-and-mistakes/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1774,
+      "title_length": 65,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-447",
+      "draft": "_factory/inbox/SEO-447.article",
+      "output": "hanoi-motorbike-rental-cost/yamaha-sirius-monthly-price/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1621,
+      "title_length": 64,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-433",
-    "SEO-434",
-    "SEO-435"
+    "SEO-436",
+    "SEO-440",
+    "SEO-447"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 507,
-    "planned": 483,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 493,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 510,
@@ -72,17 +57,28 @@
     "remaining_to_target": 490,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 513,
+    "planned": 477,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 487,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-436",
-    "SEO-440",
-    "SEO-447",
     "SEO-449",
     "SEO-458",
     "SEO-474",
     "SEO-519",
     "SEO-520",
     "SEO-521",
-    "SEO-522"
+    "SEO-522",
+    "SEO-523",
+    "SEO-524",
+    "SEO-525"
   ]
 }
