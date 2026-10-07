@@ -1,51 +1,121 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T08:41:10.981Z",
-  "finished": "2026-10-07T08:41:11.203Z",
-  "base_commit": "bf789b99529da06f6cb24a0cad135f7032413d6c",
+  "started": "2026-10-07T09:43:02.030Z",
+  "finished": "2026-10-07T09:43:03.078Z",
+  "base_commit": "b826d2af51d38d99d380b8e1370b03fad50a0414",
   "processed": [
     {
-      "id": "SEO-566",
-      "draft": "_factory/inbox/SEO-566.article",
-      "output": "motorbike-rental-hanoi-old-quarter/bac-tu-liem-parking-guide/index.html",
+      "id": "SEO-567",
+      "draft": "_factory/inbox/SEO-567.article",
+      "output": "motorbike-rental-hanoi-old-quarter/bac-tu-liem-traffic-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2291,
+      "word_count": 2298,
       "title_length": 58,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-568",
+      "draft": "_factory/inbox/SEO-568.article",
+      "output": "motorbike-rental-hanoi-old-quarter/bac-tu-liem-route-connections/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2158,
+      "title_length": 62,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-569",
+      "draft": "_factory/inbox/SEO-569.article",
+      "output": "motorbike-rental-hanoi-old-quarter/bac-tu-liem-day-ride-ideas/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2069,
+      "title_length": 59,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-570",
+      "draft": "_factory/inbox/SEO-570.article",
+      "output": "motorbike-rental-hanoi-old-quarter/thanh-xuan-rental-planning/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2287,
+      "title_length": 59,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-571",
+      "draft": "_factory/inbox/SEO-571.article",
+      "output": "motorbike-rental-hanoi-old-quarter/thanh-xuan-parking-guide/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2027,
+      "title_length": 57,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-572",
+      "draft": "_factory/inbox/SEO-572.article",
+      "output": "motorbike-rental-hanoi-old-quarter/thanh-xuan-traffic-guide/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2239,
+      "title_length": 57,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-573",
+      "draft": "_factory/inbox/SEO-573.article",
+      "output": "motorbike-rental-hanoi-old-quarter/thanh-xuan-route-connections/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2100,
+      "title_length": 61,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-574",
+      "draft": "_factory/inbox/SEO-574.article",
+      "output": "motorbike-rental-hanoi-old-quarter/thanh-xuan-day-ride-ideas/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2053,
+      "title_length": 58,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-575",
+      "draft": "_factory/inbox/SEO-575.article",
+      "output": "motorbike-rental-hanoi-old-quarter/hoang-mai-rental-planning/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2329,
+      "title_length": 58,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-576",
+      "draft": "_factory/inbox/SEO-576.article",
+      "output": "motorbike-rental-hanoi-old-quarter/hoang-mai-parking-guide/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2073,
+      "title_length": 56,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-566"
-  ],
-  "repair_ids": [],
-  "blocked_ids": [],
-  "fatal": null,
-  "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 563,
-    "planned": 427,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 437,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 564,
-    "planned": 426,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 436,
-    "unplanned_slots": 0
-  },
-  "queue_status": "READY",
-  "next_queue": [
     "SEO-567",
     "SEO-568",
     "SEO-569",
@@ -56,5 +126,43 @@
     "SEO-574",
     "SEO-575",
     "SEO-576"
+  ],
+  "repair_ids": [],
+  "blocked_ids": [],
+  "fatal": null,
+  "stats_before": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 564,
+    "planned": 426,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 436,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 574,
+    "planned": 416,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 426,
+    "unplanned_slots": 0
+  },
+  "queue_status": "READY",
+  "next_queue": [
+    "SEO-577",
+    "SEO-578",
+    "SEO-579",
+    "SEO-580",
+    "SEO-581",
+    "SEO-582",
+    "SEO-583",
+    "SEO-584",
+    "SEO-585",
+    "SEO-586"
   ]
 }
