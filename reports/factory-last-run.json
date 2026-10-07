@@ -1,147 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:14:23.307Z",
-  "finished": "2026-10-07T03:14:23.662Z",
-  "base_commit": "93334eade4c2aadc55c444165141fcd1e60cb9fa",
+  "started": "2026-10-07T03:16:25.633Z",
+  "finished": "2026-10-07T03:16:25.737Z",
+  "base_commit": "abc5021b7c865b313f2373d19d1024076b3ac2c9",
   "processed": [
     {
-      "id": "SEO-157",
-      "draft": "_factory/inbox/SEO-157.article",
-      "output": "hanoi-motorbike-rental/experienced-riders-pre-ride-inspection/index.html",
+      "id": "SEO-167",
+      "draft": "_factory/inbox/SEO-167.article",
+      "output": "hanoi-motorbike-rental/new-riders-rental-paperwork-questions/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2036,
-      "title_length": 66,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-158",
-      "draft": "_factory/inbox/SEO-158.article",
-      "output": "hanoi-motorbike-rental/experienced-riders-rental-paperwork-questions/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1916,
-      "title_length": 73,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-159",
-      "draft": "_factory/inbox/SEO-159.article",
-      "output": "hanoi-motorbike-rental/experienced-riders-pickup-planning/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1981,
-      "title_length": 62,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-160",
-      "draft": "_factory/inbox/SEO-160.article",
-      "output": "hanoi-motorbike-rental/experienced-riders-return-checklist/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1863,
-      "title_length": 63,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-161",
-      "draft": "_factory/inbox/SEO-161.article",
-      "output": "hanoi-motorbike-rental/experienced-riders-traffic-preparation/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1900,
-      "title_length": 66,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-162",
-      "draft": "_factory/inbox/SEO-162.article",
-      "output": "hanoi-motorbike-rental/experienced-riders-parking-strategy/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1908,
-      "title_length": 63,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-163",
-      "draft": "_factory/inbox/SEO-163.article",
-      "output": "hanoi-motorbike-rental/experienced-riders-rainy-day-planning/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1829,
+      "word_count": 2294,
       "title_length": 65,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-164",
-      "draft": "_factory/inbox/SEO-164.article",
-      "output": "hanoi-motorbike-rental/experienced-riders-route-planning/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1865,
-      "title_length": 61,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-165",
-      "draft": "_factory/inbox/SEO-165.article",
-      "output": "hanoi-motorbike-rental/new-riders-bike-choice/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2023,
-      "title_length": 62,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-166",
-      "draft": "_factory/inbox/SEO-166.article",
-      "output": "hanoi-motorbike-rental/new-riders-pre-ride-inspection/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2059,
-      "title_length": 58,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-157",
-    "SEO-158",
-    "SEO-159",
-    "SEO-160",
-    "SEO-161",
-    "SEO-162",
-    "SEO-163",
-    "SEO-164",
-    "SEO-165",
-    "SEO-166"
+    "SEO-167"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 154,
-    "planned": 836,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 846,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 164,
@@ -152,9 +33,19 @@
     "remaining_to_target": 836,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 165,
+    "planned": 825,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 835,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-167",
     "SEO-168",
     "SEO-169",
     "SEO-170",
@@ -163,6 +54,7 @@
     "SEO-173",
     "SEO-174",
     "SEO-175",
-    "SEO-176"
+    "SEO-176",
+    "SEO-177"
   ]
 }

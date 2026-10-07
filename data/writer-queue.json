@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T03:14:23.662Z",
+  "generated_at": "2026-10-07T03:16:25.736Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 164,
-  "remaining_to_target": 836,
+  "current_published_content_pages": 165,
+  "remaining_to_target": 835,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-167",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/new-riders-rental-paperwork-questions/",
-      "path": "hanoi-motorbike-rental/new-riders-rental-paperwork-questions/index.html",
-      "silo": "Hanoi Motorbike Rental",
-      "hub": "Hanoi Motorbike Rental Guide",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi motorbike rental new riders rental paperwork questions",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "New Riders: Rental Paperwork Questions for Hanoi Motorbike Rental",
-      "content_brief": "Audience-specific Hanoi rental cluster for new riders, focused strictly on the questions to clarify before renting while avoiding invented deposit, license or document rules. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-167.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-168",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/new-riders-pickup-planning/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-176.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-177",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/short-riders-pickup-planning/",
+      "path": "hanoi-motorbike-rental/short-riders-pickup-planning/index.html",
+      "silo": "Hanoi Motorbike Rental",
+      "hub": "Hanoi Motorbike Rental Guide",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi motorbike rental short riders pickup planning",
+      "intent": "Informational / Commercial assist",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Short Riders: Pickup Planning for Hanoi Motorbike Rental",
+      "content_brief": "Audience-specific Hanoi rental cluster for short riders, focused strictly on planning the visit to the verified Long Bien shop address without promising delivery or unverified pickup arrangements. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-177.article",
       "template": "site/templates/article.html"
     }
   ]
