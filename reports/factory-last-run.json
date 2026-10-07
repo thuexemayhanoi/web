@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:05:14.643Z",
-  "finished": "2026-10-07T07:05:14.881Z",
-  "base_commit": "1fcf17cc26208dc030786815984f257b9c436845",
+  "started": "2026-10-07T07:06:39.644Z",
+  "finished": "2026-10-07T07:06:39.779Z",
+  "base_commit": "ff81c6d5af39644f70ebb20f806165ed5c281746",
   "processed": [
     {
-      "id": "SEO-498",
-      "draft": "_factory/inbox/SEO-498.article",
-      "output": "hanoi-motorbike-rental-cost/yamaha-mio-vs-honda-air-blade-rental-cost/index.html",
+      "id": "SEO-499",
+      "draft": "_factory/inbox/SEO-499.article",
+      "output": "hanoi-motorbike-rental-cost/yamaha-mio-vs-electric-motorbike-rental-cost/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1822,
-      "title_length": 59,
+      "word_count": 1781,
+      "title_length": 62,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-498"
+    "SEO-499"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 486,
-    "planned": 504,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 514,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 487,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 513,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 488,
+    "planned": 502,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 512,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -55,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-499"
+    "SEO-500"
   ]
 }
