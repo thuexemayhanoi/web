@@ -1,52 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T21:04:12.790Z",
-  "finished": "2026-10-07T21:04:13.075Z",
+  "started": "2026-10-07T21:04:32.414Z",
+  "finished": "2026-10-07T21:04:32.672Z",
   "base_commit": null,
   "processed": [
     {
-      "id": "SEO-796",
-      "draft": "_factory/inbox/SEO-796.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-duong-lam-route-planning/index.html",
+      "id": "SEO-798",
+      "draft": "_factory/inbox/SEO-798.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-duong-lam-two-day-itinerary/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2045,
-      "title_length": 71,
+      "word_count": 1940,
+      "title_length": 54,
       "seo_score": 95
     },
     {
-      "id": "SEO-797",
-      "draft": "_factory/inbox/SEO-797.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-duong-lam-one-day-feasibility/index.html",
+      "id": "SEO-799",
+      "draft": "_factory/inbox/SEO-799.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-duong-lam-bike-choice/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2029,
-      "title_length": 57,
+      "word_count": 2021,
+      "title_length": 61,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-796",
-    "SEO-797"
+    "SEO-798",
+    "SEO-799"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 793,
-    "planned": 197,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 207,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 795,
@@ -57,10 +46,19 @@
     "remaining_to_target": 205,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 797,
+    "planned": 193,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 203,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-798",
-    "SEO-799",
     "SEO-800",
     "SEO-801",
     "SEO-802",
@@ -68,6 +66,8 @@
     "SEO-804",
     "SEO-805",
     "SEO-806",
-    "SEO-807"
+    "SEO-807",
+    "SEO-808",
+    "SEO-809"
   ]
 }
