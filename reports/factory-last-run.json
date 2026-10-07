@@ -1,51 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:35:44.923Z",
-  "finished": "2026-10-07T05:35:45.145Z",
-  "base_commit": "486fbae6f84b6ae857278bc4f80a8402b5b5664c",
+  "started": "2026-10-07T05:37:50.261Z",
+  "finished": "2026-10-07T05:37:50.426Z",
+  "base_commit": "aedfc347af72f220c818cea5197925c1a3d3e9d9",
   "processed": [
     {
-      "id": "SEO-379",
-      "draft": "_factory/inbox/SEO-379.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-for-long-stays-selection-guide/index.html",
+      "id": "SEO-382",
+      "draft": "_factory/inbox/SEO-382.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-for-old-quarter-riding-checks-and-mistakes/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1961,
-      "title_length": 74,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-380",
-      "draft": "_factory/inbox/SEO-380.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-for-long-stays-checks-and-mistakes/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1831,
+      "word_count": 1875,
       "title_length": 70,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-379",
-    "SEO-380"
+    "SEO-382"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 375,
-    "planned": 615,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 625,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 377,
@@ -56,17 +33,28 @@
     "remaining_to_target": 623,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 378,
+    "planned": 612,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 622,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-328",
     "SEO-381",
-    "SEO-382",
     "SEO-383",
     "SEO-384",
     "SEO-385",
     "SEO-386",
     "SEO-387",
     "SEO-388",
-    "SEO-389"
+    "SEO-389",
+    "SEO-390"
   ]
 }
