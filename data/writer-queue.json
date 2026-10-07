@@ -1,62 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T03:31:36.953Z",
+  "generated_at": "2026-10-07T03:32:03.524Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 186,
-  "remaining_to_target": 814,
+  "current_published_content_pages": 188,
+  "remaining_to_target": 812,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-190",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/tall-riders-rainy-day-planning/",
-      "path": "hanoi-motorbike-rental/tall-riders-rainy-day-planning/index.html",
-      "silo": "Hanoi Motorbike Rental",
-      "hub": "Hanoi Motorbike Rental Guide",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi motorbike rental tall riders rainy-day planning",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Tall Riders: Rainy-Day Planning for Hanoi Motorbike Rental",
-      "content_brief": "Audience-specific Hanoi rental cluster for tall riders, focused strictly on rental planning for wet conditions, visibility, traction and gear choices without live-weather claims. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-190.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-191",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/tall-riders-route-planning/",
-      "path": "hanoi-motorbike-rental/tall-riders-route-planning/index.html",
-      "silo": "Hanoi Motorbike Rental",
-      "hub": "Hanoi Motorbike Rental Guide",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi motorbike rental tall riders route planning",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Tall Riders: Route Planning for Hanoi Motorbike Rental",
-      "content_brief": "Audience-specific Hanoi rental cluster for tall riders, focused strictly on building realistic city routes around experience, luggage and time while avoiding fabricated travel times. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-191.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-192",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-luggage-bike-choice/",
@@ -255,6 +205,56 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-199.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-200",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-luggage-route-planning/",
+      "path": "hanoi-motorbike-rental/riders-with-luggage-route-planning/index.html",
+      "silo": "Hanoi Motorbike Rental",
+      "hub": "Hanoi Motorbike Rental Guide",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi motorbike rental riders with luggage route planning",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Riders With Luggage: Route Planning for Hanoi Motorbike Rental",
+      "content_brief": "Audience-specific Hanoi rental cluster for riders with luggage, focused strictly on building realistic city routes around experience, luggage and time while avoiding fabricated travel times. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-200.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-201",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-a-passenger-bike-choice/",
+      "path": "hanoi-motorbike-rental/riders-with-a-passenger-bike-choice/index.html",
+      "silo": "Hanoi Motorbike Rental",
+      "hub": "Hanoi Motorbike Rental Guide",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi motorbike rental riders with a passenger bike choice",
+      "intent": "Commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Riders With A Passenger: Choosing the Right Bike for Hanoi Motorbike Rental",
+      "content_brief": "Audience-specific Hanoi rental cluster for riders with a passenger, focused strictly on selecting a suitable rental bike for the rider profile, trip length and confidence level. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-201.article",
       "template": "site/templates/article.html"
     }
   ]

@@ -1,63 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:31:36.759Z",
-  "finished": "2026-10-07T03:31:36.954Z",
-  "base_commit": "5d56ca2cc668c7ed607519924f872bbf1d0ba680",
+  "started": "2026-10-07T03:32:03.366Z",
+  "finished": "2026-10-07T03:32:03.524Z",
+  "base_commit": "876b93ba6108fb0255533a4d8704baa6d98570bd",
   "processed": [
     {
-      "id": "SEO-186",
-      "draft": "_factory/inbox/SEO-186.article",
-      "output": "hanoi-motorbike-rental/tall-riders-pickup-planning/index.html",
+      "id": "SEO-190",
+      "draft": "_factory/inbox/SEO-190.article",
+      "output": "hanoi-motorbike-rental/tall-riders-rainy-day-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1753,
-      "title_length": 55,
+      "word_count": 1608,
+      "title_length": 58,
       "seo_score": 100
     },
     {
-      "id": "SEO-188",
-      "draft": "_factory/inbox/SEO-188.article",
-      "output": "hanoi-motorbike-rental/tall-riders-traffic-preparation/index.html",
+      "id": "SEO-191",
+      "draft": "_factory/inbox/SEO-191.article",
+      "output": "hanoi-motorbike-rental/tall-riders-route-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1656,
-      "title_length": 59,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-189",
-      "draft": "_factory/inbox/SEO-189.article",
-      "output": "hanoi-motorbike-rental/tall-riders-parking-strategy/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1736,
-      "title_length": 56,
+      "word_count": 1567,
+      "title_length": 54,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-186",
-    "SEO-188",
-    "SEO-189"
+    "SEO-190",
+    "SEO-191"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 183,
-    "planned": 806,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 1,
-    "remaining_to_target": 817,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 186,
@@ -68,10 +45,19 @@
     "remaining_to_target": 814,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 188,
+    "planned": 801,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 1,
+    "remaining_to_target": 812,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-190",
-    "SEO-191",
     "SEO-192",
     "SEO-193",
     "SEO-194",
@@ -79,6 +65,8 @@
     "SEO-196",
     "SEO-197",
     "SEO-198",
-    "SEO-199"
+    "SEO-199",
+    "SEO-200",
+    "SEO-201"
   ]
 }
