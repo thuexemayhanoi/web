@@ -1,147 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T12:32:25.193Z",
-  "finished": "2026-10-07T12:32:26.312Z",
-  "base_commit": "dd6c6ad84c44f1b3824e11c5427c9a7adaf7f595",
+  "started": "2026-10-07T12:46:22.436Z",
+  "finished": "2026-10-07T12:46:22.628Z",
+  "base_commit": "6f92267dea388f299ae460e55dff52949b882e8b",
   "processed": [
     {
-      "id": "SEO-657",
-      "draft": "_factory/inbox/SEO-657.article",
-      "output": "monthly-motorbike-rental-hanoi/long-stay-tourists-contract-questions/index.html",
+      "id": "SEO-667",
+      "draft": "_factory/inbox/SEO-667.article",
+      "output": "monthly-motorbike-rental-hanoi/frequent-commuters-parking-and-security/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2534,
-      "title_length": 55,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-658",
-      "draft": "_factory/inbox/SEO-658.article",
-      "output": "monthly-motorbike-rental-hanoi/couples-model-choice/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2475,
-      "title_length": 72,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-659",
-      "draft": "_factory/inbox/SEO-659.article",
-      "output": "monthly-motorbike-rental-hanoi/couples-monthly-budget/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2660,
-      "title_length": 72,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-660",
-      "draft": "_factory/inbox/SEO-660.article",
-      "output": "monthly-motorbike-rental-hanoi/couples-maintenance-expectations/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2622,
-      "title_length": 66,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-661",
-      "draft": "_factory/inbox/SEO-661.article",
-      "output": "monthly-motorbike-rental-hanoi/couples-parking-and-security/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2719,
-      "title_length": 71,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-662",
-      "draft": "_factory/inbox/SEO-662.article",
-      "output": "monthly-motorbike-rental-hanoi/couples-commuting-setup/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2611,
-      "title_length": 63,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-663",
-      "draft": "_factory/inbox/SEO-663.article",
-      "output": "monthly-motorbike-rental-hanoi/couples-contract-questions/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2573,
-      "title_length": 68,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-664",
-      "draft": "_factory/inbox/SEO-664.article",
-      "output": "monthly-motorbike-rental-hanoi/frequent-commuters-model-choice/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2545,
-      "title_length": 59,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-665",
-      "draft": "_factory/inbox/SEO-665.article",
-      "output": "monthly-motorbike-rental-hanoi/frequent-commuters-monthly-budget/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2646,
-      "title_length": 59,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-666",
-      "draft": "_factory/inbox/SEO-666.article",
-      "output": "monthly-motorbike-rental-hanoi/frequent-commuters-maintenance-expectations/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2663,
-      "title_length": 53,
+      "word_count": 2481,
+      "title_length": 58,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-657",
-    "SEO-658",
-    "SEO-659",
-    "SEO-660",
-    "SEO-661",
-    "SEO-662",
-    "SEO-663",
-    "SEO-664",
-    "SEO-665",
-    "SEO-666"
+    "SEO-667"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 654,
-    "planned": 336,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 346,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 664,
@@ -152,9 +33,19 @@
     "remaining_to_target": 336,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 665,
+    "planned": 325,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 335,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-667",
     "SEO-668",
     "SEO-669",
     "SEO-670",
@@ -163,6 +54,7 @@
     "SEO-673",
     "SEO-674",
     "SEO-675",
-    "SEO-676"
+    "SEO-676",
+    "SEO-677"
   ]
 }
