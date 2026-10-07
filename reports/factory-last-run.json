@@ -1,40 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T20:44:55.647Z",
-  "finished": "2026-10-07T20:44:55.825Z",
+  "started": "2026-10-07T20:45:13.289Z",
+  "finished": "2026-10-07T20:45:13.531Z",
   "base_commit": null,
   "processed": [
     {
-      "id": "SEO-781",
-      "draft": "_factory/inbox/SEO-781.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-hoa-binh-bike-choice/index.html",
+      "id": "SEO-782",
+      "draft": "_factory/inbox/SEO-782.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-hoa-binh-weather-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1922,
-      "title_length": 60,
+      "word_count": 1947,
+      "title_length": 72,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-783",
+      "draft": "_factory/inbox/SEO-783.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-hoa-binh-fuel-and-rest-stops/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2042,
+      "title_length": 59,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-781"
+    "SEO-782",
+    "SEO-783"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 778,
-    "planned": 212,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 222,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 779,
@@ -45,10 +46,19 @@
     "remaining_to_target": 221,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 781,
+    "planned": 209,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 219,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-782",
-    "SEO-783",
     "SEO-784",
     "SEO-785",
     "SEO-786",
@@ -56,6 +66,8 @@
     "SEO-788",
     "SEO-789",
     "SEO-790",
-    "SEO-791"
+    "SEO-791",
+    "SEO-792",
+    "SEO-793"
   ]
 }

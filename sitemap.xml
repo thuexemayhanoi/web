@@ -781,4 +781,6 @@
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-hoa-binh-one-day-feasibility/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-hoa-binh-two-day-itinerary/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-hoa-binh-bike-choice/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-hoa-binh-weather-planning/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-hoa-binh-fuel-and-rest-stops/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
