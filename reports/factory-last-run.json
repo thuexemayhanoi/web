@@ -1,51 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:32:22.419Z",
-  "finished": "2026-10-07T04:32:22.594Z",
-  "base_commit": "8a6993efe0f762affc042110a8831f4700defb54",
+  "started": "2026-10-07T04:33:40.546Z",
+  "finished": "2026-10-07T04:33:40.718Z",
+  "base_commit": "ce4544b1896766852e600cc40f0abe3f817f903d",
   "processed": [
     {
-      "id": "SEO-273",
-      "draft": "_factory/inbox/SEO-273.article",
-      "output": "hanoi-50cc-motorbike-rental/lightweight-riders-daily-rental-planning/index.html",
+      "id": "SEO-271",
+      "draft": "_factory/inbox/SEO-271.article",
+      "output": "hanoi-50cc-motorbike-rental/lightweight-riders-passenger-use/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2073,
-      "title_length": 71,
+      "word_count": 1906,
+      "title_length": 66,
       "seo_score": 100
     },
     {
-      "id": "SEO-274",
-      "draft": "_factory/inbox/SEO-274.article",
-      "output": "hanoi-50cc-motorbike-rental/lightweight-riders-vs-automatic-scooter/index.html",
+      "id": "SEO-272",
+      "draft": "_factory/inbox/SEO-272.article",
+      "output": "hanoi-50cc-motorbike-rental/lightweight-riders-rainy-weather/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1934,
-      "title_length": 70,
+      "word_count": 1965,
+      "title_length": 66,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-273",
-    "SEO-274"
+    "SEO-271",
+    "SEO-272"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 266,
-    "planned": 724,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 734,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 268,
@@ -56,17 +45,28 @@
     "remaining_to_target": 732,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 270,
+    "planned": 720,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 730,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-268",
     "SEO-270",
-    "SEO-271",
-    "SEO-272",
     "SEO-275",
     "SEO-276",
     "SEO-277",
     "SEO-278",
     "SEO-279",
-    "SEO-280"
+    "SEO-280",
+    "SEO-281",
+    "SEO-282"
   ]
 }
