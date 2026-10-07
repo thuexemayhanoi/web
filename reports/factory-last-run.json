@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:28:59.798Z",
-  "finished": "2026-10-07T04:28:59.955Z",
-  "base_commit": "ef80f1f6a0bb0c27887a440533d74797c6dc88ce",
+  "started": "2026-10-07T04:29:17.546Z",
+  "finished": "2026-10-07T04:29:17.710Z",
+  "base_commit": "1d309dbf8b884e733d4c9c1655087214b2f0e08a",
   "processed": [
     {
-      "id": "SEO-243",
-      "draft": "_factory/inbox/SEO-243.article",
-      "output": "hanoi-50cc-motorbike-rental/students-bridges-and-inclines/index.html",
+      "id": "SEO-267",
+      "draft": "_factory/inbox/SEO-267.article",
+      "output": "hanoi-50cc-motorbike-rental/lightweight-riders-city-traffic/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2264,
-      "title_length": 63,
+      "word_count": 2502,
+      "title_length": 65,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-243"
+    "SEO-267"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 263,
-    "planned": 727,
-    "writing": 9,
-    "repair": 1,
-    "blocked": 0,
-    "remaining_to_target": 737,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 264,
@@ -44,9 +33,19 @@
     "remaining_to_target": 736,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 265,
+    "planned": 725,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 735,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-267",
     "SEO-268",
     "SEO-269",
     "SEO-270",
@@ -55,6 +54,7 @@
     "SEO-273",
     "SEO-274",
     "SEO-275",
-    "SEO-276"
+    "SEO-276",
+    "SEO-277"
   ]
 }
