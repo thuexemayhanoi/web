@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:50:47.574Z",
-  "finished": "2026-10-07T03:50:47.707Z",
-  "base_commit": "9538615b9a8bd3758b4fbfefe4e2edcc1f68cc2b",
+  "started": "2026-10-07T03:51:10.666Z",
+  "finished": "2026-10-07T03:51:10.806Z",
+  "base_commit": "cd63153d6fd61e4bacc3a8de389f3aa415ca6642",
   "processed": [
     {
-      "id": "SEO-208",
-      "draft": "_factory/inbox/SEO-208.article",
-      "output": "hanoi-motorbike-rental/riders-with-a-passenger-rainy-day-planning/index.html",
-      "status": "REPAIR",
+      "id": "SEO-205",
+      "draft": "_factory/inbox/SEO-205.article",
+      "output": "hanoi-motorbike-rental/riders-with-a-passenger-return-checklist/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1831,
+      "title_length": 68,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-206",
+      "draft": "_factory/inbox/SEO-206.article",
+      "output": null,
+      "status": "REJECTED",
       "errors": [
-        "word count 1402 outside 1500-5000"
+        "Matrix status not writable: PUBLISHED"
       ],
       "warnings": [],
-      "word_count": 1402,
-      "title_length": 70,
-      "seo_score": 85
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
     }
   ],
-  "published_ids": [],
-  "repair_ids": [
-    "SEO-208"
+  "published_ids": [
+    "SEO-205"
   ],
+  "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 203,
-    "planned": 787,
-    "writing": 8,
-    "repair": 2,
-    "blocked": 0,
-    "remaining_to_target": 797,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 203,
@@ -46,9 +46,19 @@
     "remaining_to_target": 797,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 204,
+    "planned": 786,
+    "writing": 8,
+    "repair": 2,
+    "blocked": 0,
+    "remaining_to_target": 796,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-205",
     "SEO-207",
     "SEO-208",
     "SEO-209",
@@ -57,6 +67,7 @@
     "SEO-212",
     "SEO-213",
     "SEO-214",
-    "SEO-215"
+    "SEO-215",
+    "SEO-216"
   ]
 }
