@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T17:49:57.493Z",
-  "finished": "2026-10-07T17:49:57.635Z",
-  "base_commit": "796b3a9fec5189da4229a9df59c5b7ad6a8e856b",
+  "started": "2026-10-07T17:53:22.673Z",
+  "finished": "2026-10-07T17:53:22.888Z",
+  "base_commit": "0120fcb6f29dfed3c1693b35b70ec33e34039a76",
   "processed": [
     {
-      "id": "SEO-706",
-      "draft": "_factory/inbox/SEO-706.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-tam-dao-route-planning/index.html",
+      "id": "SEO-715",
+      "draft": "_factory/inbox/SEO-715.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-mai-chau-route-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1908,
-      "title_length": 69,
+      "word_count": 2131,
+      "title_length": 70,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-706"
+    "SEO-715"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 711,
-    "planned": 279,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 289,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 712,
@@ -44,9 +33,19 @@
     "remaining_to_target": 288,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 713,
+    "planned": 277,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 287,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-715",
     "SEO-716",
     "SEO-717",
     "SEO-718",
@@ -55,6 +54,7 @@
     "SEO-721",
     "SEO-722",
     "SEO-723",
-    "SEO-724"
+    "SEO-724",
+    "SEO-725"
   ]
 }
