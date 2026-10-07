@@ -1,51 +1,52 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:46:24.827Z",
-  "finished": "2026-10-07T05:46:24.980Z",
-  "base_commit": "c6e0edff68a25d66d2cbc14657ab368a64782105",
+  "started": "2026-10-07T05:48:33.304Z",
+  "finished": "2026-10-07T05:48:33.630Z",
+  "base_commit": "1e47207633117e13ecea0179129f63c55a4879ca",
   "processed": [
     {
-      "id": "SEO-390",
-      "draft": "_factory/inbox/SEO-390.article",
-      "output": "hanoi-scooter-rental/honda-air-blade-for-city-riding-checks-and-mistakes/index.html",
+      "id": "SEO-399",
+      "draft": "_factory/inbox/SEO-399.article",
+      "output": "hanoi-scooter-rental/honda-click-for-beginners-selection-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1832,
-      "title_length": 69,
-      "seo_score": 95
+      "word_count": 2134,
+      "title_length": 67,
+      "seo_score": 100
     },
     {
-      "id": "SEO-391",
-      "draft": "_factory/inbox/SEO-391.article",
-      "output": "hanoi-scooter-rental/honda-click-for-city-riding-selection-guide/index.html",
+      "id": "SEO-400",
+      "draft": "_factory/inbox/SEO-400.article",
+      "output": "hanoi-scooter-rental/honda-click-for-beginners-checks-and-mistakes/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1832,
-      "title_length": 69,
-      "seo_score": 95
+      "word_count": 1996,
+      "title_length": 71,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-401",
+      "draft": "_factory/inbox/SEO-401.article",
+      "output": "hanoi-scooter-rental/yamaha-mio-for-beginners-selection-guide/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1985,
+      "title_length": 66,
+      "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-390",
-    "SEO-391"
+    "SEO-399",
+    "SEO-400",
+    "SEO-401"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 389,
-    "planned": 601,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 611,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 391,
@@ -56,6 +57,17 @@
     "remaining_to_target": 609,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 394,
+    "planned": 596,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 606,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-328",
@@ -63,10 +75,10 @@
     "SEO-396",
     "SEO-397",
     "SEO-398",
-    "SEO-399",
-    "SEO-400",
-    "SEO-401",
     "SEO-402",
-    "SEO-403"
+    "SEO-403",
+    "SEO-404",
+    "SEO-405",
+    "SEO-406"
   ]
 }
