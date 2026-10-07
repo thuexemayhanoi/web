@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T21:57:31.530Z",
-  "finished": "2026-10-07T21:57:31.737Z",
-  "base_commit": "ea239314d668ba1f1d1b3de46b44202c855287a6",
+  "started": "2026-10-07T21:58:02.568Z",
+  "finished": "2026-10-07T21:58:02.711Z",
+  "base_commit": "b498d21408e8293722c5927731d95a85bdbd7538",
   "processed": [
     {
-      "id": "SEO-848",
-      "draft": "_factory/inbox/SEO-848.article",
-      "output": "hanoi-motorbike-for-sale/students-used-bike-inspection/index.html",
+      "id": "SEO-849",
+      "draft": "_factory/inbox/SEO-849.article",
+      "output": "hanoi-motorbike-for-sale/students-ownership-costs/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2198,
-      "title_length": 56,
+      "word_count": 2149,
+      "title_length": 54,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-848"
+    "SEO-849"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 845,
-    "planned": 145,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 155,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 846,
@@ -45,9 +34,19 @@
     "remaining_to_target": 154,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 847,
+    "planned": 143,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 153,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-849",
     "SEO-850",
     "SEO-851",
     "SEO-852",
@@ -56,6 +55,7 @@
     "SEO-855",
     "SEO-856",
     "SEO-857",
-    "SEO-858"
+    "SEO-858",
+    "SEO-859"
   ]
 }
