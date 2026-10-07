@@ -1,41 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:18:47.012Z",
-  "finished": "2026-10-07T03:18:47.131Z",
-  "base_commit": "b5bf5a035816657d2135f6624b2b3436bccb7c06",
+  "started": "2026-10-07T03:21:19.073Z",
+  "finished": "2026-10-07T03:21:19.239Z",
+  "base_commit": "a781efd449e9ed5b3459e9e6f2f8c36912453760",
   "processed": [
     {
-      "id": "SEO-173",
-      "draft": "_factory/inbox/SEO-173.article",
-      "output": "hanoi-motorbike-rental/new-riders-route-planning/index.html",
-      "status": "BLOCKED",
-      "errors": [
-        "broken internal link: /hanoi-motorbike-rental/new-riders-traffic-preparation/"
-      ],
+      "id": "SEO-170",
+      "draft": "_factory/inbox/SEO-170.article",
+      "output": "hanoi-motorbike-rental/new-riders-traffic-preparation/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
       "warnings": [],
-      "word_count": 1785,
-      "title_length": 53,
+      "word_count": 1857,
+      "title_length": 58,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-172",
+      "draft": "_factory/inbox/SEO-172.article",
+      "output": "hanoi-motorbike-rental/new-riders-rainy-day-planning/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1877,
+      "title_length": 57,
       "seo_score": 100
     }
   ],
-  "published_ids": [],
-  "repair_ids": [],
-  "blocked_ids": [
-    "SEO-173"
+  "published_ids": [
+    "SEO-170",
+    "SEO-172"
   ],
+  "repair_ids": [],
+  "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 168,
-    "planned": 822,
-    "writing": 7,
-    "repair": 3,
-    "blocked": 0,
-    "remaining_to_target": 832,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 168,
@@ -46,16 +45,28 @@
     "remaining_to_target": 832,
     "unplanned_slots": 0
   },
-  "queue_status": "BLOCKED",
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 170,
+    "planned": 819,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 1,
+    "remaining_to_target": 830,
+    "unplanned_slots": 0
+  },
+  "queue_status": "READY",
   "next_queue": [
-    "SEO-170",
-    "SEO-172",
     "SEO-174",
     "SEO-175",
     "SEO-176",
     "SEO-177",
     "SEO-178",
     "SEO-179",
-    "SEO-180"
+    "SEO-180",
+    "SEO-181",
+    "SEO-182",
+    "SEO-183"
   ]
 }
