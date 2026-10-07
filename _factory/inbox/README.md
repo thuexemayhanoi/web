@@ -21,3 +21,5 @@ Writer batch plan SEO-037..SEO-046 submitted for queue refresh (2026-10-06).
 Writer batch plan SEO-047..SEO-056 submitted for queue refresh (2026-10-06).
 
 Writer batch SEO-157..SEO-166 drafts requeue nudge (2026-10-06T23:40Z).
+
+Writer batch SEO-157..SEO-166 process trigger after CI unblock (2026-10-07).
