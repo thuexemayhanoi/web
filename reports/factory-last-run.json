@@ -1,39 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T12:46:22.436Z",
-  "finished": "2026-10-07T12:46:22.628Z",
-  "base_commit": "6f92267dea388f299ae460e55dff52949b882e8b",
+  "started": "2026-10-07T12:46:54.352Z",
+  "finished": "2026-10-07T12:46:54.669Z",
+  "base_commit": "833c427cb8eaca64d13009b8d7c755ef850c4859",
   "processed": [
     {
-      "id": "SEO-667",
-      "draft": "_factory/inbox/SEO-667.article",
-      "output": "monthly-motorbike-rental-hanoi/frequent-commuters-parking-and-security/index.html",
+      "id": "SEO-668",
+      "draft": "_factory/inbox/SEO-668.article",
+      "output": "monthly-motorbike-rental-hanoi/frequent-commuters-commuting-setup/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2481,
-      "title_length": 58,
+      "word_count": 2336,
+      "title_length": 50,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-669",
+      "draft": "_factory/inbox/SEO-669.article",
+      "output": "monthly-motorbike-rental-hanoi/frequent-commuters-contract-questions/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2267,
+      "title_length": 55,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-667"
+    "SEO-668",
+    "SEO-669"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 664,
-    "planned": 326,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 336,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 665,
@@ -44,10 +45,19 @@
     "remaining_to_target": 335,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 667,
+    "planned": 323,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 333,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-668",
-    "SEO-669",
     "SEO-670",
     "SEO-671",
     "SEO-672",
@@ -55,6 +65,8 @@
     "SEO-674",
     "SEO-675",
     "SEO-676",
-    "SEO-677"
+    "SEO-677",
+    "SEO-678",
+    "SEO-679"
   ]
 }
