@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:17:09.692Z",
-  "finished": "2026-10-07T06:17:09.773Z",
-  "base_commit": "12aef83baf1b0369fa9cdfecfa3601df73729a5a",
+  "started": "2026-10-07T06:18:13.523Z",
+  "finished": "2026-10-07T06:18:13.693Z",
+  "base_commit": "dc707010c3ef5d8bcf83f582b596342e66fa9e07",
   "processed": [
     {
-      "id": "SEO-446",
-      "draft": "_factory/inbox/SEO-446.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
+      "id": "SEO-448",
+      "draft": "_factory/inbox/SEO-448.article",
+      "output": "hanoi-motorbike-rental-cost/yamaha-sirius-short-vs-long-term-cost/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
       "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
+      "word_count": 1615,
+      "title_length": 68,
+      "seo_score": 95
     }
   ],
-  "published_ids": [],
+  "published_ids": [
+    "SEO-448"
+  ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
@@ -36,12 +36,12 @@
   "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 439,
-    "planned": 551,
+    "published": 440,
+    "planned": 550,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 561,
+    "remaining_to_target": 560,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -52,9 +52,9 @@
     "SEO-436",
     "SEO-440",
     "SEO-447",
-    "SEO-448",
     "SEO-449",
     "SEO-450",
-    "SEO-451"
+    "SEO-451",
+    "SEO-452"
   ]
 }
