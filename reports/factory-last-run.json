@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T08:25:46.397Z",
-  "finished": "2026-10-07T08:25:46.590Z",
-  "base_commit": "d154a07bb2e6e06df66b057f094fd998d246333d",
+  "started": "2026-10-07T08:26:32.937Z",
+  "finished": "2026-10-07T08:26:33.103Z",
+  "base_commit": "79315537f03ae95e60b8d2e93cd7f93c4fd97c75",
   "processed": [
     {
-      "id": "SEO-551",
-      "draft": "_factory/inbox/SEO-551.article",
-      "output": "motorbike-rental-hanoi-old-quarter/hai-ba-trung-parking-guide/index.html",
+      "id": "SEO-552",
+      "draft": "_factory/inbox/SEO-552.article",
+      "output": "motorbike-rental-hanoi-old-quarter/hai-ba-trung-traffic-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2390,
+      "word_count": 2486,
       "title_length": 59,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-551"
+    "SEO-552"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 548,
-    "planned": 442,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 452,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 549,
@@ -44,9 +33,19 @@
     "remaining_to_target": 451,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 550,
+    "planned": 440,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 450,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-552",
     "SEO-553",
     "SEO-554",
     "SEO-555",
@@ -55,6 +54,7 @@
     "SEO-558",
     "SEO-559",
     "SEO-560",
-    "SEO-561"
+    "SEO-561",
+    "SEO-562"
   ]
 }
