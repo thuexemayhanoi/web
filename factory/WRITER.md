@@ -28,7 +28,7 @@ Stop only when the queue says `TARGET_REACHED`, `PAUSED`, `BLOCKED`, or `PLAN_EX
 - no legacy `github.io` or `/web/` production URLs;
 - do not invent prices, availability, promotions, guarantees, branches, delivery promises, deposits, or policies.
 
-The factory handles shared shell, schema, CTA, related cards, search index, sitemap, commit and deploy.
+The factory handles shared shell, schema, CTA, related cards, search index, sitemap and the publication commit. GitHub Pages deploys the updated main branch independently; writers do not wait for a Pages approval or run a deployment action.
 
 ## SEO score
 
