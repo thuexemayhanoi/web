@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:13:48.152Z",
-  "finished": "2026-10-07T07:13:48.300Z",
-  "base_commit": "c0b1f42d9a52ef1ff6fcc70e54e75c759d8605c7",
+  "started": "2026-10-07T07:14:38.769Z",
+  "finished": "2026-10-07T07:14:38.986Z",
+  "base_commit": "9b84ee55115c0dc077037e1bbd9e2020b3445242",
   "processed": [
     {
-      "id": "SEO-503",
-      "draft": "_factory/inbox/SEO-503.article",
-      "output": "hanoi-motorbike-rental-cost/honda-click-vs-honda-air-blade-rental-cost/index.html",
+      "id": "SEO-504",
+      "draft": "_factory/inbox/SEO-504.article",
+      "output": "hanoi-motorbike-rental-cost/honda-click-vs-electric-motorbike-rental-cost/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1744,
-      "title_length": 60,
+      "word_count": 1778,
+      "title_length": 63,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-503"
+    "SEO-504"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 491,
-    "planned": 499,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 509,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 492,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 508,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 493,
+    "planned": 497,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 507,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -55,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-504"
+    "SEO-505"
   ]
 }
