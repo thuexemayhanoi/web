@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T03:48:49.358Z",
+  "generated_at": "2026-10-07T03:49:27.434Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 200,
-  "remaining_to_target": 800,
+  "current_published_content_pages": 201,
+  "remaining_to_target": 799,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -80,31 +80,6 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-205.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-206",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-a-passenger-traffic-preparation/",
-      "path": "hanoi-motorbike-rental/riders-with-a-passenger-traffic-preparation/index.html",
-      "silo": "Hanoi Motorbike Rental",
-      "hub": "Hanoi Motorbike Rental Guide",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi motorbike rental riders with a passenger traffic preparation",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Riders With A Passenger: Traffic Preparation for Hanoi Motorbike Rental",
-      "content_brief": "Audience-specific Hanoi rental cluster for riders with a passenger, focused strictly on preparing for Hanoi traffic at a level appropriate to this rider profile, with cautious safety guidance. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-206.article",
       "template": "site/templates/article.html"
     },
     {
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-212.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-213",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/city-commuters-pickup-planning/",
+      "path": "hanoi-motorbike-rental/city-commuters-pickup-planning/index.html",
+      "silo": "Hanoi Motorbike Rental",
+      "hub": "Hanoi Motorbike Rental Guide",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi motorbike rental city commuters pickup planning",
+      "intent": "Informational / Commercial assist",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "City Commuters: Pickup Planning for Hanoi Motorbike Rental",
+      "content_brief": "Audience-specific Hanoi rental cluster for city commuters, focused strictly on planning the visit to the verified Long Bien shop address without promising delivery or unverified pickup arrangements. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-213.article",
       "template": "site/templates/article.html"
     }
   ]
