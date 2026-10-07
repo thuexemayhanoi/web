@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T03:59:55.619Z",
+  "generated_at": "2026-10-07T04:00:17.907Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 220,
-  "remaining_to_target": 780,
+  "current_published_content_pages": 221,
+  "remaining_to_target": 779,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-221",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/photography-travelers-rental-paperwork-questions/",
-      "path": "hanoi-motorbike-rental/photography-travelers-rental-paperwork-questions/index.html",
-      "silo": "Hanoi Motorbike Rental",
-      "hub": "Hanoi Motorbike Rental Guide",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi motorbike rental photography travelers rental paperwork questions",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Photography Travelers: Rental Paperwork Questions for Hanoi Rental",
-      "content_brief": "Audience-specific Hanoi rental cluster for photography travelers, focused strictly on the questions to clarify before renting while avoiding invented deposit, license or document rules. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-221.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-222",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/photography-travelers-pickup-planning/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-232.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-233",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-route-suitability/",
+      "path": "hanoi-50cc-motorbike-rental/beginners-route-suitability/index.html",
+      "silo": "50cc Motorbike Rental",
+      "hub": "50cc Motorbike Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "50cc motorbike hanoi beginners route suitability",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Beginners: 50cc Route Suitability for 50cc Rental in Hanoi",
+      "content_brief": "50cc cluster for beginners, focused on which kinds of city and near-city routes suit a 50cc plan and which need more caution. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
+      "internal_link_targets": [
+        "/hanoi-50cc-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-233.article",
       "template": "site/templates/article.html"
     }
   ]

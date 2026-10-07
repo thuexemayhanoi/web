@@ -1,51 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:59:55.439Z",
-  "finished": "2026-10-07T03:59:55.620Z",
-  "base_commit": "f751add092b8a8fec8cd486e45dabdb9c6134f11",
+  "started": "2026-10-07T04:00:17.767Z",
+  "finished": "2026-10-07T04:00:17.908Z",
+  "base_commit": "2f526d69ae6faddbfc17637182ffda49d7f1ead6",
   "processed": [
     {
-      "id": "SEO-227",
-      "draft": "_factory/inbox/SEO-227.article",
-      "output": "hanoi-motorbike-rental/photography-travelers-route-planning/index.html",
+      "id": "SEO-221",
+      "draft": "_factory/inbox/SEO-221.article",
+      "output": "hanoi-motorbike-rental/photography-travelers-rental-paperwork-questions/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2099,
-      "title_length": 64,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-228",
-      "draft": "_factory/inbox/SEO-228.article",
-      "output": "hanoi-motorbike-rental/food-focused-travelers-bike-choice/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2152,
-      "title_length": 74,
+      "word_count": 2021,
+      "title_length": 66,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-227",
-    "SEO-228"
+    "SEO-221"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 218,
-    "planned": 772,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 782,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 220,
@@ -56,9 +33,19 @@
     "remaining_to_target": 780,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 221,
+    "planned": 769,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 779,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-221",
     "SEO-222",
     "SEO-223",
     "SEO-224",
@@ -67,6 +54,7 @@
     "SEO-229",
     "SEO-230",
     "SEO-231",
-    "SEO-232"
+    "SEO-232",
+    "SEO-233"
   ]
 }
