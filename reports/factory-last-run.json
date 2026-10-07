@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:29:43.040Z",
-  "finished": "2026-10-07T06:29:43.099Z",
-  "base_commit": "ed2e8d0dd35166bee6d81924a260ebba48c91bf3",
+  "started": "2026-10-07T06:30:13.906Z",
+  "finished": "2026-10-07T06:30:14.123Z",
+  "base_commit": "26bb37ca99b757e266fd0189299019732efd2648",
   "processed": [
     {
-      "id": "SEO-466",
-      "draft": "_factory/inbox/SEO-466.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
+      "id": "SEO-468",
+      "draft": "_factory/inbox/SEO-468.article",
+      "output": "hanoi-motorbike-rental-cost/electric-motorbike-short-vs-long-term-cost/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
       "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
+      "word_count": 1610,
+      "title_length": 73,
+      "seo_score": 95
     }
   ],
-  "published_ids": [],
+  "published_ids": [
+    "SEO-468"
+  ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
@@ -36,12 +36,12 @@
   "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 457,
-    "planned": 533,
+    "published": 458,
+    "planned": 532,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 543,
+    "remaining_to_target": 542,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -54,7 +54,7 @@
     "SEO-447",
     "SEO-449",
     "SEO-458",
-    "SEO-468",
-    "SEO-469"
+    "SEO-469",
+    "SEO-470"
   ]
 }
