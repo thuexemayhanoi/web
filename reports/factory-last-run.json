@@ -1,54 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:10:19.595Z",
-  "finished": "2026-10-07T05:10:19.828Z",
-  "base_commit": "d11a1b15179a07ea68b7161cb45035a7bbc5c35e",
+  "started": "2026-10-07T05:10:43.231Z",
+  "finished": "2026-10-07T05:10:43.436Z",
+  "base_commit": "0a45d7507989205888e339a90c91827d6bbec7a5",
   "processed": [
     {
-      "id": "SEO-329",
-      "draft": "_factory/inbox/SEO-329.article",
-      "output": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-choosing-a-50cc/index.html",
-      "status": "REPAIR",
-      "errors": [
-        "broken internal link: /hanoi-50cc-motorbike-rental/first-time-visitors-c\nhoosing-a-50cc/"
-      ],
-      "warnings": [],
-      "word_count": 2325,
-      "title_length": 72,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-330",
-      "draft": "_factory/inbox/SEO-330.article",
-      "output": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-city-traffic/index.html",
+      "id": "SEO-340",
+      "draft": "_factory/inbox/SEO-340.article",
+      "output": "hanoi-50cc-motorbike-rental/short-stay-visitors-parking/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2342,
-      "title_length": 72,
-      "seo_score": 100
+      "word_count": 1846,
+      "title_length": 58,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-341",
+      "draft": "_factory/inbox/SEO-341.article",
+      "output": "hanoi-50cc-motorbike-rental/short-stay-visitors-route-suitability/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1943,
+      "title_length": 68,
+      "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-330"
+    "SEO-340",
+    "SEO-341"
   ],
-  "repair_ids": [
-    "SEO-329"
-  ],
+  "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 329,
-    "planned": 661,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 671,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 330,
@@ -57,6 +43,17 @@
     "repair": 1,
     "blocked": 0,
     "remaining_to_target": 670,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 332,
+    "planned": 658,
+    "writing": 9,
+    "repair": 1,
+    "blocked": 0,
+    "remaining_to_target": 668,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -68,8 +65,8 @@
     "SEO-335",
     "SEO-338",
     "SEO-339",
-    "SEO-340",
-    "SEO-341",
-    "SEO-342"
+    "SEO-342",
+    "SEO-343",
+    "SEO-344"
   ]
 }

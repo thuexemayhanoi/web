@@ -332,4 +332,6 @@
   <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/riders-with-light-luggage-daily-rental-planning/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/riders-with-light-luggage-vs-automatic-scooter/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/riders-with-light-luggage-city-traffic/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/short-stay-visitors-parking/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/short-stay-visitors-route-suitability/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
