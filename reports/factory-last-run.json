@@ -1,52 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:50:17.563Z",
-  "finished": "2026-10-07T22:50:17.914Z",
-  "base_commit": "64ca53fb92ed245280e4c66a03ca859227e6b74a",
+  "started": "2026-10-07T22:50:54.793Z",
+  "finished": "2026-10-07T22:50:55.133Z",
+  "base_commit": "8df96e3dfdd044ca0ed8bcac7fd8307fe3e1c3da",
   "processed": [
     {
-      "id": "SEO-951",
-      "draft": "_factory/inbox/SEO-951.article",
-      "output": "renting-a-motorbike-in-vietnam/restricted-roads-50cc-riders/index.html",
+      "id": "SEO-953",
+      "draft": "_factory/inbox/SEO-953.article",
+      "output": "renting-a-motorbike-in-vietnam/restricted-roads-long-distance-riders/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2037,
-      "title_length": 57,
+      "word_count": 2094,
+      "title_length": 66,
       "seo_score": 95
     },
     {
-      "id": "SEO-952",
-      "draft": "_factory/inbox/SEO-952.article",
-      "output": "renting-a-motorbike-in-vietnam/restricted-roads-scooter-riders/index.html",
+      "id": "SEO-954",
+      "draft": "_factory/inbox/SEO-954.article",
+      "output": "renting-a-motorbike-in-vietnam/restricted-roads-city-riders/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2009,
-      "title_length": 60,
+      "word_count": 2056,
+      "title_length": 57,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-951",
-    "SEO-952"
+    "SEO-953",
+    "SEO-954"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 946,
-    "planned": 44,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 54,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 948,
@@ -57,17 +46,28 @@
     "remaining_to_target": 52,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 950,
+    "planned": 40,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 50,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-941",
     "SEO-942",
-    "SEO-953",
-    "SEO-954",
     "SEO-955",
     "SEO-956",
     "SEO-957",
     "SEO-958",
     "SEO-959",
-    "SEO-960"
+    "SEO-960",
+    "SEO-961",
+    "SEO-962"
   ]
 }

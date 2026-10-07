@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T22:50:17.914Z",
+  "generated_at": "2026-10-07T22:50:55.133Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 948,
-  "remaining_to_target": 52,
+  "current_published_content_pages": 950,
+  "remaining_to_target": 50,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -55,56 +55,6 @@
       ],
       "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-942.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-953",
-      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/restricted-roads-long-distance-riders/",
-      "path": "renting-a-motorbike-in-vietnam/restricted-roads-long-distance-riders/index.html",
-      "silo": "Vietnam Rental Guide",
-      "hub": "Renting in Vietnam",
-      "content_role": "CLUSTER",
-      "primary_keyword": "vietnam restricted roads long-distance riders",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Restricted Roads for Long-distance Riders: Vietnam Motorbike Guide",
-      "content_brief": "Vietnam riding guidance focused on restricted roads for long-distance riders. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
-      "internal_link_targets": [
-        "/renting-a-motorbike-in-vietnam/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-953.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-954",
-      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/restricted-roads-city-riders/",
-      "path": "renting-a-motorbike-in-vietnam/restricted-roads-city-riders/index.html",
-      "silo": "Vietnam Rental Guide",
-      "hub": "Renting in Vietnam",
-      "content_role": "CLUSTER",
-      "primary_keyword": "vietnam restricted roads city riders",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Restricted Roads for City Riders: Vietnam Motorbike Guide",
-      "content_brief": "Vietnam riding guidance focused on restricted roads for city riders. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
-      "internal_link_targets": [
-        "/renting-a-motorbike-in-vietnam/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-954.article",
       "template": "site/templates/article.html"
     },
     {
@@ -255,6 +205,56 @@
       ],
       "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-960.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-961",
+      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/border-area-riding-tourists/",
+      "path": "renting-a-motorbike-in-vietnam/border-area-riding-tourists/index.html",
+      "silo": "Vietnam Rental Guide",
+      "hub": "Renting in Vietnam",
+      "content_role": "CLUSTER",
+      "primary_keyword": "vietnam border area riding tourists",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Border-Area Riding for Tourists: Vietnam Motorbike Guide",
+      "content_brief": "Vietnam riding guidance focused on border area riding for tourists. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
+      "internal_link_targets": [
+        "/renting-a-motorbike-in-vietnam/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-961.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-962",
+      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/border-area-riding-expats/",
+      "path": "renting-a-motorbike-in-vietnam/border-area-riding-expats/index.html",
+      "silo": "Vietnam Rental Guide",
+      "hub": "Renting in Vietnam",
+      "content_role": "CLUSTER",
+      "primary_keyword": "vietnam border area riding expats",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Border-Area Riding for Expats: Vietnam Motorbike Guide",
+      "content_brief": "Vietnam riding guidance focused on border area riding for expats. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
+      "internal_link_targets": [
+        "/renting-a-motorbike-in-vietnam/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-962.article",
       "template": "site/templates/article.html"
     }
   ]
