@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T22:43:10.794Z",
+  "generated_at": "2026-10-07T22:43:39.188Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 930,
-  "remaining_to_target": 70,
+  "current_published_content_pages": 931,
+  "remaining_to_target": 69,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -30,31 +30,6 @@
       ],
       "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
       "draft_file": "_factory/inbox/SEO-918.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-933",
-      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/traffic-police-stops-50cc-riders/",
-      "path": "renting-a-motorbike-in-vietnam/traffic-police-stops-50cc-riders/index.html",
-      "silo": "Vietnam Rental Guide",
-      "hub": "Renting in Vietnam",
-      "content_role": "CLUSTER",
-      "primary_keyword": "vietnam traffic police stops 50cc riders",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Traffic Police Stops for 50CC Riders: Vietnam Motorbike Guide",
-      "content_brief": "Vietnam riding guidance focused on traffic police stops for 50cc riders. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
-      "internal_link_targets": [
-        "/renting-a-motorbike-in-vietnam/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-933.article",
       "template": "site/templates/article.html"
     },
     {
@@ -255,6 +230,31 @@
       ],
       "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-942.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-943",
+      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/road-signs-tourists/",
+      "path": "renting-a-motorbike-in-vietnam/road-signs-tourists/index.html",
+      "silo": "Vietnam Rental Guide",
+      "hub": "Renting in Vietnam",
+      "content_role": "CLUSTER",
+      "primary_keyword": "vietnam road signs tourists",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Road Signs for Tourists: Vietnam Motorbike Guide | Hanoi Motorbike Guide",
+      "content_brief": "Vietnam riding guidance focused on road signs for tourists. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
+      "internal_link_targets": [
+        "/renting-a-motorbike-in-vietnam/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-943.article",
       "template": "site/templates/article.html"
     }
   ]

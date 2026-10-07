@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:43:10.586Z",
-  "finished": "2026-10-07T22:43:10.795Z",
-  "base_commit": "2cede071862bc2f04066677c7f4f098d3e3abac5",
+  "started": "2026-10-07T22:43:39.049Z",
+  "finished": "2026-10-07T22:43:39.188Z",
+  "base_commit": "60cc7b9fcbfa8412e151dcba0663f20f96a5d91f",
   "processed": [
     {
-      "id": "SEO-935",
-      "draft": "_factory/inbox/SEO-935.article",
-      "output": "renting-a-motorbike-in-vietnam/traffic-police-stops-long-distance-riders/index.html",
+      "id": "SEO-933",
+      "draft": "_factory/inbox/SEO-933.article",
+      "output": "renting-a-motorbike-in-vietnam/traffic-police-stops-50cc-riders/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1737,
-      "title_length": 70,
+      "word_count": 1791,
+      "title_length": 61,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-935"
+    "SEO-933"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 929,
-    "planned": 61,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 71,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 930,
@@ -45,10 +34,20 @@
     "remaining_to_target": 70,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 931,
+    "planned": 59,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 69,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-918",
-    "SEO-933",
     "SEO-934",
     "SEO-936",
     "SEO-937",
@@ -56,6 +55,7 @@
     "SEO-939",
     "SEO-940",
     "SEO-941",
-    "SEO-942"
+    "SEO-942",
+    "SEO-943"
   ]
 }
