@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T08:28:05.542Z",
+  "generated_at": "2026-10-07T08:28:52.030Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 552,
-  "remaining_to_target": 448,
+  "current_published_content_pages": 553,
+  "remaining_to_target": 447,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-555",
-      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/cau-giay-rental-planning/",
-      "path": "motorbike-rental-hanoi-old-quarter/cau-giay-rental-planning/index.html",
-      "silo": "Local Areas",
-      "hub": "Old Quarter & Areas",
-      "content_role": "CLUSTER",
-      "primary_keyword": "cau giay hanoi motorbike rental planning",
-      "intent": "Local commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Cau Giay by Motorbike: Motorbike Rental Planning in Hanoi",
-      "content_brief": "Local riding cluster for Cau Giay, focused on how the area relates to the verified Long Bien shop location and practical rental planning. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
-      "internal_link_targets": [
-        "/motorbike-rental-hanoi-old-quarter/",
-        "/hanoi-motorbike-rental/",
-        "/motorbike-guides/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-555.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-556",
       "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/cau-giay-parking-guide/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-564.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-565",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/bac-tu-liem-rental-planning/",
+      "path": "motorbike-rental-hanoi-old-quarter/bac-tu-liem-rental-planning/index.html",
+      "silo": "Local Areas",
+      "hub": "Old Quarter & Areas",
+      "content_role": "CLUSTER",
+      "primary_keyword": "bac tu liem hanoi motorbike rental planning",
+      "intent": "Local commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Bac Tu Liem by Motorbike: Motorbike Rental Planning in Hanoi",
+      "content_brief": "Local riding cluster for Bac Tu Liem, focused on how the area relates to the verified Long Bien shop location and practical rental planning. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
+      "internal_link_targets": [
+        "/motorbike-rental-hanoi-old-quarter/",
+        "/hanoi-motorbike-rental/",
+        "/motorbike-guides/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-565.article",
       "template": "site/templates/article.html"
     }
   ]
