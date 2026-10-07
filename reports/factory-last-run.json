@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:19:16.379Z",
-  "finished": "2026-10-07T06:19:16.544Z",
-  "base_commit": "5c0e609938664839a94f0afecacd34e6c6b32c1a",
+  "started": "2026-10-07T06:20:09.721Z",
+  "finished": "2026-10-07T06:20:09.889Z",
+  "base_commit": "e9a9b5834f71a5633a9845a689d5f2a84a7dbda2",
   "processed": [
     {
-      "id": "SEO-451",
-      "draft": "_factory/inbox/SEO-451.article",
-      "output": "hanoi-motorbike-rental-cost/yamaha-mio-monthly-price/index.html",
+      "id": "SEO-453",
+      "draft": "_factory/inbox/SEO-453.article",
+      "output": "hanoi-motorbike-rental-cost/honda-click-daily-price/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1731,
-      "title_length": 61,
+      "word_count": 1804,
+      "title_length": 60,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-451"
+    "SEO-453"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 441,
-    "planned": 549,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 559,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 442,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 558,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 443,
+    "planned": 547,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 557,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -54,7 +54,7 @@
     "SEO-447",
     "SEO-449",
     "SEO-452",
-    "SEO-453",
-    "SEO-454"
+    "SEO-454",
+    "SEO-455"
   ]
 }
