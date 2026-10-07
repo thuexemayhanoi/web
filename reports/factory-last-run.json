@@ -1,51 +1,43 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:58:15.557Z",
-  "finished": "2026-10-07T04:58:15.778Z",
-  "base_commit": "4fef301219fcd8e5acee6b625ff17554b3addca2",
+  "started": "2026-10-07T04:59:43.441Z",
+  "finished": "2026-10-07T04:59:43.618Z",
+  "base_commit": "72c7cb4db3a72000463660d9afdb382c745162bb",
   "processed": [
     {
-      "id": "SEO-312",
-      "draft": "_factory/inbox/SEO-312.article",
-      "output": "hanoi-50cc-motorbike-rental/budget-travelers-city-traffic/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "SEO-314",
+      "draft": "_factory/inbox/SEO-314.article",
+      "output": "hanoi-50cc-motorbike-rental/budget-travelers-route-suitability/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "broken internal link: /hanoi-50cc-motorbike-rental/solo-travelers-route-suitability/"
+      ],
       "warnings": [],
-      "word_count": 2282,
-      "title_length": 63,
+      "word_count": 1997,
+      "title_length": 65,
       "seo_score": 95
     },
     {
-      "id": "SEO-313",
-      "draft": "_factory/inbox/SEO-313.article",
-      "output": "hanoi-50cc-motorbike-rental/budget-travelers-parking/index.html",
+      "id": "SEO-315",
+      "draft": "_factory/inbox/SEO-315.article",
+      "output": "hanoi-50cc-motorbike-rental/budget-travelers-bridges-and-inclines/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2196,
-      "title_length": 55,
+      "word_count": 2136,
+      "title_length": 71,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-312",
-    "SEO-313"
+    "SEO-315"
   ],
-  "repair_ids": [],
+  "repair_ids": [
+    "SEO-314"
+  ],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 306,
-    "planned": 684,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 694,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 308,
@@ -56,17 +48,28 @@
     "remaining_to_target": 692,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 309,
+    "planned": 681,
+    "writing": 9,
+    "repair": 1,
+    "blocked": 0,
+    "remaining_to_target": 691,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-285",
     "SEO-286",
     "SEO-287",
     "SEO-314",
-    "SEO-315",
     "SEO-316",
     "SEO-317",
     "SEO-318",
     "SEO-319",
-    "SEO-320"
+    "SEO-320",
+    "SEO-321"
   ]
 }
