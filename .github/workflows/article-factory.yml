@@ -25,16 +25,13 @@ permissions:
   id-token: write
 
 concurrency:
-  group: site-publish
+  group: site-publish-v2
   cancel-in-progress: false
 
 jobs:
   factory:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
         with:

@@ -16,12 +16,13 @@ permissions:
   id-token: write
 
 concurrency:
-  group: site-publish
+  group: site-publish-v2
   cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - name: Build shared site shell
@@ -39,9 +40,7 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    timeout-minutes: 15
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
