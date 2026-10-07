@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T06:24:19.325Z",
+  "generated_at": "2026-10-07T06:24:37.901Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 449,
-  "remaining_to_target": 551,
+  "current_published_content_pages": 450,
+  "remaining_to_target": 550,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -208,31 +208,6 @@
       "template": "site/templates/article.html"
     },
     {
-      "id": "SEO-460",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-vision-short-vs-long-term-cost/",
-      "path": "hanoi-motorbike-rental-cost/honda-vision-short-vs-long-term-cost/index.html",
-      "silo": "Pricing",
-      "hub": "Rental Cost & Prices",
-      "content_role": "CLUSTER",
-      "primary_keyword": "honda vision rental short vs long term cost hanoi",
-      "intent": "Commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Honda Vision Short vs Long-Term Rental Cost in Hanoi: Cost Planning Guide",
-      "content_brief": "Pricing cluster for Honda Vision focused on short vs long-term rental cost. Use only the verified prices available on the site; if a period has no verified figure, explicitly direct readers to contact rather than estimating.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental-cost/",
-        "/hanoi-motorbike-rental/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_ONLY",
-      "draft_file": "_factory/inbox/SEO-460.article",
-      "template": "site/templates/article.html"
-    },
-    {
       "id": "SEO-461",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-air-blade-daily-price/",
       "path": "hanoi-motorbike-rental-cost/honda-air-blade-daily-price/index.html",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_ONLY",
       "draft_file": "_factory/inbox/SEO-461.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-462",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-air-blade-weekly-price/",
+      "path": "hanoi-motorbike-rental-cost/honda-air-blade-weekly-price/index.html",
+      "silo": "Pricing",
+      "hub": "Rental Cost & Prices",
+      "content_role": "CLUSTER",
+      "primary_keyword": "honda air blade rental weekly price hanoi",
+      "intent": "Commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Honda Air Blade Weekly Rental Price in Hanoi: Cost Planning Guide",
+      "content_brief": "Pricing cluster for Honda Air Blade focused on weekly rental price. Use only the verified prices available on the site; if a period has no verified figure, explicitly direct readers to contact rather than estimating.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-rental-cost/",
+        "/hanoi-motorbike-rental/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_ONLY",
+      "draft_file": "_factory/inbox/SEO-462.article",
       "template": "site/templates/article.html"
     }
   ]
