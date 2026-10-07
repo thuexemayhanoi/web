@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:52:48.614Z",
-  "finished": "2026-10-07T03:52:48.708Z",
-  "base_commit": "5ed2e6e79780abf9aebbcdbb32fbab55f1d26002",
+  "started": "2026-10-07T03:53:15.850Z",
+  "finished": "2026-10-07T03:53:15.989Z",
+  "base_commit": "ba5cae45a678c1e6b9f486509d90d8ef9eadaf85",
   "processed": [
     {
-      "id": "SEO-211",
-      "draft": "_factory/inbox/SEO-211.article",
-      "output": "hanoi-motorbike-rental/city-commuters-pre-ride-inspection/index.html",
+      "id": "SEO-212",
+      "draft": "_factory/inbox/SEO-212.article",
+      "output": "hanoi-motorbike-rental/city-commuters-rental-paperwork-questions/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1605,
-      "title_length": 62,
+      "word_count": 1534,
+      "title_length": 69,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-211"
+    "SEO-212"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 206,
-    "planned": 784,
-    "writing": 8,
-    "repair": 2,
-    "blocked": 0,
-    "remaining_to_target": 794,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 207,
@@ -44,17 +33,28 @@
     "remaining_to_target": 793,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 208,
+    "planned": 782,
+    "writing": 8,
+    "repair": 2,
+    "blocked": 0,
+    "remaining_to_target": 792,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-207",
     "SEO-208",
-    "SEO-212",
     "SEO-213",
     "SEO-214",
     "SEO-215",
     "SEO-216",
     "SEO-217",
     "SEO-218",
-    "SEO-219"
+    "SEO-219",
+    "SEO-220"
   ]
 }
