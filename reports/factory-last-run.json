@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:48:02.047Z",
-  "finished": "2026-10-07T03:48:02.184Z",
-  "base_commit": "700a35012d2fb7abf3b3e08621005c95e67c362e",
+  "started": "2026-10-07T03:48:49.213Z",
+  "finished": "2026-10-07T03:48:49.359Z",
+  "base_commit": "c94c468064caf87859bca2c4631ead310a01ba19",
   "processed": [
     {
-      "id": "SEO-201",
-      "draft": "_factory/inbox/SEO-201.article",
-      "output": "hanoi-motorbike-rental/riders-with-a-passenger-bike-choice/index.html",
+      "id": "SEO-202",
+      "draft": "_factory/inbox/SEO-202.article",
+      "output": "hanoi-motorbike-rental/riders-with-a-passenger-pre-ride-inspection/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2260,
-      "title_length": 75,
+      "word_count": 2025,
+      "title_length": 71,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-201"
+    "SEO-202"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 198,
-    "planned": 792,
-    "writing": 5,
-    "repair": 4,
-    "blocked": 1,
-    "remaining_to_target": 802,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 199,
@@ -44,9 +33,19 @@
     "remaining_to_target": 801,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 200,
+    "planned": 790,
+    "writing": 7,
+    "repair": 3,
+    "blocked": 0,
+    "remaining_to_target": 800,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-202",
     "SEO-203",
     "SEO-204",
     "SEO-205",
@@ -55,6 +54,7 @@
     "SEO-208",
     "SEO-209",
     "SEO-210",
-    "SEO-211"
+    "SEO-211",
+    "SEO-212"
   ]
 }
