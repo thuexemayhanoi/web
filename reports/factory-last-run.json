@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:05:43.792Z",
-  "finished": "2026-10-07T04:05:43.924Z",
-  "base_commit": "f43ec01c580b334edf1b64d0689ba2f07cd5d408",
+  "started": "2026-10-07T04:06:21.923Z",
+  "finished": "2026-10-07T04:06:22.061Z",
+  "base_commit": "bc5f69fe24925529df86689b95ca1448b5f4a7d8",
   "processed": [
     {
-      "id": "SEO-230",
-      "draft": "_factory/inbox/SEO-230.article",
-      "output": "hanoi-50cc-motorbike-rental/beginners-choosing-a-50cc/index.html",
+      "id": "SEO-233",
+      "draft": "_factory/inbox/SEO-233.article",
+      "output": "hanoi-50cc-motorbike-rental/beginners-route-suitability/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2660,
-      "title_length": 56,
+      "word_count": 2704,
+      "title_length": 58,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-230"
+    "SEO-233"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 226,
-    "planned": 764,
-    "writing": 9,
-    "repair": 1,
-    "blocked": 0,
-    "remaining_to_target": 774,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 227,
@@ -44,17 +33,28 @@
     "remaining_to_target": 773,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 228,
+    "planned": 762,
+    "writing": 9,
+    "repair": 1,
+    "blocked": 0,
+    "remaining_to_target": 772,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-224",
     "SEO-231",
     "SEO-232",
-    "SEO-233",
     "SEO-234",
     "SEO-235",
     "SEO-236",
     "SEO-237",
     "SEO-238",
-    "SEO-239"
+    "SEO-239",
+    "SEO-240"
   ]
 }
