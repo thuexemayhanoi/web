@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Automatic Scooter Fuel Planning: Selection Guide for Hanoi Scooter Rental</title>
-<meta name="description" content="A selection guide to automatic scooter fuel planning in Hanoi, covering tank sizes, refueling stops, verified rental prices, riding range and daily routine planning.">
+<meta name="description" content="A selection guide to automatic scooter fuel planning in Hanoi, covering tank sizes, refueling rhythm, verified rental prices and weekly and monthly cost planning for scooter riders.">
 <link rel="canonical" href="https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-fuel-planning-selection-guide/">
-<link rel="icon" href="/Logonh.png">
+<link rel="icon" type="image/png" href="/Logonh.png">
 <link rel="apple-touch-icon" href="/Logonh.png">
 <link rel="stylesheet" href="/assets/css/style.css">
 <!-- SLOT:SCHEMA -->
@@ -15,70 +15,80 @@
 <a class="skip-link" href="#main">Skip to content</a>
 <!-- SLOT:HEADER -->
 <main id="main">
-<nav class="crumbs" aria-label="Breadcrumb">
-<a href="/">Home</a> <span aria-hidden="true">&rsaquo;</span> <a href="/hanoi-scooter-rental/">Hanoi Scooter Rental</a> <span aria-hidden="true">&rsaquo;</span> <span>Automatic Scooter Fuel Planning Selection Guide</span>
-</nav>
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/hanoi-scooter-rental/">Hanoi Scooter Rental</a></li><li aria-current="page">Automatic Scooter Fuel Planning Selection Guide</li></ol></nav>
 <article class="article">
 <span class="cat-badge">Guide &middot; Rentals</span>
-<h1>Automatic Scooter Fuel Planning: Selection Guide for Hanoi Scooter Riders</h1>
-<p>Fuel is the quiet variable in any rental week. Automatic scooters are among the most frugal machines on Hanoi's roads, so the work is rarely about cost; it is about timing. Knowing when to fill, where to fill and how the machine signals a low tank turns a potential walk to a station into a non-event. This guide treats fuel planning as a selection factor, because tank size, gauge clarity and fuel-stop habits differ between models and shape how smoothly a rental day flows.</p>
-<p>It belongs inside the <a href="/hanoi-scooter-rental/">Hanoi Scooter Rental</a> hub, and pairs with the <a href="/hanoi-motorbike-rental-cost/">Hanoi motorbike rental cost</a> guide and the <a href="/monthly-motorbike-rental-hanoi/">monthly motorbike rental Hanoi</a> overview for longer stays; quick logistics answers live in the <a href="/faq/">FAQ</a>. Along the way you will find verified prices from Motorbike Rental - Nguyen Tu at 112 Nguyen Van Cu in Long Bien, open daily from 09:00 to 21:00, plus practical notes on gauges, stations and routines that keep an automatic scooter running without drama.</p>
+<h1>Automatic Scooter Fuel Planning: Selection Guide for Hanoi Scooter Rental</h1>
+<p>Fuel is the quiet half of every scooter rental. The machine you pick determines how often you stop, how much each week costs to keep running and how much mental space riding takes up once the tank gauge starts to drop. In Hanoi, where trips are short but frequent and the day can carry you from a Long Bien pickup counter to the Old Quarter and back again, treating fuel planning as a selection criterion rather than an afterthought is what separates a relaxed rental from a stressful one.</p>
+<p>This guide belongs inside the <a href="/hanoi-scooter-rental/">Hanoi Scooter Rental</a> hub, pairs with the <a href="/hanoi-motorbike-rental-cost/">Hanoi motorbike rental cost</a> guide for budgeting and the <a href="/monthly-motorbike-rental-hanoi/">monthly motorbike rental Hanoi</a> overview for longer stays. It compares the verified rental models from Motorbike Rental - Nguyen Tu at 112 Nguyen Van Cu in Long Bien, open daily from 09:00 to 21:00, through the lens of fuel: which machines suit which refueling rhythm, how to fold fuel into your rental budget and how to plan honestly without guessing at numbers nobody can promise in advance.</p>
 <nav class="toc">
 <ol>
-<li><a href="#sec-1">Why fuel planning matters</a></li>
-<li><a href="#sec-2">Tank size and gauges</a></li>
-<li><a href="#sec-3">Comparing rental models</a></li>
-<li><a href="#sec-4">Refueling in the Old Quarter</a></li>
-<li><a href="#sec-5">Long Bien and routines</a></li>
-<li><a href="#sec-6">Weekly and monthly rentals</a></li>
-<li><a href="#sec-7">Cost planning</a></li>
-<li><a href="#sec-8">Matching strategy to routine</a></li>
+<li><a href="#sec-1">Why fuel shapes your scooter choice</a></li>
+<li><a href="#sec-2">Tank size and refueling rhythm</a></li>
+<li><a href="#sec-3">Comparing verified rental models</a></li>
+<li><a href="#sec-4">Fuel stops as part of your route</a></li>
+<li><a href="#sec-5">Fuel planning for long stays</a></li>
+<li><a href="#sec-6">Budgeting fuel with rental cost</a></li>
+<li><a href="#sec-7">Season and riding style effects</a></li>
+<li><a href="#sec-8">Matching a model to your routine</a></li>
 </ol>
 </nav>
-<h2 id="sec-1">Why Fuel Planning Matters for Automatic Scooter Riders</h2>
-<p>An automatic scooter removes gears from the riding equation, which leaves fuel as the main consumable you actually manage. Most rental days involve short hops between neighborhoods rather than long tours, so a full tank lasts many riders several days. The planning problem is not distance but surprise: a gauge that drops during a busy afternoon, a station queue at the wrong moment, a morning errand that assumes fuel the machine does not have. Good fuel planning removes surprise from the equation.</p>
-<p>Fuel planning also interacts with parking. Riders who park in guarded lots near their hotel usually pass the same few stations each day, which makes a fill a routine stop. Riders exploring the Hanoi Old Quarter weave through lanes where stations sit on busier edges, so a deliberate station choice saves circling later. The machine you select determines how forgiving your margin is on all of these small decisions.</p>
-<p>For longer stays the pattern compounds. A month of riding means dozens of station visits, and riders who anchor fuel stops to familiar places spend less attention on the tank than riders who improvise. Fuel planning, like parking planning, rewards consistency over cleverness; the goal is a machine you stop thinking about between errands, meetings and evening rides along the river.</p>
-<h2 id="sec-2">Tank Size, Range and Reading the Gauge</h2>
-<p>Automatic scooters in rental fleets carry small tanks, typically just a few liters, which keeps refueling quick and cheap but also means the gauge matters. Some models show a clear needle; others use warning lights that arrive with little ceremony. Learning which system your machine uses is a two-minute job at pickup: turn the key, watch the display, and ask how the low-fuel warning behaves on that specific model.</p>
-<p>Range varies with load, traffic and riding style, so treat any estimate as a soft number rather than a promise. City riding in Hanoi is stop-start by nature, and a week of short trips burns fuel differently than a single long run. The practical habit is simple: glance at the gauge each time you park, and treat the halfway mark as a soft prompt to plan a station visit rather than a countdown to one.</p>
-<p>Ask at pickup whether the tank is delivered full or partly filled, and plan the first station visit accordingly. A machine handed over on a partial tank is not a problem; it is simply the first planning item of the rental. Riders who establish their own fill rhythm in the first day rarely think about fuel again for the rest of the stay, which is exactly the point of planning.</p>
-<h2 id="sec-3">Comparing Rental Models for Fuel Economy</h2>
-<p>The rental tiers at Motorbike Rental - Nguyen Tu cover the popular automatic categories. The Honda Click and Yamaha Mio rent for 150,000 VND per day, 700,000 VND per week and 900,000 to 1,200,000 VND per month; the Honda Vision rents for 200,000 VND per day, 1,000,000 VND per week and 1,800,000 to 2,000,000 VND per month; the Honda Air Blade rents for 200,000 VND per day, 1,000,000 VND per week and 1,500,000 VND per month.</p>
-<p>Smaller machines sip fuel, and the entry tier is generally the most economical of the petrol options in daily city use. The mid-size and larger automatics trade a measure of economy for comfort, storage and pace. None of them is expensive to run in city conditions, so fuel economy is rarely the deciding factor between tiers; it is more often a tiebreaker when two models otherwise fit a rider's week equally well.</p>
-<p>The fleet also includes an electric motorbike tier at 200,000 VND per day, 1,000,000 VND per week and 1,500,000 VND per month, which removes station stops entirely in exchange for charging habits. Riders weighing that trade-off can start from the <a href="/hanoi-scooter-rental/electric-motorbike-rental-hanoi/">electric motorbike rental Hanoi</a> hub. For everyone else, the petrol automatics keep fuel planning simple: small tank, quick fill, low cost.</p>
-<h2 id="sec-4">Refueling Around the Hanoi Old Quarter</h2>
-<p>Stations cluster on the wider roads that frame the Hanoi Old Quarter rather than inside its narrow lanes, which shapes the refueling pattern. Riders usually fill either before entering the quarter or after leaving it, treating a station on a main road as the natural boundary of a visit. Planning the stop this way avoids circling the quarter on a low tank, which is nobody's idea of a pleasant evening.</p>
-<p>Queues at popular stations build at predictable times, particularly around the evening rush. A mid-morning fill usually costs a few minutes; the same stop at 17:30 can cost considerably more patience. Riders who anchor fuel to a station near a regular destination, a gym, an office or a favorite cafe, convert refueling from a chore into a background task that happens on the way somewhere useful.</p>
-<p>One habit keeps the whole pattern relaxed: never plan a fuel stop inside the Old Quarter itself. Fill on the approach roads, then enter. The quarter rewards riders who arrive with everything already handled, and fuel is the easiest item to handle in advance. This single rule prevents the large majority of low-fuel stress that visitors report from dense central districts.</p>
-<h2 id="sec-5">Fuel Planning in Long Bien and Daily Routines</h2>
-<p>Long Bien, home of the shop at 112 Nguyen Van Cu, offers a calmer refueling landscape, with stations along the district's wider avenues serving steady local traffic. Riders based east of the Red River usually settle on one or two familiar stations within a few minutes of home, and a fill becomes as routine as buying a coffee. The shop's hours, 09:00 to 21:00 daily, make pickup and return easy to plan around riding days.</p>
-<p>Daily commuters face a slightly different equation, since their routes repeat and their fuel windows are fixed by the working day. Our guide to <a href="/hanoi-scooter-rental/automatic-scooter-for-daily-commuting-selection-guide/">automatic scooters for daily commuting</a> looks at the commuting pattern in depth, including how a weekly fill rhythm pairs with a weekly rental. The principle is the same at any scale: anchor fuel to places you already pass.</p>
-<p>For visitors splitting time between districts, the useful trick is to note two stations, one near the hotel and one near the most-visited destination, and to use whichever is convenient when the gauge prompts. Two anchors cover nearly every realistic day in Hanoi, and the habit removes the temptation to skip a fill because the right station is not in view at the moment the gauge asks.</p>
-<h2 id="sec-6">Weekly and Monthly Rentals and Fuel Budgets</h2>
-<p>Rental length changes the fuel conversation. Day rentals usually inherit whatever is in the tank, and a single fill covers the rental. Weekly rentals settle into a rhythm of one or two fills, anchored to familiar stations. Monthly rentals turn fuel into a background budget line, small next to rent, and a rider with a regular route rarely thinks about it beyond the weekly stop.</p>
-<p>The pricing ladder makes long rentals attractive: the Honda Click and Yamaha Mio cost 700,000 VND per week or 900,000 to 1,200,000 VND per month, and the Honda Vision 1,000,000 VND per week or 1,800,000 to 2,000,000 VND per month. Our <a href="/monthly-motorbike-rental-hanoi/">monthly motorbike rental Hanoi</a> guide covers the long-stay options in detail for expats, students and remote workers planning weeks or months in the city.</p>
-<p>Whatever the rental period, the fuel side stays modest. Small tanks fill in minutes, stations are common, and city speeds keep consumption gentle. The planning value comes less from saving money and more from saving attention: a rider whose fuel rhythm is anchored spends zero minutes worrying about the tank, and that quiet confidence is worth building from the first day of a rental.</p>
-<h2 id="sec-7">Cost Planning with Fuel in Mind</h2>
-<p>A realistic riding budget has two lines: the rental itself and the riding costs, with fuel the largest of the latter. The rental line is transparent, 150,000 VND per day for the Click or Mio tier and 200,000 VND per day for the Vision and Air Blade tiers, with clear weekly and monthly reductions. Fuel for these small automatics adds a modest amount that scales with how much you ride, not with how long you rent.</p>
-<p>The <a href="/hanoi-motorbike-rental-cost/">Hanoi motorbike rental cost</a> guide walks through the budget categories line by line, including how weekly and monthly tiers change the per-day arithmetic for popular models. Reading it before selecting helps separate fixed costs, the rental itself, from variable ones like fuel, so a week of heavy riding does not surprise anyone who planned only for the rental.</p>
-<p>Fuel prices at stations are broadly consistent across the city, so the planning question is never where the cheap fuel is; it is simply when to stop. That is good news for visitors: any convenient station is a good station. Select your scooter for fit and comfort, plan your fuel stops for rhythm, and the budget takes care of itself in a way that few other travel costs do.</p>
-<h2 id="sec-8">Matching a Fuel Strategy to Your Routine</h2>
-<p>Selection and fuel strategy fit together neatly. A rider planning dense Old Quarter days on a compact Click or Mio fills on approach roads and forgets the tank between stops. A rider carrying more on a Vision or Air Blade does the same with a slightly larger budget line. A rider who wants no station stops at all considers the electric tier and its charging rhythm instead, comparing the two lifestyles honestly before committing.</p>
-<p>Whatever the choice, the first day sets the pattern. Learn the gauge, note one station near your base and one near your main destination, and fill at the halfway prompt rather than the warning. Ten minutes of setup on day one buys weeks of not thinking about fuel, which is the entire goal of treating fuel as a planning item rather than a recurring surprise.</p>
-<p>For the remaining logistics questions, deposits, documents, pickup timing, the <a href="/faq/">FAQ</a> collects the answers in one place. Once those are settled, the fuel side needs only rhythm: glance at the gauge when you park, fill when it prompts, and let the machine carry you through the city while your attention stays on the streets, the food and the schedule rather than the tank.</p>
+<h2 id="sec-1">Why Fuel Shapes Your Scooter Choice in Hanoi</h2>
+<p>Every rider has a fuel personality. Some top up a little at every opportunity and never watch the gauge; others ride until a stop becomes necessary and then fill completely. Neither habit is wrong, but each one points to a different rental. If you prefer to refuel rarely and think about it even less, a machine with a larger tank and modest appetite suits you. If you top up often and casually, tank size matters far less and you can choose purely on comfort, storage and style.</p>
+<p>Fuel planning also interacts with how Hanoi actually feels to ride. Trips are usually short and interrupted, which is gentle on fuel but hard on patience, and heat, idling and stop-start traffic all nudge consumption upward in ways that no fixed figure can honestly capture. Rather than chasing precise numbers, the practical approach is to pick a scooter whose range, size and cost profile comfortably covers your worst realistic day, then stop worrying.</p>
+<p>The selection question, then, is simple to state: how much of your Hanoi routine depends on the machine, and how little do you want fuel to appear in your thoughts? Answer that first, and the model comparison below becomes much easier to read.</p>
+<h2 id="sec-2">Tank Size and Refueling Rhythm</h2>
+<p>Automatic scooters in this class carry compact tanks, and the honest difference between models is rhythm rather than range records. A machine with a modest tank asks for small, frequent top-ups, which suits riders who pass fuel stations daily anyway. A machine with a roomier tank rewards riders who prefer to fill, forget and ride for days. Both habits are easy to keep in a city where stations sit along the main roads you already travel.</p>
+<p>Rather than memorizing tank specifications, translate them into your own week. Count the hours you expect to ride, the neighborhoods you will reach and how often a fuel station naturally appears on those routes. If your week is mostly short neighborhood loops, almost any model works. If you plan longer rides out to lakes, dyke roads or other districts, a larger tank quietly removes an entire category of planning from your day.</p>
+<p>One useful counter habit: ask the staff how they would fuel the machine you are considering for the riding you describe. They ride these scooters through the same streets every day and know how each model behaves in practice, which is worth more than any generic consumption figure quoted sight unseen.</p>
+<h2 id="sec-3">Comparing Verified Rental Models for Fuel Needs</h2>
+<p>The verified rental fleet gives you four clear automatic choices. The Honda Click and Yamaha Mio rent for 150,000 VND per day, 700,000 VND per week and 900,000 to 1,200,000 VND per month. The Honda Vision rents for 200,000 VND per day, 1,000,000 VND per week and 1,800,000 to 2,000,000 VND per month. The Honda Air Blade rents for 200,000 VND per day, 1,000,000 VND per week and 1,500,000 VND per month. Confirm the monthly figures you are quoted at the counter, since ranges reflect condition and availability on the day.</p>
+<p>For fuel planning, the split is between the lighter city pair and the larger pair. The Click and Mio sit at the entry price and do the work most visitors need, which makes them a sensible default for short stays where fuel stops are few. The Vision and Air Blade cost more per period and bring more machine, which suits riders who expect longer days or simply prefer the way the larger scooters carry speed and luggage.</p>
+<p>Whatever you choose, the fuel logic stays the same: your total weekly cost is the rental rate plus whatever you spend on fuel, and the rental side of that sum is fixed and published. The full pricing picture, including what changes between daily, weekly and monthly terms, lives in the <a href="/hanoi-motorbike-rental-cost/">rental cost guide</a>, so compare models there before finalizing.</p>
+<h2 id="sec-4">Fuel Stops as Part of Your Route</h2>
+<p>Refueling in Hanoi is part of the riding experience, not an obstacle. Stations across the city are staffed by attendants who fill the tank for you, and the routine is quick: ride in, state your amount, wait a moment, ride out. Watching how locals flow through a station teaches you the rhythm faster than any description, and after one or two stops the process feels as ordinary as parking.</p>
+<p>Plan fuel stops around your day rather than against it. A common habit is a small top-up when you pass a station near your regular route, so the gauge never reaches the edge of its comfort zone. Riders who wait until a stop becomes urgent give themselves fewer choices, and choices matter most on unfamiliar streets, in evening rain or at the end of a long day.</p>
+<p>Two small habits keep everything honest. First, ask at pickup how the fuel level is handled between rentals, because arrangements are confirmed at the counter and should not be guessed at in advance. Second, ask the staff to point out fuel stations you will actually pass on your planned routes, which turns abstract advice into a map you can remember.</p>
+<h2 id="sec-5">Fuel Planning for Weekly and Monthly Stays</h2>
+<p>Fuel planning changes shape over longer rentals. A one-day rental needs almost no thought, but a week or a month turns refueling into a small routine, and routines deserve a little design. Riders on monthly terms often settle on a fixed pattern, such as a top-up at the same station on the same road at the same time each week, which removes decision fatigue entirely.</p>
+<p>Longer stays also make the budget arithmetic matter more. Fuel spent across a month is real money alongside the rental rate, and the monthly figures above, 900,000 to 2,000,000 VND depending on the model, form the fixed half of that ledger. If fuel economy is a priority for a long stay, say so at the counter and let the staff match you to the machine that fits, since they see how each model actually behaves across many rentals.</p>
+<p>The <a href="/monthly-motorbike-rental-hanoi/">monthly rental overview</a> covers the wider questions of long-term renting, from paperwork to maintenance responsibility, and this page handles only the fuel slice. Read them together if your stay will run beyond a couple of weeks.</p>
+<h2 id="sec-6">Budgeting Fuel Alongside Rental Cost</h2>
+<p>Budgeting fuel alongside rental cost is mostly about honesty with yourself. The rental rate is fixed and published per day, week or month, and fuel is the variable you control through riding style and distance. A rider who spends the week on neighborhood errands and a rider who crosses the city twice a day will spend noticeably different amounts on fuel even on the same model.</p>
+<p>A practical approach is to plan fuel as a small daily allowance rather than a single guess. Whatever you set aside per day, the number should cover your realistic riding plus a little margin, and any surplus simply rolls into the next day. This keeps a week or a month of riding predictable without demanding precision that no guide can honestly supply in advance.</p>
+<p>The complete pricing picture, including every model at every rental period, lives in the <a href="/hanoi-motorbike-rental-cost/">cost guide</a>, and fuel belongs in your notes right beside it. Riders who budget the two together avoid the only real fuel mistake, which is discovering the running costs after signing for the machine.</p>
+<h2 id="sec-7">Season and Riding Style Effects on Fuel</h2>
+<p>Season and riding style both move fuel use, in general ways worth planning for rather than measuring. Hot-weather riding with long idling at lights nudges consumption upward, and so does carrying a passenger or riding with a loaded backpack. Rain changes patterns too, since wet-evening rides tend to be slower, shorter and more deliberate than dry ones.</p>
+<p>None of these effects is large enough to change which model you rent, but they are large enough to change when you refuel. A rider who knows the gauge will move faster on a hot, loaded afternoon simply stops a little earlier and thinks about it less. That is the entire skill: reading your own week instead of chasing specifications.</p>
+<p>The honest rule is to plan from your habits, not from best-case figures. Base your expectations on how you actually ride at home, add a margin for the energy of Hanoi traffic, and let the machine exceed your plan rather than fall short of it.</p>
+<h2 id="sec-8">Matching a Model to Your Fuel Routine</h2>
+<p>Selection comes down to matching a machine to your fuel personality. For short stays and light use, the Honda Click or Yamaha Mio at 150,000 VND per day keeps everything simple and inexpensive. For longer days, more carrying or more comfort, the Honda Vision and Honda Air Blade at 200,000 VND per day bring larger machines that reward riders who spend real hours in the saddle.</p>
+<p>Read the fleet in full at the <a href="/hanoi-scooter-rental/">scooter rental hub</a>, where every model and rental period is laid out side by side. Then confirm availability and the final monthly figure at the counter at 112 Nguyen Van Cu, Long Bien, because stock on the day is the one fact no guide can honestly promise.</p>
+<p>Fuel planning will never be the most exciting part of renting a scooter in Hanoi, and that is exactly the point. Done once, at selection, it disappears into the background of your week, leaving you with nothing to manage except where to ride next.</p>
 <h2>Frequently asked questions about automatic scooter fuel planning in Hanoi</h2>
 <article class="faq-entry">
-<h2>How far can an automatic scooter go on a full tank in Hanoi?</h2>
-<p>Range depends on the model, your load and the traffic, so treat any number as an estimate rather than a promise. City riding in Hanoi is stop-start, which burns fuel differently than open roads. The practical approach is to learn the gauge on your specific machine at pickup, treat the halfway mark as a prompt, and refill at a convenient station long before the warning appears. Small tanks make every fill quick, and stations are common across the city.</p>
+<h2>How far can I ride on a full tank?</h2>
+<p>It depends on the model, your load, the weather and your riding style, and no honest fixed figure exists in advance. The practical approach is to plan your realistic worst day, choose a machine that covers it comfortably, and ask the counter staff how the specific model you are considering behaves in daily use.</p>
 </article>
 <article class="faq-entry">
-<h2>How much does an automatic scooter rental cost in Hanoi?</h2>
-<p>Verified prices at Motorbike Rental - Nguyen Tu: the Honda Click and Yamaha Mio rent for 150,000 VND per day, 700,000 VND per week and 900,000 to 1,200,000 VND per month; the Honda Vision for 200,000 VND per day, 1,000,000 VND per week and 1,800,000 to 2,000,000 VND per month; the Honda Air Blade for 200,000 VND per day, 1,000,000 VND per week and 1,500,000 VND per month. Confirm your tier at pickup at 112 Nguyen Van Cu, open daily from 09:00 to 21:00.</p>
+<h2>Which automatic scooter is cheapest to run?</h2>
+<p>On rental cost, the Honda Click and Yamaha Mio rent for 150,000 VND per day, the lowest verified rate in the fleet. On fuel, smaller and lighter machines generally use less, but your own riding dominates the total. Ask the staff to match a machine to your planned riding instead of relying on generic rankings.</p>
 </article>
 <article class="faq-entry">
-<h2>Where can I refuel a rental automatic scooter in Hanoi?</h2>
-<p>Fuel stations are common throughout the city, clustered on wider roads rather than inside narrow Old Quarter lanes. Most riders settle on one station near their hotel and one near a regular destination, filling whenever the gauge prompts rather than hunting for a specific brand or price, since prices are broadly consistent. Planning fills on approach roads before entering dense districts keeps every visit calm and every ride uninterrupted.</p>
+<h2>Is fuel included in the rental price?</h2>
+<p>Fuel arrangements are confirmed at pickup, and you should not assume them in either direction. The published rental rates cover the machine itself, so ask at the counter how the tank level is handled at handover and return, and note it with your paperwork before you ride off.</p>
+</article>
+<article class="faq-entry">
+<h2>Where can I refuel in Hanoi?</h2>
+<p>Fuel stations sit along the main roads throughout the city, staffed by attendants who fill the tank for you. The easiest habit is a small top-up at a station on a route you already ride. Ask the staff at 112 Nguyen Van Cu to point out the stations that suit your planned destinations before you set out.</p>
+</article>
+<article class="faq-entry">
+<h2>Does fuel planning change for a monthly rental?</h2>
+<p>Yes, in shape rather than difficulty. Over a month, most riders settle into a fixed refueling routine tied to a regular route, and fuel becomes a small line in the budget beside the fixed monthly rate. The monthly rental overview covers the wider long-term questions, while this page keeps the fuel slice.</p>
+</article>
+<article class="faq-entry">
+<h2>Can the shop help me plan fuel for my itinerary?</h2>
+<p>Yes. The staff at Motorbike Rental - Nguyen Tu, 112 Nguyen Van Cu, Long Bien, Hanoi, open daily from 09:00 to 21:00, ride these models through the same streets every day. They can tell you how each machine behaves, where to refuel on your routes and which model suits the riding you describe.</p>
 </article>
 <!-- SLOT:RELATED -->
 <!-- SLOT:CTA -->
