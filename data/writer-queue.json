@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T21:08:52.941Z",
+  "generated_at": "2026-10-07T21:09:06.632Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 800,
-  "remaining_to_target": 200,
+  "current_published_content_pages": 801,
+  "remaining_to_target": 199,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-803",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-duong-lam-safety-checklist/",
-      "path": "hanoi-motorbike-trips/hanoi-to-duong-lam-safety-checklist/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to duong lam motorbike safety checklist",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Duong Lam by Motorbike: Safety Checklist | Hanoi Motorbike Guide",
-      "content_brief": "Destination cluster for a Hanoi-to-Duong Lam motorbike trip, focused on pre-departure bike, gear and route checks for the destination. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-803.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-804",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-duong-lam-return-planning/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
       "draft_file": "_factory/inbox/SEO-812.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-813",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-perfume-pagoda-return-planning/",
+      "path": "hanoi-motorbike-trips/hanoi-to-perfume-pagoda-return-planning/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to perfume pagoda motorbike return planning",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Perfume Pagoda by Motorbike: Return-to-Hanoi Planning",
+      "content_brief": "Destination cluster for a Hanoi-to-Perfume Pagoda motorbike trip, focused on how to plan the return leg, daylight buffer and shop timing questions without fabricating travel times. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-813.article",
       "template": "site/templates/article.html"
     }
   ]
