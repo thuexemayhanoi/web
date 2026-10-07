@@ -1,52 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T21:25:19.250Z",
-  "finished": "2026-10-07T21:25:19.560Z",
+  "started": "2026-10-07T21:25:37.774Z",
+  "finished": "2026-10-07T21:25:38.058Z",
   "base_commit": null,
   "processed": [
     {
-      "id": "SEO-814",
-      "draft": "_factory/inbox/SEO-814.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-soc-son-route-planning/index.html",
+      "id": "SEO-816",
+      "draft": "_factory/inbox/SEO-816.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-soc-son-two-day-itinerary/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2099,
-      "title_length": 69,
+      "word_count": 1963,
+      "title_length": 52,
       "seo_score": 95
     },
     {
-      "id": "SEO-815",
-      "draft": "_factory/inbox/SEO-815.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-soc-son-one-day-feasibility/index.html",
+      "id": "SEO-817",
+      "draft": "_factory/inbox/SEO-817.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-soc-son-bike-choice/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1934,
-      "title_length": 55,
+      "word_count": 1998,
+      "title_length": 59,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-814",
-    "SEO-815"
+    "SEO-816",
+    "SEO-817"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 811,
-    "planned": 179,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 189,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 813,
@@ -57,10 +46,19 @@
     "remaining_to_target": 187,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 815,
+    "planned": 175,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 185,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-816",
-    "SEO-817",
     "SEO-818",
     "SEO-819",
     "SEO-820",
@@ -68,6 +66,8 @@
     "SEO-822",
     "SEO-823",
     "SEO-824",
-    "SEO-825"
+    "SEO-825",
+    "SEO-826",
+    "SEO-827"
   ]
 }
