@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T06:06:00.215Z",
+  "generated_at": "2026-10-07T06:07:32.771Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 430,
-  "remaining_to_target": 570,
+  "current_published_content_pages": 431,
+  "remaining_to_target": 569,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -105,31 +105,6 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-436.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-437",
-      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-pre-ride-checks-selection-guide/",
-      "path": "hanoi-scooter-rental/automatic-scooter-pre-ride-checks-selection-guide/index.html",
-      "silo": "Scooter Rental",
-      "hub": "Hanoi Scooter Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "automatic scooter pre ride checks hanoi selection guide",
-      "intent": "Commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Automatic Scooter Pre Ride Checks: Selection Guide for Hanoi Scooter Rental",
-      "content_brief": "Scooter cluster focused on selection criteria, verified fleet examples and fit for the stated need. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
-      "internal_link_targets": [
-        "/hanoi-scooter-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/monthly-motorbike-rental-hanoi/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-437.article",
       "template": "site/templates/article.html"
     },
     {
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_ONLY",
       "draft_file": "_factory/inbox/SEO-442.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-443",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-wave-monthly-price/",
+      "path": "hanoi-motorbike-rental-cost/honda-wave-monthly-price/index.html",
+      "silo": "Pricing",
+      "hub": "Rental Cost & Prices",
+      "content_role": "CLUSTER",
+      "primary_keyword": "honda wave rental monthly price hanoi",
+      "intent": "Commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Honda Wave Monthly Rental Price in Hanoi: Cost Planning Guide",
+      "content_brief": "Pricing cluster for Honda Wave focused on monthly rental price. Use only the verified prices available on the site; if a period has no verified figure, explicitly direct readers to contact rather than estimating.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-rental-cost/",
+        "/hanoi-motorbike-rental/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_ONLY",
+      "draft_file": "_factory/inbox/SEO-443.article",
       "template": "site/templates/article.html"
     }
   ]
