@@ -1,52 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T21:20:01.912Z",
-  "finished": "2026-10-07T21:20:02.183Z",
+  "started": "2026-10-07T21:20:15.187Z",
+  "finished": "2026-10-07T21:20:15.383Z",
   "base_commit": null,
   "processed": [
     {
-      "id": "SEO-809",
-      "draft": "_factory/inbox/SEO-809.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-perfume-pagoda-weather-planning/index.html",
+      "id": "SEO-811",
+      "draft": "_factory/inbox/SEO-811.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-perfume-pagoda-luggage-packing/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2214,
-      "title_length": 54,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-810",
-      "draft": "_factory/inbox/SEO-810.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-perfume-pagoda-fuel-and-rest-stops/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2133,
-      "title_length": 65,
+      "word_count": 2097,
+      "title_length": 59,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-809",
-    "SEO-810"
+    "SEO-811"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 806,
-    "planned": 184,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 194,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 808,
@@ -57,9 +34,19 @@
     "remaining_to_target": 192,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 809,
+    "planned": 181,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 191,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-811",
     "SEO-812",
     "SEO-813",
     "SEO-814",
@@ -68,6 +55,7 @@
     "SEO-817",
     "SEO-818",
     "SEO-819",
-    "SEO-820"
+    "SEO-820",
+    "SEO-821"
   ]
 }
