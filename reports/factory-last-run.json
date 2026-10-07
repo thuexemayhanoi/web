@@ -1,39 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:43:49.339Z",
-  "finished": "2026-10-07T04:43:49.444Z",
-  "base_commit": "1b3634916a32bec0ed9f23806a4fa279059416c1",
+  "started": "2026-10-07T04:44:07.943Z",
+  "finished": "2026-10-07T04:44:08.153Z",
+  "base_commit": "98e7c12ab7c06f1ae9c0fe542428c4924c3f9e67",
   "processed": [
     {
-      "id": "SEO-268",
-      "draft": "_factory/inbox/SEO-268.article",
-      "output": "hanoi-50cc-motorbike-rental/lightweight-riders-parking/index.html",
+      "id": "SEO-294",
+      "draft": "_factory/inbox/SEO-294.article",
+      "output": "hanoi-50cc-motorbike-rental/couples-city-traffic/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2620,
-      "title_length": 57,
+      "word_count": 2123,
+      "title_length": 54,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-295",
+      "draft": "_factory/inbox/SEO-295.article",
+      "output": "hanoi-50cc-motorbike-rental/couples-parking/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2025,
+      "title_length": 70,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-268"
+    "SEO-294",
+    "SEO-295"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 283,
-    "planned": 707,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 717,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 284,
@@ -42,6 +43,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 716,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 286,
+    "planned": 704,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 714,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -53,8 +65,8 @@
     "SEO-285",
     "SEO-286",
     "SEO-287",
-    "SEO-294",
-    "SEO-295",
-    "SEO-296"
+    "SEO-296",
+    "SEO-297",
+    "SEO-298"
   ]
 }
