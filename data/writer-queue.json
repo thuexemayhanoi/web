@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T22:02:56.170Z",
+  "generated_at": "2026-10-07T22:03:33.175Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 856,
-  "remaining_to_target": 144,
+  "current_published_content_pages": 857,
+  "remaining_to_target": 143,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-859",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/digital-nomads-rent-vs-buy-decision/",
-      "path": "hanoi-motorbike-for-sale/digital-nomads-rent-vs-buy-decision/index.html",
-      "silo": "Buying vs Renting",
-      "hub": "Buying vs Renting",
-      "content_role": "CLUSTER",
-      "primary_keyword": "buy vs rent motorbike hanoi digital nomads rent vs buy decision",
-      "intent": "Informational comparison",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Digital Nomads: Rent vs Buy Decision for Hanoi Motorbikes",
-      "content_brief": "Buying-versus-renting cluster for digital nomads, focused on deciding between rental flexibility and ownership responsibility for this audience. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-for-sale/",
-        "/monthly-motorbike-rental-hanoi/",
-        "/hanoi-motorbike-rental-cost/"
-      ],
-      "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
-      "draft_file": "_factory/inbox/SEO-859.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-860",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/digital-nomads-used-bike-inspection/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
       "draft_file": "_factory/inbox/SEO-868.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-869",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/teachers-paperwork-questions/",
+      "path": "hanoi-motorbike-for-sale/teachers-paperwork-questions/index.html",
+      "silo": "Buying vs Renting",
+      "hub": "Buying vs Renting",
+      "content_role": "CLUSTER",
+      "primary_keyword": "buy vs rent motorbike hanoi teachers paperwork questions",
+      "intent": "Informational comparison",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Teachers: Ownership Paperwork Questions for Hanoi Motorbikes",
+      "content_brief": "Buying-versus-renting cluster for teachers, focused on questions about registration and ownership that require current official verification. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-for-sale/",
+        "/monthly-motorbike-rental-hanoi/",
+        "/hanoi-motorbike-rental-cost/"
+      ],
+      "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
+      "draft_file": "_factory/inbox/SEO-869.article",
       "template": "site/templates/article.html"
     }
   ]
