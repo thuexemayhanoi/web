@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T19:31:38.494Z",
+  "generated_at": "2026-10-07T19:32:28.064Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 729,
-  "remaining_to_target": 271,
+  "current_published_content_pages": 730,
+  "remaining_to_target": 270,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-732",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ha-long-return-planning/",
-      "path": "hanoi-motorbike-trips/hanoi-to-ha-long-return-planning/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to ha long motorbike return planning",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Ha Long by Motorbike: Return-to-Hanoi Planning",
-      "content_brief": "Destination cluster for a Hanoi-to-Ha Long motorbike trip, focused on how to plan the return leg, daylight buffer and shop timing questions without fabricating travel times. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-732.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-733",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-cat-ba-route-planning/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
       "draft_file": "_factory/inbox/SEO-741.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-742",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-sapa-route-planning/",
+      "path": "hanoi-motorbike-trips/hanoi-to-sapa-route-planning/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to sapa motorbike route planning",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Sapa by Motorbike: Route Planning | Hanoi Motorbike Guide",
+      "content_brief": "Destination cluster for a Hanoi-to-Sapa motorbike trip, focused on route-planning questions, road types and checkpoints that should be verified before departure. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-742.article",
       "template": "site/templates/article.html"
     }
   ]
