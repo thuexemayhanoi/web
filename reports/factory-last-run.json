@@ -1,60 +1,36 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T08:00:43.690Z",
-  "finished": "2026-10-07T08:00:44.038Z",
-  "base_commit": "d15015e61be1fa56a7c6fc44bdcf4646786625ff",
+  "started": "2026-10-07T08:05:22.609Z",
+  "finished": "2026-10-07T08:05:22.710Z",
+  "base_commit": "31959e3ade42387cb5ae05cc9d29773442b02f92",
   "processed": [
     {
-      "id": "SEO-532",
-      "draft": "_factory/inbox/SEO-532.article",
-      "output": "motorbike-rental-hanoi-old-quarter/tay-ho-traffic-guide/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "SEO-516",
+      "draft": "_factory/inbox/SEO-516.article",
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
       "warnings": [],
-      "word_count": 1707,
-      "title_length": 53,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-533",
-      "draft": "_factory/inbox/SEO-533.article",
-      "output": "motorbike-rental-hanoi-old-quarter/tay-ho-route-connections/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1711,
-      "title_length": 57,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-534",
-      "draft": "_factory/inbox/SEO-534.article",
-      "output": "motorbike-rental-hanoi-old-quarter/tay-ho-day-ride-ideas/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1674,
-      "title_length": 54,
-      "seo_score": 95
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
     }
   ],
-  "published_ids": [
-    "SEO-532",
-    "SEO-533",
-    "SEO-534"
-  ],
+  "published_ids": [],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 529,
-    "planned": 461,
+    "published": 532,
+    "planned": 458,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 471,
+    "remaining_to_target": 468,
     "unplanned_slots": 0
   },
   "stats_after": {
