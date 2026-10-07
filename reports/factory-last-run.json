@@ -1,39 +1,30 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:29:17.546Z",
-  "finished": "2026-10-07T04:29:17.710Z",
-  "base_commit": "1d309dbf8b884e733d4c9c1655087214b2f0e08a",
+  "started": "2026-10-07T04:29:55.386Z",
+  "finished": "2026-10-07T04:29:55.549Z",
+  "base_commit": "e735c7758b51ecc72a110be2cc6bffa75765cda7",
   "processed": [
     {
-      "id": "SEO-267",
-      "draft": "_factory/inbox/SEO-267.article",
-      "output": "hanoi-50cc-motorbike-rental/lightweight-riders-city-traffic/index.html",
+      "id": "SEO-269",
+      "draft": "_factory/inbox/SEO-269.article",
+      "output": "hanoi-50cc-motorbike-rental/lightweight-riders-route-suitability/index.html",
       "status": "PUBLISHED",
       "errors": [],
-      "warnings": [],
-      "word_count": 2502,
-      "title_length": 65,
-      "seo_score": 100
+      "warnings": [
+        "meta description length 188 outside recommended 120-180"
+      ],
+      "word_count": 2448,
+      "title_length": 67,
+      "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-267"
+    "SEO-269"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 264,
-    "planned": 726,
-    "writing": 9,
-    "repair": 1,
-    "blocked": 0,
-    "remaining_to_target": 736,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 265,
@@ -44,10 +35,20 @@
     "remaining_to_target": 735,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 266,
+    "planned": 724,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 734,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-268",
-    "SEO-269",
     "SEO-270",
     "SEO-271",
     "SEO-272",
@@ -55,6 +56,7 @@
     "SEO-274",
     "SEO-275",
     "SEO-276",
-    "SEO-277"
+    "SEO-277",
+    "SEO-278"
   ]
 }
