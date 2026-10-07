@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T19:34:16.474Z",
-  "finished": "2026-10-07T19:34:16.660Z",
-  "base_commit": "6aefa725f001d163a0c214768c0018be899a4583",
+  "started": "2026-10-07T19:35:29.063Z",
+  "finished": "2026-10-07T19:35:29.242Z",
+  "base_commit": "992af6ecba247aa546948af1ac363cc9f00e9d5e",
   "processed": [
     {
-      "id": "SEO-734",
-      "draft": "_factory/inbox/SEO-734.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-cat-ba-one-day-feasibility/index.html",
+      "id": "SEO-735",
+      "draft": "_factory/inbox/SEO-735.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-cat-ba-two-day-itinerary/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2253,
-      "title_length": 54,
+      "word_count": 2277,
+      "title_length": 51,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-734"
+    "SEO-735"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 731,
-    "planned": 259,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 269,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 732,
@@ -45,9 +34,19 @@
     "remaining_to_target": 268,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 733,
+    "planned": 257,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 267,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-735",
     "SEO-736",
     "SEO-737",
     "SEO-738",
@@ -56,6 +55,7 @@
     "SEO-741",
     "SEO-742",
     "SEO-743",
-    "SEO-744"
+    "SEO-744",
+    "SEO-745"
   ]
 }
