@@ -1,76 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T20:50:47.343Z",
-  "finished": "2026-10-07T20:50:47.821Z",
+  "started": "2026-10-07T20:54:51.312Z",
+  "finished": "2026-10-07T20:54:51.628Z",
   "base_commit": null,
   "processed": [
     {
-      "id": "SEO-788",
-      "draft": "_factory/inbox/SEO-788.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-bac-ninh-one-day-feasibility/index.html",
+      "id": "SEO-792",
+      "draft": "_factory/inbox/SEO-792.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-bac-ninh-fuel-and-rest-stops/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2008,
-      "title_length": 56,
+      "word_count": 2026,
+      "title_length": 59,
       "seo_score": 95
     },
     {
-      "id": "SEO-789",
-      "draft": "_factory/inbox/SEO-789.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-bac-ninh-two-day-itinerary/index.html",
+      "id": "SEO-793",
+      "draft": "_factory/inbox/SEO-793.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-bac-ninh-luggage-packing/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1939,
+      "word_count": 1921,
       "title_length": 53,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-790",
-      "draft": "_factory/inbox/SEO-790.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-bac-ninh-bike-choice/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1930,
-      "title_length": 60,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-791",
-      "draft": "_factory/inbox/SEO-791.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-bac-ninh-weather-planning/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2002,
-      "title_length": 72,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-788",
-    "SEO-789",
-    "SEO-790",
-    "SEO-791"
+    "SEO-792",
+    "SEO-793"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 785,
-    "planned": 205,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 215,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 789,
@@ -81,10 +46,19 @@
     "remaining_to_target": 211,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 791,
+    "planned": 199,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 209,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-792",
-    "SEO-793",
     "SEO-794",
     "SEO-795",
     "SEO-796",
@@ -92,6 +66,8 @@
     "SEO-798",
     "SEO-799",
     "SEO-800",
-    "SEO-801"
+    "SEO-801",
+    "SEO-802",
+    "SEO-803"
   ]
 }
