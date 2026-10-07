@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:33:19.650Z",
-  "finished": "2026-10-07T07:33:19.827Z",
-  "base_commit": "782c0ff51af40296aabe3bc11c4082d3a899df05",
+  "started": "2026-10-07T07:34:17.134Z",
+  "finished": "2026-10-07T07:34:17.329Z",
+  "base_commit": "2f87a5a1269d4fd45b059e85491862737ca5982f",
   "processed": [
     {
-      "id": "SEO-516",
-      "draft": "_factory/inbox/SEO-516.article",
-      "output": "motorbike-rental-hanoi-old-quarter/old-quarter-parking-guide/index.html",
+      "id": "SEO-518",
+      "draft": "_factory/inbox/SEO-518.article",
+      "output": "motorbike-rental-hanoi-old-quarter/old-quarter-route-connections/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2050,
-      "title_length": 58,
+      "word_count": 2109,
+      "title_length": 62,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-516"
+    "SEO-518"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 505,
-    "planned": 485,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 495,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 506,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 494,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 507,
+    "planned": 483,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 493,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -55,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-518"
+    "SEO-519"
   ]
 }
