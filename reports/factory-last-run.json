@@ -1,14 +1,52 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:46:26.943Z",
-  "finished": "2026-10-07T22:46:26.943Z",
-  "base_commit": "976c026c3fd7a510f0d3ca5c7a64419226392f78",
-  "processed": [],
-  "published_ids": [],
+  "started": "2026-10-07T22:47:47.099Z",
+  "finished": "2026-10-07T22:47:47.531Z",
+  "base_commit": null,
+  "processed": [
+    {
+      "id": "SEO-934",
+      "draft": "_factory/inbox/SEO-934.article",
+      "output": "renting-a-motorbike-in-vietnam/traffic-police-stops-scooter-riders/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1637,
+      "title_length": 64,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-943",
+      "draft": "_factory/inbox/SEO-943.article",
+      "output": "renting-a-motorbike-in-vietnam/road-signs-tourists/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1731,
+      "title_length": 51,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-944",
+      "draft": "_factory/inbox/SEO-944.article",
+      "output": "renting-a-motorbike-in-vietnam/road-signs-expats/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2140,
+      "title_length": 70,
+      "seo_score": 95
+    }
+  ],
+  "published_ids": [
+    "SEO-934",
+    "SEO-943",
+    "SEO-944"
+  ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
-  "fatal": "factory is BLOCKED",
+  "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
@@ -23,12 +61,25 @@
   "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 937,
-    "planned": 54,
-    "writing": 8,
+    "published": 940,
+    "planned": 50,
+    "writing": 10,
     "repair": 0,
-    "blocked": 1,
-    "remaining_to_target": 63,
+    "blocked": 0,
+    "remaining_to_target": 60,
     "unplanned_slots": 0
-  }
+  },
+  "queue_status": "READY",
+  "next_queue": [
+    "SEO-941",
+    "SEO-942",
+    "SEO-945",
+    "SEO-946",
+    "SEO-947",
+    "SEO-948",
+    "SEO-949",
+    "SEO-950",
+    "SEO-951",
+    "SEO-952"
+  ]
 }
