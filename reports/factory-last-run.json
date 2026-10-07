@@ -1,64 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:47:47.099Z",
-  "finished": "2026-10-07T22:47:47.531Z",
-  "base_commit": null,
+  "started": "2026-10-07T22:48:22.309Z",
+  "finished": "2026-10-07T22:48:22.744Z",
+  "base_commit": "8e9d5bbdbcf6ae2fc9c28df708a25d2807c68ef7",
   "processed": [
     {
-      "id": "SEO-934",
-      "draft": "_factory/inbox/SEO-934.article",
-      "output": "renting-a-motorbike-in-vietnam/traffic-police-stops-scooter-riders/index.html",
+      "id": "SEO-945",
+      "draft": "_factory/inbox/SEO-945.article",
+      "output": "renting-a-motorbike-in-vietnam/road-signs-50cc-riders/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1637,
-      "title_length": 64,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-943",
-      "draft": "_factory/inbox/SEO-943.article",
-      "output": "renting-a-motorbike-in-vietnam/road-signs-tourists/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1731,
+      "word_count": 2004,
       "title_length": 51,
       "seo_score": 95
     },
     {
-      "id": "SEO-944",
-      "draft": "_factory/inbox/SEO-944.article",
-      "output": "renting-a-motorbike-in-vietnam/road-signs-expats/index.html",
+      "id": "SEO-946",
+      "draft": "_factory/inbox/SEO-946.article",
+      "output": "renting-a-motorbike-in-vietnam/road-signs-scooter-riders/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2140,
-      "title_length": 70,
+      "word_count": 1998,
+      "title_length": 54,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-934",
-    "SEO-943",
-    "SEO-944"
+    "SEO-945",
+    "SEO-946"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 937,
-    "planned": 54,
-    "writing": 8,
-    "repair": 0,
-    "blocked": 1,
-    "remaining_to_target": 63,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 940,
@@ -69,17 +46,28 @@
     "remaining_to_target": 60,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 942,
+    "planned": 48,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 58,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-941",
     "SEO-942",
-    "SEO-945",
-    "SEO-946",
     "SEO-947",
     "SEO-948",
     "SEO-949",
     "SEO-950",
     "SEO-951",
-    "SEO-952"
+    "SEO-952",
+    "SEO-953",
+    "SEO-954"
   ]
 }
