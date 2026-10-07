@@ -1,54 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:11:32.960Z",
-  "finished": "2026-10-07T06:11:33.140Z",
-  "base_commit": "0d96f75d2ef067ad54ce5f80cfcd006f306a2896",
+  "started": "2026-10-07T06:12:12.967Z",
+  "finished": "2026-10-07T06:12:13.119Z",
+  "base_commit": "efdcd6432070ecb2bf5d1c1c828ab1d849a5d3e4",
   "processed": [
     {
-      "id": "SEO-441",
-      "draft": "_factory/inbox/SEO-441.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
+      "id": "SEO-443",
+      "draft": "_factory/inbox/SEO-443.article",
+      "output": "hanoi-motorbike-rental-cost/honda-wave-monthly-price/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
       "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-442",
-      "draft": "_factory/inbox/SEO-442.article",
-      "output": "hanoi-motorbike-rental-cost/honda-wave-weekly-price/index.html",
-      "status": "REPAIR",
-      "errors": [
-        "internal links 2 below minimum 3"
-      ],
-      "warnings": [],
-      "word_count": 1969,
-      "title_length": 60,
-      "seo_score": 85
+      "word_count": 1922,
+      "title_length": 61,
+      "seo_score": 95
     }
   ],
-  "published_ids": [],
-  "repair_ids": [
-    "SEO-442"
+  "published_ids": [
+    "SEO-443"
   ],
+  "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 434,
-    "planned": 556,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 566,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 434,
@@ -59,6 +33,17 @@
     "remaining_to_target": 566,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 435,
+    "planned": 555,
+    "writing": 9,
+    "repair": 1,
+    "blocked": 0,
+    "remaining_to_target": 565,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-433",
@@ -67,9 +52,9 @@
     "SEO-436",
     "SEO-440",
     "SEO-442",
-    "SEO-443",
     "SEO-444",
     "SEO-445",
-    "SEO-446"
+    "SEO-446",
+    "SEO-447"
   ]
 }
