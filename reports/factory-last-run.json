@@ -1,54 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:35:51.564Z",
-  "finished": "2026-10-07T03:35:51.670Z",
-  "base_commit": "b739d0c217d1045a15e5ee9de1c53904fadcb3ef",
+  "started": "2026-10-07T03:38:17.546Z",
+  "finished": "2026-10-07T03:38:17.697Z",
+  "base_commit": "5160ea62008a9262e9692180fcdd299896e634b6",
   "processed": [
     {
-      "id": "SEO-195",
-      "draft": "_factory/inbox/SEO-195.article",
-      "output": "hanoi-motorbike-rental/riders-with-luggage-pickup-planning/index.html",
+      "id": "SEO-173",
+      "draft": "_factory/inbox/SEO-173.article",
+      "output": "hanoi-motorbike-rental/new-riders-route-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1520,
-      "title_length": 63,
+      "word_count": 1784,
+      "title_length": 53,
       "seo_score": 100
-    },
-    {
-      "id": "SEO-196",
-      "draft": "_factory/inbox/SEO-196.article",
-      "output": "hanoi-motorbike-rental/riders-with-luggage-return-checklist/index.html",
-      "status": "REPAIR",
-      "errors": [
-        "word count 1423 outside 1500-5000"
-      ],
-      "warnings": [],
-      "word_count": 1423,
-      "title_length": 64,
-      "seo_score": 85
     }
   ],
   "published_ids": [
-    "SEO-195"
+    "SEO-173"
   ],
-  "repair_ids": [
-    "SEO-196"
-  ],
+  "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 191,
-    "planned": 798,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 1,
-    "remaining_to_target": 809,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 192,
@@ -57,6 +31,17 @@
     "repair": 1,
     "blocked": 1,
     "remaining_to_target": 808,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 193,
+    "planned": 797,
+    "writing": 9,
+    "repair": 1,
+    "blocked": 0,
+    "remaining_to_target": 807,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
