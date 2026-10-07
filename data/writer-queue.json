@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T21:54:20.528Z",
+  "generated_at": "2026-10-07T21:54:50.214Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 842,
-  "remaining_to_target": 158,
+  "current_published_content_pages": 843,
+  "remaining_to_target": 157,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-845",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/expats-paperwork-questions/",
-      "path": "hanoi-motorbike-for-sale/expats-paperwork-questions/index.html",
-      "silo": "Buying vs Renting",
-      "hub": "Buying vs Renting",
-      "content_role": "CLUSTER",
-      "primary_keyword": "buy vs rent motorbike hanoi expats paperwork questions",
-      "intent": "Informational comparison",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Expats: Ownership Paperwork Questions for Hanoi Motorbikes",
-      "content_brief": "Buying-versus-renting cluster for expats, focused on questions about registration and ownership that require current official verification. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-for-sale/",
-        "/monthly-motorbike-rental-hanoi/",
-        "/hanoi-motorbike-rental-cost/"
-      ],
-      "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
-      "draft_file": "_factory/inbox/SEO-845.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-846",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/expats-break-even-thinking/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
       "draft_file": "_factory/inbox/SEO-854.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-855",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/long-stay-tourists-ownership-costs/",
+      "path": "hanoi-motorbike-for-sale/long-stay-tourists-ownership-costs/index.html",
+      "silo": "Buying vs Renting",
+      "hub": "Buying vs Renting",
+      "content_role": "CLUSTER",
+      "primary_keyword": "buy vs rent motorbike hanoi long-stay tourists ownership costs",
+      "intent": "Informational comparison",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Long-stay Tourists: Ownership Cost Planning for Hanoi Motorbikes",
+      "content_brief": "Buying-versus-renting cluster for long-stay tourists, focused on cost categories beyond purchase price, contrasted cautiously with verified rental pricing. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-for-sale/",
+        "/monthly-motorbike-rental-hanoi/",
+        "/hanoi-motorbike-rental-cost/"
+      ],
+      "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
+      "draft_file": "_factory/inbox/SEO-855.article",
       "template": "site/templates/article.html"
     }
   ]
