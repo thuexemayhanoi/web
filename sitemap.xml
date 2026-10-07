@@ -241,4 +241,6 @@
   <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/students-passenger-use/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/students-rainy-weather/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/students-choosing-a-50cc/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/students-daily-rental-planning/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/students-vs-automatic-scooter/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>

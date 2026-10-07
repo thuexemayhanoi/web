@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T04:11:21.838Z",
+  "generated_at": "2026-10-07T04:11:39.975Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 239,
-  "remaining_to_target": 761,
+  "current_published_content_pages": 241,
+  "remaining_to_target": 759,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -108,56 +108,6 @@
       "template": "site/templates/article.html"
     },
     {
-      "id": "SEO-246",
-      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/students-daily-rental-planning/",
-      "path": "hanoi-50cc-motorbike-rental/students-daily-rental-planning/index.html",
-      "silo": "50cc Motorbike Rental",
-      "hub": "50cc Motorbike Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "50cc motorbike hanoi students daily rental planning",
-      "intent": "Commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Students: 50cc Daily Rental Planning for 50cc Rental in Hanoi",
-      "content_brief": "50cc cluster for students, focused on using the verified 200,000 VND daily price in a practical one-day rental plan without inventing weekly or monthly rates. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
-      "internal_link_targets": [
-        "/hanoi-50cc-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-246.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-247",
-      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/students-vs-automatic-scooter/",
-      "path": "hanoi-50cc-motorbike-rental/students-vs-automatic-scooter/index.html",
-      "silo": "50cc Motorbike Rental",
-      "hub": "50cc Motorbike Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "50cc motorbike hanoi students vs automatic scooter",
-      "intent": "Commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Students: 50cc vs Automatic Scooter for 50cc Rental in Hanoi",
-      "content_brief": "50cc cluster for students, focused on decision factors between a 50cc bike and larger automatic scooter for this rider profile. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
-      "internal_link_targets": [
-        "/hanoi-50cc-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-247.article",
-      "template": "site/templates/article.html"
-    },
-    {
       "id": "SEO-248",
       "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/expats-choosing-a-50cc/",
       "path": "hanoi-50cc-motorbike-rental/expats-choosing-a-50cc/index.html",
@@ -255,6 +205,56 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-251.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-252",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/expats-bridges-and-inclines/",
+      "path": "hanoi-50cc-motorbike-rental/expats-bridges-and-inclines/index.html",
+      "silo": "50cc Motorbike Rental",
+      "hub": "50cc Motorbike Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "50cc motorbike hanoi expats bridges and inclines",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Expats: 50cc on Bridges and Inclines for 50cc Rental in Hanoi",
+      "content_brief": "50cc cluster for expats, focused on planning for bridges, inclines, load and speed expectations without inventing performance specifications. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
+      "internal_link_targets": [
+        "/hanoi-50cc-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-252.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-253",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/expats-passenger-use/",
+      "path": "hanoi-50cc-motorbike-rental/expats-passenger-use/index.html",
+      "silo": "50cc Motorbike Rental",
+      "hub": "50cc Motorbike Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "50cc motorbike hanoi expats passenger use",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Expats: 50cc With a Passenger for 50cc Rental in Hanoi",
+      "content_brief": "50cc cluster for expats, focused on two-up planning, load awareness and when a larger bike may be the more practical question to ask. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
+      "internal_link_targets": [
+        "/hanoi-50cc-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-253.article",
       "template": "site/templates/article.html"
     }
   ]
