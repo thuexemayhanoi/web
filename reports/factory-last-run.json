@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:00:46.876Z",
-  "finished": "2026-10-07T07:00:47.206Z",
-  "base_commit": "d3abc1d2109159d02f0faf70b84464c4dd1fc37f",
+  "started": "2026-10-07T07:01:52.966Z",
+  "finished": "2026-10-07T07:01:53.167Z",
+  "base_commit": "6373e822825307c132d7eb1e800177c60fbda267",
   "processed": [
     {
-      "id": "SEO-494",
-      "draft": "_factory/inbox/SEO-494.article",
-      "output": "hanoi-motorbike-rental-cost/yamaha-sirius-vs-50cc-scooter-rental-cost/index.html",
+      "id": "SEO-495",
+      "draft": "_factory/inbox/SEO-495.article",
+      "output": "hanoi-motorbike-rental-cost/yamaha-sirius-vs-automatic-scooter-rental-cost/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1782,
-      "title_length": 59,
+      "word_count": 1797,
+      "title_length": 64,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-494"
+    "SEO-495"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 482,
-    "planned": 508,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 518,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 483,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 517,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 484,
+    "planned": 506,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 516,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -55,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-495"
+    "SEO-496"
   ]
 }
