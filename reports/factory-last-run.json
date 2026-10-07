@@ -1,16 +1,69 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:22:20.263Z",
-  "finished": "2026-10-07T22:22:20.344Z",
-  "base_commit": null,
-  "processed": [],
-  "published_ids": [],
+  "started": "2026-10-07T22:23:15.463Z",
+  "finished": "2026-10-07T22:23:16.124Z",
+  "base_commit": "7731b94ff68355bddeaf65809417c7ea6c6703bc",
+  "processed": [
+    {
+      "id": "SEO-889",
+      "draft": "_factory/inbox/SEO-889.article",
+      "output": "hanoi-motorbike-for-sale/frequent-commuters-rent-vs-buy-decision/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [
+        "meta description length 184 outside recommended 120-180"
+      ],
+      "word_count": 1663,
+      "title_length": 61,
+      "seo_score": 90
+    },
+    {
+      "id": "SEO-890",
+      "draft": "_factory/inbox/SEO-890.article",
+      "output": "hanoi-motorbike-for-sale/frequent-commuters-used-bike-inspection/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1618,
+      "title_length": 66,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-891",
+      "draft": "_factory/inbox/SEO-891.article",
+      "output": "hanoi-motorbike-for-sale/frequent-commuters-ownership-costs/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [
+        "meta description length 189 outside recommended 120-180"
+      ],
+      "word_count": 1641,
+      "title_length": 64,
+      "seo_score": 90
+    },
+    {
+      "id": "SEO-892",
+      "draft": "_factory/inbox/SEO-892.article",
+      "output": "hanoi-motorbike-for-sale/frequent-commuters-resale-planning/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [
+        "meta description length 192 outside recommended 120-180"
+      ],
+      "word_count": 1645,
+      "title_length": 56,
+      "seo_score": 90
+    }
+  ],
+  "published_ids": [
+    "SEO-889",
+    "SEO-890",
+    "SEO-891",
+    "SEO-892"
+  ],
   "repair_ids": [],
   "blocked_ids": [],
-  "pruned_stale_drafts": [
-    "_factory/inbox/SEO-885.article",
-    "_factory/inbox/SEO-888.article"
-  ],
+  "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
@@ -26,25 +79,25 @@
   "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 886,
-    "planned": 104,
+    "published": 890,
+    "planned": 100,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 114,
+    "remaining_to_target": 110,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-889",
-    "SEO-890",
-    "SEO-891",
-    "SEO-892",
     "SEO-893",
     "SEO-894",
     "SEO-895",
     "SEO-896",
     "SEO-897",
-    "SEO-898"
+    "SEO-898",
+    "SEO-899",
+    "SEO-900",
+    "SEO-901",
+    "SEO-902"
   ]
 }
