@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T14:53:41.596Z",
+  "generated_at": "2026-10-07T15:01:26.947Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 698,
-  "remaining_to_target": 302,
+  "current_published_content_pages": 699,
+  "remaining_to_target": 301,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -30,31 +30,6 @@
       ],
       "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
       "draft_file": "_factory/inbox/SEO-701.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-702",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ninh-binh-fuel-and-rest-stops/",
-      "path": "hanoi-motorbike-trips/hanoi-to-ninh-binh-fuel-and-rest-stops/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to ninh binh motorbike fuel and rest stops",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Ninh Binh by Motorbike: Fuel and Rest-Stop Planning",
-      "content_brief": "Destination cluster for a Hanoi-to-Ninh Binh motorbike trip, focused on how to plan fuel, food and rest breaks without inventing station locations or opening hours. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-702.article",
       "template": "site/templates/article.html"
     },
     {
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
       "draft_file": "_factory/inbox/SEO-710.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-711",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-tam-dao-fuel-and-rest-stops/",
+      "path": "hanoi-motorbike-trips/hanoi-to-tam-dao-fuel-and-rest-stops/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to tam dao motorbike fuel and rest stops",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Tam Dao by Motorbike: Fuel and Rest-Stop Planning",
+      "content_brief": "Destination cluster for a Hanoi-to-Tam Dao motorbike trip, focused on how to plan fuel, food and rest breaks without inventing station locations or opening hours. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-711.article",
       "template": "site/templates/article.html"
     }
   ]
