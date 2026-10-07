@@ -1,37 +1,36 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:43:59.303Z",
-  "finished": "2026-10-07T05:43:59.381Z",
-  "base_commit": "80d847773c982ed33a06e63c1ff9fbdd9ee40df8",
+  "started": "2026-10-07T05:46:24.827Z",
+  "finished": "2026-10-07T05:46:24.980Z",
+  "base_commit": "c6e0edff68a25d66d2cbc14657ab368a64782105",
   "processed": [
     {
-      "id": "SEO-386",
-      "draft": "_factory/inbox/SEO-386.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
+      "id": "SEO-390",
+      "draft": "_factory/inbox/SEO-390.article",
+      "output": "hanoi-scooter-rental/honda-air-blade-for-city-riding-checks-and-mistakes/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
       "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
+      "word_count": 1832,
+      "title_length": 69,
+      "seo_score": 95
     },
     {
-      "id": "SEO-387",
-      "draft": "_factory/inbox/SEO-387.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
+      "id": "SEO-391",
+      "draft": "_factory/inbox/SEO-391.article",
+      "output": "hanoi-scooter-rental/honda-click-for-city-riding-selection-guide/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
       "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
+      "word_count": 1832,
+      "title_length": 69,
+      "seo_score": 95
     }
   ],
-  "published_ids": [],
+  "published_ids": [
+    "SEO-390",
+    "SEO-391"
+  ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
@@ -49,25 +48,25 @@
   "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 389,
-    "planned": 601,
+    "published": 391,
+    "planned": 599,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 611,
+    "remaining_to_target": 609,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
   "next_queue": [
     "SEO-328",
-    "SEO-390",
-    "SEO-391",
     "SEO-395",
     "SEO-396",
     "SEO-397",
     "SEO-398",
     "SEO-399",
     "SEO-400",
-    "SEO-401"
+    "SEO-401",
+    "SEO-402",
+    "SEO-403"
   ]
 }
