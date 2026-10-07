@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:06:39.644Z",
-  "finished": "2026-10-07T07:06:39.779Z",
-  "base_commit": "ff81c6d5af39644f70ebb20f806165ed5c281746",
+  "started": "2026-10-07T07:09:52.907Z",
+  "finished": "2026-10-07T07:09:53.109Z",
+  "base_commit": "c9b583e75c7e24aa937881a0155947aa4b4eac7c",
   "processed": [
     {
-      "id": "SEO-499",
-      "draft": "_factory/inbox/SEO-499.article",
-      "output": "hanoi-motorbike-rental-cost/yamaha-mio-vs-electric-motorbike-rental-cost/index.html",
+      "id": "SEO-500",
+      "draft": "_factory/inbox/SEO-500.article",
+      "output": "hanoi-motorbike-rental-cost/yamaha-mio-vs-50cc-scooter-rental-cost/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1781,
-      "title_length": 62,
+      "word_count": 1676,
+      "title_length": 56,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-499"
+    "SEO-500"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 487,
-    "planned": 503,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 513,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 488,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 512,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 489,
+    "planned": 501,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 511,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -55,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-500"
+    "SEO-501"
   ]
 }
