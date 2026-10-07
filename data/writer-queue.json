@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T07:29:43.199Z",
+  "generated_at": "2026-10-07T07:31:48.298Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 504,
-  "remaining_to_target": 496,
+  "current_published_content_pages": 505,
+  "remaining_to_target": 495,
   "unplanned_slots": 0,
   "queue": [
     {
