@@ -966,4 +966,6 @@
   <url><loc>https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/border-area-riding-scooter-riders/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/border-area-riding-long-distance-riders/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/border-area-riding-city-riders/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/rental-contracts-tourists/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/rental-contracts-expats/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
