@@ -1,40 +1,43 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:34:18.275Z",
-  "finished": "2026-10-07T22:34:18.491Z",
-  "base_commit": "9796a3859eceea5b5b6e87d577f3f278e9ebd686",
+  "started": "2026-10-07T22:34:50.376Z",
+  "finished": "2026-10-07T22:34:50.710Z",
+  "base_commit": null,
   "processed": [
     {
-      "id": "SEO-910",
-      "draft": "_factory/inbox/SEO-910.article",
-      "output": "hanoi-motorbike-for-sale/budget-travelers-resale-planning/index.html",
+      "id": "SEO-911",
+      "draft": "_factory/inbox/SEO-911.article",
+      "output": "hanoi-motorbike-for-sale/budget-travelers-paperwork-questions/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1964,
-      "title_length": 54,
+      "word_count": 2015,
+      "title_length": 68,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-912",
+      "draft": "_factory/inbox/SEO-912.article",
+      "output": "hanoi-motorbike-for-sale/budget-travelers-break-even-thinking/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1989,
+      "title_length": 58,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-910"
+    "SEO-911",
+    "SEO-912"
   ],
   "repair_ids": [],
   "blocked_ids": [],
-  "pruned_stale_drafts": [],
+  "pruned_stale_drafts": [
+    "_factory/inbox/SEO-910.article"
+  ],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 907,
-    "planned": 83,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 93,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 908,
@@ -45,10 +48,19 @@
     "remaining_to_target": 92,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 910,
+    "planned": 80,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 90,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-911",
-    "SEO-912",
     "SEO-913",
     "SEO-914",
     "SEO-915",
@@ -56,6 +68,8 @@
     "SEO-917",
     "SEO-918",
     "SEO-919",
-    "SEO-920"
+    "SEO-920",
+    "SEO-921",
+    "SEO-922"
   ]
 }
