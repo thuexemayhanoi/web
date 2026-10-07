@@ -1,63 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:00:03.001Z",
-  "finished": "2026-10-07T05:00:03.146Z",
-  "base_commit": "328b4f3fd3b34bc08b3de32eb36a1d9ddf7ec3b0",
+  "started": "2026-10-07T05:00:26.140Z",
+  "finished": "2026-10-07T05:00:26.325Z",
+  "base_commit": "9b6cf52e44efda8aa0f47cfd2ccb70d35ef4e881",
   "processed": [
     {
-      "id": "SEO-285",
-      "draft": "_factory/inbox/SEO-285.article",
-      "output": "hanoi-50cc-motorbike-rental/solo-travelers-city-traffic/index.html",
+      "id": "SEO-314",
+      "draft": "_factory/inbox/SEO-314.article",
+      "output": "hanoi-50cc-motorbike-rental/budget-travelers-route-suitability/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2136,
-      "title_length": 61,
+      "word_count": 1999,
+      "title_length": 65,
       "seo_score": 95
-    },
-    {
-      "id": "SEO-286",
-      "draft": "_factory/inbox/SEO-286.article",
-      "output": "hanoi-50cc-motorbike-rental/solo-travelers-parking/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2007,
-      "title_length": 53,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-287",
-      "draft": "_factory/inbox/SEO-287.article",
-      "output": "hanoi-50cc-motorbike-rental/solo-travelers-route-suitability/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2039,
-      "title_length": 63,
-      "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-285",
-    "SEO-286",
-    "SEO-287"
+    "SEO-314"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 309,
-    "planned": 681,
-    "writing": 9,
-    "repair": 1,
-    "blocked": 0,
-    "remaining_to_target": 691,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 312,
@@ -68,9 +33,19 @@
     "remaining_to_target": 688,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 313,
+    "planned": 677,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 687,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-314",
     "SEO-316",
     "SEO-317",
     "SEO-318",
@@ -79,6 +54,7 @@
     "SEO-321",
     "SEO-322",
     "SEO-323",
-    "SEO-324"
+    "SEO-324",
+    "SEO-325"
   ]
 }
