@@ -1,14 +1,136 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:10:39.004Z",
-  "finished": "2026-10-07T22:10:39.004Z",
-  "base_commit": "79a16cd6d97c21cd6ca1816b3243fc9c90e2f244",
-  "processed": [],
-  "published_ids": [],
+  "started": "2026-10-07T22:13:48.846Z",
+  "finished": "2026-10-07T22:13:49.796Z",
+  "base_commit": "9df95526ad65e3827a245b7913817569ddad8873",
+  "processed": [
+    {
+      "id": "SEO-863",
+      "draft": "_factory/inbox/SEO-863.article",
+      "output": "hanoi-motorbike-for-sale/digital-nomads-paperwork-questions/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [
+        "meta description length 189 outside recommended 120-180"
+      ],
+      "word_count": 1815,
+      "title_length": 66,
+      "seo_score": 90
+    },
+    {
+      "id": "SEO-865",
+      "draft": "_factory/inbox/SEO-865.article",
+      "output": "hanoi-motorbike-for-sale/teachers-rent-vs-buy-decision/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2041,
+      "title_length": 51,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-866",
+      "draft": "_factory/inbox/SEO-866.article",
+      "output": "hanoi-motorbike-for-sale/teachers-used-bike-inspection/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2071,
+      "title_length": 56,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-867",
+      "draft": "_factory/inbox/SEO-867.article",
+      "output": "hanoi-motorbike-for-sale/teachers-ownership-costs/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [
+        "meta description length 187 outside recommended 120-180"
+      ],
+      "word_count": 1650,
+      "title_length": 54,
+      "seo_score": 90
+    },
+    {
+      "id": "SEO-868",
+      "draft": "_factory/inbox/SEO-868.article",
+      "output": "hanoi-motorbike-for-sale/teachers-resale-planning/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [
+        "meta description length 182 outside recommended 120-180"
+      ],
+      "word_count": 1762,
+      "title_length": 70,
+      "seo_score": 90
+    },
+    {
+      "id": "SEO-869",
+      "draft": "_factory/inbox/SEO-869.article",
+      "output": "hanoi-motorbike-for-sale/teachers-paperwork-questions/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [
+        "meta description length 190 outside recommended 120-180"
+      ],
+      "word_count": 1662,
+      "title_length": 60,
+      "seo_score": 90
+    },
+    {
+      "id": "SEO-870",
+      "draft": "_factory/inbox/SEO-870.article",
+      "output": "hanoi-motorbike-for-sale/teachers-break-even-thinking/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [
+        "meta description length 209 outside recommended 120-180"
+      ],
+      "word_count": 1754,
+      "title_length": 50,
+      "seo_score": 90
+    },
+    {
+      "id": "SEO-871",
+      "draft": "_factory/inbox/SEO-871.article",
+      "output": "hanoi-motorbike-for-sale/project-workers-rent-vs-buy-decision/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [
+        "meta description length 193 outside recommended 120-180"
+      ],
+      "word_count": 1707,
+      "title_length": 58,
+      "seo_score": 90
+    },
+    {
+      "id": "SEO-872",
+      "draft": "_factory/inbox/SEO-872.article",
+      "output": "hanoi-motorbike-for-sale/project-workers-used-bike-inspection/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1873,
+      "title_length": 63,
+      "seo_score": 95
+    }
+  ],
+  "published_ids": [
+    "SEO-863",
+    "SEO-865",
+    "SEO-866",
+    "SEO-867",
+    "SEO-868",
+    "SEO-869",
+    "SEO-870",
+    "SEO-871",
+    "SEO-872"
+  ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
-  "fatal": "factory is BLOCKED",
+  "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
@@ -23,12 +145,25 @@
   "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 861,
-    "planned": 130,
-    "writing": 5,
+    "published": 870,
+    "planned": 120,
+    "writing": 10,
     "repair": 0,
-    "blocked": 4,
-    "remaining_to_target": 139,
+    "blocked": 0,
+    "remaining_to_target": 130,
     "unplanned_slots": 0
-  }
+  },
+  "queue_status": "READY",
+  "next_queue": [
+    "SEO-873",
+    "SEO-874",
+    "SEO-875",
+    "SEO-876",
+    "SEO-877",
+    "SEO-878",
+    "SEO-879",
+    "SEO-880",
+    "SEO-881",
+    "SEO-882"
+  ]
 }
