@@ -1,19 +1,93 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:05:45.368Z",
-  "finished": "2026-10-07T22:05:45.447Z",
-  "base_commit": "cc52ce79ee115f4794de11f9c8357f5887dd62c0",
-  "processed": [],
-  "published_ids": [],
-  "repair_ids": [],
-  "blocked_ids": [],
-  "pruned_stale_drafts": [
-    "_factory/inbox/SEO-824.article",
-    "_factory/inbox/SEO-825.article",
-    "_factory/inbox/SEO-826.article",
-    "_factory/inbox/SEO-827.article",
-    "_factory/inbox/SEO-828.article"
+  "started": "2026-10-07T22:08:43.092Z",
+  "finished": "2026-10-07T22:08:43.573Z",
+  "base_commit": null,
+  "processed": [
+    {
+      "id": "SEO-863",
+      "draft": "_factory/inbox/SEO-863.article",
+      "output": "hanoi-motorbike-for-sale/digital-nomads-paperwork-questions/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "word count 1457 outside 1500-5000"
+      ],
+      "warnings": [
+        "meta description length 189 outside recommended 120-180"
+      ],
+      "word_count": 1457,
+      "title_length": 66,
+      "seo_score": 75
+    },
+    {
+      "id": "SEO-864",
+      "draft": "_factory/inbox/SEO-864.article",
+      "output": "hanoi-motorbike-for-sale/digital-nomads-break-even-thinking/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "word count 1324 outside 1500-5000"
+      ],
+      "warnings": [
+        "meta description length 186 outside recommended 120-180"
+      ],
+      "word_count": 1324,
+      "title_length": 56,
+      "seo_score": 75
+    },
+    {
+      "id": "SEO-865",
+      "draft": "_factory/inbox/SEO-865.article",
+      "output": "hanoi-motorbike-for-sale/teachers-rent-vs-buy-decision/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "word count 1332 outside 1500-5000"
+      ],
+      "warnings": [],
+      "word_count": 1332,
+      "title_length": 51,
+      "seo_score": 80
+    },
+    {
+      "id": "SEO-866",
+      "draft": "_factory/inbox/SEO-866.article",
+      "output": "hanoi-motorbike-for-sale/teachers-used-bike-inspection/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "word count 1386 outside 1500-5000"
+      ],
+      "warnings": [
+        "meta description length 191 outside recommended 120-180"
+      ],
+      "word_count": 1386,
+      "title_length": 56,
+      "seo_score": 75
+    },
+    {
+      "id": "SEO-867",
+      "draft": "_factory/inbox/SEO-867.article",
+      "output": "hanoi-motorbike-for-sale/teachers-ownership-costs/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "word count 1323 outside 1500-5000"
+      ],
+      "warnings": [
+        "meta description length 187 outside recommended 120-180"
+      ],
+      "word_count": 1323,
+      "title_length": 54,
+      "seo_score": 75
+    }
   ],
+  "published_ids": [],
+  "repair_ids": [
+    "SEO-863",
+    "SEO-864",
+    "SEO-865",
+    "SEO-866",
+    "SEO-867"
+  ],
+  "blocked_ids": [],
+  "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
@@ -31,8 +105,8 @@
     "matrix_content_rows": 1000,
     "published": 860,
     "planned": 130,
-    "writing": 10,
-    "repair": 0,
+    "writing": 5,
+    "repair": 5,
     "blocked": 0,
     "remaining_to_target": 140,
     "unplanned_slots": 0
