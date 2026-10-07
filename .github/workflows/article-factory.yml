@@ -44,7 +44,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Resolve action
         id: control
@@ -103,7 +103,7 @@ jobs:
         if: steps.control.outputs.action != 'status' && (steps.control.outputs.action != 'process' || steps.pending.outputs.count != '0')
         shell: bash
         run: |
-          set -e
+          set -euo pipefail
           git config user.name "rentbike-factory-bot"
           git config user.email "nguyentuantu2482@users.noreply.github.com"
           git add -A
@@ -113,11 +113,50 @@ jobs:
             exit 0
           fi
           git commit -m "factory: ${{ steps.control.outputs.action }} article queue"
-          git fetch origin main
-          git rebase origin/main
-          git push origin HEAD:main
-          echo "changed=true" >> "$GITHUB_OUTPUT"
-          echo "head=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+          # Never rebase generated state files. If main advanced while this runner
+          # was building, discard the stale generated commit and rebuild from the
+          # newest main. This prevents JSON merge conflicts and duplicate publishes.
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            remote="$(git rev-parse origin/main)"
+            parent="$(git rev-parse HEAD^)"
+            if [ "$remote" = "$parent" ]; then
+              if git push origin HEAD:main; then
+                echo "changed=true" >> "$GITHUB_OUTPUT"
+                echo "head=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+                exit 0
+              fi
+            fi
+
+            echo "main advanced during publish; rebuilding on latest main (attempt $attempt/4)"
+            git reset --hard origin/main
+            pending="$(node tools/factory.mjs pending-count | tail -n 1)"
+            if [ "$pending" = "0" ]; then
+              echo "another runner already consumed the pending inbox; nothing left to publish"
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+              echo "head=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+
+            node tools/factory.mjs process
+            node tools/build-site.mjs
+            node tools/factory.mjs verify-last
+            published="$(node tools/factory.mjs published-count | tail -n 1)"
+            if [ "$published" != "0" ]; then
+              node tools/build-search-index.mjs
+            fi
+            git add -A
+            if git diff --cached --quiet; then
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+              echo "head=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            git commit -m "factory: ${{ steps.control.outputs.action }} article queue"
+          done
+
+          echo "factory could not publish after 4 rebuild attempts" >&2
+          exit 1
 
       - name: Summary
         if: always()
