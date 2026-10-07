@@ -1,63 +1,52 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:59:10.494Z",
-  "finished": "2026-10-07T07:59:10.712Z",
-  "base_commit": "949dabfa8e84e6fec413de82d9f043347e5145e9",
+  "started": "2026-10-07T08:00:43.690Z",
+  "finished": "2026-10-07T08:00:44.038Z",
+  "base_commit": "d15015e61be1fa56a7c6fc44bdcf4646786625ff",
   "processed": [
     {
-      "id": "SEO-529",
-      "draft": "_factory/inbox/SEO-529.article",
-      "output": "motorbike-rental-hanoi-old-quarter/west-lake-day-ride-ideas/index.html",
+      "id": "SEO-532",
+      "draft": "_factory/inbox/SEO-532.article",
+      "output": "motorbike-rental-hanoi-old-quarter/tay-ho-traffic-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1757,
+      "word_count": 1707,
+      "title_length": 53,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-533",
+      "draft": "_factory/inbox/SEO-533.article",
+      "output": "motorbike-rental-hanoi-old-quarter/tay-ho-route-connections/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1711,
       "title_length": 57,
       "seo_score": 95
     },
     {
-      "id": "SEO-530",
-      "draft": "_factory/inbox/SEO-530.article",
-      "output": "motorbike-rental-hanoi-old-quarter/tay-ho-rental-planning/index.html",
+      "id": "SEO-534",
+      "draft": "_factory/inbox/SEO-534.article",
+      "output": "motorbike-rental-hanoi-old-quarter/tay-ho-day-ride-ideas/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1727,
-      "title_length": 55,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-531",
-      "draft": "_factory/inbox/SEO-531.article",
-      "output": "motorbike-rental-hanoi-old-quarter/tay-ho-parking-guide/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1678,
-      "title_length": 53,
+      "word_count": 1674,
+      "title_length": 54,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-529",
-    "SEO-530",
-    "SEO-531"
+    "SEO-532",
+    "SEO-533",
+    "SEO-534"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 526,
-    "planned": 464,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 474,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 529,
@@ -68,17 +57,28 @@
     "remaining_to_target": 471,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 532,
+    "planned": 458,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 468,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-532",
-    "SEO-533",
-    "SEO-534",
     "SEO-535",
     "SEO-536",
     "SEO-537",
     "SEO-538",
     "SEO-539",
     "SEO-540",
-    "SEO-541"
+    "SEO-541",
+    "SEO-542",
+    "SEO-543",
+    "SEO-544"
   ]
 }
