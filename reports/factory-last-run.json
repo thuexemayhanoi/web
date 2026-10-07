@@ -1,36 +1,36 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:36:32.050Z",
-  "finished": "2026-10-07T06:36:32.331Z",
-  "base_commit": "f3b34b90e2975ca456c303afb26ac8ccd418bf47",
+  "started": "2026-10-07T06:36:56.124Z",
+  "finished": "2026-10-07T06:36:56.207Z",
+  "base_commit": "8ddb6dfe5a935847f185d5e8a220cc2dfcce82ef",
   "processed": [
     {
       "id": "SEO-477",
       "draft": "_factory/inbox/SEO-477.article",
-      "output": "hanoi-motorbike-rental-cost/semi-automatic-motorbike-daily-price/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
       "warnings": [],
-      "word_count": 1879,
-      "title_length": 73,
-      "seo_score": 95
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
     }
   ],
-  "published_ids": [
-    "SEO-477"
-  ],
+  "published_ids": [],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 465,
-    "planned": 525,
+    "published": 466,
+    "planned": 524,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 535,
+    "remaining_to_target": 534,
     "unplanned_slots": 0
   },
   "stats_after": {
