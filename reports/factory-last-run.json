@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T18:00:52.358Z",
-  "finished": "2026-10-07T18:00:52.613Z",
-  "base_commit": "bd23eea02d5e531471780915a5f41f92916b31a3",
+  "started": "2026-10-07T18:02:40.177Z",
+  "finished": "2026-10-07T18:02:40.435Z",
+  "base_commit": "9017ba503aebcae432d0b456fc6d03b2c66063c7",
   "processed": [
     {
-      "id": "SEO-721",
-      "draft": "_factory/inbox/SEO-721.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-mai-chau-luggage-packing/index.html",
+      "id": "SEO-722",
+      "draft": "_factory/inbox/SEO-722.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-mai-chau-safety-checklist/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2017,
-      "title_length": 53,
+      "word_count": 2098,
+      "title_length": 72,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-721"
+    "SEO-722"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 718,
-    "planned": 272,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 282,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 719,
@@ -44,9 +33,19 @@
     "remaining_to_target": 281,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 720,
+    "planned": 270,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 280,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-722",
     "SEO-723",
     "SEO-724",
     "SEO-725",
@@ -55,6 +54,7 @@
     "SEO-728",
     "SEO-729",
     "SEO-730",
-    "SEO-731"
+    "SEO-731",
+    "SEO-732"
   ]
 }
