@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T21:44:29.301Z",
+  "generated_at": "2026-10-07T21:49:09.318Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 833,
-  "remaining_to_target": 167,
+  "current_published_content_pages": 834,
+  "remaining_to_target": 166,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-836",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-yen-tu-weather-planning/",
-      "path": "hanoi-motorbike-trips/hanoi-to-yen-tu-weather-planning/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to yen tu motorbike weather planning",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Yen Tu by Motorbike: Weather Planning | Hanoi Motorbike Guide",
-      "content_brief": "Destination cluster for a Hanoi-to-Yen Tu motorbike trip, focused on seasonal and same-day weather checks riders should make without pretending to know live conditions. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-836.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-837",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-yen-tu-fuel-and-rest-stops/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
       "draft_file": "_factory/inbox/SEO-845.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-846",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/expats-break-even-thinking/",
+      "path": "hanoi-motorbike-for-sale/expats-break-even-thinking/index.html",
+      "silo": "Buying vs Renting",
+      "hub": "Buying vs Renting",
+      "content_role": "CLUSTER",
+      "primary_keyword": "buy vs rent motorbike hanoi expats break even thinking",
+      "intent": "Informational comparison",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Expats: Break-Even Thinking for Hanoi Motorbikes | Hanoi Motorbike Guide",
+      "content_brief": "Buying-versus-renting cluster for expats, focused on how to compare duration and total hassle without pretending there is one universal break-even point. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-for-sale/",
+        "/monthly-motorbike-rental-hanoi/",
+        "/hanoi-motorbike-rental-cost/"
+      ],
+      "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
+      "draft_file": "_factory/inbox/SEO-846.article",
       "template": "site/templates/article.html"
     }
   ]
