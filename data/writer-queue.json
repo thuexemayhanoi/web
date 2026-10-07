@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T19:49:02.682Z",
+  "generated_at": "2026-10-07T19:50:58.013Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 741,
-  "remaining_to_target": 259,
+  "current_published_content_pages": 742,
+  "remaining_to_target": 258,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-744",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-sapa-two-day-itinerary/",
-      "path": "hanoi-motorbike-trips/hanoi-to-sapa-two-day-itinerary/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to sapa motorbike two day itinerary",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Sapa by Motorbike: Two-Day Trip Planning | Hanoi Motorbike Guide",
-      "content_brief": "Destination cluster for a Hanoi-to-Sapa motorbike trip, focused on a flexible two-day structure with rest and weather contingencies rather than fixed timing promises. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-744.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-745",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-sapa-bike-choice/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
       "draft_file": "_factory/inbox/SEO-753.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-754",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ha-giang-bike-choice/",
+      "path": "hanoi-motorbike-trips/hanoi-to-ha-giang-bike-choice/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to ha giang motorbike bike choice",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Ha Giang by Motorbike: Choosing a Bike for the Trip",
+      "content_brief": "Destination cluster for a Hanoi-to-Ha Giang motorbike trip, focused on what bike characteristics matter for this destination and which verified rental categories to discuss. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-754.article",
       "template": "site/templates/article.html"
     }
   ]
