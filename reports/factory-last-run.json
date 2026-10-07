@@ -1,39 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:32:29.578Z",
-  "finished": "2026-10-07T03:32:29.736Z",
-  "base_commit": "7f20b7027fe161fb293bfd4e4d4759f19772501b",
+  "started": "2026-10-07T03:34:08.260Z",
+  "finished": "2026-10-07T03:34:08.426Z",
+  "base_commit": "27aea9bac11443712971974e8035d8ccc368c442",
   "processed": [
     {
-      "id": "SEO-192",
-      "draft": "_factory/inbox/SEO-192.article",
-      "output": "hanoi-motorbike-rental/riders-with-luggage-bike-choice/index.html",
+      "id": "SEO-193",
+      "draft": "_factory/inbox/SEO-193.article",
+      "output": "hanoi-motorbike-rental/riders-with-luggage-pre-ride-inspection/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1657,
-      "title_length": 71,
+      "word_count": 1623,
+      "title_length": 67,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-194",
+      "draft": "_factory/inbox/SEO-194.article",
+      "output": "hanoi-motorbike-rental/riders-with-luggage-rental-paperwork-questions/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1604,
+      "title_length": 74,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-192"
+    "SEO-193",
+    "SEO-194"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 188,
-    "planned": 801,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 1,
-    "remaining_to_target": 812,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 189,
@@ -44,10 +45,19 @@
     "remaining_to_target": 811,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 191,
+    "planned": 798,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 1,
+    "remaining_to_target": 809,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-193",
-    "SEO-194",
     "SEO-195",
     "SEO-196",
     "SEO-197",
@@ -55,6 +65,8 @@
     "SEO-199",
     "SEO-200",
     "SEO-201",
-    "SEO-202"
+    "SEO-202",
+    "SEO-203",
+    "SEO-204"
   ]
 }
