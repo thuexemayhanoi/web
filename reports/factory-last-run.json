@@ -1,37 +1,24 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:33:49.005Z",
-  "finished": "2026-10-07T06:33:49.092Z",
-  "base_commit": "02f94e6bba734b5e6823c62e7ed111b42ce35239",
+  "started": "2026-10-07T06:34:46.667Z",
+  "finished": "2026-10-07T06:34:46.853Z",
+  "base_commit": "8cba03252be7c2be031801e6676999152d99b907",
   "processed": [
     {
-      "id": "SEO-472",
-      "draft": "_factory/inbox/SEO-472.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
+      "id": "SEO-475",
+      "draft": "_factory/inbox/SEO-475.article",
+      "output": "hanoi-motorbike-rental-cost/automatic-scooter-monthly-price/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
       "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-473",
-      "draft": "_factory/inbox/SEO-473.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
+      "word_count": 1882,
+      "title_length": 68,
+      "seo_score": 95
     }
   ],
-  "published_ids": [],
+  "published_ids": [
+    "SEO-475"
+  ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
@@ -49,12 +36,12 @@
   "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 463,
-    "planned": 527,
+    "published": 464,
+    "planned": 526,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 537,
+    "remaining_to_target": 536,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -68,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-475"
+    "SEO-476"
   ]
 }
