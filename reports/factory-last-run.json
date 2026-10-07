@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:37:50.261Z",
-  "finished": "2026-10-07T05:37:50.426Z",
-  "base_commit": "aedfc347af72f220c818cea5197925c1a3d3e9d9",
+  "started": "2026-10-07T05:38:36.287Z",
+  "finished": "2026-10-07T05:38:36.455Z",
+  "base_commit": "0543ff3bb48d4128a76a85a8fff99d161913203b",
   "processed": [
     {
-      "id": "SEO-382",
-      "draft": "_factory/inbox/SEO-382.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-for-old-quarter-riding-checks-and-mistakes/index.html",
+      "id": "SEO-381",
+      "draft": "_factory/inbox/SEO-381.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-for-old-quarter-riding-selection-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1875,
-      "title_length": 70,
+      "word_count": 2047,
+      "title_length": 67,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-382"
+    "SEO-381"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 377,
-    "planned": 613,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 623,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 378,
@@ -44,10 +33,20 @@
     "remaining_to_target": 622,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 379,
+    "planned": 611,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 621,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-328",
-    "SEO-381",
     "SEO-383",
     "SEO-384",
     "SEO-385",
@@ -55,6 +54,7 @@
     "SEO-387",
     "SEO-388",
     "SEO-389",
-    "SEO-390"
+    "SEO-390",
+    "SEO-391"
   ]
 }
