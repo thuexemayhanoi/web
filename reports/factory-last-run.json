@@ -1,36 +1,38 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:16:16.718Z",
-  "finished": "2026-10-07T04:16:16.869Z",
-  "base_commit": "34d2740f84e9744f73b567b8cf04a115e60e06a7",
+  "started": "2026-10-07T04:16:48.860Z",
+  "finished": "2026-10-07T04:16:49.014Z",
+  "base_commit": "3ec68d315b64aa4d9e5eab1d51ff47b4f3d3f896",
   "processed": [
     {
-      "id": "SEO-251",
-      "draft": "_factory/inbox/SEO-251.article",
-      "output": "hanoi-50cc-motorbike-rental/expats-route-suitability/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "SEO-252",
+      "draft": "_factory/inbox/SEO-252.article",
+      "output": "hanoi-50cc-motorbike-rental/expats-bridges-and-inclines/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "broken internal link: /hanoi-50cc-motorbike-rental/students-bridges-and-inclines/"
+      ],
       "warnings": [],
-      "word_count": 2259,
-      "title_length": 55,
+      "word_count": 2341,
+      "title_length": 61,
       "seo_score": 100
     }
   ],
-  "published_ids": [
-    "SEO-251"
+  "published_ids": [],
+  "repair_ids": [
+    "SEO-252"
   ],
-  "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 249,
-    "planned": 741,
+    "published": 250,
+    "planned": 740,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 751,
+    "remaining_to_target": 750,
     "unplanned_slots": 0
   },
   "stats_after": {
@@ -38,8 +40,8 @@
     "matrix_content_rows": 1000,
     "published": 250,
     "planned": 740,
-    "writing": 10,
-    "repair": 0,
+    "writing": 9,
+    "repair": 1,
     "blocked": 0,
     "remaining_to_target": 750,
     "unplanned_slots": 0
