@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T06:18:13.693Z",
+  "generated_at": "2026-10-07T06:18:44.155Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 440,
-  "remaining_to_target": 560,
+  "current_published_content_pages": 441,
+  "remaining_to_target": 559,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -183,31 +183,6 @@
       "template": "site/templates/article.html"
     },
     {
-      "id": "SEO-450",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/yamaha-mio-weekly-price/",
-      "path": "hanoi-motorbike-rental-cost/yamaha-mio-weekly-price/index.html",
-      "silo": "Pricing",
-      "hub": "Rental Cost & Prices",
-      "content_role": "CLUSTER",
-      "primary_keyword": "yamaha mio rental weekly price hanoi",
-      "intent": "Commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Yamaha Mio Weekly Rental Price in Hanoi: Cost Planning Guide",
-      "content_brief": "Pricing cluster for Yamaha Mio focused on weekly rental price. Use only the verified prices available on the site; if a period has no verified figure, explicitly direct readers to contact rather than estimating.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental-cost/",
-        "/hanoi-motorbike-rental/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_ONLY",
-      "draft_file": "_factory/inbox/SEO-450.article",
-      "template": "site/templates/article.html"
-    },
-    {
       "id": "SEO-451",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/yamaha-mio-monthly-price/",
       "path": "hanoi-motorbike-rental-cost/yamaha-mio-monthly-price/index.html",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_ONLY",
       "draft_file": "_factory/inbox/SEO-452.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-453",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-click-daily-price/",
+      "path": "hanoi-motorbike-rental-cost/honda-click-daily-price/index.html",
+      "silo": "Pricing",
+      "hub": "Rental Cost & Prices",
+      "content_role": "CLUSTER",
+      "primary_keyword": "honda click rental daily price hanoi",
+      "intent": "Commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Honda Click Daily Rental Price in Hanoi: Cost Planning Guide",
+      "content_brief": "Pricing cluster for Honda Click focused on daily rental price. Use only the verified prices available on the site; if a period has no verified figure, explicitly direct readers to contact rather than estimating.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-rental-cost/",
+        "/hanoi-motorbike-rental/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_ONLY",
+      "draft_file": "_factory/inbox/SEO-453.article",
       "template": "site/templates/article.html"
     }
   ]
