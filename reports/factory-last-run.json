@@ -1,53 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:15:45.802Z",
-  "finished": "2026-10-07T05:15:46.005Z",
-  "base_commit": "b469c0eea47ef58f630828115f50dcc90f5e58b4",
+  "started": "2026-10-07T05:16:48.193Z",
+  "finished": "2026-10-07T05:16:48.288Z",
+  "base_commit": "13633fce8eef55bb35d99e5b4ce50751c894e423",
   "processed": [
     {
-      "id": "SEO-349",
-      "draft": "_factory/inbox/SEO-349.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-expats-selection-guide/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [
-        "internal links 12 above preferred maximum 10"
-      ],
-      "word_count": 2258,
-      "title_length": 66,
-      "seo_score": 85
-    },
-    {
-      "id": "SEO-350",
-      "draft": "_factory/inbox/SEO-350.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-expats-checks-and-mistakes/index.html",
+      "id": "SEO-351",
+      "draft": "_factory/inbox/SEO-351.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-students-selection-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2108,
-      "title_length": 70,
+      "word_count": 2242,
+      "title_length": 68,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-349",
-    "SEO-350"
+    "SEO-351"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 339,
-    "planned": 651,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 661,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 341,
@@ -56,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 659,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 342,
+    "planned": 648,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 658,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -67,8 +53,8 @@
     "SEO-338",
     "SEO-339",
     "SEO-346",
-    "SEO-351",
     "SEO-352",
-    "SEO-353"
+    "SEO-353",
+    "SEO-354"
   ]
 }
