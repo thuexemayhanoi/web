@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T22:35:14.259Z",
+  "generated_at": "2026-10-07T22:36:01.730Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 910,
-  "remaining_to_target": 90,
+  "current_published_content_pages": 912,
+  "remaining_to_target": 88,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -158,56 +158,6 @@
       "template": "site/templates/article.html"
     },
     {
-      "id": "SEO-919",
-      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/motorbike-license-tourists/",
-      "path": "renting-a-motorbike-in-vietnam/motorbike-license-tourists/index.html",
-      "silo": "Vietnam Rental Guide",
-      "hub": "Renting in Vietnam",
-      "content_role": "CLUSTER",
-      "primary_keyword": "vietnam motorbike license tourists",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Motorbike Licensing for Tourists: Vietnam Motorbike Guide",
-      "content_brief": "Vietnam riding guidance focused on motorbike license for tourists. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
-      "internal_link_targets": [
-        "/renting-a-motorbike-in-vietnam/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-919.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-920",
-      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/motorbike-license-expats/",
-      "path": "renting-a-motorbike-in-vietnam/motorbike-license-expats/index.html",
-      "silo": "Vietnam Rental Guide",
-      "hub": "Renting in Vietnam",
-      "content_role": "CLUSTER",
-      "primary_keyword": "vietnam motorbike license expats",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Motorbike Licensing for Expats: Vietnam Motorbike Guide",
-      "content_brief": "Vietnam riding guidance focused on motorbike license for expats. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
-      "internal_link_targets": [
-        "/renting-a-motorbike-in-vietnam/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-920.article",
-      "template": "site/templates/article.html"
-    },
-    {
       "id": "SEO-921",
       "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/motorbike-license-50cc-riders/",
       "path": "renting-a-motorbike-in-vietnam/motorbike-license-50cc-riders/index.html",
@@ -255,6 +205,56 @@
       ],
       "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-922.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-923",
+      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/motorbike-license-long-distance-riders/",
+      "path": "renting-a-motorbike-in-vietnam/motorbike-license-long-distance-riders/index.html",
+      "silo": "Vietnam Rental Guide",
+      "hub": "Renting in Vietnam",
+      "content_role": "CLUSTER",
+      "primary_keyword": "vietnam motorbike license long-distance riders",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Motorbike Licensing for Long-distance Riders: Vietnam Motorbike Guide",
+      "content_brief": "Vietnam riding guidance focused on motorbike license for long-distance riders. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
+      "internal_link_targets": [
+        "/renting-a-motorbike-in-vietnam/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-923.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-924",
+      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/motorbike-license-city-riders/",
+      "path": "renting-a-motorbike-in-vietnam/motorbike-license-city-riders/index.html",
+      "silo": "Vietnam Rental Guide",
+      "hub": "Renting in Vietnam",
+      "content_role": "CLUSTER",
+      "primary_keyword": "vietnam motorbike license city riders",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Motorbike Licensing for City Riders: Vietnam Motorbike Guide",
+      "content_brief": "Vietnam riding guidance focused on motorbike license for city riders. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
+      "internal_link_targets": [
+        "/renting-a-motorbike-in-vietnam/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-924.article",
       "template": "site/templates/article.html"
     }
   ]

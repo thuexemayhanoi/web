@@ -1,15 +1,39 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:35:14.189Z",
-  "finished": "2026-10-07T22:35:14.259Z",
-  "base_commit": "50f127ac6a589a7a45fd9c07f33c8393e5589cd5",
-  "processed": [],
-  "published_ids": [],
+  "started": "2026-10-07T22:36:01.399Z",
+  "finished": "2026-10-07T22:36:01.730Z",
+  "base_commit": "ac5aa3417d97abddaef1142473db8da824b44bce",
+  "processed": [
+    {
+      "id": "SEO-919",
+      "draft": "_factory/inbox/SEO-919.article",
+      "output": "renting-a-motorbike-in-vietnam/motorbike-license-tourists/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1976,
+      "title_length": 57,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-920",
+      "draft": "_factory/inbox/SEO-920.article",
+      "output": "renting-a-motorbike-in-vietnam/motorbike-license-expats/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1887,
+      "title_length": 55,
+      "seo_score": 95
+    }
+  ],
+  "published_ids": [
+    "SEO-919",
+    "SEO-920"
+  ],
   "repair_ids": [],
   "blocked_ids": [],
-  "pruned_stale_drafts": [
-    "_factory/inbox/SEO-912.article"
-  ],
+  "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
@@ -25,12 +49,12 @@
   "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 910,
-    "planned": 80,
+    "published": 912,
+    "planned": 78,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 90,
+    "remaining_to_target": 88,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -41,9 +65,9 @@
     "SEO-916",
     "SEO-917",
     "SEO-918",
-    "SEO-919",
-    "SEO-920",
     "SEO-921",
-    "SEO-922"
+    "SEO-922",
+    "SEO-923",
+    "SEO-924"
   ]
 }
