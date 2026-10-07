@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T21:33:17.588Z",
-  "finished": "2026-10-07T21:33:17.800Z",
-  "base_commit": "28911df1a4c1d48349ccd68ea647ab324e18b3b5",
+  "started": "2026-10-07T21:33:50.556Z",
+  "finished": "2026-10-07T21:33:50.759Z",
+  "base_commit": "01091aaf0162dc75728166071c49e6f6c7afe123",
   "processed": [
     {
-      "id": "SEO-822",
-      "draft": "_factory/inbox/SEO-822.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-soc-son-return-planning/index.html",
+      "id": "SEO-823",
+      "draft": "_factory/inbox/SEO-823.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-cuc-phuong-route-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1999,
-      "title_length": 55,
+      "word_count": 2060,
+      "title_length": 72,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-822"
+    "SEO-823"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 819,
-    "planned": 171,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 181,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 820,
@@ -45,9 +34,19 @@
     "remaining_to_target": 180,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 821,
+    "planned": 169,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 179,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-823",
     "SEO-824",
     "SEO-825",
     "SEO-826",
@@ -56,6 +55,7 @@
     "SEO-829",
     "SEO-830",
     "SEO-831",
-    "SEO-832"
+    "SEO-832",
+    "SEO-833"
   ]
 }
