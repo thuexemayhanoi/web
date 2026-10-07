@@ -1,48 +1,62 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:21:19.073Z",
-  "finished": "2026-10-07T03:21:19.239Z",
-  "base_commit": "a781efd449e9ed5b3459e9e6f2f8c36912453760",
+  "started": "2026-10-07T03:22:14.142Z",
+  "finished": "2026-10-07T03:22:14.400Z",
+  "base_commit": "c0f7dedf2cfd376328615746b620b6b26187d076",
   "processed": [
     {
       "id": "SEO-170",
       "draft": "_factory/inbox/SEO-170.article",
-      "output": "hanoi-motorbike-rental/new-riders-traffic-preparation/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
       "warnings": [],
-      "word_count": 1857,
-      "title_length": 58,
-      "seo_score": 100
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
     },
     {
       "id": "SEO-172",
       "draft": "_factory/inbox/SEO-172.article",
-      "output": "hanoi-motorbike-rental/new-riders-rainy-day-planning/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
       "warnings": [],
-      "word_count": 1877,
-      "title_length": 57,
-      "seo_score": 100
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
+    },
+    {
+      "id": "SEO-173",
+      "draft": "_factory/inbox/SEO-173.article",
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: BLOCKED"
+      ],
+      "warnings": [],
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
     }
   ],
-  "published_ids": [
-    "SEO-170",
-    "SEO-172"
-  ],
+  "published_ids": [],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 168,
-    "planned": 822,
-    "writing": 7,
-    "repair": 2,
+    "published": 170,
+    "planned": 819,
+    "writing": 10,
+    "repair": 0,
     "blocked": 1,
-    "remaining_to_target": 832,
+    "remaining_to_target": 830,
     "unplanned_slots": 0
   },
   "stats_after": {
