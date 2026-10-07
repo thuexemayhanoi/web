@@ -1,36 +1,36 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:28:06.089Z",
-  "finished": "2026-10-07T03:28:06.185Z",
-  "base_commit": "538059d07d46ef322637aa1302cb9ffe89f364e9",
+  "started": "2026-10-07T03:28:56.030Z",
+  "finished": "2026-10-07T03:28:56.146Z",
+  "base_commit": "69406332df310e3bbe7593a0d28aa9adde2e91a5",
   "processed": [
     {
       "id": "SEO-182",
       "draft": "_factory/inbox/SEO-182.article",
-      "output": "hanoi-motorbike-rental/short-riders-route-planning/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
       "warnings": [],
-      "word_count": 1681,
-      "title_length": 55,
-      "seo_score": 100
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
     }
   ],
-  "published_ids": [
-    "SEO-182"
-  ],
+  "published_ids": [],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 179,
-    "planned": 810,
-    "writing": 9,
-    "repair": 1,
+    "published": 180,
+    "planned": 809,
+    "writing": 10,
+    "repair": 0,
     "blocked": 1,
-    "remaining_to_target": 821,
+    "remaining_to_target": 820,
     "unplanned_slots": 0
   },
   "stats_after": {
