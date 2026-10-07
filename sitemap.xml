@@ -311,4 +311,7 @@
   <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/budget-travelers-city-traffic/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/budget-travelers-parking/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/budget-travelers-bridges-and-inclines/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/solo-travelers-city-traffic/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/solo-travelers-parking/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/solo-travelers-route-suitability/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>

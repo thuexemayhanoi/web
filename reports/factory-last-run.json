@@ -1,54 +1,52 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:59:43.441Z",
-  "finished": "2026-10-07T04:59:43.618Z",
-  "base_commit": "72c7cb4db3a72000463660d9afdb382c745162bb",
+  "started": "2026-10-07T05:00:03.001Z",
+  "finished": "2026-10-07T05:00:03.146Z",
+  "base_commit": "328b4f3fd3b34bc08b3de32eb36a1d9ddf7ec3b0",
   "processed": [
     {
-      "id": "SEO-314",
-      "draft": "_factory/inbox/SEO-314.article",
-      "output": "hanoi-50cc-motorbike-rental/budget-travelers-route-suitability/index.html",
-      "status": "REPAIR",
-      "errors": [
-        "broken internal link: /hanoi-50cc-motorbike-rental/solo-travelers-route-suitability/"
-      ],
-      "warnings": [],
-      "word_count": 1997,
-      "title_length": 65,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-315",
-      "draft": "_factory/inbox/SEO-315.article",
-      "output": "hanoi-50cc-motorbike-rental/budget-travelers-bridges-and-inclines/index.html",
+      "id": "SEO-285",
+      "draft": "_factory/inbox/SEO-285.article",
+      "output": "hanoi-50cc-motorbike-rental/solo-travelers-city-traffic/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
       "word_count": 2136,
-      "title_length": 71,
+      "title_length": 61,
       "seo_score": 95
+    },
+    {
+      "id": "SEO-286",
+      "draft": "_factory/inbox/SEO-286.article",
+      "output": "hanoi-50cc-motorbike-rental/solo-travelers-parking/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2007,
+      "title_length": 53,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-287",
+      "draft": "_factory/inbox/SEO-287.article",
+      "output": "hanoi-50cc-motorbike-rental/solo-travelers-route-suitability/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2039,
+      "title_length": 63,
+      "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-315"
+    "SEO-285",
+    "SEO-286",
+    "SEO-287"
   ],
-  "repair_ids": [
-    "SEO-314"
-  ],
+  "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 308,
-    "planned": 682,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 692,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 309,
@@ -59,17 +57,28 @@
     "remaining_to_target": 691,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 312,
+    "planned": 678,
+    "writing": 9,
+    "repair": 1,
+    "blocked": 0,
+    "remaining_to_target": 688,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-285",
-    "SEO-286",
-    "SEO-287",
     "SEO-314",
     "SEO-316",
     "SEO-317",
     "SEO-318",
     "SEO-319",
     "SEO-320",
-    "SEO-321"
+    "SEO-321",
+    "SEO-322",
+    "SEO-323",
+    "SEO-324"
   ]
 }
