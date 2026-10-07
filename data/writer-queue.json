@@ -1,62 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T05:55:44.494Z",
+  "generated_at": "2026-10-07T05:56:43.503Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 409,
-  "remaining_to_target": 591,
+  "current_published_content_pages": 411,
+  "remaining_to_target": 589,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-412",
-      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/honda-air-blade-vs-honda-click-checks-and-mistakes/",
-      "path": "hanoi-scooter-rental/honda-air-blade-vs-honda-click-checks-and-mistakes/index.html",
-      "silo": "Scooter Rental",
-      "hub": "Hanoi Scooter Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "Honda Air Blade vs Honda Click hanoi checks and mistakes",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Honda Air Blade vs Honda Click: Checks and Common Mistakes for Hanoi",
-      "content_brief": "Scooter cluster focused on practical checks, common planning mistakes and how to avoid them without inventing policy. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
-      "internal_link_targets": [
-        "/hanoi-scooter-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/monthly-motorbike-rental-hanoi/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-412.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-413",
-      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-selection-guide/",
-      "path": "hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-selection-guide/index.html",
-      "silo": "Scooter Rental",
-      "hub": "Hanoi Scooter Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "Honda Air Blade vs Yamaha Mio hanoi selection guide",
-      "intent": "Commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Honda Air Blade vs Yamaha Mio: Selection Guide for Hanoi Scooter Rental",
-      "content_brief": "Scooter cluster focused on selection criteria, verified fleet examples and fit for the stated need. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
-      "internal_link_targets": [
-        "/hanoi-scooter-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/monthly-motorbike-rental-hanoi/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-413.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-414",
       "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-checks-and-mistakes/",
@@ -255,6 +205,56 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-421.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-422",
+      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter-checks-and-mistakes/",
+      "path": "hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter-checks-and-mistakes/index.html",
+      "silo": "Scooter Rental",
+      "hub": "Hanoi Scooter Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "electric motorbike vs automatic scooter hanoi checks and mistakes",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Electric Motorbike vs Automatic Scooter: Checks and Common Mistakes for",
+      "content_brief": "Scooter cluster focused on practical checks, common planning mistakes and how to avoid them without inventing policy. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
+      "internal_link_targets": [
+        "/hanoi-scooter-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/monthly-motorbike-rental-hanoi/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-422.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-423",
+      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/small-scooter-vs-larger-scooter-selection-guide/",
+      "path": "hanoi-scooter-rental/small-scooter-vs-larger-scooter-selection-guide/index.html",
+      "silo": "Scooter Rental",
+      "hub": "Hanoi Scooter Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "small scooter vs larger scooter hanoi selection guide",
+      "intent": "Commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Small Scooter vs Larger Scooter: Selection Guide for Hanoi Scooter Rental",
+      "content_brief": "Scooter cluster focused on selection criteria, verified fleet examples and fit for the stated need. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
+      "internal_link_targets": [
+        "/hanoi-scooter-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/monthly-motorbike-rental-hanoi/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-423.article",
       "template": "site/templates/article.html"
     }
   ]
