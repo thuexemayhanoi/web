@@ -1,39 +1,108 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:40:31.992Z",
-  "finished": "2026-10-07T05:40:32.189Z",
-  "base_commit": "d05c62733d8c430a1508c4ef6987f5326485c40e",
+  "started": "2026-10-07T05:41:22.291Z",
+  "finished": "2026-10-07T05:41:22.629Z",
+  "base_commit": "e39a927997c684db198e715372292a334c7ec694",
   "processed": [
+    {
+      "id": "SEO-381",
+      "draft": "_factory/inbox/SEO-381.article",
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
+      "warnings": [],
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
+    },
+    {
+      "id": "SEO-382",
+      "draft": "_factory/inbox/SEO-382.article",
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
+      "warnings": [],
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
+    },
     {
       "id": "SEO-384",
       "draft": "_factory/inbox/SEO-384.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-for-long-bien-riding-checks-and-mistakes/index.html",
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
+      "warnings": [],
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
+    },
+    {
+      "id": "SEO-386",
+      "draft": "_factory/inbox/SEO-386.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-for-west-lake-riding-checks-and-mistakes/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2133,
+      "word_count": 2189,
       "title_length": 70,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-387",
+      "draft": "_factory/inbox/SEO-387.article",
+      "output": "hanoi-scooter-rental/honda-vision-for-city-riding-selection-guide/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "broken internal link: /hanoi-scooter-rental/honda-vision-for-city-riding-checks-and-mistakes/"
+      ],
+      "warnings": [],
+      "word_count": 2148,
+      "title_length": 70,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-388",
+      "draft": "_factory/inbox/SEO-388.article",
+      "output": "hanoi-scooter-rental/honda-vision-for-city-riding-checks-and-mistakes/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "broken internal link: /hanoi-scooter-rental/honda-vision-for-city-riding-selection-guide/"
+      ],
+      "warnings": [],
+      "word_count": 2192,
+      "title_length": 74,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-389",
+      "draft": "_factory/inbox/SEO-389.article",
+      "output": "hanoi-scooter-rental/honda-air-blade-for-city-riding-selection-guide/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2169,
+      "title_length": 73,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-384"
+    "SEO-386",
+    "SEO-389"
   ],
-  "repair_ids": [],
+  "repair_ids": [
+    "SEO-387",
+    "SEO-388"
+  ],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 381,
-    "planned": 609,
-    "writing": 9,
-    "repair": 1,
-    "blocked": 0,
-    "remaining_to_target": 619,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 382,
@@ -44,17 +113,28 @@
     "remaining_to_target": 618,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 384,
+    "planned": 606,
+    "writing": 8,
+    "repair": 2,
+    "blocked": 0,
+    "remaining_to_target": 616,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-328",
-    "SEO-386",
     "SEO-387",
     "SEO-388",
-    "SEO-389",
     "SEO-390",
     "SEO-391",
     "SEO-392",
     "SEO-393",
-    "SEO-394"
+    "SEO-394",
+    "SEO-395",
+    "SEO-396"
   ]
 }
