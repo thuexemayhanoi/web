@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:38:37.775Z",
-  "finished": "2026-10-07T22:38:38.124Z",
+  "started": "2026-10-07T22:38:54.514Z",
+  "finished": "2026-10-07T22:38:54.714Z",
   "base_commit": null,
   "processed": [
     {
       "id": "SEO-927",
       "draft": "_factory/inbox/SEO-927.article",
       "output": "renting-a-motorbike-in-vietnam/helmet-rules-50cc-riders/index.html",
-      "status": "REPAIR",
+      "status": "BLOCKED",
       "errors": [
         "broken internal link: /hanoi-motorbike-r\nental/"
       ],
@@ -16,40 +16,16 @@
       "word_count": 1735,
       "title_length": 53,
       "seo_score": 95
-    },
-    {
-      "id": "SEO-928",
-      "draft": "_factory/inbox/SEO-928.article",
-      "output": "renting-a-motorbike-in-vietnam/helmet-rules-scooter-riders/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1736,
-      "title_length": 56,
-      "seo_score": 95
     }
   ],
-  "published_ids": [
-    "SEO-928"
-  ],
-  "repair_ids": [
+  "published_ids": [],
+  "repair_ids": [],
+  "blocked_ids": [
     "SEO-927"
   ],
-  "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 923,
-    "planned": 67,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 77,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 924,
@@ -60,10 +36,20 @@
     "remaining_to_target": 76,
     "unplanned_slots": 0
   },
-  "queue_status": "READY",
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 924,
+    "planned": 66,
+    "writing": 9,
+    "repair": 0,
+    "blocked": 1,
+    "remaining_to_target": 76,
+    "unplanned_slots": 0
+  },
+  "queue_status": "BLOCKED",
   "next_queue": [
     "SEO-918",
-    "SEO-927",
     "SEO-929",
     "SEO-930",
     "SEO-931",
