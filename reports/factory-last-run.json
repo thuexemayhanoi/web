@@ -1,36 +1,38 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:49:27.290Z",
-  "finished": "2026-10-07T03:49:27.435Z",
-  "base_commit": "a0cc465c940ea18298a32c1a3a1def39f2484f9c",
+  "started": "2026-10-07T03:49:58.568Z",
+  "finished": "2026-10-07T03:49:58.718Z",
+  "base_commit": "ac83132a5d7e49679a77c0a92c54340c918cb319",
   "processed": [
     {
-      "id": "SEO-206",
-      "draft": "_factory/inbox/SEO-206.article",
-      "output": "hanoi-motorbike-rental/riders-with-a-passenger-traffic-preparation/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "SEO-207",
+      "draft": "_factory/inbox/SEO-207.article",
+      "output": "hanoi-motorbike-rental/riders-with-a-passenger-parking-strategy/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "word count 1481 outside 1500-5000"
+      ],
       "warnings": [],
-      "word_count": 1528,
-      "title_length": 71,
-      "seo_score": 100
+      "word_count": 1481,
+      "title_length": 68,
+      "seo_score": 85
     }
   ],
-  "published_ids": [
-    "SEO-206"
+  "published_ids": [],
+  "repair_ids": [
+    "SEO-207"
   ],
-  "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 200,
-    "planned": 790,
+    "published": 201,
+    "planned": 789,
     "writing": 7,
     "repair": 3,
     "blocked": 0,
-    "remaining_to_target": 800,
+    "remaining_to_target": 799,
     "unplanned_slots": 0
   },
   "stats_after": {
@@ -38,8 +40,8 @@
     "matrix_content_rows": 1000,
     "published": 201,
     "planned": 789,
-    "writing": 7,
-    "repair": 3,
+    "writing": 6,
+    "repair": 4,
     "blocked": 0,
     "remaining_to_target": 799,
     "unplanned_slots": 0
