@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T22:48:22.743Z",
+  "generated_at": "2026-10-07T22:49:02.730Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 942,
-  "remaining_to_target": 58,
+  "current_published_content_pages": 944,
+  "remaining_to_target": 56,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -55,56 +55,6 @@
       ],
       "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-942.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-947",
-      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/road-signs-long-distance-riders/",
-      "path": "renting-a-motorbike-in-vietnam/road-signs-long-distance-riders/index.html",
-      "silo": "Vietnam Rental Guide",
-      "hub": "Renting in Vietnam",
-      "content_role": "CLUSTER",
-      "primary_keyword": "vietnam road signs long-distance riders",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Road Signs for Long-distance Riders: Vietnam Motorbike Guide",
-      "content_brief": "Vietnam riding guidance focused on road signs for long-distance riders. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
-      "internal_link_targets": [
-        "/renting-a-motorbike-in-vietnam/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-947.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-948",
-      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/road-signs-city-riders/",
-      "path": "renting-a-motorbike-in-vietnam/road-signs-city-riders/index.html",
-      "silo": "Vietnam Rental Guide",
-      "hub": "Renting in Vietnam",
-      "content_role": "CLUSTER",
-      "primary_keyword": "vietnam road signs city riders",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Road Signs for City Riders: Vietnam Motorbike Guide",
-      "content_brief": "Vietnam riding guidance focused on road signs for city riders. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
-      "internal_link_targets": [
-        "/renting-a-motorbike-in-vietnam/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-948.article",
       "template": "site/templates/article.html"
     },
     {
@@ -255,6 +205,56 @@
       ],
       "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-954.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-955",
+      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/accident-steps-tourists/",
+      "path": "renting-a-motorbike-in-vietnam/accident-steps-tourists/index.html",
+      "silo": "Vietnam Rental Guide",
+      "hub": "Renting in Vietnam",
+      "content_role": "CLUSTER",
+      "primary_keyword": "vietnam accident steps tourists",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "What to Do After an Accident for Tourists: Vietnam Motorbike Guide",
+      "content_brief": "Vietnam riding guidance focused on accident steps for tourists. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
+      "internal_link_targets": [
+        "/renting-a-motorbike-in-vietnam/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-955.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-956",
+      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/accident-steps-expats/",
+      "path": "renting-a-motorbike-in-vietnam/accident-steps-expats/index.html",
+      "silo": "Vietnam Rental Guide",
+      "hub": "Renting in Vietnam",
+      "content_role": "CLUSTER",
+      "primary_keyword": "vietnam accident steps expats",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "What to Do After an Accident for Expats: Vietnam Motorbike Guide",
+      "content_brief": "Vietnam riding guidance focused on accident steps for expats. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
+      "internal_link_targets": [
+        "/renting-a-motorbike-in-vietnam/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-956.article",
       "template": "site/templates/article.html"
     }
   ]
