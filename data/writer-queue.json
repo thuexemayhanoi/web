@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T05:23:46.272Z",
+  "generated_at": "2026-10-07T05:24:41.535Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 357,
-  "remaining_to_target": 643,
+  "current_published_content_pages": 359,
+  "remaining_to_target": 641,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -108,56 +108,6 @@
       "template": "site/templates/article.html"
     },
     {
-      "id": "SEO-364",
-      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-with-luggage-checks-and-mistakes/",
-      "path": "hanoi-scooter-rental/automatic-scooter-with-luggage-checks-and-mistakes/index.html",
-      "silo": "Scooter Rental",
-      "hub": "Hanoi Scooter Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "automatic scooter with luggage hanoi checks and mistakes",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Automatic Scooter With Luggage: Checks and Common Mistakes for Hanoi",
-      "content_brief": "Scooter cluster focused on practical checks, common planning mistakes and how to avoid them without inventing policy. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
-      "internal_link_targets": [
-        "/hanoi-scooter-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/monthly-motorbike-rental-hanoi/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-364.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-365",
-      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-with-passenger-selection-guide/",
-      "path": "hanoi-scooter-rental/automatic-scooter-with-passenger-selection-guide/index.html",
-      "silo": "Scooter Rental",
-      "hub": "Hanoi Scooter Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "automatic scooter with passenger hanoi selection guide",
-      "intent": "Commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Automatic Scooter With Passenger: Selection Guide for Hanoi Scooter Rental",
-      "content_brief": "Scooter cluster focused on selection criteria, verified fleet examples and fit for the stated need. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
-      "internal_link_targets": [
-        "/hanoi-scooter-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/monthly-motorbike-rental-hanoi/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-365.article",
-      "template": "site/templates/article.html"
-    },
-    {
       "id": "SEO-366",
       "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-with-passenger-checks-and-mistakes/",
       "path": "hanoi-scooter-rental/automatic-scooter-with-passenger-checks-and-mistakes/index.html",
@@ -255,6 +205,56 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-369.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-370",
+      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-in-winter-checks-and-mistakes/",
+      "path": "hanoi-scooter-rental/automatic-scooter-in-winter-checks-and-mistakes/index.html",
+      "silo": "Scooter Rental",
+      "hub": "Hanoi Scooter Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "automatic scooter in winter hanoi checks and mistakes",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Automatic Scooter In Winter: Checks and Common Mistakes for Hanoi Scooter",
+      "content_brief": "Scooter cluster focused on practical checks, common planning mistakes and how to avoid them without inventing policy. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
+      "internal_link_targets": [
+        "/hanoi-scooter-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/monthly-motorbike-rental-hanoi/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-370.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-371",
+      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-in-hot-weather-selection-guide/",
+      "path": "hanoi-scooter-rental/automatic-scooter-in-hot-weather-selection-guide/index.html",
+      "silo": "Scooter Rental",
+      "hub": "Hanoi Scooter Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "automatic scooter in hot weather hanoi selection guide",
+      "intent": "Commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Automatic Scooter In Hot Weather: Selection Guide for Hanoi Scooter Rental",
+      "content_brief": "Scooter cluster focused on selection criteria, verified fleet examples and fit for the stated need. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
+      "internal_link_targets": [
+        "/hanoi-scooter-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/monthly-motorbike-rental-hanoi/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-371.article",
       "template": "site/templates/article.html"
     }
   ]

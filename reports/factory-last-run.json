@@ -1,51 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:23:46.018Z",
-  "finished": "2026-10-07T05:23:46.274Z",
-  "base_commit": "c77bddf1d1ece2e691a552f446a84ee704551d83",
+  "started": "2026-10-07T05:24:41.350Z",
+  "finished": "2026-10-07T05:24:41.536Z",
+  "base_commit": "a7d9ba7d4f97047e5f8ae52962e7c27f3b5646ae",
   "processed": [
     {
-      "id": "SEO-362",
-      "draft": "_factory/inbox/SEO-362.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-short-riders-checks-and-mistakes/index.html",
+      "id": "SEO-364",
+      "draft": "_factory/inbox/SEO-364.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-with-luggage-checks-and-mistakes/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2087,
+      "word_count": 1844,
       "title_length": 68,
       "seo_score": 95
     },
     {
-      "id": "SEO-363",
-      "draft": "_factory/inbox/SEO-363.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-with-luggage-selection-guide/index.html",
+      "id": "SEO-365",
+      "draft": "_factory/inbox/SEO-365.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-with-passenger-selection-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1862,
-      "title_length": 72,
+      "word_count": 1770,
+      "title_length": 74,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-362",
-    "SEO-363"
+    "SEO-364",
+    "SEO-365"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 355,
-    "planned": 635,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 645,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 357,
@@ -56,17 +45,28 @@
     "remaining_to_target": 643,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 359,
+    "planned": 631,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 641,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-328",
     "SEO-338",
     "SEO-339",
     "SEO-346",
-    "SEO-364",
-    "SEO-365",
     "SEO-366",
     "SEO-367",
     "SEO-368",
-    "SEO-369"
+    "SEO-369",
+    "SEO-370",
+    "SEO-371"
   ]
 }
