@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T06:07:32.771Z",
+  "generated_at": "2026-10-07T06:08:50.436Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 431,
-  "remaining_to_target": 569,
+  "current_published_content_pages": 432,
+  "remaining_to_target": 568,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -105,31 +105,6 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-436.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-438",
-      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-pre-ride-checks-checks-and-mistakes/",
-      "path": "hanoi-scooter-rental/automatic-scooter-pre-ride-checks-checks-and-mistakes/index.html",
-      "silo": "Scooter Rental",
-      "hub": "Hanoi Scooter Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "automatic scooter pre ride checks hanoi checks and mistakes",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Automatic Scooter Pre Ride Checks: Checks and Common Mistakes for Hanoi",
-      "content_brief": "Scooter cluster focused on practical checks, common planning mistakes and how to avoid them without inventing policy. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
-      "internal_link_targets": [
-        "/hanoi-scooter-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/monthly-motorbike-rental-hanoi/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-438.article",
       "template": "site/templates/article.html"
     },
     {
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_ONLY",
       "draft_file": "_factory/inbox/SEO-443.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-444",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-wave-short-vs-long-term-cost/",
+      "path": "hanoi-motorbike-rental-cost/honda-wave-short-vs-long-term-cost/index.html",
+      "silo": "Pricing",
+      "hub": "Rental Cost & Prices",
+      "content_role": "CLUSTER",
+      "primary_keyword": "honda wave rental short vs long term cost hanoi",
+      "intent": "Commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Honda Wave Short vs Long-Term Rental Cost in Hanoi: Cost Planning Guide",
+      "content_brief": "Pricing cluster for Honda Wave focused on short vs long-term rental cost. Use only the verified prices available on the site; if a period has no verified figure, explicitly direct readers to contact rather than estimating.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-rental-cost/",
+        "/hanoi-motorbike-rental/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_ONLY",
+      "draft_file": "_factory/inbox/SEO-444.article",
       "template": "site/templates/article.html"
     }
   ]

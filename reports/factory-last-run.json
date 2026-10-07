@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:07:32.638Z",
-  "finished": "2026-10-07T06:07:32.771Z",
-  "base_commit": "34dc97fb5f369b722007ac52a066baa7e5e28647",
+  "started": "2026-10-07T06:08:50.297Z",
+  "finished": "2026-10-07T06:08:50.436Z",
+  "base_commit": "4e30d0350bc8ebb91982da272c8ed2aa64ac68b2",
   "processed": [
     {
-      "id": "SEO-437",
-      "draft": "_factory/inbox/SEO-437.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-pre-ride-checks-selection-guide/index.html",
+      "id": "SEO-438",
+      "draft": "_factory/inbox/SEO-438.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-pre-ride-checks-checks-and-mistakes/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2011,
-      "title_length": 67,
+      "word_count": 1954,
+      "title_length": 64,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-437"
+    "SEO-438"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 430,
-    "planned": 560,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 570,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 431,
@@ -44,17 +33,28 @@
     "remaining_to_target": 569,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 432,
+    "planned": 558,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 568,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-433",
     "SEO-434",
     "SEO-435",
     "SEO-436",
-    "SEO-438",
     "SEO-439",
     "SEO-440",
     "SEO-441",
     "SEO-442",
-    "SEO-443"
+    "SEO-443",
+    "SEO-444"
   ]
 }
