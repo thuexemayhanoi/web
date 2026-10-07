@@ -1,80 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:52:10.974Z",
-  "finished": "2026-10-07T04:52:11.271Z",
-  "base_commit": "7065488773e34186f4ef7e4824568b6b792d8a67",
+  "started": "2026-10-07T04:52:32.028Z",
+  "finished": "2026-10-07T04:52:32.254Z",
+  "base_commit": "b5f4c777dcb51928e096a7349b996857b814b4cd",
   "processed": [
     {
-      "id": "SEO-270",
-      "draft": "_factory/inbox/SEO-270.article",
-      "output": "hanoi-50cc-motorbike-rental/lightweight-riders-bridges-and-inclines/index.html",
-      "status": "REPAIR",
-      "errors": [
-        "broken internal link: /hanoi-50cc\n-motorbike-rental/lightweight-riders-city-traffic/"
-      ],
-      "warnings": [],
-      "word_count": 2119,
-      "title_length": 73,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-275",
-      "draft": "_factory/inbox/SEO-275.article",
-      "output": "hanoi-50cc-motorbike-rental/first-time-visitors-choosing-a-50cc/index.html",
-      "status": "REPAIR",
-      "errors": [
-        "broken internal link: /hanoi-50cc-motorbike-rental/50cc-scooter-r\nental-for-beginners-hanoi/"
-      ],
-      "warnings": [],
-      "word_count": 2081,
-      "title_length": 66,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-276",
-      "draft": "_factory/inbox/SEO-276.article",
-      "output": "hanoi-50cc-motorbike-rental/first-time-visitors-city-traffic/index.html",
+      "id": "SEO-306",
+      "draft": "_factory/inbox/SEO-306.article",
+      "output": "hanoi-50cc-motorbike-rental/city-commuters-bridges-and-inclines/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2088,
-      "title_length": 66,
-      "seo_score": 100
+      "word_count": 1920,
+      "title_length": 69,
+      "seo_score": 95
     },
     {
-      "id": "SEO-283",
-      "draft": "_factory/inbox/SEO-283.article",
-      "output": "hanoi-50cc-motorbike-rental/first-time-visitors-vs-automatic-scooter/index.html",
+      "id": "SEO-307",
+      "draft": "_factory/inbox/SEO-307.article",
+      "output": "hanoi-50cc-motorbike-rental/city-commuters-passenger-use/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2064,
-      "title_length": 71,
-      "seo_score": 100
+      "word_count": 1843,
+      "title_length": 62,
+      "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-276",
-    "SEO-283"
+    "SEO-306",
+    "SEO-307"
   ],
-  "repair_ids": [
-    "SEO-270",
-    "SEO-275"
-  ],
+  "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 296,
-    "planned": 694,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 704,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 298,
@@ -85,6 +45,17 @@
     "remaining_to_target": 702,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 300,
+    "planned": 690,
+    "writing": 8,
+    "repair": 2,
+    "blocked": 0,
+    "remaining_to_target": 700,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-270",
@@ -92,10 +63,10 @@
     "SEO-285",
     "SEO-286",
     "SEO-287",
-    "SEO-306",
-    "SEO-307",
     "SEO-308",
     "SEO-309",
-    "SEO-310"
+    "SEO-310",
+    "SEO-311",
+    "SEO-312"
   ]
 }

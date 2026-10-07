@@ -300,4 +300,6 @@
   <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/city-commuters-route-suitability/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/first-time-visitors-city-traffic/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/first-time-visitors-vs-automatic-scooter/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/city-commuters-bridges-and-inclines/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/city-commuters-passenger-use/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
