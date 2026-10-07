@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T20:00:00.858Z",
+  "generated_at": "2026-10-07T20:01:29.584Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 748,
-  "remaining_to_target": 252,
+  "current_published_content_pages": 749,
+  "remaining_to_target": 251,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-751",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ha-giang-route-planning/",
-      "path": "hanoi-motorbike-trips/hanoi-to-ha-giang-route-planning/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to ha giang motorbike route planning",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Ha Giang by Motorbike: Route Planning | Hanoi Motorbike Guide",
-      "content_brief": "Destination cluster for a Hanoi-to-Ha Giang motorbike trip, focused on route-planning questions, road types and checkpoints that should be verified before departure. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-751.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-752",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ha-giang-one-day-feasibility/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
       "draft_file": "_factory/inbox/SEO-760.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-761",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-moc-chau-one-day-feasibility/",
+      "path": "hanoi-motorbike-trips/hanoi-to-moc-chau-one-day-feasibility/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to moc chau motorbike one day feasibility",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Moc Chau by Motorbike: One-Day Trip Feasibility",
+      "content_brief": "Destination cluster for a Hanoi-to-Moc Chau motorbike trip, focused on whether a same-day plan is realistic in principle and what factors can make it unsuitable, without fabricated times. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-761.article",
       "template": "site/templates/article.html"
     }
   ]
