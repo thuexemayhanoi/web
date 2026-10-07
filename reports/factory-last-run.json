@@ -1,39 +1,30 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T08:10:45.013Z",
-  "finished": "2026-10-07T08:10:45.196Z",
-  "base_commit": "b7414bfe9afad3ab5968048d5aa444557c7994cc",
+  "started": "2026-10-07T08:11:59.245Z",
+  "finished": "2026-10-07T08:11:59.424Z",
+  "base_commit": "f648d733c6a322b2cf65bebbc6f9644a780d0a84",
   "processed": [
     {
-      "id": "SEO-538",
-      "draft": "_factory/inbox/SEO-538.article",
-      "output": "motorbike-rental-hanoi-old-quarter/long-bien-route-connections/index.html",
+      "id": "SEO-539",
+      "draft": "_factory/inbox/SEO-539.article",
+      "output": "motorbike-rental-hanoi-old-quarter/long-bien-day-ride-ideas/index.html",
       "status": "PUBLISHED",
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "meta description length 185 outside recommended 120-180"
+      ],
       "word_count": 2510,
-      "title_length": 60,
-      "seo_score": 95
+      "title_length": 57,
+      "seo_score": 90
     }
   ],
   "published_ids": [
-    "SEO-538"
+    "SEO-539"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 535,
-    "planned": 455,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 465,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 536,
@@ -44,9 +35,19 @@
     "remaining_to_target": 464,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 537,
+    "planned": 453,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 463,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-539",
     "SEO-540",
     "SEO-541",
     "SEO-542",
@@ -55,6 +56,7 @@
     "SEO-545",
     "SEO-546",
     "SEO-547",
-    "SEO-548"
+    "SEO-548",
+    "SEO-549"
   ]
 }
