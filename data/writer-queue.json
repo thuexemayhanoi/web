@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T20:09:26.387Z",
+  "generated_at": "2026-10-07T20:10:18.303Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 756,
-  "remaining_to_target": 244,
+  "current_published_content_pages": 757,
+  "remaining_to_target": 243,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-759",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ha-giang-return-planning/",
-      "path": "hanoi-motorbike-trips/hanoi-to-ha-giang-return-planning/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to ha giang motorbike return planning",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Ha Giang by Motorbike: Return-to-Hanoi Planning",
-      "content_brief": "Destination cluster for a Hanoi-to-Ha Giang motorbike trip, focused on how to plan the return leg, daylight buffer and shop timing questions without fabricating travel times. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-759.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-760",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-moc-chau-route-planning/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
       "draft_file": "_factory/inbox/SEO-768.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-769",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-pu-luong-route-planning/",
+      "path": "hanoi-motorbike-trips/hanoi-to-pu-luong-route-planning/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to pu luong motorbike route planning",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Pu Luong by Motorbike: Route Planning | Hanoi Motorbike Guide",
+      "content_brief": "Destination cluster for a Hanoi-to-Pu Luong motorbike trip, focused on route-planning questions, road types and checkpoints that should be verified before departure. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-769.article",
       "template": "site/templates/article.html"
     }
   ]
