@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T22:33:58.486Z",
+  "generated_at": "2026-10-07T22:34:18.490Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 907,
-  "remaining_to_target": 93,
+  "current_published_content_pages": 908,
+  "remaining_to_target": 92,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-910",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/budget-travelers-resale-planning/",
-      "path": "hanoi-motorbike-for-sale/budget-travelers-resale-planning/index.html",
-      "silo": "Buying vs Renting",
-      "hub": "Buying vs Renting",
-      "content_role": "CLUSTER",
-      "primary_keyword": "buy vs rent motorbike hanoi budget travelers resale planning",
-      "intent": "Informational comparison",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Budget Travelers: Resale Planning for Hanoi Motorbikes",
-      "content_brief": "Buying-versus-renting cluster for budget travelers, focused on what affects resale effort and uncertainty without inventing market prices. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-for-sale/",
-        "/monthly-motorbike-rental-hanoi/",
-        "/hanoi-motorbike-rental-cost/"
-      ],
-      "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
-      "draft_file": "_factory/inbox/SEO-910.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-911",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/budget-travelers-paperwork-questions/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-919.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-920",
+      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/motorbike-license-expats/",
+      "path": "renting-a-motorbike-in-vietnam/motorbike-license-expats/index.html",
+      "silo": "Vietnam Rental Guide",
+      "hub": "Renting in Vietnam",
+      "content_role": "CLUSTER",
+      "primary_keyword": "vietnam motorbike license expats",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Motorbike Licensing for Expats: Vietnam Motorbike Guide",
+      "content_brief": "Vietnam riding guidance focused on motorbike license for expats. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
+      "internal_link_targets": [
+        "/renting-a-motorbike-in-vietnam/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-920.article",
       "template": "site/templates/article.html"
     }
   ]
