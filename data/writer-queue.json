@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T05:12:18.431Z",
+  "generated_at": "2026-10-07T05:13:25.749Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 336,
-  "remaining_to_target": 664,
+  "current_published_content_pages": 337,
+  "remaining_to_target": 663,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -158,31 +158,6 @@
       "template": "site/templates/article.html"
     },
     {
-      "id": "SEO-345",
-      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/short-stay-visitors-daily-rental-planning/",
-      "path": "hanoi-50cc-motorbike-rental/short-stay-visitors-daily-rental-planning/index.html",
-      "silo": "50cc Motorbike Rental",
-      "hub": "50cc Motorbike Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "50cc motorbike hanoi short-stay visitors daily rental planning",
-      "intent": "Commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Short-stay Visitors: 50cc Daily Rental Planning for 50cc Rental in Hanoi",
-      "content_brief": "50cc cluster for short-stay visitors, focused on using the verified 200,000 VND daily price in a practical one-day rental plan without inventing weekly or monthly rates. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
-      "internal_link_targets": [
-        "/hanoi-50cc-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-345.article",
-      "template": "site/templates/article.html"
-    },
-    {
       "id": "SEO-346",
       "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/short-stay-visitors-vs-automatic-scooter/",
       "path": "hanoi-50cc-motorbike-rental/short-stay-visitors-vs-automatic-scooter/index.html",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-348.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-349",
+      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-expats-selection-guide/",
+      "path": "hanoi-scooter-rental/automatic-scooter-expats-selection-guide/index.html",
+      "silo": "Scooter Rental",
+      "hub": "Hanoi Scooter Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "automatic scooter expats hanoi selection guide",
+      "intent": "Commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Automatic Scooter Expats: Selection Guide for Hanoi Scooter Rental",
+      "content_brief": "Scooter cluster focused on selection criteria, verified fleet examples and fit for the stated need. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
+      "internal_link_targets": [
+        "/hanoi-scooter-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/monthly-motorbike-rental-hanoi/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-349.article",
       "template": "site/templates/article.html"
     }
   ]
