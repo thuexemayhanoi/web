@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T17:57:09.764Z",
-  "finished": "2026-10-07T17:57:10.010Z",
-  "base_commit": "e22c572d99da26a82070885b05808b8226f63981",
+  "started": "2026-10-07T17:57:59.301Z",
+  "finished": "2026-10-07T17:57:59.517Z",
+  "base_commit": "61d984db48bda984d0ce2b3befb0583ff6bc80b5",
   "processed": [
     {
-      "id": "SEO-718",
-      "draft": "_factory/inbox/SEO-718.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-mai-chau-bike-choice/index.html",
+      "id": "SEO-719",
+      "draft": "_factory/inbox/SEO-719.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-mai-chau-weather-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2044,
-      "title_length": 60,
+      "word_count": 2063,
+      "title_length": 72,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-718"
+    "SEO-719"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 715,
-    "planned": 275,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 285,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 716,
@@ -44,9 +33,19 @@
     "remaining_to_target": 284,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 717,
+    "planned": 273,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 283,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-719",
     "SEO-720",
     "SEO-721",
     "SEO-722",
@@ -55,6 +54,7 @@
     "SEO-725",
     "SEO-726",
     "SEO-727",
-    "SEO-728"
+    "SEO-728",
+    "SEO-729"
   ]
 }
