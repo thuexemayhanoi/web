@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:43:24.736Z",
-  "finished": "2026-10-07T07:43:24.941Z",
-  "base_commit": "f9fa88ccf9fda5c63b6d36d2a1468968f5791670",
+  "started": "2026-10-07T07:48:10.264Z",
+  "finished": "2026-10-07T07:48:10.434Z",
+  "base_commit": "fa8206163c766fb1a27145b5b5307cad0d0cda5c",
   "processed": [
     {
-      "id": "SEO-519",
-      "draft": "_factory/inbox/SEO-519.article",
-      "output": "motorbike-rental-hanoi-old-quarter/old-quarter-day-ride-ideas/index.html",
+      "id": "SEO-522",
+      "draft": "_factory/inbox/SEO-522.article",
+      "output": "motorbike-rental-hanoi-old-quarter/hoan-kiem-traffic-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1791,
-      "title_length": 59,
+      "word_count": 1611,
+      "title_length": 56,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-519"
+    "SEO-522"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 516,
-    "planned": 474,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 484,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 517,
@@ -44,17 +33,28 @@
     "remaining_to_target": 483,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 518,
+    "planned": 472,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 482,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-520",
     "SEO-521",
-    "SEO-522",
     "SEO-523",
     "SEO-524",
     "SEO-525",
     "SEO-526",
     "SEO-527",
     "SEO-528",
-    "SEO-529"
+    "SEO-529",
+    "SEO-530"
   ]
 }
