@@ -1,52 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:09:41.303Z",
-  "finished": "2026-10-07T06:09:41.454Z",
-  "base_commit": "d5c765fddff6c5b515b4c333cbd5c559ab9c7222",
+  "started": "2026-10-07T06:10:32.105Z",
+  "finished": "2026-10-07T06:10:32.272Z",
+  "base_commit": "71f532c9b2fd31b3162d3970e0ab31a9a8a81830",
   "processed": [
     {
-      "id": "SEO-438",
-      "draft": "_factory/inbox/SEO-438.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-439",
-      "draft": "_factory/inbox/SEO-439.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-rental-questions-selection-guide/index.html",
+      "id": "SEO-441",
+      "draft": "_factory/inbox/SEO-441.article",
+      "output": "hanoi-motorbike-rental-cost/honda-wave-daily-price/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1949,
-      "title_length": 68,
+      "word_count": 1989,
+      "title_length": 59,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-439"
+    "SEO-441"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 432,
-    "planned": 558,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 568,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 433,
@@ -57,6 +33,17 @@
     "remaining_to_target": 567,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 434,
+    "planned": 556,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 566,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-433",
@@ -64,10 +51,10 @@
     "SEO-435",
     "SEO-436",
     "SEO-440",
-    "SEO-441",
     "SEO-442",
     "SEO-443",
     "SEO-444",
-    "SEO-445"
+    "SEO-445",
+    "SEO-446"
   ]
 }
