@@ -1,39 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:00:16.454Z",
-  "finished": "2026-10-07T06:00:16.627Z",
-  "base_commit": "90feaa5602656b9ff10b7065842d20cfc61df2bc",
+  "started": "2026-10-07T06:00:40.502Z",
+  "finished": "2026-10-07T06:00:40.710Z",
+  "base_commit": "ef6470b511a4cc1e4f31221ed55c381c5fe2ed2e",
   "processed": [
     {
-      "id": "SEO-424",
-      "draft": "_factory/inbox/SEO-424.article",
-      "output": "hanoi-scooter-rental/small-scooter-vs-larger-scooter-checks-and-mistakes/index.html",
+      "id": "SEO-427",
+      "draft": "_factory/inbox/SEO-427.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-parking-selection-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1602,
-      "title_length": 69,
+      "word_count": 2191,
+      "title_length": 67,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-428",
+      "draft": "_factory/inbox/SEO-428.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-parking-checks-and-mistakes/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2267,
+      "title_length": 71,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-424"
+    "SEO-427",
+    "SEO-428"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 417,
-    "planned": 573,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 583,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 418,
@@ -44,6 +45,17 @@
     "remaining_to_target": 582,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 420,
+    "planned": 570,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 580,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-420",
@@ -52,9 +64,9 @@
     "SEO-423",
     "SEO-425",
     "SEO-426",
-    "SEO-427",
-    "SEO-428",
     "SEO-429",
-    "SEO-430"
+    "SEO-430",
+    "SEO-431",
+    "SEO-432"
   ]
 }
