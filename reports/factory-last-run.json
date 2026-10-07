@@ -1,36 +1,36 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:08:59.236Z",
-  "finished": "2026-10-07T04:08:59.323Z",
-  "base_commit": "e40d7c632fe701b3f82002e61e34a54ec50e94fc",
+  "started": "2026-10-07T04:09:16.024Z",
+  "finished": "2026-10-07T04:09:16.096Z",
+  "base_commit": "a0820d85a5fc4a8daa3f6551d33a0a51d42b312a",
   "processed": [
     {
       "id": "SEO-235",
       "draft": "_factory/inbox/SEO-235.article",
-      "output": "hanoi-50cc-motorbike-rental/beginners-passenger-use/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
       "warnings": [],
-      "word_count": 2749,
-      "title_length": 57,
-      "seo_score": 95
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
     }
   ],
-  "published_ids": [
-    "SEO-235"
-  ],
+  "published_ids": [],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 234,
-    "planned": 756,
+    "published": 235,
+    "planned": 755,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 766,
+    "remaining_to_target": 765,
     "unplanned_slots": 0
   },
   "stats_after": {
