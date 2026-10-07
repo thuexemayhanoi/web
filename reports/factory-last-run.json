@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T19:50:57.817Z",
-  "finished": "2026-10-07T19:50:58.013Z",
-  "base_commit": "773394278f0d06e2d3e4fdb72592c87cb2239075",
+  "started": "2026-10-07T19:52:29.318Z",
+  "finished": "2026-10-07T19:52:29.424Z",
+  "base_commit": "df0c538facb95ffb621c685988f85c79df4c9ab1",
   "processed": [
     {
-      "id": "SEO-744",
-      "draft": "_factory/inbox/SEO-744.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-sapa-two-day-itinerary/index.html",
+      "id": "SEO-745",
+      "draft": "_factory/inbox/SEO-745.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-sapa-bike-choice/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2187,
-      "title_length": 73,
+      "word_count": 2226,
+      "title_length": 56,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-744"
+    "SEO-745"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 741,
-    "planned": 249,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 259,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 742,
@@ -45,9 +34,19 @@
     "remaining_to_target": 258,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 743,
+    "planned": 247,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 257,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-745",
     "SEO-746",
     "SEO-747",
     "SEO-748",
@@ -56,6 +55,7 @@
     "SEO-751",
     "SEO-752",
     "SEO-753",
-    "SEO-754"
+    "SEO-754",
+    "SEO-755"
   ]
 }
