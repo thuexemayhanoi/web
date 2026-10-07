@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T04:03:20.663Z",
+  "generated_at": "2026-10-07T04:03:48.088Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 223,
-  "remaining_to_target": 777,
+  "current_published_content_pages": 224,
+  "remaining_to_target": 776,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -30,31 +30,6 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-224.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-225",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/photography-travelers-parking-strategy/",
-      "path": "hanoi-motorbike-rental/photography-travelers-parking-strategy/index.html",
-      "silo": "Hanoi Motorbike Rental",
-      "hub": "Hanoi Motorbike Rental Guide",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi motorbike rental photography travelers parking strategy",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Photography Travelers: Parking Strategy for Hanoi Motorbike Rental",
-      "content_brief": "Audience-specific Hanoi rental cluster for photography travelers, focused strictly on parking decisions, security habits and questions to ask at destinations without fabricating parking guarantees. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-225.article",
       "template": "site/templates/article.html"
     },
     {
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-235.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-236",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-rainy-weather/",
+      "path": "hanoi-50cc-motorbike-rental/beginners-rainy-weather/index.html",
+      "silo": "50cc Motorbike Rental",
+      "hub": "50cc Motorbike Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "50cc motorbike hanoi beginners rainy weather",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Beginners: 50cc in Rainy Weather for 50cc Rental in Hanoi",
+      "content_brief": "50cc cluster for beginners, focused on wet-weather visibility, braking and route planning for small-displacement riders. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
+      "internal_link_targets": [
+        "/hanoi-50cc-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-236.article",
       "template": "site/templates/article.html"
     }
   ]
