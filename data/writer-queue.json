@@ -1,62 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T20:45:13.530Z",
+  "generated_at": "2026-10-07T20:45:33.470Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 781,
-  "remaining_to_target": 219,
+  "current_published_content_pages": 783,
+  "remaining_to_target": 217,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-784",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-hoa-binh-luggage-packing/",
-      "path": "hanoi-motorbike-trips/hanoi-to-hoa-binh-luggage-packing/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to hoa binh motorbike luggage packing",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Hoa Binh by Motorbike: Luggage Packing Guide",
-      "content_brief": "Destination cluster for a Hanoi-to-Hoa Binh motorbike trip, focused on packing priorities, weight placement and rain protection for the route. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-784.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-785",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-hoa-binh-safety-checklist/",
-      "path": "hanoi-motorbike-trips/hanoi-to-hoa-binh-safety-checklist/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to hoa binh motorbike safety checklist",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Hoa Binh by Motorbike: Safety Checklist | Hanoi Motorbike Guide",
-      "content_brief": "Destination cluster for a Hanoi-to-Hoa Binh motorbike trip, focused on pre-departure bike, gear and route checks for the destination. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-785.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-786",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-hoa-binh-return-planning/",
@@ -255,6 +205,56 @@
       ],
       "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
       "draft_file": "_factory/inbox/SEO-793.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-794",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-bac-ninh-safety-checklist/",
+      "path": "hanoi-motorbike-trips/hanoi-to-bac-ninh-safety-checklist/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to bac ninh motorbike safety checklist",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Bac Ninh by Motorbike: Safety Checklist | Hanoi Motorbike Guide",
+      "content_brief": "Destination cluster for a Hanoi-to-Bac Ninh motorbike trip, focused on pre-departure bike, gear and route checks for the destination. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-794.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-795",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-bac-ninh-return-planning/",
+      "path": "hanoi-motorbike-trips/hanoi-to-bac-ninh-return-planning/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to bac ninh motorbike return planning",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Bac Ninh by Motorbike: Return-to-Hanoi Planning",
+      "content_brief": "Destination cluster for a Hanoi-to-Bac Ninh motorbike trip, focused on how to plan the return leg, daylight buffer and shop timing questions without fabricating travel times. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-795.article",
       "template": "site/templates/article.html"
     }
   ]
