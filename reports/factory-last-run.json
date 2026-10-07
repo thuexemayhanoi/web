@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T17:47:58.602Z",
-  "finished": "2026-10-07T17:47:58.809Z",
-  "base_commit": "bd6da504f67740d0d02beeb161711c62b2dbb466",
+  "started": "2026-10-07T17:49:57.493Z",
+  "finished": "2026-10-07T17:49:57.635Z",
+  "base_commit": "796b3a9fec5189da4229a9df59c5b7ad6a8e856b",
   "processed": [
     {
-      "id": "SEO-705",
-      "draft": "_factory/inbox/SEO-705.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-ninh-binh-return-planning/index.html",
+      "id": "SEO-706",
+      "draft": "_factory/inbox/SEO-706.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-tam-dao-route-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1907,
-      "title_length": 57,
+      "word_count": 1908,
+      "title_length": 69,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-705"
+    "SEO-706"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 710,
-    "planned": 280,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 290,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 711,
@@ -44,9 +33,19 @@
     "remaining_to_target": 289,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 712,
+    "planned": 278,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 288,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-706",
     "SEO-715",
     "SEO-716",
     "SEO-717",
@@ -55,6 +54,7 @@
     "SEO-720",
     "SEO-721",
     "SEO-722",
-    "SEO-723"
+    "SEO-723",
+    "SEO-724"
   ]
 }
