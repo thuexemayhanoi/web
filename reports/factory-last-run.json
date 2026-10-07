@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T20:22:51.928Z",
-  "finished": "2026-10-07T20:22:52.118Z",
-  "base_commit": "ac30dcb7bf6d0601575e6697b17c2ad93a00f096",
+  "started": "2026-10-07T20:24:59.104Z",
+  "finished": "2026-10-07T20:24:59.287Z",
+  "base_commit": "fab49092584320705aebec6894570dbd7915b213",
   "processed": [
     {
-      "id": "SEO-772",
-      "draft": "_factory/inbox/SEO-772.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-pu-luong-bike-choice/index.html",
+      "id": "SEO-773",
+      "draft": "_factory/inbox/SEO-773.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-pu-luong-weather-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2070,
-      "title_length": 60,
+      "word_count": 2243,
+      "title_length": 72,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-772"
+    "SEO-773"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 769,
-    "planned": 221,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 231,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 770,
@@ -45,9 +34,19 @@
     "remaining_to_target": 230,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 771,
+    "planned": 219,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 229,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-773",
     "SEO-774",
     "SEO-775",
     "SEO-776",
@@ -56,6 +55,7 @@
     "SEO-779",
     "SEO-780",
     "SEO-781",
-    "SEO-782"
+    "SEO-782",
+    "SEO-783"
   ]
 }
