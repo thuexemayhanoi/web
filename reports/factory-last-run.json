@@ -1,40 +1,56 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:44:22.059Z",
-  "finished": "2026-10-07T22:44:22.211Z",
+  "started": "2026-10-07T22:45:29.224Z",
+  "finished": "2026-10-07T22:45:29.628Z",
   "base_commit": null,
   "processed": [
     {
-      "id": "SEO-937",
-      "draft": "_factory/inbox/SEO-937.article",
-      "output": "renting-a-motorbike-in-vietnam/insurance-questions-tourists/index.html",
+      "id": "SEO-934",
+      "draft": "_factory/inbox/SEO-934.article",
+      "output": "renting-a-motorbike-in-vietnam/traffic-police-stops-scooter-riders/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "word count 1460 outside 1500-5000"
+      ],
+      "warnings": [],
+      "word_count": 1460,
+      "title_length": 64,
+      "seo_score": 80
+    },
+    {
+      "id": "SEO-938",
+      "draft": "_factory/inbox/SEO-938.article",
+      "output": "renting-a-motorbike-in-vietnam/insurance-questions-expats/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1747,
-      "title_length": 57,
+      "word_count": 1723,
+      "title_length": 55,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-939",
+      "draft": "_factory/inbox/SEO-939.article",
+      "output": "renting-a-motorbike-in-vietnam/insurance-questions-50cc-riders/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1712,
+      "title_length": 60,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-937"
+    "SEO-938",
+    "SEO-939"
   ],
-  "repair_ids": [],
+  "repair_ids": [
+    "SEO-934"
+  ],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 933,
-    "planned": 57,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 67,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 934,
@@ -45,17 +61,28 @@
     "remaining_to_target": 66,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 936,
+    "planned": 54,
+    "writing": 9,
+    "repair": 1,
+    "blocked": 0,
+    "remaining_to_target": 64,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-934",
-    "SEO-938",
-    "SEO-939",
     "SEO-940",
     "SEO-941",
     "SEO-942",
     "SEO-943",
     "SEO-944",
     "SEO-945",
-    "SEO-946"
+    "SEO-946",
+    "SEO-947",
+    "SEO-948"
   ]
 }
