@@ -1,52 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:57:48.459Z",
-  "finished": "2026-10-07T22:57:48.792Z",
-  "base_commit": "c17b240624612e1524554705ffcd7578e628eaed",
+  "started": "2026-10-07T22:58:24.482Z",
+  "finished": "2026-10-07T22:58:24.765Z",
+  "base_commit": "ab59eaf6af7f1225398b89813b15914f88f7acaa",
   "processed": [
     {
-      "id": "SEO-973",
-      "draft": "_factory/inbox/SEO-973.article",
-      "output": "motorbike-guides/motorbike-tires-pre-ride-checklist/index.html",
+      "id": "SEO-975",
+      "draft": "_factory/inbox/SEO-975.article",
+      "output": "motorbike-guides/motorbike-tires-maintenance-basics/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2081,
+      "word_count": 2127,
       "title_length": 55,
       "seo_score": 95
     },
     {
-      "id": "SEO-974",
-      "draft": "_factory/inbox/SEO-974.article",
-      "output": "motorbike-guides/motorbike-tires-troubleshooting/index.html",
+      "id": "SEO-976",
+      "draft": "_factory/inbox/SEO-976.article",
+      "output": "motorbike-guides/motorbike-brakes-pre-ride-checklist/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2092,
-      "title_length": 58,
+      "word_count": 1781,
+      "title_length": 56,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-973",
-    "SEO-974"
+    "SEO-975",
+    "SEO-976"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 970,
-    "planned": 20,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 30,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 972,
@@ -57,10 +46,19 @@
     "remaining_to_target": 28,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 974,
+    "planned": 16,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 26,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-975",
-    "SEO-976",
     "SEO-977",
     "SEO-978",
     "SEO-979",
@@ -68,6 +66,8 @@
     "SEO-981",
     "SEO-982",
     "SEO-983",
-    "SEO-984"
+    "SEO-984",
+    "SEO-985",
+    "SEO-986"
   ]
 }
