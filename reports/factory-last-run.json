@@ -1,41 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:49:58.568Z",
-  "finished": "2026-10-07T03:49:58.718Z",
-  "base_commit": "ac83132a5d7e49679a77c0a92c54340c918cb319",
+  "started": "2026-10-07T03:50:16.619Z",
+  "finished": "2026-10-07T03:50:16.819Z",
+  "base_commit": "6debe0a1c01d25375e3df3748d124602df6295a9",
   "processed": [
     {
-      "id": "SEO-207",
-      "draft": "_factory/inbox/SEO-207.article",
-      "output": "hanoi-motorbike-rental/riders-with-a-passenger-parking-strategy/index.html",
-      "status": "REPAIR",
-      "errors": [
-        "word count 1481 outside 1500-5000"
-      ],
+      "id": "SEO-203",
+      "draft": "_factory/inbox/SEO-203.article",
+      "output": "hanoi-motorbike-rental/riders-with-a-passenger-rental-paperwork-questions/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
       "warnings": [],
-      "word_count": 1481,
+      "word_count": 1946,
       "title_length": 68,
-      "seo_score": 85
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-204",
+      "draft": "_factory/inbox/SEO-204.article",
+      "output": "hanoi-motorbike-rental/riders-with-a-passenger-pickup-planning/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1934,
+      "title_length": 67,
+      "seo_score": 100
     }
   ],
-  "published_ids": [],
-  "repair_ids": [
-    "SEO-207"
+  "published_ids": [
+    "SEO-203",
+    "SEO-204"
   ],
+  "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 201,
-    "planned": 789,
-    "writing": 7,
-    "repair": 3,
-    "blocked": 0,
-    "remaining_to_target": 799,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 201,
@@ -46,10 +45,19 @@
     "remaining_to_target": 799,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 203,
+    "planned": 787,
+    "writing": 8,
+    "repair": 2,
+    "blocked": 0,
+    "remaining_to_target": 797,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-203",
-    "SEO-204",
     "SEO-205",
     "SEO-207",
     "SEO-208",
@@ -57,6 +65,8 @@
     "SEO-210",
     "SEO-211",
     "SEO-212",
-    "SEO-213"
+    "SEO-213",
+    "SEO-214",
+    "SEO-215"
   ]
 }

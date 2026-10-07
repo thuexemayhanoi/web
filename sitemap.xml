@@ -203,4 +203,6 @@
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-a-passenger-bike-choice/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-a-passenger-pre-ride-inspection/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-a-passenger-traffic-preparation/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-a-passenger-rental-paperwork-questions/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-a-passenger-pickup-planning/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
