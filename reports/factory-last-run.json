@@ -1,52 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:21:43.704Z",
-  "finished": "2026-10-07T06:21:43.917Z",
-  "base_commit": "e48648badcc1be369176bb7cac53a697de396fd7",
+  "started": "2026-10-07T06:22:11.357Z",
+  "finished": "2026-10-07T06:22:11.554Z",
+  "base_commit": "e39f7a9bc04df3683cd19e91b165548d15b7a138",
   "processed": [
     {
-      "id": "SEO-451",
-      "draft": "_factory/inbox/SEO-451.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-452",
-      "draft": "_factory/inbox/SEO-452.article",
-      "output": "hanoi-motorbike-rental-cost/yamaha-mio-short-vs-long-term-cost/index.html",
+      "id": "SEO-457",
+      "draft": "_factory/inbox/SEO-457.article",
+      "output": "hanoi-motorbike-rental-cost/honda-vision-daily-price/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1906,
-      "title_length": 65,
+      "word_count": 1884,
+      "title_length": 61,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-452"
+    "SEO-457"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 446,
-    "planned": 544,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 554,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 447,
@@ -55,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 553,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 448,
+    "planned": 542,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 552,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -66,8 +53,8 @@
     "SEO-440",
     "SEO-447",
     "SEO-449",
-    "SEO-457",
     "SEO-458",
-    "SEO-459"
+    "SEO-459",
+    "SEO-460"
   ]
 }
