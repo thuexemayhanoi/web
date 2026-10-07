@@ -1,40 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:43:39.049Z",
-  "finished": "2026-10-07T22:43:39.188Z",
-  "base_commit": "60cc7b9fcbfa8412e151dcba0663f20f96a5d91f",
+  "started": "2026-10-07T22:44:06.958Z",
+  "finished": "2026-10-07T22:44:07.293Z",
+  "base_commit": null,
   "processed": [
     {
-      "id": "SEO-933",
-      "draft": "_factory/inbox/SEO-933.article",
-      "output": "renting-a-motorbike-in-vietnam/traffic-police-stops-50cc-riders/index.html",
+      "id": "SEO-918",
+      "draft": "_factory/inbox/SEO-918.article",
+      "output": "hanoi-motorbike-for-sale/contract-workers-break-even-thinking/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1791,
+      "word_count": 2355,
+      "title_length": 58,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-936",
+      "draft": "_factory/inbox/SEO-936.article",
+      "output": "renting-a-motorbike-in-vietnam/traffic-police-stops-city-riders/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1704,
       "title_length": 61,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-933"
+    "SEO-918",
+    "SEO-936"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 930,
-    "planned": 60,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 70,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 931,
@@ -45,17 +46,28 @@
     "remaining_to_target": 69,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 933,
+    "planned": 57,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 67,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-918",
     "SEO-934",
-    "SEO-936",
     "SEO-937",
     "SEO-938",
     "SEO-939",
     "SEO-940",
     "SEO-941",
     "SEO-942",
-    "SEO-943"
+    "SEO-943",
+    "SEO-944",
+    "SEO-945"
   ]
 }

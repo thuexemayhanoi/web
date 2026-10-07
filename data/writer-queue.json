@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T22:43:39.188Z",
+  "generated_at": "2026-10-07T22:44:07.292Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 931,
-  "remaining_to_target": 69,
+  "current_published_content_pages": 933,
+  "remaining_to_target": 67,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-918",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/contract-workers-break-even-thinking/",
-      "path": "hanoi-motorbike-for-sale/contract-workers-break-even-thinking/index.html",
-      "silo": "Buying vs Renting",
-      "hub": "Buying vs Renting",
-      "content_role": "CLUSTER",
-      "primary_keyword": "buy vs rent motorbike hanoi contract workers break even thinking",
-      "intent": "Informational comparison",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Contract Workers: Break-Even Thinking for Hanoi Motorbikes",
-      "content_brief": "Buying-versus-renting cluster for contract workers, focused on how to compare duration and total hassle without pretending there is one universal break-even point. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-for-sale/",
-        "/monthly-motorbike-rental-hanoi/",
-        "/hanoi-motorbike-rental-cost/"
-      ],
-      "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
-      "draft_file": "_factory/inbox/SEO-918.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-934",
       "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/traffic-police-stops-scooter-riders/",
@@ -55,31 +30,6 @@
       ],
       "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-934.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-936",
-      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/traffic-police-stops-city-riders/",
-      "path": "renting-a-motorbike-in-vietnam/traffic-police-stops-city-riders/index.html",
-      "silo": "Vietnam Rental Guide",
-      "hub": "Renting in Vietnam",
-      "content_role": "CLUSTER",
-      "primary_keyword": "vietnam traffic police stops city riders",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Traffic Police Stops for City Riders: Vietnam Motorbike Guide",
-      "content_brief": "Vietnam riding guidance focused on traffic police stops for city riders. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
-      "internal_link_targets": [
-        "/renting-a-motorbike-in-vietnam/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-936.article",
       "template": "site/templates/article.html"
     },
     {
@@ -255,6 +205,56 @@
       ],
       "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-943.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-944",
+      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/road-signs-expats/",
+      "path": "renting-a-motorbike-in-vietnam/road-signs-expats/index.html",
+      "silo": "Vietnam Rental Guide",
+      "hub": "Renting in Vietnam",
+      "content_role": "CLUSTER",
+      "primary_keyword": "vietnam road signs expats",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Road Signs for Expats: Vietnam Motorbike Guide | Hanoi Motorbike Guide",
+      "content_brief": "Vietnam riding guidance focused on road signs for expats. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
+      "internal_link_targets": [
+        "/renting-a-motorbike-in-vietnam/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-944.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-945",
+      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/road-signs-50cc-riders/",
+      "path": "renting-a-motorbike-in-vietnam/road-signs-50cc-riders/index.html",
+      "silo": "Vietnam Rental Guide",
+      "hub": "Renting in Vietnam",
+      "content_role": "CLUSTER",
+      "primary_keyword": "vietnam road signs 50cc riders",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Road Signs for 50CC Riders: Vietnam Motorbike Guide",
+      "content_brief": "Vietnam riding guidance focused on road signs for 50cc riders. Legal, licensing, insurance, enforcement and restricted-road claims must be checked against current official sources; distinguish general guidance from verified rental-shop facts.",
+      "internal_link_targets": [
+        "/renting-a-motorbike-in-vietnam/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "OFFICIAL_IF_LEGAL_OTHERWISE_GENERAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-945.article",
       "template": "site/templates/article.html"
     }
   ]
