@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T22:01:26.696Z",
+  "generated_at": "2026-10-07T22:01:58.065Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 853,
-  "remaining_to_target": 147,
+  "current_published_content_pages": 854,
+  "remaining_to_target": 146,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-856",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/long-stay-tourists-resale-planning/",
-      "path": "hanoi-motorbike-for-sale/long-stay-tourists-resale-planning/index.html",
-      "silo": "Buying vs Renting",
-      "hub": "Buying vs Renting",
-      "content_role": "CLUSTER",
-      "primary_keyword": "buy vs rent motorbike hanoi long-stay tourists resale planning",
-      "intent": "Informational comparison",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Long-stay Tourists: Resale Planning for Hanoi Motorbikes",
-      "content_brief": "Buying-versus-renting cluster for long-stay tourists, focused on what affects resale effort and uncertainty without inventing market prices. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-for-sale/",
-        "/monthly-motorbike-rental-hanoi/",
-        "/hanoi-motorbike-rental-cost/"
-      ],
-      "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
-      "draft_file": "_factory/inbox/SEO-856.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-857",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/long-stay-tourists-paperwork-questions/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
       "draft_file": "_factory/inbox/SEO-865.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-866",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/teachers-used-bike-inspection/",
+      "path": "hanoi-motorbike-for-sale/teachers-used-bike-inspection/index.html",
+      "silo": "Buying vs Renting",
+      "hub": "Buying vs Renting",
+      "content_role": "CLUSTER",
+      "primary_keyword": "buy vs rent motorbike hanoi teachers used bike inspection",
+      "intent": "Informational comparison",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Teachers: Used Motorbike Inspection for Hanoi Motorbikes",
+      "content_brief": "Buying-versus-renting cluster for teachers, focused on a used-bike inspection framework covering visible condition and questions before purchase. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-for-sale/",
+        "/monthly-motorbike-rental-hanoi/",
+        "/hanoi-motorbike-rental-cost/"
+      ],
+      "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
+      "draft_file": "_factory/inbox/SEO-866.article",
       "template": "site/templates/article.html"
     }
   ]

@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:01:26.493Z",
-  "finished": "2026-10-07T22:01:26.697Z",
-  "base_commit": "4c2757faebcd3cd12a166f462171a2dcf1060d98",
+  "started": "2026-10-07T22:01:57.861Z",
+  "finished": "2026-10-07T22:01:58.066Z",
+  "base_commit": "d5b4345cd9ca3e59b2501053d221b799f6b535ed",
   "processed": [
     {
-      "id": "SEO-855",
-      "draft": "_factory/inbox/SEO-855.article",
-      "output": "hanoi-motorbike-for-sale/long-stay-tourists-ownership-costs/index.html",
+      "id": "SEO-856",
+      "draft": "_factory/inbox/SEO-856.article",
+      "output": "hanoi-motorbike-for-sale/long-stay-tourists-resale-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2210,
-      "title_length": 64,
+      "word_count": 2206,
+      "title_length": 56,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-855"
+    "SEO-856"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 852,
-    "planned": 138,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 148,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 853,
@@ -45,9 +34,19 @@
     "remaining_to_target": 147,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 854,
+    "planned": 136,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 146,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-856",
     "SEO-857",
     "SEO-858",
     "SEO-859",
@@ -56,6 +55,7 @@
     "SEO-862",
     "SEO-863",
     "SEO-864",
-    "SEO-865"
+    "SEO-865",
+    "SEO-866"
   ]
 }
