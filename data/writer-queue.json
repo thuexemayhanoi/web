@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T22:30:07.295Z",
+  "generated_at": "2026-10-07T22:31:29.309Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 900,
-  "remaining_to_target": 100,
+  "current_published_content_pages": 901,
+  "remaining_to_target": 99,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-903",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/first-time-residents-ownership-costs/",
-      "path": "hanoi-motorbike-for-sale/first-time-residents-ownership-costs/index.html",
-      "silo": "Buying vs Renting",
-      "hub": "Buying vs Renting",
-      "content_role": "CLUSTER",
-      "primary_keyword": "buy vs rent motorbike hanoi first-time residents ownership costs",
-      "intent": "Informational comparison",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "First-time Residents: Ownership Cost Planning for Hanoi Motorbikes",
-      "content_brief": "Buying-versus-renting cluster for first-time residents, focused on cost categories beyond purchase price, contrasted cautiously with verified rental pricing. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-for-sale/",
-        "/monthly-motorbike-rental-hanoi/",
-        "/hanoi-motorbike-rental-cost/"
-      ],
-      "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
-      "draft_file": "_factory/inbox/SEO-903.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-904",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/first-time-residents-resale-planning/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
       "draft_file": "_factory/inbox/SEO-912.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-913",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/contract-workers-rent-vs-buy-decision/",
+      "path": "hanoi-motorbike-for-sale/contract-workers-rent-vs-buy-decision/index.html",
+      "silo": "Buying vs Renting",
+      "hub": "Buying vs Renting",
+      "content_role": "CLUSTER",
+      "primary_keyword": "buy vs rent motorbike hanoi contract workers rent vs buy decision",
+      "intent": "Informational comparison",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Contract Workers: Rent vs Buy Decision for Hanoi Motorbikes",
+      "content_brief": "Buying-versus-renting cluster for contract workers, focused on deciding between rental flexibility and ownership responsibility for this audience. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-for-sale/",
+        "/monthly-motorbike-rental-hanoi/",
+        "/hanoi-motorbike-rental-cost/"
+      ],
+      "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
+      "draft_file": "_factory/inbox/SEO-913.article",
       "template": "site/templates/article.html"
     }
   ]
