@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T19:32:28.064Z",
+  "generated_at": "2026-10-07T19:33:27.644Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 730,
-  "remaining_to_target": 270,
+  "current_published_content_pages": 731,
+  "remaining_to_target": 269,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-733",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-cat-ba-route-planning/",
-      "path": "hanoi-motorbike-trips/hanoi-to-cat-ba-route-planning/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to cat ba motorbike route planning",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Cat Ba by Motorbike: Route Planning | Hanoi Motorbike Guide",
-      "content_brief": "Destination cluster for a Hanoi-to-Cat Ba motorbike trip, focused on route-planning questions, road types and checkpoints that should be verified before departure. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-733.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-734",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-cat-ba-one-day-feasibility/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
       "draft_file": "_factory/inbox/SEO-742.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-743",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-sapa-one-day-feasibility/",
+      "path": "hanoi-motorbike-trips/hanoi-to-sapa-one-day-feasibility/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to sapa motorbike one day feasibility",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Sapa by Motorbike: One-Day Trip Feasibility",
+      "content_brief": "Destination cluster for a Hanoi-to-Sapa motorbike trip, focused on whether a same-day plan is realistic in principle and what factors can make it unsuitable, without fabricated times. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-743.article",
       "template": "site/templates/article.html"
     }
   ]
