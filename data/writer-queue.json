@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T08:32:34.334Z",
+  "generated_at": "2026-10-07T08:33:50.807Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 556,
-  "remaining_to_target": 444,
+  "current_published_content_pages": 557,
+  "remaining_to_target": 443,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-559",
-      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/cau-giay-day-ride-ideas/",
-      "path": "motorbike-rental-hanoi-old-quarter/cau-giay-day-ride-ideas/index.html",
-      "silo": "Local Areas",
-      "hub": "Old Quarter & Areas",
-      "content_role": "CLUSTER",
-      "primary_keyword": "cau giay hanoi motorbike day ride ideas",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Cau Giay by Motorbike: Motorbike Day-Ride Ideas in Hanoi",
-      "content_brief": "Local riding cluster for Cau Giay, focused on a flexible local riding plan built around landmarks and rider comfort, not fixed promises. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
-      "internal_link_targets": [
-        "/motorbike-rental-hanoi-old-quarter/",
-        "/hanoi-motorbike-rental/",
-        "/motorbike-guides/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-559.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-560",
       "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/nam-tu-liem-rental-planning/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-568.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-569",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/bac-tu-liem-day-ride-ideas/",
+      "path": "motorbike-rental-hanoi-old-quarter/bac-tu-liem-day-ride-ideas/index.html",
+      "silo": "Local Areas",
+      "hub": "Old Quarter & Areas",
+      "content_role": "CLUSTER",
+      "primary_keyword": "bac tu liem hanoi motorbike day ride ideas",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Bac Tu Liem by Motorbike: Motorbike Day-Ride Ideas in Hanoi",
+      "content_brief": "Local riding cluster for Bac Tu Liem, focused on a flexible local riding plan built around landmarks and rider comfort, not fixed promises. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
+      "internal_link_targets": [
+        "/motorbike-rental-hanoi-old-quarter/",
+        "/hanoi-motorbike-rental/",
+        "/motorbike-guides/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-569.article",
       "template": "site/templates/article.html"
     }
   ]
