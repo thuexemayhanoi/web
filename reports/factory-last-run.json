@@ -1,63 +1,52 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:42:06.897Z",
-  "finished": "2026-10-07T07:42:07.244Z",
-  "base_commit": "a0fef8cf9ab3cbd9ccb8488a0557544b24c9f24a",
+  "started": "2026-10-07T07:42:37.630Z",
+  "finished": "2026-10-07T07:42:38.106Z",
+  "base_commit": "590e51b24e1cbcebfcc06bbdb9b2b7c5b36d1f0d",
   "processed": [
     {
-      "id": "SEO-436",
-      "draft": "_factory/inbox/SEO-436.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-route-planning-checks-and-mistakes/index.html",
+      "id": "SEO-449",
+      "draft": "_factory/inbox/SEO-449.article",
+      "output": "hanoi-motorbike-rental-cost/yamaha-mio-daily-price/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1604,
-      "title_length": 63,
+      "word_count": 1804,
+      "title_length": 59,
       "seo_score": 95
     },
     {
-      "id": "SEO-440",
-      "draft": "_factory/inbox/SEO-440.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-rental-questions-checks-and-mistakes/index.html",
+      "id": "SEO-458",
+      "draft": "_factory/inbox/SEO-458.article",
+      "output": "hanoi-motorbike-rental-cost/honda-vision-weekly-price/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1774,
-      "title_length": 65,
+      "word_count": 1790,
+      "title_length": 62,
       "seo_score": 95
     },
     {
-      "id": "SEO-447",
-      "draft": "_factory/inbox/SEO-447.article",
-      "output": "hanoi-motorbike-rental-cost/yamaha-sirius-monthly-price/index.html",
+      "id": "SEO-474",
+      "draft": "_factory/inbox/SEO-474.article",
+      "output": "hanoi-motorbike-rental-cost/automatic-scooter-weekly-price/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1621,
-      "title_length": 64,
+      "word_count": 1736,
+      "title_length": 67,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-436",
-    "SEO-440",
-    "SEO-447"
+    "SEO-449",
+    "SEO-458",
+    "SEO-474"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 510,
-    "planned": 480,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 490,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 513,
@@ -68,17 +57,28 @@
     "remaining_to_target": 487,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 516,
+    "planned": 474,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 484,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-449",
-    "SEO-458",
-    "SEO-474",
     "SEO-519",
     "SEO-520",
     "SEO-521",
     "SEO-522",
     "SEO-523",
     "SEO-524",
-    "SEO-525"
+    "SEO-525",
+    "SEO-526",
+    "SEO-527",
+    "SEO-528"
   ]
 }
