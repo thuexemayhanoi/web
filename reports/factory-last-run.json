@@ -1,41 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:19:59.366Z",
-  "finished": "2026-10-07T07:19:59.559Z",
-  "base_commit": "43811c99e175f04e1ef899cadea8d678c8a2e2af",
+  "started": "2026-10-07T07:20:55.969Z",
+  "finished": "2026-10-07T07:20:56.118Z",
+  "base_commit": "55ba4a9a5a203943b3f129e7b5650c716e1cbe7b",
   "processed": [
     {
-      "id": "SEO-508",
-      "draft": "_factory/inbox/SEO-508.article",
-      "output": "hanoi-motorbike-rental-cost/honda-vision-vs-electric-motorbike-rental-cost/index.html",
+      "id": "SEO-509",
+      "draft": "_factory/inbox/SEO-509.article",
+      "output": "hanoi-motorbike-rental-cost/honda-vision-vs-50cc-scooter-rental-cost/index.html",
       "status": "PUBLISHED",
       "errors": [],
-      "warnings": [
-        "meta description length 182 outside recommended 120-180"
-      ],
-      "word_count": 1648,
-      "title_length": 64,
-      "seo_score": 90
+      "warnings": [],
+      "word_count": 1754,
+      "title_length": 58,
+      "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-508"
+    "SEO-509"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 496,
-    "planned": 494,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 504,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 497,
@@ -44,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 503,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 498,
+    "planned": 492,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 502,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -57,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-509"
+    "SEO-510"
   ]
 }
