@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T21:20:28.369Z",
-  "finished": "2026-10-07T21:20:28.540Z",
+  "started": "2026-10-07T21:20:40.436Z",
+  "finished": "2026-10-07T21:20:40.582Z",
   "base_commit": null,
   "processed": [
     {
-      "id": "SEO-812",
-      "draft": "_factory/inbox/SEO-812.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-perfume-pagoda-safety-checklist/index.html",
+      "id": "SEO-813",
+      "draft": "_factory/inbox/SEO-813.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-perfume-pagoda-return-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2062,
-      "title_length": 54,
+      "word_count": 2022,
+      "title_length": 62,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-812"
+    "SEO-813"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 809,
-    "planned": 181,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 191,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 810,
@@ -45,9 +34,19 @@
     "remaining_to_target": 190,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 811,
+    "planned": 179,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 189,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-813",
     "SEO-814",
     "SEO-815",
     "SEO-816",
@@ -56,6 +55,7 @@
     "SEO-819",
     "SEO-820",
     "SEO-821",
-    "SEO-822"
+    "SEO-822",
+    "SEO-823"
   ]
 }
