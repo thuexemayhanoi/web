@@ -1,62 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T21:09:21.551Z",
+  "generated_at": "2026-10-07T21:14:23.006Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 802,
-  "remaining_to_target": 198,
+  "current_published_content_pages": 804,
+  "remaining_to_target": 196,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-805",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-perfume-pagoda-route-planning/",
-      "path": "hanoi-motorbike-trips/hanoi-to-perfume-pagoda-route-planning/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to perfume pagoda motorbike route planning",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Perfume Pagoda by Motorbike: Route Planning",
-      "content_brief": "Destination cluster for a Hanoi-to-Perfume Pagoda motorbike trip, focused on route-planning questions, road types and checkpoints that should be verified before departure. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-805.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-806",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-perfume-pagoda-one-day-feasibility/",
-      "path": "hanoi-motorbike-trips/hanoi-to-perfume-pagoda-one-day-feasibility/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to perfume pagoda motorbike one day feasibility",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Perfume Pagoda by Motorbike: One-Day Trip Feasibility",
-      "content_brief": "Destination cluster for a Hanoi-to-Perfume Pagoda motorbike trip, focused on whether a same-day plan is realistic in principle and what factors can make it unsuitable, without fabricated times. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-806.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-807",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-perfume-pagoda-two-day-itinerary/",
@@ -255,6 +205,56 @@
       ],
       "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
       "draft_file": "_factory/inbox/SEO-814.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-815",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-soc-son-one-day-feasibility/",
+      "path": "hanoi-motorbike-trips/hanoi-to-soc-son-one-day-feasibility/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to soc son motorbike one day feasibility",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Soc Son by Motorbike: One-Day Trip Feasibility",
+      "content_brief": "Destination cluster for a Hanoi-to-Soc Son motorbike trip, focused on whether a same-day plan is realistic in principle and what factors can make it unsuitable, without fabricated times. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-815.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-816",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-soc-son-two-day-itinerary/",
+      "path": "hanoi-motorbike-trips/hanoi-to-soc-son-two-day-itinerary/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to soc son motorbike two day itinerary",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Soc Son by Motorbike: Two-Day Trip Planning",
+      "content_brief": "Destination cluster for a Hanoi-to-Soc Son motorbike trip, focused on a flexible two-day structure with rest and weather contingencies rather than fixed timing promises. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-816.article",
       "template": "site/templates/article.html"
     }
   ]
