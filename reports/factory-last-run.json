@@ -1,52 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T23:02:58.921Z",
-  "finished": "2026-10-07T23:02:59.326Z",
-  "base_commit": "00d9cc151e620571a38e459e5ed35c742bcfda3e",
+  "started": "2026-10-07T23:03:36.543Z",
+  "finished": "2026-10-07T23:03:36.889Z",
+  "base_commit": "26ac8871e0f56fe345ee405fbb73440f085f5ea3",
   "processed": [
     {
-      "id": "SEO-989",
-      "draft": "_factory/inbox/SEO-989.article",
-      "output": "motorbike-guides/motorbike-fuel-troubleshooting/index.html",
+      "id": "SEO-987",
+      "draft": "_factory/inbox/SEO-987.article",
+      "output": "motorbike-guides/motorbike-lights-maintenance-basics/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1823,
-      "title_length": 57,
+      "word_count": 1710,
+      "title_length": 56,
       "seo_score": 95
     },
     {
-      "id": "SEO-990",
-      "draft": "_factory/inbox/SEO-990.article",
-      "output": "motorbike-guides/motorbike-fuel-maintenance-basics/index.html",
+      "id": "SEO-988",
+      "draft": "_factory/inbox/SEO-988.article",
+      "output": "motorbike-guides/motorbike-fuel-pre-ride-checklist/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1781,
+      "word_count": 1830,
       "title_length": 54,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-989",
-    "SEO-990"
+    "SEO-987",
+    "SEO-988"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 984,
-    "planned": 6,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 16,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 986,
@@ -57,10 +46,19 @@
     "remaining_to_target": 14,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 988,
+    "planned": 2,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 12,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-987",
-    "SEO-988",
     "SEO-991",
     "SEO-992",
     "SEO-993",
@@ -68,6 +66,8 @@
     "SEO-995",
     "SEO-996",
     "SEO-997",
-    "SEO-998"
+    "SEO-998",
+    "SEO-999",
+    "SEO-1000"
   ]
 }
