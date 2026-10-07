@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T15:04:30.354Z",
-  "finished": "2026-10-07T15:04:30.678Z",
-  "base_commit": "3e51e1df02344173818ee759e65b07ae53d7d527",
+  "started": "2026-10-07T15:04:53.852Z",
+  "finished": "2026-10-07T15:04:54.110Z",
+  "base_commit": "03e6185a51cf90842104162b8eb63ca3a6c5f11d",
   "processed": [
     {
-      "id": "SEO-703",
-      "draft": "_factory/inbox/SEO-703.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-ninh-binh-luggage-packing/index.html",
+      "id": "SEO-704",
+      "draft": "_factory/inbox/SEO-704.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-ninh-binh-safety-checklist/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1906,
-      "title_length": 54,
+      "word_count": 1933,
+      "title_length": 73,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-703"
+    "SEO-704"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 700,
-    "planned": 290,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 300,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 701,
@@ -44,9 +33,19 @@
     "remaining_to_target": 299,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 702,
+    "planned": 288,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 298,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-704",
     "SEO-705",
     "SEO-706",
     "SEO-707",
@@ -55,6 +54,7 @@
     "SEO-710",
     "SEO-711",
     "SEO-712",
-    "SEO-713"
+    "SEO-713",
+    "SEO-714"
   ]
 }
