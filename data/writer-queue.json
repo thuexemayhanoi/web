@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T19:53:35.125Z",
+  "generated_at": "2026-10-07T19:56:23.318Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 744,
-  "remaining_to_target": 256,
+  "current_published_content_pages": 745,
+  "remaining_to_target": 255,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-747",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-sapa-fuel-and-rest-stops/",
-      "path": "hanoi-motorbike-trips/hanoi-to-sapa-fuel-and-rest-stops/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to sapa motorbike fuel and rest stops",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Sapa by Motorbike: Fuel and Rest-Stop Planning",
-      "content_brief": "Destination cluster for a Hanoi-to-Sapa motorbike trip, focused on how to plan fuel, food and rest breaks without inventing station locations or opening hours. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-747.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-748",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-sapa-luggage-packing/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
       "draft_file": "_factory/inbox/SEO-756.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-757",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ha-giang-luggage-packing/",
+      "path": "hanoi-motorbike-trips/hanoi-to-ha-giang-luggage-packing/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to ha giang motorbike luggage packing",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Ha Giang by Motorbike: Luggage Packing Guide",
+      "content_brief": "Destination cluster for a Hanoi-to-Ha Giang motorbike trip, focused on packing priorities, weight placement and rain protection for the route. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-757.article",
       "template": "site/templates/article.html"
     }
   ]

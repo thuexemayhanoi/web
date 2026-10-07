@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T19:53:34.954Z",
-  "finished": "2026-10-07T19:53:35.126Z",
-  "base_commit": "4d52acdc63b6640eb23108fc36ec59be84c6fe25",
+  "started": "2026-10-07T19:56:23.154Z",
+  "finished": "2026-10-07T19:56:23.319Z",
+  "base_commit": "e4825909e92d505d0f64327e1b6b4014cca13faf",
   "processed": [
     {
-      "id": "SEO-746",
-      "draft": "_factory/inbox/SEO-746.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-sapa-weather-planning/index.html",
+      "id": "SEO-747",
+      "draft": "_factory/inbox/SEO-747.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-sapa-fuel-and-rest-stops/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2064,
-      "title_length": 68,
+      "word_count": 2273,
+      "title_length": 55,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-746"
+    "SEO-747"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 743,
-    "planned": 247,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 257,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 744,
@@ -45,9 +34,19 @@
     "remaining_to_target": 256,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 745,
+    "planned": 245,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 255,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-747",
     "SEO-748",
     "SEO-749",
     "SEO-750",
@@ -56,6 +55,7 @@
     "SEO-753",
     "SEO-754",
     "SEO-755",
-    "SEO-756"
+    "SEO-756",
+    "SEO-757"
   ]
 }
