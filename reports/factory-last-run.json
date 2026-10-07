@@ -1,41 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:16:48.860Z",
-  "finished": "2026-10-07T04:16:49.014Z",
-  "base_commit": "3ec68d315b64aa4d9e5eab1d51ff47b4f3d3f896",
+  "started": "2026-10-07T04:17:58.776Z",
+  "finished": "2026-10-07T04:17:58.917Z",
+  "base_commit": "d23d6d18008da2e3d39cf2e2522639a1df7c0e5d",
   "processed": [
     {
-      "id": "SEO-252",
-      "draft": "_factory/inbox/SEO-252.article",
-      "output": "hanoi-50cc-motorbike-rental/expats-bridges-and-inclines/index.html",
-      "status": "REPAIR",
-      "errors": [
-        "broken internal link: /hanoi-50cc-motorbike-rental/students-bridges-and-inclines/"
-      ],
+      "id": "SEO-255",
+      "draft": "_factory/inbox/SEO-255.article",
+      "output": "hanoi-50cc-motorbike-rental/expats-daily-rental-planning/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
       "warnings": [],
-      "word_count": 2341,
-      "title_length": 61,
+      "word_count": 2232,
+      "title_length": 59,
       "seo_score": 100
     }
   ],
-  "published_ids": [],
-  "repair_ids": [
-    "SEO-252"
+  "published_ids": [
+    "SEO-255"
   ],
+  "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 250,
-    "planned": 740,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 750,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 250,
@@ -46,17 +33,28 @@
     "remaining_to_target": 750,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 251,
+    "planned": 739,
+    "writing": 9,
+    "repair": 1,
+    "blocked": 0,
+    "remaining_to_target": 749,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-240",
     "SEO-243",
     "SEO-252",
-    "SEO-255",
     "SEO-256",
     "SEO-257",
     "SEO-259",
     "SEO-260",
     "SEO-261",
-    "SEO-262"
+    "SEO-262",
+    "SEO-263"
   ]
 }
