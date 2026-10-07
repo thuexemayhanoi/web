@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T04:54:26.355Z",
+  "generated_at": "2026-10-07T04:55:41.692Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 304,
-  "remaining_to_target": 696,
+  "current_published_content_pages": 306,
+  "remaining_to_target": 694,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -80,56 +80,6 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-287.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-310",
-      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/city-commuters-vs-automatic-scooter/",
-      "path": "hanoi-50cc-motorbike-rental/city-commuters-vs-automatic-scooter/index.html",
-      "silo": "50cc Motorbike Rental",
-      "hub": "50cc Motorbike Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "50cc motorbike hanoi city commuters vs automatic scooter",
-      "intent": "Commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "City Commuters: 50cc vs Automatic Scooter for 50cc Rental in Hanoi",
-      "content_brief": "50cc cluster for city commuters, focused on decision factors between a 50cc bike and larger automatic scooter for this rider profile. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
-      "internal_link_targets": [
-        "/hanoi-50cc-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-310.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-311",
-      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/budget-travelers-choosing-a-50cc/",
-      "path": "hanoi-50cc-motorbike-rental/budget-travelers-choosing-a-50cc/index.html",
-      "silo": "50cc Motorbike Rental",
-      "hub": "50cc Motorbike Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "50cc motorbike hanoi budget travelers choosing a 50cc",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Budget Travelers: Choosing a 50cc Bike for 50cc Rental in Hanoi",
-      "content_brief": "50cc cluster for budget travelers, focused on how to decide whether a 50cc option fits the rider and city use. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
-      "internal_link_targets": [
-        "/hanoi-50cc-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-311.article",
       "template": "site/templates/article.html"
     },
     {
@@ -255,6 +205,56 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-316.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-317",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/budget-travelers-rainy-weather/",
+      "path": "hanoi-50cc-motorbike-rental/budget-travelers-rainy-weather/index.html",
+      "silo": "50cc Motorbike Rental",
+      "hub": "50cc Motorbike Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "50cc motorbike hanoi budget travelers rainy weather",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Budget Travelers: 50cc in Rainy Weather for 50cc Rental in Hanoi",
+      "content_brief": "50cc cluster for budget travelers, focused on wet-weather visibility, braking and route planning for small-displacement riders. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
+      "internal_link_targets": [
+        "/hanoi-50cc-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-317.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-318",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/budget-travelers-daily-rental-planning/",
+      "path": "hanoi-50cc-motorbike-rental/budget-travelers-daily-rental-planning/index.html",
+      "silo": "50cc Motorbike Rental",
+      "hub": "50cc Motorbike Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "50cc motorbike hanoi budget travelers daily rental planning",
+      "intent": "Commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Budget Travelers: 50cc Daily Rental Planning for 50cc Rental in Hanoi",
+      "content_brief": "50cc cluster for budget travelers, focused on using the verified 200,000 VND daily price in a practical one-day rental plan without inventing weekly or monthly rates. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
+      "internal_link_targets": [
+        "/hanoi-50cc-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-318.article",
       "template": "site/templates/article.html"
     }
   ]
