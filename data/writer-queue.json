@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T22:32:59.558Z",
+  "generated_at": "2026-10-07T22:33:40.895Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 905,
-  "remaining_to_target": 95,
+  "current_published_content_pages": 906,
+  "remaining_to_target": 94,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-908",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/budget-travelers-used-bike-inspection/",
-      "path": "hanoi-motorbike-for-sale/budget-travelers-used-bike-inspection/index.html",
-      "silo": "Buying vs Renting",
-      "hub": "Buying vs Renting",
-      "content_role": "CLUSTER",
-      "primary_keyword": "buy vs rent motorbike hanoi budget travelers used bike inspection",
-      "intent": "Informational comparison",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Budget Travelers: Used Motorbike Inspection for Hanoi Motorbikes",
-      "content_brief": "Buying-versus-renting cluster for budget travelers, focused on a used-bike inspection framework covering visible condition and questions before purchase. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-for-sale/",
-        "/monthly-motorbike-rental-hanoi/",
-        "/hanoi-motorbike-rental-cost/"
-      ],
-      "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
-      "draft_file": "_factory/inbox/SEO-908.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-909",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/budget-travelers-ownership-costs/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
       "draft_file": "_factory/inbox/SEO-917.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-918",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/contract-workers-break-even-thinking/",
+      "path": "hanoi-motorbike-for-sale/contract-workers-break-even-thinking/index.html",
+      "silo": "Buying vs Renting",
+      "hub": "Buying vs Renting",
+      "content_role": "CLUSTER",
+      "primary_keyword": "buy vs rent motorbike hanoi contract workers break even thinking",
+      "intent": "Informational comparison",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Contract Workers: Break-Even Thinking for Hanoi Motorbikes",
+      "content_brief": "Buying-versus-renting cluster for contract workers, focused on how to compare duration and total hassle without pretending there is one universal break-even point. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-for-sale/",
+        "/monthly-motorbike-rental-hanoi/",
+        "/hanoi-motorbike-rental-cost/"
+      ],
+      "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
+      "draft_file": "_factory/inbox/SEO-918.article",
       "template": "site/templates/article.html"
     }
   ]
