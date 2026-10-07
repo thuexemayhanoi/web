@@ -178,4 +178,6 @@
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/short-riders-pickup-planning/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/short-riders-return-checklist/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/short-riders-traffic-preparation/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/short-riders-parking-strategy/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-rental/short-riders-rainy-day-planning/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>

@@ -1,62 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T03:25:27.730Z",
+  "generated_at": "2026-10-07T03:25:58.831Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 176,
-  "remaining_to_target": 824,
+  "current_published_content_pages": 178,
+  "remaining_to_target": 822,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-180",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/short-riders-parking-strategy/",
-      "path": "hanoi-motorbike-rental/short-riders-parking-strategy/index.html",
-      "silo": "Hanoi Motorbike Rental",
-      "hub": "Hanoi Motorbike Rental Guide",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi motorbike rental short riders parking strategy",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Short Riders: Parking Strategy for Hanoi Motorbike Rental",
-      "content_brief": "Audience-specific Hanoi rental cluster for short riders, focused strictly on parking decisions, security habits and questions to ask at destinations without fabricating parking guarantees. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-180.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-181",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/short-riders-rainy-day-planning/",
-      "path": "hanoi-motorbike-rental/short-riders-rainy-day-planning/index.html",
-      "silo": "Hanoi Motorbike Rental",
-      "hub": "Hanoi Motorbike Rental Guide",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi motorbike rental short riders rainy-day planning",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Short Riders: Rainy-Day Planning for Hanoi Motorbike Rental",
-      "content_brief": "Audience-specific Hanoi rental cluster for short riders, focused strictly on rental planning for wet conditions, visibility, traction and gear choices without live-weather claims. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-181.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-182",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/short-riders-route-planning/",
@@ -255,6 +205,56 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-189.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-190",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/tall-riders-rainy-day-planning/",
+      "path": "hanoi-motorbike-rental/tall-riders-rainy-day-planning/index.html",
+      "silo": "Hanoi Motorbike Rental",
+      "hub": "Hanoi Motorbike Rental Guide",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi motorbike rental tall riders rainy-day planning",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Tall Riders: Rainy-Day Planning for Hanoi Motorbike Rental",
+      "content_brief": "Audience-specific Hanoi rental cluster for tall riders, focused strictly on rental planning for wet conditions, visibility, traction and gear choices without live-weather claims. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-190.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-191",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/tall-riders-route-planning/",
+      "path": "hanoi-motorbike-rental/tall-riders-route-planning/index.html",
+      "silo": "Hanoi Motorbike Rental",
+      "hub": "Hanoi Motorbike Rental Guide",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi motorbike rental tall riders route planning",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Tall Riders: Route Planning for Hanoi Motorbike Rental",
+      "content_brief": "Audience-specific Hanoi rental cluster for tall riders, focused strictly on building realistic city routes around experience, luggage and time while avoiding fabricated travel times. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-191.article",
       "template": "site/templates/article.html"
     }
   ]

@@ -1,51 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:25:27.569Z",
-  "finished": "2026-10-07T03:25:27.731Z",
-  "base_commit": "cf2161451cd894d1426a5d19890bc69eb57b16be",
+  "started": "2026-10-07T03:25:58.663Z",
+  "finished": "2026-10-07T03:25:58.831Z",
+  "base_commit": "c032e552809ddeb8fdc184fdfbde3a4272e56a81",
   "processed": [
     {
-      "id": "SEO-178",
-      "draft": "_factory/inbox/SEO-178.article",
-      "output": "hanoi-motorbike-rental/short-riders-return-checklist/index.html",
+      "id": "SEO-180",
+      "draft": "_factory/inbox/SEO-180.article",
+      "output": "hanoi-motorbike-rental/short-riders-parking-strategy/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1569,
+      "word_count": 1593,
       "title_length": 57,
       "seo_score": 100
     },
     {
-      "id": "SEO-179",
-      "draft": "_factory/inbox/SEO-179.article",
-      "output": "hanoi-motorbike-rental/short-riders-traffic-preparation/index.html",
+      "id": "SEO-181",
+      "draft": "_factory/inbox/SEO-181.article",
+      "output": "hanoi-motorbike-rental/short-riders-rainy-day-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1606,
-      "title_length": 60,
+      "word_count": 1531,
+      "title_length": 59,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-178",
-    "SEO-179"
+    "SEO-180",
+    "SEO-181"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 174,
-    "planned": 815,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 1,
-    "remaining_to_target": 826,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 176,
@@ -56,10 +45,19 @@
     "remaining_to_target": 824,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 178,
+    "planned": 811,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 1,
+    "remaining_to_target": 822,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-180",
-    "SEO-181",
     "SEO-182",
     "SEO-183",
     "SEO-184",
@@ -67,6 +65,8 @@
     "SEO-186",
     "SEO-187",
     "SEO-188",
-    "SEO-189"
+    "SEO-189",
+    "SEO-190",
+    "SEO-191"
   ]
 }
