@@ -1,25 +1,12 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:16:34.112Z",
-  "finished": "2026-10-07T06:16:34.194Z",
-  "base_commit": "b13e8424f90983cc5645da7c188eb33128a67a95",
+  "started": "2026-10-07T06:17:09.692Z",
+  "finished": "2026-10-07T06:17:09.773Z",
+  "base_commit": "12aef83baf1b0369fa9cdfecfa3601df73729a5a",
   "processed": [
     {
-      "id": "SEO-444",
-      "draft": "_factory/inbox/SEO-444.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-445",
-      "draft": "_factory/inbox/SEO-445.article",
+      "id": "SEO-446",
+      "draft": "_factory/inbox/SEO-446.article",
       "output": null,
       "status": "REJECTED",
       "errors": [
