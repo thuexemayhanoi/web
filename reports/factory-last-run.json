@@ -1,39 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:48:10.264Z",
-  "finished": "2026-10-07T07:48:10.434Z",
-  "base_commit": "fa8206163c766fb1a27145b5b5307cad0d0cda5c",
+  "started": "2026-10-07T07:51:29.105Z",
+  "finished": "2026-10-07T07:51:29.374Z",
+  "base_commit": "fdd7d5f2d9ffc86bd6ab27c192ac72b3ceb902a1",
   "processed": [
     {
-      "id": "SEO-522",
-      "draft": "_factory/inbox/SEO-522.article",
-      "output": "motorbike-rental-hanoi-old-quarter/hoan-kiem-traffic-guide/index.html",
+      "id": "SEO-520",
+      "draft": "_factory/inbox/SEO-520.article",
+      "output": "motorbike-rental-hanoi-old-quarter/hoan-kiem-rental-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1611,
+      "word_count": 1997,
+      "title_length": 58,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-521",
+      "draft": "_factory/inbox/SEO-521.article",
+      "output": "motorbike-rental-hanoi-old-quarter/hoan-kiem-parking-guide/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1746,
       "title_length": 56,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-522"
+    "SEO-520",
+    "SEO-521"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 517,
-    "planned": 473,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 483,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 518,
@@ -44,10 +45,19 @@
     "remaining_to_target": 482,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 520,
+    "planned": 470,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 480,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-520",
-    "SEO-521",
     "SEO-523",
     "SEO-524",
     "SEO-525",
@@ -55,6 +65,8 @@
     "SEO-527",
     "SEO-528",
     "SEO-529",
-    "SEO-530"
+    "SEO-530",
+    "SEO-531",
+    "SEO-532"
   ]
 }

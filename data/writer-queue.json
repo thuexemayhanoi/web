@@ -1,62 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T07:48:10.433Z",
+  "generated_at": "2026-10-07T07:51:29.373Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 518,
-  "remaining_to_target": 482,
+  "current_published_content_pages": 520,
+  "remaining_to_target": 480,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-520",
-      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/hoan-kiem-rental-planning/",
-      "path": "motorbike-rental-hanoi-old-quarter/hoan-kiem-rental-planning/index.html",
-      "silo": "Local Areas",
-      "hub": "Old Quarter & Areas",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hoan kiem hanoi motorbike rental planning",
-      "intent": "Local commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hoan Kiem by Motorbike: Motorbike Rental Planning in Hanoi",
-      "content_brief": "Local riding cluster for Hoan Kiem, focused on how the area relates to the verified Long Bien shop location and practical rental planning. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
-      "internal_link_targets": [
-        "/motorbike-rental-hanoi-old-quarter/",
-        "/hanoi-motorbike-rental/",
-        "/motorbike-guides/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-520.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-521",
-      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/hoan-kiem-parking-guide/",
-      "path": "motorbike-rental-hanoi-old-quarter/hoan-kiem-parking-guide/index.html",
-      "silo": "Local Areas",
-      "hub": "Old Quarter & Areas",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hoan kiem hanoi motorbike parking guide",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hoan Kiem by Motorbike: Motorbike Parking Guide in Hanoi",
-      "content_brief": "Local riding cluster for Hoan Kiem, focused on parking habits, common constraints and questions to check locally without inventing guaranteed parking. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
-      "internal_link_targets": [
-        "/motorbike-rental-hanoi-old-quarter/",
-        "/hanoi-motorbike-rental/",
-        "/motorbike-guides/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-521.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-523",
       "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/hoan-kiem-route-connections/",
@@ -255,6 +205,56 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-530.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-531",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/tay-ho-parking-guide/",
+      "path": "motorbike-rental-hanoi-old-quarter/tay-ho-parking-guide/index.html",
+      "silo": "Local Areas",
+      "hub": "Old Quarter & Areas",
+      "content_role": "CLUSTER",
+      "primary_keyword": "tay ho hanoi motorbike parking guide",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Tay Ho by Motorbike: Motorbike Parking Guide in Hanoi",
+      "content_brief": "Local riding cluster for Tay Ho, focused on parking habits, common constraints and questions to check locally without inventing guaranteed parking. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
+      "internal_link_targets": [
+        "/motorbike-rental-hanoi-old-quarter/",
+        "/hanoi-motorbike-rental/",
+        "/motorbike-guides/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-531.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-532",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/tay-ho-traffic-guide/",
+      "path": "motorbike-rental-hanoi-old-quarter/tay-ho-traffic-guide/index.html",
+      "silo": "Local Areas",
+      "hub": "Old Quarter & Areas",
+      "content_role": "CLUSTER",
+      "primary_keyword": "tay ho hanoi motorbike traffic guide",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Tay Ho by Motorbike: Motorbike Traffic Guide in Hanoi",
+      "content_brief": "Local riding cluster for Tay Ho, focused on traffic character, rider preparation and cautious route choices without live-traffic claims. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
+      "internal_link_targets": [
+        "/motorbike-rental-hanoi-old-quarter/",
+        "/hanoi-motorbike-rental/",
+        "/motorbike-guides/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-532.article",
       "template": "site/templates/article.html"
     }
   ]
