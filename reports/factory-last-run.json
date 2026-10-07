@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:49:36.994Z",
-  "finished": "2026-10-07T06:49:37.104Z",
-  "base_commit": "906fd10707d514eedb6232c337cd4235ee10a8a1",
+  "started": "2026-10-07T06:50:32.007Z",
+  "finished": "2026-10-07T06:50:32.160Z",
+  "base_commit": "be2304df9f25da3e72ad9b17832250d5fd47ad65",
   "processed": [
     {
-      "id": "SEO-485",
-      "draft": "_factory/inbox/SEO-485.article",
-      "output": "hanoi-motorbike-rental-cost/honda-wave-vs-honda-air-blade-rental-cost/index.html",
+      "id": "SEO-486",
+      "draft": "_factory/inbox/SEO-486.article",
+      "output": "hanoi-motorbike-rental-cost/honda-wave-vs-electric-motorbike-rental-cost/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2003,
-      "title_length": 59,
+      "word_count": 2004,
+      "title_length": 62,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-485"
+    "SEO-486"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 473,
-    "planned": 517,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 527,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 474,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 526,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 475,
+    "planned": 515,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 525,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -55,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-486"
+    "SEO-487"
   ]
 }
