@@ -1,40 +1,53 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:37:37.907Z",
-  "finished": "2026-10-07T22:37:38.108Z",
+  "started": "2026-10-07T22:37:59.906Z",
+  "finished": "2026-10-07T22:38:00.307Z",
   "base_commit": null,
   "processed": [
     {
-      "id": "SEO-916",
-      "draft": "_factory/inbox/SEO-916.article",
-      "output": "hanoi-motorbike-for-sale/contract-workers-resale-planning/index.html",
+      "id": "SEO-917",
+      "draft": "_factory/inbox/SEO-917.article",
+      "output": "hanoi-motorbike-for-sale/contract-workers-paperwork-questions/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2047,
-      "title_length": 54,
+      "word_count": 2122,
+      "title_length": 68,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-925",
+      "draft": "_factory/inbox/SEO-925.article",
+      "output": "renting-a-motorbike-in-vietnam/helmet-rules-tourists/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1795,
+      "title_length": 50,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-926",
+      "draft": "_factory/inbox/SEO-926.article",
+      "output": "renting-a-motorbike-in-vietnam/helmet-rules-expats/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1756,
+      "title_length": 55,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-916"
+    "SEO-917",
+    "SEO-925",
+    "SEO-926"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 919,
-    "planned": 71,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 81,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 920,
@@ -45,17 +58,28 @@
     "remaining_to_target": 80,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 923,
+    "planned": 67,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 77,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-917",
     "SEO-918",
-    "SEO-925",
-    "SEO-926",
     "SEO-927",
     "SEO-928",
     "SEO-929",
     "SEO-930",
     "SEO-931",
-    "SEO-932"
+    "SEO-932",
+    "SEO-933",
+    "SEO-934",
+    "SEO-935"
   ]
 }
