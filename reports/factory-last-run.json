@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:44:34.143Z",
-  "finished": "2026-10-07T06:44:34.266Z",
-  "base_commit": "84c295cab8c9e54f71a179a5ff53476ccd7b7b61",
+  "started": "2026-10-07T06:46:06.256Z",
+  "finished": "2026-10-07T06:46:06.458Z",
+  "base_commit": "d09dd4b4587d27506ce0b112c4aa90996593f27b",
   "processed": [
     {
-      "id": "SEO-481",
-      "draft": "_factory/inbox/SEO-481.article",
-      "output": "hanoi-motorbike-rental-cost/honda-wave-vs-yamaha-sirius-rental-cost/index.html",
+      "id": "SEO-482",
+      "draft": "_factory/inbox/SEO-482.article",
+      "output": "hanoi-motorbike-rental-cost/honda-wave-vs-yamaha-mio-rental-cost/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2089,
-      "title_length": 57,
+      "word_count": 1919,
+      "title_length": 54,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-481"
+    "SEO-482"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 469,
-    "planned": 521,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 531,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 470,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 530,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 471,
+    "planned": 519,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 529,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -55,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-482"
+    "SEO-483"
   ]
 }

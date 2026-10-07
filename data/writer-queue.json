@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T06:44:34.266Z",
+  "generated_at": "2026-10-07T06:46:06.457Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 470,
-  "remaining_to_target": 530,
+  "current_published_content_pages": 471,
+  "remaining_to_target": 529,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -233,28 +233,28 @@
       "template": "site/templates/article.html"
     },
     {
-      "id": "SEO-482",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-wave-vs-yamaha-mio-rental-cost/",
-      "path": "hanoi-motorbike-rental-cost/honda-wave-vs-yamaha-mio-rental-cost/index.html",
+      "id": "SEO-483",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-wave-vs-honda-click-rental-cost/",
+      "path": "hanoi-motorbike-rental-cost/honda-wave-vs-honda-click-rental-cost/index.html",
       "silo": "Pricing",
       "hub": "Rental Cost & Prices",
       "content_role": "CLUSTER",
-      "primary_keyword": "honda wave vs yamaha mio rental price hanoi",
+      "primary_keyword": "honda wave vs honda click rental price hanoi",
       "intent": "Commercial investigation",
       "target_min_words": 1500,
       "target_max_words": 5000,
       "title_min_chars": 50,
       "title_max_chars": 75,
       "seo_score_min": 75,
-      "working_title": "Honda Wave vs Yamaha Mio: Hanoi Rental Cost Comparison",
-      "content_brief": "Price-comparison cluster contrasting Honda Wave and Yamaha Mio. Use only verified daily, weekly and monthly figures that actually exist; do not fabricate missing prices, discounts or availability.",
+      "working_title": "Honda Wave vs Honda Click: Hanoi Rental Cost Comparison",
+      "content_brief": "Price-comparison cluster contrasting Honda Wave and Honda Click. Use only verified daily, weekly and monthly figures that actually exist; do not fabricate missing prices, discounts or availability.",
       "internal_link_targets": [
         "/hanoi-motorbike-rental-cost/",
         "/hanoi-motorbike-rental/",
         "/faq/"
       ],
       "source_policy": "VERIFIED_BUSINESS_ONLY",
-      "draft_file": "_factory/inbox/SEO-482.article",
+      "draft_file": "_factory/inbox/SEO-483.article",
       "template": "site/templates/article.html"
     }
   ]
