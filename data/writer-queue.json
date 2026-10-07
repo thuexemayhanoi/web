@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T07:09:53.108Z",
+  "generated_at": "2026-10-07T07:11:17.150Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 489,
-  "remaining_to_target": 511,
+  "current_published_content_pages": 490,
+  "remaining_to_target": 510,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -233,28 +233,28 @@
       "template": "site/templates/article.html"
     },
     {
-      "id": "SEO-501",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/yamaha-mio-vs-automatic-scooter-rental-cost/",
-      "path": "hanoi-motorbike-rental-cost/yamaha-mio-vs-automatic-scooter-rental-cost/index.html",
+      "id": "SEO-502",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-click-vs-honda-vision-rental-cost/",
+      "path": "hanoi-motorbike-rental-cost/honda-click-vs-honda-vision-rental-cost/index.html",
       "silo": "Pricing",
       "hub": "Rental Cost & Prices",
       "content_role": "CLUSTER",
-      "primary_keyword": "yamaha mio vs automatic scooter rental price hanoi",
+      "primary_keyword": "honda click vs honda vision rental price hanoi",
       "intent": "Commercial investigation",
       "target_min_words": 1500,
       "target_max_words": 5000,
       "title_min_chars": 50,
       "title_max_chars": 75,
       "seo_score_min": 75,
-      "working_title": "Yamaha Mio vs Automatic Scooter: Hanoi Rental Cost Comparison",
-      "content_brief": "Price-comparison cluster contrasting Yamaha Mio and Automatic Scooter. Use only verified daily, weekly and monthly figures that actually exist; do not fabricate missing prices, discounts or availability.",
+      "working_title": "Honda Click vs Honda Vision: Hanoi Rental Cost Comparison",
+      "content_brief": "Price-comparison cluster contrasting Honda Click and Honda Vision. Use only verified daily, weekly and monthly figures that actually exist; do not fabricate missing prices, discounts or availability.",
       "internal_link_targets": [
         "/hanoi-motorbike-rental-cost/",
         "/hanoi-motorbike-rental/",
         "/faq/"
       ],
       "source_policy": "VERIFIED_BUSINESS_ONLY",
-      "draft_file": "_factory/inbox/SEO-501.article",
+      "draft_file": "_factory/inbox/SEO-502.article",
       "template": "site/templates/article.html"
     }
   ]
