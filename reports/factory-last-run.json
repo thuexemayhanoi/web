@@ -1,40 +1,35 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:04:08.342Z",
-  "finished": "2026-10-07T22:04:08.524Z",
-  "base_commit": "0e75d6a0228588aa8985ac3e4af115dec34559d9",
+  "started": "2026-10-07T22:04:35.413Z",
+  "finished": "2026-10-07T22:04:35.549Z",
+  "base_commit": null,
   "processed": [
     {
-      "id": "SEO-860",
-      "draft": "_factory/inbox/SEO-860.article",
-      "output": "hanoi-motorbike-for-sale/digital-nomads-used-bike-inspection/index.html",
+      "id": "SEO-861",
+      "draft": "_factory/inbox/SEO-861.article",
+      "output": "hanoi-motorbike-for-sale/digital-nomads-ownership-costs/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2213,
-      "title_length": 62,
+      "word_count": 2267,
+      "title_length": 60,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-860"
+    "SEO-861"
   ],
   "repair_ids": [],
   "blocked_ids": [],
-  "pruned_stale_drafts": [],
+  "pruned_stale_drafts": [
+    "_factory/inbox/SEO-819.article",
+    "_factory/inbox/SEO-820.article",
+    "_factory/inbox/SEO-821.article",
+    "_factory/inbox/SEO-822.article",
+    "_factory/inbox/SEO-823.article"
+  ],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 857,
-    "planned": 133,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 143,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 858,
@@ -45,9 +40,19 @@
     "remaining_to_target": 142,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 859,
+    "planned": 131,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 141,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-861",
     "SEO-862",
     "SEO-863",
     "SEO-864",
@@ -56,6 +61,7 @@
     "SEO-867",
     "SEO-868",
     "SEO-869",
-    "SEO-870"
+    "SEO-870",
+    "SEO-871"
   ]
 }
