@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T21:35:07.116Z",
+  "generated_at": "2026-10-07T21:35:23.366Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 823,
-  "remaining_to_target": 177,
+  "current_published_content_pages": 824,
+  "remaining_to_target": 176,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-826",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-cuc-phuong-bike-choice/",
-      "path": "hanoi-motorbike-trips/hanoi-to-cuc-phuong-bike-choice/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to cuc phuong motorbike bike choice",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Cuc Phuong by Motorbike: Choosing a Bike for the Trip",
-      "content_brief": "Destination cluster for a Hanoi-to-Cuc Phuong motorbike trip, focused on what bike characteristics matter for this destination and which verified rental categories to discuss. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-826.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-827",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-cuc-phuong-weather-planning/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
       "draft_file": "_factory/inbox/SEO-835.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-836",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-yen-tu-weather-planning/",
+      "path": "hanoi-motorbike-trips/hanoi-to-yen-tu-weather-planning/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to yen tu motorbike weather planning",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Yen Tu by Motorbike: Weather Planning | Hanoi Motorbike Guide",
+      "content_brief": "Destination cluster for a Hanoi-to-Yen Tu motorbike trip, focused on seasonal and same-day weather checks riders should make without pretending to know live conditions. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-836.article",
       "template": "site/templates/article.html"
     }
   ]
