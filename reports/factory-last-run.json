@@ -1,63 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:27:25.987Z",
-  "finished": "2026-10-07T05:27:26.169Z",
-  "base_commit": "5b1ffce547ac3e51ec2ded2edd680c2ff8b0b074",
+  "started": "2026-10-07T05:28:31.452Z",
+  "finished": "2026-10-07T05:28:31.664Z",
+  "base_commit": "cb09437ca971eba04fc6ae50e8713315e0a42299",
   "processed": [
     {
-      "id": "SEO-338",
-      "draft": "_factory/inbox/SEO-338.article",
-      "output": "hanoi-50cc-motorbike-rental/short-stay-visitors-choosing-a-50cc/index.html",
+      "id": "SEO-370",
+      "draft": "_factory/inbox/SEO-370.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-in-winter-checks-and-mistakes/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2289,
-      "title_length": 66,
-      "seo_score": 100
+      "word_count": 1796,
+      "title_length": 65,
+      "seo_score": 95
     },
     {
-      "id": "SEO-339",
-      "draft": "_factory/inbox/SEO-339.article",
-      "output": "hanoi-50cc-motorbike-rental/short-stay-visitors-city-traffic/index.html",
+      "id": "SEO-371",
+      "draft": "_factory/inbox/SEO-371.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-in-hot-weather-selection-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2024,
-      "title_length": 66,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-346",
-      "draft": "_factory/inbox/SEO-346.article",
-      "output": "hanoi-50cc-motorbike-rental/short-stay-visitors-vs-automatic-scooter/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2042,
-      "title_length": 71,
-      "seo_score": 100
+      "word_count": 1777,
+      "title_length": 74,
+      "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-338",
-    "SEO-339",
-    "SEO-346"
+    "SEO-370",
+    "SEO-371"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 363,
-    "planned": 627,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 637,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 366,
@@ -68,17 +45,28 @@
     "remaining_to_target": 634,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 368,
+    "planned": 622,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 632,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-328",
-    "SEO-370",
-    "SEO-371",
     "SEO-372",
     "SEO-373",
     "SEO-374",
     "SEO-375",
     "SEO-376",
     "SEO-377",
-    "SEO-378"
+    "SEO-378",
+    "SEO-379",
+    "SEO-380"
   ]
 }
