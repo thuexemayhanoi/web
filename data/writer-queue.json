@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T21:41:23.675Z",
+  "generated_at": "2026-10-07T21:42:26.086Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 829,
-  "remaining_to_target": 171,
+  "current_published_content_pages": 830,
+  "remaining_to_target": 170,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-832",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-yen-tu-route-planning/",
-      "path": "hanoi-motorbike-trips/hanoi-to-yen-tu-route-planning/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to yen tu motorbike route planning",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Yen Tu by Motorbike: Route Planning | Hanoi Motorbike Guide",
-      "content_brief": "Destination cluster for a Hanoi-to-Yen Tu motorbike trip, focused on route-planning questions, road types and checkpoints that should be verified before departure. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-832.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-833",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-yen-tu-one-day-feasibility/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
       "draft_file": "_factory/inbox/SEO-841.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-842",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/expats-used-bike-inspection/",
+      "path": "hanoi-motorbike-for-sale/expats-used-bike-inspection/index.html",
+      "silo": "Buying vs Renting",
+      "hub": "Buying vs Renting",
+      "content_role": "CLUSTER",
+      "primary_keyword": "buy vs rent motorbike hanoi expats used bike inspection",
+      "intent": "Informational comparison",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Expats: Used Motorbike Inspection for Hanoi Motorbikes",
+      "content_brief": "Buying-versus-renting cluster for expats, focused on a used-bike inspection framework covering visible condition and questions before purchase. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-for-sale/",
+        "/monthly-motorbike-rental-hanoi/",
+        "/hanoi-motorbike-rental-cost/"
+      ],
+      "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
+      "draft_file": "_factory/inbox/SEO-842.article",
       "template": "site/templates/article.html"
     }
   ]
