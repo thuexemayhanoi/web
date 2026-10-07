@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T21:49:09.108Z",
-  "finished": "2026-10-07T21:49:09.319Z",
-  "base_commit": "3d7d82ff6fb3eadee0a98dad8df13b24bb392340",
+  "started": "2026-10-07T21:49:43.490Z",
+  "finished": "2026-10-07T21:49:43.698Z",
+  "base_commit": "46e1731d0e4d91e5b2c0ed63c69ec8afb002b962",
   "processed": [
     {
-      "id": "SEO-836",
-      "draft": "_factory/inbox/SEO-836.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-yen-tu-weather-planning/index.html",
+      "id": "SEO-837",
+      "draft": "_factory/inbox/SEO-837.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-yen-tu-fuel-and-rest-stops/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2179,
-      "title_length": 70,
+      "word_count": 2078,
+      "title_length": 57,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-836"
+    "SEO-837"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 833,
-    "planned": 157,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 167,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 834,
@@ -45,9 +34,19 @@
     "remaining_to_target": 166,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 835,
+    "planned": 155,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 165,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-837",
     "SEO-838",
     "SEO-839",
     "SEO-840",
@@ -56,6 +55,7 @@
     "SEO-843",
     "SEO-844",
     "SEO-845",
-    "SEO-846"
+    "SEO-846",
+    "SEO-847"
   ]
 }

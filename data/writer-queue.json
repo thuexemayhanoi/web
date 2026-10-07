@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T21:49:09.318Z",
+  "generated_at": "2026-10-07T21:49:43.697Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 834,
-  "remaining_to_target": 166,
+  "current_published_content_pages": 835,
+  "remaining_to_target": 165,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-837",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-yen-tu-fuel-and-rest-stops/",
-      "path": "hanoi-motorbike-trips/hanoi-to-yen-tu-fuel-and-rest-stops/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to yen tu motorbike fuel and rest stops",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Yen Tu by Motorbike: Fuel and Rest-Stop Planning",
-      "content_brief": "Destination cluster for a Hanoi-to-Yen Tu motorbike trip, focused on how to plan fuel, food and rest breaks without inventing station locations or opening hours. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-837.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-838",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-yen-tu-luggage-packing/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
       "draft_file": "_factory/inbox/SEO-846.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-847",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/students-rent-vs-buy-decision/",
+      "path": "hanoi-motorbike-for-sale/students-rent-vs-buy-decision/index.html",
+      "silo": "Buying vs Renting",
+      "hub": "Buying vs Renting",
+      "content_role": "CLUSTER",
+      "primary_keyword": "buy vs rent motorbike hanoi students rent vs buy decision",
+      "intent": "Informational comparison",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Students: Rent vs Buy Decision for Hanoi Motorbikes",
+      "content_brief": "Buying-versus-renting cluster for students, focused on deciding between rental flexibility and ownership responsibility for this audience. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-for-sale/",
+        "/monthly-motorbike-rental-hanoi/",
+        "/hanoi-motorbike-rental-cost/"
+      ],
+      "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
+      "draft_file": "_factory/inbox/SEO-847.article",
       "template": "site/templates/article.html"
     }
   ]
