@@ -1,161 +1,21 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:42:46.897Z",
-  "finished": "2026-10-07T03:42:47.087Z",
-  "base_commit": "2e4e588e2f0405b0479aadc3dcda9cf4a8ea2952",
-  "processed": [
-    {
-      "id": "SEO-167",
-      "draft": "_factory/inbox/SEO-167.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-168",
-      "draft": "_factory/inbox/SEO-168.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-170",
-      "draft": "_factory/inbox/SEO-170.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-172",
-      "draft": "_factory/inbox/SEO-172.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-174",
-      "draft": "_factory/inbox/SEO-174.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-175",
-      "draft": "_factory/inbox/SEO-175.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-176",
-      "draft": "_factory/inbox/SEO-176.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-182",
-      "draft": "_factory/inbox/SEO-182.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-201",
-      "draft": "_factory/inbox/SEO-201.article",
-      "output": "hanoi-motorbike-rental/riders-with-a-passenger-bike-choice/index.html",
-      "status": "BLOCKED",
-      "errors": [
-        "broken internal link: /hanoi-motorbike-rental/riders-with-a-passenger-rental-paperwork-questions/",
-        "broken internal link: /hanoi-motorbike-rental/riders-with-a-passenger-pre-ride-inspection/",
-        "broken internal link: /hanoi-motorbike-rental/riders-with-a-passenger-pickup-planning/"
-      ],
-      "warnings": [],
-      "word_count": 1554,
-      "title_length": 75,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-202",
-      "draft": "_factory/inbox/SEO-202.article",
-      "output": "hanoi-motorbike-rental/riders-with-a-passenger-pre-ride-inspection/index.html",
-      "status": "REPAIR",
-      "errors": [
-        "word count 1478 outside 1500-5000",
-        "broken internal link: /hanoi-motorbike-rental/riders-with-a-passenger-bike-choice/",
-        "broken internal link: /hanoi-motorbike-rental/riders-with-a-passenger-rental-paperwork-questions/",
-        "broken internal link: /hanoi-motorbike-rental/riders-with-a-passenger-return-checklist/"
-      ],
-      "warnings": [],
-      "word_count": 1478,
-      "title_length": 71,
-      "seo_score": 85
-    }
-  ],
+  "started": "2026-10-07T03:44:10.732Z",
+  "finished": "2026-10-07T03:44:10.732Z",
+  "base_commit": "36546866d42ebe9211522c4639663e2c21c6e1fd",
+  "processed": [],
   "published_ids": [],
-  "repair_ids": [
-    "SEO-202"
-  ],
-  "blocked_ids": [
-    "SEO-201"
-  ],
-  "fatal": null,
+  "repair_ids": [],
+  "blocked_ids": [],
+  "fatal": "factory is BLOCKED",
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 198,
     "planned": 792,
-    "writing": 6,
+    "writing": 5,
     "repair": 4,
-    "blocked": 0,
+    "blocked": 1,
     "remaining_to_target": 802,
     "unplanned_slots": 0
   },
@@ -169,17 +29,5 @@
     "blocked": 1,
     "remaining_to_target": 802,
     "unplanned_slots": 0
-  },
-  "queue_status": "BLOCKED",
-  "next_queue": [
-    "SEO-202",
-    "SEO-203",
-    "SEO-204",
-    "SEO-205",
-    "SEO-206",
-    "SEO-207",
-    "SEO-208",
-    "SEO-209",
-    "SEO-210"
-  ]
+  }
 }
