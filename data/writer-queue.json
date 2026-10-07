@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
-  "status": "READY",
-  "generated_at": "2026-10-07T03:42:04.868Z",
+  "status": "BLOCKED",
+  "generated_at": "2026-10-07T03:42:47.087Z",
   "target_total_content_pages": 1000,
   "current_published_content_pages": 198,
   "remaining_to_target": 802,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-201",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-a-passenger-bike-choice/",
-      "path": "hanoi-motorbike-rental/riders-with-a-passenger-bike-choice/index.html",
-      "silo": "Hanoi Motorbike Rental",
-      "hub": "Hanoi Motorbike Rental Guide",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi motorbike rental riders with a passenger bike choice",
-      "intent": "Commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Riders With A Passenger: Choosing the Right Bike for Hanoi Motorbike Rental",
-      "content_brief": "Audience-specific Hanoi rental cluster for riders with a passenger, focused strictly on selecting a suitable rental bike for the rider profile, trip length and confidence level. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-201.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-202",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-a-passenger-pre-ride-inspection/",

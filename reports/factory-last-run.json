@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:42:04.710Z",
-  "finished": "2026-10-07T03:42:04.869Z",
-  "base_commit": "1de4d0635768e1ca3ebfa581547278e8cb5ac0d9",
+  "started": "2026-10-07T03:42:46.897Z",
+  "finished": "2026-10-07T03:42:47.087Z",
+  "base_commit": "2e4e588e2f0405b0479aadc3dcda9cf4a8ea2952",
   "processed": [
     {
       "id": "SEO-167",
@@ -109,21 +109,10 @@
       "seo_score": 0
     },
     {
-      "id": "SEO-200",
-      "draft": "_factory/inbox/SEO-200.article",
-      "output": "hanoi-motorbike-rental/riders-with-luggage-route-planning/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1676,
-      "title_length": 62,
-      "seo_score": 100
-    },
-    {
       "id": "SEO-201",
       "draft": "_factory/inbox/SEO-201.article",
       "output": "hanoi-motorbike-rental/riders-with-a-passenger-bike-choice/index.html",
-      "status": "REPAIR",
+      "status": "BLOCKED",
       "errors": [
         "broken internal link: /hanoi-motorbike-rental/riders-with-a-passenger-rental-paperwork-questions/",
         "broken internal link: /hanoi-motorbike-rental/riders-with-a-passenger-pre-ride-inspection/",
@@ -133,28 +122,33 @@
       "word_count": 1554,
       "title_length": 75,
       "seo_score": 100
+    },
+    {
+      "id": "SEO-202",
+      "draft": "_factory/inbox/SEO-202.article",
+      "output": "hanoi-motorbike-rental/riders-with-a-passenger-pre-ride-inspection/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "word count 1478 outside 1500-5000",
+        "broken internal link: /hanoi-motorbike-rental/riders-with-a-passenger-bike-choice/",
+        "broken internal link: /hanoi-motorbike-rental/riders-with-a-passenger-rental-paperwork-questions/",
+        "broken internal link: /hanoi-motorbike-rental/riders-with-a-passenger-return-checklist/"
+      ],
+      "warnings": [],
+      "word_count": 1478,
+      "title_length": 71,
+      "seo_score": 85
     }
   ],
-  "published_ids": [
-    "SEO-200"
-  ],
+  "published_ids": [],
   "repair_ids": [
+    "SEO-202"
+  ],
+  "blocked_ids": [
     "SEO-201"
   ],
-  "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 197,
-    "planned": 793,
-    "writing": 7,
-    "repair": 3,
-    "blocked": 0,
-    "remaining_to_target": 803,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 198,
@@ -165,9 +159,19 @@
     "remaining_to_target": 802,
     "unplanned_slots": 0
   },
-  "queue_status": "READY",
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 198,
+    "planned": 792,
+    "writing": 5,
+    "repair": 4,
+    "blocked": 1,
+    "remaining_to_target": 802,
+    "unplanned_slots": 0
+  },
+  "queue_status": "BLOCKED",
   "next_queue": [
-    "SEO-201",
     "SEO-202",
     "SEO-203",
     "SEO-204",
