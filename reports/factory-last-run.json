@@ -1,51 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:53:42.308Z",
-  "finished": "2026-10-07T03:53:42.486Z",
-  "base_commit": "ff751ee41b7ebfce882b6cb3d3a6f4653dd693e4",
+  "started": "2026-10-07T03:54:00.657Z",
+  "finished": "2026-10-07T03:54:00.753Z",
+  "base_commit": "a9091056270a6debeec61a843331f9028166d2c1",
   "processed": [
     {
-      "id": "SEO-207",
-      "draft": "_factory/inbox/SEO-207.article",
-      "output": "hanoi-motorbike-rental/riders-with-a-passenger-parking-strategy/index.html",
+      "id": "SEO-213",
+      "draft": "_factory/inbox/SEO-213.article",
+      "output": "hanoi-motorbike-rental/city-commuters-pickup-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1901,
-      "title_length": 68,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-208",
-      "draft": "_factory/inbox/SEO-208.article",
-      "output": "hanoi-motorbike-rental/riders-with-a-passenger-rainy-day-planning/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1896,
-      "title_length": 70,
+      "word_count": 1513,
+      "title_length": 58,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-207",
-    "SEO-208"
+    "SEO-213"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 208,
-    "planned": 782,
-    "writing": 8,
-    "repair": 2,
-    "blocked": 0,
-    "remaining_to_target": 792,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 210,
@@ -56,9 +33,19 @@
     "remaining_to_target": 790,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 211,
+    "planned": 779,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 789,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-213",
     "SEO-214",
     "SEO-215",
     "SEO-216",
@@ -67,6 +54,7 @@
     "SEO-219",
     "SEO-220",
     "SEO-221",
-    "SEO-222"
+    "SEO-222",
+    "SEO-223"
   ]
 }
