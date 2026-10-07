@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T08:22:45.376Z",
-  "finished": "2026-10-07T08:22:45.575Z",
-  "base_commit": "352f9ed9decbad219e2ca960ff1151c1ff8dfd86",
+  "started": "2026-10-07T08:23:26.431Z",
+  "finished": "2026-10-07T08:23:26.583Z",
+  "base_commit": "7e8427ed5590ebb36c2649b59183e29b226b057e",
   "processed": [
     {
-      "id": "SEO-547",
-      "draft": "_factory/inbox/SEO-547.article",
-      "output": "motorbike-rental-hanoi-old-quarter/dong-da-traffic-guide/index.html",
+      "id": "SEO-548",
+      "draft": "_factory/inbox/SEO-548.article",
+      "output": "motorbike-rental-hanoi-old-quarter/dong-da-route-connections/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2378,
-      "title_length": 54,
+      "word_count": 2414,
+      "title_length": 58,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-547"
+    "SEO-548"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 544,
-    "planned": 446,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 456,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 545,
@@ -44,9 +33,19 @@
     "remaining_to_target": 455,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 546,
+    "planned": 444,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 454,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-548",
     "SEO-549",
     "SEO-550",
     "SEO-551",
@@ -55,6 +54,7 @@
     "SEO-554",
     "SEO-555",
     "SEO-556",
-    "SEO-557"
+    "SEO-557",
+    "SEO-558"
   ]
 }
