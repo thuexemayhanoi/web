@@ -1,62 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T06:02:58.943Z",
+  "generated_at": "2026-10-07T06:04:17.577Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 425,
-  "remaining_to_target": 575,
+  "current_published_content_pages": 427,
+  "remaining_to_target": 573,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-422",
-      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter-checks-and-mistakes/",
-      "path": "hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter-checks-and-mistakes/index.html",
-      "silo": "Scooter Rental",
-      "hub": "Hanoi Scooter Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "electric motorbike vs automatic scooter hanoi checks and mistakes",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Electric Motorbike vs Automatic Scooter: Checks and Common Mistakes for",
-      "content_brief": "Scooter cluster focused on practical checks, common planning mistakes and how to avoid them without inventing policy. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
-      "internal_link_targets": [
-        "/hanoi-scooter-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/monthly-motorbike-rental-hanoi/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-422.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-423",
-      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/small-scooter-vs-larger-scooter-selection-guide/",
-      "path": "hanoi-scooter-rental/small-scooter-vs-larger-scooter-selection-guide/index.html",
-      "silo": "Scooter Rental",
-      "hub": "Hanoi Scooter Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "small scooter vs larger scooter hanoi selection guide",
-      "intent": "Commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Small Scooter vs Larger Scooter: Selection Guide for Hanoi Scooter Rental",
-      "content_brief": "Scooter cluster focused on selection criteria, verified fleet examples and fit for the stated need. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
-      "internal_link_targets": [
-        "/hanoi-scooter-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/monthly-motorbike-rental-hanoi/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-423.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-430",
       "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-braking-checks-and-mistakes/",
@@ -255,6 +205,56 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-437.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-438",
+      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-pre-ride-checks-checks-and-mistakes/",
+      "path": "hanoi-scooter-rental/automatic-scooter-pre-ride-checks-checks-and-mistakes/index.html",
+      "silo": "Scooter Rental",
+      "hub": "Hanoi Scooter Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "automatic scooter pre ride checks hanoi checks and mistakes",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Automatic Scooter Pre Ride Checks: Checks and Common Mistakes for Hanoi",
+      "content_brief": "Scooter cluster focused on practical checks, common planning mistakes and how to avoid them without inventing policy. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
+      "internal_link_targets": [
+        "/hanoi-scooter-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/monthly-motorbike-rental-hanoi/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-438.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-439",
+      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-rental-questions-selection-guide/",
+      "path": "hanoi-scooter-rental/automatic-scooter-rental-questions-selection-guide/index.html",
+      "silo": "Scooter Rental",
+      "hub": "Hanoi Scooter Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "automatic scooter rental questions hanoi selection guide",
+      "intent": "Commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Automatic Scooter Rental Questions: Selection Guide for Hanoi Scooter",
+      "content_brief": "Scooter cluster focused on selection criteria, verified fleet examples and fit for the stated need. Keep model pricing synchronized with verified site data when mentioned and keep the page distinct from the main scooter and price hubs.",
+      "internal_link_targets": [
+        "/hanoi-scooter-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/monthly-motorbike-rental-hanoi/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-439.article",
       "template": "site/templates/article.html"
     }
   ]
