@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T08:17:31.856Z",
+  "generated_at": "2026-10-07T08:19:07.157Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 541,
-  "remaining_to_target": 459,
+  "current_published_content_pages": 542,
+  "remaining_to_target": 458,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-544",
-      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/ba-dinh-day-ride-ideas/",
-      "path": "motorbike-rental-hanoi-old-quarter/ba-dinh-day-ride-ideas/index.html",
-      "silo": "Local Areas",
-      "hub": "Old Quarter & Areas",
-      "content_role": "CLUSTER",
-      "primary_keyword": "ba dinh hanoi motorbike day ride ideas",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Ba Dinh by Motorbike: Motorbike Day-Ride Ideas in Hanoi",
-      "content_brief": "Local riding cluster for Ba Dinh, focused on a flexible local riding plan built around landmarks and rider comfort, not fixed promises. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
-      "internal_link_targets": [
-        "/motorbike-rental-hanoi-old-quarter/",
-        "/hanoi-motorbike-rental/",
-        "/motorbike-guides/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-544.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-545",
       "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/dong-da-rental-planning/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-553.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-554",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/hai-ba-trung-day-ride-ideas/",
+      "path": "motorbike-rental-hanoi-old-quarter/hai-ba-trung-day-ride-ideas/index.html",
+      "silo": "Local Areas",
+      "hub": "Old Quarter & Areas",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hai ba trung hanoi motorbike day ride ideas",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hai Ba Trung by Motorbike: Motorbike Day-Ride Ideas in Hanoi",
+      "content_brief": "Local riding cluster for Hai Ba Trung, focused on a flexible local riding plan built around landmarks and rider comfort, not fixed promises. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
+      "internal_link_targets": [
+        "/motorbike-rental-hanoi-old-quarter/",
+        "/hanoi-motorbike-rental/",
+        "/motorbike-guides/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-554.article",
       "template": "site/templates/article.html"
     }
   ]
