@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:51:29.167Z",
-  "finished": "2026-10-07T03:51:29.306Z",
-  "base_commit": "538cc527302cd1073803e7a66957eef991abd015",
+  "started": "2026-10-07T03:52:02.514Z",
+  "finished": "2026-10-07T03:52:02.653Z",
+  "base_commit": "f77b3a1c1a15b5c0753610c161b4043ccf5992a9",
   "processed": [
     {
-      "id": "SEO-209",
-      "draft": "_factory/inbox/SEO-209.article",
-      "output": "hanoi-motorbike-rental/riders-with-a-passenger-route-planning/index.html",
+      "id": "SEO-210",
+      "draft": "_factory/inbox/SEO-210.article",
+      "output": "hanoi-motorbike-rental/city-commuters-bike-choice/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1514,
+      "word_count": 1579,
       "title_length": 66,
-      "seo_score": 100
+      "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-209"
+    "SEO-210"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 204,
-    "planned": 786,
-    "writing": 8,
-    "repair": 2,
-    "blocked": 0,
-    "remaining_to_target": 796,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 205,
@@ -44,17 +33,28 @@
     "remaining_to_target": 795,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 206,
+    "planned": 784,
+    "writing": 8,
+    "repair": 2,
+    "blocked": 0,
+    "remaining_to_target": 794,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-207",
     "SEO-208",
-    "SEO-210",
     "SEO-211",
     "SEO-212",
     "SEO-213",
     "SEO-214",
     "SEO-215",
     "SEO-216",
-    "SEO-217"
+    "SEO-217",
+    "SEO-218"
   ]
 }
