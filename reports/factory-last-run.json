@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:23:16.355Z",
-  "finished": "2026-10-07T07:23:16.431Z",
-  "base_commit": "2d290f8fc5eee77897f3fa4d42d6100484940d0b",
+  "started": "2026-10-07T07:23:40.396Z",
+  "finished": "2026-10-07T07:23:40.557Z",
+  "base_commit": "64eb59b4df941cb898a1c49a8dd2082068e59bf3",
   "processed": [
     {
-      "id": "SEO-510",
-      "draft": "_factory/inbox/SEO-510.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
+      "id": "SEO-511",
+      "draft": "_factory/inbox/SEO-511.article",
+      "output": "hanoi-motorbike-rental-cost/honda-air-blade-vs-electric-motorbike-rental-cost/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
       "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
+      "word_count": 1756,
+      "title_length": 67,
+      "seo_score": 95
     }
   ],
-  "published_ids": [],
+  "published_ids": [
+    "SEO-511"
+  ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
@@ -36,12 +36,12 @@
   "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 499,
-    "planned": 491,
+    "published": 500,
+    "planned": 490,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 501,
+    "remaining_to_target": 500,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -55,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-511"
+    "SEO-512"
   ]
 }
