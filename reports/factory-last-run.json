@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:51:26.384Z",
-  "finished": "2026-10-07T06:51:26.497Z",
-  "base_commit": "98cbbd53c98fbb87cdb2eccc172fa892b6d9a8ee",
+  "started": "2026-10-07T06:52:41.454Z",
+  "finished": "2026-10-07T06:52:41.643Z",
+  "base_commit": "9ad95c64c27999612a04d28dcf3803b85a9d78d5",
   "processed": [
     {
-      "id": "SEO-487",
-      "draft": "_factory/inbox/SEO-487.article",
-      "output": "hanoi-motorbike-rental-cost/honda-wave-vs-50cc-scooter-rental-cost/index.html",
+      "id": "SEO-488",
+      "draft": "_factory/inbox/SEO-488.article",
+      "output": "hanoi-motorbike-rental-cost/honda-wave-vs-automatic-scooter-rental-cost/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2054,
-      "title_length": 56,
+      "word_count": 2111,
+      "title_length": 61,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-487"
+    "SEO-488"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 475,
-    "planned": 515,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 525,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 476,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 524,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 477,
+    "planned": 513,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 523,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -55,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-488"
+    "SEO-489"
   ]
 }
