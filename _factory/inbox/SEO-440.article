@@ -92,6 +92,7 @@
 <!-- SLOT:CTA -->
 </article>
 </main>
+<!-- requeued for factory processing -->
 <!-- SLOT:FOOTER -->
 <script src="/assets/js/business-config.js" defer></script>
 <script src="/assets/js/app.js" defer></script>
