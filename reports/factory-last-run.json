@@ -1,36 +1,49 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:15:59.266Z",
-  "finished": "2026-10-07T06:15:59.386Z",
-  "base_commit": "7fbe4240d7fae0ef41283b8b3ae0769208ce2a82",
+  "started": "2026-10-07T06:16:34.112Z",
+  "finished": "2026-10-07T06:16:34.194Z",
+  "base_commit": "b13e8424f90983cc5645da7c188eb33128a67a95",
   "processed": [
     {
-      "id": "SEO-446",
-      "draft": "_factory/inbox/SEO-446.article",
-      "output": "hanoi-motorbike-rental-cost/yamaha-sirius-weekly-price/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "SEO-444",
+      "draft": "_factory/inbox/SEO-444.article",
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
       "warnings": [],
-      "word_count": 1825,
-      "title_length": 63,
-      "seo_score": 95
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
+    },
+    {
+      "id": "SEO-445",
+      "draft": "_factory/inbox/SEO-445.article",
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
+      "warnings": [],
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
     }
   ],
-  "published_ids": [
-    "SEO-446"
-  ],
+  "published_ids": [],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 438,
-    "planned": 552,
+    "published": 439,
+    "planned": 551,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 562,
+    "remaining_to_target": 561,
     "unplanned_slots": 0
   },
   "stats_after": {
