@@ -1,51 +1,76 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:54:25.349Z",
-  "finished": "2026-10-07T05:54:25.581Z",
-  "base_commit": "06d33511259f8985ad0411cc007749868299809f",
+  "started": "2026-10-07T05:55:08.155Z",
+  "finished": "2026-10-07T05:55:08.609Z",
+  "base_commit": "d51442d7836a62fe7bd56422d71ffa4e40f409c9",
   "processed": [
     {
-      "id": "SEO-408",
-      "draft": "_factory/inbox/SEO-408.article",
-      "output": "hanoi-scooter-rental/honda-vision-vs-honda-click-checks-and-mistakes/index.html",
+      "id": "SEO-328",
+      "draft": "_factory/inbox/SEO-328.article",
+      "output": "hanoi-50cc-motorbike-rental/older-riders-vs-automatic-scooter/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2125,
+      "word_count": 1984,
+      "title_length": 64,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-395",
+      "draft": "_factory/inbox/SEO-395.article",
+      "output": "hanoi-scooter-rental/honda-vision-with-passenger-selection-guide/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2021,
+      "title_length": 69,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-396",
+      "draft": "_factory/inbox/SEO-396.article",
+      "output": "hanoi-scooter-rental/honda-vision-with-passenger-checks-and-mistakes/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2038,
       "title_length": 73,
       "seo_score": 95
     },
     {
-      "id": "SEO-409",
-      "draft": "_factory/inbox/SEO-409.article",
-      "output": "hanoi-scooter-rental/honda-vision-vs-yamaha-mio-selection-guide/index.html",
+      "id": "SEO-397",
+      "draft": "_factory/inbox/SEO-397.article",
+      "output": "hanoi-scooter-rental/honda-air-blade-with-luggage-selection-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1898,
-      "title_length": 68,
+      "word_count": 2161,
+      "title_length": 70,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-398",
+      "draft": "_factory/inbox/SEO-398.article",
+      "output": "hanoi-scooter-rental/honda-air-blade-with-luggage-checks-and-mistakes/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2123,
+      "title_length": 74,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-408",
-    "SEO-409"
+    "SEO-328",
+    "SEO-395",
+    "SEO-396",
+    "SEO-397",
+    "SEO-398"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 400,
-    "planned": 590,
-    "writing": 9,
-    "repair": 1,
-    "blocked": 0,
-    "remaining_to_target": 600,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 402,
@@ -56,17 +81,28 @@
     "remaining_to_target": 598,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 407,
+    "planned": 583,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 593,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-328",
-    "SEO-395",
-    "SEO-396",
-    "SEO-397",
-    "SEO-398",
     "SEO-410",
     "SEO-411",
     "SEO-412",
     "SEO-413",
-    "SEO-414"
+    "SEO-414",
+    "SEO-415",
+    "SEO-416",
+    "SEO-417",
+    "SEO-418",
+    "SEO-419"
   ]
 }
