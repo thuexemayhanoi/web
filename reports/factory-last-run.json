@@ -1,39 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:21:27.885Z",
-  "finished": "2026-10-07T06:21:28.065Z",
-  "base_commit": "bc0c8ee161b0fa6be842f7f49f09f02b4f71f72c",
+  "started": "2026-10-07T06:21:43.704Z",
+  "finished": "2026-10-07T06:21:43.917Z",
+  "base_commit": "e48648badcc1be369176bb7cac53a697de396fd7",
   "processed": [
     {
-      "id": "SEO-456",
-      "draft": "_factory/inbox/SEO-456.article",
-      "output": "hanoi-motorbike-rental-cost/honda-click-short-vs-long-term-cost/index.html",
+      "id": "SEO-451",
+      "draft": "_factory/inbox/SEO-451.article",
+      "output": null,
+      "status": "REJECTED",
+      "errors": [
+        "Matrix status not writable: PUBLISHED"
+      ],
+      "warnings": [],
+      "word_count": 0,
+      "title_length": 0,
+      "seo_score": 0
+    },
+    {
+      "id": "SEO-452",
+      "draft": "_factory/inbox/SEO-452.article",
+      "output": "hanoi-motorbike-rental-cost/yamaha-mio-short-vs-long-term-cost/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1615,
-      "title_length": 66,
+      "word_count": 1906,
+      "title_length": 65,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-456"
+    "SEO-452"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 445,
-    "planned": 545,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 555,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 446,
@@ -42,6 +44,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 554,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 447,
+    "planned": 543,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 553,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -53,8 +66,8 @@
     "SEO-440",
     "SEO-447",
     "SEO-449",
-    "SEO-452",
     "SEO-457",
-    "SEO-458"
+    "SEO-458",
+    "SEO-459"
   ]
 }

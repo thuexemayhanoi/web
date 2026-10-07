@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T06:21:28.064Z",
+  "generated_at": "2026-10-07T06:21:43.916Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 446,
-  "remaining_to_target": 554,
+  "current_published_content_pages": 447,
+  "remaining_to_target": 553,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -183,31 +183,6 @@
       "template": "site/templates/article.html"
     },
     {
-      "id": "SEO-452",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/yamaha-mio-short-vs-long-term-cost/",
-      "path": "hanoi-motorbike-rental-cost/yamaha-mio-short-vs-long-term-cost/index.html",
-      "silo": "Pricing",
-      "hub": "Rental Cost & Prices",
-      "content_role": "CLUSTER",
-      "primary_keyword": "yamaha mio rental short vs long term cost hanoi",
-      "intent": "Commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Yamaha Mio Short vs Long-Term Rental Cost in Hanoi: Cost Planning Guide",
-      "content_brief": "Pricing cluster for Yamaha Mio focused on short vs long-term rental cost. Use only the verified prices available on the site; if a period has no verified figure, explicitly direct readers to contact rather than estimating.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-rental-cost/",
-        "/hanoi-motorbike-rental/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_ONLY",
-      "draft_file": "_factory/inbox/SEO-452.article",
-      "template": "site/templates/article.html"
-    },
-    {
       "id": "SEO-457",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-vision-daily-price/",
       "path": "hanoi-motorbike-rental-cost/honda-vision-daily-price/index.html",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_ONLY",
       "draft_file": "_factory/inbox/SEO-458.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-459",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-vision-monthly-price/",
+      "path": "hanoi-motorbike-rental-cost/honda-vision-monthly-price/index.html",
+      "silo": "Pricing",
+      "hub": "Rental Cost & Prices",
+      "content_role": "CLUSTER",
+      "primary_keyword": "honda vision rental monthly price hanoi",
+      "intent": "Commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Honda Vision Monthly Rental Price in Hanoi: Cost Planning Guide",
+      "content_brief": "Pricing cluster for Honda Vision focused on monthly rental price. Use only the verified prices available on the site; if a period has no verified figure, explicitly direct readers to contact rather than estimating.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-rental-cost/",
+        "/hanoi-motorbike-rental/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_ONLY",
+      "draft_file": "_factory/inbox/SEO-459.article",
       "template": "site/templates/article.html"
     }
   ]
