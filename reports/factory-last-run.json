@@ -1,51 +1,52 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:04:17.342Z",
-  "finished": "2026-10-07T06:04:17.578Z",
-  "base_commit": "d9740a0371a149400c352a74353bed2460424620",
+  "started": "2026-10-07T06:05:59.880Z",
+  "finished": "2026-10-07T06:06:00.215Z",
+  "base_commit": "cc1744b4644f6165a05c1914a7c0f525a5f94c8d",
   "processed": [
     {
-      "id": "SEO-422",
-      "draft": "_factory/inbox/SEO-422.article",
-      "output": "hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter-checks-and-mistakes/index.html",
+      "id": "SEO-430",
+      "draft": "_factory/inbox/SEO-430.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-braking-checks-and-mistakes/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2265,
-      "title_length": 69,
+      "word_count": 1589,
+      "title_length": 71,
       "seo_score": 95
     },
     {
-      "id": "SEO-423",
-      "draft": "_factory/inbox/SEO-423.article",
-      "output": "hanoi-scooter-rental/small-scooter-vs-larger-scooter-selection-guide/index.html",
+      "id": "SEO-431",
+      "draft": "_factory/inbox/SEO-431.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-low-speed-control-selection-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1997,
+      "word_count": 1527,
+      "title_length": 70,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-432",
+      "draft": "_factory/inbox/SEO-432.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-low-speed-control-checks-and-mistakes/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1504,
       "title_length": 73,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-422",
-    "SEO-423"
+    "SEO-430",
+    "SEO-431",
+    "SEO-432"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 425,
-    "planned": 565,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 575,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 427,
@@ -56,17 +57,28 @@
     "remaining_to_target": 573,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 430,
+    "planned": 560,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 570,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-430",
-    "SEO-431",
-    "SEO-432",
     "SEO-433",
     "SEO-434",
     "SEO-435",
     "SEO-436",
     "SEO-437",
     "SEO-438",
-    "SEO-439"
+    "SEO-439",
+    "SEO-440",
+    "SEO-441",
+    "SEO-442"
   ]
 }
