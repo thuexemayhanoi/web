@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:03:47.969Z",
-  "finished": "2026-10-07T04:03:48.089Z",
-  "base_commit": "0964004ca8c839ebad083bb698b19dba447a5c30",
+  "started": "2026-10-07T04:04:15.219Z",
+  "finished": "2026-10-07T04:04:15.372Z",
+  "base_commit": "d3b4afea98c2c7fb39139796049567dea731a99c",
   "processed": [
     {
-      "id": "SEO-225",
-      "draft": "_factory/inbox/SEO-225.article",
-      "output": "hanoi-motorbike-rental/photography-travelers-parking-strategy/index.html",
+      "id": "SEO-226",
+      "draft": "_factory/inbox/SEO-226.article",
+      "output": "hanoi-motorbike-rental/photography-travelers-rainy-day-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2645,
-      "title_length": 66,
+      "word_count": 2794,
+      "title_length": 68,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-225"
+    "SEO-226"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 223,
-    "planned": 767,
-    "writing": 9,
-    "repair": 1,
-    "blocked": 0,
-    "remaining_to_target": 777,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 224,
@@ -44,10 +33,20 @@
     "remaining_to_target": 776,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 225,
+    "planned": 765,
+    "writing": 9,
+    "repair": 1,
+    "blocked": 0,
+    "remaining_to_target": 775,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
     "SEO-224",
-    "SEO-226",
     "SEO-229",
     "SEO-230",
     "SEO-231",
@@ -55,6 +54,7 @@
     "SEO-233",
     "SEO-234",
     "SEO-235",
-    "SEO-236"
+    "SEO-236",
+    "SEO-237"
   ]
 }
