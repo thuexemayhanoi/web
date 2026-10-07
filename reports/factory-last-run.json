@@ -1,48 +1,53 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:01:03.864Z",
-  "finished": "2026-10-07T06:01:04.107Z",
-  "base_commit": "be7c5b3b67a24ab5bde5949765a208d56042e31d",
+  "started": "2026-10-07T06:01:26.468Z",
+  "finished": "2026-10-07T06:01:26.684Z",
+  "base_commit": "610856a9e1e4f4779a44648d53b766202e15c512",
   "processed": [
     {
-      "id": "SEO-420",
-      "draft": "_factory/inbox/SEO-420.article",
-      "output": "hanoi-scooter-rental/automatic-scooter-vs-semi-automatic-checks-and-mistakes/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "SEO-425",
+      "draft": "_factory/inbox/SEO-425.article",
+      "output": "hanoi-scooter-rental/budget-automatic-scooter-selection-guide/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "word count 1408 outside 1500-5000",
+        "broken internal link: /hanoi-50cc-motorbike-rental/choosing-a-50cc-for-hanoi-traffic/"
+      ],
       "warnings": [],
-      "word_count": 2019,
-      "title_length": 73,
-      "seo_score": 95
+      "word_count": 1408,
+      "title_length": 66,
+      "seo_score": 80
     },
     {
-      "id": "SEO-421",
-      "draft": "_factory/inbox/SEO-421.article",
-      "output": "hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter-selection-guide/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "SEO-426",
+      "draft": "_factory/inbox/SEO-426.article",
+      "output": "hanoi-scooter-rental/budget-automatic-scooter-checks-and-mistakes/index.html",
+      "status": "REPAIR",
+      "errors": [
+        "word count 1443 outside 1500-5000"
+      ],
       "warnings": [],
-      "word_count": 1919,
-      "title_length": 74,
-      "seo_score": 95
+      "word_count": 1443,
+      "title_length": 70,
+      "seo_score": 80
     }
   ],
-  "published_ids": [
-    "SEO-420",
-    "SEO-421"
+  "published_ids": [],
+  "repair_ids": [
+    "SEO-425",
+    "SEO-426"
   ],
-  "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 420,
-    "planned": 570,
+    "published": 422,
+    "planned": 568,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 580,
+    "remaining_to_target": 578,
     "unplanned_slots": 0
   },
   "stats_after": {
@@ -50,8 +55,8 @@
     "matrix_content_rows": 1000,
     "published": 422,
     "planned": 568,
-    "writing": 10,
-    "repair": 0,
+    "writing": 8,
+    "repair": 2,
     "blocked": 0,
     "remaining_to_target": 578,
     "unplanned_slots": 0
