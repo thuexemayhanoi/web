@@ -787,4 +787,8 @@
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-hoa-binh-safety-checklist/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-hoa-binh-return-planning/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-bac-ninh-route-planning/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-bac-ninh-one-day-feasibility/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-bac-ninh-two-day-itinerary/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-bac-ninh-bike-choice/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-bac-ninh-weather-planning/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
