@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T08:30:51.043Z",
-  "finished": "2026-10-07T08:30:51.257Z",
-  "base_commit": "f56668324a0fdc50b1f3bd70b9f494ba45f09518",
+  "started": "2026-10-07T08:32:34.128Z",
+  "finished": "2026-10-07T08:32:34.334Z",
+  "base_commit": "5c6b595f35efb198f05f301670103004fba8b59d",
   "processed": [
     {
-      "id": "SEO-557",
-      "draft": "_factory/inbox/SEO-557.article",
-      "output": "motorbike-rental-hanoi-old-quarter/cau-giay-traffic-guide/index.html",
+      "id": "SEO-558",
+      "draft": "_factory/inbox/SEO-558.article",
+      "output": "motorbike-rental-hanoi-old-quarter/cau-giay-route-connections/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2474,
-      "title_length": 55,
+      "word_count": 2621,
+      "title_length": 59,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-557"
+    "SEO-558"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 554,
-    "planned": 436,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 446,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 555,
@@ -44,9 +33,19 @@
     "remaining_to_target": 445,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 556,
+    "planned": 434,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 444,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-558",
     "SEO-559",
     "SEO-560",
     "SEO-561",
@@ -55,6 +54,7 @@
     "SEO-564",
     "SEO-565",
     "SEO-566",
-    "SEO-567"
+    "SEO-567",
+    "SEO-568"
   ]
 }
