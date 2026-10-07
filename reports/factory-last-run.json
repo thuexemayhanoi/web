@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T21:42:25.891Z",
-  "finished": "2026-10-07T21:42:26.087Z",
-  "base_commit": "a1b4b2cf053d210052a8da0951b448308b07ebef",
+  "started": "2026-10-07T21:43:18.061Z",
+  "finished": "2026-10-07T21:43:18.243Z",
+  "base_commit": "750f92eb429485d50c10efb64aaedaeede4a0687",
   "processed": [
     {
-      "id": "SEO-832",
-      "draft": "_factory/inbox/SEO-832.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-yen-tu-route-planning/index.html",
+      "id": "SEO-833",
+      "draft": "_factory/inbox/SEO-833.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-yen-tu-one-day-feasibility/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2006,
-      "title_length": 68,
+      "word_count": 1979,
+      "title_length": 54,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-832"
+    "SEO-833"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 829,
-    "planned": 161,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 171,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 830,
@@ -45,9 +34,19 @@
     "remaining_to_target": 170,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 831,
+    "planned": 159,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 169,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-833",
     "SEO-834",
     "SEO-835",
     "SEO-836",
@@ -56,6 +55,7 @@
     "SEO-839",
     "SEO-840",
     "SEO-841",
-    "SEO-842"
+    "SEO-842",
+    "SEO-843"
   ]
 }
