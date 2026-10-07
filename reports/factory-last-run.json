@@ -1,87 +1,38 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:49:47.827Z",
-  "finished": "2026-10-07T05:49:48.028Z",
-  "base_commit": "a6ef4a6f505661a72893443da40ab2bb923bbcea",
+  "started": "2026-10-07T05:51:17.808Z",
+  "finished": "2026-10-07T05:51:18.023Z",
+  "base_commit": "5db338a13133bfb819a727821342080c03b8ad81",
   "processed": [
     {
-      "id": "SEO-399",
-      "draft": "_factory/inbox/SEO-399.article",
-      "output": null,
-      "status": "REJECTED",
+      "id": "SEO-328",
+      "draft": "_factory/inbox/SEO-328.article",
+      "output": "hanoi-50cc-motorbike-rental/older-riders-vs-automatic-scooter/index.html",
+      "status": "REPAIR",
       "errors": [
-        "Matrix status not writable: PUBLISHED"
+        "broken internal link: /hanoi-50cc-motorbike-rental/older-\nriders-route-suitability/"
       ],
       "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-400",
-      "draft": "_factory/inbox/SEO-400.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-401",
-      "draft": "_factory/inbox/SEO-401.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-402",
-      "draft": "_factory/inbox/SEO-402.article",
-      "output": "hanoi-scooter-rental/yamaha-mio-for-beginners-checks-and-mistakes/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1812,
-      "title_length": 70,
-      "seo_score": 95
-    },
-    {
-      "id": "SEO-403",
-      "draft": "_factory/inbox/SEO-403.article",
-      "output": "hanoi-scooter-rental/honda-vision-for-expats-selection-guide/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 1843,
-      "title_length": 65,
+      "word_count": 1984,
+      "title_length": 64,
       "seo_score": 95
     }
   ],
-  "published_ids": [
-    "SEO-402",
-    "SEO-403"
+  "published_ids": [],
+  "repair_ids": [
+    "SEO-328"
   ],
-  "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 394,
-    "planned": 596,
+    "published": 396,
+    "planned": 594,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 606,
+    "remaining_to_target": 604,
     "unplanned_slots": 0
   },
   "stats_after": {
@@ -89,8 +40,8 @@
     "matrix_content_rows": 1000,
     "published": 396,
     "planned": 594,
-    "writing": 10,
-    "repair": 0,
+    "writing": 9,
+    "repair": 1,
     "blocked": 0,
     "remaining_to_target": 604,
     "unplanned_slots": 0
