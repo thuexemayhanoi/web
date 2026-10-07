@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T08:39:59.635Z",
-  "finished": "2026-10-07T08:39:59.816Z",
-  "base_commit": "1ca7f0e47aa10f1069680f8c9dbea1ca5b62692b",
+  "started": "2026-10-07T08:41:10.981Z",
+  "finished": "2026-10-07T08:41:11.203Z",
+  "base_commit": "bf789b99529da06f6cb24a0cad135f7032413d6c",
   "processed": [
     {
-      "id": "SEO-565",
-      "draft": "_factory/inbox/SEO-565.article",
-      "output": "motorbike-rental-hanoi-old-quarter/bac-tu-liem-rental-planning/index.html",
+      "id": "SEO-566",
+      "draft": "_factory/inbox/SEO-566.article",
+      "output": "motorbike-rental-hanoi-old-quarter/bac-tu-liem-parking-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2494,
-      "title_length": 60,
+      "word_count": 2291,
+      "title_length": 58,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-565"
+    "SEO-566"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 562,
-    "planned": 428,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 438,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 563,
@@ -44,9 +33,19 @@
     "remaining_to_target": 437,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 564,
+    "planned": 426,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 436,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-566",
     "SEO-567",
     "SEO-568",
     "SEO-569",
@@ -55,6 +54,7 @@
     "SEO-572",
     "SEO-573",
     "SEO-574",
-    "SEO-575"
+    "SEO-575",
+    "SEO-576"
   ]
 }
