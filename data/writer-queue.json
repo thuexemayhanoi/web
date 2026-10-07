@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T08:24:57.256Z",
+  "generated_at": "2026-10-07T08:25:46.590Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 548,
-  "remaining_to_target": 452,
+  "current_published_content_pages": 549,
+  "remaining_to_target": 451,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-551",
-      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/hai-ba-trung-parking-guide/",
-      "path": "motorbike-rental-hanoi-old-quarter/hai-ba-trung-parking-guide/index.html",
-      "silo": "Local Areas",
-      "hub": "Old Quarter & Areas",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hai ba trung hanoi motorbike parking guide",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hai Ba Trung by Motorbike: Motorbike Parking Guide in Hanoi",
-      "content_brief": "Local riding cluster for Hai Ba Trung, focused on parking habits, common constraints and questions to check locally without inventing guaranteed parking. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
-      "internal_link_targets": [
-        "/motorbike-rental-hanoi-old-quarter/",
-        "/hanoi-motorbike-rental/",
-        "/motorbike-guides/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-551.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-552",
       "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/hai-ba-trung-traffic-guide/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-560.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-561",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/nam-tu-liem-parking-guide/",
+      "path": "motorbike-rental-hanoi-old-quarter/nam-tu-liem-parking-guide/index.html",
+      "silo": "Local Areas",
+      "hub": "Old Quarter & Areas",
+      "content_role": "CLUSTER",
+      "primary_keyword": "nam tu liem hanoi motorbike parking guide",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Nam Tu Liem by Motorbike: Motorbike Parking Guide in Hanoi",
+      "content_brief": "Local riding cluster for Nam Tu Liem, focused on parking habits, common constraints and questions to check locally without inventing guaranteed parking. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
+      "internal_link_targets": [
+        "/motorbike-rental-hanoi-old-quarter/",
+        "/hanoi-motorbike-rental/",
+        "/motorbike-guides/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_LOCAL_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-561.article",
       "template": "site/templates/article.html"
     }
   ]
