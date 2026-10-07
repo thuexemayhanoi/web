@@ -1,62 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T12:47:58.626Z",
+  "generated_at": "2026-10-07T12:48:36.514Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 669,
-  "remaining_to_target": 331,
+  "current_published_content_pages": 671,
+  "remaining_to_target": 329,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-672",
-      "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/new-hanoi-residents-maintenance-expectations/",
-      "path": "monthly-motorbike-rental-hanoi/new-hanoi-residents-maintenance-expectations/index.html",
-      "silo": "Long-Term Rental",
-      "hub": "Monthly Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "monthly motorbike rental hanoi new Hanoi residents maintenance expectations",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "New Hanoi Residents: Maintenance Expectations in Hanoi",
-      "content_brief": "Long-term rental cluster for new Hanoi residents, focused on what long-term renters should monitor and what to ask the shop without promising service terms. Use verified monthly prices where relevant and never invent discounts, deposits, maintenance guarantees or contract terms.",
-      "internal_link_targets": [
-        "/monthly-motorbike-rental-hanoi/",
-        "/hanoi-motorbike-rental-cost/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-672.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-673",
-      "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/new-hanoi-residents-parking-and-security/",
-      "path": "monthly-motorbike-rental-hanoi/new-hanoi-residents-parking-and-security/index.html",
-      "silo": "Long-Term Rental",
-      "hub": "Monthly Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "monthly motorbike rental hanoi new Hanoi residents parking and security",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "New Hanoi Residents: Parking and Security Planning in Hanoi",
-      "content_brief": "Long-term rental cluster for new Hanoi residents, focused on building safe daily parking habits and questions for home or workplace parking. Use verified monthly prices where relevant and never invent discounts, deposits, maintenance guarantees or contract terms.",
-      "internal_link_targets": [
-        "/monthly-motorbike-rental-hanoi/",
-        "/hanoi-motorbike-rental-cost/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-673.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-674",
       "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/new-hanoi-residents-commuting-setup/",
@@ -255,6 +205,56 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-681.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-682",
+      "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/researchers-model-choice/",
+      "path": "monthly-motorbike-rental-hanoi/researchers-model-choice/index.html",
+      "silo": "Long-Term Rental",
+      "hub": "Monthly Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "monthly motorbike rental hanoi researchers model choice",
+      "intent": "Commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Researchers: Choosing a Monthly Rental Bike in Hanoi",
+      "content_brief": "Long-term rental cluster for researchers, focused on matching model type and verified monthly pricing to long-term use. Use verified monthly prices where relevant and never invent discounts, deposits, maintenance guarantees or contract terms.",
+      "internal_link_targets": [
+        "/monthly-motorbike-rental-hanoi/",
+        "/hanoi-motorbike-rental-cost/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-682.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-683",
+      "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/researchers-monthly-budget/",
+      "path": "monthly-motorbike-rental-hanoi/researchers-monthly-budget/index.html",
+      "silo": "Long-Term Rental",
+      "hub": "Monthly Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "monthly motorbike rental hanoi researchers monthly budget",
+      "intent": "Commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Researchers: Monthly Rental Budget Planning in Hanoi",
+      "content_brief": "Long-term rental cluster for researchers, focused on planning rental cost plus normal operating expenses without inventing discounts. Use verified monthly prices where relevant and never invent discounts, deposits, maintenance guarantees or contract terms.",
+      "internal_link_targets": [
+        "/monthly-motorbike-rental-hanoi/",
+        "/hanoi-motorbike-rental-cost/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-683.article",
       "template": "site/templates/article.html"
     }
   ]
