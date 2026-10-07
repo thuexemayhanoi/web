@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T04:44:08.152Z",
+  "generated_at": "2026-10-07T04:45:12.514Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 286,
-  "remaining_to_target": 714,
+  "current_published_content_pages": 288,
+  "remaining_to_target": 712,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -183,56 +183,6 @@
       "template": "site/templates/article.html"
     },
     {
-      "id": "SEO-296",
-      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/couples-route-suitability/",
-      "path": "hanoi-50cc-motorbike-rental/couples-route-suitability/index.html",
-      "silo": "50cc Motorbike Rental",
-      "hub": "50cc Motorbike Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "50cc motorbike hanoi couples route suitability",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Couples: 50cc Route Suitability for 50cc Rental in Hanoi",
-      "content_brief": "50cc cluster for couples, focused on which kinds of city and near-city routes suit a 50cc plan and which need more caution. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
-      "internal_link_targets": [
-        "/hanoi-50cc-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-296.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-297",
-      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/couples-bridges-and-inclines/",
-      "path": "hanoi-50cc-motorbike-rental/couples-bridges-and-inclines/index.html",
-      "silo": "50cc Motorbike Rental",
-      "hub": "50cc Motorbike Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "50cc motorbike hanoi couples bridges and inclines",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Couples: 50cc on Bridges and Inclines for 50cc Rental in Hanoi",
-      "content_brief": "50cc cluster for couples, focused on planning for bridges, inclines, load and speed expectations without inventing performance specifications. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
-      "internal_link_targets": [
-        "/hanoi-50cc-motorbike-rental/",
-        "/hanoi-motorbike-rental-cost/",
-        "/faq/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-297.article",
-      "template": "site/templates/article.html"
-    },
-    {
       "id": "SEO-298",
       "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/couples-passenger-use/",
       "path": "hanoi-50cc-motorbike-rental/couples-passenger-use/index.html",
@@ -255,6 +205,56 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-298.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-299",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/couples-rainy-weather/",
+      "path": "hanoi-50cc-motorbike-rental/couples-rainy-weather/index.html",
+      "silo": "50cc Motorbike Rental",
+      "hub": "50cc Motorbike Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "50cc motorbike hanoi couples rainy weather",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Couples: 50cc in Rainy Weather for 50cc Rental in Hanoi",
+      "content_brief": "50cc cluster for couples, focused on wet-weather visibility, braking and route planning for small-displacement riders. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
+      "internal_link_targets": [
+        "/hanoi-50cc-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-299.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-300",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/couples-daily-rental-planning/",
+      "path": "hanoi-50cc-motorbike-rental/couples-daily-rental-planning/index.html",
+      "silo": "50cc Motorbike Rental",
+      "hub": "50cc Motorbike Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "50cc motorbike hanoi couples daily rental planning",
+      "intent": "Commercial investigation",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Couples: 50cc Daily Rental Planning for 50cc Rental in Hanoi",
+      "content_brief": "50cc cluster for couples, focused on using the verified 200,000 VND daily price in a practical one-day rental plan without inventing weekly or monthly rates. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
+      "internal_link_targets": [
+        "/hanoi-50cc-motorbike-rental/",
+        "/hanoi-motorbike-rental-cost/",
+        "/faq/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-300.article",
       "template": "site/templates/article.html"
     }
   ]
