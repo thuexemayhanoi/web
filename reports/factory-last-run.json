@@ -1,37 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T22:05:05.191Z",
-  "finished": "2026-10-07T22:05:05.401Z",
-  "base_commit": "dbdc2cc0c5424c6bc520704d6afbca80881ee10b",
-  "processed": [
-    {
-      "id": "SEO-862",
-      "draft": "_factory/inbox/SEO-862.article",
-      "output": "hanoi-motorbike-for-sale/digital-nomads-resale-planning/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2169,
-      "title_length": 52,
-      "seo_score": 95
-    }
-  ],
-  "published_ids": [
-    "SEO-862"
-  ],
+  "started": "2026-10-07T22:05:45.368Z",
+  "finished": "2026-10-07T22:05:45.447Z",
+  "base_commit": "cc52ce79ee115f4794de11f9c8357f5887dd62c0",
+  "processed": [],
+  "published_ids": [],
   "repair_ids": [],
   "blocked_ids": [],
-  "pruned_stale_drafts": [],
+  "pruned_stale_drafts": [
+    "_factory/inbox/SEO-824.article",
+    "_factory/inbox/SEO-825.article",
+    "_factory/inbox/SEO-826.article",
+    "_factory/inbox/SEO-827.article",
+    "_factory/inbox/SEO-828.article"
+  ],
   "fatal": null,
   "stats_before": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 859,
-    "planned": 131,
+    "published": 860,
+    "planned": 130,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 141,
+    "remaining_to_target": 140,
     "unplanned_slots": 0
   },
   "stats_after": {
