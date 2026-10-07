@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Site Build and QA
 
 on:
   push:
@@ -10,14 +10,13 @@ on:
       - 'reports/factory-last-run.json'
   workflow_dispatch:
 
+# Native GitHub Pages deploys the main branch separately; this job checks quality.
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: site-publish-v2
-  cancel-in-progress: false
+  group: site-qa-v3
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -33,14 +32,3 @@ jobs:
         run: node tools/build-site.mjs --check
       - name: Build search index
         run: node tools/build-search-index.mjs
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
