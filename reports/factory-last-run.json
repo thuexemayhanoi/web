@@ -1,113 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T04:07:32.388Z",
-  "finished": "2026-10-07T04:07:32.560Z",
-  "base_commit": "6ec53f377eb6bf5b5bb62ba83e73eb806c05e472",
+  "started": "2026-10-07T04:08:27.596Z",
+  "finished": "2026-10-07T04:08:27.755Z",
+  "base_commit": "3965649e1bc529e0d8377aa8dcea4f9d289d5895",
   "processed": [
     {
-      "id": "SEO-206",
-      "draft": "_factory/inbox/SEO-206.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-216",
-      "draft": "_factory/inbox/SEO-216.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
-      "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
-    },
-    {
-      "id": "SEO-224",
-      "draft": "_factory/inbox/SEO-224.article",
-      "output": "hanoi-motorbike-rental/photography-travelers-traffic-preparation/index.html",
+      "id": "SEO-234",
+      "draft": "_factory/inbox/SEO-234.article",
+      "output": "hanoi-50cc-motorbike-rental/beginners-bridges-and-inclines/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2731,
-      "title_length": 69,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-231",
-      "draft": "_factory/inbox/SEO-231.article",
-      "output": "hanoi-50cc-motorbike-rental/beginners-city-traffic/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2141,
-      "title_length": 56,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-232",
-      "draft": "_factory/inbox/SEO-232.article",
-      "output": "hanoi-50cc-motorbike-rental/beginners-parking/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2131,
-      "title_length": 72,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-236",
-      "draft": "_factory/inbox/SEO-236.article",
-      "output": "hanoi-50cc-motorbike-rental/beginners-rainy-weather/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2106,
-      "title_length": 57,
-      "seo_score": 100
-    },
-    {
-      "id": "SEO-237",
-      "draft": "_factory/inbox/SEO-237.article",
-      "output": "hanoi-50cc-motorbike-rental/beginners-daily-rental-planning/index.html",
-      "status": "PUBLISHED",
-      "errors": [],
-      "warnings": [],
-      "word_count": 2113,
-      "title_length": 62,
+      "word_count": 2818,
+      "title_length": 64,
       "seo_score": 100
     }
   ],
   "published_ids": [
-    "SEO-224",
-    "SEO-231",
-    "SEO-232",
-    "SEO-236",
-    "SEO-237"
+    "SEO-234"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 228,
-    "planned": 762,
-    "writing": 9,
-    "repair": 1,
-    "blocked": 0,
-    "remaining_to_target": 772,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 233,
@@ -118,9 +33,19 @@
     "remaining_to_target": 767,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 234,
+    "planned": 756,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 766,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-234",
     "SEO-235",
     "SEO-238",
     "SEO-239",
@@ -129,6 +54,7 @@
     "SEO-242",
     "SEO-243",
     "SEO-244",
-    "SEO-245"
+    "SEO-245",
+    "SEO-246"
   ]
 }
