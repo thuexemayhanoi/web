@@ -1,62 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T14:35:14.905Z",
+  "generated_at": "2026-10-07T14:37:00.198Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 686,
-  "remaining_to_target": 314,
+  "current_published_content_pages": 688,
+  "remaining_to_target": 312,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-689",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ba-vi-one-day-feasibility/",
-      "path": "hanoi-motorbike-trips/hanoi-to-ba-vi-one-day-feasibility/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to ba vi motorbike one day feasibility",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Ba Vi by Motorbike: One-Day Trip Feasibility",
-      "content_brief": "Destination cluster for a Hanoi-to-Ba Vi motorbike trip, focused on whether a same-day plan is realistic in principle and what factors can make it unsuitable, without fabricated times. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-689.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-690",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ba-vi-two-day-itinerary/",
-      "path": "hanoi-motorbike-trips/hanoi-to-ba-vi-two-day-itinerary/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to ba vi motorbike two day itinerary",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Ba Vi by Motorbike: Two-Day Trip Planning",
-      "content_brief": "Destination cluster for a Hanoi-to-Ba Vi motorbike trip, focused on a flexible two-day structure with rest and weather contingencies rather than fixed timing promises. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-690.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-691",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ba-vi-bike-choice/",
@@ -255,6 +205,56 @@
       ],
       "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
       "draft_file": "_factory/inbox/SEO-698.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-699",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ninh-binh-two-day-itinerary/",
+      "path": "hanoi-motorbike-trips/hanoi-to-ninh-binh-two-day-itinerary/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to ninh binh motorbike two day itinerary",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Ninh Binh by Motorbike: Two-Day Trip Planning",
+      "content_brief": "Destination cluster for a Hanoi-to-Ninh Binh motorbike trip, focused on a flexible two-day structure with rest and weather contingencies rather than fixed timing promises. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-699.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-700",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ninh-binh-bike-choice/",
+      "path": "hanoi-motorbike-trips/hanoi-to-ninh-binh-bike-choice/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to ninh binh motorbike bike choice",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Ninh Binh by Motorbike: Choosing a Bike for the Trip",
+      "content_brief": "Destination cluster for a Hanoi-to-Ninh Binh motorbike trip, focused on what bike characteristics matter for this destination and which verified rental categories to discuss. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-700.article",
       "template": "site/templates/article.html"
     }
   ]

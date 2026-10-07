@@ -1,51 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T14:35:14.562Z",
-  "finished": "2026-10-07T14:35:14.906Z",
-  "base_commit": "fcadb366cbb2b90c5a87b1c9528400792f9085ce",
+  "started": "2026-10-07T14:36:59.994Z",
+  "finished": "2026-10-07T14:37:00.198Z",
+  "base_commit": "c3d2cb15473affb931d3997173da099cb2f0e9cc",
   "processed": [
     {
-      "id": "SEO-687",
-      "draft": "_factory/inbox/SEO-687.article",
-      "output": "monthly-motorbike-rental-hanoi/researchers-contract-questions/index.html",
+      "id": "SEO-689",
+      "draft": "_factory/inbox/SEO-689.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-ba-vi-one-day-feasibility/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1920,
-      "title_length": 72,
+      "word_count": 1965,
+      "title_length": 53,
       "seo_score": 95
     },
     {
-      "id": "SEO-688",
-      "draft": "_factory/inbox/SEO-688.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-ba-vi-route-planning/index.html",
+      "id": "SEO-690",
+      "draft": "_factory/inbox/SEO-690.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-ba-vi-two-day-itinerary/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1977,
-      "title_length": 67,
+      "word_count": 1924,
+      "title_length": 50,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-687",
-    "SEO-688"
+    "SEO-689",
+    "SEO-690"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 684,
-    "planned": 306,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 316,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 686,
@@ -56,10 +45,19 @@
     "remaining_to_target": 314,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 688,
+    "planned": 302,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 312,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-689",
-    "SEO-690",
     "SEO-691",
     "SEO-692",
     "SEO-693",
@@ -67,6 +65,8 @@
     "SEO-695",
     "SEO-696",
     "SEO-697",
-    "SEO-698"
+    "SEO-698",
+    "SEO-699",
+    "SEO-700"
   ]
 }
