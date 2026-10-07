@@ -1,39 +1,56 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T07:34:17.134Z",
-  "finished": "2026-10-07T07:34:17.329Z",
-  "base_commit": "2f87a5a1269d4fd45b059e85491862737ca5982f",
+  "started": "2026-10-07T07:40:33.259Z",
+  "finished": "2026-10-07T07:40:33.478Z",
+  "base_commit": "09fae041f676e86c14289517bb982fc9e29c84dd",
   "processed": [
     {
-      "id": "SEO-518",
-      "draft": "_factory/inbox/SEO-518.article",
-      "output": "motorbike-rental-hanoi-old-quarter/old-quarter-route-connections/index.html",
+      "id": "SEO-433",
+      "draft": "_factory/inbox/SEO-433.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-fuel-planning-selection-guide/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [
+        "meta description length 181 outside recommended 120-180"
+      ],
+      "word_count": 1870,
+      "title_length": 73,
+      "seo_score": 90
+    },
+    {
+      "id": "SEO-434",
+      "draft": "_factory/inbox/SEO-434.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-fuel-planning-checks-and-mistakes/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [
+        "meta description length 190 outside recommended 120-180"
+      ],
+      "word_count": 1713,
+      "title_length": 69,
+      "seo_score": 90
+    },
+    {
+      "id": "SEO-435",
+      "draft": "_factory/inbox/SEO-435.article",
+      "output": "hanoi-scooter-rental/automatic-scooter-route-planning-selection-guide/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2109,
-      "title_length": 62,
+      "word_count": 1618,
+      "title_length": 66,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-518"
+    "SEO-433",
+    "SEO-434",
+    "SEO-435"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 506,
-    "planned": 484,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 494,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 507,
@@ -44,17 +61,28 @@
     "remaining_to_target": 493,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 510,
+    "planned": 480,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 490,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-433",
-    "SEO-434",
-    "SEO-435",
     "SEO-436",
     "SEO-440",
     "SEO-447",
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-519"
+    "SEO-519",
+    "SEO-520",
+    "SEO-521",
+    "SEO-522"
   ]
 }
