@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:25:20.586Z",
-  "finished": "2026-10-07T06:25:20.703Z",
-  "base_commit": "e99e4b20e50542aefb4e8a67ba77a83e63fd910e",
+  "started": "2026-10-07T06:26:04.515Z",
+  "finished": "2026-10-07T06:26:04.696Z",
+  "base_commit": "fb18e45e9ea5cbf0b82b0c47965bb857d85e4f71",
   "processed": [
     {
-      "id": "SEO-461",
-      "draft": "_factory/inbox/SEO-461.article",
-      "output": "hanoi-motorbike-rental-cost/honda-air-blade-daily-price/index.html",
+      "id": "SEO-462",
+      "draft": "_factory/inbox/SEO-462.article",
+      "output": "hanoi-motorbike-rental-cost/honda-air-blade-weekly-price/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1893,
-      "title_length": 64,
+      "word_count": 1810,
+      "title_length": 65,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-461"
+    "SEO-462"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 450,
-    "planned": 540,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 550,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 451,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 549,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 452,
+    "planned": 538,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 548,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -54,7 +54,7 @@
     "SEO-447",
     "SEO-449",
     "SEO-458",
-    "SEO-462",
-    "SEO-463"
+    "SEO-463",
+    "SEO-464"
   ]
 }
