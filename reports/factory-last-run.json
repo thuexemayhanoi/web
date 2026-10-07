@@ -1,24 +1,36 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T03:28:56.030Z",
-  "finished": "2026-10-07T03:28:56.146Z",
-  "base_commit": "69406332df310e3bbe7593a0d28aa9adde2e91a5",
+  "started": "2026-10-07T03:29:52.343Z",
+  "finished": "2026-10-07T03:29:52.484Z",
+  "base_commit": "d738bc5cebd18a64a5e038c06d934d05c927385a",
   "processed": [
     {
-      "id": "SEO-182",
-      "draft": "_factory/inbox/SEO-182.article",
-      "output": null,
-      "status": "REJECTED",
-      "errors": [
-        "Matrix status not writable: PUBLISHED"
-      ],
+      "id": "SEO-184",
+      "draft": "_factory/inbox/SEO-184.article",
+      "output": "hanoi-motorbike-rental/tall-riders-pre-ride-inspection/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
       "warnings": [],
-      "word_count": 0,
-      "title_length": 0,
-      "seo_score": 0
+      "word_count": 1694,
+      "title_length": 59,
+      "seo_score": 100
+    },
+    {
+      "id": "SEO-185",
+      "draft": "_factory/inbox/SEO-185.article",
+      "output": "hanoi-motorbike-rental/tall-riders-rental-paperwork-questions/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1651,
+      "title_length": 66,
+      "seo_score": 100
     }
   ],
-  "published_ids": [],
+  "published_ids": [
+    "SEO-184",
+    "SEO-185"
+  ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
@@ -36,18 +48,16 @@
   "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 180,
-    "planned": 809,
+    "published": 182,
+    "planned": 807,
     "writing": 10,
     "repair": 0,
     "blocked": 1,
-    "remaining_to_target": 820,
+    "remaining_to_target": 818,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-184",
-    "SEO-185",
     "SEO-186",
     "SEO-187",
     "SEO-188",
@@ -55,6 +65,8 @@
     "SEO-190",
     "SEO-191",
     "SEO-192",
-    "SEO-193"
+    "SEO-193",
+    "SEO-194",
+    "SEO-195"
   ]
 }
