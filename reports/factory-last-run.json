@@ -1,52 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T20:54:51.312Z",
-  "finished": "2026-10-07T20:54:51.628Z",
+  "started": "2026-10-07T20:55:11.373Z",
+  "finished": "2026-10-07T20:55:11.613Z",
   "base_commit": null,
   "processed": [
     {
-      "id": "SEO-792",
-      "draft": "_factory/inbox/SEO-792.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-bac-ninh-fuel-and-rest-stops/index.html",
+      "id": "SEO-794",
+      "draft": "_factory/inbox/SEO-794.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-bac-ninh-safety-checklist/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2026,
-      "title_length": 59,
+      "word_count": 1905,
+      "title_length": 72,
       "seo_score": 95
     },
     {
-      "id": "SEO-793",
-      "draft": "_factory/inbox/SEO-793.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-bac-ninh-luggage-packing/index.html",
+      "id": "SEO-795",
+      "draft": "_factory/inbox/SEO-795.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-bac-ninh-return-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1921,
-      "title_length": 53,
+      "word_count": 1906,
+      "title_length": 56,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-792",
-    "SEO-793"
+    "SEO-794",
+    "SEO-795"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 789,
-    "planned": 201,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 211,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 791,
@@ -57,10 +46,19 @@
     "remaining_to_target": 209,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 793,
+    "planned": 197,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 207,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-794",
-    "SEO-795",
     "SEO-796",
     "SEO-797",
     "SEO-798",
@@ -68,6 +66,8 @@
     "SEO-800",
     "SEO-801",
     "SEO-802",
-    "SEO-803"
+    "SEO-803",
+    "SEO-804",
+    "SEO-805"
   ]
 }
