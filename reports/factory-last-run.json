@@ -1,51 +1,27 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T18:51:23.478Z",
-  "finished": "2026-10-07T18:51:23.564Z",
-  "base_commit": "d1d166a9303c99ca4fde4fbe883bf286c3940393",
-  "processed": [],
-  "published_ids": [],
+  "started": "2026-10-07T19:20:15.792Z",
+  "finished": "2026-10-07T19:20:15.960Z",
+  "base_commit": "34e1222b96988e0c20013ba6a64c0f2988a0464b",
+  "processed": [
+    {
+      "id": "SEO-723",
+      "draft": "_factory/inbox/SEO-723.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-mai-chau-return-planning/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2130,
+      "title_length": 56,
+      "seo_score": 95
+    }
+  ],
+  "published_ids": [
+    "SEO-723"
+  ],
   "repair_ids": [],
   "blocked_ids": [],
-  "pruned_stale_drafts": [
-    "_factory/inbox/SEO-206.article",
-    "_factory/inbox/SEO-216.article",
-    "_factory/inbox/SEO-235.article",
-    "_factory/inbox/SEO-344.article",
-    "_factory/inbox/SEO-381.article",
-    "_factory/inbox/SEO-382.article",
-    "_factory/inbox/SEO-384.article",
-    "_factory/inbox/SEO-386.article",
-    "_factory/inbox/SEO-387.article",
-    "_factory/inbox/SEO-392.article",
-    "_factory/inbox/SEO-393.article",
-    "_factory/inbox/SEO-394.article",
-    "_factory/inbox/SEO-399.article",
-    "_factory/inbox/SEO-400.article",
-    "_factory/inbox/SEO-401.article",
-    "_factory/inbox/SEO-415.article",
-    "_factory/inbox/SEO-438.article",
-    "_factory/inbox/SEO-441.article",
-    "_factory/inbox/SEO-443.article",
-    "_factory/inbox/SEO-444.article",
-    "_factory/inbox/SEO-445.article",
-    "_factory/inbox/SEO-446.article",
-    "_factory/inbox/SEO-451.article",
-    "_factory/inbox/SEO-460.article",
-    "_factory/inbox/SEO-461.article",
-    "_factory/inbox/SEO-466.article",
-    "_factory/inbox/SEO-469.article",
-    "_factory/inbox/SEO-472.article",
-    "_factory/inbox/SEO-473.article",
-    "_factory/inbox/SEO-477.article",
-    "_factory/inbox/SEO-504.article",
-    "_factory/inbox/SEO-507.article",
-    "_factory/inbox/SEO-509.article",
-    "_factory/inbox/SEO-510.article",
-    "_factory/inbox/SEO-513.article",
-    "_factory/inbox/SEO-515.article",
-    "_factory/inbox/SEO-516.article"
-  ],
+  "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
     "target": 1000,
@@ -61,17 +37,16 @@
   "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
-    "published": 720,
-    "planned": 270,
+    "published": 721,
+    "planned": 269,
     "writing": 10,
     "repair": 0,
     "blocked": 0,
-    "remaining_to_target": 280,
+    "remaining_to_target": 279,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-723",
     "SEO-724",
     "SEO-725",
     "SEO-726",
@@ -80,6 +55,7 @@
     "SEO-729",
     "SEO-730",
     "SEO-731",
-    "SEO-732"
+    "SEO-732",
+    "SEO-733"
   ]
 }
