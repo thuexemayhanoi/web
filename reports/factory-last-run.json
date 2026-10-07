@@ -1,51 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T12:46:54.352Z",
-  "finished": "2026-10-07T12:46:54.669Z",
-  "base_commit": "833c427cb8eaca64d13009b8d7c755ef850c4859",
+  "started": "2026-10-07T12:47:58.316Z",
+  "finished": "2026-10-07T12:47:58.627Z",
+  "base_commit": "5d366af9438804e4018efaca356440a195e37686",
   "processed": [
     {
-      "id": "SEO-668",
-      "draft": "_factory/inbox/SEO-668.article",
-      "output": "monthly-motorbike-rental-hanoi/frequent-commuters-commuting-setup/index.html",
+      "id": "SEO-670",
+      "draft": "_factory/inbox/SEO-670.article",
+      "output": "monthly-motorbike-rental-hanoi/new-hanoi-residents-model-choice/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2336,
-      "title_length": 50,
+      "word_count": 2410,
+      "title_length": 60,
       "seo_score": 95
     },
     {
-      "id": "SEO-669",
-      "draft": "_factory/inbox/SEO-669.article",
-      "output": "monthly-motorbike-rental-hanoi/frequent-commuters-contract-questions/index.html",
+      "id": "SEO-671",
+      "draft": "_factory/inbox/SEO-671.article",
+      "output": "monthly-motorbike-rental-hanoi/new-hanoi-residents-monthly-budget/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2267,
-      "title_length": 55,
+      "word_count": 2250,
+      "title_length": 60,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-668",
-    "SEO-669"
+    "SEO-670",
+    "SEO-671"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 665,
-    "planned": 325,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 335,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 667,
@@ -56,10 +45,19 @@
     "remaining_to_target": 333,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 669,
+    "planned": 321,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 331,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-670",
-    "SEO-671",
     "SEO-672",
     "SEO-673",
     "SEO-674",
@@ -67,6 +65,8 @@
     "SEO-676",
     "SEO-677",
     "SEO-678",
-    "SEO-679"
+    "SEO-679",
+    "SEO-680",
+    "SEO-681"
   ]
 }
