@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T05:07:33.340Z",
-  "finished": "2026-10-07T05:07:33.482Z",
-  "base_commit": "c27d15260ac0cdda214e37dce7f800885cca920c",
+  "started": "2026-10-07T05:08:06.056Z",
+  "finished": "2026-10-07T05:08:06.212Z",
+  "base_commit": "17528d16ec978759104139c88807446229cfb1ca",
   "processed": [
     {
-      "id": "SEO-326",
-      "draft": "_factory/inbox/SEO-326.article",
-      "output": "hanoi-50cc-motorbike-rental/older-riders-rainy-weather/index.html",
+      "id": "SEO-327",
+      "draft": "_factory/inbox/SEO-327.article",
+      "output": "hanoi-50cc-motorbike-rental/older-riders-daily-rental-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2069,
-      "title_length": 60,
+      "word_count": 1961,
+      "title_length": 65,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-326"
+    "SEO-327"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 323,
-    "planned": 667,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 677,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 324,
@@ -44,9 +33,19 @@
     "remaining_to_target": 676,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 325,
+    "planned": 665,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 675,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-327",
     "SEO-328",
     "SEO-329",
     "SEO-330",
@@ -55,6 +54,7 @@
     "SEO-333",
     "SEO-334",
     "SEO-335",
-    "SEO-336"
+    "SEO-336",
+    "SEO-337"
   ]
 }
