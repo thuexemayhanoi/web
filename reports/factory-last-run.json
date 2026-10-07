@@ -1,52 +1,41 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T23:03:36.543Z",
-  "finished": "2026-10-07T23:03:36.889Z",
-  "base_commit": "26ac8871e0f56fe345ee405fbb73440f085f5ea3",
+  "started": "2026-10-07T23:04:31.218Z",
+  "finished": "2026-10-07T23:04:31.459Z",
+  "base_commit": "2025b9d4842abbacc90cbbc92017d910597f9662",
   "processed": [
     {
-      "id": "SEO-987",
-      "draft": "_factory/inbox/SEO-987.article",
-      "output": "motorbike-guides/motorbike-lights-maintenance-basics/index.html",
+      "id": "SEO-991",
+      "draft": "_factory/inbox/SEO-991.article",
+      "output": "motorbike-guides/rain-gear-pre-ride-checklist/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1710,
-      "title_length": 56,
+      "word_count": 1765,
+      "title_length": 51,
       "seo_score": 95
     },
     {
-      "id": "SEO-988",
-      "draft": "_factory/inbox/SEO-988.article",
-      "output": "motorbike-guides/motorbike-fuel-pre-ride-checklist/index.html",
+      "id": "SEO-992",
+      "draft": "_factory/inbox/SEO-992.article",
+      "output": "motorbike-guides/rain-gear-troubleshooting/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1830,
-      "title_length": 54,
+      "word_count": 1808,
+      "title_length": 52,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-987",
-    "SEO-988"
+    "SEO-991",
+    "SEO-992"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 986,
-    "planned": 4,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 14,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 988,
@@ -57,10 +46,19 @@
     "remaining_to_target": 12,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 990,
+    "planned": 0,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 10,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-991",
-    "SEO-992",
     "SEO-993",
     "SEO-994",
     "SEO-995",
@@ -68,6 +66,8 @@
     "SEO-997",
     "SEO-998",
     "SEO-999",
-    "SEO-1000"
+    "SEO-1000",
+    "SEO-1001",
+    "SEO-1002"
   ]
 }
