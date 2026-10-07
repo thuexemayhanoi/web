@@ -1,40 +1,29 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T21:09:06.504Z",
-  "finished": "2026-10-07T21:09:06.633Z",
+  "started": "2026-10-07T21:09:21.344Z",
+  "finished": "2026-10-07T21:09:21.552Z",
   "base_commit": null,
   "processed": [
     {
-      "id": "SEO-803",
-      "draft": "_factory/inbox/SEO-803.article",
-      "output": "hanoi-motorbike-trips/hanoi-to-duong-lam-safety-checklist/index.html",
+      "id": "SEO-804",
+      "draft": "_factory/inbox/SEO-804.article",
+      "output": "hanoi-motorbike-trips/hanoi-to-duong-lam-return-planning/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1945,
-      "title_length": 73,
+      "word_count": 1961,
+      "title_length": 57,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-803"
+    "SEO-804"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "pruned_stale_drafts": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 800,
-    "planned": 190,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 200,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 801,
@@ -45,9 +34,19 @@
     "remaining_to_target": 199,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 802,
+    "planned": 188,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 198,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-804",
     "SEO-805",
     "SEO-806",
     "SEO-807",
@@ -56,6 +55,7 @@
     "SEO-810",
     "SEO-811",
     "SEO-812",
-    "SEO-813"
+    "SEO-813",
+    "SEO-814"
   ]
 }
