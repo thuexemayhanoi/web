@@ -1,62 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T12:50:26.432Z",
+  "generated_at": "2026-10-07T14:19:36.140Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 674,
-  "remaining_to_target": 326,
+  "current_published_content_pages": 676,
+  "remaining_to_target": 324,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-677",
-      "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/language-students-monthly-budget/",
-      "path": "monthly-motorbike-rental-hanoi/language-students-monthly-budget/index.html",
-      "silo": "Long-Term Rental",
-      "hub": "Monthly Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "monthly motorbike rental hanoi language students monthly budget",
-      "intent": "Commercial investigation",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Language Students: Monthly Rental Budget Planning in Hanoi",
-      "content_brief": "Long-term rental cluster for language students, focused on planning rental cost plus normal operating expenses without inventing discounts. Use verified monthly prices where relevant and never invent discounts, deposits, maintenance guarantees or contract terms.",
-      "internal_link_targets": [
-        "/monthly-motorbike-rental-hanoi/",
-        "/hanoi-motorbike-rental-cost/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-677.article",
-      "template": "site/templates/article.html"
-    },
-    {
-      "id": "SEO-678",
-      "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/language-students-maintenance-expectations/",
-      "path": "monthly-motorbike-rental-hanoi/language-students-maintenance-expectations/index.html",
-      "silo": "Long-Term Rental",
-      "hub": "Monthly Rental",
-      "content_role": "CLUSTER",
-      "primary_keyword": "monthly motorbike rental hanoi language students maintenance expectations",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Language Students: Maintenance Expectations in Hanoi",
-      "content_brief": "Long-term rental cluster for language students, focused on what long-term renters should monitor and what to ask the shop without promising service terms. Use verified monthly prices where relevant and never invent discounts, deposits, maintenance guarantees or contract terms.",
-      "internal_link_targets": [
-        "/monthly-motorbike-rental-hanoi/",
-        "/hanoi-motorbike-rental-cost/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
-      "draft_file": "_factory/inbox/SEO-678.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-679",
       "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/language-students-parking-and-security/",
@@ -255,6 +205,56 @@
       ],
       "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
       "draft_file": "_factory/inbox/SEO-686.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-687",
+      "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/researchers-contract-questions/",
+      "path": "monthly-motorbike-rental-hanoi/researchers-contract-questions/index.html",
+      "silo": "Long-Term Rental",
+      "hub": "Monthly Rental",
+      "content_role": "CLUSTER",
+      "primary_keyword": "monthly motorbike rental hanoi researchers contract questions",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Researchers: Long-Term Rental Questions in Hanoi | Hanoi Motorbike Guide",
+      "content_brief": "Long-term rental cluster for researchers, focused on questions about documents, payment and responsibility that must be confirmed directly rather than assumed. Use verified monthly prices where relevant and never invent discounts, deposits, maintenance guarantees or contract terms.",
+      "internal_link_targets": [
+        "/monthly-motorbike-rental-hanoi/",
+        "/hanoi-motorbike-rental-cost/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "VERIFIED_BUSINESS_PLUS_CAUTIOUS_GUIDANCE",
+      "draft_file": "_factory/inbox/SEO-687.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-688",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ba-vi-route-planning/",
+      "path": "hanoi-motorbike-trips/hanoi-to-ba-vi-route-planning/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to ba vi motorbike route planning",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Ba Vi by Motorbike: Route Planning | Hanoi Motorbike Guide",
+      "content_brief": "Destination cluster for a Hanoi-to-Ba Vi motorbike trip, focused on route-planning questions, road types and checkpoints that should be verified before departure. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-688.article",
       "template": "site/templates/article.html"
     }
   ]

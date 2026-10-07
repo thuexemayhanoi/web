@@ -1,39 +1,40 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T12:50:26.301Z",
-  "finished": "2026-10-07T12:50:26.433Z",
-  "base_commit": "fe7962347051e2f3e95000a6b698cca983b5cc00",
+  "started": "2026-10-07T14:19:35.805Z",
+  "finished": "2026-10-07T14:19:36.141Z",
+  "base_commit": "255090efbfc78e5e1d7f1ec4f47d93c34b937779",
   "processed": [
     {
-      "id": "SEO-676",
-      "draft": "_factory/inbox/SEO-676.article",
-      "output": "monthly-motorbike-rental-hanoi/language-students-model-choice/index.html",
+      "id": "SEO-677",
+      "draft": "_factory/inbox/SEO-677.article",
+      "output": "monthly-motorbike-rental-hanoi/language-students-monthly-budget/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2396,
+      "word_count": 2183,
       "title_length": 58,
+      "seo_score": 95
+    },
+    {
+      "id": "SEO-678",
+      "draft": "_factory/inbox/SEO-678.article",
+      "output": "monthly-motorbike-rental-hanoi/language-students-maintenance-expectations/index.html",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 2190,
+      "title_length": 52,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-676"
+    "SEO-677",
+    "SEO-678"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 673,
-    "planned": 317,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 327,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 674,
@@ -44,10 +45,19 @@
     "remaining_to_target": 326,
     "unplanned_slots": 0
   },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 676,
+    "planned": 314,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 324,
+    "unplanned_slots": 0
+  },
   "queue_status": "READY",
   "next_queue": [
-    "SEO-677",
-    "SEO-678",
     "SEO-679",
     "SEO-680",
     "SEO-681",
@@ -55,6 +65,8 @@
     "SEO-683",
     "SEO-684",
     "SEO-685",
-    "SEO-686"
+    "SEO-686",
+    "SEO-687",
+    "SEO-688"
   ]
 }
