@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:55:43.120Z",
-  "finished": "2026-10-07T06:55:43.243Z",
-  "base_commit": "6b17183ef5fea96d2568247275c944b4a7dbe7f3",
+  "started": "2026-10-07T06:56:43.651Z",
+  "finished": "2026-10-07T06:56:43.756Z",
+  "base_commit": "f6cb554a7e7f93b8bc4526c5096d777183b75306",
   "processed": [
     {
-      "id": "SEO-489",
-      "draft": "_factory/inbox/SEO-489.article",
-      "output": "hanoi-motorbike-rental-cost/yamaha-sirius-vs-yamaha-mio-rental-cost/index.html",
+      "id": "SEO-490",
+      "draft": "_factory/inbox/SEO-490.article",
+      "output": "hanoi-motorbike-rental-cost/yamaha-sirius-vs-honda-click-rental-cost/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 2040,
-      "title_length": 57,
+      "word_count": 1798,
+      "title_length": 58,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-489"
+    "SEO-490"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 477,
-    "planned": 513,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 523,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 478,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 522,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 479,
+    "planned": 511,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 521,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -55,6 +55,6 @@
     "SEO-449",
     "SEO-458",
     "SEO-474",
-    "SEO-490"
+    "SEO-491"
   ]
 }
