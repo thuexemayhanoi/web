@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T21:50:35.736Z",
+  "generated_at": "2026-10-07T21:51:18.525Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 837,
-  "remaining_to_target": 163,
+  "current_published_content_pages": 838,
+  "remaining_to_target": 162,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-840",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-yen-tu-return-planning/",
-      "path": "hanoi-motorbike-trips/hanoi-to-yen-tu-return-planning/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to yen tu motorbike return planning",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Yen Tu by Motorbike: Return-to-Hanoi Planning",
-      "content_brief": "Destination cluster for a Hanoi-to-Yen Tu motorbike trip, focused on how to plan the return leg, daylight buffer and shop timing questions without fabricating travel times. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-840.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-841",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/expats-rent-vs-buy-decision/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
       "draft_file": "_factory/inbox/SEO-849.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-850",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/students-resale-planning/",
+      "path": "hanoi-motorbike-for-sale/students-resale-planning/index.html",
+      "silo": "Buying vs Renting",
+      "hub": "Buying vs Renting",
+      "content_role": "CLUSTER",
+      "primary_keyword": "buy vs rent motorbike hanoi students resale planning",
+      "intent": "Informational comparison",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Students: Resale Planning for Hanoi Motorbikes | Hanoi Motorbike Guide",
+      "content_brief": "Buying-versus-renting cluster for students, focused on what affects resale effort and uncertainty without inventing market prices. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-for-sale/",
+        "/monthly-motorbike-rental-hanoi/",
+        "/hanoi-motorbike-rental-cost/"
+      ],
+      "source_policy": "GENERAL_COMPARISON_NO_SALES_CLAIMS",
+      "draft_file": "_factory/inbox/SEO-850.article",
       "template": "site/templates/article.html"
     }
   ]
