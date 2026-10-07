@@ -1,39 +1,28 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T06:30:13.906Z",
-  "finished": "2026-10-07T06:30:14.123Z",
-  "base_commit": "26bb37ca99b757e266fd0189299019732efd2648",
+  "started": "2026-10-07T06:30:49.961Z",
+  "finished": "2026-10-07T06:30:50.139Z",
+  "base_commit": "f54f8b5a1b17e9cfca100c982eb1a1abb335939d",
   "processed": [
     {
-      "id": "SEO-468",
-      "draft": "_factory/inbox/SEO-468.article",
-      "output": "hanoi-motorbike-rental-cost/electric-motorbike-short-vs-long-term-cost/index.html",
+      "id": "SEO-469",
+      "draft": "_factory/inbox/SEO-469.article",
+      "output": "hanoi-motorbike-rental-cost/50cc-scooter-daily-price/index.html",
       "status": "PUBLISHED",
       "errors": [],
       "warnings": [],
-      "word_count": 1610,
-      "title_length": 73,
+      "word_count": 1977,
+      "title_length": 61,
       "seo_score": 95
     }
   ],
   "published_ids": [
-    "SEO-468"
+    "SEO-469"
   ],
   "repair_ids": [],
   "blocked_ids": [],
   "fatal": null,
   "stats_before": {
-    "target": 1000,
-    "matrix_content_rows": 1000,
-    "published": 457,
-    "planned": 533,
-    "writing": 10,
-    "repair": 0,
-    "blocked": 0,
-    "remaining_to_target": 543,
-    "unplanned_slots": 0
-  },
-  "stats_after": {
     "target": 1000,
     "matrix_content_rows": 1000,
     "published": 458,
@@ -42,6 +31,17 @@
     "repair": 0,
     "blocked": 0,
     "remaining_to_target": 542,
+    "unplanned_slots": 0
+  },
+  "stats_after": {
+    "target": 1000,
+    "matrix_content_rows": 1000,
+    "published": 459,
+    "planned": 531,
+    "writing": 10,
+    "repair": 0,
+    "blocked": 0,
+    "remaining_to_target": 541,
     "unplanned_slots": 0
   },
   "queue_status": "READY",
@@ -54,7 +54,7 @@
     "SEO-447",
     "SEO-449",
     "SEO-458",
-    "SEO-469",
-    "SEO-470"
+    "SEO-470",
+    "SEO-471"
   ]
 }
