@@ -1,37 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-07T21:33:50.758Z",
+  "generated_at": "2026-10-07T21:34:14.294Z",
   "target_total_content_pages": 1000,
-  "current_published_content_pages": 821,
-  "remaining_to_target": 179,
+  "current_published_content_pages": 822,
+  "remaining_to_target": 178,
   "unplanned_slots": 0,
   "queue": [
-    {
-      "id": "SEO-824",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-cuc-phuong-one-day-feasibility/",
-      "path": "hanoi-motorbike-trips/hanoi-to-cuc-phuong-one-day-feasibility/index.html",
-      "silo": "Trips & Travel",
-      "hub": "Hanoi Motorbike Trips",
-      "content_role": "CLUSTER",
-      "primary_keyword": "hanoi to cuc phuong motorbike one day feasibility",
-      "intent": "Informational",
-      "target_min_words": 1500,
-      "target_max_words": 5000,
-      "title_min_chars": 50,
-      "title_max_chars": 75,
-      "seo_score_min": 75,
-      "working_title": "Hanoi to Cuc Phuong by Motorbike: One-Day Trip Feasibility",
-      "content_brief": "Destination cluster for a Hanoi-to-Cuc Phuong motorbike trip, focused on whether a same-day plan is realistic in principle and what factors can make it unsuitable, without fabricated times. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
-      "internal_link_targets": [
-        "/hanoi-motorbike-trips/",
-        "/motorbike-guides/",
-        "/hanoi-motorbike-rental/"
-      ],
-      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
-      "draft_file": "_factory/inbox/SEO-824.article",
-      "template": "site/templates/article.html"
-    },
     {
       "id": "SEO-825",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-cuc-phuong-two-day-itinerary/",
@@ -255,6 +230,31 @@
       ],
       "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
       "draft_file": "_factory/inbox/SEO-833.article",
+      "template": "site/templates/article.html"
+    },
+    {
+      "id": "SEO-834",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-yen-tu-two-day-itinerary/",
+      "path": "hanoi-motorbike-trips/hanoi-to-yen-tu-two-day-itinerary/index.html",
+      "silo": "Trips & Travel",
+      "hub": "Hanoi Motorbike Trips",
+      "content_role": "CLUSTER",
+      "primary_keyword": "hanoi to yen tu motorbike two day itinerary",
+      "intent": "Informational",
+      "target_min_words": 1500,
+      "target_max_words": 5000,
+      "title_min_chars": 50,
+      "title_max_chars": 75,
+      "seo_score_min": 75,
+      "working_title": "Hanoi to Yen Tu by Motorbike: Two-Day Trip Planning",
+      "content_brief": "Destination cluster for a Hanoi-to-Yen Tu motorbike trip, focused on a flexible two-day structure with rest and weather contingencies rather than fixed timing promises. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
+      "internal_link_targets": [
+        "/hanoi-motorbike-trips/",
+        "/motorbike-guides/",
+        "/hanoi-motorbike-rental/"
+      ],
+      "source_policy": "GENERAL_GUIDANCE_CURRENT_CHECKS_REQUIRED",
+      "draft_file": "_factory/inbox/SEO-834.article",
       "template": "site/templates/article.html"
     }
   ]
