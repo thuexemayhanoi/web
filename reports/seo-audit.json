@@ -4,172 +4,12 @@
     "indexable_pages": 1002,
     "sitemap_urls": 1002,
     "errors": 0,
-    "warnings": 159,
+    "warnings": 0,
     "pages_with_errors": 0,
-    "pages_with_warnings": 155
+    "pages_with_warnings": 0
   },
   "errors": [],
-  "warnings": [
-    "hanoi-50cc-motorbike-rental/beginners-parking/index.html: title length 72",
-    "hanoi-50cc-motorbike-rental/budget-travelers-bridges-and-inclines/index.html: title length 71",
-    "hanoi-50cc-motorbike-rental/first-time-visitors-bridges-and-inclines/index.html: title length 74",
-    "hanoi-50cc-motorbike-rental/first-time-visitors-daily-rental-planning/index.html: title length 72",
-    "hanoi-50cc-motorbike-rental/first-time-visitors-vs-automatic-scooter/index.html: title length 71",
-    "hanoi-50cc-motorbike-rental/lightweight-riders-bridges-and-inclines/index.html: title length 73",
-    "hanoi-50cc-motorbike-rental/lightweight-riders-daily-rental-planning/index.html: title length 71",
-    "hanoi-50cc-motorbike-rental/lightweight-riders-route-suitability/index.html: description length 188",
-    "hanoi-50cc-motorbike-rental/riders-with-light-luggage-bridges-and-inclines/index.html: title length 74",
-    "hanoi-50cc-motorbike-rental/riders-with-light-luggage-choosing-a-50cc/index.html: title length 72",
-    "hanoi-50cc-motorbike-rental/riders-with-light-luggage-city-traffic/index.html: title length 72",
-    "hanoi-50cc-motorbike-rental/riders-with-light-luggage-passenger-use/index.html: title length 73",
-    "hanoi-50cc-motorbike-rental/riders-with-light-luggage-rainy-weather/index.html: title length 73",
-    "hanoi-50cc-motorbike-rental/riders-with-light-luggage-route-suitability/index.html: title length 74",
-    "hanoi-50cc-motorbike-rental/short-stay-visitors-daily-rental-planning/index.html: title length 72",
-    "hanoi-50cc-motorbike-rental/short-stay-visitors-vs-automatic-scooter/index.html: title length 71",
-    "hanoi-50cc-motorbike-rental/students-parking/index.html: title length 71",
-    "hanoi-motorbike-for-sale/couples-break-even-thinking/index.html: title length 73",
-    "hanoi-motorbike-for-sale/couples-break-even-thinking/index.html: description length 188",
-    "hanoi-motorbike-for-sale/couples-ownership-costs/index.html: description length 203",
-    "hanoi-motorbike-for-sale/couples-paperwork-questions/index.html: description length 191",
-    "hanoi-motorbike-for-sale/couples-rent-vs-buy-decision/index.html: description length 189",
-    "hanoi-motorbike-for-sale/couples-resale-planning/index.html: description length 183",
-    "hanoi-motorbike-for-sale/couples-used-bike-inspection/index.html: description length 188",
-    "hanoi-motorbike-for-sale/digital-nomads-paperwork-questions/index.html: description length 189",
-    "hanoi-motorbike-for-sale/expats-break-even-thinking/index.html: title length 72",
-    "hanoi-motorbike-for-sale/expats-rent-vs-buy-decision/index.html: title length 73",
-    "hanoi-motorbike-for-sale/families-ownership-costs/index.html: description length 187",
-    "hanoi-motorbike-for-sale/families-paperwork-questions/index.html: description length 184",
-    "hanoi-motorbike-for-sale/families-rent-vs-buy-decision/index.html: description length 187",
-    "hanoi-motorbike-for-sale/families-resale-planning/index.html: description length 186",
-    "hanoi-motorbike-for-sale/families-used-bike-inspection/index.html: description length 186",
-    "hanoi-motorbike-for-sale/first-time-residents-paperwork-questions/index.html: title length 72",
-    "hanoi-motorbike-for-sale/frequent-commuters-break-even-thinking/index.html: description length 190",
-    "hanoi-motorbike-for-sale/frequent-commuters-ownership-costs/index.html: description length 189",
-    "hanoi-motorbike-for-sale/frequent-commuters-paperwork-questions/index.html: description length 191",
-    "hanoi-motorbike-for-sale/frequent-commuters-rent-vs-buy-decision/index.html: description length 184",
-    "hanoi-motorbike-for-sale/frequent-commuters-resale-planning/index.html: description length 192",
-    "hanoi-motorbike-for-sale/occasional-riders-ownership-costs/index.html: description length 181",
-    "hanoi-motorbike-for-sale/occasional-riders-rent-vs-buy-decision/index.html: description length 191",
-    "hanoi-motorbike-for-sale/project-workers-rent-vs-buy-decision/index.html: description length 193",
-    "hanoi-motorbike-for-sale/teachers-break-even-thinking/index.html: description length 209",
-    "hanoi-motorbike-for-sale/teachers-ownership-costs/index.html: description length 187",
-    "hanoi-motorbike-for-sale/teachers-paperwork-questions/index.html: description length 190",
-    "hanoi-motorbike-for-sale/teachers-resale-planning/index.html: description length 182",
-    "hanoi-motorbike-rental-cost/50cc-scooter-short-vs-long-term-cost/index.html: title length 73",
-    "hanoi-motorbike-rental-cost/automatic-scooter-short-vs-long-term-cost/index.html: title length 72",
-    "hanoi-motorbike-rental-cost/electric-motorbike-short-vs-long-term-cost/index.html: title length 73",
-    "hanoi-motorbike-rental-cost/honda-vision-rental-price-hanoi/index.html: description length 188",
-    "hanoi-motorbike-rental-cost/honda-vision-vs-electric-motorbike-rental-cost/index.html: description length 182",
-    "hanoi-motorbike-rental-cost/honda-wave-short-vs-long-term-cost/index.html: title length 71",
-    "hanoi-motorbike-rental-cost/semi-automatic-motorbike-daily-price/index.html: title length 73",
-    "hanoi-motorbike-rental-cost/semi-automatic-motorbike-monthly-price/index.html: title length 75",
-    "hanoi-motorbike-rental-cost/semi-automatic-motorbike-weekly-price/index.html: title length 74",
-    "hanoi-motorbike-rental/budget-travelers-rental-paperwork-questions/index.html: title length 71",
-    "hanoi-motorbike-rental/business-travelers-rental-paperwork-questions/index.html: title length 73",
-    "hanoi-motorbike-rental/expats-route-planning/index.html: title length 73",
-    "hanoi-motorbike-rental/experienced-riders-rental-paperwork-questions/index.html: title length 73",
-    "hanoi-motorbike-rental/first-time-visitors-bike-choice/index.html: title length 71",
-    "hanoi-motorbike-rental/first-time-visitors-rental-paperwork-questions/index.html: title length 74",
-    "hanoi-motorbike-rental/food-focused-travelers-bike-choice/index.html: title length 74",
-    "hanoi-motorbike-rental/long-stay-visitors-rental-paperwork-questions/index.html: title length 73",
-    "hanoi-motorbike-rental/photography-travelers-bike-choice/index.html: title length 73",
-    "hanoi-motorbike-rental/riders-with-a-passenger-bike-choice/index.html: title length 75",
-    "hanoi-motorbike-rental/riders-with-a-passenger-pre-ride-inspection/index.html: title length 71",
-    "hanoi-motorbike-rental/riders-with-a-passenger-traffic-preparation/index.html: title length 71",
-    "hanoi-motorbike-rental/riders-with-luggage-bike-choice/index.html: title length 71",
-    "hanoi-motorbike-rental/riders-with-luggage-rental-paperwork-questions/index.html: title length 74",
-    "hanoi-motorbike-rental/weekend-visitors-rental-paperwork-questions/index.html: title length 71",
-    "hanoi-motorbike-trips/hanoi-to-bac-ninh-safety-checklist/index.html: title length 72",
-    "hanoi-motorbike-trips/hanoi-to-bac-ninh-weather-planning/index.html: title length 72",
-    "hanoi-motorbike-trips/hanoi-to-cuc-phuong-route-planning/index.html: title length 72",
-    "hanoi-motorbike-trips/hanoi-to-duong-lam-route-planning/index.html: title length 71",
-    "hanoi-motorbike-trips/hanoi-to-duong-lam-safety-checklist/index.html: title length 73",
-    "hanoi-motorbike-trips/hanoi-to-duong-lam-weather-planning/index.html: title length 73",
-    "hanoi-motorbike-trips/hanoi-to-ha-giang-safety-checklist/index.html: title length 72",
-    "hanoi-motorbike-trips/hanoi-to-ha-giang-weather-planning/index.html: title length 72",
-    "hanoi-motorbike-trips/hanoi-to-ha-long-safety-checklist/index.html: title length 71",
-    "hanoi-motorbike-trips/hanoi-to-ha-long-weather-planning/index.html: title length 71",
-    "hanoi-motorbike-trips/hanoi-to-hoa-binh-safety-checklist/index.html: title length 72",
-    "hanoi-motorbike-trips/hanoi-to-hoa-binh-weather-planning/index.html: title length 72",
-    "hanoi-motorbike-trips/hanoi-to-mai-chau-safety-checklist/index.html: title length 72",
-    "hanoi-motorbike-trips/hanoi-to-mai-chau-weather-planning/index.html: title length 72",
-    "hanoi-motorbike-trips/hanoi-to-moc-chau-safety-checklist/index.html: title length 72",
-    "hanoi-motorbike-trips/hanoi-to-moc-chau-weather-planning/index.html: title length 72",
-    "hanoi-motorbike-trips/hanoi-to-ninh-binh-route-planning/index.html: title length 71",
-    "hanoi-motorbike-trips/hanoi-to-ninh-binh-safety-checklist/index.html: title length 73",
-    "hanoi-motorbike-trips/hanoi-to-ninh-binh-weather-planning/index.html: title length 73",
-    "hanoi-motorbike-trips/hanoi-to-pu-luong-safety-checklist/index.html: title length 72",
-    "hanoi-motorbike-trips/hanoi-to-pu-luong-weather-planning/index.html: title length 72",
-    "hanoi-motorbike-trips/hanoi-to-sapa-luggage-packing/index.html: title length 73",
-    "hanoi-motorbike-trips/hanoi-to-sapa-two-day-itinerary/index.html: title length 73",
-    "hanoi-motorbike-trips/hanoi-to-soc-son-safety-checklist/index.html: title length 71",
-    "hanoi-motorbike-trips/hanoi-to-soc-son-weather-planning/index.html: title length 71",
-    "hanoi-motorbike-trips/hanoi-to-tam-dao-safety-checklist/index.html: title length 71",
-    "hanoi-motorbike-trips/hanoi-to-tam-dao-weather-planning/index.html: title length 71",
-    "hanoi-scooter-rental/automatic-scooter-beginners-checks-and-mistakes/index.html: title length 73",
-    "hanoi-scooter-rental/automatic-scooter-braking-checks-and-mistakes/index.html: title length 71",
-    "hanoi-scooter-rental/automatic-scooter-commuters-checks-and-mistakes/index.html: title length 73",
-    "hanoi-scooter-rental/automatic-scooter-couples-checks-and-mistakes/index.html: title length 71",
-    "hanoi-scooter-rental/automatic-scooter-for-daily-commuting-selection-guide/index.html: title length 72",
-    "hanoi-scooter-rental/automatic-scooter-for-long-bien-riding-selection-guide/index.html: title length 73",
-    "hanoi-scooter-rental/automatic-scooter-for-long-stays-selection-guide/index.html: title length 74",
-    "hanoi-scooter-rental/automatic-scooter-for-short-stays-checks-and-mistakes/index.html: title length 71",
-    "hanoi-scooter-rental/automatic-scooter-for-short-stays-selection-guide/index.html: title length 75",
-    "hanoi-scooter-rental/automatic-scooter-for-weekend-use-checks-and-mistakes/index.html: title length 71",
-    "hanoi-scooter-rental/automatic-scooter-for-weekend-use-selection-guide/index.html: title length 75",
-    "hanoi-scooter-rental/automatic-scooter-for-west-lake-riding-selection-guide/index.html: title length 73",
-    "hanoi-scooter-rental/automatic-scooter-fuel-planning-checks-and-mistakes/index.html: description length 190",
-    "hanoi-scooter-rental/automatic-scooter-fuel-planning-selection-guide/index.html: title length 73",
-    "hanoi-scooter-rental/automatic-scooter-fuel-planning-selection-guide/index.html: description length 181",
-    "hanoi-scooter-rental/automatic-scooter-in-hot-weather-selection-guide/index.html: title length 74",
-    "hanoi-scooter-rental/automatic-scooter-low-speed-control-checks-and-mistakes/index.html: title length 73",
-    "hanoi-scooter-rental/automatic-scooter-parking-checks-and-mistakes/index.html: title length 71",
-    "hanoi-scooter-rental/automatic-scooter-short-riders-selection-guide/index.html: title length 72",
-    "hanoi-scooter-rental/automatic-scooter-solo-travelers-selection-guide/index.html: title length 74",
-    "hanoi-scooter-rental/automatic-scooter-students-checks-and-mistakes/index.html: title length 72",
-    "hanoi-scooter-rental/automatic-scooter-tall-riders-selection-guide/index.html: title length 71",
-    "hanoi-scooter-rental/automatic-scooter-vs-50cc-checks-and-mistakes/index.html: title length 71",
-    "hanoi-scooter-rental/automatic-scooter-vs-50cc-checks-and-mistakes/index.html: description length 185",
-    "hanoi-scooter-rental/automatic-scooter-vs-semi-automatic-checks-and-mistakes/index.html: title length 73",
-    "hanoi-scooter-rental/automatic-scooter-with-luggage-selection-guide/index.html: title length 72",
-    "hanoi-scooter-rental/automatic-scooter-with-passenger-selection-guide/index.html: title length 74",
-    "hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter-selection-guide/index.html: title length 74",
-    "hanoi-scooter-rental/honda-air-blade-for-city-riding-selection-guide/index.html: title length 73",
-    "hanoi-scooter-rental/honda-air-blade-for-commuters-selection-guide/index.html: title length 71",
-    "hanoi-scooter-rental/honda-air-blade-vs-honda-click-selection-guide/index.html: title length 72",
-    "hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-selection-guide/index.html: title length 71",
-    "hanoi-scooter-rental/honda-air-blade-with-luggage-checks-and-mistakes/index.html: title length 74",
-    "hanoi-scooter-rental/honda-click-for-beginners-checks-and-mistakes/index.html: title length 71",
-    "hanoi-scooter-rental/honda-click-vs-yamaha-mio-checks-and-mistakes/index.html: title length 71",
-    "hanoi-scooter-rental/honda-click-vs-yamaha-mio-checks-and-mistakes/index.html: description length 181",
-    "hanoi-scooter-rental/honda-vision-for-city-riding-checks-and-mistakes/index.html: title length 74",
-    "hanoi-scooter-rental/honda-vision-vs-honda-click-checks-and-mistakes/index.html: title length 73",
-    "hanoi-scooter-rental/honda-vision-vs-yamaha-mio-checks-and-mistakes/index.html: title length 72",
-    "hanoi-scooter-rental/honda-vision-with-passenger-checks-and-mistakes/index.html: title length 73",
-    "hanoi-scooter-rental/small-scooter-vs-larger-scooter-selection-guide/index.html: title length 73",
-    "monthly-motorbike-rental-hanoi/couples-model-choice/index.html: title length 72",
-    "monthly-motorbike-rental-hanoi/couples-monthly-budget/index.html: title length 72",
-    "monthly-motorbike-rental-hanoi/couples-parking-and-security/index.html: title length 71",
-    "monthly-motorbike-rental-hanoi/expats-model-choice/index.html: title length 71",
-    "monthly-motorbike-rental-hanoi/expats-monthly-budget/index.html: title length 71",
-    "monthly-motorbike-rental-hanoi/interns-model-choice/index.html: title length 72",
-    "monthly-motorbike-rental-hanoi/interns-monthly-budget/index.html: title length 72",
-    "monthly-motorbike-rental-hanoi/interns-parking-and-security/index.html: title length 71",
-    "monthly-motorbike-rental-hanoi/language-students-commuting-setup/index.html: title length 73",
-    "monthly-motorbike-rental-hanoi/project-workers-commuting-setup/index.html: title length 71",
-    "monthly-motorbike-rental-hanoi/remote-workers-maintenance-expectations/index.html: title length 73",
-    "monthly-motorbike-rental-hanoi/researchers-contract-questions/index.html: title length 72",
-    "monthly-motorbike-rental-hanoi/students-model-choice/index.html: title length 73",
-    "monthly-motorbike-rental-hanoi/students-monthly-budget/index.html: title length 73",
-    "monthly-motorbike-rental-hanoi/students-parking-and-security/index.html: title length 72",
-    "monthly-motorbike-rental-hanoi/teachers-model-choice/index.html: title length 73",
-    "monthly-motorbike-rental-hanoi/teachers-monthly-budget/index.html: title length 73",
-    "monthly-motorbike-rental-hanoi/teachers-parking-and-security/index.html: title length 72",
-    "motorbike-rental-hanoi-old-quarter/long-bien-day-ride-ideas/index.html: description length 185",
-    "renting-a-motorbike-in-vietnam/accident-steps-long-distance-riders/index.html: title length 75",
-    "renting-a-motorbike-in-vietnam/accident-steps-scooter-riders/index.html: title length 72",
-    "renting-a-motorbike-in-vietnam/rental-contracts-long-distance-riders/index.html: title length 72"
-  ],
+  "warnings": [],
   "pages": [
     {
       "path": "faq/index.html",
@@ -230,12 +70,10 @@
     {
       "path": "hanoi-50cc-motorbike-rental/beginners-parking/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-parking/",
-      "title_length": 72,
+      "title_length": 61,
       "description_length": 162,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-50cc-motorbike-rental/beginners-passenger-use/index.html",
@@ -272,12 +110,10 @@
     {
       "path": "hanoi-50cc-motorbike-rental/budget-travelers-bridges-and-inclines/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/budget-travelers-bridges-and-inclines/",
-      "title_length": 71,
-      "description_length": 173,
+      "title_length": 50,
+      "description_length": 142,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-50cc-motorbike-rental/budget-travelers-choosing-a-50cc/index.html",
@@ -562,12 +398,10 @@
     {
       "path": "hanoi-50cc-motorbike-rental/first-time-visitors-bridges-and-inclines/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/first-time-visitors-bridges-and-inclines/",
-      "title_length": 74,
-      "description_length": 168,
+      "title_length": 53,
+      "description_length": 150,
       "errors": [],
-      "warnings": [
-        "title length 74"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-50cc-motorbike-rental/first-time-visitors-choosing-a-50cc/index.html",
@@ -588,12 +422,10 @@
     {
       "path": "hanoi-50cc-motorbike-rental/first-time-visitors-daily-rental-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/first-time-visitors-daily-rental-planning/",
-      "title_length": 72,
-      "description_length": 156,
+      "title_length": 56,
+      "description_length": 154,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-50cc-motorbike-rental/first-time-visitors-parking/index.html",
@@ -630,12 +462,10 @@
     {
       "path": "hanoi-50cc-motorbike-rental/first-time-visitors-vs-automatic-scooter/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/first-time-visitors-vs-automatic-scooter/",
-      "title_length": 71,
-      "description_length": 162,
+      "title_length": 55,
+      "description_length": 156,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-50cc-motorbike-rental/index.html",
@@ -648,12 +478,10 @@
     {
       "path": "hanoi-50cc-motorbike-rental/lightweight-riders-bridges-and-inclines/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/lightweight-riders-bridges-and-inclines/",
-      "title_length": 73,
-      "description_length": 166,
+      "title_length": 52,
+      "description_length": 151,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-50cc-motorbike-rental/lightweight-riders-choosing-a-50cc/index.html",
@@ -674,12 +502,10 @@
     {
       "path": "hanoi-50cc-motorbike-rental/lightweight-riders-daily-rental-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/lightweight-riders-daily-rental-planning/",
-      "title_length": 71,
-      "description_length": 175,
+      "title_length": 55,
+      "description_length": 158,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-50cc-motorbike-rental/lightweight-riders-parking/index.html",
@@ -708,12 +534,10 @@
     {
       "path": "hanoi-50cc-motorbike-rental/lightweight-riders-route-suitability/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/lightweight-riders-route-suitability/",
-      "title_length": 67,
-      "description_length": 188,
+      "title_length": 51,
+      "description_length": 155,
       "errors": [],
-      "warnings": [
-        "description length 188"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-50cc-motorbike-rental/lightweight-riders-vs-automatic-scooter/index.html",
@@ -798,32 +622,26 @@
     {
       "path": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-bridges-and-inclines/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/riders-with-light-luggage-bridges-and-inclines/",
-      "title_length": 74,
-      "description_length": 157,
+      "title_length": 59,
+      "description_length": 160,
       "errors": [],
-      "warnings": [
-        "title length 74"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-choosing-a-50cc/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/riders-with-light-luggage-choosing-a-50cc/",
-      "title_length": 72,
-      "description_length": 172,
+      "title_length": 51,
+      "description_length": 152,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-city-traffic/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/riders-with-light-luggage-city-traffic/",
-      "title_length": 72,
+      "title_length": 56,
       "description_length": 168,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-daily-rental-planning/index.html",
@@ -844,32 +662,26 @@
     {
       "path": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-passenger-use/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/riders-with-light-luggage-passenger-use/",
-      "title_length": 73,
+      "title_length": 54,
       "description_length": 149,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-rainy-weather/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/riders-with-light-luggage-rainy-weather/",
-      "title_length": 73,
+      "title_length": 61,
       "description_length": 150,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-route-suitability/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/riders-with-light-luggage-route-suitability/",
-      "title_length": 74,
+      "title_length": 58,
       "description_length": 169,
       "errors": [],
-      "warnings": [
-        "title length 74"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-50cc-motorbike-rental/riders-with-light-luggage-vs-automatic-scooter/index.html",
@@ -978,12 +790,10 @@
     {
       "path": "hanoi-50cc-motorbike-rental/short-stay-visitors-daily-rental-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/short-stay-visitors-daily-rental-planning/",
-      "title_length": 72,
+      "title_length": 56,
       "description_length": 177,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-50cc-motorbike-rental/short-stay-visitors-parking/index.html",
@@ -1020,12 +830,10 @@
     {
       "path": "hanoi-50cc-motorbike-rental/short-stay-visitors-vs-automatic-scooter/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/short-stay-visitors-vs-automatic-scooter/",
-      "title_length": 71,
-      "description_length": 178,
+      "title_length": 55,
+      "description_length": 142,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-50cc-motorbike-rental/solo-travelers-bridges-and-inclines/index.html",
@@ -1134,12 +942,10 @@
     {
       "path": "hanoi-50cc-motorbike-rental/students-parking/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/students-parking/",
-      "title_length": 71,
-      "description_length": 156,
+      "title_length": 60,
+      "description_length": 152,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-50cc-motorbike-rental/students-passenger-use/index.html",
@@ -1280,63 +1086,50 @@
     {
       "path": "hanoi-motorbike-for-sale/couples-break-even-thinking/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/couples-break-even-thinking/",
-      "title_length": 73,
-      "description_length": 188,
+      "title_length": 60,
+      "description_length": 147,
       "errors": [],
-      "warnings": [
-        "title length 73",
-        "description length 188"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/couples-ownership-costs/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/couples-ownership-costs/",
-      "title_length": 53,
-      "description_length": 203,
+      "title_length": 43,
+      "description_length": 141,
       "errors": [],
-      "warnings": [
-        "description length 203"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/couples-paperwork-questions/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/couples-paperwork-questions/",
-      "title_length": 59,
-      "description_length": 191,
+      "title_length": 47,
+      "description_length": 148,
       "errors": [],
-      "warnings": [
-        "description length 191"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/couples-rent-vs-buy-decision/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/couples-rent-vs-buy-decision/",
-      "title_length": 50,
-      "description_length": 189,
+      "title_length": 41,
+      "description_length": 149,
       "errors": [],
-      "warnings": [
-        "description length 189"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/couples-resale-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/couples-resale-planning/",
-      "title_length": 69,
-      "description_length": 183,
+      "title_length": 43,
+      "description_length": 152,
       "errors": [],
-      "warnings": [
-        "description length 183"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/couples-used-bike-inspection/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/couples-used-bike-inspection/",
-      "title_length": 55,
-      "description_length": 188,
+      "title_length": 43,
+      "description_length": 152,
       "errors": [],
-      "warnings": [
-        "description length 188"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/digital-nomads-break-even-thinking/index.html",
@@ -1357,12 +1150,10 @@
     {
       "path": "hanoi-motorbike-for-sale/digital-nomads-paperwork-questions/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/digital-nomads-paperwork-questions/",
-      "title_length": 66,
-      "description_length": 189,
+      "title_length": 44,
+      "description_length": 160,
       "errors": [],
-      "warnings": [
-        "description length 189"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/digital-nomads-rent-vs-buy-decision/index.html",
@@ -1391,12 +1182,10 @@
     {
       "path": "hanoi-motorbike-for-sale/expats-break-even-thinking/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/expats-break-even-thinking/",
-      "title_length": 72,
-      "description_length": 154,
+      "title_length": 46,
+      "description_length": 153,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/expats-ownership-costs/index.html",
@@ -1417,12 +1206,10 @@
     {
       "path": "hanoi-motorbike-for-sale/expats-rent-vs-buy-decision/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/expats-rent-vs-buy-decision/",
-      "title_length": 73,
-      "description_length": 158,
+      "title_length": 40,
+      "description_length": 151,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/expats-resale-planning/index.html",
@@ -1451,52 +1238,42 @@
     {
       "path": "hanoi-motorbike-for-sale/families-ownership-costs/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/families-ownership-costs/",
-      "title_length": 54,
-      "description_length": 187,
+      "title_length": 44,
+      "description_length": 147,
       "errors": [],
-      "warnings": [
-        "description length 187"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/families-paperwork-questions/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/families-paperwork-questions/",
-      "title_length": 60,
-      "description_length": 184,
+      "title_length": 48,
+      "description_length": 150,
       "errors": [],
-      "warnings": [
-        "description length 184"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/families-rent-vs-buy-decision/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/families-rent-vs-buy-decision/",
-      "title_length": 51,
-      "description_length": 187,
+      "title_length": 42,
+      "description_length": 138,
       "errors": [],
-      "warnings": [
-        "description length 187"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/families-resale-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/families-resale-planning/",
-      "title_length": 70,
-      "description_length": 186,
+      "title_length": 44,
+      "description_length": 154,
       "errors": [],
-      "warnings": [
-        "description length 186"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/families-used-bike-inspection/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/families-used-bike-inspection/",
-      "title_length": 56,
-      "description_length": 186,
+      "title_length": 44,
+      "description_length": 149,
       "errors": [],
-      "warnings": [
-        "description length 186"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/first-time-residents-break-even-thinking/index.html",
@@ -1517,12 +1294,10 @@
     {
       "path": "hanoi-motorbike-for-sale/first-time-residents-paperwork-questions/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/first-time-residents-paperwork-questions/",
-      "title_length": 72,
-      "description_length": 175,
+      "title_length": 50,
+      "description_length": 146,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/first-time-residents-rent-vs-buy-decision/index.html",
@@ -1551,52 +1326,42 @@
     {
       "path": "hanoi-motorbike-for-sale/frequent-commuters-break-even-thinking/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/frequent-commuters-break-even-thinking/",
-      "title_length": 60,
-      "description_length": 190,
+      "title_length": 49,
+      "description_length": 153,
       "errors": [],
-      "warnings": [
-        "description length 190"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/frequent-commuters-ownership-costs/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/frequent-commuters-ownership-costs/",
-      "title_length": 64,
-      "description_length": 189,
+      "title_length": 54,
+      "description_length": 148,
       "errors": [],
-      "warnings": [
-        "description length 189"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/frequent-commuters-paperwork-questions/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/frequent-commuters-paperwork-questions/",
-      "title_length": 70,
-      "description_length": 191,
+      "title_length": 48,
+      "description_length": 156,
       "errors": [],
-      "warnings": [
-        "description length 191"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/frequent-commuters-rent-vs-buy-decision/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/frequent-commuters-rent-vs-buy-decision/",
-      "title_length": 61,
-      "description_length": 184,
+      "title_length": 52,
+      "description_length": 144,
       "errors": [],
-      "warnings": [
-        "description length 184"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/frequent-commuters-resale-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/frequent-commuters-resale-planning/",
-      "title_length": 56,
-      "description_length": 192,
+      "title_length": 54,
+      "description_length": 145,
       "errors": [],
-      "warnings": [
-        "description length 192"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/frequent-commuters-used-bike-inspection/index.html",
@@ -1673,12 +1438,10 @@
     {
       "path": "hanoi-motorbike-for-sale/occasional-riders-ownership-costs/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/occasional-riders-ownership-costs/",
-      "title_length": 63,
-      "description_length": 181,
+      "title_length": 53,
+      "description_length": 153,
       "errors": [],
-      "warnings": [
-        "description length 181"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/occasional-riders-paperwork-questions/index.html",
@@ -1691,12 +1454,10 @@
     {
       "path": "hanoi-motorbike-for-sale/occasional-riders-rent-vs-buy-decision/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/occasional-riders-rent-vs-buy-decision/",
-      "title_length": 60,
-      "description_length": 191,
+      "title_length": 51,
+      "description_length": 145,
       "errors": [],
-      "warnings": [
-        "description length 191"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/occasional-riders-resale-planning/index.html",
@@ -1741,12 +1502,10 @@
     {
       "path": "hanoi-motorbike-for-sale/project-workers-rent-vs-buy-decision/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/project-workers-rent-vs-buy-decision/",
-      "title_length": 58,
-      "description_length": 193,
+      "title_length": 49,
+      "description_length": 148,
       "errors": [],
-      "warnings": [
-        "description length 193"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/project-workers-resale-planning/index.html",
@@ -1815,32 +1574,26 @@
     {
       "path": "hanoi-motorbike-for-sale/teachers-break-even-thinking/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/teachers-break-even-thinking/",
-      "title_length": 50,
-      "description_length": 209,
+      "title_length": 48,
+      "description_length": 151,
       "errors": [],
-      "warnings": [
-        "description length 209"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/teachers-ownership-costs/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/teachers-ownership-costs/",
-      "title_length": 54,
-      "description_length": 187,
+      "title_length": 44,
+      "description_length": 154,
       "errors": [],
-      "warnings": [
-        "description length 187"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/teachers-paperwork-questions/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/teachers-paperwork-questions/",
-      "title_length": 60,
-      "description_length": 190,
+      "title_length": 48,
+      "description_length": 164,
       "errors": [],
-      "warnings": [
-        "description length 190"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/teachers-rent-vs-buy-decision/index.html",
@@ -1853,12 +1606,10 @@
     {
       "path": "hanoi-motorbike-for-sale/teachers-resale-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/teachers-resale-planning/",
-      "title_length": 70,
-      "description_length": 182,
+      "title_length": 44,
+      "description_length": 155,
       "errors": [],
-      "warnings": [
-        "description length 182"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-for-sale/teachers-used-bike-inspection/index.html",
@@ -1887,12 +1638,10 @@
     {
       "path": "hanoi-motorbike-rental-cost/50cc-scooter-short-vs-long-term-cost/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/50cc-scooter-short-vs-long-term-cost/",
-      "title_length": 73,
-      "description_length": 165,
+      "title_length": 52,
+      "description_length": 157,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental-cost/50cc-scooter-weekly-price/index.html",
@@ -1921,12 +1670,10 @@
     {
       "path": "hanoi-motorbike-rental-cost/automatic-scooter-short-vs-long-term-cost/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/automatic-scooter-short-vs-long-term-cost/",
-      "title_length": 72,
-      "description_length": 163,
+      "title_length": 57,
+      "description_length": 159,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental-cost/automatic-scooter-weekly-price/index.html",
@@ -1955,12 +1702,10 @@
     {
       "path": "hanoi-motorbike-rental-cost/electric-motorbike-short-vs-long-term-cost/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/electric-motorbike-short-vs-long-term-cost/",
-      "title_length": 73,
-      "description_length": 170,
+      "title_length": 58,
+      "description_length": 151,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental-cost/electric-motorbike-vs-50cc-scooter-rental-cost/index.html",
@@ -2141,12 +1886,10 @@
     {
       "path": "hanoi-motorbike-rental-cost/honda-vision-rental-price-hanoi/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-vision-rental-price-hanoi/",
-      "title_length": 43,
-      "description_length": 188,
+      "title_length": 34,
+      "description_length": 154,
       "errors": [],
-      "warnings": [
-        "description length 188"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental-cost/honda-vision-short-vs-long-term-cost/index.html",
@@ -2175,12 +1918,10 @@
     {
       "path": "hanoi-motorbike-rental-cost/honda-vision-vs-electric-motorbike-rental-cost/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-vision-vs-electric-motorbike-rental-cost/",
-      "title_length": 64,
-      "description_length": 182,
+      "title_length": 55,
+      "description_length": 147,
       "errors": [],
-      "warnings": [
-        "description length 182"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental-cost/honda-vision-vs-honda-air-blade-rental-cost/index.html",
@@ -2225,12 +1966,10 @@
     {
       "path": "hanoi-motorbike-rental-cost/honda-wave-short-vs-long-term-cost/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-wave-short-vs-long-term-cost/",
-      "title_length": 71,
-      "description_length": 179,
+      "title_length": 50,
+      "description_length": 154,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental-cost/honda-wave-vs-50cc-scooter-rental-cost/index.html",
@@ -2315,22 +2054,18 @@
     {
       "path": "hanoi-motorbike-rental-cost/semi-automatic-motorbike-daily-price/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/semi-automatic-motorbike-daily-price/",
-      "title_length": 73,
-      "description_length": 161,
+      "title_length": 52,
+      "description_length": 154,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental-cost/semi-automatic-motorbike-monthly-price/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/semi-automatic-motorbike-monthly-price/",
-      "title_length": 75,
-      "description_length": 160,
+      "title_length": 54,
+      "description_length": 152,
       "errors": [],
-      "warnings": [
-        "title length 75"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental-cost/semi-automatic-motorbike-short-vs-long-term-cost/index.html",
@@ -2343,12 +2078,10 @@
     {
       "path": "hanoi-motorbike-rental-cost/semi-automatic-motorbike-weekly-price/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/semi-automatic-motorbike-weekly-price/",
-      "title_length": 74,
-      "description_length": 178,
+      "title_length": 53,
+      "description_length": 159,
       "errors": [],
-      "warnings": [
-        "title length 74"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental-cost/yamaha-mio-daily-price/index.html",
@@ -2641,12 +2374,10 @@
     {
       "path": "hanoi-motorbike-rental/budget-travelers-rental-paperwork-questions/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/budget-travelers-rental-paperwork-questions/",
-      "title_length": 71,
-      "description_length": 180,
+      "title_length": 53,
+      "description_length": 155,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental/budget-travelers-return-checklist/index.html",
@@ -2715,12 +2446,10 @@
     {
       "path": "hanoi-motorbike-rental/business-travelers-rental-paperwork-questions/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/business-travelers-rental-paperwork-questions/",
-      "title_length": 73,
-      "description_length": 172,
+      "title_length": 55,
+      "description_length": 160,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental/business-travelers-return-checklist/index.html",
@@ -3021,12 +2750,10 @@
     {
       "path": "hanoi-motorbike-rental/expats-route-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/expats-route-planning/",
-      "title_length": 73,
-      "description_length": 165,
+      "title_length": 41,
+      "description_length": 147,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental/expats-traffic-preparation/index.html",
@@ -3079,12 +2806,10 @@
     {
       "path": "hanoi-motorbike-rental/experienced-riders-rental-paperwork-questions/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/experienced-riders-rental-paperwork-questions/",
-      "title_length": 73,
-      "description_length": 174,
+      "title_length": 55,
+      "description_length": 161,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental/experienced-riders-return-checklist/index.html",
@@ -3113,12 +2838,10 @@
     {
       "path": "hanoi-motorbike-rental/first-time-visitors-bike-choice/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/first-time-visitors-bike-choice/",
-      "title_length": 71,
-      "description_length": 171,
+      "title_length": 52,
+      "description_length": 153,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental/first-time-visitors-parking-strategy/index.html",
@@ -3155,12 +2878,10 @@
     {
       "path": "hanoi-motorbike-rental/first-time-visitors-rental-paperwork-questions/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/first-time-visitors-rental-paperwork-questions/",
-      "title_length": 74,
-      "description_length": 176,
+      "title_length": 56,
+      "description_length": 157,
       "errors": [],
-      "warnings": [
-        "title length 74"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental/first-time-visitors-return-checklist/index.html",
@@ -3189,12 +2910,10 @@
     {
       "path": "hanoi-motorbike-rental/food-focused-travelers-bike-choice/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/food-focused-travelers-bike-choice/",
-      "title_length": 74,
-      "description_length": 158,
+      "title_length": 55,
+      "description_length": 155,
       "errors": [],
-      "warnings": [
-        "title length 74"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental/food-focused-travelers-pre-ride-inspection/index.html",
@@ -3271,12 +2990,10 @@
     {
       "path": "hanoi-motorbike-rental/long-stay-visitors-rental-paperwork-questions/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/long-stay-visitors-rental-paperwork-questions/",
-      "title_length": 73,
-      "description_length": 161,
+      "title_length": 55,
+      "description_length": 156,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental/long-stay-visitors-return-checklist/index.html",
@@ -3385,12 +3102,10 @@
     {
       "path": "hanoi-motorbike-rental/photography-travelers-bike-choice/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/photography-travelers-bike-choice/",
-      "title_length": 73,
-      "description_length": 170,
+      "title_length": 54,
+      "description_length": 163,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental/photography-travelers-parking-strategy/index.html",
@@ -3459,12 +3174,10 @@
     {
       "path": "hanoi-motorbike-rental/riders-with-a-passenger-bike-choice/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-a-passenger-bike-choice/",
-      "title_length": 75,
-      "description_length": 163,
+      "title_length": 56,
+      "description_length": 154,
       "errors": [],
-      "warnings": [
-        "title length 75"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental/riders-with-a-passenger-parking-strategy/index.html",
@@ -3485,12 +3198,10 @@
     {
       "path": "hanoi-motorbike-rental/riders-with-a-passenger-pre-ride-inspection/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-a-passenger-pre-ride-inspection/",
-      "title_length": 71,
+      "title_length": 53,
       "description_length": 164,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental/riders-with-a-passenger-rainy-day-planning/index.html",
@@ -3527,22 +3238,18 @@
     {
       "path": "hanoi-motorbike-rental/riders-with-a-passenger-traffic-preparation/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-a-passenger-traffic-preparation/",
-      "title_length": 71,
-      "description_length": 167,
+      "title_length": 53,
+      "description_length": 159,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental/riders-with-luggage-bike-choice/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-luggage-bike-choice/",
-      "title_length": 71,
-      "description_length": 150,
+      "title_length": 52,
+      "description_length": 162,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental/riders-with-luggage-parking-strategy/index.html",
@@ -3579,12 +3286,10 @@
     {
       "path": "hanoi-motorbike-rental/riders-with-luggage-rental-paperwork-questions/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/riders-with-luggage-rental-paperwork-questions/",
-      "title_length": 74,
-      "description_length": 151,
+      "title_length": 56,
+      "description_length": 154,
       "errors": [],
-      "warnings": [
-        "title length 74"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental/riders-with-luggage-return-checklist/index.html",
@@ -3941,12 +3646,10 @@
     {
       "path": "hanoi-motorbike-rental/weekend-visitors-rental-paperwork-questions/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/weekend-visitors-rental-paperwork-questions/",
-      "title_length": 71,
-      "description_length": 167,
+      "title_length": 53,
+      "description_length": 156,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental/weekend-visitors-return-checklist/index.html",
@@ -4111,12 +3814,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-bac-ninh-safety-checklist/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-bac-ninh-safety-checklist/",
-      "title_length": 72,
-      "description_length": 161,
+      "title_length": 48,
+      "description_length": 165,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-bac-ninh-two-day-itinerary/index.html",
@@ -4129,12 +3830,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-bac-ninh-weather-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-bac-ninh-weather-planning/",
-      "title_length": 72,
-      "description_length": 166,
+      "title_length": 48,
+      "description_length": 149,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-cat-ba-bike-choice/index.html",
@@ -4251,12 +3950,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-cuc-phuong-route-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-cuc-phuong-route-planning/",
-      "title_length": 72,
-      "description_length": 150,
+      "title_length": 48,
+      "description_length": 158,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-cuc-phuong-safety-checklist/index.html",
@@ -4325,22 +4022,18 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-duong-lam-route-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-duong-lam-route-planning/",
-      "title_length": 71,
-      "description_length": 172,
+      "title_length": 47,
+      "description_length": 160,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-duong-lam-safety-checklist/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-duong-lam-safety-checklist/",
-      "title_length": 73,
-      "description_length": 174,
+      "title_length": 49,
+      "description_length": 158,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-duong-lam-two-day-itinerary/index.html",
@@ -4353,12 +4046,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-duong-lam-weather-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-duong-lam-weather-planning/",
-      "title_length": 73,
-      "description_length": 173,
+      "title_length": 49,
+      "description_length": 150,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-ha-giang-bike-choice/index.html",
@@ -4411,12 +4102,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-ha-giang-safety-checklist/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ha-giang-safety-checklist/",
-      "title_length": 72,
-      "description_length": 167,
+      "title_length": 48,
+      "description_length": 161,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-ha-giang-two-day-itinerary/index.html",
@@ -4429,12 +4118,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-ha-giang-weather-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ha-giang-weather-planning/",
-      "title_length": 72,
-      "description_length": 170,
+      "title_length": 48,
+      "description_length": 165,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-ha-long-bike-choice/index.html",
@@ -4495,12 +4182,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-ha-long-safety-checklist/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ha-long-safety-checklist/",
-      "title_length": 71,
-      "description_length": 171,
+      "title_length": 47,
+      "description_length": 149,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-ha-long-two-day-itinerary/index.html",
@@ -4513,12 +4198,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-ha-long-weather-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ha-long-weather-planning/",
-      "title_length": 71,
-      "description_length": 174,
+      "title_length": 47,
+      "description_length": 162,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-hoa-binh-bike-choice/index.html",
@@ -4571,12 +4254,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-hoa-binh-safety-checklist/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-hoa-binh-safety-checklist/",
-      "title_length": 72,
-      "description_length": 174,
+      "title_length": 48,
+      "description_length": 156,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-hoa-binh-two-day-itinerary/index.html",
@@ -4589,12 +4270,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-hoa-binh-weather-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-hoa-binh-weather-planning/",
-      "title_length": 72,
-      "description_length": 163,
+      "title_length": 48,
+      "description_length": 162,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-mai-chau-bike-choice/index.html",
@@ -4647,12 +4326,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-mai-chau-safety-checklist/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-mai-chau-safety-checklist/",
-      "title_length": 72,
-      "description_length": 163,
+      "title_length": 48,
+      "description_length": 160,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-mai-chau-two-day-itinerary/index.html",
@@ -4665,12 +4342,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-mai-chau-weather-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-mai-chau-weather-planning/",
-      "title_length": 72,
-      "description_length": 172,
+      "title_length": 48,
+      "description_length": 165,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-moc-chau-bike-choice/index.html",
@@ -4723,12 +4398,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-moc-chau-safety-checklist/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-moc-chau-safety-checklist/",
-      "title_length": 72,
-      "description_length": 166,
+      "title_length": 48,
+      "description_length": 160,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-moc-chau-two-day-itinerary/index.html",
@@ -4741,12 +4414,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-moc-chau-weather-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-moc-chau-weather-planning/",
-      "title_length": 72,
-      "description_length": 173,
+      "title_length": 48,
+      "description_length": 164,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-ninh-binh-bike-choice/index.html",
@@ -4799,22 +4470,18 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-ninh-binh-route-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ninh-binh-route-planning/",
-      "title_length": 71,
-      "description_length": 173,
+      "title_length": 47,
+      "description_length": 153,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-ninh-binh-safety-checklist/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ninh-binh-safety-checklist/",
-      "title_length": 73,
-      "description_length": 179,
+      "title_length": 49,
+      "description_length": 157,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-ninh-binh-two-day-itinerary/index.html",
@@ -4827,12 +4494,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-ninh-binh-weather-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ninh-binh-weather-planning/",
-      "title_length": 73,
-      "description_length": 174,
+      "title_length": 49,
+      "description_length": 157,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-perfume-pagoda-bike-choice/index.html",
@@ -4965,12 +4630,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-pu-luong-safety-checklist/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-pu-luong-safety-checklist/",
-      "title_length": 72,
-      "description_length": 174,
+      "title_length": 48,
+      "description_length": 160,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-pu-luong-two-day-itinerary/index.html",
@@ -4983,12 +4646,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-pu-luong-weather-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-pu-luong-weather-planning/",
-      "title_length": 72,
-      "description_length": 170,
+      "title_length": 48,
+      "description_length": 164,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-sapa-bike-choice/index.html",
@@ -5009,12 +4670,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-sapa-luggage-packing/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-sapa-luggage-packing/",
-      "title_length": 73,
-      "description_length": 175,
+      "title_length": 49,
+      "description_length": 165,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-sapa-motorbike-route/index.html",
@@ -5059,12 +4718,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-sapa-two-day-itinerary/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-sapa-two-day-itinerary/",
-      "title_length": 73,
-      "description_length": 165,
+      "title_length": 49,
+      "description_length": 151,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-sapa-weather-planning/index.html",
@@ -5125,12 +4782,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-soc-son-safety-checklist/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-soc-son-safety-checklist/",
-      "title_length": 71,
-      "description_length": 141,
+      "title_length": 47,
+      "description_length": 160,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-soc-son-two-day-itinerary/index.html",
@@ -5143,12 +4798,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-soc-son-weather-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-soc-son-weather-planning/",
-      "title_length": 71,
-      "description_length": 141,
+      "title_length": 47,
+      "description_length": 148,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-tam-dao-bike-choice/index.html",
@@ -5201,12 +4854,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-tam-dao-safety-checklist/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-tam-dao-safety-checklist/",
-      "title_length": 71,
-      "description_length": 178,
+      "title_length": 47,
+      "description_length": 153,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-tam-dao-two-day-itinerary/index.html",
@@ -5219,12 +4870,10 @@
     {
       "path": "hanoi-motorbike-trips/hanoi-to-tam-dao-weather-planning/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-tam-dao-weather-planning/",
-      "title_length": 71,
-      "description_length": 180,
+      "title_length": 47,
+      "description_length": 168,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-motorbike-trips/hanoi-to-yen-tu-bike-choice/index.html",
@@ -5317,12 +4966,10 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-beginners-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-beginners-checks-and-mistakes/",
-      "title_length": 73,
-      "description_length": 162,
+      "title_length": 55,
+      "description_length": 142,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-beginners-selection-guide/index.html",
@@ -5335,12 +4982,10 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-braking-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-braking-checks-and-mistakes/",
-      "title_length": 71,
-      "description_length": 154,
+      "title_length": 52,
+      "description_length": 157,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-braking-selection-guide/index.html",
@@ -5353,12 +4998,10 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-commuters-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-commuters-checks-and-mistakes/",
-      "title_length": 73,
-      "description_length": 165,
+      "title_length": 55,
+      "description_length": 155,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-commuters-selection-guide/index.html",
@@ -5371,12 +5014,10 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-couples-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-couples-checks-and-mistakes/",
-      "title_length": 71,
-      "description_length": 168,
+      "title_length": 53,
+      "description_length": 154,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-couples-selection-guide/index.html",
@@ -5413,12 +5054,10 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-for-daily-commuting-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-for-daily-commuting-selection-guide/",
-      "title_length": 72,
-      "description_length": 163,
+      "title_length": 46,
+      "description_length": 157,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-for-long-bien-riding-checks-and-mistakes/index.html",
@@ -5431,12 +5070,10 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-for-long-bien-riding-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-for-long-bien-riding-selection-guide/",
-      "title_length": 73,
-      "description_length": 158,
+      "title_length": 47,
+      "description_length": 156,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-for-long-stays-checks-and-mistakes/index.html",
@@ -5449,12 +5086,10 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-for-long-stays-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-for-long-stays-selection-guide/",
-      "title_length": 74,
-      "description_length": 148,
+      "title_length": 41,
+      "description_length": 153,
       "errors": [],
-      "warnings": [
-        "title length 74"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-for-old-quarter-riding-checks-and-mistakes/index.html",
@@ -5475,42 +5110,34 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-for-short-stays-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-for-short-stays-checks-and-mistakes/",
-      "title_length": 71,
-      "description_length": 180,
+      "title_length": 57,
+      "description_length": 152,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-for-short-stays-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-for-short-stays-selection-guide/",
-      "title_length": 75,
-      "description_length": 160,
+      "title_length": 42,
+      "description_length": 143,
       "errors": [],
-      "warnings": [
-        "title length 75"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-for-weekend-use-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-for-weekend-use-checks-and-mistakes/",
-      "title_length": 71,
-      "description_length": 155,
+      "title_length": 57,
+      "description_length": 147,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-for-weekend-use-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-for-weekend-use-selection-guide/",
-      "title_length": 75,
-      "description_length": 148,
+      "title_length": 42,
+      "description_length": 153,
       "errors": [],
-      "warnings": [
-        "title length 75"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-for-west-lake-riding-checks-and-mistakes/index.html",
@@ -5523,33 +5150,26 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-for-west-lake-riding-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-for-west-lake-riding-selection-guide/",
-      "title_length": 73,
-      "description_length": 170,
+      "title_length": 47,
+      "description_length": 149,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-fuel-planning-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-fuel-planning-checks-and-mistakes/",
-      "title_length": 69,
-      "description_length": 190,
+      "title_length": 59,
+      "description_length": 154,
       "errors": [],
-      "warnings": [
-        "description length 190"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-fuel-planning-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-fuel-planning-selection-guide/",
-      "title_length": 73,
-      "description_length": 181,
+      "title_length": 47,
+      "description_length": 146,
       "errors": [],
-      "warnings": [
-        "title length 73",
-        "description length 181"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-in-hot-weather-checks-and-mistakes/index.html",
@@ -5562,12 +5182,10 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-in-hot-weather-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-in-hot-weather-selection-guide/",
-      "title_length": 74,
-      "description_length": 152,
+      "title_length": 42,
+      "description_length": 159,
       "errors": [],
-      "warnings": [
-        "title length 74"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-in-rain-checks-and-mistakes/index.html",
@@ -5604,12 +5222,10 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-low-speed-control-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-low-speed-control-checks-and-mistakes/",
-      "title_length": 73,
-      "description_length": 156,
+      "title_length": 44,
+      "description_length": 153,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-low-speed-control-selection-guide/index.html",
@@ -5622,12 +5238,10 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-parking-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-parking-checks-and-mistakes/",
-      "title_length": 71,
-      "description_length": 159,
+      "title_length": 52,
+      "description_length": 149,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-parking-selection-guide/index.html",
@@ -5696,12 +5310,10 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-short-riders-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-short-riders-selection-guide/",
-      "title_length": 72,
-      "description_length": 167,
+      "title_length": 49,
+      "description_length": 160,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-solo-travelers-checks-and-mistakes/index.html",
@@ -5714,22 +5326,18 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-solo-travelers-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-solo-travelers-selection-guide/",
-      "title_length": 74,
-      "description_length": 166,
+      "title_length": 51,
+      "description_length": 157,
       "errors": [],
-      "warnings": [
-        "title length 74"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-students-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-students-checks-and-mistakes/",
-      "title_length": 72,
-      "description_length": 171,
+      "title_length": 54,
+      "description_length": 156,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-students-selection-guide/index.html",
@@ -5750,23 +5358,18 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-tall-riders-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-tall-riders-selection-guide/",
-      "title_length": 71,
-      "description_length": 167,
+      "title_length": 48,
+      "description_length": 154,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-vs-50cc-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-vs-50cc-checks-and-mistakes/",
-      "title_length": 71,
-      "description_length": 185,
+      "title_length": 53,
+      "description_length": 162,
       "errors": [],
-      "warnings": [
-        "title length 71",
-        "description length 185"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-vs-50cc-selection-guide/index.html",
@@ -5779,12 +5382,10 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-vs-semi-automatic-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-vs-semi-automatic-checks-and-mistakes/",
-      "title_length": 73,
-      "description_length": 168,
+      "title_length": 52,
+      "description_length": 157,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-vs-semi-automatic-selection-guide/index.html",
@@ -5805,12 +5406,10 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-with-luggage-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-with-luggage-selection-guide/",
-      "title_length": 72,
-      "description_length": 157,
+      "title_length": 39,
+      "description_length": 160,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/automatic-scooter-with-passenger-checks-and-mistakes/index.html",
@@ -5823,12 +5422,10 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-with-passenger-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-with-passenger-selection-guide/",
-      "title_length": 74,
-      "description_length": 155,
+      "title_length": 43,
+      "description_length": 161,
       "errors": [],
-      "warnings": [
-        "title length 74"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/budget-automatic-scooter-checks-and-mistakes/index.html",
@@ -5865,12 +5462,10 @@
     {
       "path": "hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter-selection-guide/",
-      "title_length": 74,
-      "description_length": 177,
+      "title_length": 48,
+      "description_length": 151,
       "errors": [],
-      "warnings": [
-        "title length 74"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/electric-vs-petrol-scooter-hanoi/index.html",
@@ -5891,12 +5486,10 @@
     {
       "path": "hanoi-scooter-rental/honda-air-blade-for-city-riding-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/honda-air-blade-for-city-riding-selection-guide/",
-      "title_length": 73,
-      "description_length": 170,
+      "title_length": 40,
+      "description_length": 154,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/honda-air-blade-for-commuters-checks-and-mistakes/index.html",
@@ -5909,12 +5502,10 @@
     {
       "path": "hanoi-scooter-rental/honda-air-blade-for-commuters-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/honda-air-blade-for-commuters-selection-guide/",
-      "title_length": 71,
-      "description_length": 176,
+      "title_length": 38,
+      "description_length": 152,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/honda-air-blade-vs-honda-click-checks-and-mistakes/index.html",
@@ -5927,12 +5518,10 @@
     {
       "path": "hanoi-scooter-rental/honda-air-blade-vs-honda-click-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/honda-air-blade-vs-honda-click-selection-guide/",
-      "title_length": 72,
-      "description_length": 177,
+      "title_length": 39,
+      "description_length": 146,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-checks-and-mistakes/index.html",
@@ -5945,22 +5534,18 @@
     {
       "path": "hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-selection-guide/",
-      "title_length": 71,
-      "description_length": 179,
+      "title_length": 38,
+      "description_length": 141,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/honda-air-blade-with-luggage-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/honda-air-blade-with-luggage-checks-and-mistakes/",
-      "title_length": 74,
-      "description_length": 160,
+      "title_length": 45,
+      "description_length": 155,
       "errors": [],
-      "warnings": [
-        "title length 74"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/honda-air-blade-with-luggage-selection-guide/index.html",
@@ -5973,12 +5558,10 @@
     {
       "path": "hanoi-scooter-rental/honda-click-for-beginners-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/honda-click-for-beginners-checks-and-mistakes/",
-      "title_length": 71,
+      "title_length": 53,
       "description_length": 161,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/honda-click-for-beginners-selection-guide/index.html",
@@ -6007,13 +5590,10 @@
     {
       "path": "hanoi-scooter-rental/honda-click-vs-yamaha-mio-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/honda-click-vs-yamaha-mio-checks-and-mistakes/",
-      "title_length": 71,
-      "description_length": 181,
+      "title_length": 42,
+      "description_length": 151,
       "errors": [],
-      "warnings": [
-        "title length 71",
-        "description length 181"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/honda-click-vs-yamaha-mio-hanoi/index.html",
@@ -6034,12 +5614,10 @@
     {
       "path": "hanoi-scooter-rental/honda-vision-for-city-riding-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/honda-vision-for-city-riding-checks-and-mistakes/",
-      "title_length": 74,
-      "description_length": 164,
+      "title_length": 52,
+      "description_length": 143,
       "errors": [],
-      "warnings": [
-        "title length 74"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/honda-vision-for-city-riding-selection-guide/index.html",
@@ -6076,12 +5654,10 @@
     {
       "path": "hanoi-scooter-rental/honda-vision-vs-honda-click-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/honda-vision-vs-honda-click-checks-and-mistakes/",
-      "title_length": 73,
-      "description_length": 175,
+      "title_length": 44,
+      "description_length": 145,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/honda-vision-vs-honda-click-selection-guide/index.html",
@@ -6094,12 +5670,10 @@
     {
       "path": "hanoi-scooter-rental/honda-vision-vs-yamaha-mio-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/honda-vision-vs-yamaha-mio-checks-and-mistakes/",
-      "title_length": 72,
-      "description_length": 172,
+      "title_length": 43,
+      "description_length": 144,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/honda-vision-vs-yamaha-mio-selection-guide/index.html",
@@ -6112,12 +5686,10 @@
     {
       "path": "hanoi-scooter-rental/honda-vision-with-passenger-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/honda-vision-with-passenger-checks-and-mistakes/",
-      "title_length": 73,
-      "description_length": 162,
+      "title_length": 46,
+      "description_length": 157,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/honda-vision-with-passenger-selection-guide/index.html",
@@ -6154,12 +5726,10 @@
     {
       "path": "hanoi-scooter-rental/small-scooter-vs-larger-scooter-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/small-scooter-vs-larger-scooter-selection-guide/",
-      "title_length": 73,
-      "description_length": 175,
+      "title_length": 40,
+      "description_length": 159,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "hanoi-scooter-rental/yamaha-mio-for-beginners-checks-and-mistakes/index.html",
@@ -6276,32 +5846,26 @@
     {
       "path": "monthly-motorbike-rental-hanoi/couples-model-choice/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/couples-model-choice/",
-      "title_length": 72,
-      "description_length": 148,
+      "title_length": 48,
+      "description_length": 153,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "monthly-motorbike-rental-hanoi/couples-monthly-budget/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/couples-monthly-budget/",
-      "title_length": 72,
-      "description_length": 154,
+      "title_length": 49,
+      "description_length": 159,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "monthly-motorbike-rental-hanoi/couples-parking-and-security/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/couples-parking-and-security/",
-      "title_length": 71,
-      "description_length": 156,
+      "title_length": 51,
+      "description_length": 164,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "monthly-motorbike-rental-hanoi/expats-commuting-setup/index.html",
@@ -6330,22 +5894,18 @@
     {
       "path": "monthly-motorbike-rental-hanoi/expats-model-choice/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/expats-model-choice/",
-      "title_length": 71,
-      "description_length": 167,
+      "title_length": 47,
+      "description_length": 154,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "monthly-motorbike-rental-hanoi/expats-monthly-budget/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/expats-monthly-budget/",
-      "title_length": 71,
-      "description_length": 160,
+      "title_length": 48,
+      "description_length": 150,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "monthly-motorbike-rental-hanoi/expats-parking-and-security/index.html",
@@ -6438,42 +5998,34 @@
     {
       "path": "monthly-motorbike-rental-hanoi/interns-model-choice/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/interns-model-choice/",
-      "title_length": 72,
-      "description_length": 180,
+      "title_length": 48,
+      "description_length": 153,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "monthly-motorbike-rental-hanoi/interns-monthly-budget/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/interns-monthly-budget/",
-      "title_length": 72,
-      "description_length": 167,
+      "title_length": 49,
+      "description_length": 152,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "monthly-motorbike-rental-hanoi/interns-parking-and-security/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/interns-parking-and-security/",
-      "title_length": 71,
-      "description_length": 173,
+      "title_length": 51,
+      "description_length": 157,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "monthly-motorbike-rental-hanoi/language-students-commuting-setup/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/language-students-commuting-setup/",
-      "title_length": 73,
-      "description_length": 171,
+      "title_length": 53,
+      "description_length": 154,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "monthly-motorbike-rental-hanoi/language-students-contract-questions/index.html",
@@ -6622,12 +6174,10 @@
     {
       "path": "monthly-motorbike-rental-hanoi/project-workers-commuting-setup/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/project-workers-commuting-setup/",
-      "title_length": 71,
-      "description_length": 174,
+      "title_length": 51,
+      "description_length": 152,
       "errors": [],
-      "warnings": [
-        "title length 71"
-      ]
+      "warnings": []
     },
     {
       "path": "monthly-motorbike-rental-hanoi/project-workers-contract-questions/index.html",
@@ -6688,12 +6238,10 @@
     {
       "path": "monthly-motorbike-rental-hanoi/remote-workers-maintenance-expectations/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/remote-workers-maintenance-expectations/",
-      "title_length": 73,
-      "description_length": 167,
+      "title_length": 51,
+      "description_length": 159,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "monthly-motorbike-rental-hanoi/remote-workers-model-choice/index.html",
@@ -6730,12 +6278,10 @@
     {
       "path": "monthly-motorbike-rental-hanoi/researchers-contract-questions/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/researchers-contract-questions/",
-      "title_length": 72,
-      "description_length": 168,
+      "title_length": 58,
+      "description_length": 157,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "monthly-motorbike-rental-hanoi/researchers-maintenance-expectations/index.html",
@@ -6796,32 +6342,26 @@
     {
       "path": "monthly-motorbike-rental-hanoi/students-model-choice/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/students-model-choice/",
-      "title_length": 73,
-      "description_length": 152,
+      "title_length": 49,
+      "description_length": 157,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "monthly-motorbike-rental-hanoi/students-monthly-budget/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/students-monthly-budget/",
-      "title_length": 73,
-      "description_length": 161,
+      "title_length": 50,
+      "description_length": 147,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "monthly-motorbike-rental-hanoi/students-parking-and-security/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/students-parking-and-security/",
-      "title_length": 72,
-      "description_length": 163,
+      "title_length": 52,
+      "description_length": 155,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "monthly-motorbike-rental-hanoi/teachers-commuting-setup/index.html",
@@ -6850,32 +6390,26 @@
     {
       "path": "monthly-motorbike-rental-hanoi/teachers-model-choice/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/teachers-model-choice/",
-      "title_length": 73,
-      "description_length": 175,
+      "title_length": 49,
+      "description_length": 149,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "monthly-motorbike-rental-hanoi/teachers-monthly-budget/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/teachers-monthly-budget/",
-      "title_length": 73,
-      "description_length": 162,
+      "title_length": 50,
+      "description_length": 151,
       "errors": [],
-      "warnings": [
-        "title length 73"
-      ]
+      "warnings": []
     },
     {
       "path": "monthly-motorbike-rental-hanoi/teachers-parking-and-security/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/teachers-parking-and-security/",
-      "title_length": 72,
-      "description_length": 169,
+      "title_length": 52,
+      "description_length": 156,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "motorbike-guides/best-time-to-ride-motorbike-hanoi/index.html",
@@ -7624,12 +7158,10 @@
     {
       "path": "motorbike-rental-hanoi-old-quarter/long-bien-day-ride-ideas/index.html",
       "canonical": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/long-bien-day-ride-ideas/",
-      "title_length": 57,
-      "description_length": 185,
+      "title_length": 47,
+      "description_length": 163,
       "errors": [],
-      "warnings": [
-        "description length 185"
-      ]
+      "warnings": []
     },
     {
       "path": "motorbike-rental-hanoi-old-quarter/long-bien-parking-guide/index.html",
@@ -8034,22 +7566,18 @@
     {
       "path": "renting-a-motorbike-in-vietnam/accident-steps-long-distance-riders/index.html",
       "canonical": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/accident-steps-long-distance-riders/",
-      "title_length": 75,
-      "description_length": 133,
+      "title_length": 60,
+      "description_length": 163,
       "errors": [],
-      "warnings": [
-        "title length 75"
-      ]
+      "warnings": []
     },
     {
       "path": "renting-a-motorbike-in-vietnam/accident-steps-scooter-riders/index.html",
       "canonical": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/accident-steps-scooter-riders/",
-      "title_length": 72,
-      "description_length": 137,
+      "title_length": 54,
+      "description_length": 160,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "renting-a-motorbike-in-vietnam/accident-steps-tourists/index.html",
@@ -8310,12 +7838,10 @@
     {
       "path": "renting-a-motorbike-in-vietnam/rental-contracts-long-distance-riders/index.html",
       "canonical": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/rental-contracts-long-distance-riders/",
-      "title_length": 72,
-      "description_length": 149,
+      "title_length": 58,
+      "description_length": 161,
       "errors": [],
-      "warnings": [
-        "title length 72"
-      ]
+      "warnings": []
     },
     {
       "path": "renting-a-motorbike-in-vietnam/rental-contracts-scooter-riders/index.html",
