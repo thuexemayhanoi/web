@@ -61,8 +61,21 @@ function absUrl(href){
   return system.domain+(href.startsWith('/')?href:'/'+href);
 }
 function decode(s){
-  const map={'&amp;':'&','&ndash;':'–','&mdash;':'—','&middot;':'·','&hellip;':'…','&quot;':'"','&#39;':"'",'&apos;':"'"};
-  return s.replace(/&(amp|ndash|mdash|middot|hellip|quot|#39|apos);/g,m=>map[m]||m);
+  const named={
+    amp:'&',lt:'<',gt:'>',quot:'"',apos:"'",nbsp:' ',
+    ndash:'–',mdash:'—',middot:'·',hellip:'…',
+    rsquo:'’',lsquo:'‘',rdquo:'”',ldquo:'“'
+  };
+  let out=String(s||'');
+  for(let pass=0;pass<3;pass++){
+    const next=out
+      .replace(/&([a-z]+);/gi,(m,n)=>Object.prototype.hasOwnProperty.call(named,n.toLowerCase())?named[n.toLowerCase()]:m)
+      .replace(/&#(\d+);/g,(m,n)=>{try{return String.fromCodePoint(Number(n));}catch{return m;}})
+      .replace(/&#x([0-9a-f]+);/gi,(m,n)=>{try{return String.fromCodePoint(parseInt(n,16));}catch{return m;}});
+    if(next===out)break;
+    out=next;
+  }
+  return out;
 }
 function textOnly(s){
   return decode(s.replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim());
@@ -70,6 +83,17 @@ function textOnly(s){
 function titleOf(html){return textOnly((html.match(/<title>([\s\S]*?)<\/title>/i)||[])[1]||'');}
 function descOf(html){return decode((html.match(/<meta name="description" content="([^"]*)"/i)||[])[1]||'');}
 function canonicalOf(html){return (html.match(/<link rel="canonical" href="([^"]*)"/i)||[])[1]||'';}
+function canonicalForPath(pagePath){
+  if(pagePath==='index.html') return system.domain+'/';
+  if(pagePath.endsWith('/index.html')) return system.domain+'/'+pagePath.slice(0,-'index.html'.length);
+  return system.domain+'/'+pagePath;
+}
+function syncCanonical(html,pagePath){
+  const expected=canonicalForPath(pagePath);
+  const tag='<link rel="canonical" href="'+attr(expected)+'">';
+  if(/<link rel="canonical" href="[^"]*">/i.test(html)) return html.replace(/<link rel="canonical" href="[^"]*">/i,tag);
+  return html.replace(/<\/head>/i,tag+'\n</head>');
+}
 function h1Of(html){return textOnly((html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)||[])[1]||'');}
 function attr(s){return String(s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function syncSocialMeta(html,pagePath){
@@ -265,6 +289,7 @@ function buildHtml(html,pagePath){
   }
 
   html=syncAssetVersion(html);
+  html=syncCanonical(html,pagePath);
   html=syncSocialMeta(html,pagePath);
   html=lazyContentImages(html);
 

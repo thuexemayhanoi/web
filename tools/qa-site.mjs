@@ -20,6 +20,24 @@ walk(ROOT);
 const fileSet=new Set(files);
 const htmlPaths=files.filter(p=>p.endsWith('.html'));
 const pages=new Map(htmlPaths.map(p=>[p,fs.readFileSync(path.join(ROOT,p),'utf8')]));
+function expectedCanonical(pagePath){
+  if(pagePath==='index.html') return system.domain+'/';
+  if(pagePath.endsWith('/index.html')) return system.domain+'/'+pagePath.slice(0,-'index.html'.length);
+  return system.domain+'/'+pagePath;
+}
+function decodeEntities(value){
+  const named={amp:'&',lt:'<',gt:'>',quot:'"',apos:"'",nbsp:' ',ndash:'–',mdash:'—',middot:'·',hellip:'…',rsquo:'’',lsquo:'‘',rdquo:'”',ldquo:'“'};
+  let out=String(value||'');
+  for(let pass=0;pass<3;pass++){
+    const next=out
+      .replace(/&([a-z]+);/gi,(m,n)=>Object.prototype.hasOwnProperty.call(named,n.toLowerCase())?named[n.toLowerCase()]:m)
+      .replace(/&#(\d+);/g,(m,n)=>{try{return String.fromCodePoint(Number(n));}catch{return m;}})
+      .replace(/&#x([0-9a-f]+);/gi,(m,n)=>{try{return String.fromCodePoint(parseInt(n,16));}catch{return m;}});
+    if(next===out)break;
+    out=next;
+  }
+  return out;
+}
 function resolve(pagePath,raw){
   let href=raw.trim();
   if(!href||/^(mailto:|tel:|javascript:|data:|#)/i.test(href)) return null;
@@ -40,9 +58,12 @@ function resolve(pagePath,raw){
 for(const [p,c] of pages){
   if(p!=='404.html'){
     const canon=(c.match(/<link rel="canonical" href="([^"]+)"/i)||[])[1]||'';
-    if(!canon.startsWith(system.domain+'/')) errors.push(p+': bad or missing canonical');
-    const title=((c.match(/<title>([\s\S]*?)<\/title>/i)||[])[1]||'').replace(/<[^>]+>/g,'').trim();
-    const desc=(c.match(/<meta name="description" content="([^"]*)"/i)||[])[1]||'';
+    const expected=expectedCanonical(p);
+    if(canon!==expected) errors.push(p+': canonical mismatch; expected '+expected+' got '+(canon||'(missing)'));
+    const titleRaw=((c.match(/<title>([\s\S]*?)<\/title>/i)||[])[1]||'').replace(/<[^>]+>/g,'').trim();
+    const descRaw=(c.match(/<meta name="description" content="([^"]*)"/i)||[])[1]||'';
+    const title=decodeEntities(titleRaw);
+    const desc=decodeEntities(descRaw);
     if(!title) errors.push(p+': missing title');
     if(!desc) errors.push(p+': missing meta description');
     if(title && (title.length<25 || title.length>70)) warnings.push(p+': title length '+title.length+' (review 25-70)');
@@ -62,8 +83,17 @@ for(const [p,c] of pages){
     if(system.features&&system.features.autoSocialMeta!==false){
       const ogUrl=(c.match(/<meta property="og:url" content="([^"]+)"/i)||[])[1]||'';
       const ogImg=(c.match(/<meta property="og:image" content="([^"]+)"/i)||[])[1]||'';
+      const ogTitle=decodeEntities((c.match(/<meta property="og:title" content="([^"]*)"/i)||[])[1]||'');
+      const ogDesc=decodeEntities((c.match(/<meta property="og:description" content="([^"]*)"/i)||[])[1]||'');
+      const twTitle=decodeEntities((c.match(/<meta name="twitter:title" content="([^"]*)"/i)||[])[1]||'');
+      const twDesc=decodeEntities((c.match(/<meta name="twitter:description" content="([^"]*)"/i)||[])[1]||'');
       if(ogUrl!==canon) errors.push(p+': og:url does not match canonical');
       if(ogImg!==system.brand.logoAbsolute) errors.push(p+': og:image does not match central logo');
+      if(ogTitle!==title) errors.push(p+': og:title does not match title');
+      if(ogDesc!==desc) errors.push(p+': og:description does not match meta description');
+      if(twTitle!==title) errors.push(p+': twitter:title does not match title');
+      if(twDesc!==desc) errors.push(p+': twitter:description does not match meta description');
+      if(/&amp;(?:rsquo|lsquo|rdquo|ldquo|ndash|mdash|hellip|quot|apos|#39);/i.test(c)) errors.push(p+': double-escaped social/meta entity found');
     }
     if(system.features&&system.features.quickContact!==false && !c.includes('<!-- SHARED_FLOATING_START -->')) errors.push(p+': shared floating component missing');
     if(!c.includes('<!-- SHARED_SCRIPTS_START -->')) errors.push(p+': shared script component missing');

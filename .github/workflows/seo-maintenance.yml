@@ -1,0 +1,75 @@
+name: SEO Maintenance
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 2 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'tools/seo-fix.mjs'
+      - 'tools/seo-audit.mjs'
+      - 'tools/build-site.mjs'
+      - 'tools/qa-site.mjs'
+      - 'data/site-system.json'
+      - '.github/workflows/seo-maintenance.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seo-maintenance-v1
+  cancel-in-progress: false
+
+jobs:
+  seo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Safe SEO fixes
+        run: node tools/seo-fix.mjs
+
+      - name: Rebuild shared metadata and schema
+        run: node tools/build-site.mjs
+
+      - name: Rebuild authoritative sitemap after build
+        run: node tools/seo-fix.mjs
+
+      - name: SEO audit
+        run: node tools/seo-audit.mjs
+
+      - name: Site QA
+        run: node tools/qa-site.mjs
+
+      - name: Verify deterministic SEO state
+        run: |
+          node tools/build-site.mjs --check
+          node tools/seo-fix.mjs --check
+
+      - name: Commit safe fixes and reports
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "rentbike-seo-bot"
+          git config user.email "nguyentuantu2482@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "SEO state already clean."
+            exit 0
+          fi
+          git commit -m "seo: normalize canonical metadata and sitemap"
+          git fetch origin main
+          remote="$(git rev-parse origin/main)"
+          parent="$(git rev-parse HEAD^)"
+          if [ "$remote" != "$parent" ]; then
+            echo "main advanced during SEO maintenance; aborting stale write safely"
+            exit 1
+          fi
+          git push origin HEAD:main
