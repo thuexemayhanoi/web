@@ -261,7 +261,7 @@
     ]
   },
   "assets": {
-    "version": "20261011.3"
+    "version": "20261011.4"
   },
   "features": {
     "autoSchema": true,
@@ -271,7 +271,10 @@
     "quickContact": true,
     "chatbot": true,
     "lazyContentImages": true,
-    "articleToc": true
+    "articleToc": true,
+    "siteSearch": true,
+    "postNavigation": true,
+    "authorBox": true
   },
   "ctaBySilo": {}
 }

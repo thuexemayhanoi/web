@@ -10,6 +10,7 @@ const headerTpl=read('site/partials/header.html');
 const footerTpl=read('site/partials/footer.html');
 const ctaTpl=read('site/partials/article-cta.html');
 const cardTpl=read('site/partials/related-card.html');
+const authorTpl=read('site/partials/author-box.html');
 const floatingTpl=read('site/partials/floating-ui.html');
 const scriptsTpl=read('site/partials/scripts.html');
 const hooksSource=read('site/hooks.html');
@@ -241,6 +242,57 @@ function inferredRelated(pagePath){
     .map(r=>pathToHref(r.path))
     .slice(0,12);
 }
+// Adjacent editorial posts are stable in Content Matrix order and stay in their
+// own hub directory. No dates or imaginary author names are introduced.
+const articleGroups=new Map();
+for(const record of matrixRows){
+  if(record.content_role!=='CLUSTER' || record.factory_status!=='PUBLISHED') continue;
+  const group=record.path.split('/')[0];
+  if(!articleGroups.has(group)) articleGroups.set(group,[]);
+  articleGroups.get(group).push(record);
+}
+function adjacentLinks(pagePath){
+  const group=articleGroups.get(pagePath.split('/')[0])||[];
+  const i=group.findIndex(r=>r.path===pagePath);
+  if(i<0) return '';
+  const item=(row,label,klass)=>{
+    if(!row || !fs.existsSync(path.join(ROOT,row.path))) return '';
+    const h=pathToHref(row.path);
+    const text=(row.working_title||row.primary_keyword||'').trim();
+    return '<a class="post-neighbor '+klass+'" href="'+h+'"><span>'+label+'</span><strong>'+escapeTocText(text)+'</strong></a>';
+  };
+  const prev=item(group[i-1],'← Previous article','post-prev');
+  const next=item(group[i+1],'Next article →','post-next');
+  if(!prev&&!next) return '';
+  return '<!-- SLOT:POST_NAV:START -->\n<nav class="post-neighbors" aria-label="Previous and next articles">'+prev+next+'</nav>\n<!-- SLOT:POST_NAV:END -->';
+}
+function syncArticleDiscovery(html,pagePath){
+  const row=matrixByPath.get(pagePath);
+  if(!row || row.content_role!=='CLUSTER') return html;
+  const start=html.indexOf('<article class="article">');
+  if(start<0) return html;
+  // Strip only our marked blocks, then insert again in stable positions.
+  html=html.replace(/\n?<!-- SLOT:AUTHOR:START -->[\s\S]*?<!-- SLOT:AUTHOR:END -->/g,'');
+  html=html.replace(/\n?<!-- SLOT:POST_NAV:START -->[\s\S]*?<!-- SLOT:POST_NAV:END -->/g,'');
+  let end=outerArticleEnd(html,start);
+  if(end<0) return html;
+  if(featureOn('authorBox')){
+    const author='<!-- SLOT:AUTHOR:START -->\n'+render(authorTpl,ctx).trim()+'\n<!-- SLOT:AUTHOR:END -->';
+    let before=end;
+    for(const marker of ['<!-- HOOK:ARTICLE_BEFORE_RELATED:START -->','<!-- SLOT:RELATED:START -->','<!-- SLOT:CTA:START -->']){
+      const pos=html.indexOf(marker,start);
+      if(pos>=0&&pos<before) before=pos;
+    }
+    html=html.slice(0,before)+'\n'+author+'\n'+html.slice(before);
+  }
+  if(featureOn('postNavigation')){
+    end=outerArticleEnd(html,start);
+    const nav=adjacentLinks(pagePath);
+    if(nav) html=html.slice(0,end)+'\n'+nav+'\n'+html.slice(end);
+  }
+  return html;
+}
+
 function relatedEntries(pagePath){
   const explicit=system.relatedByPage[pagePath]||[];
   const targets=(matrixLinks.get(pagePath)||[]).filter(Boolean);
@@ -316,7 +368,7 @@ function articleToc(html){
   let article=html.slice(start,end);
   article=article.replace(/\n?<!-- SLOT:TOC:START -->[\s\S]*?<!-- SLOT:TOC:END -->/gi,'');
   article=article.replace(/<nav\b[^>]*class=["'][^"']*\btoc\b[^"']*["'][^>]*>[\s\S]*?<\/nav>\s*/gi,'');
-  const tailMarkers=['<!-- HOOK:ARTICLE_BEFORE_RELATED:START -->','<!-- SLOT:RELATED:START -->','<!-- SLOT:RELATED -->','<!-- SLOT:CTA:START -->','<!-- SLOT:CTA -->','<div class="contact-cta">','<p class="back-home"','<div class="faq-ai">'];
+  const tailMarkers=['<!-- HOOK:ARTICLE_BEFORE_RELATED:START -->','<!-- SLOT:RELATED:START -->','<!-- SLOT:RELATED -->','<!-- SLOT:AUTHOR:START -->','<!-- SLOT:POST_NAV:START -->','<!-- SLOT:CTA:START -->','<!-- SLOT:CTA -->','<div class="contact-cta">','<p class="back-home"','<div class="faq-ai">'];
   let bodyEnd=article.length;
   for(const marker of tailMarkers){
     const p=article.indexOf(marker);
@@ -442,6 +494,7 @@ function buildHtml(html,pagePath){
       html=html.slice(0,newEnd)+'\n'+(moveHook?moveHook+'\n':'')+relMatch[0]+'\n'+html.slice(newEnd);
     }
   }
+  html=syncArticleDiscovery(html,pagePath);
   return html;
 }
 function businessJs(){

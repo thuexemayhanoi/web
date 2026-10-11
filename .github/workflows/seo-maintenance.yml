@@ -21,6 +21,9 @@ on:
       - 'tools/qa-shared-components.mjs'
       - 'tools/qa-article-ui.mjs'
       - 'assets/js/app.js'
+      - 'assets/js/site-search.js'
+      - 'tools/build-article-index.mjs'
+      - 'tools/qa-discovery.mjs'
       - '.github/workflows/seo-maintenance.yml'
 
 permissions:
@@ -54,6 +57,9 @@ jobs:
       - name: SEO audit
         run: node tools/seo-audit.mjs
 
+      - name: Build article search catalog
+        run: node tools/build-article-index.mjs
+
       - name: Site QA
         run: node tools/qa-site.mjs
 
@@ -63,6 +69,11 @@ jobs:
         run: |
           node --check assets/js/app.js
           node tools/qa-article-ui.mjs
+
+      - name: Verify discovery and post navigation
+        run: |
+          node --check assets/js/site-search.js
+          node tools/qa-discovery.mjs
 
       - name: Verify deterministic SEO state
         run: |

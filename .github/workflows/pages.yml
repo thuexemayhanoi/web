@@ -45,3 +45,9 @@ jobs:
         run: node tools/build-site.mjs --check
       - name: Build search index
         run: node tools/build-search-index.mjs
+      - name: Build article search catalog
+        run: node tools/build-article-index.mjs
+      - name: Verify discovery and post navigation
+        run: |
+          node --check assets/js/site-search.js
+          node tools/qa-discovery.mjs

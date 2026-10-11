@@ -236,3 +236,13 @@ Avoid putting real customer names, unverified prices, or marketing claims into s
 Related links are selected from explicit configuration, then Content Matrix targets, then the same hub/silo; duplicates and broken page candidates are excluded, with a hard limit of nine. The generated section shows three cards initially. The existing `assets/js/app.js` provides Previous / Next controls (three cards per view), no framework or dependency. New articles automatically inherit both UI features.
 
 **Do not edit 1,000 HTML files to change these components.** Edit the central generator, CSS tokens, JS or Content Matrix instead. GitHub SEO Maintenance regenerates published HTML, runs `tools/qa-article-ui.mjs` along with the existing QA checks and commits outputs to main before GitHub Pages publishes.
+
+## Blog discovery & publisher components
+
+**Blog search:** Site search is in `site/partials/header.html` and the shared `site/partials/scripts.html`. The lightweight `assets/js/site-search.js` opens an accessible search dialog, loads `/assets/search/article-index.json` **only on demand**, and searches article titles, descriptions, H2/H3 headings, and matrix primary keywords. The catalog is built deterministically by `node tools/build-article-index.mjs` from published Content Matrix entries; the existing chatbot index remains unchanged.
+
+**Adjacent posts:** `tools/build-site.mjs` selects the previous and next **published cluster** by their Content Matrix order inside the same hub directory, and creates `SLOT:POST_NAV` within each article automatically. The navigation never crosses silos or invents pages. The first/last article naturally has a single neighbor.
+
+**Publisher box:** `site/partials/author-box.html` creates a branded information panel on cluster posts. Its source of truth is `data/site-system.json`. We identify the **publisher/brand**, not an unverified individual author. Set `features.authorBox`, `features.postNavigation`, or `features.siteSearch` to false to disable a component. Generated article HTML is managed by the build; do not edit hundreds of posts manually.
+
+**QA:** `node tools/build-site.mjs`, `node tools/build-article-index.mjs`, and `node tools/qa-discovery.mjs` verify these functions. SEO Maintenance runs them and syncs generated output to the native GitHub Pages branch.
