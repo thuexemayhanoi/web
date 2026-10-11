@@ -295,9 +295,9 @@ function articleToc(html){
   const end=html.indexOf('</article>',start);
   if(end<0) return html;
   let article=html.slice(start,end);
-  article=article.replace(/<!-- SLOT:TOC:START -->[\s\S]*?<!-- SLOT:TOC:END -->\s*/gi,'');
+  article=article.replace(/\n?<!-- SLOT:TOC:START -->[\s\S]*?<!-- SLOT:TOC:END -->/gi,'');
   article=article.replace(/<nav\b[^>]*class=["'][^"']*\btoc\b[^"']*["'][^>]*>[\s\S]*?<\/nav>\s*/gi,'');
-  const tailMarkers=['<!-- HOOK:ARTICLE_BEFORE_RELATED:START -->','<!-- SLOT:RELATED:START -->','<!-- SLOT:RELATED -->','<!-- SLOT:CTA:START -->','<!-- SLOT:CTA -->'];
+  const tailMarkers=['<!-- HOOK:ARTICLE_BEFORE_RELATED:START -->','<!-- SLOT:RELATED:START -->','<!-- SLOT:RELATED -->','<!-- SLOT:CTA:START -->','<!-- SLOT:CTA -->','<div class="contact-cta">','<p class="back-home"'];
   let bodyEnd=article.length;
   for(const marker of tailMarkers){
     const p=article.indexOf(marker);
@@ -305,7 +305,7 @@ function articleToc(html){
   }
   const body=article.slice(0,bodyEnd);
   const headings=[...body.matchAll(/<h([23])\b([^>]*)>([\s\S]*?)<\/h\1>/gi)];
-  if(headings.length<2 || !headings.some(h=>h[1]==='2')) return html.slice(0,start)+article+html.slice(end);
+  if(!featureOn('articleToc') || headings.length<2 || !headings.some(h=>h[1]==='2')) return html.slice(0,start)+article+html.slice(end);
   const taken=new Set([...article.matchAll(/\bid=["']([^"']+)["']/gi)].map(x=>x[1]));
   let index=0;
   const items=[];
@@ -360,7 +360,7 @@ function buildHtml(html,pagePath){
   html=syncCanonical(html,pagePath);
   html=syncSocialMeta(html,pagePath);
   html=lazyContentImages(html);
-  if(featureOn('articleToc')) html=articleToc(html);
+  if(!system.schema.excludePaths.includes(pagePath)) html=articleToc(html);
 
   const schema=schemaFor(html,pagePath);
   if(schema){
@@ -373,7 +373,23 @@ function buildHtml(html,pagePath){
   if(related){
     if(/<!-- SLOT:RELATED:START -->[\s\S]*?<!-- SLOT:RELATED:END -->/.test(html)) html=html.replace(/<!-- SLOT:RELATED:START -->[\s\S]*?<!-- SLOT:RELATED:END -->/,related);
     else if(html.includes('<!-- SLOT:RELATED -->')) html=html.replace('<!-- SLOT:RELATED -->',related);
-    else html=html.replace(/<h2>Related hubs<\/h2>\s*<div class="card-grid">[\s\S]*?<\/div>\s*(?=<div class="contact-cta"|<p class="back-home"|<\/article>)/i,related+'\n');
+    else {
+      const legacy=/<h2>Related hubs<\/h2>\s*<div class="card-grid">[\s\S]*?<\/div>\s*(?=<div class="contact-cta"|<p class="back-home"|<\/article>)/i;
+      if(legacy.test(html)) html=html.replace(legacy,related+'\n');
+      else {
+        // New factory articles have no related slot yet: insert before CTA or article end.
+        const aStart=html.indexOf('<article class="article">');
+        const aEnd=aStart>=0?html.indexOf('</article>',aStart):-1;
+        if(aEnd>=0){
+          let before=aEnd;
+          for(const anchor of ['<!-- SLOT:CTA:START -->','<!-- SLOT:CTA -->','<div class="contact-cta">','<p class="back-home"']){
+            const i=html.indexOf(anchor,aStart);
+            if(i>=0&&i<before) before=i;
+          }
+          html=html.slice(0,before)+'\n'+related+'\n'+html.slice(before);
+        }
+      }
+    }
   }
 
   if(featureOn('articleCta')){

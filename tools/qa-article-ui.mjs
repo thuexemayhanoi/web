@@ -15,7 +15,7 @@ function walk(dir){
       const rel=path.relative(root,full).split(path.sep).join('/');
       const html=fs.readFileSync(full,'utf8');
       const a=html.indexOf('<article class="article">');
-      if(a<0) continue;
+      if(a<0 || system.schema.excludePaths.includes(rel)) continue;
       const e=html.indexOf('</article>',a);
       if(e<0){errors.push(rel+': article not closed');continue;}
       const article=html.slice(a,e);
