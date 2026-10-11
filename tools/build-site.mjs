@@ -289,15 +289,27 @@ function escapeTocText(value){
   return String(value).replace(/&/g,'&amp;').replace(/</g,'&lt;')
     .replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
 }
+// Match the closing tag of the outer article, even with nested FAQ <article> nodes.
+function outerArticleEnd(html,start){
+  let depth=0;
+  for(const m of html.slice(start).matchAll(/<\/?article\b[^>]*>/gi)){
+    if(/^<\/article/i.test(m[0])){
+      depth--;
+      if(depth===0) return start+m.index;
+    }else depth++;
+  }
+  return -1;
+}
+
 function articleToc(html){
   const start=html.indexOf('<article class="article">');
   if(start<0) return html;
-  const end=html.indexOf('</article>',start);
+  const end=outerArticleEnd(html,start);
   if(end<0) return html;
   let article=html.slice(start,end);
   article=article.replace(/\n?<!-- SLOT:TOC:START -->[\s\S]*?<!-- SLOT:TOC:END -->/gi,'');
   article=article.replace(/<nav\b[^>]*class=["'][^"']*\btoc\b[^"']*["'][^>]*>[\s\S]*?<\/nav>\s*/gi,'');
-  const tailMarkers=['<!-- HOOK:ARTICLE_BEFORE_RELATED:START -->','<!-- SLOT:RELATED:START -->','<!-- SLOT:RELATED -->','<!-- SLOT:CTA:START -->','<!-- SLOT:CTA -->','<div class="contact-cta">','<p class="back-home"'];
+  const tailMarkers=['<!-- HOOK:ARTICLE_BEFORE_RELATED:START -->','<!-- SLOT:RELATED:START -->','<!-- SLOT:RELATED -->','<!-- SLOT:CTA:START -->','<!-- SLOT:CTA -->','<div class="contact-cta">','<p class="back-home"','<div class="faq-ai">'];
   let bodyEnd=article.length;
   for(const marker of tailMarkers){
     const p=article.indexOf(marker);
@@ -360,7 +372,7 @@ function buildHtml(html,pagePath){
   html=syncCanonical(html,pagePath);
   html=syncSocialMeta(html,pagePath);
   html=lazyContentImages(html);
-  if(!system.schema.excludePaths.includes(pagePath)) html=articleToc(html);
+  if(pagePath!=='faq/index.html' && !system.schema.excludePaths.includes(pagePath)) html=articleToc(html);
 
   const schema=schemaFor(html,pagePath);
   if(schema){
@@ -369,7 +381,7 @@ function buildHtml(html,pagePath){
     else if(/<script type="application\/ld\+json">[\s\S]*?<\/script>/.test(html)) html=html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/,schema);
   }
 
-  const related=relatedBlock(pagePath);
+  const related=pagePath==='faq/index.html' || system.schema.excludePaths.includes(pagePath)?'':relatedBlock(pagePath);
   if(related){
     if(/<!-- SLOT:RELATED:START -->[\s\S]*?<!-- SLOT:RELATED:END -->/.test(html)) html=html.replace(/<!-- SLOT:RELATED:START -->[\s\S]*?<!-- SLOT:RELATED:END -->/,related);
     else if(html.includes('<!-- SLOT:RELATED -->')) html=html.replace('<!-- SLOT:RELATED -->',related);
@@ -379,7 +391,7 @@ function buildHtml(html,pagePath){
       else {
         // New factory articles have no related slot yet: insert before CTA or article end.
         const aStart=html.indexOf('<article class="article">');
-        const aEnd=aStart>=0?html.indexOf('</article>',aStart):-1;
+        const aEnd=aStart>=0?outerArticleEnd(html,aStart):-1;
         if(aEnd>=0){
           let before=aEnd;
           for(const anchor of ['<!-- SLOT:CTA:START -->','<!-- SLOT:CTA -->','<div class="contact-cta">','<p class="back-home"']){

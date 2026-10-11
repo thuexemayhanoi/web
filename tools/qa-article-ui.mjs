@@ -6,6 +6,17 @@ const root=process.cwd();
 const system=JSON.parse(fs.readFileSync(path.join(root,'data/site-system.json'),'utf8'));
 const errors=[];
 let articles=0, tocPages=0, relatedPages=0, paged=0;
+function outerArticleEnd(html,start){
+  let depth=0;
+  for(const m of html.slice(start).matchAll(/<\/?article\b[^>]*>/gi)){
+    if(/^<\/article/i.test(m[0])){
+      depth--;
+      if(depth===0) return start+m.index;
+    }else depth++;
+  }
+  return -1;
+}
+
 function walk(dir){
   for(const item of fs.readdirSync(dir,{withFileTypes:true})){
     if(['.git','node_modules','site'].includes(item.name)) continue;
@@ -15,13 +26,13 @@ function walk(dir){
       const rel=path.relative(root,full).split(path.sep).join('/');
       const html=fs.readFileSync(full,'utf8');
       const a=html.indexOf('<article class="article">');
-      if(a<0 || system.schema.excludePaths.includes(rel)) continue;
-      const e=html.indexOf('</article>',a);
+      if(a<0 || rel==='faq/index.html' || system.schema.excludePaths.includes(rel)) continue;
+      const e=outerArticleEnd(html,a);
       if(e<0){errors.push(rel+': article not closed');continue;}
       const article=html.slice(a,e);
       articles++;
       const toc=(article.match(/<!-- SLOT:TOC:START -->[\s\S]*?<!-- SLOT:TOC:END -->/g)||[]);
-      const body=article.split('<!-- HOOK:ARTICLE_BEFORE_RELATED:START -->')[0].split('<!-- SLOT:RELATED:START -->')[0];
+      const body=article.split('<!-- HOOK:ARTICLE_BEFORE_RELATED:START -->')[0].split('<!-- SLOT:RELATED:START -->')[0].split('<div class="faq-ai">')[0].split('<div class="contact-cta">')[0];
       const headingCount=(body.match(/<h[23]\b/gi)||[]).length;
       const hasH2=/<h2\b/i.test(body);
       const shouldToc=system.features.articleToc!==false&&headingCount>=2&&hasH2;
