@@ -269,7 +269,11 @@ function adjacentLinks(pagePath){
 function syncArticleDiscovery(html,pagePath){
   const row=matrixByPath.get(pagePath);
   if(!row || row.content_role!=='CLUSTER') return html;
-  const start=html.indexOf('<article class="article">');
+  let start=html.indexOf('<article class="article">');
+  if(start<0){
+    const opening=html.match(/<main\b[^>]*>\s*<article\b[^>]*>/i);
+    if(opening)start=html.indexOf('<article',opening.index);
+  }
   if(start<0) return html;
   const authorRe=/<!-- SLOT:AUTHOR:START -->[\s\S]*?<!-- SLOT:AUTHOR:END -->/;
   const navRe=/<!-- SLOT:POST_NAV:START -->[\s\S]*?<!-- SLOT:POST_NAV:END -->/;

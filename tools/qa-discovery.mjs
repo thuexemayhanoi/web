@@ -37,7 +37,12 @@ function walk(dir){
       const html=fs.readFileSync(full,'utf8');
       if(!/class="[^"]*\bsite-search-trigger\b/.test(html) || !html.includes('id="site-search-panel"'))errors.push(rel+': shared search control missing');
       if(rel.split('/').length!==3)continue;
-      const a=html.indexOf('<article class="article">'),e=articleEnd(html,a);
+      let a=html.indexOf('<article class="article">');
+      if(a<0){
+        const opening=html.match(/<main\b[^>]*>\s*<article\b[^>]*>/i);
+        if(opening)a=html.indexOf('<article',opening.index);
+      }
+      const e=a>=0?articleEnd(html,a):-1;
       if(a<0||e<0){errors.push(rel+': article body missing');continue;}
       const body=html.slice(a,e);posts++;
       const author=body.match(/<!-- SLOT:AUTHOR:START -->[\s\S]*?<!-- SLOT:AUTHOR:END -->/g)||[];
