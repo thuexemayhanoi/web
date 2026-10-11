@@ -106,8 +106,8 @@ var CONTACT_METHODS = {
   },
   "zalo": {
     "label": "Zalo",
-    "href": null,
-    "verified": false
+    "href": "https://zalo.me/0942467674",
+    "verified": true
   },
   "whatsapp": {
     "label": "WhatsApp",
