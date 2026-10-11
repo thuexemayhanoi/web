@@ -51,6 +51,7 @@ function walk(dir){
         }
       }
       const relBlock=article.match(/<!-- SLOT:RELATED:START -->([\s\S]*?)<!-- SLOT:RELATED:END -->/);
+      if(!relBlock) errors.push(rel+': related recommendations missing');
       if(relBlock){
         relatedPages++;
         const cards=[...relBlock[1].matchAll(/<a class="card"([^>]*)>/g)];

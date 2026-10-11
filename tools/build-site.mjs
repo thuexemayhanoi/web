@@ -244,7 +244,14 @@ function inferredRelated(pagePath){
 function relatedEntries(pagePath){
   const explicit=system.relatedByPage[pagePath]||[];
   const targets=(matrixLinks.get(pagePath)||[]).filter(Boolean);
-  const candidates=[...explicit,...targets,...inferredRelated(pagePath)];
+  // Some older/custom articles have no Matrix record. Fall back to published
+  // articles from their own hub directory rather than leaving Related empty.
+  const dir=pagePath.includes('/')?pagePath.split('/')[0]:'';
+  const siblingPaths=dir?matrixRows
+    .filter(r=>r.path!==pagePath && r.content_role==='CLUSTER' && r.path.startsWith(dir+'/'))
+    .map(r=>pathToHref(r.path))
+    .slice(0,12):[];
+  const candidates=[...explicit,...targets,...inferredRelated(pagePath),...siblingPaths];
   const seen=new Set([pathToHref(pagePath)]);
   const entries=[];
   for(const x of candidates){
