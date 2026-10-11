@@ -111,7 +111,7 @@ var CONTACT_METHODS = {
   },
   "whatsapp": {
     "label": "WhatsApp",
-    "href": null,
+    "href": "https://wa.me/84942467674",
     "verified": false
   }
 };
