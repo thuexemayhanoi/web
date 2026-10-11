@@ -13,6 +13,12 @@ on:
       - 'tools/build-site.mjs'
       - 'tools/qa-site.mjs'
       - 'data/site-system.json'
+      - 'data/content-matrix.csv'
+      - 'site/partials/**'
+      - 'site/hooks.html'
+      - 'site/templates/**'
+      - 'assets/css/style.css'
+      - 'tools/qa-shared-components.mjs'
       - '.github/workflows/seo-maintenance.yml'
 
 permissions:
@@ -48,6 +54,9 @@ jobs:
 
       - name: Site QA
         run: node tools/qa-site.mjs
+
+      - name: Verify shared-component synchronization
+        run: node tools/qa-shared-components.mjs
 
       - name: Verify deterministic SEO state
         run: |

@@ -118,7 +118,7 @@ The site uses static HTML for crawlability, but the shared header/drawer and foo
 - `<!-- SHARED_NAV_START --> ... <!-- SHARED_NAV_END -->`
 - `<!-- SHARED_FOOTER_START --> ... <!-- SHARED_FOOTER_END -->`
 
-Edit the shared navigation/footer in `index.html`, then sync the same structure to all marked HTML pages with:
+Do not edit the generated shared header/footer in `index.html`. Instead, edit `site/partials/header.html` or `site/partials/footer.html` and rebuild with:
 
 ```bash
 node tools/sync-shared-navigation.mjs
@@ -206,3 +206,25 @@ Existing non-legal content rows are baseline `PUBLISHED`; legal pages are `EXCLU
 The hot loop deliberately avoids deep SEO/cannibalization audits. A content failure goes to `REPAIR`; after the retry limit it becomes `BLOCKED`, the factory stops safely, keeps previously published work, and records the failing IDs.
 
 Factory infrastructure smoke-tested on 2026-10-06: hidden inbox trigger, no-op processing, state/report commit and safe stop behavior passed.
+
+## One-place edit → all pages (automation and regression checks)
+
+The HTML already uses shared partials, hooks, design tokens, centralized business data, build-generated schema/social tags, CTA and bounded related-link recommendations. Do **not** create a second theme framework or manually patch every article.
+
+To update a shared element, edit only its source: `site/partials/**` (header/footer/CTA/floating UI), `site/hooks.html` (global announcement or article slots), `data/site-system.json` (NAP, CTA, feature flags and per-silo CTA), or `assets/css/style.css` (design tokens). Per-article content remains in its existing path. The site uses static HTML to keep existing URLs and Google crawlability.
+
+When these central source files change on `main`, **SEO Maintenance** rebuilds generated pages, runs both SEO and shared-component QA, and commits the generated files back to `main` if needed. Native GitHub Pages publishes the updated branch. A concurrent push may cause SEO Maintenance to stop safely rather than overwrite a newer commit; rerun it via Actions > SEO Maintenance > Run workflow when needed. Regular scheduled maintenance remains a fallback.
+
+The shared-component guard `node tools/qa-shared-components.mjs` verifies that every generated HTML page uses the exact header, footer, floating UI, scripts and hook content from its single source of truth. It runs in both **Site Build and QA** and **SEO Maintenance**. It does not modify pages. Run the full checks in this order:
+
+```bash
+node tools/build-site.mjs
+node tools/seo-fix.mjs
+node tools/qa-site.mjs
+node tools/qa-shared-components.mjs
+node tools/seo-audit.mjs
+node tools/build-site.mjs --check
+node tools/seo-fix.mjs --check
+```
+
+Avoid putting real customer names, unverified prices, or marketing claims into shared schema, CTA or automation. For a new section, first add a small optional shared hook and verify it creates no unexpected visual/SEO differences before enabling it globally.

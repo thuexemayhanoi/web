@@ -31,6 +31,8 @@ jobs:
         run: node tools/build-site.mjs
       - name: QA site architecture
         run: node tools/qa-site.mjs
+      - name: Verify shared-component synchronization
+        run: node tools/qa-shared-components.mjs
       - name: SEO audit
         run: node tools/seo-audit.mjs
       - name: Verify SEO safe-fix state
