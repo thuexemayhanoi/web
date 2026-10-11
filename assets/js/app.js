@@ -145,6 +145,22 @@
 
   /* ================= Floating UI: quick contact + chat ================= */
   var qc = document.getElementById("quick-contact");
+  /* Upgrade legacy published Quick Contact Email links without editing each HTML page.
+     New pages already render WhatsApp from site/partials/floating-ui.html. */
+  var legacyEmailBtn = qc ? qc.querySelector('.qc-actions a[href^="mailto:"]') : null;
+  if (legacyEmailBtn) {
+    var configuredWhatsApp = window.CONTACT_METHODS && window.CONTACT_METHODS.whatsapp &&
+      window.CONTACT_METHODS.whatsapp.href;
+    var phoneDigits = BUSINESS && BUSINESS.phoneTel ? BUSINESS.phoneTel.replace(/\D/g, "") : "";
+    var whatsAppUrl = configuredWhatsApp || (phoneDigits ? "https://wa.me/" + phoneDigits : "");
+    if (whatsAppUrl) {
+      legacyEmailBtn.href = whatsAppUrl;
+      legacyEmailBtn.target = "_blank";
+      legacyEmailBtn.rel = "noopener noreferrer";
+      legacyEmailBtn.setAttribute("aria-label", "Chat on WhatsApp");
+      legacyEmailBtn.innerHTML = "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M20.5 11.9a8.5 8.5 0 0 1-12.6 7.4L3.5 20.5l1.2-4.3a8.5 8.5 0 1 1 15.8-4.3z\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><path d=\"M8.2 8.1c0 3.4 4.3 7.7 7.6 7.7l1.1-1.7-2.7-1.3-1 1a7.4 7.4 0 0 1-3.1-3.1l1-1-1.3-2.7-1.6 1.1z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/></svg><span class=\"qc-tip\">WhatsApp</span>";
+    }
+  }
   var qcMain = qc ? qc.querySelector(".qc-main") : null;
   var chatFab = document.getElementById("chat-fab");
   var chatPanel = document.getElementById("chat-panel");
