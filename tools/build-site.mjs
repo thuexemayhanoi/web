@@ -271,25 +271,31 @@ function syncArticleDiscovery(html,pagePath){
   if(!row || row.content_role!=='CLUSTER') return html;
   const start=html.indexOf('<article class="article">');
   if(start<0) return html;
-  // Strip only our marked blocks, then insert again in stable positions.
-  html=html.replace(/\n?<!-- SLOT:AUTHOR:START -->[\s\S]*?<!-- SLOT:AUTHOR:END -->/g,'');
-  html=html.replace(/\n?<!-- SLOT:POST_NAV:START -->[\s\S]*?<!-- SLOT:POST_NAV:END -->/g,'');
-  let end=outerArticleEnd(html,start);
-  if(end<0) return html;
+  const authorRe=/<!-- SLOT:AUTHOR:START -->[\s\S]*?<!-- SLOT:AUTHOR:END -->/;
+  const navRe=/<!-- SLOT:POST_NAV:START -->[\s\S]*?<!-- SLOT:POST_NAV:END -->/;
   if(featureOn('authorBox')){
     const author='<!-- SLOT:AUTHOR:START -->\n'+render(authorTpl,ctx).trim()+'\n<!-- SLOT:AUTHOR:END -->';
-    let before=end;
-    for(const marker of ['<!-- HOOK:ARTICLE_BEFORE_RELATED:START -->','<!-- SLOT:RELATED:START -->','<!-- SLOT:CTA:START -->']){
-      const pos=html.indexOf(marker,start);
-      if(pos>=0&&pos<before) before=pos;
+    if(authorRe.test(html)) html=html.replace(authorRe,author);
+    else {
+      let before=outerArticleEnd(html,start);
+      if(before<0) return html;
+      for(const marker of ['<!-- HOOK:ARTICLE_BEFORE_RELATED:START -->','<!-- SLOT:RELATED:START -->','<!-- SLOT:CTA:START -->']){
+        const pos=html.indexOf(marker,start);
+        if(pos>=0&&pos<before) before=pos;
+      }
+      html=html.slice(0,before)+'\n'+author+'\n'+html.slice(before);
     }
-    html=html.slice(0,before)+'\n'+author+'\n'+html.slice(before);
-  }
+  }else html=html.replace(/\n?<!-- SLOT:AUTHOR:START -->[\s\S]*?<!-- SLOT:AUTHOR:END -->\n?/g,'');
   if(featureOn('postNavigation')){
-    end=outerArticleEnd(html,start);
     const nav=adjacentLinks(pagePath);
-    if(nav) html=html.slice(0,end)+'\n'+nav+'\n'+html.slice(end);
-  }
+    if(nav){
+      if(navRe.test(html)) html=html.replace(navRe,nav);
+      else {
+        const end=outerArticleEnd(html,start);
+        if(end>=0)html=html.slice(0,end)+'\n'+nav+'\n'+html.slice(end);
+      }
+    }
+  }else html=html.replace(/\n?<!-- SLOT:POST_NAV:START -->[\s\S]*?<!-- SLOT:POST_NAV:END -->\n?/g,'');
   return html;
 }
 

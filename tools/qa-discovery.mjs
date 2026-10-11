@@ -35,7 +35,7 @@ function walk(dir){
     else if(entry.name==='index.html'){
       const rel=path.relative(root,full).split(path.sep).join('/');
       const html=fs.readFileSync(full,'utf8');
-      if(!html.includes('class="site-search-trigger"') || !html.includes('id="site-search-panel"'))errors.push(rel+': shared search control missing');
+      if(!/class="[^"]*\bsite-search-trigger\b/.test(html) || !html.includes('id="site-search-panel"'))errors.push(rel+': shared search control missing');
       if(rel.split('/').length!==3)continue;
       const a=html.indexOf('<article class="article">'),e=articleEnd(html,a);
       if(a<0||e<0){errors.push(rel+': article body missing');continue;}
