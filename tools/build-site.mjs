@@ -425,6 +425,23 @@ function buildHtml(html,pagePath){
   html=replaceOrInsertHook(html,'AFTER_HEADER',hookAfterHeader,'<!-- SHARED_NAV_END -->','after');
   html=replaceOrInsertHook(html,'BEFORE_FOOTER',hookBeforeFooter,'<!-- SHARED_FOOTER_START -->','before');
   if(related) html=replaceOrInsertHook(html,'ARTICLE_BEFORE_RELATED',hookArticle,'<!-- SLOT:RELATED:START -->','before');
+  // Normalize legacy factory pages with their generated related block outside <main>.
+  // Move generated markup only: original article paragraphs/headings stay untouched.
+  if(related){
+    const aStart=html.indexOf('<article class="article">');
+    const end=aStart<0?-1:outerArticleEnd(html,aStart);
+    const relMatch=html.match(/<!-- SLOT:RELATED:START -->[\s\S]*?<!-- SLOT:RELATED:END -->/);
+    const relPos=relMatch?html.indexOf(relMatch[0]):-1;
+    if(end>=0 && relPos>end){
+      const hookMatch=html.match(/<!-- HOOK:ARTICLE_BEFORE_RELATED:START -->[\s\S]*?<!-- HOOK:ARTICLE_BEFORE_RELATED:END -->/);
+      const hookPos=hookMatch?html.indexOf(hookMatch[0]):-1;
+      const moveHook=hookPos>end&&hookPos<relPos?hookMatch[0]:'';
+      html=html.replace(relMatch[0],'');
+      if(moveHook) html=html.replace(moveHook,'');
+      const newEnd=outerArticleEnd(html,aStart);
+      html=html.slice(0,newEnd)+'\n'+(moveHook?moveHook+'\n':'')+relMatch[0]+'\n'+html.slice(newEnd);
+    }
+  }
   return html;
 }
 function businessJs(){
