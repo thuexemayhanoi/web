@@ -420,6 +420,36 @@
   if (calcForm) calcForm.addEventListener("submit", function (e) { e.preventDefault(); renderCalc(); });
   if (calcForm) renderCalc();
 
+  /* Related articles: three cards per page, with keyboard-friendly buttons.
+     The first three remain usable even if JavaScript is unavailable. */
+  Array.prototype.forEach.call(document.querySelectorAll(".related-reading"), function (section) {
+    var cards = Array.prototype.slice.call(section.querySelectorAll(".related-grid > .card"));
+    var controls = section.querySelector(".related-controls");
+    if (!controls || cards.length <= 3) return;
+    var previous = controls.querySelector(".related-prev");
+    var next = controls.querySelector(".related-next");
+    var status = controls.querySelector(".related-count");
+    if (!previous || !next || !status) return;
+    var page = 0;
+    var pages = Math.ceil(cards.length / 3);
+    function updateRelated() {
+      cards.forEach(function (card, index) {
+        card.hidden = !(index >= page * 3 && index < (page + 1) * 3);
+      });
+      previous.disabled = page === 0;
+      next.disabled = page === pages - 1;
+      status.textContent = (page + 1) + " / " + pages;
+    }
+    previous.addEventListener("click", function () {
+      if (page > 0) { page--; updateRelated(); }
+    });
+    next.addEventListener("click", function () {
+      if (page + 1 < pages) { page++; updateRelated(); }
+    });
+    controls.hidden = false;
+    updateRelated();
+  });
+
   /* ================= Close drawer on nav (small screens) ================= */
   Array.prototype.slice.call(document.querySelectorAll(".drawer-nav a")).forEach(function (a) {
     a.addEventListener("click", closeDrawer);

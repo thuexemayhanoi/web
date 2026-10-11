@@ -33,6 +33,10 @@ jobs:
         run: node tools/qa-site.mjs
       - name: Verify shared-component synchronization
         run: node tools/qa-shared-components.mjs
+      - name: Verify article TOC and related pagination
+        run: |
+          node --check assets/js/app.js
+          node tools/qa-article-ui.mjs
       - name: SEO audit
         run: node tools/seo-audit.mjs
       - name: Verify SEO safe-fix state

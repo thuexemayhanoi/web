@@ -228,3 +228,11 @@ node tools/seo-fix.mjs --check
 ```
 
 Avoid putting real customer names, unverified prices, or marketing claims into shared schema, CTA or automation. For a new section, first add a small optional shared hook and verify it creates no unexpected visual/SEO differences before enabling it globally.
+
+## Collapsible article contents and paginated related reading
+
+`tools/build-site.mjs` replaces legacy hardcoded article TOCs with a lightweight, native `<details>` outline built only from the H2/H3 headings in the editorial article body. It places the expandable Table of Contents immediately after the first H2 and preserves existing heading IDs. New IDs are generated only for headings that lack one. Pages without at least two H2/H3 entries and one H2 do not display a TOC. Home, FAQ and legal pages are excluded. Change `features.articleToc` in `data/site-system.json` to disable automatic TOCs.
+
+Related links are selected from explicit configuration, then Content Matrix targets, then the same hub/silo; duplicates and broken page candidates are excluded, with a hard limit of nine. The generated section shows three cards initially. The existing `assets/js/app.js` provides Previous / Next controls (three cards per view), no framework or dependency. New articles automatically inherit both UI features.
+
+**Do not edit 1,000 HTML files to change these components.** Edit the central generator, CSS tokens, JS or Content Matrix instead. GitHub SEO Maintenance regenerates published HTML, runs `tools/qa-article-ui.mjs` along with the existing QA checks and commits outputs to main before GitHub Pages publishes.

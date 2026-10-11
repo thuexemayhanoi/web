@@ -812,3 +812,42 @@ body.chat-keyboard-open .chat-log{
 .related-resources ul{margin:0;padding-left:1.2rem}
 .related-resources li{margin:.45rem 0}
 .footer-menu a{font-weight:500}
+
+
+/* ============ Automatic article TOC and related navigation ============ */
+.article-toc{margin:var(--s4) 0 var(--s6);max-width:100%}
+.toc-details{border:1px solid var(--border);border-radius:var(--r-md);background:var(--surface);overflow:hidden}
+.toc-details summary{
+  display:flex;align-items:center;justify-content:space-between;
+  min-height:48px;padding:var(--s3) var(--s4);cursor:pointer;
+  color:var(--text);font-weight:700;list-style:none
+}
+.toc-details summary::-webkit-details-marker{display:none}
+.toc-details summary::after{content:"+";font-size:1.3rem;color:var(--brand-hover)}
+.toc-details[open] summary::after{content:"−"}
+.toc-details summary:focus-visible{outline:2px solid var(--brand);outline-offset:-3px}
+.toc-details ol{margin:0;padding:var(--s3) var(--s5) var(--s4) 2.3rem;border-top:1px solid var(--border)}
+.toc-details li{margin:.35rem 0;overflow-wrap:anywhere}
+.toc-details .toc-level-3{margin-left:var(--s4);font-size:.94rem}
+.toc-details a{color:var(--text);text-decoration:none}
+.toc-details a:hover,.toc-details a:focus-visible{color:var(--brand-hover);text-decoration:underline}
+.article h2[id],.article h3[id]{scroll-margin-top:94px}
+.related-reading{margin-top:var(--s6)}
+.related-reading .related-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.related-reading .card{min-width:0}
+.related-reading .card[hidden],.related-controls[hidden]{display:none!important}
+.related-reading .card h3,.related-reading .card p{overflow-wrap:anywhere}
+.related-controls{display:flex;align-items:center;justify-content:center;gap:var(--s3);margin-top:var(--s4)}
+.related-controls button{
+  min-height:44px;min-width:92px;padding:0 var(--s3);
+  border:1px solid var(--border);border-radius:var(--r-md);background:var(--surface);
+  color:var(--text);font:inherit;font-weight:600;cursor:pointer
+}
+.related-controls button:hover:not(:disabled){border-color:var(--brand);color:var(--brand-hover)}
+.related-controls button:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+.related-controls button:disabled{opacity:.4;cursor:not-allowed}
+.related-count{font-size:.9rem;color:var(--muted);min-width:3.2rem;text-align:center}
+@media (max-width:767px){
+  .related-reading .related-grid{grid-template-columns:1fr}
+  .related-reading .card{min-height:0}
+}

@@ -19,6 +19,8 @@ on:
       - 'site/templates/**'
       - 'assets/css/style.css'
       - 'tools/qa-shared-components.mjs'
+      - 'tools/qa-article-ui.mjs'
+      - 'assets/js/app.js'
       - '.github/workflows/seo-maintenance.yml'
 
 permissions:
@@ -57,6 +59,10 @@ jobs:
 
       - name: Verify shared-component synchronization
         run: node tools/qa-shared-components.mjs
+      - name: Verify article TOC and related pagination
+        run: |
+          node --check assets/js/app.js
+          node tools/qa-article-ui.mjs
 
       - name: Verify deterministic SEO state
         run: |

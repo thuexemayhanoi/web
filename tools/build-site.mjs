@@ -232,30 +232,43 @@ function inferredRelated(pagePath){
   const row=matrixByPath.get(pagePath);
   if(!row) return [];
   return matrixRows
-    .filter(r=>r.path!==pagePath && r.content_role!=='LEGAL' && ((row.hub&&r.hub===row.hub)||(row.silo&&r.silo===row.silo)))
+    .filter(r=>r.path!==pagePath && r.content_role!=='LEGAL' &&
+      ((row.hub && r.hub===row.hub)||(row.silo && r.silo===row.silo)))
     .sort((a,b)=>{
       const rank=x=>x.content_role==='ROOT_HUB'?0:x.content_role==='HUB'?1:x.content_role==='ANSWER_HUB'?2:3;
       return rank(a)-rank(b);
     })
     .map(r=>pathToHref(r.path))
-    .slice(0,5);
+    .slice(0,12);
 }
 function relatedEntries(pagePath){
-  const explicit=system.relatedByPage[pagePath];
+  const explicit=system.relatedByPage[pagePath]||[];
   const targets=(matrixLinks.get(pagePath)||[]).filter(Boolean);
-  const raw=explicit||(targets.length?targets:inferredRelated(pagePath));
-  return raw.map(x=>typeof x==='string'?{href:x}:{...x}).map(x=>{
-    const base=system.cards[x.href]||autoCard(x.href);
-    if(!base) return null;
-    return {...base,...x};
-  }).filter(Boolean).slice(0,5);
+  const candidates=[...explicit,...targets,...inferredRelated(pagePath)];
+  const seen=new Set([pathToHref(pagePath)]);
+  const entries=[];
+  for(const x of candidates){
+    const item=typeof x==='string'?{href:x}:{...x};
+    if(!item.href || seen.has(item.href)) continue;
+    const base=system.cards[item.href]||autoCard(item.href);
+    if(!base) continue;
+    seen.add(item.href);
+    entries.push({...base,...item});
+    if(entries.length===9) break;
+  }
+  return entries;
 }
 function relatedBlock(pagePath){
   if(!featureOn('relatedPosts')) return '';
   const entries=relatedEntries(pagePath);
   if(!entries.length) return '';
-  const cards=entries.map(e=>render(cardTpl,e)).join('\n');
-  return '<!-- SLOT:RELATED:START -->\n<h2>Related hubs</h2>\n<div class="card-grid">\n'+cards+'\n    </div>\n<!-- SLOT:RELATED:END -->';
+  const cards=entries.map((entry,i)=>{
+    const card=render(cardTpl,entry);
+    return i<3?card:card.replace('<a class="card"','<a class="card" hidden');
+  }).join('\n');
+  const pager=entries.length>3?
+    '<div class="related-controls" hidden><button class="related-prev" type="button" aria-label="Previous related articles">Previous</button><span class="related-count" aria-live="polite"></span><button class="related-next" type="button" aria-label="Next related articles">Next</button></div>':'';
+  return '<!-- SLOT:RELATED:START -->\n<section class="related-reading" aria-label="Related articles">\n<h2>Related hubs</h2>\n<div class="card-grid related-grid">\n'+cards+'\n</div>\n'+pager+'\n</section>\n<!-- SLOT:RELATED:END -->';
 }
 function ctaForPage(pagePath){
   const row=matrixByPath.get(pagePath);
@@ -270,6 +283,61 @@ function replaceOrInsertHook(html,name,content,anchor,where='before'){
   if(i<0) return html;
   return where==='after'?html.slice(0,i+anchor.length)+'\n'+block+html.slice(i+anchor.length):html.slice(0,i)+block+'\n'+html.slice(i);
 }
+// Replace legacy static TOCs with one deterministic, collapsible H2/H3 outline.
+// Only editorial article bodies are changed; generated related cards/CTAs are excluded.
+function escapeTocText(value){
+  return String(value).replace(/&/g,'&amp;').replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+function articleToc(html){
+  const start=html.indexOf('<article class="article">');
+  if(start<0) return html;
+  const end=html.indexOf('</article>',start);
+  if(end<0) return html;
+  let article=html.slice(start,end);
+  article=article.replace(/<!-- SLOT:TOC:START -->[\s\S]*?<!-- SLOT:TOC:END -->\s*/gi,'');
+  article=article.replace(/<nav\b[^>]*class=["'][^"']*\btoc\b[^"']*["'][^>]*>[\s\S]*?<\/nav>\s*/gi,'');
+  const tailMarkers=['<!-- HOOK:ARTICLE_BEFORE_RELATED:START -->','<!-- SLOT:RELATED:START -->','<!-- SLOT:RELATED -->','<!-- SLOT:CTA:START -->','<!-- SLOT:CTA -->'];
+  let bodyEnd=article.length;
+  for(const marker of tailMarkers){
+    const p=article.indexOf(marker);
+    if(p>=0 && p<bodyEnd) bodyEnd=p;
+  }
+  const body=article.slice(0,bodyEnd);
+  const headings=[...body.matchAll(/<h([23])\b([^>]*)>([\s\S]*?)<\/h\1>/gi)];
+  if(headings.length<2 || !headings.some(h=>h[1]==='2')) return html.slice(0,start)+article+html.slice(end);
+  const taken=new Set([...article.matchAll(/\bid=["']([^"']+)["']/gi)].map(x=>x[1]));
+  let index=0;
+  const items=[];
+  const withIds=body.replace(/<h([23])\b([^>]*)>([\s\S]*?)<\/h\1>/gi,(whole,level,attrs,inner)=>{
+    const label=textOnly(inner);
+    if(!label) return whole;
+    const current=attrs.match(/\bid=["']([^"']+)["']/i);
+    let id=current?current[1]:'';
+    if(!id){
+      const base=label.normalize('NFKD').toLowerCase().replace(/[\u0300-\u036f]/g,'')
+        .replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,65)||'section';
+      id=base;
+      let n=2;
+      while(taken.has(id)) id=base+'-'+(n++);
+      taken.add(id);
+    }
+    items.push({level,id,label});
+    index++;
+    return current?whole:'<h'+level+attrs+' id="'+escapeTocText(id)+'">'+inner+'</h'+level+'>';
+  });
+  if(items.length<2) return html.slice(0,start)+article+html.slice(end);
+  article=withIds+article.slice(bodyEnd);
+  const links=items.map(h=>'<li class="toc-level-'+h.level+'"><a href="#'+escapeTocText(h.id)+'">'+escapeTocText(h.label)+'</a></li>').join('\n');
+  const toc='<!-- SLOT:TOC:START -->\n<nav class="article-toc" aria-label="Table of contents"><details class="toc-details"><summary>On this page</summary><ol>'+links+'</ol></details></nav>\n<!-- SLOT:TOC:END -->';
+  // The first editorial H2 is the intended placement, immediately after its heading.
+  const first=article.match(/<h2\b[^>]*>[\s\S]*?<\/h2>/i);
+  if(!first) return html.slice(0,start)+article+html.slice(end);
+  const pos=first.index+first[0].length;
+  article=article.slice(0,pos)+'\n'+toc+article.slice(pos);
+  return html.slice(0,start)+article+html.slice(end);
+}
+
 function buildHtml(html,pagePath){
   if(pagePath==='404.html') return html;
   if(html.includes('<!-- SLOT:HEADER -->')) html=html.replace('<!-- SLOT:HEADER -->',header);
@@ -292,6 +360,7 @@ function buildHtml(html,pagePath){
   html=syncCanonical(html,pagePath);
   html=syncSocialMeta(html,pagePath);
   html=lazyContentImages(html);
+  if(featureOn('articleToc')) html=articleToc(html);
 
   const schema=schemaFor(html,pagePath);
   if(schema){
