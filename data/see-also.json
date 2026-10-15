@@ -1,0 +1,297 @@
+{
+ "_comment": "Pages that answer overlapping questions link to each other (generated from reports/seo-master-matrix.json cannibalization groups). Used by tools/build-site.mjs related cards.",
+ "pages": {
+  "hanoi-motorbike-rental-cost/honda-click-vs-honda-air-blade-rental-cost/index.html": [
+   "/hanoi-scooter-rental/honda-air-blade-vs-honda-click-checks-and-mistakes/",
+   "/hanoi-scooter-rental/honda-air-blade-vs-honda-click-selection-guide/"
+  ],
+  "hanoi-motorbike-rental-cost/honda-click-vs-honda-vision-rental-cost/index.html": [
+   "/hanoi-scooter-rental/honda-vision-vs-honda-click-checks-and-mistakes/",
+   "/hanoi-scooter-rental/honda-vision-vs-honda-click-selection-guide/"
+  ],
+  "hanoi-motorbike-rental-cost/honda-vision-vs-honda-air-blade-rental-cost/index.html": [
+   "/hanoi-scooter-rental/honda-vision-vs-air-blade-hanoi/"
+  ],
+  "hanoi-motorbike-rental-cost/honda-wave-vs-yamaha-sirius-rental-cost/index.html": [
+   "/hanoi-motorbike-rental/honda-wave-vs-yamaha-sirius-hanoi/"
+  ],
+  "hanoi-motorbike-rental-cost/yamaha-mio-vs-honda-air-blade-rental-cost/index.html": [
+   "/hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-checks-and-mistakes/",
+   "/hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-selection-guide/"
+  ],
+  "hanoi-motorbike-rental-cost/yamaha-mio-vs-honda-click-rental-cost/index.html": [
+   "/hanoi-scooter-rental/honda-click-vs-yamaha-mio-checks-and-mistakes/",
+   "/hanoi-scooter-rental/honda-click-vs-yamaha-mio-hanoi/",
+   "/hanoi-scooter-rental/honda-click-vs-yamaha-mio-selection-guide/"
+  ],
+  "hanoi-motorbike-rental-cost/yamaha-mio-vs-honda-vision-rental-cost/index.html": [
+   "/hanoi-scooter-rental/honda-vision-vs-yamaha-mio-checks-and-mistakes/",
+   "/hanoi-scooter-rental/honda-vision-vs-yamaha-mio-selection-guide/"
+  ],
+  "hanoi-motorbike-rental/honda-wave-vs-yamaha-sirius-hanoi/index.html": [
+   "/hanoi-motorbike-rental-cost/honda-wave-vs-yamaha-sirius-rental-cost/"
+  ],
+  "hanoi-scooter-rental/honda-air-blade-vs-honda-click-checks-and-mistakes/index.html": [
+   "/hanoi-motorbike-rental-cost/honda-click-vs-honda-air-blade-rental-cost/",
+   "/hanoi-scooter-rental/honda-air-blade-vs-honda-click-selection-guide/"
+  ],
+  "hanoi-scooter-rental/honda-air-blade-vs-honda-click-selection-guide/index.html": [
+   "/hanoi-motorbike-rental-cost/honda-click-vs-honda-air-blade-rental-cost/",
+   "/hanoi-scooter-rental/honda-air-blade-vs-honda-click-checks-and-mistakes/"
+  ],
+  "hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-checks-and-mistakes/index.html": [
+   "/hanoi-motorbike-rental-cost/yamaha-mio-vs-honda-air-blade-rental-cost/",
+   "/hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-selection-guide/"
+  ],
+  "hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-selection-guide/index.html": [
+   "/hanoi-motorbike-rental-cost/yamaha-mio-vs-honda-air-blade-rental-cost/",
+   "/hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-checks-and-mistakes/"
+  ],
+  "hanoi-scooter-rental/honda-click-vs-yamaha-mio-checks-and-mistakes/index.html": [
+   "/hanoi-motorbike-rental-cost/yamaha-mio-vs-honda-click-rental-cost/",
+   "/hanoi-scooter-rental/honda-click-vs-yamaha-mio-hanoi/",
+   "/hanoi-scooter-rental/honda-click-vs-yamaha-mio-selection-guide/"
+  ],
+  "hanoi-scooter-rental/honda-click-vs-yamaha-mio-hanoi/index.html": [
+   "/hanoi-motorbike-rental-cost/yamaha-mio-vs-honda-click-rental-cost/",
+   "/hanoi-scooter-rental/honda-click-vs-yamaha-mio-checks-and-mistakes/",
+   "/hanoi-scooter-rental/honda-click-vs-yamaha-mio-selection-guide/"
+  ],
+  "hanoi-scooter-rental/honda-click-vs-yamaha-mio-selection-guide/index.html": [
+   "/hanoi-motorbike-rental-cost/yamaha-mio-vs-honda-click-rental-cost/",
+   "/hanoi-scooter-rental/honda-click-vs-yamaha-mio-checks-and-mistakes/",
+   "/hanoi-scooter-rental/honda-click-vs-yamaha-mio-hanoi/"
+  ],
+  "hanoi-scooter-rental/honda-vision-vs-air-blade-hanoi/index.html": [
+   "/hanoi-motorbike-rental-cost/honda-vision-vs-honda-air-blade-rental-cost/"
+  ],
+  "hanoi-scooter-rental/honda-vision-vs-honda-click-checks-and-mistakes/index.html": [
+   "/hanoi-motorbike-rental-cost/honda-click-vs-honda-vision-rental-cost/",
+   "/hanoi-scooter-rental/honda-vision-vs-honda-click-selection-guide/"
+  ],
+  "hanoi-scooter-rental/honda-vision-vs-honda-click-selection-guide/index.html": [
+   "/hanoi-motorbike-rental-cost/honda-click-vs-honda-vision-rental-cost/",
+   "/hanoi-scooter-rental/honda-vision-vs-honda-click-checks-and-mistakes/"
+  ],
+  "hanoi-scooter-rental/honda-vision-vs-yamaha-mio-checks-and-mistakes/index.html": [
+   "/hanoi-motorbike-rental-cost/yamaha-mio-vs-honda-vision-rental-cost/",
+   "/hanoi-scooter-rental/honda-vision-vs-yamaha-mio-selection-guide/"
+  ],
+  "hanoi-scooter-rental/honda-vision-vs-yamaha-mio-selection-guide/index.html": [
+   "/hanoi-motorbike-rental-cost/yamaha-mio-vs-honda-vision-rental-cost/",
+   "/hanoi-scooter-rental/honda-vision-vs-yamaha-mio-checks-and-mistakes/"
+  ],
+  "motorbike-guides/motorbike-fuel-guide-hanoi/index.html": [
+   "/motorbike-guides/motorbike-fuel-maintenance-basics/",
+   "/motorbike-guides/motorbike-fuel-pre-ride-checklist/",
+   "/motorbike-guides/motorbike-fuel-troubleshooting/",
+   "/motorbike-guides/motorbike-fuel-guide-vietnam/"
+  ],
+  "motorbike-guides/motorbike-fuel-guide-vietnam/index.html": [
+   "/motorbike-guides/motorbike-fuel-guide-hanoi/",
+   "/motorbike-guides/motorbike-fuel-maintenance-basics/",
+   "/motorbike-guides/motorbike-fuel-pre-ride-checklist/",
+   "/motorbike-guides/motorbike-fuel-troubleshooting/"
+  ],
+  "motorbike-guides/motorbike-fuel-maintenance-basics/index.html": [
+   "/motorbike-guides/motorbike-fuel-guide-hanoi/",
+   "/motorbike-guides/motorbike-fuel-pre-ride-checklist/",
+   "/motorbike-guides/motorbike-fuel-troubleshooting/",
+   "/motorbike-guides/motorbike-fuel-guide-vietnam/"
+  ],
+  "motorbike-guides/motorbike-fuel-pre-ride-checklist/index.html": [
+   "/motorbike-guides/motorbike-fuel-guide-hanoi/",
+   "/motorbike-guides/motorbike-fuel-maintenance-basics/",
+   "/motorbike-guides/motorbike-fuel-troubleshooting/",
+   "/motorbike-guides/motorbike-fuel-guide-vietnam/"
+  ],
+  "motorbike-guides/motorbike-fuel-troubleshooting/index.html": [
+   "/motorbike-guides/motorbike-fuel-guide-hanoi/",
+   "/motorbike-guides/motorbike-fuel-maintenance-basics/",
+   "/motorbike-guides/motorbike-fuel-pre-ride-checklist/",
+   "/motorbike-guides/motorbike-fuel-guide-vietnam/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/hoan-kiem-day-ride-ideas/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-lake-riding-hanoi/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-parking-guide/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-rental-planning/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-route-connections/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-traffic-guide/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/hoan-kiem-lake-riding-hanoi/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-day-ride-ideas/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-parking-guide/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-rental-planning/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-route-connections/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-traffic-guide/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/hoan-kiem-parking-guide/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-lake-riding-hanoi/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-day-ride-ideas/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-rental-planning/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-route-connections/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-traffic-guide/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/hoan-kiem-rental-planning/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-lake-riding-hanoi/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-day-ride-ideas/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-parking-guide/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-route-connections/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-traffic-guide/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/hoan-kiem-route-connections/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-lake-riding-hanoi/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-day-ride-ideas/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-parking-guide/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-rental-planning/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-traffic-guide/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/hoan-kiem-traffic-guide/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-lake-riding-hanoi/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-day-ride-ideas/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-parking-guide/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-rental-planning/",
+   "/motorbike-rental-hanoi-old-quarter/hoan-kiem-route-connections/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/long-bien-bridge-motorbike-guide-hanoi/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/long-bien-day-ride-ideas/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-parking-guide/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-rental-planning/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-route-connections/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-traffic-guide/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/long-bien-day-ride-ideas/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/long-bien-bridge-motorbike-guide-hanoi/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-parking-guide/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-rental-planning/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-route-connections/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-traffic-guide/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/long-bien-parking-guide/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/long-bien-bridge-motorbike-guide-hanoi/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-day-ride-ideas/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-rental-planning/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-route-connections/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-traffic-guide/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/long-bien-rental-planning/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/long-bien-bridge-motorbike-guide-hanoi/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-day-ride-ideas/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-parking-guide/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-route-connections/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-traffic-guide/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/long-bien-route-connections/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/long-bien-bridge-motorbike-guide-hanoi/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-day-ride-ideas/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-parking-guide/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-rental-planning/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-traffic-guide/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/long-bien-traffic-guide/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/long-bien-bridge-motorbike-guide-hanoi/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-day-ride-ideas/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-parking-guide/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-rental-planning/",
+   "/motorbike-rental-hanoi-old-quarter/long-bien-route-connections/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/west-lake-day-ride-ideas/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/west-lake-motorbike-ride-hanoi/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-parking-guide/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-rental-planning/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-route-connections/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-traffic-guide/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/west-lake-motorbike-ride-hanoi/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/west-lake-day-ride-ideas/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-parking-guide/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-rental-planning/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-route-connections/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-traffic-guide/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/west-lake-parking-guide/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/west-lake-motorbike-ride-hanoi/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-day-ride-ideas/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-rental-planning/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-route-connections/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-traffic-guide/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/west-lake-rental-planning/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/west-lake-motorbike-ride-hanoi/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-day-ride-ideas/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-parking-guide/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-route-connections/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-traffic-guide/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/west-lake-route-connections/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/west-lake-motorbike-ride-hanoi/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-day-ride-ideas/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-parking-guide/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-rental-planning/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-traffic-guide/"
+  ],
+  "motorbike-rental-hanoi-old-quarter/west-lake-traffic-guide/index.html": [
+   "/motorbike-rental-hanoi-old-quarter/west-lake-motorbike-ride-hanoi/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-day-ride-ideas/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-parking-guide/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-rental-planning/",
+   "/motorbike-rental-hanoi-old-quarter/west-lake-route-connections/"
+  ],
+  "renting-a-motorbike-in-vietnam/motorbike-license-50cc-riders/index.html": [
+   "/renting-a-motorbike-in-vietnam/motorbike-license-vietnam-tourists/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-city-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-expats/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-long-distance-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-scooter-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-tourists/"
+  ],
+  "renting-a-motorbike-in-vietnam/motorbike-license-city-riders/index.html": [
+   "/renting-a-motorbike-in-vietnam/motorbike-license-vietnam-tourists/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-50cc-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-expats/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-long-distance-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-scooter-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-tourists/"
+  ],
+  "renting-a-motorbike-in-vietnam/motorbike-license-expats/index.html": [
+   "/renting-a-motorbike-in-vietnam/motorbike-license-vietnam-tourists/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-50cc-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-city-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-long-distance-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-scooter-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-tourists/"
+  ],
+  "renting-a-motorbike-in-vietnam/motorbike-license-long-distance-riders/index.html": [
+   "/renting-a-motorbike-in-vietnam/motorbike-license-vietnam-tourists/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-50cc-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-city-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-expats/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-scooter-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-tourists/"
+  ],
+  "renting-a-motorbike-in-vietnam/motorbike-license-scooter-riders/index.html": [
+   "/renting-a-motorbike-in-vietnam/motorbike-license-vietnam-tourists/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-50cc-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-city-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-expats/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-long-distance-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-tourists/"
+  ],
+  "renting-a-motorbike-in-vietnam/motorbike-license-tourists/index.html": [
+   "/renting-a-motorbike-in-vietnam/motorbike-license-vietnam-tourists/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-50cc-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-city-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-expats/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-long-distance-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-scooter-riders/"
+  ],
+  "renting-a-motorbike-in-vietnam/motorbike-license-vietnam-tourists/index.html": [
+   "/renting-a-motorbike-in-vietnam/motorbike-license-50cc-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-city-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-expats/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-long-distance-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-scooter-riders/",
+   "/renting-a-motorbike-in-vietnam/motorbike-license-tourists/"
+  ]
+ }
+}

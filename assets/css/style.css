@@ -891,3 +891,24 @@ body.chat-keyboard-open .chat-log{
 @media(max-width:767px){.post-neighbors{grid-template-columns:1fr}.post-next{grid-column:auto;text-align:left}
  .post-author-logo{flex-basis:44px;width:44px;height:44px}
  .nav-shell{gap:var(--s2)}}
+
+/* Hub article index, series navigation, official sources, post dates */
+.hub-index{margin-top:var(--s3)}
+.hub-index h3{font-size:1.05rem;margin:var(--s4) 0 var(--s2)}
+.hub-index-list{margin:var(--s2) 0 var(--s3);padding-left:1.2em}
+.hub-index-list li{margin-bottom:6px}
+.hub-index-group{border:1px solid var(--border);border-radius:var(--r-md);background:var(--surface);padding:0 var(--s4);margin-bottom:var(--s2)}
+.hub-index-group summary{cursor:pointer;font-weight:600;padding:var(--s3) 0;min-height:44px;display:flex;align-items:center;gap:6px}
+.hub-index-group[open] summary{border-bottom:1px solid var(--border)}
+.hub-index-count{color:var(--muted);font-weight:400}
+.family-nav,.official-sources{border:1px solid var(--border);border-radius:var(--r-md);background:var(--surface-2);padding:var(--s4);margin:var(--s6) 0 var(--s4)}
+.family-nav-title,.official-sources-title{font-weight:600;margin:0 0 var(--s2)}
+.family-nav ul{display:flex;flex-wrap:wrap;gap:6px 14px;list-style:none;margin:0;padding:0}
+.family-nav li{margin:0}
+.family-nav a,.family-nav span{display:inline-block;min-height:44px;line-height:44px}
+.family-nav span[aria-current]{color:var(--muted)}
+.family-nav-all{margin:var(--s2) 0 0}
+.official-sources ul{margin:var(--s2) 0 0;padding-left:1.2em}
+.official-sources li{margin-bottom:6px}
+.official-sources-publisher{color:var(--muted);font-size:.9em}
+.post-author-date{color:var(--muted);font-size:.9em;margin-top:4px}

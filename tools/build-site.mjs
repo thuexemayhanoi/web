@@ -29,6 +29,9 @@ function applyFeatureSections(tpl){
   return tpl.replace(/<!-- FEATURE:([A-Za-z0-9_.-]+):START -->([\s\S]*?)<!-- FEATURE:\1:END -->/g,(_,key,body)=>featureOn(key)?body.trim():'');
 }
 const ctx={...system,business:{...system.business,website:system.domain+'/'}};
+const hubIndexConfig=fs.existsSync(path.join(ROOT,'data/hub-index.json'))?JSON.parse(read('data/hub-index.json')):{hubs:{},words:{}};
+const seeAlso=fs.existsSync(path.join(ROOT,'data/see-also.json'))?JSON.parse(read('data/see-also.json')):{pages:{}};
+const contentDates=fs.existsSync(path.join(ROOT,'data/content-dates.json'))?JSON.parse(read('data/content-dates.json')):{pages:{}};
 // Normalize partial boundaries so repeated builds do not accumulate blank lines.
 const header=render(headerTpl,ctx).trimEnd();
 const footer=render(footerTpl,ctx).trimEnd();
@@ -160,6 +163,112 @@ function faqItems(html){
   }
   return out;
 }
+// ---- Series (topic families), hub indexes and official sources -------------
+function humanize(slug,title){
+  const words=hubIndexConfig.words||{};
+  let src=String(slug||'');
+  const phrases=hubIndexConfig.phrases||{};
+  for(const [k,v] of Object.entries(phrases)) src=src.replace(new RegExp('(^|-)'+k+'(?=-|$)','g'),(m,pre)=>pre+v.replace(/[- ]/g,'\u00a7'));
+  const out=src.split('-').filter(Boolean).map(w=>w.replace(/\u00a7/g,'-')).map((w,i)=>{
+    if(words[w]) return words[w];
+    if(title) return w.charAt(0).toUpperCase()+w.slice(1);
+    return i===0?w.charAt(0).toUpperCase()+w.slice(1):w;
+  }).join(' ');
+  return out.replace(/\bVs\b/g,'vs').replace(/\b([Nn])ew-hanoi\b/gi,(m,n)=>n+'ew Hanoi');
+}
+function seriesOf(pagePath){
+  const parts=pagePath.split('/');
+  if(parts.length!==3) return null;
+  const cfg=hubIndexConfig.hubs[parts[0]];
+  if(!cfg) return null;
+  const slug=parts[1];
+  let m=slug.match(new RegExp(cfg.pattern));
+  if(m) return {hub:parts[0],k:m.groups.k,v:m.groups.v,cfg};
+  for(const ex of cfg.extra||[]){
+    const mm=slug.match(new RegExp(ex.pattern));
+    if(mm) return {hub:parts[0],k:ex.key,v:mm.groups.v,cfg};
+  }
+  return null;
+}
+function publishedClusters(hub){
+  return matrixRows.filter(r=>r.content_role==='CLUSTER'&&r.factory_status==='PUBLISHED'&&r.path.startsWith(hub+'/')&&fs.existsSync(path.join(ROOT,r.path)));
+}
+function groupLabel(s){
+  const cfg=s.cfg;
+  if(cfg.labels&&cfg.labels[s.k]) return cfg.labels[s.k];
+  return (cfg.groupPrefix||'')+humanize(s.k,true);
+}
+function variantLabel(s){
+  const cfg=s.cfg;
+  if(cfg.variantLabels&&cfg.variantLabels[s.v]) return cfg.variantLabels[s.v];
+  return humanize(s.v,false);
+}
+const h1Cache=new Map();
+function pageH1(p){
+  if(h1Cache.has(p)) return h1Cache.get(p);
+  const full=path.join(ROOT,p);
+  const v=fs.existsSync(full)?h1Of(fs.readFileSync(full,'utf8')):'';
+  h1Cache.set(p,v); return v;
+}
+function hubIndexData(hub){
+  const cfg=hubIndexConfig.hubs[hub];
+  const rows=publishedClusters(hub);
+  const singles=[],groups=new Map();
+  for(const r of rows){
+    const s=seriesOf(r.path);
+    if(!s){singles.push(r);continue;}
+    const gk=cfg.groupBy==='v'?s.v:s.k;
+    if(!groups.has(gk)) groups.set(gk,{label:cfg.groupBy==='v'?(cfg.labels[s.v]||humanize(s.v)):groupLabel(s),items:[]});
+    groups.get(gk).items.push({href:pathToHref(r.path),label:cfg.groupBy==='v'?humanize(s.k):variantLabel(s)});
+  }
+  for(const g of groups.values()) g.items.sort((a,b)=>a.label.localeCompare(b.label));
+  return {cfg,singles,groups:[...groups.values()].sort((a,b)=>a.label.localeCompare(b.label))};
+}
+function hubIndexBlock(hub){
+  if(!hubIndexConfig.hubs[hub]) return '';
+  const d=hubIndexData(hub);
+  let out='<!-- SLOT:HUB_INDEX:START -->\n<div class="hub-index">\n<p class="section-intro">'+escapeTocText(d.cfg.intro||'')+'</p>\n';
+  if(d.singles.length){
+    out+='<h3>Start here</h3>\n<ul class="hub-index-list hub-index-start">\n'+d.singles.map(r=>'<li><a href="'+pathToHref(r.path)+'">'+escapeTocText(pageH1(r.path)||r.primary_keyword)+'</a></li>').join('\n')+'\n</ul>\n';
+  }
+  for(const g of d.groups){
+    out+='<details class="hub-index-group"><summary>'+escapeTocText(g.label)+' <span class="hub-index-count">('+g.items.length+')</span></summary>\n<ul class="hub-index-list">\n'+g.items.map(i=>'<li><a href="'+i.href+'">'+escapeTocText(i.label)+'</a></li>').join('\n')+'\n</ul></details>\n';
+  }
+  return out+'</div>\n<!-- SLOT:HUB_INDEX:END -->';
+}
+function familyNavBlock(pagePath){
+  const s=seriesOf(pagePath);
+  if(!s) return '';
+  const siblings=publishedClusters(s.hub).map(r=>({r,ss:seriesOf(r.path)})).filter(x=>x.ss&&x.ss.k===s.k);
+  if(siblings.length<2) return '';
+  siblings.sort((a,b)=>variantLabel(a.ss).localeCompare(variantLabel(b.ss)));
+  const title=s.cfg.groupBy==='v'?humanize(s.k):groupLabel(s);
+  const items=siblings.map(x=>x.r.path===pagePath?'<li><span aria-current="page">'+escapeTocText(variantLabel(x.ss))+'</span></li>':'<li><a href="'+pathToHref(x.r.path)+'">'+escapeTocText(variantLabel(x.ss))+'</a></li>').join('');
+  return '<!-- SLOT:FAMILY_NAV:START -->\n<nav class="family-nav" aria-label="'+escapeTocText(title)+': guides in this series"><p class="family-nav-title">'+escapeTocText(title)+': all guides in this series</p><ul>'+items+'</ul><p class="family-nav-all"><a href="/'+s.hub+'/#cluster">See every guide in this section</a></p></nav>\n<!-- SLOT:FAMILY_NAV:END -->';
+}
+function needsOfficialSources(pagePath){
+  const cfg=system.officialSources;
+  if(!cfg||!cfg.items||!cfg.items.length) return false;
+  if((cfg.pages||[]).includes(pagePath)) return true;
+  return (cfg.patterns||[]).some(rx=>new RegExp(rx).test(pagePath));
+}
+function officialSourcesBlock(){
+  const cfg=system.officialSources;
+  return '<!-- SLOT:SOURCES:START -->\n<aside class="official-sources" aria-label="Official sources"><p class="official-sources-title">'+escapeTocText(cfg.title)+'</p><p>'+escapeTocText(cfg.intro)+'</p><ul>'+cfg.items.map(i=>'<li><a href="'+attr(i.url)+'" target="_blank" rel="noopener">'+escapeTocText(i.label)+'</a> <span class="official-sources-publisher">'+escapeTocText(i.publisher)+'</span></li>').join('')+'</ul></aside>\n<!-- SLOT:SOURCES:END -->';
+}
+function pageDates(pagePath){
+  const d=(contentDates.pages||{})[pagePath]||{};
+  const row=matrixByPath.get(pagePath)||{};
+  const published=d.published||row.published_at||'';
+  const modified=d.modified&&d.modified>published?d.modified:'';
+  return {published,modified};
+}
+function longDate(iso){
+  const m=String(iso).match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if(!m) return '';
+  const months=['January','February','March','April','May','June','July','August','September','October','November','December'];
+  return Number(m[3])+' '+months[Number(m[2])-1]+' '+m[1];
+}
 function schemaFor(html,pagePath){
   if(!featureOn('autoSchema') || system.schema.excludePaths.includes(pagePath)) return null;
   const canonical=canonicalOf(html);
@@ -170,10 +279,26 @@ function schemaFor(html,pagePath){
   if(pagePath==='index.html'){
     graph.push({'@type':'WebSite','@id':system.domain+'/#website',url:system.domain+'/',name:'Hanoi Motorbike Rental',alternateName:system.business.name,inLanguage:system.language,image:system.brand.logoAbsolute,publisher:{'@id':system.domain+'/#business'}});
     graph.push({'@type':'WebPage','@id':system.domain+'/#webpage',url:canonical,name:title,description,inLanguage:system.language,isPartOf:{'@id':system.domain+'/#website'},about:{'@id':system.domain+'/#service'},primaryImageOfPage:{'@type':'ImageObject',url:system.brand.logoAbsolute}});
-    graph.push({'@type':'LocalBusiness','@id':system.domain+'/#business',name:system.business.name,alternateName:system.business.alternateName,url:system.domain+'/',logo:system.brand.logoAbsolute,image:system.brand.logoAbsolute,telephone:system.business.phoneTel,email:system.business.email,address:{'@type':'PostalAddress',streetAddress:system.business.streetAddress,addressLocality:system.business.locality,addressRegion:system.business.region,addressCountry:system.business.country},areaServed:{'@type':'City',name:'Hanoi'},openingHoursSpecification:[{'@type':'OpeningHoursSpecification',dayOfWeek:['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],opens:String(system.business.openHour).padStart(2,'0')+':00',closes:String(system.business.closeHour).padStart(2,'0')+':00'}],hasMap:system.business.mapsUrl,sameAs:system.social});
+    graph.push({'@type':'LocalBusiness','@id':system.domain+'/#business',name:system.business.name,alternateName:system.business.alternateName,url:system.domain+'/',logo:system.brand.logoAbsolute,image:system.brand.logoAbsolute,telephone:system.business.phoneTel,email:system.business.email,address:{'@type':'PostalAddress',streetAddress:system.business.streetAddress,addressLocality:system.business.locality,addressRegion:system.business.region,addressCountry:system.business.country},areaServed:{'@type':'City',name:'Hanoi'},openingHoursSpecification:[{'@type':'OpeningHoursSpecification',dayOfWeek:['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],opens:String(system.business.openHour).padStart(2,'0')+':00',closes:String(system.business.closeHour).padStart(2,'0')+':00'}],hasMap:system.business.mapsUrl,sameAs:system.social,...(system.business.priceRange?{priceRange:system.business.priceRange}:{})});
     graph.push({'@type':'Service','@id':system.domain+'/#service',name:'Hanoi Motorbike Rental',serviceType:'Motorbike rental in Hanoi',description:'Scooter, semi-automatic, 50cc and electric motorbike rental with verified daily, weekly and monthly prices where published.',provider:{'@id':system.domain+'/#business'},areaServed:{'@type':'City',name:'Hanoi'},url:system.domain+'/'});
   }else{
-    graph.push({'@type':'WebPage','@id':canonical,url:canonical,name:title,description,inLanguage:system.language,image:system.brand.logoAbsolute,isPartOf:{'@id':system.domain+'/#website'}});
+    const row=matrixByPath.get(pagePath)||{};
+    const hubDir=pagePath.split('/')[0];
+    if(row.content_role==='HUB'&&hubIndexConfig.hubs[hubDir]){
+      const items=publishedClusters(hubDir).map((r,i)=>({'@type':'ListItem',position:i+1,url:system.domain+pathToHref(r.path)}));
+      graph.push({'@type':'CollectionPage','@id':canonical,url:canonical,name:title,description,inLanguage:system.language,image:system.brand.logoAbsolute,isPartOf:{'@id':system.domain+'/#website'},mainEntity:{'@type':'ItemList',numberOfItems:items.length,itemListElement:items}});
+    }else{
+      graph.push({'@type':'WebPage','@id':canonical,url:canonical,name:title,description,inLanguage:system.language,image:system.brand.logoAbsolute,isPartOf:{'@id':system.domain+'/#website'}});
+    }
+    if(row.content_role==='CLUSTER'){
+      const dates=pageDates(pagePath);
+      const headline=(h1Of(html)||title).slice(0,110);
+      const org={'@type':'Organization',name:system.business.name,url:system.domain+'/',logo:{'@type':'ImageObject',url:system.brand.logoAbsolute}};
+      const art={'@type':'Article','@id':canonical+'#article',headline,description,inLanguage:system.language,mainEntityOfPage:{'@id':canonical},image:system.brand.logoAbsolute,author:org,publisher:org};
+      if(dates.published) art.datePublished=dates.published;
+      if(dates.modified) art.dateModified=dates.modified;
+      graph.push(art);
+    }
     const crumbs=breadcrumbItems(html,canonical);
     if(crumbs.length) graph.push({'@type':'BreadcrumbList',itemListElement:crumbs});
     if(pagePath==='faq/index.html'){
@@ -278,7 +403,9 @@ function syncArticleDiscovery(html,pagePath){
   const authorRe=/<!-- SLOT:AUTHOR:START -->[\s\S]*?<!-- SLOT:AUTHOR:END -->/;
   const navRe=/<!-- SLOT:POST_NAV:START -->[\s\S]*?<!-- SLOT:POST_NAV:END -->/;
   if(featureOn('authorBox')){
-    const author='<!-- SLOT:AUTHOR:START -->\n'+render(authorTpl,ctx).trim()+'\n<!-- SLOT:AUTHOR:END -->';
+    const dates=pageDates(pagePath);
+    const dateHtml=dates.published?'<p class="post-author-date">Published <time datetime="'+dates.published+'">'+longDate(dates.published)+'</time>'+(dates.modified?' &middot; Updated <time datetime="'+dates.modified+'">'+longDate(dates.modified)+'</time>':'')+'</p>':'';
+    const author='<!-- SLOT:AUTHOR:START -->\n'+render(authorTpl,{...ctx,postDate:dateHtml}).trim()+'\n<!-- SLOT:AUTHOR:END -->';
     if(authorRe.test(html)) html=html.replace(authorRe,author);
     else {
       let before=outerArticleEnd(html,start);
@@ -304,7 +431,7 @@ function syncArticleDiscovery(html,pagePath){
 }
 
 function relatedEntries(pagePath){
-  const explicit=system.relatedByPage[pagePath]||[];
+  const explicit=[...(system.relatedByPage[pagePath]||[]),...((seeAlso.pages||{})[pagePath]||[])];
   const targets=(matrixLinks.get(pagePath)||[]).filter(Boolean);
   // Some older/custom articles have no Matrix record. Fall back to published
   // articles from their own hub directory rather than leaving Related empty.
@@ -337,7 +464,7 @@ function relatedBlock(pagePath){
   }).join('\n');
   const pager=entries.length>3?
     '<div class="related-controls" hidden><button class="related-prev" type="button" aria-label="Previous related articles">Previous</button><span class="related-count" aria-live="polite"></span><button class="related-next" type="button" aria-label="Next related articles">Next</button></div>':'';
-  return '<!-- SLOT:RELATED:START -->\n<section class="related-reading" aria-label="Related articles">\n<h2>Related hubs</h2>\n<div class="card-grid related-grid">\n'+cards+'\n</div>\n'+pager+'\n</section>\n<!-- SLOT:RELATED:END -->';
+  return '<!-- SLOT:RELATED:START -->\n<section class="related-reading" aria-label="Related articles">\n<h2>Related guides</h2>\n<div class="card-grid related-grid">\n'+cards+'\n</div>\n'+pager+'\n</section>\n<!-- SLOT:RELATED:END -->';
 }
 function ctaForPage(pagePath){
   const row=matrixByPath.get(pagePath);
@@ -441,6 +568,7 @@ function buildHtml(html,pagePath){
   html=syncCanonical(html,pagePath);
   html=syncSocialMeta(html,pagePath);
   html=lazyContentImages(html);
+  html=syncHubIndex(html,pagePath);
   if(pagePath!=='faq/index.html' && !system.schema.excludePaths.includes(pagePath)) html=articleToc(html);
 
   const schema=schemaFor(html,pagePath);
@@ -455,7 +583,7 @@ function buildHtml(html,pagePath){
     if(/<!-- SLOT:RELATED:START -->[\s\S]*?<!-- SLOT:RELATED:END -->/.test(html)) html=html.replace(/<!-- SLOT:RELATED:START -->[\s\S]*?<!-- SLOT:RELATED:END -->/,related);
     else if(html.includes('<!-- SLOT:RELATED -->')) html=html.replace('<!-- SLOT:RELATED -->',related);
     else {
-      const legacy=/<h2>Related hubs<\/h2>\s*<div class="card-grid">[\s\S]*?<\/div>\s*(?=<div class="contact-cta"|<p class="back-home"|<\/article>)/i;
+      const legacy=/<h2>Related (?:hubs|guides)<\/h2>\s*<div class="card-grid">[\s\S]*?<\/div>\s*(?=<div class="contact-cta"|<p class="back-home"|<\/article>)/i;
       if(legacy.test(html)) html=html.replace(legacy,related+'\n');
       else {
         // New factory articles have no related slot yet: insert before CTA or article end.
@@ -505,6 +633,38 @@ function buildHtml(html,pagePath){
     }
   }
   html=syncArticleDiscovery(html,pagePath);
+  html=syncSeriesSlots(html,pagePath);
+  return html;
+}
+function syncHubIndex(html,pagePath){
+  // Hub article index (replaces the bare marker or the previous generated block).
+  const hub=pagePath.split('/')[0];
+  if(pagePath.split('/').length===2&&hubIndexConfig.hubs[hub]){
+    const block=hubIndexBlock(hub);
+    if(/<!-- SLOT:HUB_INDEX:START -->[\s\S]*?<!-- SLOT:HUB_INDEX:END -->/.test(html)) html=html.replace(/<!-- SLOT:HUB_INDEX:START -->[\s\S]*?<!-- SLOT:HUB_INDEX:END -->/,block);
+    else if(html.includes('<!-- SLOT:HUB_INDEX -->')) html=html.replace('<!-- SLOT:HUB_INDEX -->',block);
+  }
+  return html;
+}
+function syncSeriesSlots(html,pagePath){
+  const anchorFor=()=>{
+    for(const mk of ['<!-- SLOT:AUTHOR:START -->','<!-- HOOK:ARTICLE_BEFORE_RELATED:START -->','<!-- SLOT:RELATED:START -->']){const i=html.indexOf(mk);if(i>=0)return i;}
+    return -1;
+  };
+  // Official sources box for legal/safety topics.
+  const srcRe=/\n?<!-- SLOT:SOURCES:START -->[\s\S]*?<!-- SLOT:SOURCES:END -->\n?/;
+  if(needsOfficialSources(pagePath)){
+    const block=officialSourcesBlock();
+    if(srcRe.test(html)) html=html.replace(srcRe,'\n'+block+'\n');
+    else {const i=anchorFor(); if(i>=0) html=html.slice(0,i)+'\n'+block+'\n'+html.slice(i);}
+  }else html=html.replace(srcRe,'\n');
+  // Series navigation inside articles that belong to a topic family.
+  const navRe=/\n?<!-- SLOT:FAMILY_NAV:START -->[\s\S]*?<!-- SLOT:FAMILY_NAV:END -->\n?/;
+  const nav=familyNavBlock(pagePath);
+  if(nav){
+    if(navRe.test(html)) html=html.replace(navRe,'\n'+nav+'\n');
+    else {const i=anchorFor(); if(i>=0) html=html.slice(0,i)+'\n'+nav+'\n'+html.slice(i);}
+  }else html=html.replace(navRe,'\n');
   return html;
 }
 function businessJs(){

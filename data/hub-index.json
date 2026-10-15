@@ -1,0 +1,286 @@
+{
+  "_comment": "Source of truth for hub article indexes and in-article series navigation. pattern: regex on the article slug with named groups k (series key) and v (variant). groupBy: which group the hub index lists by. Labels are reader-facing. Used by tools/build-site.mjs and tools/seo-master-matrix.mjs.",
+  "words": {
+    "hanoi": "Hanoi",
+    "vietnam": "Vietnam",
+    "honda": "Honda",
+    "yamaha": "Yamaha",
+    "vision": "Vision",
+    "click": "Click",
+    "mio": "Mio",
+    "wave": "Wave",
+    "sirius": "Sirius",
+    "air": "Air",
+    "blade": "Blade",
+    "old": "Old",
+    "quarter": "Quarter",
+    "long": "Long",
+    "bien": "Bien",
+    "west": "West",
+    "lake": "Lake",
+    "50cc": "50cc",
+    "125cc": "125cc",
+    "ba": "Ba",
+    "vi": "Vi",
+    "bac": "Bac",
+    "ninh": "Ninh",
+    "cat": "Cat",
+    "cuc": "Cuc",
+    "phuong": "Phuong",
+    "duong": "Duong",
+    "lam": "Lam",
+    "ha": "Ha",
+    "giang": "Giang",
+    "hoa": "Hoa",
+    "binh": "Binh",
+    "mai": "Mai",
+    "chau": "Chau",
+    "moc": "Moc",
+    "perfume": "Perfume",
+    "pagoda": "Pagoda",
+    "pu": "Pu",
+    "luong": "Luong",
+    "sapa": "Sapa",
+    "soc": "Soc",
+    "son": "Son",
+    "tam": "Tam",
+    "dao": "Dao",
+    "yen": "Yen",
+    "tu": "Tu",
+    "dinh": "Dinh",
+    "cau": "Cau",
+    "giay": "Giay",
+    "dong": "Dong",
+    "da": "Da",
+    "french": "French",
+    "giang-vo": "Giang Vo",
+    "vo": "Vo",
+    "hai": "Hai",
+    "trung": "Trung",
+    "hoan": "Hoan",
+    "kiem": "Kiem",
+    "hoang": "Hoang",
+    "my": "My",
+    "nam": "Nam",
+    "liem": "Liem",
+    "tay": "Tay",
+    "ho": "Ho",
+    "thanh": "Thanh",
+    "xuan": "Xuan",
+    "truc": "Truc",
+    "vs": "vs"
+  },
+  "hubs": {
+    "hanoi-motorbike-rental": {
+      "pattern": "^(?<v>.+)-(?<k>bike-choice|parking-strategy|pickup-planning|pre-ride-inspection|rainy-day-planning|rental-paperwork-questions|return-checklist|route-planning|traffic-preparation)$",
+      "groupBy": "k",
+      "varies": "audience",
+      "plan": "A1",
+      "min": 4,
+      "intro": "Every guide in this section, grouped by topic. Each topic has versions written for different kinds of riders, so pick the one closest to your trip.",
+      "labels": {
+        "bike-choice": "Choosing a bike",
+        "parking-strategy": "Parking",
+        "pickup-planning": "Planning the pickup",
+        "pre-ride-inspection": "Pre-ride inspection",
+        "rainy-day-planning": "Riding in the rain",
+        "rental-paperwork-questions": "Paperwork questions",
+        "return-checklist": "Returning the bike",
+        "route-planning": "Route planning",
+        "traffic-preparation": "Preparing for Hanoi traffic"
+      }
+    },
+    "hanoi-50cc-motorbike-rental": {
+      "pattern": "^(?<v>.+)-(?<k>bridges-and-inclines|choosing-a-50cc|city-traffic|daily-rental-planning|parking|passenger-use|rainy-weather|route-suitability|vs-automatic-scooter)$",
+      "groupBy": "k",
+      "varies": "audience",
+      "plan": "A2",
+      "min": 4,
+      "intro": "Every 50cc guide in this section, grouped by topic, with versions for different kinds of riders.",
+      "labels": {
+        "bridges-and-inclines": "Bridges and inclines on a 50cc",
+        "choosing-a-50cc": "Choosing a 50cc",
+        "city-traffic": "City traffic on a 50cc",
+        "daily-rental-planning": "Planning a daily 50cc rental",
+        "parking": "Parking a 50cc",
+        "passenger-use": "Carrying a passenger",
+        "rainy-weather": "Rainy weather",
+        "route-suitability": "Where a 50cc fits",
+        "vs-automatic-scooter": "50cc or automatic scooter?"
+      }
+    },
+    "hanoi-scooter-rental": {
+      "pattern": "^(?<k>.+)-(?<v>checks-and-mistakes|selection-guide)$",
+      "groupBy": "v",
+      "varies": "format (selection guide vs checks and mistakes)",
+      "plan": "A3",
+      "min": 2,
+      "intro": "Every scooter guide in this section. Selection guides help you choose; the checks-and-mistakes guides cover what to inspect and what to avoid once you ride.",
+      "labels": {
+        "selection-guide": "Selection guides",
+        "checks-and-mistakes": "Checks and common mistakes"
+      }
+    },
+    "hanoi-motorbike-rental-cost": {
+      "pattern": "^(?<k>honda-wave|yamaha-sirius|yamaha-mio|honda-click|honda-vision|honda-air-blade|electric-motorbike|50cc-scooter|automatic-scooter|semi-automatic-motorbike)-(?<v>daily-price|weekly-price|monthly-price|short-vs-long-term-cost|rental-price-hanoi)$",
+      "extra": [
+        {
+          "pattern": "^(?<v>(?:honda-wave|yamaha-sirius|yamaha-mio|honda-click|honda-vision|honda-air-blade|electric-motorbike|50cc-scooter|automatic-scooter|semi-automatic-motorbike)-vs-(?:honda-wave|yamaha-sirius|yamaha-mio|honda-click|honda-vision|honda-air-blade|electric-motorbike|50cc-scooter|automatic-scooter|semi-automatic-motorbike))-rental-cost$",
+          "key": "model-comparisons"
+        }
+      ],
+      "groupBy": "k",
+      "varies": "rental period",
+      "plan": "A4",
+      "min": 3,
+      "intro": "Price guides for each model and rental period, plus side-by-side cost comparisons. All figures come from the verified price table.",
+      "labels": {
+        "honda-wave": "Honda Wave prices",
+        "yamaha-sirius": "Yamaha Sirius prices",
+        "yamaha-mio": "Yamaha Mio prices",
+        "honda-click": "Honda Click prices",
+        "honda-vision": "Honda Vision prices",
+        "honda-air-blade": "Honda Air Blade prices",
+        "electric-motorbike": "Electric motorbike prices",
+        "50cc-scooter": "50cc scooter prices",
+        "automatic-scooter": "Automatic scooter prices",
+        "semi-automatic-motorbike": "Semi-automatic prices",
+        "model-comparisons": "Model cost comparisons"
+      },
+      "variantLabels": {
+        "daily-price": "Daily price",
+        "weekly-price": "Weekly price",
+        "monthly-price": "Monthly price",
+        "short-vs-long-term-cost": "Short vs long-term cost",
+        "rental-price-hanoi": "Price overview"
+      }
+    },
+    "motorbike-rental-hanoi-old-quarter": {
+      "pattern": "^(?<k>.+)-(?<v>day-ride-ideas|parking-guide|rental-planning|route-connections|traffic-guide)$",
+      "groupBy": "k",
+      "varies": "sub-topic",
+      "plan": "A5",
+      "min": 4,
+      "intro": "Area guides for the Old Quarter and other Hanoi districts, grouped by area: rental planning, traffic, parking, route connections and day-ride ideas.",
+      "labels": {},
+      "variantLabels": {
+        "day-ride-ideas": "Day ride ideas",
+        "parking-guide": "Parking",
+        "rental-planning": "Rental planning",
+        "route-connections": "Route connections",
+        "traffic-guide": "Traffic"
+      }
+    },
+    "monthly-motorbike-rental-hanoi": {
+      "pattern": "^(?<v>.+)-(?<k>commuting-setup|contract-questions|maintenance-expectations|model-choice|monthly-budget|parking-and-security)$",
+      "groupBy": "k",
+      "varies": "audience",
+      "plan": "A6",
+      "min": 4,
+      "intro": "Every monthly-rental guide in this section, grouped by topic, with versions for different long-stay situations.",
+      "labels": {
+        "commuting-setup": "Commuting setup",
+        "contract-questions": "Contract questions",
+        "maintenance-expectations": "Maintenance expectations",
+        "model-choice": "Choosing a model",
+        "monthly-budget": "Monthly budget",
+        "parking-and-security": "Parking and security"
+      }
+    },
+    "hanoi-motorbike-trips": {
+      "pattern": "^hanoi-to-(?<k>.+?)-(?<v>bike-choice|fuel-and-rest-stops|luggage-packing|one-day-feasibility|return-planning|route-planning|safety-checklist|two-day-itinerary|weather-planning|motorbike-route)$",
+      "groupBy": "k",
+      "varies": "sub-topic",
+      "plan": "A7",
+      "min": 4,
+      "intro": "Trip guides grouped by destination. Each destination has guides on the route, bike choice, fuel and rest stops, weather, packing, safety and the return.",
+      "labels": {},
+      "groupPrefix": "Hanoi to ",
+      "variantLabels": {
+        "bike-choice": "Bike choice",
+        "fuel-and-rest-stops": "Fuel and rest stops",
+        "luggage-packing": "Luggage and packing",
+        "one-day-feasibility": "As a day trip?",
+        "return-planning": "Planning the return",
+        "route-planning": "Route planning",
+        "safety-checklist": "Safety checklist",
+        "two-day-itinerary": "Two-day itinerary",
+        "weather-planning": "Weather",
+        "motorbike-route": "Route overview"
+      }
+    },
+    "hanoi-motorbike-for-sale": {
+      "pattern": "^(?<v>.+)-(?<k>break-even-thinking|ownership-costs|paperwork-questions|rent-vs-buy-decision|resale-planning|used-bike-inspection)$",
+      "groupBy": "k",
+      "varies": "audience",
+      "plan": "A8",
+      "min": 4,
+      "intro": "Buying-versus-renting guides grouped by topic, with versions for different situations.",
+      "labels": {
+        "break-even-thinking": "When buying beats renting",
+        "ownership-costs": "Ownership costs",
+        "paperwork-questions": "Paperwork questions",
+        "rent-vs-buy-decision": "Rent or buy?",
+        "resale-planning": "Planning the resale",
+        "used-bike-inspection": "Inspecting a used bike"
+      }
+    },
+    "renting-a-motorbike-in-vietnam": {
+      "pattern": "^(?<k>accident-steps|border-area-riding|helmet-rules|insurance-questions|motorbike-license|rental-contracts|restricted-roads|road-signs|traffic-police-stops)-(?<v>50cc-riders|city-riders|expats|long-distance-riders|scooter-riders|tourists)$",
+      "groupBy": "k",
+      "varies": "audience",
+      "plan": "A9",
+      "min": 4,
+      "intro": "Rules and practical topics for riding in Vietnam, grouped by topic, with versions for different riders. Always check the official sources linked on each page.",
+      "labels": {
+        "accident-steps": "After an accident",
+        "border-area-riding": "Riding near border areas",
+        "helmet-rules": "Helmet rules",
+        "insurance-questions": "Insurance questions",
+        "motorbike-license": "Motorbike licences",
+        "rental-contracts": "Rental contracts",
+        "restricted-roads": "Restricted roads",
+        "road-signs": "Road signs",
+        "traffic-police-stops": "Traffic police stops"
+      }
+    },
+    "motorbike-guides": {
+      "pattern": "^(?<k>motorbike-[a-z]+|rain-gear)-(?<v>maintenance-basics|pre-ride-checklist|troubleshooting)$",
+      "groupBy": "k",
+      "varies": "format",
+      "plan": "A10",
+      "min": 3,
+      "intro": "Practical guides grouped by part of the bike: basics, a pre-ride checklist and troubleshooting for each.",
+      "labels": {
+        "motorbike-battery": "Battery",
+        "motorbike-brakes": "Brakes",
+        "motorbike-chain": "Chain",
+        "motorbike-fuel": "Fuel",
+        "motorbike-helmets": "Helmets",
+        "motorbike-lights": "Lights",
+        "motorbike-luggage": "Luggage",
+        "motorbike-navigation": "Navigation",
+        "motorbike-tires": "Tyres",
+        "rain-gear": "Rain gear"
+      },
+      "variantLabels": {
+        "maintenance-basics": "Maintenance basics",
+        "pre-ride-checklist": "Pre-ride checklist",
+        "troubleshooting": "Troubleshooting"
+      }
+    }
+  },
+  "phrases": {
+    "first-time": "first-time",
+    "food-focused": "food-focused",
+    "long-stay": "long-stay",
+    "short-stay": "short-stay",
+    "long-distance": "long-distance",
+    "semi-automatic": "semi-automatic",
+    "two-day": "two-day",
+    "one-day": "one-day",
+    "pre-ride": "pre-ride",
+    "long-term": "long-term",
+    "new-hanoi": "new Hanoi"
+  }
+}

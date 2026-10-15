@@ -25,7 +25,8 @@
     "closeHour": 21,
     "hoursText": "09:00 - 21:00 daily",
     "hoursRange": "09:00 – 21:00",
-    "hoursDisplay": "09:00 – 21:00 daily"
+    "hoursDisplay": "09:00 – 21:00 daily",
+    "priceRange": "150,000-200,000 VND per day"
   },
   "cta": {
     "heading": "Questions about renting in Hanoi?",
@@ -276,5 +277,43 @@
     "postNavigation": true,
     "authorBox": true
   },
-  "ctaBySilo": {}
+  "ctaBySilo": {},
+  "officialSources": {
+    "title": "Official sources",
+    "intro": "Traffic and licence rules change. Check the current primary sources for your own situation before you ride:",
+    "items": [
+      {
+        "label": "Law on Road Traffic Order and Safety No. 36/2024/QH15 (consolidated text, Vietnamese)",
+        "publisher": "Government of Vietnam, chinhphu.vn",
+        "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/55-vbhn-vpqh.pdf"
+      },
+      {
+        "label": "Introduction to Law No. 36/2024/QH15 (Vietnamese)",
+        "publisher": "Government policy portal, chinhphu.vn",
+        "url": "https://xaydungchinhsach.chinhphu.vn/gioi-thieu-luat-trat-tu-an-toan-giao-thong-duong-bo-so-36-2024-qh15-119240807104502067.htm"
+      },
+      {
+        "label": "Which international driving permit you need (Vietnam: 1968 IDP)",
+        "publisher": "GOV.UK",
+        "url": "https://www.gov.uk/driving-abroad/international-driving-permit"
+      },
+      {
+        "label": "Driving in Vietnam",
+        "publisher": "U.S. Embassy & Consulate in Vietnam",
+        "url": "https://vn.usembassy.gov/driving-in-vietnam/"
+      }
+    ],
+    "pages": [
+      "renting-a-motorbike-in-vietnam/index.html",
+      "hanoi-50cc-motorbike-rental/index.html",
+      "hanoi-50cc-motorbike-rental/50cc-vs-125cc-hanoi/index.html",
+      "hanoi-scooter-rental/automatic-scooter-vs-50cc-selection-guide/index.html",
+      "motorbike-guides/motorbike-helmet-guide-hanoi/index.html",
+      "hanoi-motorbike-rental/how-to-rent-a-motorbike-in-hanoi/index.html"
+    ],
+    "patterns": [
+      "^renting-a-motorbike-in-vietnam/[^/]+/index\\.html$",
+      "^[^/]+/[^/]*(?:licen[cs]e|helmet-rules|traffic-rules|traffic-police|road-signs|restricted-roads|insurance|accident|rental-contracts|rental-paperwork|paperwork-questions|border-area)[^/]*/index\\.html$"
+    ]
+  }
 }
