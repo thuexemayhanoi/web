@@ -1,7 +1,50 @@
 [
-  {"id": "B0", "date": "2026-10-14", "priority": "-", "commit": "this commit", "changes": "Audit tooling: tools/seo-master-matrix.mjs, data/keyword-research.json (Ubersuggest/autocomplete, UNKNOWN where no data), baseline reports/seo-master-baseline.json for 1003 URLs.", "verification": "node tools/seo-master-matrix.mjs"},
-  {"id": "B1", "date": "2026-10-14", "priority": "P0", "commit": "this commit", "changes": "Removed SEO/meta self-talk from 323 pages (C-META-COPY); rewrote unverified shop-policy claims as reader advice (C-UNVERIFIED-POLICY, C-STYLE 595 pages); corrected 50cc licence wording to Law 36/2024/QH15 (C-LEGAL-RISK).", "verification": "matrix re-audit; qa-site; seo-audit"},
-  {"id": "B2", "date": "2026-10-14", "priority": "P0", "commit": "this commit", "changes": "Template families repaired in place, no deletion/redirect/noindex: hub article indexes grouped by series (data/hub-index.json), series navigation blocks, differentiated titles/H1/meta, cannibal groups split by intent (data/see-also.json).", "verification": "matrix C-TEMPLATE-FAMILY / C-CANNIBAL; build-site --check"},
-  {"id": "B3", "date": "2026-10-15", "priority": "P1", "commit": "this commit", "changes": "Schema: Article on 988 posts with datePublished/dateModified, CollectionPage+ItemList on hubs, LocalBusiness priceRange; FAQ questions as H3; duplicate ids, missing <main>, unclosed <p> fixed; title/meta length fixes; official-source blocks on legal pages; direct answers on key pages.", "verification": "qa-site schema checks; seo-audit 0 errors"},
-  {"id": "B4", "date": "2026-10-15", "priority": "P1/P2", "commit": "this commit", "changes": "Helpful 404 (instant meta refresh removed); electric price page titles differentiated; 'this hub' self-references rewritten; content dates + sitemap lastmod (data/content-dates.json).", "verification": "full CI QA suite locally; matrix"}
+  {
+    "id": "B0",
+    "date": "2026-10-14",
+    "priority": "-",
+    "commit": "47429b4",
+    "changes": "Audit tooling: tools/seo-master-matrix.mjs, data/keyword-research.json (Ubersuggest/autocomplete, UNKNOWN where no data), baseline reports/seo-master-baseline.json for 1003 URLs.",
+    "verification": "node tools/seo-master-matrix.mjs"
+  },
+  {
+    "id": "B1",
+    "date": "2026-10-14",
+    "priority": "P0",
+    "commit": "47429b4",
+    "changes": "Removed SEO/meta self-talk from 323 pages (C-META-COPY); rewrote unverified shop-policy claims as reader advice (C-UNVERIFIED-POLICY, C-STYLE 595 pages); corrected 50cc licence wording to Law 36/2024/QH15 (C-LEGAL-RISK).",
+    "verification": "matrix re-audit; qa-site; seo-audit"
+  },
+  {
+    "id": "B2",
+    "date": "2026-10-14",
+    "priority": "P0",
+    "commit": "47429b4",
+    "changes": "Template families repaired in place, no deletion/redirect/noindex: hub article indexes grouped by series (data/hub-index.json), series navigation blocks, differentiated titles/H1/meta, cannibal groups split by intent (data/see-also.json).",
+    "verification": "matrix C-TEMPLATE-FAMILY / C-CANNIBAL; build-site --check"
+  },
+  {
+    "id": "B3",
+    "date": "2026-10-15",
+    "priority": "P1",
+    "commit": "47429b4",
+    "changes": "Schema: Article on 988 posts with datePublished/dateModified, CollectionPage+ItemList on hubs, LocalBusiness priceRange; FAQ questions as H3; duplicate ids, missing <main>, unclosed <p> fixed; title/meta length fixes; official-source blocks on legal pages; direct answers on key pages.",
+    "verification": "qa-site schema checks; seo-audit 0 errors"
+  },
+  {
+    "id": "B4",
+    "date": "2026-10-15",
+    "priority": "P1/P2",
+    "commit": "47429b4",
+    "changes": "Helpful 404 (instant meta refresh removed); electric price page titles differentiated; 'this hub' self-references rewritten; content dates + sitemap lastmod (data/content-dates.json).",
+    "verification": "full CI QA suite locally; matrix"
+  },
+  {
+    "id": "B5",
+    "date": "2026-10-15",
+    "priority": "P0",
+    "commit": "this commit",
+    "changes": "C-NEAR-DUP: 2,317 copied sentences rewritten in place on 230 template pages (trips, Old Quarter districts, cost, monthly, for-sale) so each page reads for its own destination/model/audience; unverified shop claims turned into reader advice; no pages deleted, no URL changes.",
+    "verification": "matrix: max 5-gram Jaccard < 0.25 on all pages (P0 230 -> 0); full CI QA suite locally"
+  }
 ]
