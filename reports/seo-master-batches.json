@@ -83,8 +83,16 @@
     "id": "B10",
     "date": "2026-10-16",
     "priority": "P2",
-    "commit": "this commit",
+    "commit": "902bf9f",
     "changes": "L-CONTEXT closed: 271 remaining articles each received one in-text link from a related article in the same series or hub, written as one new natural sentence at the end of the most relevant paragraph with a descriptive anchor (250 via validated batch, 21 by hand).",
     "verification": "matrix L-CONTEXT 271 -> 0; qa-site link check; full CI QA suite locally"
+  },
+  {
+    "id": "B11",
+    "date": "2026-10-16",
+    "priority": "P2",
+    "commit": "this commit",
+    "changes": "Plain-English rewrite, wave A (rental, scooter, 50cc and cost hubs): 3,873 over-styled sentences ('honest', 'arithmetic', 'ledger', 'verdict', personification, leftover 'desk'/'counter') rewritten on 477 pages; advice and links kept, no new facts or numbers, unverified shop claims turned into reader advice.",
+    "verification": "matrix C-PURPLE 871 -> 487 pages; validator 0 errors on 3,873 rewrites; full CI QA suite locally"
   }
 ]
