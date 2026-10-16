@@ -91,8 +91,16 @@
     "id": "B11",
     "date": "2026-10-16",
     "priority": "P2",
-    "commit": "this commit",
+    "commit": "ff9b7b3",
     "changes": "Plain-English rewrite, wave A (rental, scooter, 50cc and cost hubs): 3,873 over-styled sentences ('honest', 'arithmetic', 'ledger', 'verdict', personification, leftover 'desk'/'counter') rewritten on 477 pages; advice and links kept, no new facts or numbers, unverified shop claims turned into reader advice.",
     "verification": "matrix C-PURPLE 871 -> 487 pages; validator 0 errors on 3,873 rewrites; full CI QA suite locally"
+  },
+  {
+    "id": "B12",
+    "date": "2026-10-16",
+    "priority": "P2",
+    "commit": "this commit",
+    "changes": "Plain-English rewrite, wave B (trips, motorbike guides and Vietnam rental hubs): 2,750 over-styled sentences rewritten on 259 pages; same advice and links, no new facts or numbers.",
+    "verification": "matrix C-PURPLE 487 -> 252 pages (waves A and B hubs at 0); validator 0 errors; full CI QA suite locally"
   }
 ]

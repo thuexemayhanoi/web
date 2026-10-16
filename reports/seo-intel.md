@@ -43,7 +43,7 @@ Generated 2026-10-16 by `node tools/seo-intel.mjs`. Search Console and analytics
 |---|---|---|---|---|---|
 | 1968 Vienna IDP vs 1949 Geneva IDP | 3 | COVERED | 1 | /renting-a-motorbike-in-vietnam/ | Covered; keep facts current. |
 | Travel insurance exclusions for motorbike riding | 1 | COVERED | 18 | /renting-a-motorbike-in-vietnam/ | Covered; keep facts current. |
-| Zero alcohol limit for riders | 2 | COVERED | 4 | /renting-a-motorbike-in-vietnam/ | Covered; keep facts current. |
+| Zero alcohol limit for riders | 2 | COVERED | 5 | /renting-a-motorbike-in-vietnam/ | Covered; keep facts current. |
 | Motorbikes not allowed on expressways | 2 | COVERED | 25 | /hanoi-motorbike-trips/ | Covered; keep facts current. |
 | Check the registration card (cavet / blue card) | 2 | COVERED | 51 | /hanoi-motorbike-rental/ | Covered; keep facts current. |
 | Agreed bike value / liability for theft or damage in the contract | 2 | COVERED | 59 | /hanoi-motorbike-rental/ | Covered; keep facts current. |
@@ -51,7 +51,7 @@ Generated 2026-10-16 by `node tools/seo-intel.mjs`. Search Console and analytics
 | Renting around Tet (shop closures, demand) | 1 | COVERED | 3 | /hanoi-motorbike-rental/ | Covered; keep facts current. |
 | Fuel not included / refuelling | 1 | COVERED | 589 | /hanoi-motorbike-rental-cost/ | Covered; keep facts current. |
 | When not to rent: Grab bike / taxi as an alternative | 1 | COVERED | 67 | /hanoi-motorbike-rental/ | Covered; keep facts current. |
-| Avoid or prepare for night riding | 1 | COVERED | 454 | /motorbike-guides/ | Covered; keep facts current. |
+| Avoid or prepare for night riding | 1 | COVERED | 453 | /motorbike-guides/ | Covered; keep facts current. |
 | Traffic fines under Decree 168/2024 (from 2025) | 1 | COVERED | 1 | /renting-a-motorbike-in-vietnam/ | Covered; keep facts current. |
 | Day trip: Ba Vi / Duong Lam | 1 | COVERED | 40 | /hanoi-motorbike-trips/ | Covered; keep facts current. |
 | Day trip: Bat Trang ceramic village | 1 | COVERED | 1 | /hanoi-motorbike-trips/ | Covered; keep facts current. |
