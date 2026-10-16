@@ -1,0 +1,9 @@
+{
+  "_comment": "Editorial owner decisions for keyword clusters where automatic matching is ambiguous. Read by tools/seo-intel.mjs. One owner per cluster; other pages support it with links.",
+  "owners": {
+    "hanoi:daily": {"url": "/hanoi-motorbike-rental-cost/", "reason": "The price hub lists verified daily, weekly and monthly rates for every model."},
+    "generic:weekly": {"url": "/hanoi-motorbike-rental-cost/", "reason": "Weekly rates live on the price hub; model pages link to it."},
+    "vietnam:license": {"url": "/renting-a-motorbike-in-vietnam/", "reason": "The hub answers the licence question directly (#licence-answer); the six audience licence guides support it."},
+    "vietnam:scooter": {"url": "/renting-a-motorbike-in-vietnam/", "reason": "Country-level rental intent; scooter and motorbike are the same rental decision here."}
+  }
+}

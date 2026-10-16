@@ -1,0 +1,2201 @@
+{
+ "generated_at": "2026-10-16",
+ "mode": "ZERO-DATA / COLD START",
+ "data_sources": {
+  "keywords": {
+   "ubersuggest_global": "Ubersuggest MCP keyword_overview / match_keywords, no location (global), language en, free tier, 2026-10-14",
+   "ubersuggest_vn": "Ubersuggest MCP keyword_suggestions / match_keywords, locId 2704 (Vietnam), language en, free tier, 2026-10-14",
+   "autocomplete_vn": "Ubersuggest MCP google_suggestions (Google autocomplete expansions), country vn, language en, 2026-10-14. No metrics."
+  },
+  "serp": [
+   "Public search observations only. Result order is the order the search tool returned, NOT a Google ranking. No positions, clicks or traffic are implied.",
+   "Sources: 'websearch' = Claude WebSearch tool (standard mode, US index) on 2026-10-16; 'firecrawl' = Firecrawl web search on 2026-10-15 (account ran out of credits after one query).",
+   "app.rentbikehanoi.com did not appear in any observed result set (new site, no index data). This is an observation, not a ranking measurement.",
+   "Facts mentioned by competitors (prices, fines, mileage caps) are NOT business facts for this site and must never be copied into pages as our policy. They only show which questions searchers see answered.",
+   "Profile/UGC hosts (gitlab, speakerdeck, hashnode, fiverr) are grouped under 'forum' as user-generated pages, including business profile pages."
+  ],
+  "gsc": "NOT CONNECTED - clicks, impressions, rankings UNKNOWN"
+ },
+ "summary": {
+  "phrases": 71,
+  "clusters": 20,
+  "owned": 20,
+  "check": 0,
+  "gap_clusters": 0,
+  "serp_queries": 13,
+  "serp_result_types": {
+   "parasite_spam": 16,
+   "rental_operator": 28,
+   "publisher": 30,
+   "forum": 21,
+   "marketplace": 24
+  },
+  "gap_topics": 16,
+  "gap_topics_open": 0
+ },
+ "clusters": [
+  {
+   "key": "vietnam:head",
+   "lead": "motorbike rental vietnam",
+   "intent": "Informational / commercial (country)",
+   "status": "OWNED",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/",
+    "role": "guide hub",
+    "hub": "Renting in Vietnam",
+    "score": 1.05
+   },
+   "runner_up": {
+    "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/motorbike-rental-scams-vietnam/",
+    "score": 0.75
+   },
+   "action": "Owner is clear: keep the title/H1 aligned and point contextual links to it.",
+   "phrases": [
+    {
+     "phrase": "motorbike rental vietnam",
+     "volume": 5400,
+     "volume_field": "global",
+     "from": [
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "renting a motorbike in vietnam",
+     "volume": 5400,
+     "volume_field": "global",
+     "from": [
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "one way motorbike rental vietnam",
+     "volume": 50,
+     "volume_field": "global",
+     "from": [
+      "keyword"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "hanoi:head",
+   "lead": "hanoi motorbike rental",
+   "intent": "Commercial (head term)",
+   "status": "OWNED",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/",
+    "role": "homepage / service page",
+    "hub": "Homepage (root hub)",
+    "score": 1.06
+   },
+   "runner_up": {
+    "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/",
+    "score": 0.8
+   },
+   "action": "Owner is clear: keep the title/H1 aligned and point contextual links to it.",
+   "phrases": [
+    {
+     "phrase": "hanoi motorbike rental",
+     "volume": 2900,
+     "volume_field": "global",
+     "from": [
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "motorbike rental hanoi",
+     "volume": 1900,
+     "volume_field": "vn",
+     "from": [
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "motorbike hire hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "hanoi motorbike hire",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "hanoi motorbike for rent",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "motorbike for rent hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "motorbike rental in hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "best motorbike rental in hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "hanoi:scooter",
+   "lead": "hanoi scooter rental",
+   "intent": "Commercial (scooter rental)",
+   "status": "OWNED",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/",
+    "role": "service hub",
+    "hub": "Hanoi Scooter Rental",
+    "score": 1.05
+   },
+   "runner_up": {
+    "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/50cc-scooter-rental-for-beginners-hanoi/",
+    "score": 0.6
+   },
+   "action": "Owner is clear: keep the title/H1 aligned and point contextual links to it.",
+   "phrases": [
+    {
+     "phrase": "hanoi scooter rental",
+     "volume": 480,
+     "volume_field": "global",
+     "from": [
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "hanoi moped rental",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "scooter hire hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "moped rental hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "scooter rental hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "scooter for rent hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "scooter rental in hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "best scooter rental hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "vietnam:license",
+   "lead": "motorbike license vietnam",
+   "intent": "Informational (legal)",
+   "status": "OWNED (assigned)",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/",
+    "role": "guide hub",
+    "hub": "Renting in Vietnam",
+    "score": 0.55,
+    "assigned": "The hub answers the licence question directly (#licence-answer); the six audience licence guides support it."
+   },
+   "runner_up": null,
+   "action": "Assigned owner: The hub answers the licence question directly (#licence-answer); the six audience licence guides support it. Point supporting pages to it with descriptive anchors.",
+   "phrases": [
+    {
+     "phrase": "motorbike license vietnam",
+     "volume": 320,
+     "volume_field": "global",
+     "from": [
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "motorbike license vietnam tourist",
+     "volume": 0,
+     "volume_field": "global",
+     "from": [
+      "keyword"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "generic:50cc",
+   "lead": "50cc scooter rental",
+   "intent": "Commercial (50cc rental)",
+   "status": "OWNED",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/",
+    "role": "service hub",
+    "hub": "50cc Motorbike Rental",
+    "score": 0.8
+   },
+   "runner_up": {
+    "url": "https://app.rentbikehanoi.com/",
+    "score": 0.66
+   },
+   "action": "Owner is clear: keep the title/H1 aligned and point contextual links to it.",
+   "phrases": [
+    {
+     "phrase": "50cc scooter rental",
+     "volume": 320,
+     "volume_field": "global",
+     "from": [
+      "keyword"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "generic:monthly",
+   "lead": "monthly motorbike rental",
+   "intent": "Commercial (long stay)",
+   "status": "OWNED",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/",
+    "role": "service hub",
+    "hub": "Monthly Rental",
+    "score": 0.8
+   },
+   "runner_up": {
+    "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/",
+    "score": 0.59
+   },
+   "action": "Owner is clear: keep the title/H1 aligned and point contextual links to it.",
+   "phrases": [
+    {
+     "phrase": "monthly motorbike rental",
+     "volume": 110,
+     "volume_field": "global",
+     "from": [
+      "keyword"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "hanoi:price",
+   "lead": "hanoi motorbike rental cost",
+   "intent": "Commercial investigation (price)",
+   "status": "OWNED",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/",
+    "role": "service hub",
+    "hub": "Rental Cost & Prices",
+    "score": 1.05
+   },
+   "runner_up": {
+    "url": "https://app.rentbikehanoi.com/",
+    "score": 0.81
+   },
+   "action": "Owner is clear: keep the title/H1 aligned and point contextual links to it.",
+   "phrases": [
+    {
+     "phrase": "hanoi motorbike rental cost",
+     "volume": 50,
+     "volume_field": "global",
+     "from": [
+      "autocomplete",
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "motorbike rental hanoi price",
+     "volume": 10,
+     "volume_field": "global",
+     "from": [
+      "autocomplete",
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "scooter rental hanoi price",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "hanoi scooter rental price",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "hanoi motorbike rental price",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete",
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "cheap motorbike rental hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "cheapest motorbike rental hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "how much to rent a motorbike in hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "how much is motorbike rental in hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "how much does it cost to rent a motorbike in hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "hanoi:50cc",
+   "lead": "50cc scooter rental hanoi",
+   "intent": "Commercial (50cc rental)",
+   "status": "OWNED",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/",
+    "role": "service hub",
+    "hub": "50cc Motorbike Rental",
+    "score": 1.05
+   },
+   "runner_up": {
+    "url": "https://app.rentbikehanoi.com/",
+    "score": 0.86
+   },
+   "action": "Owner is clear: keep the title/H1 aligned and point contextual links to it.",
+   "phrases": [
+    {
+     "phrase": "50cc scooter rental hanoi",
+     "volume": 30,
+     "volume_field": "global",
+     "from": [
+      "autocomplete",
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "50cc motorbike hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "50cc bike rental hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "rent 50cc scooter hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "hanoi scooter rental 50cc",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "50cc motorbike rental hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "hanoi motorbike rental 50cc",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete",
+      "keyword"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "vietnam:50cc",
+   "lead": "50cc scooter rental vietnam",
+   "intent": "Commercial (50cc rental)",
+   "status": "OWNED",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/",
+    "role": "guide hub",
+    "hub": "Renting in Vietnam",
+    "score": 0.8
+   },
+   "runner_up": {
+    "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/",
+    "score": 0.65
+   },
+   "action": "Owner is clear: keep the title/H1 aligned and point contextual links to it.",
+   "phrases": [
+    {
+     "phrase": "50cc scooter rental vietnam",
+     "volume": 20,
+     "volume_field": "global",
+     "from": [
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "50cc motorbike rental vietnam",
+     "volume": 0,
+     "volume_field": "global",
+     "from": [
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "50cc rental vietnam",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "hanoi:electric",
+   "lead": "electric scooter rental hanoi",
+   "intent": "Commercial (electric rental)",
+   "status": "OWNED",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/electric-motorbike-rental-hanoi/",
+    "role": "article",
+    "hub": "Hanoi Scooter Rental",
+    "score": 1
+   },
+   "runner_up": {
+    "url": "https://app.rentbikehanoi.com/",
+    "score": 0.81
+   },
+   "action": "Owner is clear: keep the title/H1 aligned and point contextual links to it.",
+   "phrases": [
+    {
+     "phrase": "electric scooter rental hanoi",
+     "volume": 10,
+     "volume_field": "global",
+     "from": [
+      "autocomplete",
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "electric motorbike hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "electric bike hire hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "electric bike rental hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "rent electric scooter hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "electric motorbike rental hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "hanoi electric motorbike rental",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "hanoi:old-quarter",
+   "lead": "hanoi old quarter motorbike",
+   "intent": "Local commercial",
+   "status": "OWNED",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/",
+    "role": "service hub",
+    "hub": "Old Quarter & Areas",
+    "score": 0.85
+   },
+   "runner_up": {
+    "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/motorbike-parking-old-quarter-hanoi/",
+    "score": 0.8
+   },
+   "action": "Owner is clear: keep the title/H1 aligned and point contextual links to it.",
+   "phrases": [
+    {
+     "phrase": "hanoi old quarter motorbike",
+     "volume": 0,
+     "volume_field": "global",
+     "from": [
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "hanoi old quarter motorbike rental",
+     "volume": 0,
+     "volume_field": "global",
+     "from": [
+      "autocomplete",
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "bike rental old quarter hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "scooter rental hanoi old quarter",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "motorbike rental hanoi old quarter",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "scooter rental in hanoi old quarter",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "hanoi:monthly",
+   "lead": "long term motorbike rental hanoi",
+   "intent": "Commercial (long stay)",
+   "status": "OWNED",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/",
+    "role": "service hub",
+    "hub": "Monthly Rental",
+    "score": 0.72
+   },
+   "runner_up": {
+    "url": "https://app.rentbikehanoi.com/",
+    "score": 0.66
+   },
+   "action": "Owner is clear: keep the title/H1 aligned and point contextual links to it.",
+   "phrases": [
+    {
+     "phrase": "long term motorbike rental hanoi",
+     "volume": 0,
+     "volume_field": "global",
+     "from": [
+      "keyword"
+     ]
+    },
+    {
+     "phrase": "monthly bike rental hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "monthly scooter rental hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "monthly motorbike rental hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "keyword"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "generic:weekly",
+   "lead": "weekly motorbike rental",
+   "intent": "Commercial (weekly)",
+   "status": "OWNED (assigned)",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/",
+    "role": "service hub",
+    "hub": "Rental Cost & Prices",
+    "score": 0.45,
+    "assigned": "Weekly rates live on the price hub; model pages link to it."
+   },
+   "runner_up": null,
+   "action": "Assigned owner: Weekly rates live on the price hub; model pages link to it. Point supporting pages to it with descriptive anchors.",
+   "phrases": [
+    {
+     "phrase": "weekly motorbike rental",
+     "volume": 0,
+     "volume_field": "global",
+     "from": [
+      "keyword"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "hanoi:how-to",
+   "lead": "how to rent a motorbike in hanoi",
+   "intent": "Informational (how to rent)",
+   "status": "OWNED",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/how-to-rent-a-motorbike-in-hanoi/",
+    "role": "article",
+    "hub": "Hanoi Motorbike Rental Guide",
+    "score": 1
+   },
+   "runner_up": {
+    "url": "https://app.rentbikehanoi.com/faq/",
+    "score": 0.66
+   },
+   "action": "Owner is clear: keep the title/H1 aligned and point contextual links to it.",
+   "phrases": [
+    {
+     "phrase": "how to rent a motorbike in hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "where to rent a motorbike in hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "vietnam:how-to",
+   "lead": "can i rent a motorbike in vietnam",
+   "intent": "Informational (how to rent)",
+   "status": "OWNED",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/",
+    "role": "guide hub",
+    "hub": "Renting in Vietnam",
+    "score": 0.8
+   },
+   "runner_up": {
+    "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/motorbike-rental-scams-vietnam/",
+    "score": 0.6
+   },
+   "action": "Owner is clear: keep the title/H1 aligned and point contextual links to it.",
+   "phrases": [
+    {
+     "phrase": "can i rent a motorbike in vietnam",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "can a tourist rent a motorbike in vietnam",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "vietnam:price",
+   "lead": "motorbike rental price vietnam",
+   "intent": "Commercial investigation (price)",
+   "status": "OWNED",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/",
+    "role": "guide hub",
+    "hub": "Renting in Vietnam",
+    "score": 0.8
+   },
+   "runner_up": {
+    "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/",
+    "score": 0.65
+   },
+   "action": "Owner is clear: keep the title/H1 aligned and point contextual links to it.",
+   "phrases": [
+    {
+     "phrase": "motorbike rental price vietnam",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    },
+    {
+     "phrase": "how much to rent a motorbike in vietnam",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "hanoi:daily",
+   "lead": "daily motorbike rental hanoi",
+   "intent": "Commercial (daily)",
+   "status": "OWNED (assigned)",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/",
+    "role": "service hub",
+    "hub": "Rental Cost & Prices",
+    "score": 0.65,
+    "assigned": "The price hub lists verified daily, weekly and monthly rates for every model."
+   },
+   "runner_up": null,
+   "action": "Assigned owner: The price hub lists verified daily, weekly and monthly rates for every model. Point supporting pages to it with descriptive anchors.",
+   "phrases": [
+    {
+     "phrase": "daily motorbike rental hanoi",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "keyword"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "generic:old-quarter",
+   "lead": "motorbike rental old quarter",
+   "intent": "Local commercial",
+   "status": "OWNED",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/",
+    "role": "service hub",
+    "hub": "Old Quarter & Areas",
+    "score": 0.85
+   },
+   "runner_up": {
+    "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/old-quarter-rental-planning/",
+    "score": 0.67
+   },
+   "action": "Owner is clear: keep the title/H1 aligned and point contextual links to it.",
+   "phrases": [
+    {
+     "phrase": "motorbike rental old quarter",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "vietnam:how-to+license",
+   "lead": "do you need a license to rent a motorbike in vietnam",
+   "intent": "Informational (how to rent) + Informational (legal)",
+   "status": "OWNED",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/",
+    "role": "guide hub",
+    "hub": "Renting in Vietnam",
+    "score": 0.95
+   },
+   "runner_up": {
+    "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-choosing-a-50cc/",
+    "score": 0.6
+   },
+   "action": "Owner is clear: keep the title/H1 aligned and point contextual links to it.",
+   "phrases": [
+    {
+     "phrase": "do you need a license to rent a motorbike in vietnam",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "vietnam:scooter",
+   "lead": "renting a scooter in vietnam",
+   "intent": "Commercial (scooter rental)",
+   "status": "OWNED (assigned)",
+   "owner": {
+    "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/",
+    "role": "guide hub",
+    "hub": "Renting in Vietnam",
+    "score": 0.55,
+    "assigned": "Country-level rental intent; scooter and motorbike are the same rental decision here."
+   },
+   "runner_up": null,
+   "action": "Assigned owner: Country-level rental intent; scooter and motorbike are the same rental decision here. Point supporting pages to it with descriptive anchors.",
+   "phrases": [
+    {
+     "phrase": "renting a scooter in vietnam",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "autocomplete"
+     ]
+    }
+   ]
+  }
+ ],
+ "content_gaps": [
+  {
+   "id": "idp-1968",
+   "topic": "1968 Vienna IDP vs 1949 Geneva IDP",
+   "seen_in": [
+    "renting a motorbike in vietnam tourist guide license insurance",
+    "vietnam motorbike rules foreigners 2025 helmet alcohol fines",
+    "do you need a license to rent a motorbike in vietnam"
+   ],
+   "status": "COVERED",
+   "pages_mentioning": 1,
+   "in_owner_hub_dir": 1,
+   "owner_hub": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/",
+   "examples": [
+    "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/"
+   ],
+   "action": "Covered; keep facts current."
+  },
+  {
+   "id": "travel-insurance",
+   "topic": "Travel insurance exclusions for motorbike riding",
+   "seen_in": [
+    "renting a motorbike in vietnam tourist guide license insurance"
+   ],
+   "status": "COVERED",
+   "pages_mentioning": 18,
+   "in_owner_hub_dir": 14,
+   "owner_hub": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/",
+   "examples": [
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-passenger-use/",
+    "https://app.rentbikehanoi.com/hanoi-motorbike-rental/backpackers-rental-paperwork-questions/",
+    "https://app.rentbikehanoi.com/hanoi-motorbike-rental/backpackers-return-checklist/"
+   ],
+   "action": "Covered; keep facts current."
+  },
+  {
+   "id": "zero-alcohol",
+   "topic": "Zero alcohol limit for riders",
+   "seen_in": [
+    "electric scooter rental hanoi",
+    "vietnam motorbike rules foreigners 2025 helmet alcohol fines"
+   ],
+   "status": "COVERED",
+   "pages_mentioning": 4,
+   "in_owner_hub_dir": 2,
+   "owner_hub": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/",
+   "examples": [
+    "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ba-vi-safety-checklist/",
+    "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-for-west-lake-riding-checks-and-mistakes/",
+    "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/hanoi-motorbike-traffic-rules/"
+   ],
+   "action": "Covered; keep facts current."
+  },
+  {
+   "id": "expressway",
+   "topic": "Motorbikes not allowed on expressways",
+   "seen_in": [
+    "electric scooter rental hanoi",
+    "hanoi scooter rental"
+   ],
+   "status": "COVERED",
+   "pages_mentioning": 25,
+   "in_owner_hub_dir": 11,
+   "owner_hub": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/",
+   "examples": [
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/50cc-vs-125cc-hanoi/",
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/older-riders-daily-rental-planning/",
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/solo-travelers-route-suitability/"
+   ],
+   "action": "Covered; keep facts current."
+  },
+  {
+   "id": "registration-card",
+   "topic": "Check the registration card (cavet / blue card)",
+   "seen_in": [
+    "motorbike rental hanoi old quarter",
+    "monthly motorbike rental hanoi"
+   ],
+   "status": "COVERED",
+   "pages_mentioning": 51,
+   "in_owner_hub_dir": 5,
+   "owner_hub": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/",
+   "examples": [
+    "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/budget-travelers-paperwork-questions/",
+    "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/buying-a-used-motorbike-hanoi/",
+    "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/contract-workers-ownership-costs/"
+   ],
+   "action": "Covered; keep facts current."
+  },
+  {
+   "id": "agreed-value",
+   "topic": "Agreed bike value / liability for theft or damage in the contract",
+   "seen_in": [
+    "motorbike rental hanoi old quarter",
+    "monthly motorbike rental hanoi"
+   ],
+   "status": "COVERED",
+   "pages_mentioning": 59,
+   "in_owner_hub_dir": 19,
+   "owner_hub": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/",
+   "examples": [
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/short-riders-parking/",
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/students-choosing-a-50cc/",
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/students-parking/"
+   ],
+   "action": "Covered; keep facts current."
+  },
+  {
+   "id": "mileage-cap",
+   "topic": "Distance or area limits on monthly rentals",
+   "seen_in": [
+    "monthly motorbike rental hanoi",
+    "hanoi scooter rental"
+   ],
+   "status": "COVERED",
+   "pages_mentioning": 45,
+   "in_owner_hub_dir": 5,
+   "owner_hub": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/",
+   "examples": [
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/short-stay-visitors-passenger-use/",
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/students-city-traffic/",
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/students-route-suitability/"
+   ],
+   "action": "Covered; keep facts current."
+  },
+  {
+   "id": "tet",
+   "topic": "Renting around Tet (shop closures, demand)",
+   "seen_in": [
+    "hanoi scooter rental"
+   ],
+   "status": "COVERED",
+   "pages_mentioning": 3,
+   "in_owner_hub_dir": 1,
+   "owner_hub": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/",
+   "examples": [
+    "https://app.rentbikehanoi.com/hanoi-motorbike-rental/",
+    "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-perfume-pagoda-motorbike-route/",
+    "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/ba-dinh-traffic-guide/"
+   ],
+   "action": "Covered; keep facts current."
+  },
+  {
+   "id": "fuel-extra",
+   "topic": "Fuel not included / refuelling",
+   "seen_in": [
+    "how much does it cost to rent a motorbike in hanoi"
+   ],
+   "status": "COVERED",
+   "pages_mentioning": 589,
+   "in_owner_hub_dir": 73,
+   "owner_hub": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/",
+   "examples": [
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/50cc-scooter-rental-for-beginners-hanoi/",
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/50cc-vs-125cc-hanoi/",
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-daily-rental-planning/"
+   ],
+   "action": "Covered; keep facts current."
+  },
+  {
+   "id": "grab-alternative",
+   "topic": "When not to rent: Grab bike / taxi as an alternative",
+   "seen_in": [
+    "riding a motorbike in hanoi traffic tips for foreigners"
+   ],
+   "status": "COVERED",
+   "pages_mentioning": 66,
+   "in_owner_hub_dir": 25,
+   "owner_hub": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/",
+   "examples": [
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/city-commuters-passenger-use/",
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/city-commuters-rainy-weather/",
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/couples-choosing-a-50cc/"
+   ],
+   "action": "Covered; keep facts current."
+  },
+  {
+   "id": "night-riding",
+   "topic": "Avoid or prepare for night riding",
+   "seen_in": [
+    "riding a motorbike in hanoi traffic tips for foreigners"
+   ],
+   "status": "COVERED",
+   "pages_mentioning": 454,
+   "in_owner_hub_dir": 23,
+   "owner_hub": "https://app.rentbikehanoi.com/motorbike-guides/",
+   "examples": [
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/50cc-vs-125cc-hanoi/",
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-city-traffic/",
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-daily-rental-planning/"
+   ],
+   "action": "Covered; keep facts current."
+  },
+  {
+   "id": "decree-168",
+   "topic": "Traffic fines under Decree 168/2024 (from 2025)",
+   "seen_in": [
+    "vietnam motorbike rules foreigners 2025 helmet alcohol fines"
+   ],
+   "status": "COVERED",
+   "pages_mentioning": 1,
+   "in_owner_hub_dir": 1,
+   "owner_hub": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/",
+   "examples": [
+    "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/"
+   ],
+   "action": "Covered; keep facts current."
+  },
+  {
+   "id": "day-trip-ba-vi",
+   "topic": "Day trip: Ba Vi / Duong Lam",
+   "seen_in": [
+    "day trips from hanoi by motorbike"
+   ],
+   "status": "COVERED",
+   "pages_mentioning": 34,
+   "in_owner_hub_dir": 21,
+   "owner_hub": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/",
+   "examples": [
+    "https://app.rentbikehanoi.com/hanoi-motorbike-rental/backpackers-bike-choice/",
+    "https://app.rentbikehanoi.com/hanoi-motorbike-rental/backpackers-pickup-planning/",
+    "https://app.rentbikehanoi.com/hanoi-motorbike-rental/backpackers-pre-ride-inspection/"
+   ],
+   "action": "Covered; keep facts current."
+  },
+  {
+   "id": "day-trip-bat-trang",
+   "topic": "Day trip: Bat Trang ceramic village",
+   "seen_in": [
+    "day trips from hanoi by motorbike"
+   ],
+   "status": "COVERED",
+   "pages_mentioning": 1,
+   "in_owner_hub_dir": 1,
+   "owner_hub": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/",
+   "examples": [
+    "https://app.rentbikehanoi.com/hanoi-motorbike-trips/"
+   ],
+   "action": "Covered; keep facts current."
+  },
+  {
+   "id": "day-trip-ninh-binh",
+   "topic": "Trip: Ninh Binh",
+   "seen_in": [
+    "day trips from hanoi by motorbike"
+   ],
+   "status": "COVERED",
+   "pages_mentioning": 30,
+   "in_owner_hub_dir": 14,
+   "owner_hub": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/",
+   "examples": [
+    "https://app.rentbikehanoi.com/hanoi-motorbike-rental/backpackers-bike-choice/",
+    "https://app.rentbikehanoi.com/hanoi-motorbike-rental/backpackers-route-planning/",
+    "https://app.rentbikehanoi.com/hanoi-motorbike-rental/budget-travelers-route-planning/"
+   ],
+   "action": "Covered; keep facts current."
+  },
+  {
+   "id": "rush-hour-exit",
+   "topic": "Leaving and re-entering Hanoi outside rush hour",
+   "seen_in": [
+    "day trips from hanoi by motorbike"
+   ],
+   "status": "COVERED",
+   "pages_mentioning": 87,
+   "in_owner_hub_dir": 1,
+   "owner_hub": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/",
+   "examples": [
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-bridges-and-inclines/",
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-choosing-a-50cc/",
+    "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-city-traffic/"
+   ],
+   "action": "Covered; keep facts current."
+  }
+ ],
+ "topical_map": [
+  {
+   "hub": "50cc Motorbike Rental",
+   "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/",
+   "articles": 119,
+   "series": [
+    {
+     "series": "bridges-and-inclines",
+     "pages": 13
+    },
+    {
+     "series": "choosing-a-50cc",
+     "pages": 13
+    },
+    {
+     "series": "city-traffic",
+     "pages": 13
+    },
+    {
+     "series": "daily-rental-planning",
+     "pages": 13
+    },
+    {
+     "series": "parking",
+     "pages": 13
+    },
+    {
+     "series": "passenger-use",
+     "pages": 13
+    },
+    {
+     "series": "rainy-weather",
+     "pages": 13
+    },
+    {
+     "series": "route-suitability",
+     "pages": 13
+    },
+    {
+     "series": "vs-automatic-scooter",
+     "pages": 13
+    },
+    {
+     "series": "(standalone guides)",
+     "pages": 2
+    }
+   ],
+   "keyword_clusters": [
+    "50cc scooter rental",
+    "50cc scooter rental hanoi"
+   ]
+  },
+  {
+   "hub": "Buying vs Renting",
+   "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/",
+   "articles": 79,
+   "series": [
+    {
+     "series": "break-even-thinking",
+     "pages": 13
+    },
+    {
+     "series": "ownership-costs",
+     "pages": 13
+    },
+    {
+     "series": "paperwork-questions",
+     "pages": 13
+    },
+    {
+     "series": "rent-vs-buy-decision",
+     "pages": 13
+    },
+    {
+     "series": "resale-planning",
+     "pages": 13
+    },
+    {
+     "series": "used-bike-inspection",
+     "pages": 13
+    },
+    {
+     "series": "(standalone guides)",
+     "pages": 1
+    }
+   ],
+   "keyword_clusters": []
+  },
+  {
+   "hub": "Rental Cost & Prices",
+   "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/",
+   "articles": 79,
+   "series": [
+    {
+     "series": "model-comparisons",
+     "pages": 34
+    },
+    {
+     "series": "honda-air-blade",
+     "pages": 5
+    },
+    {
+     "series": "honda-click",
+     "pages": 5
+    },
+    {
+     "series": "honda-vision",
+     "pages": 5
+    },
+    {
+     "series": "honda-wave",
+     "pages": 5
+    },
+    {
+     "series": "yamaha-mio",
+     "pages": 5
+    },
+    {
+     "series": "50cc-scooter",
+     "pages": 4
+    },
+    {
+     "series": "automatic-scooter",
+     "pages": 4
+    },
+    {
+     "series": "electric-motorbike",
+     "pages": 4
+    },
+    {
+     "series": "semi-automatic-motorbike",
+     "pages": 4
+    },
+    {
+     "series": "yamaha-sirius",
+     "pages": 4
+    }
+   ],
+   "keyword_clusters": [
+    "hanoi motorbike rental cost",
+    "weekly motorbike rental",
+    "daily motorbike rental hanoi"
+   ]
+  },
+  {
+   "hub": "Hanoi Motorbike Rental Guide",
+   "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/",
+   "articles": 177,
+   "series": [
+    {
+     "series": "bike-choice",
+     "pages": 20
+    },
+    {
+     "series": "pre-ride-inspection",
+     "pages": 20
+    },
+    {
+     "series": "parking-strategy",
+     "pages": 19
+    },
+    {
+     "series": "pickup-planning",
+     "pages": 19
+    },
+    {
+     "series": "rainy-day-planning",
+     "pages": 19
+    },
+    {
+     "series": "rental-paperwork-questions",
+     "pages": 19
+    },
+    {
+     "series": "return-checklist",
+     "pages": 19
+    },
+    {
+     "series": "route-planning",
+     "pages": 19
+    },
+    {
+     "series": "traffic-preparation",
+     "pages": 19
+    },
+    {
+     "series": "(standalone guides)",
+     "pages": 4
+    }
+   ],
+   "keyword_clusters": [
+    "how to rent a motorbike in hanoi"
+   ]
+  },
+  {
+   "hub": "Hanoi Motorbike Trips",
+   "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/",
+   "articles": 159,
+   "series": [
+    {
+     "series": "ba-vi",
+     "pages": 10
+    },
+    {
+     "series": "ha-long",
+     "pages": 10
+    },
+    {
+     "series": "ninh-binh",
+     "pages": 10
+    },
+    {
+     "series": "perfume-pagoda",
+     "pages": 10
+    },
+    {
+     "series": "sapa",
+     "pages": 10
+    },
+    {
+     "series": "bac-ninh",
+     "pages": 9
+    },
+    {
+     "series": "cat-ba",
+     "pages": 9
+    },
+    {
+     "series": "cuc-phuong",
+     "pages": 9
+    },
+    {
+     "series": "duong-lam",
+     "pages": 9
+    },
+    {
+     "series": "ha-giang",
+     "pages": 9
+    },
+    {
+     "series": "hoa-binh",
+     "pages": 9
+    },
+    {
+     "series": "mai-chau",
+     "pages": 9
+    },
+    {
+     "series": "moc-chau",
+     "pages": 9
+    },
+    {
+     "series": "pu-luong",
+     "pages": 9
+    },
+    {
+     "series": "soc-son",
+     "pages": 9
+    },
+    {
+     "series": "tam-dao",
+     "pages": 9
+    },
+    {
+     "series": "yen-tu",
+     "pages": 9
+    },
+    {
+     "series": "(standalone guides)",
+     "pages": 1
+    }
+   ],
+   "keyword_clusters": []
+  },
+  {
+   "hub": "Hanoi Scooter Rental",
+   "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/",
+   "articles": 99,
+   "series": [
+    {
+     "series": "(standalone guides)",
+     "pages": 5
+    },
+    {
+     "series": "automatic-scooter-beginners",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-braking",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-commuters",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-couples",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-expats",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-for-daily-commuting",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-for-long-bien-riding",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-for-long-stays",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-for-old-quarter-riding",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-for-short-stays",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-for-weekend-use",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-for-west-lake-riding",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-fuel-planning",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-in-hot-weather",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-in-rain",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-in-winter",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-low-speed-control",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-parking",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-pre-ride-checks",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-rental-questions",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-route-planning",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-short-riders",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-solo-travelers",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-students",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-tall-riders",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-vs-50cc",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-vs-semi-automatic",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-with-luggage",
+     "pages": 2
+    },
+    {
+     "series": "automatic-scooter-with-passenger",
+     "pages": 2
+    },
+    {
+     "series": "budget-automatic-scooter",
+     "pages": 2
+    },
+    {
+     "series": "electric-motorbike-vs-automatic-scooter",
+     "pages": 2
+    },
+    {
+     "series": "honda-air-blade-for-city-riding",
+     "pages": 2
+    },
+    {
+     "series": "honda-air-blade-for-commuters",
+     "pages": 2
+    },
+    {
+     "series": "honda-air-blade-vs-honda-click",
+     "pages": 2
+    },
+    {
+     "series": "honda-air-blade-vs-yamaha-mio",
+     "pages": 2
+    },
+    {
+     "series": "honda-air-blade-with-luggage",
+     "pages": 2
+    },
+    {
+     "series": "honda-click-for-beginners",
+     "pages": 2
+    },
+    {
+     "series": "honda-click-for-city-riding",
+     "pages": 2
+    },
+    {
+     "series": "honda-click-vs-yamaha-mio",
+     "pages": 2
+    },
+    {
+     "series": "honda-vision-for-city-riding",
+     "pages": 2
+    },
+    {
+     "series": "honda-vision-for-expats",
+     "pages": 2
+    },
+    {
+     "series": "honda-vision-vs-honda-click",
+     "pages": 2
+    },
+    {
+     "series": "honda-vision-vs-yamaha-mio",
+     "pages": 2
+    },
+    {
+     "series": "honda-vision-with-passenger",
+     "pages": 2
+    },
+    {
+     "series": "small-scooter-vs-larger-scooter",
+     "pages": 2
+    },
+    {
+     "series": "yamaha-mio-for-beginners",
+     "pages": 2
+    },
+    {
+     "series": "yamaha-mio-for-city-riding",
+     "pages": 2
+    }
+   ],
+   "keyword_clusters": [
+    "hanoi scooter rental",
+    "electric scooter rental hanoi"
+   ]
+  },
+  {
+   "hub": "Homepage (root hub)",
+   "url": "https://app.rentbikehanoi.com/",
+   "articles": 0,
+   "series": [],
+   "keyword_clusters": [
+    "hanoi motorbike rental"
+   ]
+  },
+  {
+   "hub": "Monthly Rental",
+   "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/",
+   "articles": 79,
+   "series": [
+    {
+     "series": "commuting-setup",
+     "pages": 13
+    },
+    {
+     "series": "contract-questions",
+     "pages": 13
+    },
+    {
+     "series": "maintenance-expectations",
+     "pages": 13
+    },
+    {
+     "series": "model-choice",
+     "pages": 13
+    },
+    {
+     "series": "monthly-budget",
+     "pages": 13
+    },
+    {
+     "series": "parking-and-security",
+     "pages": 13
+    },
+    {
+     "series": "(standalone guides)",
+     "pages": 1
+    }
+   ],
+   "keyword_clusters": [
+    "monthly motorbike rental",
+    "long term motorbike rental hanoi"
+   ]
+  },
+  {
+   "hub": "Motorbike Guides",
+   "url": "https://app.rentbikehanoi.com/motorbike-guides/",
+   "articles": 39,
+   "series": [
+    {
+     "series": "(standalone guides)",
+     "pages": 9
+    },
+    {
+     "series": "motorbike-battery",
+     "pages": 3
+    },
+    {
+     "series": "motorbike-brakes",
+     "pages": 3
+    },
+    {
+     "series": "motorbike-chain",
+     "pages": 3
+    },
+    {
+     "series": "motorbike-fuel",
+     "pages": 3
+    },
+    {
+     "series": "motorbike-helmets",
+     "pages": 3
+    },
+    {
+     "series": "motorbike-lights",
+     "pages": 3
+    },
+    {
+     "series": "motorbike-luggage",
+     "pages": 3
+    },
+    {
+     "series": "motorbike-navigation",
+     "pages": 3
+    },
+    {
+     "series": "motorbike-tires",
+     "pages": 3
+    },
+    {
+     "series": "rain-gear",
+     "pages": 3
+    }
+   ],
+   "keyword_clusters": []
+  },
+  {
+   "hub": "Old Quarter & Areas",
+   "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/",
+   "articles": 99,
+   "series": [
+    {
+     "series": "ba-dinh",
+     "pages": 5
+    },
+    {
+     "series": "bac-tu-liem",
+     "pages": 5
+    },
+    {
+     "series": "cau-giay",
+     "pages": 5
+    },
+    {
+     "series": "dong-da",
+     "pages": 5
+    },
+    {
+     "series": "french-quarter",
+     "pages": 5
+    },
+    {
+     "series": "giang-vo",
+     "pages": 5
+    },
+    {
+     "series": "ha-dong",
+     "pages": 5
+    },
+    {
+     "series": "hai-ba-trung",
+     "pages": 5
+    },
+    {
+     "series": "hoan-kiem",
+     "pages": 5
+    },
+    {
+     "series": "hoang-mai",
+     "pages": 5
+    },
+    {
+     "series": "long-bien",
+     "pages": 5
+    },
+    {
+     "series": "my-dinh",
+     "pages": 5
+    },
+    {
+     "series": "nam-tu-liem",
+     "pages": 5
+    },
+    {
+     "series": "old-quarter",
+     "pages": 5
+    },
+    {
+     "series": "soc-son",
+     "pages": 5
+    },
+    {
+     "series": "tay-ho",
+     "pages": 5
+    },
+    {
+     "series": "thanh-xuan",
+     "pages": 5
+    },
+    {
+     "series": "truc-bach",
+     "pages": 5
+    },
+    {
+     "series": "west-lake",
+     "pages": 5
+    },
+    {
+     "series": "(standalone guides)",
+     "pages": 4
+    }
+   ],
+   "keyword_clusters": [
+    "hanoi old quarter motorbike",
+    "motorbike rental old quarter"
+   ]
+  },
+  {
+   "hub": "Renting in Vietnam",
+   "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/",
+   "articles": 59,
+   "series": [
+    {
+     "series": "accident-steps",
+     "pages": 6
+    },
+    {
+     "series": "border-area-riding",
+     "pages": 6
+    },
+    {
+     "series": "helmet-rules",
+     "pages": 6
+    },
+    {
+     "series": "insurance-questions",
+     "pages": 6
+    },
+    {
+     "series": "motorbike-license",
+     "pages": 6
+    },
+    {
+     "series": "rental-contracts",
+     "pages": 6
+    },
+    {
+     "series": "restricted-roads",
+     "pages": 6
+    },
+    {
+     "series": "road-signs",
+     "pages": 6
+    },
+    {
+     "series": "traffic-police-stops",
+     "pages": 6
+    },
+    {
+     "series": "(standalone guides)",
+     "pages": 5
+    }
+   ],
+   "keyword_clusters": [
+    "motorbike rental vietnam",
+    "motorbike license vietnam",
+    "50cc scooter rental vietnam",
+    "can i rent a motorbike in vietnam",
+    "motorbike rental price vietnam",
+    "do you need a license to rent a motorbike in vietnam",
+    "renting a scooter in vietnam"
+   ]
+  }
+ ],
+ "serp_landscape": [
+  {
+   "query": "hanoi motorbike rental",
+   "source": "websearch",
+   "intent": "commercial / local",
+   "result_types": {
+    "parasite_spam": 7,
+    "rental_operator": 1,
+    "publisher": 1
+   },
+   "topics_seen": [
+    "where to rent (Old Quarter, West Lake, airport)",
+    "daily price ranges",
+    "inspect brakes, tyres and lights",
+    "insurance and minimum age",
+    "fake registration papers"
+   ]
+  },
+  {
+   "query": "motorbike rental hanoi old quarter",
+   "source": "websearch",
+   "intent": "commercial / local",
+   "result_types": {
+    "forum": 2,
+    "parasite_spam": 5,
+    "rental_operator": 2,
+    "marketplace": 1
+   },
+   "topics_seen": [
+    "agreed bike value in the contract (theft/accident)",
+    "registration card (blue card) check",
+    "tourist-area overcharging",
+    "licence and insurance validity"
+   ]
+  },
+  {
+   "query": "how much does it cost to rent a motorbike in hanoi",
+   "source": "websearch",
+   "intent": "informational / price",
+   "result_types": {
+    "publisher": 3,
+    "parasite_spam": 2,
+    "marketplace": 4
+   },
+   "topics_seen": [
+    "price table by bike class",
+    "longer rentals cheaper per day",
+    "fuel not included",
+    "weekday / location price variation"
+   ]
+  },
+  {
+   "query": "monthly motorbike rental hanoi",
+   "source": "websearch",
+   "intent": "commercial / long stay",
+   "result_types": {
+    "forum": 4,
+    "marketplace": 1,
+    "rental_operator": 3,
+    "parasite_spam": 1
+   },
+   "topics_seen": [
+    "monthly price ranges by bike age",
+    "mileage caps on monthly rates",
+    "contract value and registration check",
+    "expat-focused providers"
+   ]
+  },
+  {
+   "query": "50cc scooter rental hanoi no license",
+   "source": "websearch",
+   "intent": "commercial / legal",
+   "result_types": {
+    "rental_operator": 4,
+    "marketplace": 3,
+    "forum": 1
+   },
+   "topics_seen": [
+    "49cc / 50cc classification",
+    "not every 50cc is licence-free",
+    "solo riding (not two-up)",
+    "availability and booking ahead"
+   ]
+  },
+  {
+   "query": "electric scooter rental hanoi",
+   "source": "websearch",
+   "intent": "commercial",
+   "result_types": {
+    "marketplace": 6,
+    "rental_operator": 3
+   },
+   "topics_seen": [
+    "few pages answer electric specifically (thin SERP)",
+    "rental neighbourhoods",
+    "zero alcohol limit",
+    "expressway / bridge restrictions"
+   ]
+  },
+  {
+   "query": "hanoi scooter rental",
+   "source": "websearch",
+   "intent": "commercial / local",
+   "result_types": {
+    "rental_operator": 2,
+    "marketplace": 5,
+    "forum": 1,
+    "publisher": 1
+   },
+   "topics_seen": [
+    "seasonal pricing",
+    "shops closing around Tet",
+    "automatic 110-125cc fleets",
+    "plastic panel repair costs",
+    "monthly mileage caps",
+    "helmet and insurance"
+   ]
+  },
+  {
+   "query": "renting a motorbike in vietnam tourist guide license insurance",
+   "source": "websearch",
+   "intent": "informational / legal",
+   "result_types": {
+    "publisher": 6,
+    "forum": 2,
+    "parasite_spam": 1
+   },
+   "topics_seen": [
+    "1968 Vienna IDP vs 1949 Geneva IDP",
+    "travel insurance exclusions for motorbikes",
+    "engine-size licence classes",
+    "helmet quality and claims"
+   ]
+  },
+  {
+   "query": "do you need a license to rent a motorbike in vietnam",
+   "source": "firecrawl",
+   "intent": "informational / legal",
+   "result_types": {
+    "forum": 5,
+    "rental_operator": 3,
+    "publisher": 2
+   },
+   "topics_seen": [
+    "IDP / ASEAN licence recognition",
+    "car licence does not cover motorcycles",
+    "moped definition (50cc / 50 km/h)",
+    "rental shops not checking licences"
+   ]
+  },
+  {
+   "query": "day trips from hanoi by motorbike",
+   "source": "websearch",
+   "intent": "informational / trip planning",
+   "result_types": {
+    "marketplace": 3,
+    "rental_operator": 3,
+    "publisher": 2,
+    "forum": 1
+   },
+   "topics_seen": [
+    "Soc Son / Red River loop",
+    "Ba Vi and Duong Lam",
+    "Bat Trang ceramic village",
+    "Ninh Binh",
+    "leaving and re-entering Hanoi is the hard part"
+   ]
+  },
+  {
+   "query": "buy or rent motorbike hanoi expat",
+   "source": "websearch",
+   "intent": "informational / decision",
+   "result_types": {
+    "forum": 4,
+    "rental_operator": 4,
+    "marketplace": 1
+   },
+   "topics_seen": [
+    "monthly rental as expat default",
+    "buying for one-way trips",
+    "no current resale / registration cost comparison found"
+   ]
+  },
+  {
+   "query": "riding a motorbike in hanoi traffic tips for foreigners",
+   "source": "websearch",
+   "intent": "informational / safety",
+   "result_types": {
+    "publisher": 8,
+    "forum": 1
+   },
+   "topics_seen": [
+    "flow with traffic",
+    "give buses and trucks space",
+    "avoid night riding",
+    "fuel stations sparse in the centre",
+    "Grab as an alternative"
+   ]
+  },
+  {
+   "query": "vietnam motorbike rules foreigners 2025 helmet alcohol fines",
+   "source": "websearch",
+   "intent": "informational / legal",
+   "result_types": {
+    "publisher": 7,
+    "rental_operator": 3
+   },
+   "topics_seen": [
+    "Decree 168/2024 fines from 2025",
+    "zero alcohol limit",
+    "helmet for rider and passenger",
+    "conflicting fine tables across sites"
+   ]
+  }
+ ],
+ "warnings": []
+}

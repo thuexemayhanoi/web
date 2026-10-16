@@ -1,0 +1,531 @@
+{
+  "schema_version": 1,
+  "collected_at": "2026-10-16",
+  "mode": "ZERO-DATA / COLD START",
+  "notes": [
+    "Public search observations only. Result order is the order the search tool returned, NOT a Google ranking. No positions, clicks or traffic are implied.",
+    "Sources: 'websearch' = Claude WebSearch tool (standard mode, US index) on 2026-10-16; 'firecrawl' = Firecrawl web search on 2026-10-15 (account ran out of credits after one query).",
+    "app.rentbikehanoi.com did not appear in any observed result set (new site, no index data). This is an observation, not a ranking measurement.",
+    "Facts mentioned by competitors (prices, fines, mileage caps) are NOT business facts for this site and must never be copied into pages as our policy. They only show which questions searchers see answered.",
+    "Profile/UGC hosts (gitlab, speakerdeck, hashnode, fiverr) are grouped under 'forum' as user-generated pages, including business profile pages."
+  ],
+  "domain_types": {
+    "forum": [
+      "reddit.com",
+      "facebook.com",
+      "expat.com",
+      "travelfish.org",
+      "rideasia.net",
+      "quora.com",
+      "australianfrequentflyer.com.au",
+      "instagram.com",
+      "youtube.com",
+      "gitlab.com",
+      "speakerdeck.com",
+      "hashnode.com",
+      "de.fiverr.com",
+      "it.fiverr.com"
+    ],
+    "rental_operator": [
+      "offroadvietnam.com",
+      "tigitmotorbikes.com",
+      "rentabikevn.com",
+      "danangbike.com",
+      "bmtraveladv.com",
+      "wp.tigitmotorbikes.com",
+      "vietnammotorcycletours.com"
+    ],
+    "marketplace": [
+      "riderly.com",
+      "bikesbooking.com",
+      "motorbike.tcs.ch",
+      "esaexperience.musement.com",
+      "platform.magpie.travel",
+      "gadventures.com",
+      "theguide.tab.travel"
+    ],
+    "publisher": [
+      "vinpearl.com",
+      "golf.vinpearl.com",
+      "vinwonders.com",
+      "roughguides.com",
+      "m.roughguides.com",
+      "bestpricetravel.com",
+      "vietnamtourism.com",
+      "theculturetrip.com",
+      "vergemagazine.com",
+      "vietnamnews.vn",
+      "baobacninhtv.vn",
+      "en.baobacninhtv.vn",
+      "frontiertravelvietnam.com",
+      "helpstay.com",
+      "ethosspirit.com",
+      "expatexchange.com",
+      "localvietnam.com",
+      "en.qdnd.vn",
+      "motorcyclistonline.com",
+      "travelwithpurposeca.vergemagazine.com",
+      "ovietnam.vietnamnews.vn",
+      "vietnamspot.ru"
+    ],
+    "parasite_spam": [
+      "web.ecreee.org",
+      "support.churchsuite.co.uk",
+      "gis.christianperone.com",
+      "silero-b2c-test.silero.ai",
+      "s1.propertyindustryeye.com",
+      "launchpad.sell.do",
+      "answer.polygraph.net",
+      "mcad-pdf-generator.powercommerce.com",
+      "boutique.passionjardins.com",
+      "tashigi.jmoiron.net"
+    ]
+  },
+  "queries": [
+    {
+      "query": "hanoi motorbike rental",
+      "source": "websearch",
+      "intent": "commercial / local",
+      "results": [
+        "web.ecreee.org",
+        "support.churchsuite.co.uk",
+        "gis.christianperone.com",
+        "support.churchsuite.co.uk",
+        "silero-b2c-test.silero.ai",
+        "tigitmotorbikes.com",
+        "s1.propertyindustryeye.com",
+        "launchpad.sell.do",
+        "golf.vinpearl.com"
+      ],
+      "topics_seen": [
+        "where to rent (Old Quarter, West Lake, airport)",
+        "daily price ranges",
+        "inspect brakes, tyres and lights",
+        "insurance and minimum age",
+        "fake registration papers"
+      ]
+    },
+    {
+      "query": "motorbike rental hanoi old quarter",
+      "source": "websearch",
+      "intent": "commercial / local",
+      "results": [
+        "expat.com",
+        "web.ecreee.org",
+        "offroadvietnam.com",
+        "offroadvietnam.com",
+        "web.ecreee.org",
+        "answer.polygraph.net",
+        "answer.polygraph.net",
+        "theguide.tab.travel",
+        "rideasia.net",
+        "mcad-pdf-generator.powercommerce.com"
+      ],
+      "topics_seen": [
+        "agreed bike value in the contract (theft/accident)",
+        "registration card (blue card) check",
+        "tourist-area overcharging",
+        "licence and insurance validity"
+      ]
+    },
+    {
+      "query": "how much does it cost to rent a motorbike in hanoi",
+      "source": "websearch",
+      "intent": "informational / price",
+      "results": [
+        "vinpearl.com",
+        "vinwonders.com",
+        "boutique.passionjardins.com",
+        "launchpad.sell.do",
+        "golf.vinpearl.com",
+        "riderly.com",
+        "riderly.com",
+        "riderly.com",
+        "riderly.com"
+      ],
+      "topics_seen": [
+        "price table by bike class",
+        "longer rentals cheaper per day",
+        "fuel not included",
+        "weekday / location price variation"
+      ]
+    },
+    {
+      "query": "monthly motorbike rental hanoi",
+      "source": "websearch",
+      "intent": "commercial / long stay",
+      "results": [
+        "de.fiverr.com",
+        "it.fiverr.com",
+        "theguide.tab.travel",
+        "expat.com",
+        "speakerdeck.com",
+        "offroadvietnam.com",
+        "tigitmotorbikes.com",
+        "wp.tigitmotorbikes.com",
+        "mcad-pdf-generator.powercommerce.com"
+      ],
+      "topics_seen": [
+        "monthly price ranges by bike age",
+        "mileage caps on monthly rates",
+        "contract value and registration check",
+        "expat-focused providers"
+      ]
+    },
+    {
+      "query": "50cc scooter rental hanoi no license",
+      "source": "websearch",
+      "intent": "commercial / legal",
+      "results": [
+        "offroadvietnam.com",
+        "riderly.com",
+        "offroadvietnam.com",
+        "riderly.com",
+        "motorbike.tcs.ch",
+        "offroadvietnam.com",
+        "reddit.com",
+        "offroadvietnam.com"
+      ],
+      "topics_seen": [
+        "49cc / 50cc classification",
+        "not every 50cc is licence-free",
+        "solo riding (not two-up)",
+        "availability and booking ahead"
+      ]
+    },
+    {
+      "query": "electric scooter rental hanoi",
+      "source": "websearch",
+      "intent": "commercial",
+      "results": [
+        "riderly.com",
+        "riderly.com",
+        "offroadvietnam.com",
+        "offroadvietnam.com",
+        "offroadvietnam.com",
+        "riderly.com",
+        "riderly.com",
+        "riderly.com",
+        "bikesbooking.com"
+      ],
+      "topics_seen": [
+        "few pages answer electric specifically (thin SERP)",
+        "rental neighbourhoods",
+        "zero alcohol limit",
+        "expressway / bridge restrictions"
+      ]
+    },
+    {
+      "query": "hanoi scooter rental",
+      "source": "websearch",
+      "intent": "commercial / local",
+      "results": [
+        "offroadvietnam.com",
+        "offroadvietnam.com",
+        "riderly.com",
+        "riderly.com",
+        "motorbike.tcs.ch",
+        "bikesbooking.com",
+        "bikesbooking.com",
+        "gitlab.com",
+        "bestpricetravel.com"
+      ],
+      "topics_seen": [
+        "seasonal pricing",
+        "shops closing around Tet",
+        "automatic 110-125cc fleets",
+        "plastic panel repair costs",
+        "monthly mileage caps",
+        "helmet and insurance"
+      ]
+    },
+    {
+      "query": "renting a motorbike in vietnam tourist guide license insurance",
+      "source": "websearch",
+      "intent": "informational / legal",
+      "results": [
+        "vietnamtourism.com",
+        "australianfrequentflyer.com.au",
+        "m.roughguides.com",
+        "travelfish.org",
+        "baobacninhtv.vn",
+        "en.baobacninhtv.vn",
+        "tashigi.jmoiron.net",
+        "vietnamtourism.com",
+        "vietnamtourism.com"
+      ],
+      "topics_seen": [
+        "1968 Vienna IDP vs 1949 Geneva IDP",
+        "travel insurance exclusions for motorbikes",
+        "engine-size licence classes",
+        "helmet quality and claims"
+      ]
+    },
+    {
+      "query": "do you need a license to rent a motorbike in vietnam",
+      "source": "firecrawl",
+      "intent": "informational / legal",
+      "results": [
+        "reddit.com",
+        "facebook.com",
+        "youtube.com",
+        "bmtraveladv.com",
+        "ethosspirit.com",
+        "helpstay.com",
+        "rentabikevn.com",
+        "instagram.com",
+        "danangbike.com",
+        "quora.com"
+      ],
+      "topics_seen": [
+        "IDP / ASEAN licence recognition",
+        "car licence does not cover motorcycles",
+        "moped definition (50cc / 50 km/h)",
+        "rental shops not checking licences"
+      ]
+    },
+    {
+      "query": "day trips from hanoi by motorbike",
+      "source": "websearch",
+      "intent": "informational / trip planning",
+      "results": [
+        "esaexperience.musement.com",
+        "offroadvietnam.com",
+        "offroadvietnam.com",
+        "platform.magpie.travel",
+        "roughguides.com",
+        "gadventures.com",
+        "hashnode.com",
+        "vietnammotorcycletours.com",
+        "frontiertravelvietnam.com"
+      ],
+      "topics_seen": [
+        "Soc Son / Red River loop",
+        "Ba Vi and Duong Lam",
+        "Bat Trang ceramic village",
+        "Ninh Binh",
+        "leaving and re-entering Hanoi is the hard part"
+      ]
+    },
+    {
+      "query": "buy or rent motorbike hanoi expat",
+      "source": "websearch",
+      "intent": "informational / decision",
+      "results": [
+        "expat.com",
+        "tigitmotorbikes.com",
+        "offroadvietnam.com",
+        "expat.com",
+        "offroadvietnam.com",
+        "wp.tigitmotorbikes.com",
+        "travelfish.org",
+        "riderly.com",
+        "rideasia.net"
+      ],
+      "topics_seen": [
+        "monthly rental as expat default",
+        "buying for one-way trips",
+        "no current resale / registration cost comparison found"
+      ]
+    },
+    {
+      "query": "riding a motorbike in hanoi traffic tips for foreigners",
+      "source": "websearch",
+      "intent": "informational / safety",
+      "results": [
+        "vergemagazine.com",
+        "motorcyclistonline.com",
+        "frontiertravelvietnam.com",
+        "en.qdnd.vn",
+        "expatexchange.com",
+        "expat.com",
+        "expatexchange.com",
+        "theculturetrip.com",
+        "travelwithpurposeca.vergemagazine.com"
+      ],
+      "topics_seen": [
+        "flow with traffic",
+        "give buses and trucks space",
+        "avoid night riding",
+        "fuel stations sparse in the centre",
+        "Grab as an alternative"
+      ]
+    },
+    {
+      "query": "vietnam motorbike rules foreigners 2025 helmet alcohol fines",
+      "source": "websearch",
+      "intent": "informational / legal",
+      "results": [
+        "vietnamtourism.com",
+        "vietnamnews.vn",
+        "ovietnam.vietnamnews.vn",
+        "tigitmotorbikes.com",
+        "tigitmotorbikes.com",
+        "vietnamtourism.com",
+        "wp.tigitmotorbikes.com",
+        "vietnamspot.ru",
+        "localvietnam.com",
+        "vietnamspot.ru"
+      ],
+      "topics_seen": [
+        "Decree 168/2024 fines from 2025",
+        "zero alcohol limit",
+        "helmet for rider and passenger",
+        "conflicting fine tables across sites"
+      ]
+    }
+  ],
+  "gap_topics": [
+    {
+      "id": "idp-1968",
+      "topic": "1968 Vienna IDP vs 1949 Geneva IDP",
+      "seen_in": [
+        "renting a motorbike in vietnam tourist guide license insurance",
+        "vietnam motorbike rules foreigners 2025 helmet alcohol fines",
+        "do you need a license to rent a motorbike in vietnam"
+      ],
+      "check": "1968|vienna convention",
+      "owner_hint": "renting-a-motorbike-in-vietnam/"
+    },
+    {
+      "id": "travel-insurance",
+      "topic": "Travel insurance exclusions for motorbike riding",
+      "seen_in": [
+        "renting a motorbike in vietnam tourist guide license insurance"
+      ],
+      "check": "travel insurance",
+      "owner_hint": "renting-a-motorbike-in-vietnam/"
+    },
+    {
+      "id": "zero-alcohol",
+      "topic": "Zero alcohol limit for riders",
+      "seen_in": [
+        "electric scooter rental hanoi",
+        "vietnam motorbike rules foreigners 2025 helmet alcohol fines"
+      ],
+      "check": "alcohol",
+      "owner_hint": "renting-a-motorbike-in-vietnam/"
+    },
+    {
+      "id": "expressway",
+      "topic": "Motorbikes not allowed on expressways",
+      "seen_in": [
+        "electric scooter rental hanoi",
+        "hanoi scooter rental"
+      ],
+      "check": "expressway",
+      "owner_hint": "hanoi-motorbike-trips/"
+    },
+    {
+      "id": "registration-card",
+      "topic": "Check the registration card (cavet / blue card)",
+      "seen_in": [
+        "motorbike rental hanoi old quarter",
+        "monthly motorbike rental hanoi"
+      ],
+      "check": "registration (card|paper|document)|cavet|blue card",
+      "owner_hint": "hanoi-motorbike-rental/"
+    },
+    {
+      "id": "agreed-value",
+      "topic": "Agreed bike value / liability for theft or damage in the contract",
+      "seen_in": [
+        "motorbike rental hanoi old quarter",
+        "monthly motorbike rental hanoi"
+      ],
+      "check": "theft|stolen",
+      "owner_hint": "hanoi-motorbike-rental/"
+    },
+    {
+      "id": "mileage-cap",
+      "topic": "Distance or area limits on monthly rentals",
+      "seen_in": [
+        "monthly motorbike rental hanoi",
+        "hanoi scooter rental"
+      ],
+      "check": "mileage|distance limit|distance or area limit|kilometre limit|km limit",
+      "owner_hint": "monthly-motorbike-rental-hanoi/"
+    },
+    {
+      "id": "tet",
+      "topic": "Renting around Tet (shop closures, demand)",
+      "seen_in": [
+        "hanoi scooter rental"
+      ],
+      "check": "\\btet\\b|lunar new year",
+      "owner_hint": "hanoi-motorbike-rental/"
+    },
+    {
+      "id": "fuel-extra",
+      "topic": "Fuel not included / refuelling",
+      "seen_in": [
+        "how much does it cost to rent a motorbike in hanoi"
+      ],
+      "check": "fuel",
+      "owner_hint": "hanoi-motorbike-rental-cost/"
+    },
+    {
+      "id": "grab-alternative",
+      "topic": "When not to rent: Grab bike / taxi as an alternative",
+      "seen_in": [
+        "riding a motorbike in hanoi traffic tips for foreigners"
+      ],
+      "check": "\\bgrab\\b|ride-hailing",
+      "owner_hint": "hanoi-motorbike-rental/"
+    },
+    {
+      "id": "night-riding",
+      "topic": "Avoid or prepare for night riding",
+      "seen_in": [
+        "riding a motorbike in hanoi traffic tips for foreigners"
+      ],
+      "check": "night",
+      "owner_hint": "motorbike-guides/"
+    },
+    {
+      "id": "decree-168",
+      "topic": "Traffic fines under Decree 168/2024 (from 2025)",
+      "seen_in": [
+        "vietnam motorbike rules foreigners 2025 helmet alcohol fines"
+      ],
+      "check": "decree 168|168/2024",
+      "owner_hint": "renting-a-motorbike-in-vietnam/"
+    },
+    {
+      "id": "day-trip-ba-vi",
+      "topic": "Day trip: Ba Vi / Duong Lam",
+      "seen_in": [
+        "day trips from hanoi by motorbike"
+      ],
+      "check": "ba vi|duong lam",
+      "owner_hint": "hanoi-motorbike-trips/"
+    },
+    {
+      "id": "day-trip-bat-trang",
+      "topic": "Day trip: Bat Trang ceramic village",
+      "seen_in": [
+        "day trips from hanoi by motorbike"
+      ],
+      "check": "bat trang",
+      "owner_hint": "hanoi-motorbike-trips/"
+    },
+    {
+      "id": "day-trip-ninh-binh",
+      "topic": "Trip: Ninh Binh",
+      "seen_in": [
+        "day trips from hanoi by motorbike"
+      ],
+      "check": "ninh binh",
+      "owner_hint": "hanoi-motorbike-trips/"
+    },
+    {
+      "id": "rush-hour-exit",
+      "topic": "Leaving and re-entering Hanoi outside rush hour",
+      "seen_in": [
+        "day trips from hanoi by motorbike"
+      ],
+      "check": "rush hour",
+      "owner_hint": "hanoi-motorbike-trips/"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ published: false
 
 # SEO Master Matrix — app.rentbikehanoi.com
 
-Generated 2026-10-15 by `node tools/seo-master-matrix.mjs` from the repository HTML (static audit, not a live crawl). Baseline: 2026-10-14. Full evidence per URL and issue: `reports/seo-master-matrix.json`. Items that need a decision: `reports/seo-approval-proposals.md`.
+Generated 2026-10-16 by `node tools/seo-master-matrix.mjs` from the repository HTML (static audit, not a live crawl). Baseline: 2026-10-14. Full evidence per URL and issue: `reports/seo-master-matrix.json`. Items that need a decision: `reports/seo-approval-proposals.md`.
 
 **Data limits.** Google Search Console is not connected to this audit, so rankings, clicks, impressions and index status are **UNKNOWN** on every row. Search volumes come only from Ubersuggest (free tier, 2026-10-14); every other volume is **UNKNOWN**. Business facts come only from `data/site-system.json`. No title or meta description is marked PROTECTED in the repo (field `protected` in the JSON; set it in `data/seo-master-overrides.json`).
 
@@ -14,7 +14,7 @@ Generated 2026-10-15 by `node tools/seo-master-matrix.mjs` from the repository H
 |---|---|
 | URLs audited | 1003 — 404 page 1, FAQ / answer hub 1, article 988, service hub 6, guide hub 4, homepage / service page 1, legal page 2 |
 | Rows by highest open priority | P0 0 · P1 0 · P2 988 · none 15 |
-| Rows by status | IN PROGRESS 668 · DONE (safe fixes) + NEEDS OWNER DATA 320 · DONE 13 · OK 2 |
+| Rows by status | IN PROGRESS 666 · DONE (safe fixes) + NEEDS OWNER DATA 322 · DONE 13 · OK 2 |
 | Articles deeper than 3 clicks (ignoring auto related/prev-next) | 0 of 988 (unreachable: 0) |
 | Max click depth using every link | 2 |
 | Template families (proposals A1-A10) | 143 families covering 956 articles |
@@ -25,7 +25,7 @@ Generated 2026-10-15 by `node tools/seo-master-matrix.mjs` from the repository H
 | Code | Highest priority | Pages | Status split | Action |
 |---|---|---|---|---|
 | C-NO-PHOTOS | P2 | 988 | BLOCKED - NEEDS OWNER DATA 988 | Real photos (owner) |
-| L-CONTEXT | P2 | 668 | OPEN 668 | Contextual link |
+| L-CONTEXT | P2 | 666 | OPEN 666 | Contextual link |
 
 ### Fixed and verified by re-audit (vs baseline 2026-10-14)
 
@@ -50,6 +50,7 @@ Generated 2026-10-15 by `node tools/seo-master-matrix.mjs` from the repository H
 | C-UNVERIFIED-POLICY | 8 |
 | C-DIRECT-ANSWER | 7 |
 | T-HTML-P | 4 |
+| L-CONTEXT | 2 |
 | T-404-REFRESH | 1 |
 | C-INTENT | 1 |
 | C-LEGAL-RISK | 1 |
@@ -78,7 +79,8 @@ Generated 2026-10-15 by `node tools/seo-master-matrix.mjs` from the repository H
 | B2 | 2026-10-14 | P0 | 47429b4 | Template families repaired in place, no deletion/redirect/noindex: hub article indexes grouped by series (data/hub-index.json), series navigation blocks, differentiated titles/H1/meta, cannibal groups split by intent (data/see-also.json). | matrix C-TEMPLATE-FAMILY / C-CANNIBAL; build-site --check |
 | B3 | 2026-10-15 | P1 | 47429b4 | Schema: Article on 988 posts with datePublished/dateModified, CollectionPage+ItemList on hubs, LocalBusiness priceRange; FAQ questions as H3; duplicate ids, missing <main>, unclosed <p> fixed; title/meta length fixes; official-source blocks on legal pages; direct answers on key pages. | qa-site schema checks; seo-audit 0 errors |
 | B4 | 2026-10-15 | P1/P2 | 47429b4 | Helpful 404 (instant meta refresh removed); electric price page titles differentiated; 'this hub' self-references rewritten; content dates + sitemap lastmod (data/content-dates.json). | full CI QA suite locally; matrix |
-| B5 | 2026-10-15 | P0 | this commit | C-NEAR-DUP: 2,317 copied sentences rewritten in place on 230 template pages (trips, Old Quarter districts, cost, monthly, for-sale) so each page reads for its own destination/model/audience; unverified shop claims turned into reader advice; no pages deleted, no URL changes. | matrix: max 5-gram Jaccard < 0.25 on all pages (P0 230 -> 0); full CI QA suite locally |
+| B5 | 2026-10-15 | P0 | 416c607 | C-NEAR-DUP: 2,317 copied sentences rewritten in place on 230 template pages (trips, Old Quarter districts, cost, monthly, for-sale) so each page reads for its own destination/model/audience; unverified shop claims turned into reader advice; no pages deleted, no URL changes. | matrix: max 5-gram Jaccard < 0.25 on all pages (P0 230 -> 0); full CI QA suite locally |
+| B6 | 2026-10-16 | P1/P2 | this commit | Weapon 06 (zero-data): tools/seo-intel.mjs + data/serp-research.json (13 public SERP observations) + data/keyword-owners.json; 71 phrases in 20 intent clusters, each with one owner URL; 16 competitor-answered questions checked against the site. Gaps closed in place: licence/IDP/Decree 168 direct answer on the Vietnam hub, rush-hour + expressway + Bat Trang on the trips hub, registration card + Tet on the rental hub, fuel and monthly distance limits on the cost and monthly hubs. 160 duplicated 50cc titles/H1s and 110 '50CC' spellings fixed. CI step validates research data (no metric without a source, no stored rankings). | seo-intel: 20/20 clusters owned, 0 open gaps; full CI QA suite locally |
 
 ## Keyword research used
 
@@ -161,7 +163,7 @@ Verify column: `audit` = `node tools/seo-master-matrix.mjs`; `RRT` = Google Rich
 | A1 | hanoi-motorbike-rental/return-checklist | audience | 19 | 0.64 | 0.32 | 7% | 0% | - |
 | A1 | hanoi-motorbike-rental/route-planning | audience | 19 | 0.53 | 0.32 | 5% | 0% | - |
 | A1 | hanoi-motorbike-rental/traffic-preparation | audience | 19 | 0.53 | 0.32 | 2% | 0% | - |
-| A2 | hanoi-50cc-motorbike-rental/bridges-and-inclines | audience | 13 | 0.64 | 0.43 | 2% | 0% | - |
+| A2 | hanoi-50cc-motorbike-rental/bridges-and-inclines | audience | 13 | 0.63 | 0.43 | 2% | 0% | - |
 | A2 | hanoi-50cc-motorbike-rental/choosing-a-50cc | audience | 13 | 0.63 | 0.43 | 3% | 0% | - |
 | A2 | hanoi-50cc-motorbike-rental/city-traffic | audience | 13 | 0.62 | 0.43 | 2% | 0% | - |
 | A2 | hanoi-50cc-motorbike-rental/daily-rental-planning | audience | 13 | 0.76 | 0.43 | 5% | 0% | - |
@@ -1344,10 +1346,10 @@ Columns: URL · primary keyword (volume) · secondary keywords · search intent 
 | /renting-a-motorbike-in-vietnam/insurance-questions-tourists/ | vietnam insurance questions tourists (UNKNOWN) | motorbike insurance vietnam tourist; renting a motorbike in vietnam | Informational | /renting-a-motorbike-in-vietnam/ | L-CONTEXT · C-NO-PHOTOS · Fixed: S-ARTICLE, L-HUB-LINK, L-DEPTH, C-NO-SOURCES, C-TEMPLATE-FAMILY | Contextual link · Real photos (owner) | P2 | IN PROGRESS | audit, owner |
 | /renting-a-motorbike-in-vietnam/motorbike-license-50cc-riders/ | vietnam motorbike license 50cc riders (UNKNOWN) | motorbike license vietnam; renting a motorbike in vietnam | Informational | /renting-a-motorbike-in-vietnam/ | L-CONTEXT · C-NO-PHOTOS · Fixed: S-ARTICLE, L-HUB-LINK, L-DEPTH, C-NO-SOURCES, C-TEMPLATE-FAMILY, C-STYLE, C-CANNIBAL | Contextual link · Real photos (owner) | P2 | IN PROGRESS | audit, owner |
 | /renting-a-motorbike-in-vietnam/motorbike-license-city-riders/ | vietnam motorbike license city riders (UNKNOWN) | motorbike license vietnam; renting a motorbike in vietnam | Informational | /renting-a-motorbike-in-vietnam/ | L-CONTEXT · C-NO-PHOTOS · Fixed: S-ARTICLE, L-HUB-LINK, L-DEPTH, C-NO-SOURCES, C-TEMPLATE-FAMILY, C-STYLE, C-CANNIBAL | Contextual link · Real photos (owner) | P2 | IN PROGRESS | audit, owner |
-| /renting-a-motorbike-in-vietnam/motorbike-license-expats/ | vietnam motorbike license expats (UNKNOWN) | motorbike license vietnam; renting a motorbike in vietnam | Informational | /renting-a-motorbike-in-vietnam/ | L-CONTEXT · C-NO-PHOTOS · Fixed: S-ARTICLE, L-HUB-LINK, L-DEPTH, C-META-COPY, C-NO-SOURCES, C-TEMPLATE-FAMILY, C-STYLE, C-CANNIBAL | Contextual link · Real photos (owner) | P2 | IN PROGRESS | audit, owner |
+| /renting-a-motorbike-in-vietnam/motorbike-license-expats/ | vietnam motorbike license expats (UNKNOWN) | motorbike license vietnam; renting a motorbike in vietnam | Informational | /renting-a-motorbike-in-vietnam/ | C-NO-PHOTOS · Fixed: S-ARTICLE, L-HUB-LINK, L-DEPTH, L-CONTEXT, C-META-COPY, C-NO-SOURCES, C-TEMPLATE-FAMILY, C-STYLE, C-CANNIBAL | Real photos (owner) | P2 | DONE (safe fixes) + NEEDS OWNER DATA | owner |
 | /renting-a-motorbike-in-vietnam/motorbike-license-long-distance-riders/ | vietnam motorbike license long-distance riders (UNKNOWN) | motorbike license vietnam; renting a motorbike in vietnam | Informational | /renting-a-motorbike-in-vietnam/ | L-CONTEXT · C-NO-PHOTOS · Fixed: T-TITLE-LEN, T-META-LEN, S-ARTICLE, L-HUB-LINK, L-DEPTH, C-NO-SOURCES, C-TEMPLATE-FAMILY, C-STYLE, C-CANNIBAL | Contextual link · Real photos (owner) | P2 | IN PROGRESS | audit, owner |
 | /renting-a-motorbike-in-vietnam/motorbike-license-scooter-riders/ | vietnam motorbike license scooter riders (UNKNOWN) | motorbike license vietnam; renting a motorbike in vietnam | Informational | /renting-a-motorbike-in-vietnam/ | L-CONTEXT · C-NO-PHOTOS · Fixed: S-ARTICLE, L-HUB-LINK, L-DEPTH, C-NO-SOURCES, C-TEMPLATE-FAMILY, C-STYLE, C-CANNIBAL | Contextual link · Real photos (owner) | P2 | IN PROGRESS | audit, owner |
-| /renting-a-motorbike-in-vietnam/motorbike-license-tourists/ | vietnam motorbike license tourists (UNKNOWN) | motorbike license vietnam; renting a motorbike in vietnam | Informational | /renting-a-motorbike-in-vietnam/ | L-CONTEXT · C-NO-PHOTOS · Fixed: T-META-LEN, S-ARTICLE, L-HUB-LINK, L-DEPTH, C-NO-SOURCES, C-TEMPLATE-FAMILY, C-CANNIBAL | Contextual link · Real photos (owner) | P2 | IN PROGRESS | audit, owner |
+| /renting-a-motorbike-in-vietnam/motorbike-license-tourists/ | vietnam motorbike license tourists (UNKNOWN) | motorbike license vietnam; renting a motorbike in vietnam | Informational | /renting-a-motorbike-in-vietnam/ | C-NO-PHOTOS · Fixed: T-META-LEN, S-ARTICLE, L-HUB-LINK, L-DEPTH, L-CONTEXT, C-NO-SOURCES, C-TEMPLATE-FAMILY, C-CANNIBAL | Real photos (owner) | P2 | DONE (safe fixes) + NEEDS OWNER DATA | owner |
 | /renting-a-motorbike-in-vietnam/motorbike-license-vietnam-tourists/ | motorbike license vietnam tourists (UNKNOWN) | renting a motorbike in vietnam | Informational | /renting-a-motorbike-in-vietnam/ | C-NO-PHOTOS · Fixed: T-FAQ-HEADINGS, S-ARTICLE, L-HUB-LINK, L-DEPTH, C-META-COPY, C-NO-SOURCES, C-CANNIBAL | Real photos (owner) | P2 | DONE (safe fixes) + NEEDS OWNER DATA | owner |
 | /renting-a-motorbike-in-vietnam/motorbike-rental-scams-vietnam/ | motorbike rental scams vietnam (UNKNOWN) | renting a motorbike in vietnam | Informational | /renting-a-motorbike-in-vietnam/ | C-NO-PHOTOS · Fixed: T-FAQ-HEADINGS, S-ARTICLE, L-HUB-LINK, L-DEPTH, C-META-COPY, C-NO-SOURCES | Real photos (owner) | P2 | DONE (safe fixes) + NEEDS OWNER DATA | owner |
 | /renting-a-motorbike-in-vietnam/rental-contracts-50cc-riders/ | vietnam rental contracts 50cc riders (UNKNOWN) | motorbike rental contract vietnam; renting a motorbike in vietnam | Informational | /renting-a-motorbike-in-vietnam/ | L-CONTEXT · C-NO-PHOTOS · Fixed: S-ARTICLE, L-HUB-LINK, L-DEPTH, C-NO-SOURCES, C-TEMPLATE-FAMILY, C-STYLE | Contextual link · Real photos (owner) | P2 | IN PROGRESS | audit, owner |

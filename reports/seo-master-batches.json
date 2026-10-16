@@ -43,8 +43,16 @@
     "id": "B5",
     "date": "2026-10-15",
     "priority": "P0",
-    "commit": "this commit",
+    "commit": "416c607",
     "changes": "C-NEAR-DUP: 2,317 copied sentences rewritten in place on 230 template pages (trips, Old Quarter districts, cost, monthly, for-sale) so each page reads for its own destination/model/audience; unverified shop claims turned into reader advice; no pages deleted, no URL changes.",
     "verification": "matrix: max 5-gram Jaccard < 0.25 on all pages (P0 230 -> 0); full CI QA suite locally"
+  },
+  {
+    "id": "B6",
+    "date": "2026-10-16",
+    "priority": "P1/P2",
+    "commit": "this commit",
+    "changes": "Weapon 06 (zero-data): tools/seo-intel.mjs + data/serp-research.json (13 public SERP observations) + data/keyword-owners.json; 71 phrases in 20 intent clusters, each with one owner URL; 16 competitor-answered questions checked against the site. Gaps closed in place: licence/IDP/Decree 168 direct answer on the Vietnam hub, rush-hour + expressway + Bat Trang on the trips hub, registration card + Tet on the rental hub, fuel and monthly distance limits on the cost and monthly hubs. 160 duplicated 50cc titles/H1s and 110 '50CC' spellings fixed. CI step validates research data (no metric without a source, no stored rankings).",
+    "verification": "seo-intel: 20/20 clusters owned, 0 open gaps; full CI QA suite locally"
   }
 ]

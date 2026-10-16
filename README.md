@@ -246,3 +246,24 @@ Related links are selected from explicit configuration, then Content Matrix targ
 **Publisher box:** `site/partials/author-box.html` creates a branded information panel on cluster posts. Its source of truth is `data/site-system.json`. We identify the **publisher/brand**, not an unverified individual author. Set `features.authorBox`, `features.postNavigation`, or `features.siteSearch` to false to disable a component. Generated article HTML is managed by the build; do not edit hundreds of posts manually.
 
 **QA:** `node tools/build-site.mjs`, `node tools/build-article-index.mjs`, and `node tools/qa-discovery.mjs` verify these functions. SEO Maintenance runs them and syncs generated output to the native GitHub Pages branch.
+
+## SEO audit and research tools (zero-data mode)
+
+The site has no Search Console or analytics data yet, so SEO work runs in
+ZERO-DATA / cold-start mode: only data that actually exists is used, and
+anything else is recorded as `UNKNOWN`.
+
+- `node tools/seo-master-matrix.mjs` — audits every URL and writes
+  `reports/seo-master-matrix.{md,json}` (issues, priority P0/P1/P2, status,
+  verification). Batch history: `reports/seo-master-batches.json`.
+- `node tools/seo-intel.mjs` — keyword clusters, cluster → owner URL, topical
+  map and content gaps in `reports/seo-intel.{md,json}`. Inputs:
+  `data/keyword-research.json` (Ubersuggest metrics with sources),
+  `data/serp-research.json` (public SERP observations; result order is not a
+  Google ranking), `data/keyword-owners.json` (editorial owner decisions).
+- `node tools/seo-intel.mjs --check` — runs in CI and fails if a keyword metric
+  has no source, a SERP observation stores a ranking, or a gap check is invalid.
+
+Content gaps are closed by adding sourced sections to the existing owner page,
+not by publishing near-duplicate pages. Switch to data-driven mode once Search
+Console is connected.
