@@ -75,8 +75,16 @@
     "id": "B9",
     "date": "2026-10-16",
     "priority": "P1",
-    "commit": "this commit",
+    "commit": "6d48dca",
     "changes": "Natural titles and H1s: 241 keyword-prefixed H1s ('Hanoi Motorbike Rental: Backpackers Parking Strategy', '50cc Motorbike Hanoi: Beginners Parking') rewritten as readable headings from the page title; 30 over-long H1s shortened; 8 titles lost a ' | Motorbike Guide' suffix; capitalised prepositions ('For', 'In', 'With A') and 'Semi Automatic' / 'Pre Ride' spellings fixed; 17 scooter selection guides now say they are a choosing guide in the H1. Matrix family check accepts plain-word format names ('choosing', 'which to rent').",
     "verification": "matrix P0 0; no duplicate titles or H1s; full CI QA suite locally"
+  },
+  {
+    "id": "B10",
+    "date": "2026-10-16",
+    "priority": "P2",
+    "commit": "this commit",
+    "changes": "L-CONTEXT closed: 271 remaining articles each received one in-text link from a related article in the same series or hub, written as one new natural sentence at the end of the most relevant paragraph with a descriptive anchor (250 via validated batch, 21 by hand).",
+    "verification": "matrix L-CONTEXT 271 -> 0; qa-site link check; full CI QA suite locally"
   }
 ]
