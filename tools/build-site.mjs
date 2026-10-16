@@ -135,7 +135,9 @@ function syncAssetVersion(html){
 function lazyContentImages(html){
   if(!featureOn('lazyContentImages')) return html;
   return html.replace(/<img\b([^>]*)>/gi,(tag,attrs)=>{
-    if(/src=["']\/Logonh\.png["']/i.test(tag) || /loading=/i.test(tag)) return tag;
+    // the header logo is above the fold: never lazy-load either logo file
+    const logos=[system.brand.logoPath,system.brand.logoSmallPath].filter(Boolean);
+    if(logos.some(l=>tag.includes('src="'+l+'"')) || /loading=/i.test(tag)) return tag;
     let out=tag.replace(/>$/,'');
     if(!/decoding=/i.test(out)) out+=' decoding="async"';
     out+=' loading="lazy">';

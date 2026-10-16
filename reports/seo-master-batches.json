@@ -59,8 +59,16 @@
     "id": "B7",
     "date": "2026-10-16",
     "priority": "P2",
-    "commit": "this commit",
+    "commit": "9e38526",
     "changes": "L-CONTEXT: 395 contextual in-text links added from sibling articles in the same series (same audience, destination, district or model). Anchors are phrases already in the sentence; no words added, at most 2 new links per page, no link inside headings, intros or generated blocks.",
     "verification": "matrix L-CONTEXT 666 -> 271; qa-site link check; full CI QA suite locally"
+  },
+  {
+    "id": "B8",
+    "date": "2026-10-16",
+    "priority": "P2",
+    "commit": "this commit",
+    "changes": "G-LOGO-WEIGHT: header and author-box logo now load /assets/img/logo-116.png (2 KB, 116x116) instead of the 512px /Logonh.png (27 KB); the large file stays for Open Graph and schema. Header logo is never lazy-loaded (above the fold).",
+    "verification": "matrix G-LOGO-WEIGHT fixed; qa-shared-components; build-site --check"
   }
 ]

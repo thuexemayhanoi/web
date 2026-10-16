@@ -57,6 +57,7 @@ Generated 2026-10-16 by `node tools/seo-master-matrix.mjs` from the repository H
 | S-PRICERANGE | 1 |
 | G-RELATED-LABEL (site-wide) | site-wide |
 | G-SITEMAP-LASTMOD (site-wide) | site-wide |
+| G-LOGO-WEIGHT (site-wide) | site-wide |
 
 ### Site-wide issues
 
@@ -64,11 +65,11 @@ Generated 2026-10-16 by `node tools/seo-master-matrix.mjs` from the repository H
 |---|---|---|---|---|---|
 | B-WHATSAPP | P1 | Quick Contact shows WhatsApp on every page while data/site-system.json marks contacts.whatsapp.verified=false | Shop owner confirms WhatsApp on 0942 467 674 -> set verified=true; otherwise hide the button. | BLOCKED - NEEDS OWNER DATA | data/site-system.json + rendered Quick Contact |
 | G-JEKYLL-STRAY | P2 | GitHub Pages builds with Jekyll and no _config.yml: internal files are public (e.g. /reports/seo-audit.html rendered from Markdown, /data/content-matrix.csv, /tools/*.mjs) | Not done: excluding them would remove live URLs (owner rule: no deletion). New internal Markdown reports use published:false so no new stray pages are created. | WONTFIX - OWNER RULE | n/a |
-| G-LOGO-WEIGHT | P2 | header logo is a 512x512 PNG (27 KB) displayed at 34x34 on every page | Serve a small header copy (e.g. 68x68) and keep the large file for OG/schema. | OPEN | Lighthouse / network panel |
 | G-SCALED-CONTENT | P0 | 846 pages published 2026-10-07; 154 pages published 2026-10-06; 956 of 988 articles sit in 143 template families (same topic, only audience/period/format/destination changes) | Keep the factory paused; repair families in place (no deletion/URL change/noindex per owner rule); deeper per-family rewrites with real local detail remain the main lever; monitor indexing in GSC. | OPEN - RESIDUAL RISK | GSC Pages report (UNKNOWN until GSC is connected) |
 | G-GSC | P1 | No Search Console data available to this audit (not connected to OpenSEO/OpenRush) | Connect GSC (or share exports) so rankings/indexing can replace UNKNOWN values. | BLOCKED - NEEDS OWNER DATA | GSC property access |
 | G-RELATED-LABEL | P2 | related block on 1,000 pages is titled "Related hubs" but mostly lists articles | Rename to "Related guides". | FIXED | node tools/seo-master-matrix.mjs |
 | G-SITEMAP-LASTMOD | P2 | sitemap.xml has changefreq/priority (ignored by Google) but no lastmod | Add accurate lastmod from Content Matrix dates (published/updated), not from build time. | FIXED | node tools/seo-master-matrix.mjs |
+| G-LOGO-WEIGHT | P2 | header logo is a 512x512 PNG (27 KB) displayed at 34x34 on every page | Serve a small header copy (e.g. 68x68) and keep the large file for OG/schema. | FIXED | node tools/seo-master-matrix.mjs |
 
 ## Batch log
 
@@ -81,7 +82,8 @@ Generated 2026-10-16 by `node tools/seo-master-matrix.mjs` from the repository H
 | B4 | 2026-10-15 | P1/P2 | 47429b4 | Helpful 404 (instant meta refresh removed); electric price page titles differentiated; 'this hub' self-references rewritten; content dates + sitemap lastmod (data/content-dates.json). | full CI QA suite locally; matrix |
 | B5 | 2026-10-15 | P0 | 416c607 | C-NEAR-DUP: 2,317 copied sentences rewritten in place on 230 template pages (trips, Old Quarter districts, cost, monthly, for-sale) so each page reads for its own destination/model/audience; unverified shop claims turned into reader advice; no pages deleted, no URL changes. | matrix: max 5-gram Jaccard < 0.25 on all pages (P0 230 -> 0); full CI QA suite locally |
 | B6 | 2026-10-16 | P1/P2 | 4235801 | Weapon 06 (zero-data): tools/seo-intel.mjs + data/serp-research.json (13 public SERP observations) + data/keyword-owners.json; 71 phrases in 20 intent clusters, each with one owner URL; 16 competitor-answered questions checked against the site. Gaps closed in place: licence/IDP/Decree 168 direct answer on the Vietnam hub, rush-hour + expressway + Bat Trang on the trips hub, registration card + Tet on the rental hub, fuel and monthly distance limits on the cost and monthly hubs. 160 duplicated 50cc titles/H1s and 110 '50CC' spellings fixed. CI step validates research data (no metric without a source, no stored rankings). | seo-intel: 20/20 clusters owned, 0 open gaps; full CI QA suite locally |
-| B7 | 2026-10-16 | P2 | this commit | L-CONTEXT: 395 contextual in-text links added from sibling articles in the same series (same audience, destination, district or model). Anchors are phrases already in the sentence; no words added, at most 2 new links per page, no link inside headings, intros or generated blocks. | matrix L-CONTEXT 666 -> 271; qa-site link check; full CI QA suite locally |
+| B7 | 2026-10-16 | P2 | 9e38526 | L-CONTEXT: 395 contextual in-text links added from sibling articles in the same series (same audience, destination, district or model). Anchors are phrases already in the sentence; no words added, at most 2 new links per page, no link inside headings, intros or generated blocks. | matrix L-CONTEXT 666 -> 271; qa-site link check; full CI QA suite locally |
+| B8 | 2026-10-16 | P2 | this commit | G-LOGO-WEIGHT: header and author-box logo now load /assets/img/logo-116.png (2 KB, 116x116) instead of the 512px /Logonh.png (27 KB); the large file stays for Open Graph and schema. Header logo is never lazy-loaded (above the fold). | matrix G-LOGO-WEIGHT fixed; qa-shared-components; build-site --check |
 
 ## Keyword research used
 

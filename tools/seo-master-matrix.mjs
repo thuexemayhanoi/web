@@ -581,8 +581,10 @@ const globalIssues = [];
   if (!exists('_config.yml')) globalIssues.push(issue('G-JEKYLL-STRAY', 'P2', 'GitHub Pages builds with Jekyll and no _config.yml: internal files are public (e.g. /reports/seo-audit.html rendered from Markdown, /data/content-matrix.csv, /tools/*.mjs)', 'Not done: excluding them would remove live URLs (owner rule: no deletion). New internal Markdown reports use published:false so no new stray pages are created.', 'n/a', 'WONTFIX - OWNER RULE'));
   const sm = read('sitemap.xml');
   if (!/<lastmod>/.test(sm)) globalIssues.push(issue('G-SITEMAP-LASTMOD', 'P2', 'sitemap.xml has changefreq/priority (ignored by Google) but no lastmod', 'Add accurate lastmod from Content Matrix dates (published/updated), not from build time.', 'sitemap.xml'));
-  const logo = fs.statSync(path.join(ROOT, 'Logonh.png')).size;
-  if (logo > 20000) globalIssues.push(issue('G-LOGO-WEIGHT', 'P2', 'header logo is a 512x512 PNG (' + Math.round(logo / 1024) + ' KB) displayed at 34x34 on every page', 'Serve a small header copy (e.g. 68x68) and keep the large file for OG/schema.', 'Lighthouse / network panel'));
+  // measure the file the shared header actually loads
+  const headerLogo = (read('index.html').match(/class="brand-ico"><img src="\/([^"]+)"/) || [, 'Logonh.png'])[1];
+  const logo = fs.statSync(path.join(ROOT, headerLogo)).size;
+  if (logo > 20000) globalIssues.push(issue('G-LOGO-WEIGHT', 'P2', 'header logo /' + headerLogo + ' (' + Math.round(logo / 1024) + ' KB) is displayed at 34x34 on every page', 'Serve a small header copy (e.g. 68x68) and keep the large file for OG/schema.', 'Lighthouse / network panel'));
   const dates = {};
   for (const r of matrixRows) if (r.published_at) dates[r.published_at] = (dates[r.published_at] || 0) + 1;
   const big = Object.entries(dates).sort((a, b) => b[1] - a[1]);

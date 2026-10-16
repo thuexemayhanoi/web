@@ -3,6 +3,7 @@
   "language": "en-US",
   "brand": {
     "logoPath": "/Logonh.png",
+    "logoSmallPath": "/assets/img/logo-116.png",
     "logoAbsolute": "https://app.rentbikehanoi.com/Logonh.png",
     "headerPrimary": "Motorbike Rental",
     "headerSecondary": "Nguyen Tu · Hanoi"
