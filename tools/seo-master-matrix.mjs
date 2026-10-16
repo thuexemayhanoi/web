@@ -139,6 +139,8 @@ const POLICY_RX = [
 const LEGAL_RX = [
   { code: 'no-licence-50cc', rx: /Without a licen[cs]e[^.]{0,120}50cc[^.]{0,80}(?:simpler|easier|gentler)|legally accessible option for riders without a licen[cs]e/i }
 ];
+// over-styled machine prose: filler and personification that people-first writing avoids
+const PURPLE_RX = /\bhonest(?:ly|y)?\b|\barithmetic\b|\bledger\b|\britual\b|\bverdict\b|\btemperament|\bcitizens?\b|\bmoods?\b|\bmanners\b|\bgrammar\b|\bvocabulary\b|\bgarment\b|\bfinal exam\b/gi;
 const UNNATURAL_RX = /\bthe desk\b|\bthe counter\b|honest arithmetic|the honest (?:rule|answer|choice|version|question)/gi;
 const LEGAL_PAGE_RX = /licen[cs]e|helmet-rules|traffic-rules|traffic-police|road-signs|restricted-roads|insurance|accident|rental-contracts|border-area|scams|child/i;
 
@@ -213,6 +215,7 @@ for (const p of files) {
   pg.policy = POLICY_RX.filter(r => r.rx.test(edText)).map(r => ({ code: r.code, text: (edText.match(r.rx) || [''])[0].slice(0, 160) }));
   pg.legal = LEGAL_RX.filter(r => r.rx.test(edText)).map(r => ({ code: r.code, text: (edText.match(r.rx) || [''])[0].slice(0, 200) }));
   pg.unnatural = (edText.match(UNNATURAL_RX) || []).length;
+  pg.purple = (edText.match(PURPLE_RX) || []).length;
   // links per region
   pg.links = {};
   pg.external = [];
@@ -543,6 +546,7 @@ for (const pg of pages) {
   }
   if (pg.maxJac >= 0.25) I.push(issue('C-NEAR-DUP', 'P0', 'shares ' + Math.round(pg.maxJac * 100) + '% of 5-word phrases with ' + pg.maxJacWith, 'Rewrite the copied passages in place (replace repeated boilerplate with a link to the guide that covers it).', 'node tools/seo-master-matrix.mjs'));
   else if (pg.boilerplate >= 0.3 && isContent) I.push(issue('C-BOILERPLATE', 'P1', Math.round(pg.boilerplate * 100) + '% of sentences repeated on 3+ other pages', 'Rewrite repeated passages with page-specific information.', 'node tools/seo-master-matrix.mjs'));
+  if (pg.purple >= 3) I.push(issue('C-PURPLE', 'P2', pg.purple + ' over-styled words ("honest", "arithmetic", "ledger", "verdict"...) in ' + pg.wordCount + ' words', 'Rewrite those sentences in plain English; keep the advice, drop the decoration.', 'node tools/seo-master-matrix.mjs'));
   if (pg.unnatural >= 6) I.push(issue('C-STYLE', 'P2', pg.unnatural + ' uses of generator tics ("the desk", "the counter", "honest arithmetic")', 'Edit to plain English ("the shop", "the rental agreement").', 'node tools/seo-master-matrix.mjs'));
   const outAll = adj.get(pg.path) || new Set();
   for (const k of (cannibalOf.get(pg.path) || [])) {
@@ -724,7 +728,7 @@ const short = (s, n) => { s = String(s || ''); return s.length > n ? s.slice(0, 
 const ACT = {
   'C-TEMPLATE-FAMILY': 'Merge (approval)', 'C-NEAR-DUP': 'Merge/rewrite (approval)', 'C-CANNIBAL': 'One owner URL', 'C-META-COPY': 'Remove SEO notes',
   'C-UNVERIFIED-POLICY': 'Remove unverified policy', 'C-LEGAL-RISK': 'Remove no-licence advice', 'C-NO-SOURCES': 'Official sources', 'C-DIRECT-ANSWER': 'Answer-first summary',
-  'C-INTENT': 'Retarget title/H1 (approval)', 'C-STYLE': 'Plain English', 'C-BOILERPLATE': 'Rewrite repeats', 'C-NO-PHOTOS': 'Real photos (owner)',
+  'C-INTENT': 'Retarget title/H1 (approval)', 'C-STYLE': 'Plain English', 'C-PURPLE': 'Plain English', 'C-BOILERPLATE': 'Rewrite repeats', 'C-NO-PHOTOS': 'Real photos (owner)',
   'L-HUB-INDEX': 'Full hub index', 'L-HUB-LINK': 'Hub index link', 'L-DEPTH': '<=3 clicks', 'L-CONTEXT': 'Contextual link', 'L-ORPHAN': 'Link from hub',
   'S-ARTICLE': 'Article schema + date', 'S-HUB': 'CollectionPage', 'S-PRICERANGE': 'priceRange', 'T-FAQ-HEADINGS': 'FAQ as H3', 'T-TITLE-LEN': 'Title <=65',
   'T-META-LEN': 'Meta 120-160', 'T-404-REFRESH': 'Helpful 404 (approval)', 'B-NAP': 'Verified NAP', 'T-CANONICAL': 'Fix canonical', 'T-H1': 'One H1',
@@ -742,7 +746,7 @@ const compactEvidence = x => {
     case 'L-DEPTH': { const m = e.match(/click depth (\S+) via all links; (\S+) without/); return m ? m[1] + '/' + (m[2] === 'unreachable' ? '∞' : m[2]) : short(e, 60); }
     case 'C-CANNIBAL': return e.split(' shared with ')[0];
     case 'L-HUB-LINK': case 'S-ARTICLE': case 'C-NO-PHOTOS': case 'L-CONTEXT': case 'C-NO-SOURCES': return '';
-    case 'T-FAQ-HEADINGS': case 'C-STYLE': case 'C-META-COPY': return n;
+    case 'T-FAQ-HEADINGS': case 'C-STYLE': case 'C-PURPLE': case 'C-META-COPY': return n;
     case 'T-META-LEN': case 'T-TITLE-LEN': return (e.match(/(\d+) chars/) || [, ''])[1] + 'ch';
     default: return short(e, 100);
   }
@@ -793,6 +797,7 @@ const legend = {
   'C-NO-SOURCES': 'Legal/safety topic without links to primary official sources.',
   'C-DIRECT-ANSWER': 'Commercial page whose first 130 words lack verified price/location/hours.',
   'C-INTENT': 'Primary keyword intent does not match what the business offers.',
+  'C-PURPLE': '>=3 over-styled filler or metaphor words (honest, arithmetic, ledger, verdict, ritual...) on the page.',
   'C-STYLE': '>=6 repeated generator phrases ("the desk", "the counter", "honest arithmetic").',
   'C-BOILERPLATE': '>=30% of sentences repeated on 3+ other pages.',
   'C-NO-PHOTOS': 'No real photos; only the shop can supply them (never stock or AI images presented as the fleet).',
