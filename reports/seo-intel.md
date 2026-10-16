@@ -46,7 +46,7 @@ Generated 2026-10-16 by `node tools/seo-intel.mjs`. Search Console and analytics
 | Zero alcohol limit for riders | 2 | COVERED | 5 | /renting-a-motorbike-in-vietnam/ | Covered; keep facts current. |
 | Motorbikes not allowed on expressways | 2 | COVERED | 25 | /hanoi-motorbike-trips/ | Covered; keep facts current. |
 | Check the registration card (cavet / blue card) | 2 | COVERED | 51 | /hanoi-motorbike-rental/ | Covered; keep facts current. |
-| Agreed bike value / liability for theft or damage in the contract | 2 | COVERED | 59 | /hanoi-motorbike-rental/ | Covered; keep facts current. |
+| Agreed bike value / liability for theft or damage in the contract | 2 | COVERED | 66 | /hanoi-motorbike-rental/ | Covered; keep facts current. |
 | Distance or area limits on monthly rentals | 2 | COVERED | 44 | /monthly-motorbike-rental-hanoi/ | Covered; keep facts current. |
 | Renting around Tet (shop closures, demand) | 1 | COVERED | 3 | /hanoi-motorbike-rental/ | Covered; keep facts current. |
 | Fuel not included / refuelling | 1 | COVERED | 589 | /hanoi-motorbike-rental-cost/ | Covered; keep facts current. |
@@ -56,7 +56,7 @@ Generated 2026-10-16 by `node tools/seo-intel.mjs`. Search Console and analytics
 | Day trip: Ba Vi / Duong Lam | 1 | COVERED | 40 | /hanoi-motorbike-trips/ | Covered; keep facts current. |
 | Day trip: Bat Trang ceramic village | 1 | COVERED | 1 | /hanoi-motorbike-trips/ | Covered; keep facts current. |
 | Trip: Ninh Binh | 1 | COVERED | 34 | /hanoi-motorbike-trips/ | Covered; keep facts current. |
-| Leaving and re-entering Hanoi outside rush hour | 1 | COVERED | 92 | /hanoi-motorbike-trips/ | Covered; keep facts current. |
+| Leaving and re-entering Hanoi outside rush hour | 1 | COVERED | 101 | /hanoi-motorbike-trips/ | Covered; keep facts current. |
 
 ## Topical map
 

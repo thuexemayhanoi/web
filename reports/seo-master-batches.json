@@ -99,8 +99,16 @@
     "id": "B12",
     "date": "2026-10-16",
     "priority": "P2",
-    "commit": "this commit",
+    "commit": "b85a25a",
     "changes": "Plain-English rewrite, wave B (trips, motorbike guides and Vietnam rental hubs): 2,750 over-styled sentences rewritten on 259 pages; same advice and links, no new facts or numbers.",
     "verification": "matrix C-PURPLE 487 -> 252 pages (waves A and B hubs at 0); validator 0 errors; full CI QA suite locally"
+  },
+  {
+    "id": "B13",
+    "date": "2026-10-16",
+    "priority": "P2",
+    "commit": "this commit",
+    "changes": "Plain-English rewrite, wave C (monthly rental, buying vs renting and Old Quarter hubs): 3,459 over-styled sentences rewritten on 260 pages; same advice and links, no new facts or numbers. Two rewrites that mentioned search engines corrected.",
+    "verification": "matrix C-PURPLE 252 -> 0 pages; P0/P1 0; validator 0 errors; full CI QA suite locally"
   }
 ]
