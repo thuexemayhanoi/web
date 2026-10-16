@@ -67,8 +67,16 @@
     "id": "B8",
     "date": "2026-10-16",
     "priority": "P2",
-    "commit": "this commit",
+    "commit": "a7022ec",
     "changes": "G-LOGO-WEIGHT: header and author-box logo now load /assets/img/logo-116.png (2 KB, 116x116) instead of the 512px /Logonh.png (27 KB); the large file stays for Open Graph and schema. Header logo is never lazy-loaded (above the fold).",
     "verification": "matrix G-LOGO-WEIGHT fixed; qa-shared-components; build-site --check"
+  },
+  {
+    "id": "B9",
+    "date": "2026-10-16",
+    "priority": "P1",
+    "commit": "this commit",
+    "changes": "Natural titles and H1s: 241 keyword-prefixed H1s ('Hanoi Motorbike Rental: Backpackers Parking Strategy', '50cc Motorbike Hanoi: Beginners Parking') rewritten as readable headings from the page title; 30 over-long H1s shortened; 8 titles lost a ' | Motorbike Guide' suffix; capitalised prepositions ('For', 'In', 'With A') and 'Semi Automatic' / 'Pre Ride' spellings fixed; 17 scooter selection guides now say they are a choosing guide in the H1. Matrix family check accepts plain-word format names ('choosing', 'which to rent').",
+    "verification": "matrix P0 0; no duplicate titles or H1s; full CI QA suite locally"
   }
 ]

@@ -532,7 +532,10 @@ for (const pg of pages) {
       const h1 = (pg.h1s[0] || '').toLowerCase();
       const fails = [];
       if (!siblings.every(x => navLinks.has(x))) fails.push('no family navigation to the ' + siblings.length + ' sibling guides');
-      if (variantToks.length && !variantToks.some(t => h1.includes(t.length > 5 ? t.slice(0, 5) : t.replace(/s$/, '')))) fails.push('H1 does not name the ' + pg.family.varies);
+      // a selection guide may say so in plain words ("choosing", "which to rent")
+      const FORMAT_SYN = { selection: /\b(choos|which|pick|select|look for)/ };
+      const namesVariant = variantToks.some(t => h1.includes(t.length > 5 ? t.slice(0, 5) : t.replace(/s$/, '')) || (FORMAT_SYN[t] && FORMAT_SYN[t].test(h1)));
+      if (variantToks.length && !namesVariant) fails.push('H1 does not name the ' + pg.family.varies);
       if (pg.metaSeo.length) fails.push('SEO notes in copy');
       if (pg.unnatural >= 6) fails.push(pg.unnatural + ' generator phrases');
       if (fails.length) I.push(issue('C-TEMPLATE-FAMILY', 'P0', 'one of ' + fam.length + ' pages on "' + pg.family.key.replace(/-/g, ' ') + '" in /' + pg.hubDir + '/ where only the ' + pg.family.varies + ' changes; topic similarity ' + round(meanFam) + ' inside the family vs ' + round(base) + ' across families; ' + Math.round(pg.boilerplate * 100) + '% of sentences reused on 3+ pages; open repairs: ' + fails.join('; '), 'Repair in place (owner rule: no deletion, no URL change, no noindex): clear audience-specific H1, family navigation to the sibling guides, remove SEO notes and generator phrasing, keep facts verified.', 'node tools/seo-master-matrix.mjs (family repair checks)'));

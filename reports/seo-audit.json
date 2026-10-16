@@ -70,7 +70,7 @@
     {
       "path": "hanoi-50cc-motorbike-rental/beginners-parking/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-parking/",
-      "title_length": 61,
+      "title_length": 32,
       "description_length": 162,
       "errors": [],
       "warnings": []
@@ -942,7 +942,7 @@
     {
       "path": "hanoi-50cc-motorbike-rental/students-parking/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/students-parking/",
-      "title_length": 60,
+      "title_length": 31,
       "description_length": 152,
       "errors": [],
       "warnings": []
@@ -4966,7 +4966,7 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-beginners-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-beginners-checks-and-mistakes/",
-      "title_length": 55,
+      "title_length": 59,
       "description_length": 142,
       "errors": [],
       "warnings": []
@@ -4998,7 +4998,7 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-commuters-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-commuters-checks-and-mistakes/",
-      "title_length": 55,
+      "title_length": 59,
       "description_length": 155,
       "errors": [],
       "warnings": []
@@ -5014,7 +5014,7 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-couples-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-couples-checks-and-mistakes/",
-      "title_length": 53,
+      "title_length": 57,
       "description_length": 159,
       "errors": [],
       "warnings": []
@@ -5334,7 +5334,7 @@
     {
       "path": "hanoi-scooter-rental/automatic-scooter-students-checks-and-mistakes/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/automatic-scooter-students-checks-and-mistakes/",
-      "title_length": 54,
+      "title_length": 58,
       "description_length": 156,
       "errors": [],
       "warnings": []
@@ -5710,7 +5710,7 @@
     {
       "path": "hanoi-scooter-rental/scooter-vs-semi-automatic-hanoi/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/scooter-vs-semi-automatic-hanoi/",
-      "title_length": 60,
+      "title_length": 63,
       "description_length": 145,
       "errors": [],
       "warnings": []
@@ -5822,7 +5822,7 @@
     {
       "path": "monthly-motorbike-rental-hanoi/couples-commuting-setup/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/couples-commuting-setup/",
-      "title_length": 63,
+      "title_length": 39,
       "description_length": 159,
       "errors": [],
       "warnings": []
@@ -5870,7 +5870,7 @@
     {
       "path": "monthly-motorbike-rental-hanoi/expats-commuting-setup/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/expats-commuting-setup/",
-      "title_length": 62,
+      "title_length": 38,
       "description_length": 159,
       "errors": [],
       "warnings": []
@@ -5886,7 +5886,7 @@
     {
       "path": "monthly-motorbike-rental-hanoi/expats-maintenance-expectations/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/expats-maintenance-expectations/",
-      "title_length": 65,
+      "title_length": 41,
       "description_length": 144,
       "errors": [],
       "warnings": []
@@ -5974,7 +5974,7 @@
     {
       "path": "monthly-motorbike-rental-hanoi/interns-commuting-setup/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/interns-commuting-setup/",
-      "title_length": 63,
+      "title_length": 39,
       "description_length": 158,
       "errors": [],
       "warnings": []
@@ -6318,7 +6318,7 @@
     {
       "path": "monthly-motorbike-rental-hanoi/students-commuting-setup/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/students-commuting-setup/",
-      "title_length": 64,
+      "title_length": 40,
       "description_length": 165,
       "errors": [],
       "warnings": []
@@ -6366,7 +6366,7 @@
     {
       "path": "monthly-motorbike-rental-hanoi/teachers-commuting-setup/index.html",
       "canonical": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/teachers-commuting-setup/",
-      "title_length": 64,
+      "title_length": 40,
       "description_length": 164,
       "errors": [],
       "warnings": []
