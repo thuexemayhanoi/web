@@ -304,8 +304,19 @@ html[data-theme="dark"] .theme-ico-sun{display:none}
 .status-badge.is-closed .status-dot{background:var(--brand-hover)}
 .status-hours{color:var(--muted);font-size:.9rem}
 .hero-cta{display:flex;flex-wrap:wrap;gap:var(--s3)}
-.hero-art{color:var(--brand);display:flex;justify-content:center}
-.hero-art svg{width:100%;max-width:340px;height:auto}
+.hero-media{margin:0;min-width:0}
+
+/* ============ Content images ============ */
+/* width/height attributes reserve the box (no CLS); height:auto keeps the ratio. */
+.hero-media img,.section-figure img{
+  display:block;width:100%;height:auto;
+  border-radius:var(--r-lg);border:1px solid var(--border);
+  background:var(--surface-2);
+}
+.section-figure{max-width:780px;margin:var(--s4) 0 var(--s6)}
+.hero-media figcaption,.section-figure figcaption{
+  margin-top:var(--s2);color:var(--muted);font-size:.82rem;line-height:1.5;
+}
 
 /* ============ Sections & cards ============ */
 .section{
@@ -759,8 +770,6 @@ body.chat-keyboard-open .chat-log{
   .drawer-panel{width:min(320px,88vw)}
   .drawer-head{min-height:60px}
   .hero-inner{grid-template-columns:1fr;padding:var(--s6) var(--s4);gap:var(--s4)}
-  .hero-art{order:-1;justify-content:flex-start}
-  .hero-art svg{max-width:180px}
   .section{padding-top:var(--s8);padding-bottom:var(--s8)}
   .calc-form{grid-template-columns:1fr}
   .foot-grid{grid-template-columns:repeat(2,1fr);gap:var(--s6) var(--s4)}
