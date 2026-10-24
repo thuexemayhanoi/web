@@ -163,8 +163,16 @@
     "id": "B20",
     "date": "2026-10-24",
     "priority": "P2",
-    "commit": "this commit",
+    "commit": "76ac8b0",
     "changes": "Supporting content linked to the deposit owner page: 289 of 345 pages that discussed deposits had no link to /hanoi-motorbike-rental/motorbike-rental-deposit-hanoi/ (which now carries the owner's deposit table); 290 pages received one contextual link on the first 'deposit' mention in a paragraph (markup only, lastmod unchanged). Breadcrumb labels for five hubs normalized on 72 pages (Old Quarter had three labels, 50cc two, cost four). Old Quarter hub intro now answers the delivery question: ask about delivery or collection when booking; any cost is confirmed before the contract, with the price and deposit (owner rule).",
     "verification": "anchor sample review; full CI QA suite locally; 0 pages changed lastmod from markup-only edits"
+  },
+  {
+    "id": "B21",
+    "date": "2026-10-24",
+    "priority": "P2",
+    "commit": "this commit",
+    "changes": "AEO answers for electric rental follow the owner's table, which lists electric motorbikes and e-bikes with prices on request and the deposit confirmed by model. The /faq/ answer 'Do you rent electric motorbikes?' (also emitted as FAQPage schema) now names e-bikes, says prices are on request, links the deposit guide and states the deposit is confirmed for the specific model; the /faq/ price answer and the homepage price FAQ name e-bikes too. No amounts added.",
+    "verification": "full CI QA suite locally; qa-seo-guard electric clause rule clean; FAQPage schema regenerated from visible text"
   }
 ]
