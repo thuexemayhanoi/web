@@ -1,13 +1,15 @@
 {
   "schema_version": 1,
-  "collected_at": "2026-10-16",
+  "collected_at": "2026-10-24",
   "mode": "ZERO-DATA / COLD START",
   "notes": [
     "Public search observations only. Result order is the order the search tool returned, NOT a Google ranking. No positions, clicks or traffic are implied.",
     "Sources: 'websearch' = Claude WebSearch tool (standard mode, US index) on 2026-10-16; 'firecrawl' = Firecrawl web search on 2026-10-15 (account ran out of credits after one query).",
     "app.rentbikehanoi.com did not appear in any observed result set (new site, no index data). This is an observation, not a ranking measurement.",
     "Facts mentioned by competitors (prices, fines, mileage caps) are NOT business facts for this site and must never be copied into pages as our policy. They only show which questions searchers see answered.",
-    "Profile/UGC hosts (gitlab, speakerdeck, hashnode, fiverr) are grouped under 'forum' as user-generated pages, including business profile pages."
+    "Profile/UGC hosts (gitlab, speakerdeck, hashnode, fiverr) are grouped under 'forum' as user-generated pages, including business profile pages.",
+    "'openseo_serp_vn' = OpenSEO MCP get_serp_results (DataForSEO live Google SERP), location 2704 Vietnam, language en, desktop, depth 20, 2026-10-24. 'results' lists the organic result domains in the order Google showed them; positions are deliberately not stored. Local pack: rentalmotorbikevietnam.com, hanoimidorihomes.com (13535), giahungmotorbikerental.com on most head queries. AI Overview seen on: motorbike rental hanoi old quarter, 50cc motorbike rental hanoi, motorbike rental deposit hanoi, nguyen tu motorbike rental.",
+    "2026-10-24: app.rentbikehanoi.com appeared once in the observed sets (the cost hub, for 'monthly motorbike rental hanoi', where the owner page is /monthly-motorbike-rental-hanoi/). The brand query 'nguyen tu motorbike rental' showed Facebook groups, Tripadvisor and old blog profiles, not this site. rentbikehanoi.com (a separate site, not in this repo) appeared for the monthly and deposit queries."
   ],
   "domain_types": {
     "forum": [
@@ -24,7 +26,11 @@
       "speakerdeck.com",
       "hashnode.com",
       "de.fiverr.com",
-      "it.fiverr.com"
+      "it.fiverr.com",
+      "tripadvisor.com",
+      "hanoi.worldplaces.me",
+      "motorbikenguyentu.wordpress.com",
+      "motorbikenguyentu-34.webself.net"
     ],
     "rental_operator": [
       "offroadvietnam.com",
@@ -33,7 +39,20 @@
       "danangbike.com",
       "bmtraveladv.com",
       "wp.tigitmotorbikes.com",
-      "vietnammotorcycletours.com"
+      "vietnammotorcycletours.com",
+      "rentalmotorbikehanoi.com",
+      "stylemotorbikes.com",
+      "phungmotorbike.com",
+      "rentalmotorbikevietnam.com",
+      "azmotorbikes.com",
+      "hanoimotorbikerental.com",
+      "happyzipmotorbikes.com",
+      "vietnammotorbikerental.com",
+      "tuanmotorbike.com",
+      "saigonmotorcycles.com",
+      "anhwu.com",
+      "motorvina.com",
+      "rentbikehanoi.com"
     ],
     "marketplace": [
       "riderly.com",
@@ -372,6 +391,111 @@
         "zero alcohol limit",
         "helmet for rider and passenger",
         "conflicting fine tables across sites"
+      ]
+    },
+    {
+      "query": "motorbike rental hanoi",
+      "source": "openseo_serp_vn",
+      "intent": "commercial / local",
+      "results": [
+        "riderly.com",
+        "rentalmotorbikehanoi.com",
+        "stylemotorbikes.com",
+        "tigitmotorbikes.com",
+        "facebook.com",
+        "tripadvisor.com",
+        "phungmotorbike.com",
+        "vinwonders.com",
+        "rentalmotorbikevietnam.com",
+        "reddit.com",
+        "youtube.com",
+        "azmotorbikes.com",
+        "tripadvisor.com",
+        "rentabikevn.com",
+        "hanoimotorbikerental.com"
+      ],
+      "topics_seen": [
+        "local pack",
+        "people also ask",
+        "one-way rentals",
+        "booking deposit 25%",
+        "prices in USD per day"
+      ]
+    },
+    {
+      "query": "motorbike rental deposit hanoi",
+      "source": "openseo_serp_vn",
+      "intent": "informational",
+      "results": [
+        "reddit.com",
+        "facebook.com",
+        "hanoimotorbikerental.com",
+        "motorvina.com",
+        "happyzipmotorbikes.com",
+        "vinwonders.com",
+        "rentbikehanoi.com",
+        "tripadvisor.com",
+        "youtube.com",
+        "vietnammotorbikerental.com",
+        "tuanmotorbike.com",
+        "rentabikevn.com",
+        "reddit.com",
+        "facebook.com"
+      ],
+      "topics_seen": [
+        "passport vs cash deposit",
+        "deposit amount by bike",
+        "deposit refund at return",
+        "AI overview",
+        "people also ask"
+      ]
+    },
+    {
+      "query": "50cc motorbike rental hanoi",
+      "source": "openseo_serp_vn",
+      "intent": "commercial",
+      "results": [
+        "rentalmotorbikehanoi.com",
+        "facebook.com",
+        "hanoimotorbikerental.com",
+        "facebook.com",
+        "saigonmotorcycles.com",
+        "tigitmotorbikes.com",
+        "facebook.com",
+        "tripadvisor.com",
+        "phungmotorbike.com",
+        "facebook.com",
+        "facebook.com",
+        "tripadvisor.com",
+        "happyzipmotorbikes.com",
+        "anhwu.com"
+      ],
+      "topics_seen": [
+        "50cc without a licence",
+        "50cc electric scooters",
+        "AI overview",
+        "local pack"
+      ]
+    },
+    {
+      "query": "nguyen tu motorbike rental",
+      "source": "openseo_serp_vn",
+      "intent": "navigational (brand)",
+      "results": [
+        "facebook.com",
+        "tripadvisor.com",
+        "facebook.com",
+        "tripadvisor.com",
+        "facebook.com",
+        "motorbikenguyentu.wordpress.com",
+        "tripadvisor.com",
+        "hanoi.worldplaces.me",
+        "motorbikenguyentu-34.webself.net"
+      ],
+      "topics_seen": [
+        "AI overview",
+        "old profiles with different opening hours",
+        "another business listing the same street address"
       ]
     }
   ],

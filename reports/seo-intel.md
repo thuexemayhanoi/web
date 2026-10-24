@@ -8,8 +8,8 @@ Generated 2026-10-24 by `node tools/seo-intel.mjs`. Search Console and analytics
 
 ## Summary
 
-- 71 search phrases (keywords + autocomplete, do-not-target excluded) in 20 intent clusters: 20 owned, 0 with two competing pages, 0 without a dedicated page.
-- 13 SERP observations, 119 results: publisher 30, rental_operator 28, marketplace 24, forum 21, parasite_spam 16.
+- 73 search phrases (keywords + autocomplete, do-not-target excluded) in 20 intent clusters: 20 owned, 0 with two competing pages, 0 without a dedicated page.
+- 17 SERP observations, 171 results: rental_operator 50, forum 48, publisher 32, marketplace 25, parasite_spam 16.
 - 16 questions seen answered on competing pages; 0 are not yet answered on the hub that should own them.
 
 ## Keyword clusters and owner URLs
@@ -155,6 +155,10 @@ Keyword clusters owned here: motorbike rental vietnam; motorbike license vietnam
 | buy or rent motorbike hanoi expat | websearch | informational / decision | forum 4, rental_operator 4, marketplace 1 | monthly rental as expat default; buying for one-way trips; no current resale / registration cost comparison found |
 | riding a motorbike in hanoi traffic tips for foreigners | websearch | informational / safety | publisher 8, forum 1 | flow with traffic; give buses and trucks space; avoid night riding; fuel stations sparse in the centre; Grab as an alternative |
 | vietnam motorbike rules foreigners 2025 helmet alcohol fines | websearch | informational / legal | publisher 7, rental_operator 3 | Decree 168/2024 fines from 2025; zero alcohol limit; helmet for rider and passenger; conflicting fine tables across sites |
+| motorbike rental hanoi | openseo_serp_vn | commercial / local | marketplace 1, rental_operator 8, forum 5, publisher 1 | local pack; people also ask; one-way rentals; booking deposit 25%; prices in USD per day |
+| motorbike rental deposit hanoi | openseo_serp_vn | informational | forum 6, rental_operator 7, publisher 1 | passport vs cash deposit; deposit amount by bike; deposit refund at return; AI overview; people also ask |
+| 50cc motorbike rental hanoi | openseo_serp_vn | commercial | rental_operator 7, forum 7 | 50cc without a licence; 50cc electric scooters; AI overview; local pack |
+| nguyen tu motorbike rental | openseo_serp_vn | navigational (brand) | forum 9 | AI overview; old profiles with different opening hours; another business listing the same street address |
 
 ## Reading the SERP
 

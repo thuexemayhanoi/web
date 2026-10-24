@@ -6,7 +6,7 @@ published: false
 
 Generated 2026-10-24 by `node tools/seo-master-matrix.mjs` from the repository HTML (static audit, not a live crawl). Baseline: 2026-10-14. Full evidence per URL and issue: `reports/seo-master-matrix.json`. Items that need a decision: `reports/seo-approval-proposals.md`.
 
-**Data limits.** Google Search Console is not connected to this audit, so rankings, clicks, impressions and index status are **UNKNOWN** on every row. Search volumes come only from Ubersuggest (free tier, 2026-10-14); every other volume is **UNKNOWN**. Business facts come only from `data/site-system.json`. No title or meta description is marked PROTECTED in the repo (field `protected` in the JSON; set it in `data/seo-master-overrides.json`).
+**Data limits.** Google Search Console is not connected to this audit, so rankings, clicks, impressions and index status are **UNKNOWN** on every row. Search volumes come only from Ubersuggest (free tier, 2026-10-24); every other volume is **UNKNOWN**. Business facts come only from `data/site-system.json`. No title or meta description is marked PROTECTED in the repo (field `protected` in the JSON; set it in `data/seo-master-overrides.json`).
 
 ## Summary
 
@@ -89,6 +89,7 @@ Generated 2026-10-24 by `node tools/seo-master-matrix.mjs` from the repository H
 | B12 | 2026-10-16 | P2 | b85a25a | Plain-English rewrite, wave B (trips, motorbike guides and Vietnam rental hubs): 2,750 over-styled sentences rewritten on 259 pages; same advice and links, no new facts or numbers. | matrix C-PURPLE 487 -> 252 pages (waves A and B hubs at 0); validator 0 errors; full CI QA suite locally |
 | B13 | 2026-10-16 | P2 | ef3d0e2 | Plain-English rewrite, wave C (monthly rental, buying vs renting and Old Quarter hubs): 3,459 over-styled sentences rewritten on 260 pages; same advice and links, no new facts or numbers. Two rewrites that mentioned search engines corrected. | matrix C-PURPLE 252 -> 0 pages; P0/P1 0; validator 0 errors; full CI QA suite locally |
 | B14 | 2026-10-24 | P0/P1 | this commit | Owner reference data applied: NAP with Bo De ward, Google Maps cid link, GBP and Vietnamese names in alternateName, deposits per model (2,000,000-5,000,000 VND) and deposit policy in data/site-system.json, rendered by new generated slots (RATES with a deposit column, DEPOSITS, NAP) on the homepage, cost hub, deposit guide, About and Contact; direct deposit answers in the FAQ, deposit guide and chat assistant. New /about/ (AboutPage) and /contact/ (ContactPage) pages; header, drawer, footer and CTA link to them; menu items that sent five different labels to one hub now point to distinct pages or sections. Privacy policy and terms rewritten in full from the site's actual behaviour. 304 self-talk sentences and headings about 'inventing' data rewritten on 244 pages (validated: no new numbers, links unchanged). robots.txt disallows internal folders. tools/qa-seo-guard.mjs added to both workflows. | node tools/qa-seo-guard.mjs (negative-tested); full CI QA suite locally; Playwright 375/768/1280 px, no overflow or console errors |
+| B15 | 2026-10-24 | P1/P2 | this commit | Live research with connectors: Google SERP for 8 head queries (OpenSEO/DataForSEO, Vietnam, en), DataForSEO keyword volumes, OpenSEO crawl of 50 live pages (only 5 info-level meta length notes), PageSpeed (mobile LCP 1.7 s, CLS 0, TBT 0). Fixes: --brand-text token (#b93d0a light) for orange text and labels, underlined links inside muted text; Lighthouse accessibility 93-96 -> 100 on home, About, cost hub, deposit guide and FAQ. Brand: homepage title ends with 'Nguyen Tu', WebSite schema name from brand.siteName (brand query showed no page of this site). Monthly intent: Google showed the cost hub for 'monthly motorbike rental hanoi', so the cost hub now links to the monthly owner page with a descriptive anchor and the monthly hub states the deposit. Hub prose addresses include the Bo De ward. SERP and keyword data recorded in data/serp-research.json and data/keyword-research.json (no positions stored). | Lighthouse a11y/SEO/best practices 100/100/100 on 5 pages; qa-seo-guard (brand checks added); full CI QA suite locally |
 
 ## Keyword research used
 
@@ -96,36 +97,41 @@ Volumes are monthly averages exactly as returned by the tool; "UNKNOWN" means no
 
 | Keyword | Volume | Note |
 |---|---|---|
-| hanoi motorbike rental | 2900/mo global, 1900/mo VN (Ubersuggest 2026-10-14) |  |
-| motorbike rental hanoi | 1900/mo VN (Ubersuggest 2026-10-14) | close variant of 'hanoi motorbike rental' |
-| hanoi scooter rental | 480/mo global (Ubersuggest 2026-10-14) |  |
+| hanoi motorbike rental | 2900/mo global, 1900/mo VN (Ubersuggest 2026-10-24) |  |
+| motorbike rental hanoi | 1900/mo VN (Ubersuggest 2026-10-24) | close variant of 'hanoi motorbike rental' |
+| hanoi scooter rental | 480/mo global (Ubersuggest 2026-10-24) |  |
 | scooter rental hanoi | UNKNOWN | tool returned no metrics |
 | motorbike hire hanoi | UNKNOWN | tool returned no metrics |
 | motorbike rental hanoi old quarter | UNKNOWN | seen in Google autocomplete (VN) |
-| hanoi old quarter motorbike rental | 0/mo global (Ubersuggest 2026-10-14) |  |
-| hanoi old quarter motorbike | 0/mo global (Ubersuggest 2026-10-14) |  |
-| hanoi motorbike rental cost | 50/mo global (Ubersuggest 2026-10-14) | seen in Google autocomplete (VN) |
-| motorbike rental hanoi price | 10/mo global (Ubersuggest 2026-10-14) | seen in Google autocomplete (VN) |
+| hanoi old quarter motorbike rental | 0/mo global (Ubersuggest 2026-10-24) |  |
+| hanoi old quarter motorbike | 0/mo global (Ubersuggest 2026-10-24) |  |
+| hanoi motorbike rental cost | 50/mo global (Ubersuggest 2026-10-24) | seen in Google autocomplete (VN) |
+| motorbike rental hanoi price | 10/mo global (Ubersuggest 2026-10-24) | seen in Google autocomplete (VN) |
 | hanoi motorbike rental price | UNKNOWN | seen in Google autocomplete (VN) |
-| monthly motorbike rental | 110/mo global (Ubersuggest 2026-10-14) |  |
+| monthly motorbike rental | 110/mo global (Ubersuggest 2026-10-24) |  |
 | monthly motorbike rental hanoi | UNKNOWN | seen in Google autocomplete (VN) |
-| long term motorbike rental hanoi | 0/mo global (Ubersuggest 2026-10-14) |  |
-| weekly motorbike rental | 0/mo global (Ubersuggest 2026-10-14) |  |
+| long term motorbike rental hanoi | 0/mo global (Ubersuggest 2026-10-24) |  |
+| weekly motorbike rental | 0/mo global (Ubersuggest 2026-10-24) |  |
 | daily motorbike rental hanoi | UNKNOWN | not queried |
-| 50cc scooter rental | 320/mo global (Ubersuggest 2026-10-14) |  |
-| 50cc scooter rental hanoi | 30/mo global (Ubersuggest 2026-10-14) | seen in Google autocomplete (VN) |
-| 50cc scooter rental vietnam | 20/mo global (Ubersuggest 2026-10-14) |  |
-| 50cc motorbike rental vietnam | 0/mo global (Ubersuggest 2026-10-14) |  |
+| 50cc scooter rental | 320/mo global (Ubersuggest 2026-10-24) |  |
+| 50cc scooter rental hanoi | 30/mo global (Ubersuggest 2026-10-24) | seen in Google autocomplete (VN) |
+| 50cc scooter rental vietnam | 20/mo global (Ubersuggest 2026-10-24) |  |
+| 50cc motorbike rental vietnam | 0/mo global (Ubersuggest 2026-10-24) |  |
 | 50cc motorbike rental hanoi | UNKNOWN | seen in Google autocomplete (VN) |
 | hanoi motorbike rental 50cc | UNKNOWN | seen in Google autocomplete (VN) |
-| electric scooter rental hanoi | 10/mo global, 10/mo VN (Ubersuggest 2026-10-14) | seen in Google autocomplete (VN) |
+| electric scooter rental hanoi | 10/mo global, 10/mo VN (Ubersuggest 2026-10-24) | seen in Google autocomplete (VN) |
 | electric motorbike rental hanoi | UNKNOWN | seen in Google autocomplete (VN) |
-| renting a motorbike in vietnam | 5400/mo global (Ubersuggest 2026-10-14) | shares volume with 'motorbike rental vietnam' |
-| motorbike rental vietnam | 5400/mo global (Ubersuggest 2026-10-14) | shares volume with 'renting a motorbike in vietnam' |
-| motorbike license vietnam | 320/mo global (Ubersuggest 2026-10-14) |  |
-| motorbike license vietnam tourist | 0/mo global (Ubersuggest 2026-10-14) |  |
-| one way motorbike rental vietnam | 50/mo global (Ubersuggest 2026-10-14) | service not verified - do not target |
-| hanoi motorbike rental & sales | 170/mo global (Ubersuggest 2026-10-14) | navigational query for another business - do not target |
+| renting a motorbike in vietnam | 5400/mo global (Ubersuggest 2026-10-24) | shares volume with 'motorbike rental vietnam' |
+| motorbike rental vietnam | 5400/mo global (Ubersuggest 2026-10-24) | shares volume with 'renting a motorbike in vietnam' |
+| motorbike license vietnam | 320/mo global (Ubersuggest 2026-10-24) |  |
+| motorbike license vietnam tourist | 0/mo global (Ubersuggest 2026-10-24) |  |
+| one way motorbike rental vietnam | 50/mo global (Ubersuggest 2026-10-24) | service not verified - do not target |
+| hanoi motorbike rental & sales | 170/mo global (Ubersuggest 2026-10-24) | navigational query for another business - do not target |
+| rent motorbike in vietnam | UNKNOWN |  |
+| hanoi motorbike | UNKNOWN |  |
+| scooter rental hanoi old quarter | UNKNOWN |  |
+| scooter rental hanoi price | UNKNOWN |  |
+| hanoi motorbike hire | UNKNOWN |  |
 
 Do not target (service not verified or another business): motorbike rental hanoi airport, hanoi motorbike rental one way, motorbike rental hanoi to ho chi minh, motorbike rental hanoi to hoi an, hanoi big motorbike rental, hanoi vespa rental, hanoi motorbike rental & sales.
 

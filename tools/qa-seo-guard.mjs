@@ -41,6 +41,11 @@ const lb=(JSON.parse(homeSchema)['@graph']||[]).find(n=>n['@type']==='LocalBusin
 if(lb.telephone!==b.phoneTel) errors.push('index.html: LocalBusiness telephone does not match config');
 if(lb.hasMap!==mapsUrl) errors.push('index.html: LocalBusiness hasMap does not match config');
 if(!lb.address||lb.address.streetAddress!==b.streetAddress||lb.address.addressLocality!==b.locality) errors.push('index.html: LocalBusiness address does not match config');
+// Brand queries need the brand on the homepage title and as the WebSite name.
+const ws=(JSON.parse(homeSchema)['@graph']||[]).find(n=>n['@type']==='WebSite')||{};
+if(ws.name!==system.brand.siteName) errors.push('index.html: WebSite name does not match brand.siteName');
+const homeTitle=(pages.get('index.html').match(/<title>([^<]*)<\/title>/)||[])[1]||'';
+if(!/Nguyen Tu/.test(homeTitle)) errors.push('index.html: homepage title lacks the brand name');
 for(const p of ['index.html','about/index.html','contact/index.html']){
   if(!(pages.get(p)||'').includes('<!-- SLOT:NAP:START -->')) errors.push(p+': generated NAP block missing');
 }

@@ -5,30 +5,33 @@
   "keywords": {
    "ubersuggest_global": "Ubersuggest MCP keyword_overview / match_keywords, no location (global), language en, free tier, 2026-10-14",
    "ubersuggest_vn": "Ubersuggest MCP keyword_suggestions / match_keywords, locId 2704 (Vietnam), language en, free tier, 2026-10-14",
-   "autocomplete_vn": "Ubersuggest MCP google_suggestions (Google autocomplete expansions), country vn, language en, 2026-10-14. No metrics."
+   "autocomplete_vn": "Ubersuggest MCP google_suggestions (Google autocomplete expansions), country vn, language en, 2026-10-14. No metrics.",
+   "openseo_dataforseo_vn": "OpenSEO MCP research_keywords (DataForSEO Labs), location 2704 Vietnam, language en, 2026-10-24. Fields *_dfs; KD = keyword difficulty 0-100."
   },
   "serp": [
    "Public search observations only. Result order is the order the search tool returned, NOT a Google ranking. No positions, clicks or traffic are implied.",
    "Sources: 'websearch' = Claude WebSearch tool (standard mode, US index) on 2026-10-16; 'firecrawl' = Firecrawl web search on 2026-10-15 (account ran out of credits after one query).",
    "app.rentbikehanoi.com did not appear in any observed result set (new site, no index data). This is an observation, not a ranking measurement.",
    "Facts mentioned by competitors (prices, fines, mileage caps) are NOT business facts for this site and must never be copied into pages as our policy. They only show which questions searchers see answered.",
-   "Profile/UGC hosts (gitlab, speakerdeck, hashnode, fiverr) are grouped under 'forum' as user-generated pages, including business profile pages."
+   "Profile/UGC hosts (gitlab, speakerdeck, hashnode, fiverr) are grouped under 'forum' as user-generated pages, including business profile pages.",
+   "'openseo_serp_vn' = OpenSEO MCP get_serp_results (DataForSEO live Google SERP), location 2704 Vietnam, language en, desktop, depth 20, 2026-10-24. 'results' lists the organic result domains in the order Google showed them; positions are deliberately not stored. Local pack: rentalmotorbikevietnam.com, hanoimidorihomes.com (13535), giahungmotorbikerental.com on most head queries. AI Overview seen on: motorbike rental hanoi old quarter, 50cc motorbike rental hanoi, motorbike rental deposit hanoi, nguyen tu motorbike rental.",
+   "2026-10-24: app.rentbikehanoi.com appeared once in the observed sets (the cost hub, for 'monthly motorbike rental hanoi', where the owner page is /monthly-motorbike-rental-hanoi/). The brand query 'nguyen tu motorbike rental' showed Facebook groups, Tripadvisor and old blog profiles, not this site. rentbikehanoi.com (a separate site, not in this repo) appeared for the monthly and deposit queries."
   ],
   "gsc": "NOT CONNECTED - clicks, impressions, rankings UNKNOWN"
  },
  "summary": {
-  "phrases": 71,
+  "phrases": 73,
   "clusters": 20,
   "owned": 20,
   "check": 0,
   "gap_clusters": 0,
-  "serp_queries": 13,
+  "serp_queries": 17,
   "serp_result_types": {
    "parasite_spam": 16,
-   "rental_operator": 28,
-   "publisher": 30,
-   "forum": 21,
-   "marketplace": 24
+   "rental_operator": 50,
+   "publisher": 32,
+   "forum": 48,
+   "marketplace": 25
   },
   "gap_topics": 16,
   "gap_topics_open": 0
@@ -74,6 +77,14 @@
      "from": [
       "keyword"
      ]
+    },
+    {
+     "phrase": "rent motorbike in vietnam",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "keyword"
+     ]
     }
    ]
   },
@@ -111,6 +122,14 @@
      ]
     },
     {
+     "phrase": "hanoi motorbike",
+     "volume": null,
+     "volume_field": "UNKNOWN",
+     "from": [
+      "keyword"
+     ]
+    },
+    {
      "phrase": "motorbike hire hanoi",
      "volume": null,
      "volume_field": "UNKNOWN",
@@ -123,7 +142,8 @@
      "volume": null,
      "volume_field": "UNKNOWN",
      "from": [
-      "autocomplete"
+      "autocomplete",
+      "keyword"
      ]
     },
     {
@@ -370,7 +390,8 @@
      "volume": null,
      "volume_field": "UNKNOWN",
      "from": [
-      "autocomplete"
+      "autocomplete",
+      "keyword"
      ]
     },
     {
@@ -675,7 +696,8 @@
      "volume": null,
      "volume_field": "UNKNOWN",
      "from": [
-      "autocomplete"
+      "autocomplete",
+      "keyword"
      ]
     },
     {
@@ -2208,6 +2230,69 @@
     "zero alcohol limit",
     "helmet for rider and passenger",
     "conflicting fine tables across sites"
+   ]
+  },
+  {
+   "query": "motorbike rental hanoi",
+   "source": "openseo_serp_vn",
+   "intent": "commercial / local",
+   "result_types": {
+    "marketplace": 1,
+    "rental_operator": 8,
+    "forum": 5,
+    "publisher": 1
+   },
+   "topics_seen": [
+    "local pack",
+    "people also ask",
+    "one-way rentals",
+    "booking deposit 25%",
+    "prices in USD per day"
+   ]
+  },
+  {
+   "query": "motorbike rental deposit hanoi",
+   "source": "openseo_serp_vn",
+   "intent": "informational",
+   "result_types": {
+    "forum": 6,
+    "rental_operator": 7,
+    "publisher": 1
+   },
+   "topics_seen": [
+    "passport vs cash deposit",
+    "deposit amount by bike",
+    "deposit refund at return",
+    "AI overview",
+    "people also ask"
+   ]
+  },
+  {
+   "query": "50cc motorbike rental hanoi",
+   "source": "openseo_serp_vn",
+   "intent": "commercial",
+   "result_types": {
+    "rental_operator": 7,
+    "forum": 7
+   },
+   "topics_seen": [
+    "50cc without a licence",
+    "50cc electric scooters",
+    "AI overview",
+    "local pack"
+   ]
+  },
+  {
+   "query": "nguyen tu motorbike rental",
+   "source": "openseo_serp_vn",
+   "intent": "navigational (brand)",
+   "result_types": {
+    "forum": 9
+   },
+   "topics_seen": [
+    "AI overview",
+    "old profiles with different opening hours",
+    "another business listing the same street address"
    ]
   }
  ],

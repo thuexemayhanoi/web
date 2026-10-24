@@ -31,7 +31,7 @@ for (const [k, v] of Object.entries(kw.keywords || {})) {
   if (numeric.length && !(Array.isArray(v.source) && v.source.length)) errors.push(`keyword-research: "${k}" has metrics but no source`);
   for (const s of v.source || []) if (!(kw.sources || {})[s]) errors.push(`keyword-research: "${k}" cites unknown source "${s}"`);
 }
-const SERP_SOURCES = new Set(['websearch', 'firecrawl']);
+const SERP_SOURCES = new Set(['websearch', 'firecrawl', 'openseo_serp_vn']);
 const typeOf = new Map();
 for (const [t, list] of Object.entries(serp.domain_types || {})) for (const d of list) typeOf.set(d, t);
 for (const q of serp.queries || []) {

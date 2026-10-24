@@ -6,7 +6,13 @@
     "logoSmallPath": "/assets/img/logo-116.png",
     "logoAbsolute": "https://app.rentbikehanoi.com/Logonh.png",
     "headerPrimary": "Motorbike Rental",
-    "headerSecondary": "Nguyen Tu · Hanoi"
+    "headerSecondary": "Nguyen Tu · Hanoi",
+    "siteName": "Hanoi Motorbike Rental - Nguyen Tu",
+    "siteAlternateNames": [
+      "Motorbike Rental - Nguyen Tu",
+      "Nguyen Tu Motorbike Rental",
+      "Hanoi Motorbike Rental"
+    ]
   },
   "business": {
     "name": "Motorbike Rental - Nguyen Tu",
@@ -283,7 +289,7 @@
     ]
   },
   "assets": {
-    "version": "20261024.1"
+    "version": "20261024.2"
   },
   "features": {
     "autoSchema": true,
