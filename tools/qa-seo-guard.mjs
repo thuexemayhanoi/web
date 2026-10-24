@@ -109,7 +109,15 @@ for(const p of indexable){
   }
 }
 
-// 6. Internal tooling stays out of the crawl.
+// 6. Meta descriptions fit the snippet (Google truncates around 155-160 characters).
+const NAMED={amp:'&',quot:'"',apos:"'",lt:'<',gt:'>',nbsp:' ',rsquo:'’',lsquo:'‘',rdquo:'”',ldquo:'“',mdash:'—',ndash:'–',hellip:'…',middot:'·'};
+const decode=(v)=>v.replace(/&#x([0-9a-f]+);/gi,(_,h)=>String.fromCodePoint(parseInt(h,16))).replace(/&#(\d+);/g,(_,n)=>String.fromCodePoint(Number(n))).replace(/&([a-z]+);/gi,(m,n)=>NAMED[n.toLowerCase()]??m);
+for(const p of indexable){
+  const d=decode((pages.get(p).match(/<meta name="description" content="([^"]*)"/)||[])[1]||'');
+  if(d.length>160) errors.push(p+': meta description '+d.length+' chars (max 160)');
+}
+
+// 7. Internal tooling stays out of the crawl.
 const robots=read('robots.txt');
 for(const dir of ['/data/','/tools/','/reports/']) if(!robots.includes('Disallow: '+dir)) errors.push('robots.txt: missing Disallow: '+dir);
 

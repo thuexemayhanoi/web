@@ -126,5 +126,13 @@
     "commit": "this commit",
     "changes": "Live research with connectors: Google SERP for 8 head queries (OpenSEO/DataForSEO, Vietnam, en), DataForSEO keyword volumes, OpenSEO crawl of 50 live pages (only 5 info-level meta length notes), PageSpeed (mobile LCP 1.7 s, CLS 0, TBT 0). Fixes: --brand-text token (#b93d0a light) for orange text and labels, underlined links inside muted text; Lighthouse accessibility 93-96 -> 100 on home, About, cost hub, deposit guide and FAQ. Brand: homepage title ends with 'Nguyen Tu', WebSite schema name from brand.siteName (brand query showed no page of this site). Monthly intent: Google showed the cost hub for 'monthly motorbike rental hanoi', so the cost hub now links to the monthly owner page with a descriptive anchor and the monthly hub states the deposit. Hub prose addresses include the Bo De ward. SERP and keyword data recorded in data/serp-research.json and data/keyword-research.json (no positions stored).",
     "verification": "Lighthouse a11y/SEO/best practices 100/100/100 on 5 pages; qa-seo-guard (brand checks added); full CI QA suite locally"
+  },
+  {
+    "id": "B16",
+    "date": "2026-10-24",
+    "priority": "P2",
+    "commit": "this commit",
+    "changes": "139 meta descriptions of 161-165 characters (flagged by the OpenSEO live crawl) shortened to 146-157 characters with the same meaning, topic phrase and numbers; Open Graph/Twitter copies and related cards follow through the build. qa-seo-guard fails on any description over 160 characters; factory meta_description_max_chars 180 -> 160 so new drafts match.",
+    "verification": "validator: lengths 140-158, digits subset, unique site-wide; qa-seo-guard; full CI QA suite locally"
   }
 ]
