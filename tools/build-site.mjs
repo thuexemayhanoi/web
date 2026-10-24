@@ -180,10 +180,11 @@ function ratesBlock(){
   const cols=['Per day (VND)','Per week (VND)','Per month (VND)','Deposit (VND)'];
   const cell=(label,html)=>'<td role="cell" data-label="'+attr(label)+'">'+html+'</td>';
   const rows=Object.values(system.prices).map(p=>'<tr role="row"><th scope="row" role="rowheader">'+escapeTocText(p.name)+'</th>'+cell(cols[0],amountCell(p.day))+cell(cols[1],amountCell(p.week))+cell(cols[2],amountCell(p.month))+cell(cols[3],depositCell(p))+'</tr>').join('\n');
-  const onRequest=Object.values(system.prices).filter(p=>p.week==null||p.month==null).map(p=>escapeTocText(p.name));
+  const onRequest=Object.values(system.prices).filter(p=>p.day!=null&&(p.week==null||p.month==null)).map(p=>escapeTocText(p.name));
+  const allOnRequest=Object.values(system.prices).filter(p=>p.day==null&&p.week==null&&p.month==null).map(p=>escapeTocText(p.name));
   const dp=system.depositPolicy;
   return '<!-- SLOT:RATES:START -->\n<div class="table-scroll" role="region" aria-label="Motorbike rental prices and deposits" tabindex="0">\n<table class="rates-table" role="table">\n<thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">Motorbike</th>'+cols.map(c=>'<th scope="col" role="columnheader">'+c+'</th>').join('')+'</tr></thead>\n<tbody role="rowgroup">\n'+rows+'\n</tbody>\n</table>\n</div>\n'
-    +'<p class="rates-note">'+escapeTocText(system.priceNote)+(onRequest.length?' Weekly and monthly prices for the '+onRequest.join(', ')+' are given on request.':'')+' '+escapeTocText(dp.summary)+' <a href="'+attr(dp.guideHref)+'">How rental deposits work</a>.</p>\n<!-- SLOT:RATES:END -->';
+    +'<p class="rates-note">'+escapeTocText(system.priceNote)+(onRequest.length?' Weekly and monthly prices for the '+onRequest.join(', ')+' are given on request.':'')+(allOnRequest.length?' Prices for the '+allOnRequest.join(', ')+' are given on request by model.':'')+' '+escapeTocText(dp.summary)+' <a href="'+attr(dp.guideHref)+'">How rental deposits work</a>.</p>\n<!-- SLOT:RATES:END -->';
 }
 function depositsBlock(){
   const dp=system.depositPolicy;
@@ -314,7 +315,7 @@ function longDate(iso){
 // A range stays a range (minPrice/maxPrice); a missing period is omitted, never estimated.
 function offerCatalog(){
   const units={day:['DAY','day'],week:['WEE','week'],month:['MON','month']};
-  const items=Object.values(system.prices).map(p=>{
+  const items=Object.values(system.prices).filter(p=>p.day!=null||p.week!=null||p.month!=null).map(p=>{
     const specs=[];
     for(const [k,[code,text]] of Object.entries(units)){
       const v=p[k];

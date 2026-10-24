@@ -86,13 +86,13 @@ var PRICES = {
     "deposit": 3000000
   },
   "electric": {
-    "name": "Electric Motorbike",
+    "name": "Electric Motorbike / E-Bike",
     "cat": "electric",
-    "day": 200000,
-    "week": 1000000,
-    "month": 1500000,
+    "day": null,
+    "week": null,
+    "month": null,
     "deposit": null,
-    "depositNote": "Confirmed per model"
+    "depositNote": "By model"
   },
   "cc50": {
     "name": "50cc Scooter / Motorbike",
@@ -108,6 +108,7 @@ var DEPOSIT_POLICY = {
   "summary": "Motorbike rental deposits are 2,000,000 to 5,000,000 VND, depending on the motorbike.",
   "points": [
     "The exact deposit depends on the model you rent (see the table).",
+    "The rental price and the deposit are separate amounts.",
     "Some alternative forms of security documents can be discussed individually, subject to conditions and a lawful agreement.",
     "The deposit, rental price, rental period, motorbike condition and any delivery or collection cost are confirmed clearly before the rental contract is signed.",
     "The deposit is refunded under the terms of the rental contract after you return the motorbike and complete the related obligations."

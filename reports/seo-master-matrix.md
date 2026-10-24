@@ -93,6 +93,7 @@ Generated 2026-10-24 by `node tools/seo-master-matrix.mjs` from the repository H
 | B16 | 2026-10-24 | P2 | this commit | 139 meta descriptions of 161-165 characters (flagged by the OpenSEO live crawl) shortened to 146-157 characters with the same meaning, topic phrase and numbers; Open Graph/Twitter copies and related cards follow through the build. qa-seo-guard fails on any description over 160 characters; factory meta_description_max_chars 180 -> 160 so new drafts match. | validator: lengths 140-158, digits subset, unique site-wide; qa-seo-guard; full CI QA suite locally |
 | B17 | 2026-10-24 | P1 | this commit | Head-term cannibalization fixed with evidence from an anchor audit: the homepage (owner of 'hanoi motorbike rental', 2,400/mo VN) had no contextual link with that anchor, while /hanoi-motorbike-rental/ (H1 'Hanoi Motorbike Rental Guide') received it from the menu (2,008), footer (1,004), breadcrumbs (177), its card and 273 body links. Hub labels in header, drawer, footer, card catalog and 177 breadcrumbs now say 'Guide'; 272 body anchors absorbed the adjacent word ('guide', 'page', 'overview of', 'fleet') with unchanged text; one generic mention now links the homepage; the publisher box on 988 articles links the homepage with 'Hanoi motorbike rental'. Exact-match 'Hanoi Motorbike Rental' anchors pointing at the hub: 3,462 (menu 2,008, footer 1,004, breadcrumbs 177, body 273) -> 0; across all 20 keyword clusters no exact-match anchor now points away from its owner. seo-fix editorial hash ignores inline tags so these markup-only edits keep each page's lastmod (0 pages changed date). | anchor audit script; qa-seo-guard keyword-owner rule (negative-tested); full CI QA suite locally |
 | B18 | 2026-10-24 | P2 | this commit | GEO: the homepage Service node now carries hasOfferCatalog with one Offer per model and UnitPriceSpecification per period (DAY/WEE/MON; monthly ranges as minPrice/maxPrice; periods without a published price omitted), generated from data/site-system.json like the visible table. qa-seo-guard compares every schema price with the config. Checks also confirmed: on-page targeting of the 8 priority keywords (title, H1, intro) on their owner pages; H2 skeletons inside the 143 template families are distinct (2 of 956 pages share a skeleton; at most 22% of H2s shared per family); Lighthouse accessibility/best practices/SEO 100 on article, trip, monthly, contact and privacy templates. | qa-seo-guard schema price rule (negative-tested); Lighthouse 100/100/100 on 5 more templates; full CI QA suite locally |
+| B19 | 2026-10-24 | P0 | this commit | Owner price table (2026-10-24): electric motorbike / e-bike = contact for day, week and month, deposit by model; rental price and deposit are separate amounts. data/site-system.json electric prices set to null (name 'Electric Motorbike / E-Bike', deposit 'By model'); calculator shows a contact message for any period without a price; chat assistant answers 'priced on request'; homepage card 'Price on request'; schema offers only for models with a published price; generated price note lists models priced on request. Content: 578 sentences on 319 pages rewritten (electric price claims removed, other models' prices kept; two sentences that wrongly gave the 50cc a 1,000,000 VND week fixed), 15 electric-focused pages rewritten in place (339 blocks, 6 removed; titles, metas and H1s now say price on request; URLs unchanged), 17 sentences fixed by hand (derived arithmetic and 'same tier' wording). Before/after log: reports/electric-price-rewrites-2026-10-24.json. qa-seo-guard fails on any clause giving the electric model an amount. | validator 0 errors on 578 sentences and 339 blocks; guard rule negative-tested; Playwright calculator test (electric day/week/month = Contact us; other models unchanged); full CI QA suite locally |
 
 ## Keyword research used
 
@@ -190,37 +191,37 @@ Verify column: `audit` = `node tools/seo-master-matrix.mjs`; `RRT` = Google Rich
 | A2 | hanoi-50cc-motorbike-rental/rainy-weather | audience | 13 | 0.7 | 0.43 | 6% | 0% | - |
 | A2 | hanoi-50cc-motorbike-rental/route-suitability | audience | 13 | 0.61 | 0.43 | 2% | 0% | - |
 | A2 | hanoi-50cc-motorbike-rental/vs-automatic-scooter | audience | 13 | 0.67 | 0.43 | 3% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-beginners | format (selection guide vs checks and mistakes) | 2 | 0.62 | 0.47 | 2% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-beginners | format (selection guide vs checks and mistakes) | 2 | 0.63 | 0.47 | 2% | 0% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-braking | format (selection guide vs checks and mistakes) | 2 | 0.7 | 0.47 | 5% | 1% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-commuters | format (selection guide vs checks and mistakes) | 2 | 0.58 | 0.47 | 5% | 1% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-couples | format (selection guide vs checks and mistakes) | 2 | 0.64 | 0.47 | 3% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-commuters | format (selection guide vs checks and mistakes) | 2 | 0.58 | 0.47 | 4% | 1% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-couples | format (selection guide vs checks and mistakes) | 2 | 0.65 | 0.47 | 3% | 0% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-expats | format (selection guide vs checks and mistakes) | 2 | 0.72 | 0.47 | 4% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-for-daily-commuting | format (selection guide vs checks and mistakes) | 2 | 0.61 | 0.47 | 3% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-for-long-bien-riding | format (selection guide vs checks and mistakes) | 2 | 0.6 | 0.47 | 4% | 1% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-for-daily-commuting | format (selection guide vs checks and mistakes) | 2 | 0.62 | 0.47 | 3% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-for-long-bien-riding | format (selection guide vs checks and mistakes) | 2 | 0.61 | 0.47 | 4% | 1% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-for-long-stays | format (selection guide vs checks and mistakes) | 2 | 0.74 | 0.47 | 3% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-for-old-quarter-riding | format (selection guide vs checks and mistakes) | 2 | 0.64 | 0.47 | 3% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-for-old-quarter-riding | format (selection guide vs checks and mistakes) | 2 | 0.67 | 0.47 | 3% | 0% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-for-short-stays | format (selection guide vs checks and mistakes) | 2 | 0.64 | 0.47 | 2% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-for-weekend-use | format (selection guide vs checks and mistakes) | 2 | 0.73 | 0.47 | 4% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-for-west-lake-riding | format (selection guide vs checks and mistakes) | 2 | 0.67 | 0.47 | 7% | 3% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-for-weekend-use | format (selection guide vs checks and mistakes) | 2 | 0.73 | 0.47 | 3% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-for-west-lake-riding | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 7% | 3% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-fuel-planning | format (selection guide vs checks and mistakes) | 2 | 0.8 | 0.47 | 3% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-in-hot-weather | format (selection guide vs checks and mistakes) | 2 | 0.71 | 0.47 | 9% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-in-rain | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 6% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-in-winter | format (selection guide vs checks and mistakes) | 2 | 0.67 | 0.47 | 9% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-in-hot-weather | format (selection guide vs checks and mistakes) | 2 | 0.72 | 0.47 | 9% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-in-rain | format (selection guide vs checks and mistakes) | 2 | 0.69 | 0.47 | 5% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-in-winter | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 9% | 0% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-low-speed-control | format (selection guide vs checks and mistakes) | 2 | 0.71 | 0.47 | 5% | 2% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-parking | format (selection guide vs checks and mistakes) | 2 | 0.76 | 0.47 | 2% | 0% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-pre-ride-checks | format (selection guide vs checks and mistakes) | 2 | 0.64 | 0.47 | 2% | 0% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-rental-questions | format (selection guide vs checks and mistakes) | 2 | 0.71 | 0.47 | 2% | 1% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-route-planning | format (selection guide vs checks and mistakes) | 2 | 0.75 | 0.47 | 3% | 0% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-short-riders | format (selection guide vs checks and mistakes) | 2 | 0.67 | 0.47 | 5% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-solo-travelers | format (selection guide vs checks and mistakes) | 2 | 0.67 | 0.47 | 4% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-students | format (selection guide vs checks and mistakes) | 2 | 0.7 | 0.47 | 5% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-tall-riders | format (selection guide vs checks and mistakes) | 2 | 0.64 | 0.47 | 5% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-solo-travelers | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 4% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-students | format (selection guide vs checks and mistakes) | 2 | 0.71 | 0.47 | 4% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-tall-riders | format (selection guide vs checks and mistakes) | 2 | 0.65 | 0.47 | 5% | 0% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-vs-50cc | format (selection guide vs checks and mistakes) | 2 | 0.74 | 0.47 | 5% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-vs-semi-automatic | format (selection guide vs checks and mistakes) | 2 | 0.69 | 0.47 | 2% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-with-luggage | format (selection guide vs checks and mistakes) | 2 | 0.62 | 0.47 | 3% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-with-passenger | format (selection guide vs checks and mistakes) | 2 | 0.67 | 0.47 | 4% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-vs-semi-automatic | format (selection guide vs checks and mistakes) | 2 | 0.69 | 0.47 | 3% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-with-luggage | format (selection guide vs checks and mistakes) | 2 | 0.64 | 0.47 | 3% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-with-passenger | format (selection guide vs checks and mistakes) | 2 | 0.69 | 0.47 | 3% | 0% | - |
 | A3 | hanoi-scooter-rental/budget-automatic-scooter | format (selection guide vs checks and mistakes) | 2 | 0.75 | 0.47 | 7% | 2% | - |
-| A3 | hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter | format (selection guide vs checks and mistakes) | 2 | 0.6 | 0.47 | 2% | 0% | - |
+| A3 | hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter | format (selection guide vs checks and mistakes) | 2 | 0.59 | 0.47 | 2% | 0% | - |
 | A3 | hanoi-scooter-rental/honda-air-blade-for-city-riding | format (selection guide vs checks and mistakes) | 2 | 0.71 | 0.47 | 18% | 1% | - |
 | A3 | hanoi-scooter-rental/honda-air-blade-for-commuters | format (selection guide vs checks and mistakes) | 2 | 0.7 | 0.47 | 3% | 0% | - |
 | A3 | hanoi-scooter-rental/honda-air-blade-vs-honda-click | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 11% | 0% | - |
@@ -229,7 +230,7 @@ Verify column: `audit` = `node tools/seo-master-matrix.mjs`; `RRT` = Google Rich
 | A3 | hanoi-scooter-rental/honda-click-for-beginners | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 5% | 1% | - |
 | A3 | hanoi-scooter-rental/honda-click-for-city-riding | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 4% | 0% | - |
 | A3 | hanoi-scooter-rental/honda-click-vs-yamaha-mio | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 10% | 2% | /hanoi-scooter-rental/honda-click-vs-yamaha-mio-hanoi/ |
-| A3 | hanoi-scooter-rental/honda-vision-for-city-riding | format (selection guide vs checks and mistakes) | 2 | 0.56 | 0.47 | 18% | 5% | - |
+| A3 | hanoi-scooter-rental/honda-vision-for-city-riding | format (selection guide vs checks and mistakes) | 2 | 0.58 | 0.47 | 18% | 5% | - |
 | A3 | hanoi-scooter-rental/honda-vision-for-expats | format (selection guide vs checks and mistakes) | 2 | 0.61 | 0.47 | 5% | 2% | - |
 | A3 | hanoi-scooter-rental/honda-vision-vs-honda-click | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 9% | 1% | - |
 | A3 | hanoi-scooter-rental/honda-vision-vs-yamaha-mio | format (selection guide vs checks and mistakes) | 2 | 0.66 | 0.47 | 9% | 2% | - |
@@ -237,28 +238,28 @@ Verify column: `audit` = `node tools/seo-master-matrix.mjs`; `RRT` = Google Rich
 | A3 | hanoi-scooter-rental/small-scooter-vs-larger-scooter | format (selection guide vs checks and mistakes) | 2 | 0.64 | 0.47 | 20% | 2% | - |
 | A3 | hanoi-scooter-rental/yamaha-mio-for-beginners | format (selection guide vs checks and mistakes) | 2 | 0.71 | 0.47 | 9% | 1% | - |
 | A3 | hanoi-scooter-rental/yamaha-mio-for-city-riding | format (selection guide vs checks and mistakes) | 2 | 0.71 | 0.47 | 2% | 0% | - |
-| A4 | hanoi-motorbike-rental-cost/model-comparisons | rental period | 34 | 0.7 | 0.72 | 23% | 3% | - |
-| A4 | hanoi-motorbike-rental-cost/honda-air-blade | rental period | 5 | 0.82 | 0.72 | 23% | 19% | - |
-| A4 | hanoi-motorbike-rental-cost/honda-click | rental period | 5 | 0.79 | 0.72 | 24% | 18% | - |
-| A4 | hanoi-motorbike-rental-cost/honda-vision | rental period | 5 | 0.83 | 0.72 | 23% | 20% | - |
-| A4 | hanoi-motorbike-rental-cost/honda-wave | rental period | 5 | 0.75 | 0.72 | 21% | 2% | - |
-| A4 | hanoi-motorbike-rental-cost/yamaha-mio | rental period | 5 | 0.76 | 0.72 | 24% | 14% | - |
-| A4 | hanoi-motorbike-rental-cost/50cc-scooter | rental period | 4 | 0.69 | 0.72 | 12% | 8% | - |
-| A4 | hanoi-motorbike-rental-cost/automatic-scooter | rental period | 4 | 0.83 | 0.72 | 14% | 5% | - |
-| A4 | hanoi-motorbike-rental-cost/electric-motorbike | rental period | 4 | 0.84 | 0.72 | 23% | 21% | - |
-| A4 | hanoi-motorbike-rental-cost/semi-automatic-motorbike | rental period | 4 | 0.77 | 0.72 | 18% | 6% | - |
-| A4 | hanoi-motorbike-rental-cost/yamaha-sirius | rental period | 4 | 0.68 | 0.72 | 21% | 10% | - |
+| A4 | hanoi-motorbike-rental-cost/model-comparisons | rental period | 34 | 0.65 | 0.67 | 23% | 3% | - |
+| A4 | hanoi-motorbike-rental-cost/honda-air-blade | rental period | 5 | 0.82 | 0.67 | 23% | 17% | - |
+| A4 | hanoi-motorbike-rental-cost/honda-click | rental period | 5 | 0.79 | 0.67 | 24% | 17% | - |
+| A4 | hanoi-motorbike-rental-cost/honda-vision | rental period | 5 | 0.83 | 0.67 | 23% | 18% | - |
+| A4 | hanoi-motorbike-rental-cost/honda-wave | rental period | 5 | 0.75 | 0.67 | 21% | 2% | - |
+| A4 | hanoi-motorbike-rental-cost/yamaha-mio | rental period | 5 | 0.76 | 0.67 | 24% | 14% | - |
+| A4 | hanoi-motorbike-rental-cost/50cc-scooter | rental period | 4 | 0.69 | 0.67 | 12% | 7% | - |
+| A4 | hanoi-motorbike-rental-cost/automatic-scooter | rental period | 4 | 0.84 | 0.67 | 14% | 5% | - |
+| A4 | hanoi-motorbike-rental-cost/electric-motorbike | rental period | 4 | 0.71 | 0.67 | 12% | 13% | - |
+| A4 | hanoi-motorbike-rental-cost/semi-automatic-motorbike | rental period | 4 | 0.77 | 0.67 | 18% | 6% | - |
+| A4 | hanoi-motorbike-rental-cost/yamaha-sirius | rental period | 4 | 0.68 | 0.67 | 21% | 10% | - |
 | A5 | motorbike-rental-hanoi-old-quarter/ba-dinh | sub-topic | 5 | 0.58 | 0.48 | 14% | 2% | - |
 | A5 | motorbike-rental-hanoi-old-quarter/bac-tu-liem | sub-topic | 5 | 0.5 | 0.48 | 21% | 3% | - |
 | A5 | motorbike-rental-hanoi-old-quarter/cau-giay | sub-topic | 5 | 0.61 | 0.48 | 20% | 6% | - |
-| A5 | motorbike-rental-hanoi-old-quarter/dong-da | sub-topic | 5 | 0.6 | 0.48 | 17% | 7% | - |
-| A5 | motorbike-rental-hanoi-old-quarter/french-quarter | sub-topic | 5 | 0.57 | 0.48 | 22% | 8% | - |
+| A5 | motorbike-rental-hanoi-old-quarter/dong-da | sub-topic | 5 | 0.6 | 0.48 | 18% | 7% | - |
+| A5 | motorbike-rental-hanoi-old-quarter/french-quarter | sub-topic | 5 | 0.58 | 0.48 | 22% | 8% | - |
 | A5 | motorbike-rental-hanoi-old-quarter/giang-vo | sub-topic | 5 | 0.6 | 0.48 | 22% | 9% | - |
 | A5 | motorbike-rental-hanoi-old-quarter/ha-dong | sub-topic | 5 | 0.6 | 0.48 | 24% | 8% | - |
 | A5 | motorbike-rental-hanoi-old-quarter/hai-ba-trung | sub-topic | 5 | 0.64 | 0.48 | 18% | 8% | - |
 | A5 | motorbike-rental-hanoi-old-quarter/hoan-kiem | sub-topic | 5 | 0.51 | 0.48 | 5% | 1% | /motorbike-rental-hanoi-old-quarter/hoan-kiem-lake-riding-hanoi/ |
 | A5 | motorbike-rental-hanoi-old-quarter/hoang-mai | sub-topic | 5 | 0.61 | 0.48 | 23% | 8% | - |
-| A5 | motorbike-rental-hanoi-old-quarter/long-bien | sub-topic | 5 | 0.58 | 0.48 | 11% | 1% | /motorbike-rental-hanoi-old-quarter/long-bien-bridge-motorbike-guide-hanoi/ |
+| A5 | motorbike-rental-hanoi-old-quarter/long-bien | sub-topic | 5 | 0.57 | 0.48 | 11% | 1% | /motorbike-rental-hanoi-old-quarter/long-bien-bridge-motorbike-guide-hanoi/ |
 | A5 | motorbike-rental-hanoi-old-quarter/my-dinh | sub-topic | 5 | 0.62 | 0.48 | 21% | 8% | - |
 | A5 | motorbike-rental-hanoi-old-quarter/nam-tu-liem | sub-topic | 5 | 0.61 | 0.48 | 21% | 5% | - |
 | A5 | motorbike-rental-hanoi-old-quarter/old-quarter | sub-topic | 5 | 0.54 | 0.48 | 11% | 1% | - |
@@ -293,7 +294,7 @@ Verify column: `audit` = `node tools/seo-master-matrix.mjs`; `RRT` = Google Rich
 | A8 | hanoi-motorbike-for-sale/break-even-thinking | audience | 13 | 0.64 | 0.46 | 17% | 3% | - |
 | A8 | hanoi-motorbike-for-sale/ownership-costs | audience | 13 | 0.63 | 0.46 | 12% | 1% | - |
 | A8 | hanoi-motorbike-for-sale/paperwork-questions | audience | 13 | 0.65 | 0.46 | 19% | 2% | - |
-| A8 | hanoi-motorbike-for-sale/rent-vs-buy-decision | audience | 13 | 0.6 | 0.46 | 8% | 4% | - |
+| A8 | hanoi-motorbike-for-sale/rent-vs-buy-decision | audience | 13 | 0.6 | 0.46 | 9% | 4% | - |
 | A8 | hanoi-motorbike-for-sale/resale-planning | audience | 13 | 0.62 | 0.46 | 18% | 2% | - |
 | A8 | hanoi-motorbike-for-sale/used-bike-inspection | audience | 13 | 0.61 | 0.46 | 20% | 4% | - |
 | A9 | renting-a-motorbike-in-vietnam/accident-steps | audience | 6 | 0.81 | 0.4 | 20% | 5% | - |

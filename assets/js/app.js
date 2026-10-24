@@ -380,7 +380,11 @@
     var qty = clampQty();
     if (!price || !amount) return;
 
-    if (period === "day") {
+    if (price[period] == null) {
+      var periodWord = { day: "daily", week: "weekly", month: "monthly" }[period];
+      amount.textContent = "Contact us";
+      if (note) note.textContent = "The " + periodWord + " price for the " + price.name + " is given on request. Please contact us for a quote.";
+    } else if (period === "day") {
       amount.textContent = fmt(price.day * qty);
       if (note) note.textContent = qty > 1 ? fmt(price.day) + " per motorbike per day \u00d7 " + qty : fmt(price.day) + " per day";
     } else if (period === "week") {

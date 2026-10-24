@@ -42,7 +42,7 @@
     { key: "mio",      re: /\bmio(s)?\b/ },
     { key: "vision",   re: /\bvision(s)?\b/ },
     { key: "airblade", re: /\bair ?blade(s)?\b/ },
-    { key: "electric", re: /\b(electric|electric motorbike|xe dien)\b/ },
+    { key: "electric", re: /\b(electric|electric motorbike|e-?bikes?|xe dien|xe may dien|xe dap dien)\b/ },
     { key: "cc50",     re: /\b50\s?cc\b|\bmoped(s)?\b|\bxe\s+50\b/ }
   ];
   var CLICK_MODEL_RE = /\bhonda\s+click\b/;
@@ -155,6 +155,11 @@
     var p = m[period];
     var perEn = { day: "per day", week: "per week", month: "per month" };
     var perVi = { day: "mỗi ngày", week: "mỗi tuần", month: "mỗi tháng" };
+    if (p == null && m.day == null) {
+      return vi
+        ? "Giá thuê " + m.name + " được báo theo từng mẫu xe — vui lòng " + this.a("tel:" + this.BUSINESS.phoneTel, "liên hệ") + " để báo giá."
+        : "The " + m.name + " is priced on request by model — please " + this.a("tel:" + this.BUSINESS.phoneTel, "contact us") + " for a quote.";
+    }
     if (p == null) {
       var which = period === "week" ? (vi ? "tuần" : "weekly") : (vi ? "tháng" : "monthly");
       return vi
@@ -218,8 +223,8 @@
           : "Which bike would you like the price for — Wave, Sirius, Mio, Click, Vision, Air Blade, electric or 50cc?";
       }
       return vi
-        ? "Giá thuê từ 150.000 VND/ngày (Wave, Sirius, Mio, Click). Vision, Air Blade, xe điện và 50cc là 200.000 VND/ngày. " + pricesLink + "."
-        : "Rental prices start at 150,000 VND/day (Honda Wave, Yamaha Sirius, Yamaha Mio, Honda Click). Honda Vision, Honda Air Blade, electric and 50cc are 200,000 VND/day. " + pricesLink + ".";
+        ? "Giá thuê từ 150.000 VND/ngày (Wave, Sirius, Mio, Click). Vision, Air Blade và 50cc là 200.000 VND/ngày; xe máy điện và xe đạp điện vui lòng liên hệ để báo giá. " + pricesLink + "."
+        : "Rental prices start at 150,000 VND/day (Honda Wave, Yamaha Sirius, Yamaha Mio, Honda Click). Honda Vision, Honda Air Blade and 50cc are 200,000 VND/day; electric motorbikes and e-bikes are priced on request. " + pricesLink + ".";
     }
     var period = this.state.period || "day";
     var total = null;

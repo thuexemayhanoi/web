@@ -47,7 +47,7 @@ if(!lb.address||lb.address.streetAddress!==b.streetAddress||lb.address.addressLo
 // Structured rental offers mirror the price table (same source, ranges kept as ranges).
 const svc=(JSON.parse(homeSchema)['@graph']||[]).find(n=>n['@type']==='Service')||{};
 const offers=((svc.hasOfferCatalog||{}).itemListElement)||[];
-for(const p of Object.values(system.prices)){
+for(const p of Object.values(system.prices).filter(p=>p.day!=null||p.week!=null||p.month!=null)){
   const o=offers.find(x=>x.itemOffered&&x.itemOffered.name===p.name+' rental');
   if(!o){errors.push('index.html: schema offer missing for '+p.name);continue;}
   for(const [k,code] of [['day','DAY'],['week','WEE'],['month','MON']]){
@@ -86,6 +86,21 @@ for(const p of indexable){
   if(NO_DEPOSIT.test(body)) errors.push(p+': advertises renting without a deposit: "'+body.match(NO_DEPOSIT)[0]+'"');
   for(const m of body.matchAll(/deposit is (\d{1,3}(?:,\d{3})+) to (\d{1,3}(?:,\d{3})+) VND/gi)){
     if(m[1]!==minDep||m[2]!==maxDep) errors.push(p+': deposit range "'+m[0]+'" does not match config '+minDep+' to '+maxDep);
+  }
+}
+
+// Models the owner prices on request (no day/week/month price) must never get an amount in copy.
+const onRequestModels=Object.entries(system.prices).filter(([,p])=>p.day==null&&p.week==null&&p.month==null).map(([k])=>k);
+if(onRequestModels.includes('electric')){
+  const ELEC=/electric|e-bike|ebike/i, AMOUNT=/\d{1,3}(?:,\d{3})+/, OKW=/on request|quote/i;
+  for(const p of indexable){
+    const c=pages.get(p);
+    const head=((c.match(/<title>([^<]*)<\/title>/)||[])[1]||'')+'. '+decode((c.match(/<meta name="description" content="([^"]*)"/)||[])[1]||'');
+    // Block ends are clause ends, so a heading never merges with the paragraph after it.
+    const body=text(editorial(c).replace(/<\/(p|li|h[1-6]|td|th|summary|button|figcaption|dt|dd)>/gi,'. '));
+    for(const clause of (head+'. '+body).split(/[.;:?!]/)){
+      if(ELEC.test(clause)&&AMOUNT.test(clause)&&!OKW.test(clause)){errors.push(p+': electric model given a price: "'+clause.trim().slice(0,100)+'"');break;}
+    }
   }
 }
 

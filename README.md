@@ -314,3 +314,12 @@ clusters) points somewhere other than that keyword's owner URL.
 `tools/seo-fix.mjs` ignores inline tags (`a`, `strong`, `em`, …) when hashing
 editorial text, so moving link markup around unchanged words does not change a
 page's `lastmod`.
+
+### Electric motorbikes and e-bikes are priced on request (B19)
+
+The owner's price table of 2026-10-24 gives no daily, weekly or monthly price for
+electric motorbikes or e-bikes, and their deposit is confirmed by model. In
+`data/site-system.json` they have `null` prices and `depositNote: "By model"`;
+the calculator, chat assistant, generated tables and schema follow from that.
+`qa-seo-guard` fails if any copy gives the electric model an amount. Do not
+reintroduce an electric price without a new table from the owner.

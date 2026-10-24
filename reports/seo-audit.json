@@ -1702,7 +1702,7 @@
     {
       "path": "hanoi-motorbike-rental-cost/electric-motorbike-daily-price/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/electric-motorbike-daily-price/",
-      "title_length": 53,
+      "title_length": 58,
       "description_length": 154,
       "errors": [],
       "warnings": []
@@ -1710,8 +1710,8 @@
     {
       "path": "hanoi-motorbike-rental-cost/electric-motorbike-monthly-price/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/electric-motorbike-monthly-price/",
-      "title_length": 55,
-      "description_length": 157,
+      "title_length": 54,
+      "description_length": 150,
       "errors": [],
       "warnings": []
     },
@@ -1719,7 +1719,7 @@
       "path": "hanoi-motorbike-rental-cost/electric-motorbike-short-vs-long-term-cost/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/electric-motorbike-short-vs-long-term-cost/",
       "title_length": 58,
-      "description_length": 151,
+      "description_length": 155,
       "errors": [],
       "warnings": []
     },
@@ -1727,15 +1727,15 @@
       "path": "hanoi-motorbike-rental-cost/electric-motorbike-vs-50cc-scooter-rental-cost/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/electric-motorbike-vs-50cc-scooter-rental-cost/",
       "title_length": 64,
-      "description_length": 154,
+      "description_length": 155,
       "errors": [],
       "warnings": []
     },
     {
       "path": "hanoi-motorbike-rental-cost/electric-motorbike-weekly-price/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/electric-motorbike-weekly-price/",
-      "title_length": 54,
-      "description_length": 157,
+      "title_length": 53,
+      "description_length": 155,
       "errors": [],
       "warnings": []
     },
@@ -1791,7 +1791,7 @@
       "path": "hanoi-motorbike-rental-cost/honda-air-blade-vs-electric-motorbike-rental-cost/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-air-blade-vs-electric-motorbike-rental-cost/",
       "title_length": 59,
-      "description_length": 156,
+      "description_length": 151,
       "errors": [],
       "warnings": []
     },
@@ -1855,7 +1855,7 @@
       "path": "hanoi-motorbike-rental-cost/honda-click-vs-electric-motorbike-rental-cost/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-click-vs-electric-motorbike-rental-cost/",
       "title_length": 63,
-      "description_length": 154,
+      "description_length": 158,
       "errors": [],
       "warnings": []
     },
@@ -1935,7 +1935,7 @@
       "path": "hanoi-motorbike-rental-cost/honda-vision-vs-electric-motorbike-rental-cost/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-vision-vs-electric-motorbike-rental-cost/",
       "title_length": 55,
-      "description_length": 147,
+      "description_length": 153,
       "errors": [],
       "warnings": []
     },
@@ -2007,7 +2007,7 @@
       "path": "hanoi-motorbike-rental-cost/honda-wave-vs-electric-motorbike-rental-cost/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-wave-vs-electric-motorbike-rental-cost/",
       "title_length": 62,
-      "description_length": 151,
+      "description_length": 157,
       "errors": [],
       "warnings": []
     },
@@ -2151,7 +2151,7 @@
       "path": "hanoi-motorbike-rental-cost/yamaha-mio-vs-electric-motorbike-rental-cost/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/yamaha-mio-vs-electric-motorbike-rental-cost/",
       "title_length": 62,
-      "description_length": 153,
+      "description_length": 149,
       "errors": [],
       "warnings": []
     },
@@ -2230,7 +2230,7 @@
     {
       "path": "hanoi-motorbike-rental-cost/yamaha-sirius-vs-electric-motorbike-rental-cost/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/yamaha-sirius-vs-electric-motorbike-rental-cost/",
-      "title_length": 65,
+      "title_length": 56,
       "description_length": 152,
       "errors": [],
       "warnings": []
@@ -5463,7 +5463,7 @@
       "path": "hanoi-scooter-rental/electric-motorbike-rental-hanoi/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/electric-motorbike-rental-hanoi/",
       "title_length": 56,
-      "description_length": 146,
+      "description_length": 151,
       "errors": [],
       "warnings": []
     },
@@ -5479,7 +5479,7 @@
       "path": "hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter-selection-guide/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter-selection-guide/",
       "title_length": 48,
-      "description_length": 151,
+      "description_length": 155,
       "errors": [],
       "warnings": []
     },
@@ -5487,7 +5487,7 @@
       "path": "hanoi-scooter-rental/electric-vs-petrol-scooter-hanoi/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-scooter-rental/electric-vs-petrol-scooter-hanoi/",
       "title_length": 58,
-      "description_length": 152,
+      "description_length": 157,
       "errors": [],
       "warnings": []
     },
