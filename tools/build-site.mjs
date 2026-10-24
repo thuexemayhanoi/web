@@ -127,6 +127,19 @@ function syncSocialMeta(html,pagePath){
   const css=html.indexOf('<link rel="stylesheet"');
   return css>=0?html.slice(0,css)+block+'\n'+html.slice(css):html;
 }
+// Pages share one theme boot script (applies the saved or OS colour scheme before first paint) and
+// a small 192 px favicon; every page gets both from here, including pages written before they existed.
+const THEME_BOOT="<script>(function(){try{var t=localStorage.getItem('theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','light');}})();</script>";
+function syncThemeBoot(html){
+  if(!html.includes("localStorage.getItem('theme')")) html=html.replace(/(<link rel="stylesheet" href="\/assets\/css\/style\.css[^"]*">)/,'$1\n'+THEME_BOOT);
+  if(!/<meta name="theme-color"/.test(html)) html=html.replace(/(<link rel="apple-touch-icon"[^>]*>)/,'$1\n<meta name="theme-color" content="#f7f7f5">');
+  return html;
+}
+function syncFavicon(html){
+  const fav=system.brand.faviconPath;
+  if(!fav) return html;
+  return html.replace(/<link rel="icon" type="image\/png"(?: sizes="[^"]*")? href="[^"]*">/,'<link rel="icon" type="image/png" sizes="192x192" href="'+attr(fav)+'">');
+}
 function syncAssetVersion(html){
   const v=system.assets&&system.assets.version;
   if(!v) return html;
@@ -660,6 +673,8 @@ function buildHtml(html,pagePath){
   }
 
   html=syncAssetVersion(html);
+  html=syncThemeBoot(html);
+  html=syncFavicon(html);
   html=syncCanonical(html,pagePath);
   html=syncSocialMeta(html,pagePath);
   html=lazyContentImages(html);

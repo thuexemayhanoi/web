@@ -6,7 +6,7 @@
 
 :root{
   /* spacing tokens */
-  --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s6:24px; --s8:32px; --s12:48px; --s16:64px;
+  --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:20px; --s6:24px; --s7:28px; --s8:32px; --s12:48px; --s16:64px;
 
   /* radius */
   --r-sm:10px; --r-md:14px; --r-lg:18px;
@@ -30,6 +30,7 @@
   --ok:#16a34a;
   --head-bg:rgba(255,255,255,.86);
   --shadow:0 2px 10px rgba(0,0,0,.06);
+  --shadow-sm:0 1px 4px rgba(0,0,0,.08);
   --shadow-lg:0 10px 32px rgba(0,0,0,.10);
 }
 
@@ -47,6 +48,7 @@ html[data-theme="dark"]{
   --ok:#22c55e;
   --head-bg:rgba(9,9,9,.86);
   --shadow:0 2px 10px rgba(0,0,0,.45);
+  --shadow-sm:0 1px 4px rgba(0,0,0,.45);
   --shadow-lg:0 10px 32px rgba(0,0,0,.55);
 }
 

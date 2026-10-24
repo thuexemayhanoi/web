@@ -187,8 +187,16 @@
     "id": "B23",
     "date": "2026-10-24",
     "priority": "P1",
-    "commit": "this commit",
+    "commit": "96a7e86",
     "changes": "Content quality on the highest-risk template marker, with evidence. (1) Opener template: 2,846 paragraphs began 'The mistake is ...' (403 articles; in the buying-vs-renting, monthly, Old Quarter and trips hubs nearly every article had 5-9 of them). The opening sentence of 2,427 of them was rewritten in five varied forms (advice, trap, consequence, contrast, 'it is easy to'), one per article kept as its signature; the explanation after it is untouched. Result: 2,715 -> 406 sentences with that opener site-wide. (2) Unverifiable experience claims: 539 candidate sentences were classified; 220 rewritten where they asserted what the shop's staff do or see daily, how many riders the shop sends, what recent riders reported, reviews received, or unsourced rider counts. The useful advice stays as an instruction to ask the shop. Validated by script (digits and capitalised words must come from the original, links preserved, banned words, length). No URL, title, H1, price or policy changed. lastmod moves on edited pages only (seo-fix editorial hash). Also: business.geo from the shop's Google Maps listing in LocalBusiness schema.",
     "verification": "validators run by each agent and re-run by the controller on every batch; build-site --check, qa-site, qa-shared-components, qa-article-ui, seo-audit 0/0, qa-seo-guard, seo-fix --check, qa-discovery, seo-crawl P0 0 P1 0; samples read in context"
+  },
+  {
+    "id": "B24",
+    "date": "2026-10-24",
+    "priority": "P1/P2",
+    "commit": "this commit",
+    "changes": "Performance and UX bugs found by a Lighthouse lab (mobile, 18 pages; production-like gzip server; already 96-100 performance, LCP 1.1-1.7 s, CLS 0) and verified by hand: (1) 987 of 1,005 pages had no theme boot script or theme-color meta, so the saved or OS dark mode was ignored on every article; the build now adds both to every page (one place, also in the article template). Checked in headless Chrome light and dark, 375 and 1280 px: dark applies, no overflow, no console errors. (2) --s5, --s7 and --shadow-sm were used in the CSS but never defined, which zeroed the padding of FAQ entries and the article contents list; now defined for both themes. (3) The 512x512 Logonh.png (27.7 KB) was the favicon on every page; a 192x192 palette copy (3.5 KB) is used instead, Logonh.png stays for og:image, apple-touch-icon and schema. About 24 KB less per cold page view. (4) Homepage hero gets a 700w candidate (61 KB vs 76 KB for 800w): measured LCP -151 ms simulated. (5) Brand link aria-label now contains its visible text (WCAG 2.5.3). assets.version 20261024.3.",
+    "verification": "Lighthouse lab by an agent (reports in the session scratchpad), Playwright light/dark checks, full QA suite, seo-crawl P0 0 P1 0"
   }
 ]
