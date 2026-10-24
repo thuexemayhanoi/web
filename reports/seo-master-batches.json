@@ -158,5 +158,13 @@
     "commit": "this commit",
     "changes": "Owner price table (2026-10-24): electric motorbike / e-bike = contact for day, week and month, deposit by model; rental price and deposit are separate amounts. data/site-system.json electric prices set to null (name 'Electric Motorbike / E-Bike', deposit 'By model'); calculator shows a contact message for any period without a price; chat assistant answers 'priced on request'; homepage card 'Price on request'; schema offers only for models with a published price; generated price note lists models priced on request. Content: 578 sentences on 319 pages rewritten (electric price claims removed, other models' prices kept; two sentences that wrongly gave the 50cc a 1,000,000 VND week fixed), 15 electric-focused pages rewritten in place (339 blocks, 6 removed; titles, metas and H1s now say price on request; URLs unchanged), 17 sentences fixed by hand (derived arithmetic and 'same tier' wording). Before/after log: reports/electric-price-rewrites-2026-10-24.json. qa-seo-guard fails on any clause giving the electric model an amount.",
     "verification": "validator 0 errors on 578 sentences and 339 blocks; guard rule negative-tested; Playwright calculator test (electric day/week/month = Contact us; other models unchanged); full CI QA suite locally"
+  },
+  {
+    "id": "B20",
+    "date": "2026-10-24",
+    "priority": "P2",
+    "commit": "this commit",
+    "changes": "Supporting content linked to the deposit owner page: 289 of 345 pages that discussed deposits had no link to /hanoi-motorbike-rental/motorbike-rental-deposit-hanoi/ (which now carries the owner's deposit table); 290 pages received one contextual link on the first 'deposit' mention in a paragraph (markup only, lastmod unchanged). Breadcrumb labels for five hubs normalized on 72 pages (Old Quarter had three labels, 50cc two, cost four). Old Quarter hub intro now answers the delivery question: ask about delivery or collection when booking; any cost is confirmed before the contract, with the price and deposit (owner rule).",
+    "verification": "anchor sample review; full CI QA suite locally; 0 pages changed lastmod from markup-only edits"
   }
 ]
