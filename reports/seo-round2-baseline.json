@@ -1,0 +1,155 @@
+{
+ "label": "Round 2 baseline - main at 3f7c22e (B14-B21 deployed), before any Round 2 fix",
+ "crawl": {
+  "generated": "2026-10-24",
+  "htmlFiles": 1005,
+  "indexablePages": 1004,
+  "sitemapUrls": 1004,
+  "jsonLdBlocks": 1002,
+  "internalLinks": 125796,
+  "images": 1997,
+  "externalDomains": 10,
+  "issueTotals": {
+   "P0": 0,
+   "P1": 136,
+   "P2": 54
+  },
+  "clickDepthAnyLink": {
+   "0": 1,
+   "1": 23,
+   "2": 980
+  },
+  "clickDepthEditorial": {
+   "0": 1,
+   "1": 12,
+   "2": 988,
+   "none": 3
+  },
+  "sitemapLastmodDates": {
+   "2026-10-24": 479,
+   "2026-10-16": 525
+  },
+  "keyPages": [
+   {
+    "p": "index.html",
+    "words": 1822,
+    "inEditorial": 15,
+    "inAll": 1004,
+    "out": 23,
+    "depth": 0
+   },
+   {
+    "p": "hanoi-motorbike-rental/index.html",
+    "words": 1813,
+    "inEditorial": 371,
+    "inAll": 1004,
+    "out": 198,
+    "depth": 1
+   },
+   {
+    "p": "hanoi-50cc-motorbike-rental/index.html",
+    "words": 1409,
+    "inEditorial": 97,
+    "inAll": 1003,
+    "out": 142,
+    "depth": 1
+   },
+   {
+    "p": "hanoi-scooter-rental/index.html",
+    "words": 1574,
+    "inEditorial": 101,
+    "inAll": 1004,
+    "out": 123,
+    "depth": 1
+   },
+   {
+    "p": "hanoi-motorbike-rental-cost/index.html",
+    "words": 1427,
+    "inEditorial": 590,
+    "inAll": 1004,
+    "out": 101,
+    "depth": 1
+   },
+   {
+    "p": "motorbike-rental-hanoi-old-quarter/index.html",
+    "words": 1401,
+    "inEditorial": 74,
+    "inAll": 1003,
+    "out": 122,
+    "depth": 1
+   },
+   {
+    "p": "monthly-motorbike-rental-hanoi/index.html",
+    "words": 1515,
+    "inEditorial": 265,
+    "inAll": 1004,
+    "out": 102,
+    "depth": 1
+   },
+   {
+    "p": "hanoi-motorbike-trips/index.html",
+    "words": 1628,
+    "inEditorial": 72,
+    "inAll": 1003,
+    "out": 179,
+    "depth": 1
+   },
+   {
+    "p": "hanoi-motorbike-for-sale/index.html",
+    "words": 1450,
+    "inEditorial": 5,
+    "inAll": 1003,
+    "out": 101,
+    "depth": 1
+   },
+   {
+    "p": "renting-a-motorbike-in-vietnam/index.html",
+    "words": 2097,
+    "inEditorial": 77,
+    "inAll": 1003,
+    "out": 81,
+    "depth": 1
+   },
+   {
+    "p": "motorbike-guides/index.html",
+    "words": 1350,
+    "inEditorial": 264,
+    "inAll": 1003,
+    "out": 60,
+    "depth": 1
+   }
+  ]
+ },
+ "codes": [
+  {
+   "code": "S-BREADCRUMB-MISSING",
+   "pri": "P1",
+   "count": 136,
+   "pages": 136
+  },
+  {
+   "code": "C-TITLE-NEAR-DUP",
+   "pri": "P2",
+   "count": 40,
+   "pages": 16
+  },
+  {
+   "code": "T-H2-DUP",
+   "pri": "P2",
+   "count": 12,
+   "pages": 12
+  },
+  {
+   "code": "C-TITLE-NEAR-DUP-COUNT",
+   "pri": "P2",
+   "count": 1,
+   "pages": 1
+  },
+  {
+   "code": "I-ALT-LONG",
+   "pri": "P2",
+   "count": 1,
+   "pages": 1
+  }
+ ]
+}

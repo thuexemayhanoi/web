@@ -156,6 +156,24 @@ function breadcrumbItems(html,canonical){
   }
   return items;
 }
+// Legacy breadcrumbs ("Home > Hub > Page" as plain text) are converted to the <ol> list every other
+// page uses, so the styling and the BreadcrumbList schema both come from one structure.
+function normalizeCrumbs(html){
+  return html.replace(/<nav class="crumbs"([^>]*)>([\s\S]*?)<\/nav>/i,(whole,attrs,inner)=>{
+    if(/<ol[\s>]/i.test(inner)) return whole;
+    inner=inner.replace(/<span\b[^>]*>\s*(?:&rsaquo;|\u203a|&raquo;|\u00bb)\s*<\/span>/gi,'&rsaquo;');
+    const parts=inner.split(/\s*(?:&rsaquo;|\u203a|&raquo;|\u00bb)\s*/).map(x=>x.trim()).filter(Boolean);
+    if(parts.length<2) return whole;
+    const items=parts.map((part,i)=>{
+      const link=part.match(/^<a\b([^>]*)>([\s\S]*?)<\/a>$/i);
+      if(link) return '<li><a'+link[1]+'>'+link[2]+'</a></li>';
+      if(i===parts.length-1) return '<li aria-current="page">'+part.replace(/^<span[^>]*>([\s\S]*?)<\/span>$/i,'$1')+'</li>';
+      return null;
+    });
+    if(items.includes(null)) return whole;
+    return '<nav class="crumbs"'+attrs+'><ol>'+items.join('')+'</ol></nav>';
+  });
+}
 function faqItems(html){
   const out=[];
   for(const m of html.matchAll(/<article class="faq-entry">([\s\S]*?)<\/article>/gi)){
@@ -631,6 +649,7 @@ function buildHtml(html,pagePath){
   html=syncSocialMeta(html,pagePath);
   html=lazyContentImages(html);
   html=syncDataSlots(html);
+  html=normalizeCrumbs(html);
   html=syncHubIndex(html,pagePath);
   if(pagePath!=='faq/index.html' && !system.schema.excludePaths.includes(pagePath)) html=articleToc(html);
 

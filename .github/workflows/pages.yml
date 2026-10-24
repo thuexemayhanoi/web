@@ -43,6 +43,8 @@ jobs:
         run: node tools/seo-audit.mjs
       - name: SEO regression guard (NAP, deposits, navigation, legal pages, self-talk)
         run: node tools/qa-seo-guard.mjs
+      - name: Technical SEO crawl (links, schema, images, sitemap; fails on P0/P1)
+        run: node tools/seo-crawl.mjs --check --out "$RUNNER_TEMP/seo-crawl.json"
       - name: Verify SEO safe-fix state
         run: node tools/seo-fix.mjs --check
       - name: Verify idempotent build

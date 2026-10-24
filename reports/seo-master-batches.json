@@ -174,5 +174,13 @@
     "commit": "this commit",
     "changes": "AEO answers for electric rental follow the owner's table, which lists electric motorbikes and e-bikes with prices on request and the deposit confirmed by model. The /faq/ answer 'Do you rent electric motorbikes?' (also emitted as FAQPage schema) now names e-bikes, says prices are on request, links the deposit guide and states the deposit is confirmed for the specific model; the /faq/ price answer and the homepage price FAQ name e-bikes too. No amounts added.",
     "verification": "full CI QA suite locally; qa-seo-guard electric clause rule clean; FAQPage schema regenerated from visible text"
+  },
+  {
+    "id": "B22",
+    "date": "2026-10-24",
+    "priority": "P1",
+    "commit": "this commit",
+    "changes": "Round 2 technical crawl (new tools/seo-crawl.mjs: link graph, orphans, click depth, JSON-LD validity, FAQ schema vs visible text, images, sitemap vs files, near-duplicate text; runs in both workflows and fails on P0/P1). Baseline on main 3f7c22e: P0 0, P1 136, P2 54. Fixes with evidence: 136 articles used legacy plain-text breadcrumbs, so no BreadcrumbList schema was generated; the build now converts both legacy shapes to the shared <ol> markup (one place). 12 articles had two identical consecutive 'Frequently Asked Questions' h2 headings; the duplicate is removed. Homepage hero alt shortened from 134 to 112 characters. Result: P0 0, P1 0, P2 41 (42 near-duplicate title pairs that differ by destination, kept: different destinations are different searches).",
+    "verification": "seo-crawl before/after in reports/seo-round2-baseline.json; build-site --check idempotent; qa-site, qa-shared-components, qa-article-ui, seo-audit 0/0, qa-seo-guard, seo-fix --check, qa-discovery, seo-intel --check all pass"
   }
 ]

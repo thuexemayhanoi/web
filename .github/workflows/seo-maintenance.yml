@@ -25,6 +25,7 @@ on:
       - 'tools/build-article-index.mjs'
       - 'tools/qa-discovery.mjs'
       - 'tools/qa-seo-guard.mjs'
+      - 'tools/seo-crawl.mjs'
       - 'assets/js/assistant.js'
       - '.github/workflows/seo-maintenance.yml'
 
@@ -79,6 +80,9 @@ jobs:
 
       - name: SEO regression guard
         run: node tools/qa-seo-guard.mjs
+
+      - name: Technical SEO crawl (fails on P0/P1)
+        run: node tools/seo-crawl.mjs --check --out "$RUNNER_TEMP/seo-crawl.json"
 
       - name: Verify deterministic SEO state
         run: |
