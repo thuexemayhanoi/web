@@ -44,6 +44,19 @@ const lb=(JSON.parse(homeSchema)['@graph']||[]).find(n=>n['@type']==='LocalBusin
 if(lb.telephone!==b.phoneTel) errors.push('index.html: LocalBusiness telephone does not match config');
 if(lb.hasMap!==mapsUrl) errors.push('index.html: LocalBusiness hasMap does not match config');
 if(!lb.address||lb.address.streetAddress!==b.streetAddress||lb.address.addressLocality!==b.locality) errors.push('index.html: LocalBusiness address does not match config');
+// Structured rental offers mirror the price table (same source, ranges kept as ranges).
+const svc=(JSON.parse(homeSchema)['@graph']||[]).find(n=>n['@type']==='Service')||{};
+const offers=((svc.hasOfferCatalog||{}).itemListElement)||[];
+for(const p of Object.values(system.prices)){
+  const o=offers.find(x=>x.itemOffered&&x.itemOffered.name===p.name+' rental');
+  if(!o){errors.push('index.html: schema offer missing for '+p.name);continue;}
+  for(const [k,code] of [['day','DAY'],['week','WEE'],['month','MON']]){
+    const spec=(o.priceSpecification||[]).find(x=>x.unitCode===code);
+    const want=p[k];
+    const got=spec?(spec.price!=null?spec.price:[spec.minPrice,spec.maxPrice]):null;
+    if(JSON.stringify(got)!==JSON.stringify(want==null?null:want)) errors.push('index.html: schema '+k+' price for '+p.name+' is '+JSON.stringify(got)+', config says '+JSON.stringify(want));
+  }
+}
 // Brand queries need the brand on the homepage title and as the WebSite name.
 const ws=(JSON.parse(homeSchema)['@graph']||[]).find(n=>n['@type']==='WebSite')||{};
 if(ws.name!==system.brand.siteName) errors.push('index.html: WebSite name does not match brand.siteName');

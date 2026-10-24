@@ -310,6 +310,23 @@ function longDate(iso){
   const months=['January','February','March','April','May','June','July','August','September','October','November','December'];
   return Number(m[3])+' '+months[Number(m[2])-1]+' '+m[1];
 }
+// Rental offers for schema.org from the same price data as the visible table.
+// A range stays a range (minPrice/maxPrice); a missing period is omitted, never estimated.
+function offerCatalog(){
+  const units={day:['DAY','day'],week:['WEE','week'],month:['MON','month']};
+  const items=Object.values(system.prices).map(p=>{
+    const specs=[];
+    for(const [k,[code,text]] of Object.entries(units)){
+      const v=p[k];
+      if(v==null) continue;
+      const spec={'@type':'UnitPriceSpecification',priceCurrency:'VND',unitCode:code,unitText:text};
+      if(Array.isArray(v)){spec.minPrice=v[0];spec.maxPrice=v[1];}else spec.price=v;
+      specs.push(spec);
+    }
+    return {'@type':'Offer',itemOffered:{'@type':'Service',name:p.name+' rental'},priceSpecification:specs,url:system.domain+'/hanoi-motorbike-rental-cost/'};
+  });
+  return {'@type':'OfferCatalog',name:'Motorbike rental prices in Hanoi',itemListElement:items};
+}
 function schemaFor(html,pagePath){
   if(!featureOn('autoSchema') || system.schema.excludePaths.includes(pagePath)) return null;
   const canonical=canonicalOf(html);
@@ -321,7 +338,7 @@ function schemaFor(html,pagePath){
     graph.push({'@type':'WebSite','@id':system.domain+'/#website',url:system.domain+'/',name:system.brand.siteName,alternateName:system.brand.siteAlternateNames,inLanguage:system.language,image:system.brand.logoAbsolute,publisher:{'@id':system.domain+'/#business'}});
     graph.push({'@type':'WebPage','@id':system.domain+'/#webpage',url:canonical,name:title,description,inLanguage:system.language,isPartOf:{'@id':system.domain+'/#website'},about:{'@id':system.domain+'/#service'},primaryImageOfPage:{'@type':'ImageObject',url:system.brand.logoAbsolute}});
     graph.push({'@type':'LocalBusiness','@id':system.domain+'/#business',name:system.business.name,alternateName:system.business.alternateName,url:system.domain+'/',logo:system.brand.logoAbsolute,image:system.brand.logoAbsolute,telephone:system.business.phoneTel,email:system.business.email,address:{'@type':'PostalAddress',streetAddress:system.business.streetAddress,addressLocality:system.business.locality,addressRegion:system.business.region,addressCountry:system.business.country},areaServed:{'@type':'City',name:'Hanoi'},openingHoursSpecification:[{'@type':'OpeningHoursSpecification',dayOfWeek:['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],opens:String(system.business.openHour).padStart(2,'0')+':00',closes:String(system.business.closeHour).padStart(2,'0')+':00'}],hasMap:system.business.mapsUrl,sameAs:system.social,...(system.business.priceRange?{priceRange:system.business.priceRange}:{})});
-    graph.push({'@type':'Service','@id':system.domain+'/#service',name:'Hanoi Motorbike Rental',serviceType:'Motorbike rental in Hanoi',description:'Scooter, semi-automatic, 50cc and electric motorbike rental with verified daily, weekly and monthly prices where published.',provider:{'@id':system.domain+'/#business'},areaServed:{'@type':'City',name:'Hanoi'},url:system.domain+'/'});
+    graph.push({'@type':'Service','@id':system.domain+'/#service',name:'Hanoi Motorbike Rental',serviceType:'Motorbike rental in Hanoi',description:'Scooter, semi-automatic, 50cc and electric motorbike rental with verified daily, weekly and monthly prices where published.',provider:{'@id':system.domain+'/#business'},areaServed:{'@type':'City',name:'Hanoi'},url:system.domain+'/',hasOfferCatalog:offerCatalog()});
   }else{
     const row=matrixByPath.get(pagePath)||{};
     const hubDir=pagePath.split('/')[0];
