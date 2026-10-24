@@ -107,8 +107,16 @@
     "id": "B13",
     "date": "2026-10-16",
     "priority": "P2",
-    "commit": "this commit",
+    "commit": "ef3d0e2",
     "changes": "Plain-English rewrite, wave C (monthly rental, buying vs renting and Old Quarter hubs): 3,459 over-styled sentences rewritten on 260 pages; same advice and links, no new facts or numbers. Two rewrites that mentioned search engines corrected.",
     "verification": "matrix C-PURPLE 252 -> 0 pages; P0/P1 0; validator 0 errors; full CI QA suite locally"
+  },
+  {
+    "id": "B14",
+    "date": "2026-10-24",
+    "priority": "P0/P1",
+    "commit": "this commit",
+    "changes": "Owner reference data applied: NAP with Bo De ward, Google Maps cid link, GBP and Vietnamese names in alternateName, deposits per model (2,000,000-5,000,000 VND) and deposit policy in data/site-system.json, rendered by new generated slots (RATES with a deposit column, DEPOSITS, NAP) on the homepage, cost hub, deposit guide, About and Contact; direct deposit answers in the FAQ, deposit guide and chat assistant. New /about/ (AboutPage) and /contact/ (ContactPage) pages; header, drawer, footer and CTA link to them; menu items that sent five different labels to one hub now point to distinct pages or sections. Privacy policy and terms rewritten in full from the site's actual behaviour. 304 self-talk sentences and headings about 'inventing' data rewritten on 244 pages (validated: no new numbers, links unchanged). robots.txt disallows internal folders. tools/qa-seo-guard.mjs added to both workflows.",
+    "verification": "node tools/qa-seo-guard.mjs (negative-tested); full CI QA suite locally; Playwright 375/768/1280 px, no overflow or console errors"
   }
 ]

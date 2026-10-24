@@ -921,3 +921,17 @@ body.chat-keyboard-open .chat-log{
 .official-sources li{margin-bottom:6px}
 .official-sources-publisher{color:var(--muted);font-size:.9em}
 .post-author-date{color:var(--muted);font-size:.9em;margin-top:4px}
+/* Generated business data blocks (SLOT:RATES / SLOT:DEPOSITS / SLOT:NAP) */
+.rates-note,.legal-updated{color:var(--muted);font-size:.92rem;margin-top:var(--s3)}
+address.nap{font-style:normal;line-height:1.8;margin:var(--s3) 0}
+.deposit-points{margin-top:var(--s3)}
+@media (max-width:560px){
+  .rates-table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  .rates-table,.rates-table tbody,.rates-table tr,.rates-table th,.rates-table td{display:block;width:100%}
+  .rates-table tr{border-bottom:1px solid var(--border);padding:var(--s2) 0}
+  .rates-table tbody tr:last-child{border-bottom:0}
+  .rates-table tbody th{border-bottom:0;padding:6px var(--s4) 2px;font-size:1rem}
+  .rates-table td{display:flex;justify-content:space-between;gap:var(--s3);border-bottom:0;padding:3px var(--s4);text-align:right}
+  .rates-table td::before{content:attr(data-label);color:var(--muted);font-size:.85rem;text-align:left}
+  .rates-table tbody tr:hover td{background:none}
+}

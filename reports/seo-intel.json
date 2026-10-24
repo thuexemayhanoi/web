@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16",
+ "generated_at": "2026-10-24",
  "mode": "ZERO-DATA / COLD START",
  "data_sources": {
   "keywords": {
@@ -1258,6 +1258,20 @@
   }
  ],
  "topical_map": [
+  {
+   "hub": "Company",
+   "url": "https://app.rentbikehanoi.com/about/",
+   "articles": 0,
+   "series": [],
+   "keyword_clusters": []
+  },
+  {
+   "hub": "Company",
+   "url": "https://app.rentbikehanoi.com/contact/",
+   "articles": 0,
+   "series": [],
+   "keyword_clusters": []
+  },
   {
    "hub": "50cc Motorbike Rental",
    "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/",

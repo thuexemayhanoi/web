@@ -267,3 +267,37 @@ anything else is recorded as `UNKNOWN`.
 Content gaps are closed by adding sourced sections to the existing owner page,
 not by publishing near-duplicate pages. Switch to data-driven mode once Search
 Console is connected.
+
+## Business data blocks, company pages and the SEO guard (2026-10-24)
+
+Business facts follow the owner's reference data (NAP, Google Maps `cid` link,
+deposits). They live only in `data/site-system.json`:
+
+- `business.*` — name, `alternateName` (includes the Google Business Profile and
+  Vietnamese brand names), address with ward (Bo De), phone, hours, `mapsUrl`.
+- `prices.<model>.deposit` — a number, a `[min, max]` range, or `null` with a
+  `depositNote` when no amount is published. Never estimate a missing deposit.
+- `depositPolicy` — summary, policy points and the deposit guide URL.
+
+`tools/build-site.mjs` renders these into generated slots. Put the bare marker in
+a page and the build fills it (and refreshes it on every build):
+
+- `<!-- SLOT:RATES -->` — price table with a deposit column and the price note.
+- `<!-- SLOT:DEPOSITS -->` — deposit table and policy points.
+- `<!-- SLOT:NAP -->` — the address card.
+
+The chat assistant reads the same data through `assets/js/business-config.js`
+(`PRICES[*].deposit`, `DEPOSIT_POLICY`).
+
+Company pages: `/about/` (AboutPage schema) and `/contact/` (ContactPage schema).
+Header, drawer, footer and the shared CTA link to them; menu items each point to
+a distinct destination.
+
+`node tools/qa-seo-guard.mjs` runs in both workflows and fails when: a page still
+uses the old Google share link or another address; a generated price/deposit/NAP
+block is missing from its owner page; prose states a deposit range that differs
+from the config or advertises renting without a deposit; two menu labels point to
+the same URL; About/Contact or their schema are missing; the privacy or terms page
+falls below a complete document; or editorial text talks about "inventing" data.
+`robots.txt` (normalized by `tools/seo-fix.mjs`) disallows `/data/`, `/tools/`,
+`/reports/`, `/factory/` and `/site/`.

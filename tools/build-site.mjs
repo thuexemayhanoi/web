@@ -165,6 +165,45 @@ function faqItems(html){
   }
   return out;
 }
+// ---- Business data blocks rendered from data/site-system.json ---------------
+// Prices, deposits and NAP live in one place; pages carry an empty slot marker
+// (<!-- SLOT:RATES -->, <!-- SLOT:DEPOSITS -->, <!-- SLOT:NAP -->) or a previous render.
+function vnd(n){return String(n).replace(/\B(?=(\d{3})+(?!\d))/g,',');}
+function amountCell(v){
+  if(v==null) return 'Contact us';
+  if(Array.isArray(v)) return vnd(v[0])+' &ndash; '+vnd(v[1]);
+  return vnd(v);
+}
+function depositCell(p){return p.deposit==null?escapeTocText(p.depositNote||'Ask the shop'):amountCell(p.deposit);}
+function ratesBlock(){
+  // Explicit ARIA roles keep table semantics when small screens restyle rows as cards.
+  const cols=['Per day (VND)','Per week (VND)','Per month (VND)','Deposit (VND)'];
+  const cell=(label,html)=>'<td role="cell" data-label="'+attr(label)+'">'+html+'</td>';
+  const rows=Object.values(system.prices).map(p=>'<tr role="row"><th scope="row" role="rowheader">'+escapeTocText(p.name)+'</th>'+cell(cols[0],amountCell(p.day))+cell(cols[1],amountCell(p.week))+cell(cols[2],amountCell(p.month))+cell(cols[3],depositCell(p))+'</tr>').join('\n');
+  const onRequest=Object.values(system.prices).filter(p=>p.week==null||p.month==null).map(p=>escapeTocText(p.name));
+  const dp=system.depositPolicy;
+  return '<!-- SLOT:RATES:START -->\n<div class="table-scroll" role="region" aria-label="Motorbike rental prices and deposits" tabindex="0">\n<table class="rates-table" role="table">\n<thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">Motorbike</th>'+cols.map(c=>'<th scope="col" role="columnheader">'+c+'</th>').join('')+'</tr></thead>\n<tbody role="rowgroup">\n'+rows+'\n</tbody>\n</table>\n</div>\n'
+    +'<p class="rates-note">'+escapeTocText(system.priceNote)+(onRequest.length?' Weekly and monthly prices for the '+onRequest.join(', ')+' are given on request.':'')+' '+escapeTocText(dp.summary)+' <a href="'+attr(dp.guideHref)+'">How rental deposits work</a>.</p>\n<!-- SLOT:RATES:END -->';
+}
+function depositsBlock(){
+  const dp=system.depositPolicy;
+  const rows=Object.values(system.prices).map(p=>'<tr><th scope="row">'+escapeTocText(p.name)+'</th><td>'+depositCell(p)+'</td></tr>').join('\n');
+  return '<!-- SLOT:DEPOSITS:START -->\n<p><strong>'+escapeTocText(dp.summary)+'</strong></p>\n<div class="table-scroll" role="region" aria-label="Motorbike rental deposits" tabindex="0">\n<table>\n<thead><tr><th scope="col">Motorbike</th><th scope="col">Deposit (VND)</th></tr></thead>\n<tbody>\n'+rows+'\n</tbody>\n</table>\n</div>\n<ul class="check-list deposit-points">'+dp.points.map(x=>'<li>'+escapeTocText(x)+'</li>').join('')+'</ul>\n<!-- SLOT:DEPOSITS:END -->';
+}
+function napBlock(){
+  const b=system.business;
+  return '<!-- SLOT:NAP:START -->\n<address class="nap">\n<strong>'+escapeTocText(b.name)+'</strong><br>\n'+escapeTocText(b.address)+'<br>\nPhone / Zalo: <a href="tel:'+attr(b.phoneTel)+'">'+escapeTocText(b.phone)+'</a><br>\nEmail: <a href="mailto:'+attr(b.email)+'">'+escapeTocText(b.email)+'</a><br>\nHours: '+escapeTocText(b.hoursDisplay)+'\n</address>\n<!-- SLOT:NAP:END -->';
+}
+function syncDataSlots(html){
+  for(const [name,fn] of [['RATES',ratesBlock],['DEPOSITS',depositsBlock],['NAP',napBlock]]){
+    const re=new RegExp('<!-- SLOT:'+name+':START -->[\\s\\S]*?<!-- SLOT:'+name+':END -->','g');
+    const marker='<!-- SLOT:'+name+' -->';
+    if(!re.test(html)&&!html.includes(marker)) continue;
+    const block=fn();
+    html=html.replace(re,()=>block).split(marker).join(block);
+  }
+  return html;
+}
 // ---- Series (topic families), hub indexes and official sources -------------
 function humanize(slug,title){
   const words=hubIndexConfig.words||{};
@@ -290,7 +329,10 @@ function schemaFor(html,pagePath){
       const items=publishedClusters(hubDir).map((r,i)=>({'@type':'ListItem',position:i+1,url:system.domain+pathToHref(r.path)}));
       graph.push({'@type':'CollectionPage','@id':canonical,url:canonical,name:title,description,inLanguage:system.language,image:system.brand.logoAbsolute,isPartOf:{'@id':system.domain+'/#website'},mainEntity:{'@type':'ItemList',numberOfItems:items.length,itemListElement:items}});
     }else{
-      graph.push({'@type':'WebPage','@id':canonical,url:canonical,name:title,description,inLanguage:system.language,image:system.brand.logoAbsolute,isPartOf:{'@id':system.domain+'/#website'}});
+      const pageType={'about/index.html':'AboutPage','contact/index.html':'ContactPage'}[pagePath]||'WebPage';
+      const page={'@type':pageType,'@id':canonical,url:canonical,name:title,description,inLanguage:system.language,image:system.brand.logoAbsolute,isPartOf:{'@id':system.domain+'/#website'}};
+      if(pageType!=='WebPage') page.about={'@id':system.domain+'/#business'};
+      graph.push(page);
     }
     if(row.content_role==='CLUSTER'){
       const dates=pageDates(pagePath);
@@ -570,6 +612,7 @@ function buildHtml(html,pagePath){
   html=syncCanonical(html,pagePath);
   html=syncSocialMeta(html,pagePath);
   html=lazyContentImages(html);
+  html=syncDataSlots(html);
   html=syncHubIndex(html,pagePath);
   if(pagePath!=='faq/index.html' && !system.schema.excludePaths.includes(pagePath)) html=articleToc(html);
 
@@ -671,7 +714,7 @@ function syncSeriesSlots(html,pagePath){
 }
 function businessJs(){
   const b={name:system.business.name,address:system.business.address,phone:system.business.phone,phoneTel:system.business.phoneTel,email:system.business.email,mapsUrl:system.business.mapsUrl,mapsEmbed:'https://maps.google.com/maps?q=112%20Nguyen%20Van%20Cu%2C%20Long%20Bien%2C%20Hanoi&t=&z=15&ie=UTF8&iwloc=&output=embed',hoursText:system.business.hoursText,timezone:system.business.timezone,openHour:system.business.openHour,closeHour:system.business.closeHour,website:system.domain+'/'};
-  return '/* GENERATED by tools/build-site.mjs — edit data/site-system.json, not this file. */\nvar BUSINESS = '+JSON.stringify(b,null,2)+';\n\nvar PRICES = '+JSON.stringify(system.prices,null,2)+';\n\nvar CONTACT_METHODS = '+JSON.stringify(system.contacts,null,2)+';\n';
+  return '/* GENERATED by tools/build-site.mjs — edit data/site-system.json, not this file. */\nvar BUSINESS = '+JSON.stringify(b,null,2)+';\n\nvar PRICES = '+JSON.stringify(system.prices,null,2)+';\n\nvar DEPOSIT_POLICY = '+JSON.stringify(system.depositPolicy,null,2)+';\n\nvar CONTACT_METHODS = '+JSON.stringify(system.contacts,null,2)+';\n';
 }
 
 let changed=0;

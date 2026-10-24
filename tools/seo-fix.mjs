@@ -108,7 +108,8 @@ if(sitemap!==oldSitemap){
   console.log((CHECK?'would rebuild: ':'rebuilt: ')+'sitemap.xml ('+indexable.length+' URLs)');
 }
 const robotsPath=path.join(ROOT,'robots.txt');
-const wanted='User-agent: *\nAllow: /\n\nSitemap: '+system.domain+'/sitemap.xml\n';
+// Internal build data, tooling and reports are public files on GitHub Pages but not pages.
+const wanted='User-agent: *\nAllow: /\nDisallow: /data/\nDisallow: /tools/\nDisallow: /reports/\nDisallow: /factory/\nDisallow: /site/\n\nSitemap: '+system.domain+'/sitemap.xml\n';
 const oldRobots=fs.existsSync(robotsPath)?fs.readFileSync(robotsPath,'utf8'):'';
 if(wanted!==oldRobots){
   changed++;

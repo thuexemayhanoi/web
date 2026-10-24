@@ -10,17 +10,21 @@
   },
   "business": {
     "name": "Motorbike Rental - Nguyen Tu",
-    "alternateName": "Hanoi Motorbike Rental Nguyen Tu",
-    "address": "112 Nguyen Van Cu, Long Bien, Hanoi, Vietnam",
-    "addressShort": "112 Nguyen Van Cu, Long Bien, Hanoi",
-    "streetAddress": "112 Nguyen Van Cu",
+    "alternateName": [
+      "Hanoi Motorbike Rental Nguyen Tu",
+      "Thuê xe máy ở Hà Nội - Nguyễn Tú",
+      "Cho Thuê Xe Máy Nguyễn Tú"
+    ],
+    "address": "112 Nguyen Van Cu, Bo De, Long Bien, Hanoi, Vietnam",
+    "addressShort": "112 Nguyen Van Cu, Bo De, Long Bien, Hanoi",
+    "streetAddress": "112 Nguyen Van Cu, Bo De",
     "locality": "Long Bien",
     "region": "Hanoi",
     "country": "VN",
     "phone": "0942 467 674",
     "phoneTel": "+84942467674",
     "email": "nguyentuantu8x@gmail.com",
-    "mapsUrl": "https://share.google/59Er3R16jWr3psKeo",
+    "mapsUrl": "https://maps.google.com/maps?cid=7448790013669858019",
     "timezone": "Asia/Ho_Chi_Minh",
     "openHour": 9,
     "closeHour": 21,
@@ -34,7 +38,7 @@
     "primaryLabel": "Check Prices",
     "primaryHref": "/#calculator",
     "secondaryLabel": "Contact Us",
-    "secondaryHref": "/#contact"
+    "secondaryHref": "/contact/"
   },
   "social": [
     "https://thuexemaynguyentu.com/",
@@ -50,6 +54,10 @@
       "month": [
         900000,
         1200000
+      ],
+      "deposit": [
+        2000000,
+        3000000
       ]
     },
     "sirius": {
@@ -60,7 +68,9 @@
       "month": [
         900000,
         1200000
-      ]
+      ],
+      "deposit": null,
+      "depositNote": "Ask the shop"
     },
     "mio": {
       "name": "Yamaha Mio",
@@ -70,7 +80,8 @@
       "month": [
         900000,
         1200000
-      ]
+      ],
+      "deposit": 2000000
     },
     "click": {
       "name": "Honda Click",
@@ -80,7 +91,8 @@
       "month": [
         900000,
         1200000
-      ]
+      ],
+      "deposit": 2000000
     },
     "vision": {
       "name": "Honda Vision",
@@ -90,6 +102,10 @@
       "month": [
         1800000,
         2000000
+      ],
+      "deposit": [
+        4000000,
+        5000000
       ]
     },
     "airblade": {
@@ -97,21 +113,25 @@
       "cat": "scooter",
       "day": 200000,
       "week": 1000000,
-      "month": 1500000
+      "month": 1500000,
+      "deposit": 3000000
     },
     "electric": {
       "name": "Electric Motorbike",
       "cat": "electric",
       "day": 200000,
       "week": 1000000,
-      "month": 1500000
+      "month": 1500000,
+      "deposit": null,
+      "depositNote": "Confirmed per model"
     },
     "cc50": {
       "name": "50cc Scooter / Motorbike",
       "cat": "50cc",
       "day": 200000,
       "week": null,
-      "month": null
+      "month": null,
+      "deposit": 4000000
     }
   },
   "contacts": {
@@ -127,7 +147,7 @@
     },
     "maps": {
       "label": "Maps",
-      "href": "https://share.google/59Er3R16jWr3psKeo",
+      "href": "https://maps.google.com/maps?cid=7448790013669858019",
       "verified": true
     },
     "zalo": {
@@ -263,7 +283,7 @@
     ]
   },
   "assets": {
-    "version": "20261011.4"
+    "version": "20261024.1"
   },
   "features": {
     "autoSchema": true,
@@ -316,5 +336,16 @@
       "^renting-a-motorbike-in-vietnam/[^/]+/index\\.html$",
       "^[^/]+/[^/]*(?:licen[cs]e|helmet-rules|traffic-rules|traffic-police|road-signs|restricted-roads|insurance|accident|rental-contracts|rental-paperwork|paperwork-questions|border-area)[^/]*/index\\.html$"
     ]
-  }
+  },
+  "depositPolicy": {
+    "summary": "Motorbike rental deposits are 2,000,000 to 5,000,000 VND, depending on the motorbike.",
+    "points": [
+      "The exact deposit depends on the model you rent (see the table).",
+      "Some alternative forms of security documents can be discussed individually, subject to conditions and a lawful agreement.",
+      "The deposit, rental price, rental period, motorbike condition and any delivery or collection cost are confirmed clearly before the rental contract is signed.",
+      "The deposit is refunded under the terms of the rental contract after you return the motorbike and complete the related obligations."
+    ],
+    "guideHref": "/hanoi-motorbike-rental/motorbike-rental-deposit-hanoi/"
+  },
+  "priceNote": "Prices are reference rates. Confirm the price, deposit and availability with the shop before you book."
 }

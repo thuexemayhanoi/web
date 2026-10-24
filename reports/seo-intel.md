@@ -4,7 +4,7 @@ published: false
 
 # SEO intelligence - zero-data mode
 
-Generated 2026-10-16 by `node tools/seo-intel.mjs`. Search Console and analytics are not connected, so clicks, impressions and rankings are UNKNOWN. Volumes come only from `data/keyword-research.json` (Ubersuggest, 2026-10-14); SERP observations from `data/serp-research.json` show which pages a search tool returned, not Google positions.
+Generated 2026-10-24 by `node tools/seo-intel.mjs`. Search Console and analytics are not connected, so clicks, impressions and rankings are UNKNOWN. Volumes come only from `data/keyword-research.json` (Ubersuggest, 2026-10-14); SERP observations from `data/serp-research.json` show which pages a search tool returned, not Google positions.
 
 ## Summary
 
@@ -59,6 +59,18 @@ Generated 2026-10-16 by `node tools/seo-intel.mjs`. Search Console and analytics
 | Leaving and re-entering Hanoi outside rush hour | 1 | COVERED | 101 | /hanoi-motorbike-trips/ | Covered; keep facts current. |
 
 ## Topical map
+
+### Company (/about/) - 0 articles
+
+Series: .
+
+Keyword clusters owned here: none mapped.
+
+### Company (/contact/) - 0 articles
+
+Series: .
+
+Keyword clusters owned here: none mapped.
 
 ### 50cc Motorbike Rental (/hanoi-50cc-motorbike-rental/) - 119 articles
 

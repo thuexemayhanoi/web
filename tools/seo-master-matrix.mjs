@@ -165,7 +165,7 @@ for (const p of files) {
   const m = matrixByPath.get(p) || {};
   pg.matrix = m;
   pg.role = p === '404.html' ? 'UTILITY' : (m.content_role || 'UNKNOWN');
-  pg.type = { ROOT_HUB: 'homepage', HUB: 'hub', CLUSTER: 'article', ANSWER_HUB: 'faq', LEGAL: 'legal', UTILITY: 'utility' }[pg.role] || 'unknown';
+  pg.type = { ROOT_HUB: 'homepage', HUB: 'hub', CLUSTER: 'article', ANSWER_HUB: 'faq', LEGAL: 'legal', COMPANY: 'company', UTILITY: 'utility' }[pg.role] || 'unknown';
   pg.hubDir = p.includes('/') ? p.split('/')[0] : '';
   if (pg.hubDir === 'faq') pg.hubDir = '';
   pg.slug = p.split('/').length === 3 ? p.split('/')[1] : '';

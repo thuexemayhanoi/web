@@ -1,8 +1,8 @@
 {
   "domain": "https://app.rentbikehanoi.com",
   "summary": {
-    "indexable_pages": 1002,
-    "sitemap_urls": 1002,
+    "indexable_pages": 1004,
+    "sitemap_urls": 1004,
     "errors": 0,
     "warnings": 0,
     "pages_with_errors": 0,
@@ -11,6 +11,22 @@
   "errors": [],
   "warnings": [],
   "pages": [
+    {
+      "path": "about/index.html",
+      "canonical": "https://app.rentbikehanoi.com/about/",
+      "title_length": 54,
+      "description_length": 161,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "contact/index.html",
+      "canonical": "https://app.rentbikehanoi.com/contact/",
+      "title_length": 43,
+      "description_length": 163,
+      "errors": [],
+      "warnings": []
+    },
     {
       "path": "faq/index.html",
       "canonical": "https://app.rentbikehanoi.com/faq/",
@@ -3022,8 +3038,8 @@
     {
       "path": "hanoi-motorbike-rental/motorbike-rental-deposit-hanoi/index.html",
       "canonical": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/motorbike-rental-deposit-hanoi/",
-      "title_length": 56,
-      "description_length": 149,
+      "title_length": 59,
+      "description_length": 158,
       "errors": [],
       "warnings": []
     },
@@ -7535,7 +7551,7 @@
       "path": "privacy-policy.html",
       "canonical": "https://app.rentbikehanoi.com/privacy-policy.html",
       "title_length": 39,
-      "description_length": 111,
+      "description_length": 155,
       "errors": [],
       "warnings": []
     },
@@ -8023,7 +8039,7 @@
       "path": "terms-of-use.html",
       "canonical": "https://app.rentbikehanoi.com/terms-of-use.html",
       "title_length": 37,
-      "description_length": 81,
+      "description_length": 159,
       "errors": [],
       "warnings": []
     }
