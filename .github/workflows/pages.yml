@@ -8,6 +8,8 @@ on:
       - 'data/writer-queue.json'
       - 'data/factory-state.json'
       - 'reports/factory-last-run.json'
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 # Native GitHub Pages deploys the main branch separately; this job checks quality.
