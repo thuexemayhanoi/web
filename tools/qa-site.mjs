@@ -59,12 +59,12 @@ for(const [p,c] of pages){
   if(p!=='404.html'){
     // Only the 404 page is intentionally noindex. Fail closed for accidental
     // indexability changes instead of silently omitting affected pages.
-    for(const tagMatch of c.matchAll(/<meta\\b[^>]*>/gi)){
+    for(const tagMatch of c.matchAll(/<meta\b[^>]*>/gi)){
       const tag=tagMatch[0];
-      const name=(tag.match(/\\bname\\s*=\\s*(["'])(.*?)\\1/i)||[])[2]?.toLowerCase();
+      const name=(tag.match(/\bname\s*=\s*(["'])(.*?)\1/i)||[])[2]?.toLowerCase();
       if(!['robots','googlebot','bingbot'].includes(name))continue;
-      const directive=(tag.match(/\\bcontent\\s*=\\s*(["'])(.*?)\\1/i)||[])[2]||'';
-      if(/(?:^|[\\s,])(?:noindex|none|nofollow)(?:$|[\\s,])/i.test(directive))
+      const directive=(tag.match(/\bcontent\s*=\s*(["'])(.*?)\1/i)||[])[2]||'';
+      if(/(?:^|[\s,])(?:noindex|none|nofollow)(?:$|[\s,])/i.test(directive))
         errors.push(p+': unexpected '+name+' directive "'+directive+'"');
     }
     const canon=(c.match(/<link rel="canonical" href="([^"]+)"/i)||[])[1]||'';
