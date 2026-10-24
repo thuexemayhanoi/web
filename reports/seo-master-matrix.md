@@ -4,17 +4,17 @@ published: false
 
 # SEO Master Matrix — app.rentbikehanoi.com
 
-Generated 2026-10-16 by `node tools/seo-master-matrix.mjs` from the repository HTML (static audit, not a live crawl). Baseline: 2026-10-14. Full evidence per URL and issue: `reports/seo-master-matrix.json`. Items that need a decision: `reports/seo-approval-proposals.md`.
+Generated 2026-10-24 by `node tools/seo-master-matrix.mjs` from the repository HTML (static audit, not a live crawl). Baseline: 2026-10-14. Full evidence per URL and issue: `reports/seo-master-matrix.json`. Items that need a decision: `reports/seo-approval-proposals.md`.
 
-**Data limits.** Google Search Console is not connected to this audit, so rankings, clicks, impressions and index status are **UNKNOWN** on every row. Search volumes come only from Ubersuggest (free tier, 2026-10-14); every other volume is **UNKNOWN**. Business facts come only from `data/site-system.json`. No title or meta description is marked PROTECTED in the repo (field `protected` in the JSON; set it in `data/seo-master-overrides.json`).
+**Data limits.** Google Search Console is not connected to this audit, so rankings, clicks, impressions and index status are **UNKNOWN** on every row. Search volumes come only from Ubersuggest (free tier, 2026-10-24); every other volume is **UNKNOWN**. Business facts come only from `data/site-system.json`. No title or meta description is marked PROTECTED in the repo (field `protected` in the JSON; set it in `data/seo-master-overrides.json`).
 
 ## Summary
 
 | Metric | Value |
 |---|---|
-| URLs audited | 1003 — 404 page 1, FAQ / answer hub 1, article 988, service hub 6, guide hub 4, homepage / service page 1, legal page 2 |
-| Rows by highest open priority | P0 0 · P1 0 · P2 988 · none 15 |
-| Rows by status | DONE (safe fixes) + NEEDS OWNER DATA 988 · DONE 13 · OK 2 |
+| URLs audited | 1005 — 404 page 1, article 990, FAQ / answer hub 1, service hub 6, guide hub 4, homepage / service page 1, legal page 2 |
+| Rows by highest open priority | P0 0 · P1 0 · P2 988 · none 17 |
+| Rows by status | DONE (safe fixes) + NEEDS OWNER DATA 988 · DONE 13 · OK 4 |
 | Articles deeper than 3 clicks (ignoring auto related/prev-next) | 0 of 988 (unreachable: 0) |
 | Max click depth using every link | 2 |
 | Template families (proposals A1-A10) | 143 families covering 956 articles |
@@ -64,7 +64,7 @@ Generated 2026-10-16 by `node tools/seo-master-matrix.mjs` from the repository H
 |---|---|---|---|---|---|
 | B-WHATSAPP | P1 | Quick Contact shows WhatsApp on every page while data/site-system.json marks contacts.whatsapp.verified=false | Shop owner confirms WhatsApp on 0942 467 674 -> set verified=true; otherwise hide the button. | BLOCKED - NEEDS OWNER DATA | data/site-system.json + rendered Quick Contact |
 | G-JEKYLL-STRAY | P2 | GitHub Pages builds with Jekyll and no _config.yml: internal files are public (e.g. /reports/seo-audit.html rendered from Markdown, /data/content-matrix.csv, /tools/*.mjs) | Not done: excluding them would remove live URLs (owner rule: no deletion). New internal Markdown reports use published:false so no new stray pages are created. | WONTFIX - OWNER RULE | n/a |
-| G-SCALED-CONTENT | P0 | 846 pages published 2026-10-07; 154 pages published 2026-10-06; 956 of 988 articles sit in 143 template families (same topic, only audience/period/format/destination changes) | Keep the factory paused; repair families in place (no deletion/URL change/noindex per owner rule); deeper per-family rewrites with real local detail remain the main lever; monitor indexing in GSC. | OPEN - RESIDUAL RISK | GSC Pages report (UNKNOWN until GSC is connected) |
+| G-SCALED-CONTENT | P0 | 846 pages published 2026-10-07; 154 pages published 2026-10-06; 2 pages published 2026-10-24; 956 of 988 articles sit in 143 template families (same topic, only audience/period/format/destination changes) | Keep the factory paused; repair families in place (no deletion/URL change/noindex per owner rule); deeper per-family rewrites with real local detail remain the main lever; monitor indexing in GSC. | OPEN - RESIDUAL RISK | GSC Pages report (UNKNOWN until GSC is connected) |
 | G-GSC | P1 | No Search Console data available to this audit (not connected to OpenSEO/OpenRush) | Connect GSC (or share exports) so rankings/indexing can replace UNKNOWN values. | BLOCKED - NEEDS OWNER DATA | GSC property access |
 | G-RELATED-LABEL | P2 | related block on 1,000 pages is titled "Related hubs" but mostly lists articles | Rename to "Related guides". | FIXED | node tools/seo-master-matrix.mjs |
 | G-SITEMAP-LASTMOD | P2 | sitemap.xml has changefreq/priority (ignored by Google) but no lastmod | Add accurate lastmod from Content Matrix dates (published/updated), not from build time. | FIXED | node tools/seo-master-matrix.mjs |
@@ -87,7 +87,14 @@ Generated 2026-10-16 by `node tools/seo-master-matrix.mjs` from the repository H
 | B10 | 2026-10-16 | P2 | 902bf9f | L-CONTEXT closed: 271 remaining articles each received one in-text link from a related article in the same series or hub, written as one new natural sentence at the end of the most relevant paragraph with a descriptive anchor (250 via validated batch, 21 by hand). | matrix L-CONTEXT 271 -> 0; qa-site link check; full CI QA suite locally |
 | B11 | 2026-10-16 | P2 | ff9b7b3 | Plain-English rewrite, wave A (rental, scooter, 50cc and cost hubs): 3,873 over-styled sentences ('honest', 'arithmetic', 'ledger', 'verdict', personification, leftover 'desk'/'counter') rewritten on 477 pages; advice and links kept, no new facts or numbers, unverified shop claims turned into reader advice. | matrix C-PURPLE 871 -> 487 pages; validator 0 errors on 3,873 rewrites; full CI QA suite locally |
 | B12 | 2026-10-16 | P2 | b85a25a | Plain-English rewrite, wave B (trips, motorbike guides and Vietnam rental hubs): 2,750 over-styled sentences rewritten on 259 pages; same advice and links, no new facts or numbers. | matrix C-PURPLE 487 -> 252 pages (waves A and B hubs at 0); validator 0 errors; full CI QA suite locally |
-| B13 | 2026-10-16 | P2 | this commit | Plain-English rewrite, wave C (monthly rental, buying vs renting and Old Quarter hubs): 3,459 over-styled sentences rewritten on 260 pages; same advice and links, no new facts or numbers. Two rewrites that mentioned search engines corrected. | matrix C-PURPLE 252 -> 0 pages; P0/P1 0; validator 0 errors; full CI QA suite locally |
+| B13 | 2026-10-16 | P2 | ef3d0e2 | Plain-English rewrite, wave C (monthly rental, buying vs renting and Old Quarter hubs): 3,459 over-styled sentences rewritten on 260 pages; same advice and links, no new facts or numbers. Two rewrites that mentioned search engines corrected. | matrix C-PURPLE 252 -> 0 pages; P0/P1 0; validator 0 errors; full CI QA suite locally |
+| B14 | 2026-10-24 | P0/P1 | this commit | Owner reference data applied: NAP with Bo De ward, Google Maps cid link, GBP and Vietnamese names in alternateName, deposits per model (2,000,000-5,000,000 VND) and deposit policy in data/site-system.json, rendered by new generated slots (RATES with a deposit column, DEPOSITS, NAP) on the homepage, cost hub, deposit guide, About and Contact; direct deposit answers in the FAQ, deposit guide and chat assistant. New /about/ (AboutPage) and /contact/ (ContactPage) pages; header, drawer, footer and CTA link to them; menu items that sent five different labels to one hub now point to distinct pages or sections. Privacy policy and terms rewritten in full from the site's actual behaviour. 304 self-talk sentences and headings about 'inventing' data rewritten on 244 pages (validated: no new numbers, links unchanged). robots.txt disallows internal folders. tools/qa-seo-guard.mjs added to both workflows. | node tools/qa-seo-guard.mjs (negative-tested); full CI QA suite locally; Playwright 375/768/1280 px, no overflow or console errors |
+| B15 | 2026-10-24 | P1/P2 | this commit | Live research with connectors: Google SERP for 8 head queries (OpenSEO/DataForSEO, Vietnam, en), DataForSEO keyword volumes, OpenSEO crawl of 50 live pages (only 5 info-level meta length notes), PageSpeed (mobile LCP 1.7 s, CLS 0, TBT 0). Fixes: --brand-text token (#b93d0a light) for orange text and labels, underlined links inside muted text; Lighthouse accessibility 93-96 -> 100 on home, About, cost hub, deposit guide and FAQ. Brand: homepage title ends with 'Nguyen Tu', WebSite schema name from brand.siteName (brand query showed no page of this site). Monthly intent: Google showed the cost hub for 'monthly motorbike rental hanoi', so the cost hub now links to the monthly owner page with a descriptive anchor and the monthly hub states the deposit. Hub prose addresses include the Bo De ward. SERP and keyword data recorded in data/serp-research.json and data/keyword-research.json (no positions stored). | Lighthouse a11y/SEO/best practices 100/100/100 on 5 pages; qa-seo-guard (brand checks added); full CI QA suite locally |
+| B16 | 2026-10-24 | P2 | this commit | 139 meta descriptions of 161-165 characters (flagged by the OpenSEO live crawl) shortened to 146-157 characters with the same meaning, topic phrase and numbers; Open Graph/Twitter copies and related cards follow through the build. qa-seo-guard fails on any description over 160 characters; factory meta_description_max_chars 180 -> 160 so new drafts match. | validator: lengths 140-158, digits subset, unique site-wide; qa-seo-guard; full CI QA suite locally |
+| B17 | 2026-10-24 | P1 | this commit | Head-term cannibalization fixed with evidence from an anchor audit: the homepage (owner of 'hanoi motorbike rental', 2,400/mo VN) had no contextual link with that anchor, while /hanoi-motorbike-rental/ (H1 'Hanoi Motorbike Rental Guide') received it from the menu (2,008), footer (1,004), breadcrumbs (177), its card and 273 body links. Hub labels in header, drawer, footer, card catalog and 177 breadcrumbs now say 'Guide'; 272 body anchors absorbed the adjacent word ('guide', 'page', 'overview of', 'fleet') with unchanged text; one generic mention now links the homepage; the publisher box on 988 articles links the homepage with 'Hanoi motorbike rental'. Exact-match 'Hanoi Motorbike Rental' anchors pointing at the hub: 3,462 (menu 2,008, footer 1,004, breadcrumbs 177, body 273) -> 0; across all 20 keyword clusters no exact-match anchor now points away from its owner. seo-fix editorial hash ignores inline tags so these markup-only edits keep each page's lastmod (0 pages changed date). | anchor audit script; qa-seo-guard keyword-owner rule (negative-tested); full CI QA suite locally |
+| B18 | 2026-10-24 | P2 | this commit | GEO: the homepage Service node now carries hasOfferCatalog with one Offer per model and UnitPriceSpecification per period (DAY/WEE/MON; monthly ranges as minPrice/maxPrice; periods without a published price omitted), generated from data/site-system.json like the visible table. qa-seo-guard compares every schema price with the config. Checks also confirmed: on-page targeting of the 8 priority keywords (title, H1, intro) on their owner pages; H2 skeletons inside the 143 template families are distinct (2 of 956 pages share a skeleton; at most 22% of H2s shared per family); Lighthouse accessibility/best practices/SEO 100 on article, trip, monthly, contact and privacy templates. | qa-seo-guard schema price rule (negative-tested); Lighthouse 100/100/100 on 5 more templates; full CI QA suite locally |
+| B19 | 2026-10-24 | P0 | this commit | Owner price table (2026-10-24): electric motorbike / e-bike = contact for day, week and month, deposit by model; rental price and deposit are separate amounts. data/site-system.json electric prices set to null (name 'Electric Motorbike / E-Bike', deposit 'By model'); calculator shows a contact message for any period without a price; chat assistant answers 'priced on request'; homepage card 'Price on request'; schema offers only for models with a published price; generated price note lists models priced on request. Content: 578 sentences on 319 pages rewritten (electric price claims removed, other models' prices kept; two sentences that wrongly gave the 50cc a 1,000,000 VND week fixed), 15 electric-focused pages rewritten in place (339 blocks, 6 removed; titles, metas and H1s now say price on request; URLs unchanged), 17 sentences fixed by hand (derived arithmetic and 'same tier' wording). Before/after log: reports/electric-price-rewrites-2026-10-24.json. qa-seo-guard fails on any clause giving the electric model an amount. | validator 0 errors on 578 sentences and 339 blocks; guard rule negative-tested; Playwright calculator test (electric day/week/month = Contact us; other models unchanged); full CI QA suite locally |
+| B20 | 2026-10-24 | P2 | this commit | Supporting content linked to the deposit owner page: 289 of 345 pages that discussed deposits had no link to /hanoi-motorbike-rental/motorbike-rental-deposit-hanoi/ (which now carries the owner's deposit table); 290 pages received one contextual link on the first 'deposit' mention in a paragraph (markup only, lastmod unchanged). Breadcrumb labels for five hubs normalized on 72 pages (Old Quarter had three labels, 50cc two, cost four). Old Quarter hub intro now answers the delivery question: ask about delivery or collection when booking; any cost is confirmed before the contract, with the price and deposit (owner rule). | anchor sample review; full CI QA suite locally; 0 pages changed lastmod from markup-only edits |
 
 ## Keyword research used
 
@@ -95,36 +102,41 @@ Volumes are monthly averages exactly as returned by the tool; "UNKNOWN" means no
 
 | Keyword | Volume | Note |
 |---|---|---|
-| hanoi motorbike rental | 2900/mo global, 1900/mo VN (Ubersuggest 2026-10-14) |  |
-| motorbike rental hanoi | 1900/mo VN (Ubersuggest 2026-10-14) | close variant of 'hanoi motorbike rental' |
-| hanoi scooter rental | 480/mo global (Ubersuggest 2026-10-14) |  |
+| hanoi motorbike rental | 2900/mo global, 1900/mo VN (Ubersuggest 2026-10-24) |  |
+| motorbike rental hanoi | 1900/mo VN (Ubersuggest 2026-10-24) | close variant of 'hanoi motorbike rental' |
+| hanoi scooter rental | 480/mo global (Ubersuggest 2026-10-24) |  |
 | scooter rental hanoi | UNKNOWN | tool returned no metrics |
 | motorbike hire hanoi | UNKNOWN | tool returned no metrics |
 | motorbike rental hanoi old quarter | UNKNOWN | seen in Google autocomplete (VN) |
-| hanoi old quarter motorbike rental | 0/mo global (Ubersuggest 2026-10-14) |  |
-| hanoi old quarter motorbike | 0/mo global (Ubersuggest 2026-10-14) |  |
-| hanoi motorbike rental cost | 50/mo global (Ubersuggest 2026-10-14) | seen in Google autocomplete (VN) |
-| motorbike rental hanoi price | 10/mo global (Ubersuggest 2026-10-14) | seen in Google autocomplete (VN) |
+| hanoi old quarter motorbike rental | 0/mo global (Ubersuggest 2026-10-24) |  |
+| hanoi old quarter motorbike | 0/mo global (Ubersuggest 2026-10-24) |  |
+| hanoi motorbike rental cost | 50/mo global (Ubersuggest 2026-10-24) | seen in Google autocomplete (VN) |
+| motorbike rental hanoi price | 10/mo global (Ubersuggest 2026-10-24) | seen in Google autocomplete (VN) |
 | hanoi motorbike rental price | UNKNOWN | seen in Google autocomplete (VN) |
-| monthly motorbike rental | 110/mo global (Ubersuggest 2026-10-14) |  |
+| monthly motorbike rental | 110/mo global (Ubersuggest 2026-10-24) |  |
 | monthly motorbike rental hanoi | UNKNOWN | seen in Google autocomplete (VN) |
-| long term motorbike rental hanoi | 0/mo global (Ubersuggest 2026-10-14) |  |
-| weekly motorbike rental | 0/mo global (Ubersuggest 2026-10-14) |  |
+| long term motorbike rental hanoi | 0/mo global (Ubersuggest 2026-10-24) |  |
+| weekly motorbike rental | 0/mo global (Ubersuggest 2026-10-24) |  |
 | daily motorbike rental hanoi | UNKNOWN | not queried |
-| 50cc scooter rental | 320/mo global (Ubersuggest 2026-10-14) |  |
-| 50cc scooter rental hanoi | 30/mo global (Ubersuggest 2026-10-14) | seen in Google autocomplete (VN) |
-| 50cc scooter rental vietnam | 20/mo global (Ubersuggest 2026-10-14) |  |
-| 50cc motorbike rental vietnam | 0/mo global (Ubersuggest 2026-10-14) |  |
+| 50cc scooter rental | 320/mo global (Ubersuggest 2026-10-24) |  |
+| 50cc scooter rental hanoi | 30/mo global (Ubersuggest 2026-10-24) | seen in Google autocomplete (VN) |
+| 50cc scooter rental vietnam | 20/mo global (Ubersuggest 2026-10-24) |  |
+| 50cc motorbike rental vietnam | 0/mo global (Ubersuggest 2026-10-24) |  |
 | 50cc motorbike rental hanoi | UNKNOWN | seen in Google autocomplete (VN) |
 | hanoi motorbike rental 50cc | UNKNOWN | seen in Google autocomplete (VN) |
-| electric scooter rental hanoi | 10/mo global, 10/mo VN (Ubersuggest 2026-10-14) | seen in Google autocomplete (VN) |
+| electric scooter rental hanoi | 10/mo global, 10/mo VN (Ubersuggest 2026-10-24) | seen in Google autocomplete (VN) |
 | electric motorbike rental hanoi | UNKNOWN | seen in Google autocomplete (VN) |
-| renting a motorbike in vietnam | 5400/mo global (Ubersuggest 2026-10-14) | shares volume with 'motorbike rental vietnam' |
-| motorbike rental vietnam | 5400/mo global (Ubersuggest 2026-10-14) | shares volume with 'renting a motorbike in vietnam' |
-| motorbike license vietnam | 320/mo global (Ubersuggest 2026-10-14) |  |
-| motorbike license vietnam tourist | 0/mo global (Ubersuggest 2026-10-14) |  |
-| one way motorbike rental vietnam | 50/mo global (Ubersuggest 2026-10-14) | service not verified - do not target |
-| hanoi motorbike rental & sales | 170/mo global (Ubersuggest 2026-10-14) | navigational query for another business - do not target |
+| renting a motorbike in vietnam | 5400/mo global (Ubersuggest 2026-10-24) | shares volume with 'motorbike rental vietnam' |
+| motorbike rental vietnam | 5400/mo global (Ubersuggest 2026-10-24) | shares volume with 'renting a motorbike in vietnam' |
+| motorbike license vietnam | 320/mo global (Ubersuggest 2026-10-24) |  |
+| motorbike license vietnam tourist | 0/mo global (Ubersuggest 2026-10-24) |  |
+| one way motorbike rental vietnam | 50/mo global (Ubersuggest 2026-10-24) | service not verified - do not target |
+| hanoi motorbike rental & sales | 170/mo global (Ubersuggest 2026-10-24) | navigational query for another business - do not target |
+| rent motorbike in vietnam | UNKNOWN |  |
+| hanoi motorbike | UNKNOWN |  |
+| scooter rental hanoi old quarter | UNKNOWN |  |
+| scooter rental hanoi price | UNKNOWN |  |
+| hanoi motorbike hire | UNKNOWN |  |
 
 Do not target (service not verified or another business): motorbike rental hanoi airport, hanoi motorbike rental one way, motorbike rental hanoi to ho chi minh, motorbike rental hanoi to hoi an, hanoi big motorbike rental, hanoi vespa rental, hanoi motorbike rental & sales.
 
@@ -180,46 +192,46 @@ Verify column: `audit` = `node tools/seo-master-matrix.mjs`; `RRT` = Google Rich
 | A2 | hanoi-50cc-motorbike-rental/rainy-weather | audience | 13 | 0.7 | 0.43 | 6% | 0% | - |
 | A2 | hanoi-50cc-motorbike-rental/route-suitability | audience | 13 | 0.61 | 0.43 | 2% | 0% | - |
 | A2 | hanoi-50cc-motorbike-rental/vs-automatic-scooter | audience | 13 | 0.67 | 0.43 | 3% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-beginners | format (selection guide vs checks and mistakes) | 2 | 0.62 | 0.47 | 2% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-beginners | format (selection guide vs checks and mistakes) | 2 | 0.63 | 0.47 | 2% | 0% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-braking | format (selection guide vs checks and mistakes) | 2 | 0.7 | 0.47 | 5% | 1% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-commuters | format (selection guide vs checks and mistakes) | 2 | 0.58 | 0.47 | 5% | 1% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-couples | format (selection guide vs checks and mistakes) | 2 | 0.64 | 0.47 | 3% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-commuters | format (selection guide vs checks and mistakes) | 2 | 0.58 | 0.47 | 4% | 1% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-couples | format (selection guide vs checks and mistakes) | 2 | 0.65 | 0.47 | 3% | 0% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-expats | format (selection guide vs checks and mistakes) | 2 | 0.72 | 0.47 | 4% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-for-daily-commuting | format (selection guide vs checks and mistakes) | 2 | 0.61 | 0.47 | 3% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-for-long-bien-riding | format (selection guide vs checks and mistakes) | 2 | 0.6 | 0.47 | 4% | 1% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-for-daily-commuting | format (selection guide vs checks and mistakes) | 2 | 0.62 | 0.47 | 3% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-for-long-bien-riding | format (selection guide vs checks and mistakes) | 2 | 0.61 | 0.47 | 4% | 1% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-for-long-stays | format (selection guide vs checks and mistakes) | 2 | 0.74 | 0.47 | 3% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-for-old-quarter-riding | format (selection guide vs checks and mistakes) | 2 | 0.64 | 0.47 | 3% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-for-old-quarter-riding | format (selection guide vs checks and mistakes) | 2 | 0.67 | 0.47 | 3% | 0% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-for-short-stays | format (selection guide vs checks and mistakes) | 2 | 0.64 | 0.47 | 2% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-for-weekend-use | format (selection guide vs checks and mistakes) | 2 | 0.73 | 0.47 | 4% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-for-west-lake-riding | format (selection guide vs checks and mistakes) | 2 | 0.67 | 0.47 | 7% | 3% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-for-weekend-use | format (selection guide vs checks and mistakes) | 2 | 0.73 | 0.47 | 3% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-for-west-lake-riding | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 7% | 3% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-fuel-planning | format (selection guide vs checks and mistakes) | 2 | 0.8 | 0.47 | 3% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-in-hot-weather | format (selection guide vs checks and mistakes) | 2 | 0.71 | 0.47 | 9% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-in-rain | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 6% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-in-winter | format (selection guide vs checks and mistakes) | 2 | 0.67 | 0.47 | 9% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-in-hot-weather | format (selection guide vs checks and mistakes) | 2 | 0.72 | 0.47 | 9% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-in-rain | format (selection guide vs checks and mistakes) | 2 | 0.69 | 0.47 | 5% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-in-winter | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 9% | 0% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-low-speed-control | format (selection guide vs checks and mistakes) | 2 | 0.71 | 0.47 | 5% | 2% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-parking | format (selection guide vs checks and mistakes) | 2 | 0.76 | 0.47 | 2% | 0% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-pre-ride-checks | format (selection guide vs checks and mistakes) | 2 | 0.64 | 0.47 | 2% | 0% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-rental-questions | format (selection guide vs checks and mistakes) | 2 | 0.71 | 0.47 | 2% | 1% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-route-planning | format (selection guide vs checks and mistakes) | 2 | 0.75 | 0.47 | 3% | 0% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-short-riders | format (selection guide vs checks and mistakes) | 2 | 0.67 | 0.47 | 5% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-solo-travelers | format (selection guide vs checks and mistakes) | 2 | 0.67 | 0.47 | 4% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-students | format (selection guide vs checks and mistakes) | 2 | 0.7 | 0.47 | 5% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-tall-riders | format (selection guide vs checks and mistakes) | 2 | 0.64 | 0.47 | 5% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-solo-travelers | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 4% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-students | format (selection guide vs checks and mistakes) | 2 | 0.71 | 0.47 | 4% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-tall-riders | format (selection guide vs checks and mistakes) | 2 | 0.65 | 0.47 | 5% | 0% | - |
 | A3 | hanoi-scooter-rental/automatic-scooter-vs-50cc | format (selection guide vs checks and mistakes) | 2 | 0.74 | 0.47 | 5% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-vs-semi-automatic | format (selection guide vs checks and mistakes) | 2 | 0.69 | 0.47 | 2% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-with-luggage | format (selection guide vs checks and mistakes) | 2 | 0.62 | 0.47 | 3% | 0% | - |
-| A3 | hanoi-scooter-rental/automatic-scooter-with-passenger | format (selection guide vs checks and mistakes) | 2 | 0.67 | 0.47 | 4% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-vs-semi-automatic | format (selection guide vs checks and mistakes) | 2 | 0.69 | 0.47 | 3% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-with-luggage | format (selection guide vs checks and mistakes) | 2 | 0.64 | 0.47 | 3% | 0% | - |
+| A3 | hanoi-scooter-rental/automatic-scooter-with-passenger | format (selection guide vs checks and mistakes) | 2 | 0.69 | 0.47 | 3% | 0% | - |
 | A3 | hanoi-scooter-rental/budget-automatic-scooter | format (selection guide vs checks and mistakes) | 2 | 0.75 | 0.47 | 7% | 2% | - |
-| A3 | hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter | format (selection guide vs checks and mistakes) | 2 | 0.6 | 0.47 | 2% | 0% | - |
+| A3 | hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter | format (selection guide vs checks and mistakes) | 2 | 0.59 | 0.47 | 2% | 0% | - |
 | A3 | hanoi-scooter-rental/honda-air-blade-for-city-riding | format (selection guide vs checks and mistakes) | 2 | 0.71 | 0.47 | 18% | 1% | - |
 | A3 | hanoi-scooter-rental/honda-air-blade-for-commuters | format (selection guide vs checks and mistakes) | 2 | 0.7 | 0.47 | 3% | 0% | - |
-| A3 | hanoi-scooter-rental/honda-air-blade-vs-honda-click | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 10% | 0% | - |
+| A3 | hanoi-scooter-rental/honda-air-blade-vs-honda-click | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 11% | 0% | - |
 | A3 | hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio | format (selection guide vs checks and mistakes) | 2 | 0.72 | 0.47 | 20% | 5% | - |
 | A3 | hanoi-scooter-rental/honda-air-blade-with-luggage | format (selection guide vs checks and mistakes) | 2 | 0.71 | 0.47 | 15% | 5% | - |
 | A3 | hanoi-scooter-rental/honda-click-for-beginners | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 5% | 1% | - |
 | A3 | hanoi-scooter-rental/honda-click-for-city-riding | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 4% | 0% | - |
 | A3 | hanoi-scooter-rental/honda-click-vs-yamaha-mio | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 10% | 2% | /hanoi-scooter-rental/honda-click-vs-yamaha-mio-hanoi/ |
-| A3 | hanoi-scooter-rental/honda-vision-for-city-riding | format (selection guide vs checks and mistakes) | 2 | 0.56 | 0.47 | 18% | 5% | - |
+| A3 | hanoi-scooter-rental/honda-vision-for-city-riding | format (selection guide vs checks and mistakes) | 2 | 0.58 | 0.47 | 18% | 5% | - |
 | A3 | hanoi-scooter-rental/honda-vision-for-expats | format (selection guide vs checks and mistakes) | 2 | 0.61 | 0.47 | 5% | 2% | - |
 | A3 | hanoi-scooter-rental/honda-vision-vs-honda-click | format (selection guide vs checks and mistakes) | 2 | 0.68 | 0.47 | 9% | 1% | - |
 | A3 | hanoi-scooter-rental/honda-vision-vs-yamaha-mio | format (selection guide vs checks and mistakes) | 2 | 0.66 | 0.47 | 9% | 2% | - |
@@ -227,20 +239,20 @@ Verify column: `audit` = `node tools/seo-master-matrix.mjs`; `RRT` = Google Rich
 | A3 | hanoi-scooter-rental/small-scooter-vs-larger-scooter | format (selection guide vs checks and mistakes) | 2 | 0.64 | 0.47 | 20% | 2% | - |
 | A3 | hanoi-scooter-rental/yamaha-mio-for-beginners | format (selection guide vs checks and mistakes) | 2 | 0.71 | 0.47 | 9% | 1% | - |
 | A3 | hanoi-scooter-rental/yamaha-mio-for-city-riding | format (selection guide vs checks and mistakes) | 2 | 0.71 | 0.47 | 2% | 0% | - |
-| A4 | hanoi-motorbike-rental-cost/model-comparisons | rental period | 34 | 0.7 | 0.72 | 23% | 3% | - |
-| A4 | hanoi-motorbike-rental-cost/honda-air-blade | rental period | 5 | 0.82 | 0.72 | 23% | 19% | - |
-| A4 | hanoi-motorbike-rental-cost/honda-click | rental period | 5 | 0.79 | 0.72 | 24% | 18% | - |
-| A4 | hanoi-motorbike-rental-cost/honda-vision | rental period | 5 | 0.83 | 0.72 | 23% | 20% | - |
-| A4 | hanoi-motorbike-rental-cost/honda-wave | rental period | 5 | 0.75 | 0.72 | 21% | 2% | - |
-| A4 | hanoi-motorbike-rental-cost/yamaha-mio | rental period | 5 | 0.76 | 0.72 | 24% | 14% | - |
-| A4 | hanoi-motorbike-rental-cost/50cc-scooter | rental period | 4 | 0.69 | 0.72 | 12% | 7% | - |
-| A4 | hanoi-motorbike-rental-cost/automatic-scooter | rental period | 4 | 0.83 | 0.72 | 14% | 5% | - |
-| A4 | hanoi-motorbike-rental-cost/electric-motorbike | rental period | 4 | 0.84 | 0.72 | 22% | 21% | - |
-| A4 | hanoi-motorbike-rental-cost/semi-automatic-motorbike | rental period | 4 | 0.77 | 0.72 | 18% | 6% | - |
-| A4 | hanoi-motorbike-rental-cost/yamaha-sirius | rental period | 4 | 0.68 | 0.72 | 21% | 10% | - |
+| A4 | hanoi-motorbike-rental-cost/model-comparisons | rental period | 34 | 0.65 | 0.67 | 23% | 3% | - |
+| A4 | hanoi-motorbike-rental-cost/honda-air-blade | rental period | 5 | 0.82 | 0.67 | 23% | 17% | - |
+| A4 | hanoi-motorbike-rental-cost/honda-click | rental period | 5 | 0.79 | 0.67 | 24% | 17% | - |
+| A4 | hanoi-motorbike-rental-cost/honda-vision | rental period | 5 | 0.83 | 0.67 | 23% | 18% | - |
+| A4 | hanoi-motorbike-rental-cost/honda-wave | rental period | 5 | 0.75 | 0.67 | 21% | 2% | - |
+| A4 | hanoi-motorbike-rental-cost/yamaha-mio | rental period | 5 | 0.76 | 0.67 | 24% | 14% | - |
+| A4 | hanoi-motorbike-rental-cost/50cc-scooter | rental period | 4 | 0.69 | 0.67 | 12% | 7% | - |
+| A4 | hanoi-motorbike-rental-cost/automatic-scooter | rental period | 4 | 0.84 | 0.67 | 14% | 5% | - |
+| A4 | hanoi-motorbike-rental-cost/electric-motorbike | rental period | 4 | 0.71 | 0.67 | 12% | 13% | - |
+| A4 | hanoi-motorbike-rental-cost/semi-automatic-motorbike | rental period | 4 | 0.77 | 0.67 | 18% | 6% | - |
+| A4 | hanoi-motorbike-rental-cost/yamaha-sirius | rental period | 4 | 0.68 | 0.67 | 21% | 10% | - |
 | A5 | motorbike-rental-hanoi-old-quarter/ba-dinh | sub-topic | 5 | 0.58 | 0.48 | 14% | 2% | - |
 | A5 | motorbike-rental-hanoi-old-quarter/bac-tu-liem | sub-topic | 5 | 0.5 | 0.48 | 21% | 3% | - |
-| A5 | motorbike-rental-hanoi-old-quarter/cau-giay | sub-topic | 5 | 0.61 | 0.48 | 20% | 7% | - |
+| A5 | motorbike-rental-hanoi-old-quarter/cau-giay | sub-topic | 5 | 0.61 | 0.48 | 20% | 6% | - |
 | A5 | motorbike-rental-hanoi-old-quarter/dong-da | sub-topic | 5 | 0.6 | 0.48 | 18% | 7% | - |
 | A5 | motorbike-rental-hanoi-old-quarter/french-quarter | sub-topic | 5 | 0.58 | 0.48 | 22% | 8% | - |
 | A5 | motorbike-rental-hanoi-old-quarter/giang-vo | sub-topic | 5 | 0.6 | 0.48 | 22% | 9% | - |
@@ -258,7 +270,7 @@ Verify column: `audit` = `node tools/seo-master-matrix.mjs`; `RRT` = Google Rich
 | A5 | motorbike-rental-hanoi-old-quarter/truc-bach | sub-topic | 5 | 0.6 | 0.48 | 18% | 7% | - |
 | A5 | motorbike-rental-hanoi-old-quarter/west-lake | sub-topic | 5 | 0.56 | 0.48 | 15% | 1% | /motorbike-rental-hanoi-old-quarter/west-lake-motorbike-ride-hanoi/ |
 | A6 | monthly-motorbike-rental-hanoi/commuting-setup | audience | 13 | 0.61 | 0.48 | 16% | 0% | - |
-| A6 | monthly-motorbike-rental-hanoi/contract-questions | audience | 13 | 0.74 | 0.48 | 22% | 1% | - |
+| A6 | monthly-motorbike-rental-hanoi/contract-questions | audience | 13 | 0.75 | 0.48 | 21% | 1% | - |
 | A6 | monthly-motorbike-rental-hanoi/maintenance-expectations | audience | 13 | 0.69 | 0.48 | 20% | 3% | - |
 | A6 | monthly-motorbike-rental-hanoi/model-choice | audience | 13 | 0.72 | 0.48 | 13% | 1% | - |
 | A6 | monthly-motorbike-rental-hanoi/monthly-budget | audience | 13 | 0.76 | 0.48 | 20% | 2% | - |
@@ -283,7 +295,7 @@ Verify column: `audit` = `node tools/seo-master-matrix.mjs`; `RRT` = Google Rich
 | A8 | hanoi-motorbike-for-sale/break-even-thinking | audience | 13 | 0.64 | 0.46 | 17% | 3% | - |
 | A8 | hanoi-motorbike-for-sale/ownership-costs | audience | 13 | 0.63 | 0.46 | 12% | 1% | - |
 | A8 | hanoi-motorbike-for-sale/paperwork-questions | audience | 13 | 0.65 | 0.46 | 19% | 2% | - |
-| A8 | hanoi-motorbike-for-sale/rent-vs-buy-decision | audience | 13 | 0.6 | 0.46 | 8% | 4% | - |
+| A8 | hanoi-motorbike-for-sale/rent-vs-buy-decision | audience | 13 | 0.6 | 0.46 | 9% | 4% | - |
 | A8 | hanoi-motorbike-for-sale/resale-planning | audience | 13 | 0.62 | 0.46 | 18% | 2% | - |
 | A8 | hanoi-motorbike-for-sale/used-bike-inspection | audience | 13 | 0.61 | 0.46 | 20% | 4% | - |
 | A9 | renting-a-motorbike-in-vietnam/accident-steps | audience | 6 | 0.81 | 0.4 | 20% | 5% | - |
@@ -334,8 +346,11 @@ Columns: URL · primary keyword (volume) · secondary keywords · search intent 
 | URL | Primary KW (volume) | Secondary KWs | Intent | Hub | Issues (evidence) | Action | Pri | Status | Verify |
 |---|---|---|---|---|---|---|---|---|---|
 | / | hanoi motorbike rental (2900/mo global, 1900/mo VN) | motorbike rental hanoi; hanoi scooter rental; hanoi motorbike rental price; where to rent a motorbike in hanoi | Transactional / Commercial | Homepage (root hub) | Fixed: S-PRICERANGE, C-DIRECT-ANSWER, C-META-COPY, C-CANNIBAL | — | - | DONE | audit |
-| /hanoi-50cc-motorbike-rental/ | 50cc motorbike rental hanoi (UNKNOWN) | 50cc scooter rental hanoi; 50cc bike rental hanoi; rent 50cc scooter hanoi; hanoi motorbike rental 50cc | Transactional / Commercial investigation | 50cc Motorbike Rental | Fixed: S-HUB, L-HUB-INDEX, C-DIRECT-ANSWER, C-META-COPY | — | - | DONE | audit |
 | /hanoi-motorbike-for-sale/ | buying vs renting a motorbike in hanoi (UNKNOWN) | buy vs rent motorbike hanoi; buying a used motorbike in hanoi | Informational comparison | Buying vs Renting | Fixed: S-HUB, L-HUB-INDEX, C-META-COPY, C-INTENT | — | - | DONE | audit |
+| /404.html | (none) (n/a) |  | n/a | - | Fixed: T-404-REFRESH | — | - | DONE | audit |
+| /about/ | about motorbike rental nguyen tu (UNKNOWN) |  | Navigational / Trust | Company | — | — | - | OK | audit |
+| /contact/ | contact motorbike rental hanoi (UNKNOWN) |  | Navigational / Contact | Company | — | — | - | OK | audit |
+| /hanoi-50cc-motorbike-rental/ | 50cc motorbike rental hanoi (UNKNOWN) | 50cc scooter rental hanoi; 50cc bike rental hanoi; rent 50cc scooter hanoi; hanoi motorbike rental 50cc | Transactional / Commercial investigation | 50cc Motorbike Rental | Fixed: S-HUB, L-HUB-INDEX, C-DIRECT-ANSWER, C-META-COPY | — | - | DONE | audit |
 | /hanoi-motorbike-rental-cost/ | hanoi motorbike rental cost (50/mo global) | hanoi motorbike rental price; how much to rent a motorbike in hanoi; motorbike rental hanoi price; scooter rental hanoi price | Commercial investigation | Rental Cost & Prices | Fixed: S-HUB, L-HUB-INDEX, C-DIRECT-ANSWER, C-META-COPY | — | - | DONE | audit |
 | /hanoi-motorbike-rental/ | hanoi motorbike rental guide (UNKNOWN) | how to rent a motorbike in hanoi; where to rent a motorbike in hanoi; motorbike rental in hanoi; hanoi motorbike hire | Commercial investigation / Informational | Hanoi Motorbike Rental Guide | Fixed: S-HUB, L-HUB-INDEX, C-DIRECT-ANSWER, C-META-COPY, C-CANNIBAL | — | - | DONE | audit |
 | /hanoi-motorbike-trips/ | hanoi motorbike trips (UNKNOWN) | motorbike day trips from hanoi; hanoi motorbike routes | Informational / Commercial assist | Hanoi Motorbike Trips | Fixed: S-HUB, L-HUB-INDEX, C-META-COPY | — | - | DONE | audit |
@@ -347,7 +362,6 @@ Columns: URL · primary keyword (volume) · secondary keywords · search intent 
 | /faq/ | hanoi motorbike rental faq (UNKNOWN) | how much to rent a motorbike in hanoi; can a tourist rent a motorbike in vietnam; do you need a license to rent a motorbike in vietnam | Informational / Answer engine | FAQ | Fixed: C-META-COPY | — | - | DONE | audit |
 | /privacy-policy.html | privacy policy (UNKNOWN) |  | Navigational / Trust | Company | — | — | - | OK | audit |
 | /terms-of-use.html | terms of use (UNKNOWN) |  | Navigational / Trust | Company | — | — | - | OK | audit |
-| /404.html | (none) (n/a) |  | n/a | - | Fixed: T-404-REFRESH | — | - | DONE | audit |
 
 ### Articles — 50cc Motorbike Rental
 

@@ -24,6 +24,8 @@ on:
       - 'assets/js/site-search.js'
       - 'tools/build-article-index.mjs'
       - 'tools/qa-discovery.mjs'
+      - 'tools/qa-seo-guard.mjs'
+      - 'assets/js/assistant.js'
       - '.github/workflows/seo-maintenance.yml'
 
 permissions:
@@ -74,6 +76,9 @@ jobs:
         run: |
           node --check assets/js/site-search.js
           node tools/qa-discovery.mjs
+
+      - name: SEO regression guard
+        run: node tools/qa-seo-guard.mjs
 
       - name: Verify deterministic SEO state
         run: |

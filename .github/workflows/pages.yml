@@ -41,6 +41,8 @@ jobs:
           node tools/qa-article-ui.mjs
       - name: SEO audit
         run: node tools/seo-audit.mjs
+      - name: SEO regression guard (NAP, deposits, navigation, legal pages, self-talk)
+        run: node tools/qa-seo-guard.mjs
       - name: Verify SEO safe-fix state
         run: node tools/seo-fix.mjs --check
       - name: Verify idempotent build

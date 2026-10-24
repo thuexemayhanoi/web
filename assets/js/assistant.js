@@ -7,8 +7,9 @@
    - English + Vietnamese (with/without diacritics), typo-tolerant
    - Session memory: model, period, quantity, duration
    - Single price source: PRICES/BUSINESS from business-config.js
-   - Never invents availability, promotions, deposits, delivery
-     or legal conclusions. Monthly ranges stay ranges.
+   - Never invents availability, promotions, delivery or legal
+     conclusions; deposits come only from PRICES (site-system.json).
+   - Monthly ranges stay ranges.
    ============================================================ */
 (function (root) {
   "use strict";
@@ -41,7 +42,7 @@
     { key: "mio",      re: /\bmio(s)?\b/ },
     { key: "vision",   re: /\bvision(s)?\b/ },
     { key: "airblade", re: /\bair ?blade(s)?\b/ },
-    { key: "electric", re: /\b(electric|electric motorbike|xe dien)\b/ },
+    { key: "electric", re: /\b(electric|electric motorbike|e-?bikes?|xe dien|xe may dien|xe dap dien)\b/ },
     { key: "cc50",     re: /\b50\s?cc\b|\bmoped(s)?\b|\bxe\s+50\b/ }
   ];
   var CLICK_MODEL_RE = /\bhonda\s+click\b/;
@@ -126,11 +127,39 @@
     return this.state.model ? this.PRICES[this.state.model] : null;
   };
 
+  // Deposit amounts come from PRICES[model].deposit (data/site-system.json);
+  // a null deposit is never estimated, the answer asks the user to confirm.
+  Engine.prototype.depositText = function () {
+    var vi = this.state.lang === "vi";
+    var guide = this.a("/hanoi-motorbike-rental/motorbike-rental-deposit-hanoi/", vi ? "hướng dẫn tiền cọc" : "deposit guide");
+    var call = this.a("tel:" + this.BUSINESS.phoneTel, this.BUSINESS.phone);
+    var m = this.model();
+    if (m && Object.prototype.hasOwnProperty.call(m, "deposit")) {
+      if (m.deposit == null) {
+        return vi
+          ? "Vui lòng gọi " + call + " để xác nhận tiền cọc cho " + m.name + "."
+          : "Please call " + call + " to confirm the deposit for the " + m.name + ".";
+      }
+      var amt = Array.isArray(m.deposit) ? this.vnd(m.deposit[0]) + " – " + this.vnd(m.deposit[1]) : this.vnd(m.deposit);
+      return vi
+        ? "Tiền cọc cho " + m.name + " là " + amt + ". Tiền cọc được hoàn trả theo hợp đồng sau khi bạn trả xe và hoàn thành các nghĩa vụ liên quan. Xem " + guide + "."
+        : "The deposit for the " + m.name + " is " + amt + ". It is refunded under the rental contract after you return the bike and complete the related obligations. See our " + guide + ".";
+    }
+    return vi
+      ? "Tiền cọc thuê xe máy từ 2.000.000 đến 5.000.000 VND, tùy loại xe. Một số phương án giấy tờ bảo đảm có thể được trao đổi riêng theo thỏa thuận hợp pháp. Xem " + guide + " hoặc gọi " + call + "."
+      : (typeof DEPOSIT_POLICY !== "undefined" ? DEPOSIT_POLICY.summary : "Deposits depend on the motorbike.") + " Some alternative forms of security documents can be discussed individually under a lawful agreement. See our " + guide + " or call " + call + ".";
+  };
+
   Engine.prototype.priceText = function (m, period) {
     var vi = this.state.lang === "vi";
     var p = m[period];
     var perEn = { day: "per day", week: "per week", month: "per month" };
     var perVi = { day: "mỗi ngày", week: "mỗi tuần", month: "mỗi tháng" };
+    if (p == null && m.day == null) {
+      return vi
+        ? "Giá thuê " + m.name + " được báo theo từng mẫu xe — vui lòng " + this.a("tel:" + this.BUSINESS.phoneTel, "liên hệ") + " để báo giá."
+        : "The " + m.name + " is priced on request by model — please " + this.a("tel:" + this.BUSINESS.phoneTel, "contact us") + " for a quote.";
+    }
     if (p == null) {
       var which = period === "week" ? (vi ? "tuần" : "weekly") : (vi ? "tháng" : "monthly");
       return vi
@@ -194,8 +223,8 @@
           : "Which bike would you like the price for — Wave, Sirius, Mio, Click, Vision, Air Blade, electric or 50cc?";
       }
       return vi
-        ? "Giá thuê từ 150.000 VND/ngày (Wave, Sirius, Mio, Click). Vision, Air Blade, xe điện và 50cc là 200.000 VND/ngày. " + pricesLink + "."
-        : "Rental prices start at 150,000 VND/day (Honda Wave, Yamaha Sirius, Yamaha Mio, Honda Click). Honda Vision, Honda Air Blade, electric and 50cc are 200,000 VND/day. " + pricesLink + ".";
+        ? "Giá thuê từ 150.000 VND/ngày (Wave, Sirius, Mio, Click). Vision, Air Blade và 50cc là 200.000 VND/ngày; xe máy điện và xe đạp điện vui lòng liên hệ để báo giá. " + pricesLink + "."
+        : "Rental prices start at 150,000 VND/day (Honda Wave, Yamaha Sirius, Yamaha Mio, Honda Click). Honda Vision, Honda Air Blade and 50cc are 200,000 VND/day; electric motorbikes and e-bikes are priced on request. " + pricesLink + ".";
     }
     var period = this.state.period || "day";
     var total = null;
@@ -299,9 +328,7 @@
           : "Call " + this.a("tel:" + this.BUSINESS.phoneTel, this.BUSINESS.phone) + " or email " + this.a("mailto:" + this.BUSINESS.email, this.BUSINESS.email) + ". Hours: " + this.BUSINESS.hoursText + ".";
         break;
       case "deposit":
-        answer = vi
-          ? "Chúng tôi chưa có thông tin tiền cọc đã xác minh. Vui lòng " + this.a("tel:" + this.BUSINESS.phoneTel, "liên hệ") + " để biết điều khoản cho lần thuê của bạn."
-          : "We don\u2019t have verified deposit terms to share here. Please " + this.a("tel:" + this.BUSINESS.phoneTel, "contact us") + " to confirm the deposit for your rental.";
+        answer = this.depositText();
         break;
       case "buy":
         answer = vi

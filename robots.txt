@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
+Disallow: /data/
+Disallow: /tools/
+Disallow: /reports/
+Disallow: /factory/
+Disallow: /site/
 
 Sitemap: https://app.rentbikehanoi.com/sitemap.xml

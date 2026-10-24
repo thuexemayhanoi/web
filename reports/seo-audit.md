@@ -1,8 +1,8 @@
 # SEO Audit
 
 - Domain: https://app.rentbikehanoi.com
-- Indexable pages: 1002
-- Sitemap URLs: 1002
+- Indexable pages: 1004
+- Sitemap URLs: 1004
 - Errors: 0
 - Warnings: 0
 - Pages with errors: 0

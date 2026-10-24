@@ -1,0 +1,2765 @@
+{
+ "_comment": "Batch B14 (2026-10-24): editorial self-talk about inventing data rewritten in place. after=\"\" means the sentence was removed. Revert one sentence by replacing after with before in the listed files, then run node tools/build-site.mjs.",
+ "rewrites": [
+  {
+   "id": "S000",
+   "kind": "heading",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-ha-giang-return-planning/index.html",
+    "hanoi-motorbike-trips/hanoi-to-hoa-binh-return-planning/index.html",
+    "hanoi-motorbike-trips/hanoi-to-moc-chau-return-planning/index.html",
+    "hanoi-motorbike-trips/hanoi-to-pu-luong-return-planning/index.html"
+   ],
+   "before": "Planning Around Daylight Without Invented Times",
+   "after": "Planning Around Daylight"
+  },
+  {
+   "id": "S001",
+   "kind": "heading",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-bac-ninh-route-planning/index.html",
+    "hanoi-motorbike-trips/hanoi-to-hoa-binh-route-planning/index.html"
+   ],
+   "before": "Route Options Without Invented Numbers",
+   "after": "Route Options"
+  },
+  {
+   "id": "S002",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/honda-air-blade-vs-50cc-scooter-rental-cost/index.html",
+    "hanoi-motorbike-rental-cost/honda-vision-vs-50cc-scooter-rental-cost/index.html",
+    "hanoi-motorbike-rental-cost/yamaha-mio-vs-50cc-scooter-rental-cost/index.html"
+   ],
+   "before": "The break-even mistake is inventing the missing half.",
+   "after": "The break-even mistake is guessing at the missing half."
+  },
+  {
+   "id": "S003",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/honda-vision-vs-50cc-scooter-rental-cost/index.html",
+    "hanoi-motorbike-rental-cost/yamaha-mio-vs-50cc-scooter-rental-cost/index.html"
+   ],
+   "before": "Riders sometimes assume a 50cc week at some proportion of the daily rate and plan around the invented number.",
+   "after": "Riders sometimes assume a 50cc week costs some proportion of the daily rate and then build their budget on that figure."
+  },
+  {
+   "id": "S004",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/cau-giay-parking-guide/index.html",
+    "motorbike-rental-hanoi-old-quarter/dong-da-parking-guide/index.html",
+    "motorbike-rental-hanoi-old-quarter/hai-ba-trung-parking-guide/index.html"
+   ],
+   "before": "We don&rsquo;t invent parking rules, spots or fees, because in Hanoi they are local and change often.",
+   "after": "Parking rules, spots and fees in Hanoi are local and change often."
+  },
+  {
+   "id": "S005",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/index.html"
+   ],
+   "before": "These figures let you compare categories without inventing a rate where one has not been verified.",
+   "after": "Use these figures to compare categories, and ask the shop directly for any rate that has not been published."
+  },
+  {
+   "id": "S006",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/solo-travelers-bridges-and-inclines/index.html"
+   ],
+   "before": "There is no need to invent exact performance figures; the practical point is that the smaller the engine class, the more your speed depends on planning and the less it depends on raw power.",
+   "after": "The practical point is that the smaller the engine class, the more your speed depends on planning and the less it depends on raw power."
+  },
+  {
+   "id": "S007",
+   "kind": "heading",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-bac-ninh-fuel-and-rest-stops/index.html"
+   ],
+   "before": "A Refuel Philosophy Without Invented Stations",
+   "after": "Planning Refuel Stops"
+  },
+  {
+   "id": "S008",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/teachers-maintenance-expectations/index.html"
+   ],
+   "before": "Brake pads thin at the pace of the city&rsquo;s junctions, tyres wear at the pace of its surfaces, and the small adjustments arrive at the mileage&rsquo;s own rhythm, handled by the shop when the rider mentions them, on a schedule the shop states rather than the page invents.",
+   "after": "Brake pads and tyres wear with daily city riding, and small adjustments come up as the mileage builds; mention them to the shop and ask how it schedules servicing."
+  },
+  {
+   "id": "S009",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/long-stay-tourists-monthly-budget/index.html"
+   ],
+   "before": "A long stay is a lot of small days, and small days are exactly what buffers were invented for.",
+   "after": "A long stay is a lot of small days, and small days are exactly what a buffer is for."
+  },
+  {
+   "id": "S010",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/business-travelers-commuting-setup/index.html"
+   ],
+   "before": "The setup below uses no invented travel times or terms, because what works is built from how the city actually moves, not from brochure promises.",
+   "after": "The setup below follows how the city actually moves, so time the route yourself and confirm the rental terms with the shop."
+  },
+  {
+   "id": "S011",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/frequent-commuters-resale-planning/index.html"
+   ],
+   "before": "A commuter&rsquo;s resale is treated here as something to plan, with no invented market prices or forecasts, and every ownership-transfer question goes to current official sources.",
+   "after": "You cannot control market prices, so focus on what you can prepare, and take every ownership-transfer question to current official sources."
+  },
+  {
+   "id": "S012",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/frequent-commuters-paperwork-questions/index.html"
+   ],
+   "before": "Below are the questions a daily rider should ask before buying; no procedures or fees are invented, and every answer should come from current official Vietnamese sources.",
+   "after": "Below are the questions a daily rider should ask before buying, and every answer on procedures and fees should come from current official Vietnamese sources."
+  },
+  {
+   "id": "S013",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/couples-paperwork-questions/index.html"
+   ],
+   "before": "Registration, transfer and insurance are legal matters with changing answers, so we list the questions, invent no procedures or fees, and point every answer to current official Vietnamese sources.",
+   "after": "Registration, transfer and insurance are legal matters with changing answers, so use the questions below and check every procedure and fee with current official Vietnamese sources."
+  },
+  {
+   "id": "S014",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/couples-resale-planning/index.html"
+   ],
+   "before": "Here resale is treated as household planning: what affects selling price, why papers matter, how selling two bikes differs, and what renting offers instead, all without invented prices or forecasts.",
+   "after": "Treat resale as household planning: know what affects selling price, why papers matter, how selling two bikes differs, and what renting offers instead."
+  },
+  {
+   "id": "S015",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/thanh-xuan-day-ride-ideas/index.html"
+   ],
+   "before": "We offer the district&rsquo;s day-ride ideas as outlines rather than schedules, built around landmarks, comfort and real geography, with no invented timings, live-traffic claims or promises.",
+   "after": "The district&rsquo;s day-ride ideas are outlines rather than schedules, built around landmarks, comfort and real geography, so judge timing and traffic on the day."
+  },
+  {
+   "id": "S016",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/digital-nomads-used-bike-inspection/index.html"
+   ],
+   "before": "No market folklore, no invented prices, and every live fact pointed at the day&rsquo;s official truth.",
+   "after": "Ignore market folklore, and check prices and official requirements against current sources on the day you buy."
+  },
+  {
+   "id": "S017",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/digital-nomads-resale-planning/index.html"
+   ],
+   "before": "We plan the sale for nomads specifically, invent no market prices and check every changing requirement against current official sources.",
+   "after": "Plan the sale around your next move, and check every requirement against current official sources, since they change."
+  },
+  {
+   "id": "S018",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/digital-nomads-route-planning/index.html"
+   ],
+   "before": "Here is a route system for nomads, with realistic pacing, no invented travel times, and a clear split between the routes your work depends on and those you ride for fun.",
+   "after": "Here is a route system for nomads, with realistic pacing and a clear split between the routes your work depends on and those you ride for fun."
+  },
+  {
+   "id": "S019",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/families-resale-planning/index.html"
+   ],
+   "before": "Family resale is treated here as something to plan, with no invented market prices or forecasts, and every ownership-transfer question goes to current official sources.",
+   "after": "Treat resale as something to plan from the start, without relying on price forecasts, and take every ownership-transfer question to current official sources."
+  },
+  {
+   "id": "S020",
+   "kind": "sentence",
+   "files": [
+    "renting-a-motorbike-in-vietnam/road-signs-50cc-riders/index.html"
+   ],
+   "before": "A few signs do vary with engine class, and good guides point to them rather than listing invented exemptions.",
+   "after": "A few signs do vary with engine class, so read them closely rather than assuming an exemption applies to your bike."
+  },
+  {
+   "id": "S021",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/expats-contract-questions/index.html"
+   ],
+   "before": "No page should invent a deposit, a policy or a promise, and this one will not, it will only help you arrive prepared to hear the real ones.",
+   "after": "The deposit, the policies and any promises are for the shop to state, and these questions help you arrive prepared to hear them."
+  },
+  {
+   "id": "S022",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/students-contract-questions/index.html"
+   ],
+   "before": "No page should invent a deposit, a policy or a promise, and this one will not, it will only help a student arrive prepared to hear the real ones.",
+   "after": "Ask about the deposit and any policies there too, since only the shop can state them."
+  },
+  {
+   "id": "S023",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/long-stay-visitors-return-checklist/index.html"
+   ],
+   "before": "Here is the return checklist, using verified prices only, careful wording about the shop's own terms, and no invented policies.",
+   "after": "Here is the return checklist; confirm anything that depends on the shop's own terms directly with the shop."
+  },
+  {
+   "id": "S024",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/teachers-ownership-costs/index.html"
+   ],
+   "before": "No market prices or repair quotes are invented here; the categories are set out so a teacher can fill them with real numbers from real sources.",
+   "after": "Market prices and repair quotes vary from bike to bike, so fill each category with real numbers from real sources."
+  },
+  {
+   "id": "S025",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/new-hanoi-residents-contract-questions/index.html"
+   ],
+   "before": "Every answer comes from the shop in person, because rental terms are for the shop to state and we do not invent them.",
+   "after": "Take them to the shop in person, because only the shop can state its rental terms."
+  },
+  {
+   "id": "S026",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/new-riders-bike-choice/index.html"
+   ],
+   "before": "What follows is a straightforward guide to that choice, putting confidence first and caution throughout, with nothing invented and the licence question left to the official rules.",
+   "after": "What follows is a straightforward guide to that choice, putting confidence first and caution throughout; for the licence question, check the official rules."
+  },
+  {
+   "id": "S027",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/interns-commuting-setup/index.html",
+    "monthly-motorbike-rental-hanoi/project-workers-commuting-setup/index.html"
+   ],
+   "before": "Nothing in the rain kit needs inventing, the cape is a local purchase at a local price, and its absence is the only expensive part of the whole wet-weather story.",
+   "after": "The cape is a local purchase at a local price, and going without one is the only expensive part of riding in the wet."
+  },
+  {
+   "id": "S028",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/project-workers-resale-planning/index.html"
+   ],
+   "before": "No market prices are invented, no legal steps are quoted, and every binding requirement is deferred to the official sources that own it.",
+   "after": "Check current market prices yourself, and confirm every legal step and binding requirement with current official sources."
+  },
+  {
+   "id": "S029",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/project-workers-rent-vs-buy-decision/index.html"
+   ],
+   "before": "Here is a decision framework for fixed-term riders; it gives no used-bike prices, invents no rules, and compares the uneven costs of ownership with published rental rates.",
+   "after": "Here is a decision framework for fixed-term riders that sets the uneven costs of ownership against published rental rates; get used-bike prices from the market and rules from official sources."
+  },
+  {
+   "id": "S030",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/remote-workers-model-choice/index.html"
+   ],
+   "before": "There is no fixed commute unless you invent one, no office parking lot unless you pick a favourite, and the riding spreads across the whole day, the morning cafe run, the midday errand, the evening map, which makes the choosing both easier and more interesting than the commuter&rsquo;s.",
+   "after": "There is no fixed commute unless you set one up, no office parking lot unless you pick a favourite, and the riding spreads across the whole day, the morning cafe run, the midday errand, the evening map, which makes the choosing both easier and more interesting than the commuter&rsquo;s."
+  },
+  {
+   "id": "S031",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/motorbike-rental-deposit-hanoi/index.html"
+   ],
+   "before": "For the renter, a clear deposit arrangement is actually protection, because it defines in advance what the shop considers its risk and therefore what the shop cannot reasonably invent afterward.",
+   "after": "For the renter, a clear deposit arrangement is actually protection, because it defines in advance what the shop considers its risk and therefore limits what can be claimed afterward."
+  },
+  {
+   "id": "S032",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/frequent-commuters-contract-questions/index.html"
+   ],
+   "before": "Confirm every one with the shop in words, because rental terms should never be guessed or invented.",
+   "after": "Confirm every one with the shop in words rather than guessing at the answer."
+  },
+  {
+   "id": "S033",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-hoa-binh-safety-checklist/index.html",
+    "hanoi-motorbike-trips/hanoi-to-pu-luong-safety-checklist/index.html"
+   ],
+   "before": "Nothing in this checklist invents conditions; it arranges the questions instead.",
+   "after": "Conditions change, so each check is a question to answer on the day you ride."
+  },
+  {
+   "id": "S034",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/budget-travelers-daily-rental-planning/index.html"
+   ],
+   "before": "We do not invent weekly or monthly rates; the day is the unit, and it is the one budget travelers plan best.",
+   "after": "Ask the shop for weekly or monthly rates rather than estimating them; the day is the unit budget travelers plan best."
+  },
+  {
+   "id": "S035",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/students-resale-planning/index.html"
+   ],
+   "before": "As elsewhere in the series, there are no invented market prices, no folklore about which models &ldquo;hold&rdquo; or &ldquo;drop&rdquo; value, and no promise of a future buyer.",
+   "after": "Be wary of quoted market prices and folklore about which models &ldquo;hold&rdquo; or &ldquo;drop&rdquo; value, and do not assume a future buyer will appear."
+  },
+  {
+   "id": "S036",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/students-used-bike-inspection/index.html"
+   ],
+   "before": "No invented prices, no folklore dressed as fact, and every live question handed to people who answer it daily rather than for a commission.",
+   "after": "For prices and other live questions, ask people who deal with them daily rather than someone earning a commission."
+  },
+  {
+   "id": "S037",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/expats-rainy-day-planning/index.html"
+   ],
+   "before": "The plan is based on verified facts and cautious habits, with no live-weather claims and no invented shop policies on wet-weather use.",
+   "after": "Check the live forecast yourself each day, and ask the shop whether it has any rules on wet-weather use."
+  },
+  {
+   "id": "S038",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/long-stay-tourists-rent-vs-buy-decision/index.html"
+   ],
+   "before": "Long-stay tourists are treated here as their own group, neither backpackers acting on impulse nor expats making a commitment, using verified rental prices only, no invented ownership prices, and pointing current questions to people with nothing to sell.",
+   "after": "Long-stay tourists are their own group, neither backpackers acting on impulse nor expats making a commitment, so compare verified rental prices with real ownership quotes and take current questions to people with nothing to sell."
+  },
+  {
+   "id": "S039",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/index.html"
+   ],
+   "before": "The same rule applies to monthly ranges: if the published rate is 900,000&ndash;1,200,000 VND, the site keeps the range instead of inventing one exact number.",
+   "after": "The same rule applies to monthly ranges: if the published rate is 900,000&ndash;1,200,000 VND, the range stays as published rather than being narrowed to one exact number."
+  },
+  {
+   "id": "S040",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/automatic-scooter-daily-price/index.html",
+    "hanoi-motorbike-rental-cost/automatic-scooter-weekly-price/index.html"
+   ],
+   "before": "No invented extras, promotions or bundle discounts are added to them.",
+   "after": "Do not plan on extras, promotions or bundle discounts on top of them."
+  },
+  {
+   "id": "S041",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/old-quarter-traffic-guide/index.html"
+   ],
+   "before": "We do not quote live traffic, invent lane rules or promise conditions, because those change daily; we describe what the area is like, how to prepare, and where to get current answers: at the shop and on the street.",
+   "after": "Traffic, lane rules and conditions change daily, so get current answers at the shop and on the street."
+  },
+  {
+   "id": "S042",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/frequent-commuters-monthly-budget/index.html"
+   ],
+   "before": "None of the lines carries an invented number, the fuel is bought at the city&rsquo;s pumps, the fees are posted at the lots, and what the rental includes by way of helmet and lock is asked at the shop before the shopping begins.",
+   "after": "Fuel is priced at the city&rsquo;s pumps, parking fees are posted at the lots, and it is worth asking the shop whether a helmet and lock come with the bike before you buy any gear."
+  },
+  {
+   "id": "S043",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/solo-travelers-vs-automatic-scooter/index.html"
+   ],
+   "before": "Do not build the budget on invented weekly or monthly figures for the larger classes, because only the verified numbers belong in a plan.",
+   "after": "Build the budget on the verified day rates, not on guessed weekly or monthly figures for the larger classes."
+  },
+  {
+   "id": "S044",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/new-hanoi-residents-contract-questions/index.html"
+   ],
+   "before": "None of the terms are invented on any page, all of them are given at the shop, and the rental that knows its own exits is the one that bends without breaking.",
+   "after": "These terms are set by the shop, so write down its answers when you ask."
+  },
+  {
+   "id": "S045",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/tall-riders-rental-paperwork-questions/index.html"
+   ],
+   "before": "Licensing is a separate matter governed by official rules, and the license guide on this site summarizes the reliable sources rather than inventing an answer.",
+   "after": "Licensing is a separate matter governed by official rules, and the license guide on this site summarizes the reliable sources."
+  },
+  {
+   "id": "S046",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/city-commuters-pickup-planning/index.html"
+   ],
+   "before": "Contact and booking arrangements should follow what the shop itself states; no delivery or booking promises are made here, because inventing them helps nobody.",
+   "after": "Follow the contact and booking arrangements the shop gives you, and ask directly if you need delivery."
+  },
+  {
+   "id": "S047",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/first-time-visitors-parking/index.html"
+   ],
+   "before": "Where lots are unattended, park inside the existing rows rather than inventing a new arrangement, and choose supervised spots whenever the day allows.",
+   "after": "Where lots are unattended, park inside the existing rows rather than starting a new one, and choose supervised spots whenever the day allows."
+  },
+  {
+   "id": "S048",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/couples-vs-automatic-scooter/index.html"
+   ],
+   "before": "Because rental prices for larger classes can change with model and season, we never invent scooter rates; instead we explain how to ask for them.",
+   "after": "Rental prices for the larger classes can change with model and season, so ask the shop for the current scooter rate."
+  },
+  {
+   "id": "S049",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/bac-tu-liem-rental-planning/index.html"
+   ],
+   "before": "Here is how to plan a rental from a Bac Tu Liem base, covering pickup, bike choice, rental period and the first week, with no invented journey times, branches or promises.",
+   "after": "Here is how to plan a rental from a Bac Tu Liem base, covering pickup, bike choice, rental period and the first week."
+  },
+  {
+   "id": "S050",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/bac-tu-liem-traffic-guide/index.html"
+   ],
+   "before": "It makes no live-traffic claims, invents no rules and promises no minutes.",
+   "after": "Traffic changes daily, so leave a time margin on every ride."
+  },
+  {
+   "id": "S051",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/first-time-visitors-rental-paperwork-questions/index.html"
+   ],
+   "before": "Do not press for guarantees or invented policies; ask instead for the actual terms, and expect them to sound like terms, specific, dated and mutual.",
+   "after": "Do not press for guarantees or for policies the shop has not stated; ask instead for the actual terms, and expect them to be specific, dated and mutual."
+  },
+  {
+   "id": "S052",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/old-quarter-route-connections/index.html"
+   ],
+   "before": "Below we set out the main links: the fixed points, what each link is like, and the habits that make riding between them comfortable, with no made-up journey times, live-traffic claims or invented rules.",
+   "after": "Below are the main links: the fixed points, what each link is like, and the habits that make riding between them comfortable."
+  },
+  {
+   "id": "S053",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/couples-ownership-costs/index.html"
+   ],
+   "before": "We invent no market numbers; the method is a shared, dated cost sheet filled with real local quotes and reviewed every three months.",
+   "after": "Keep a shared, dated cost sheet filled with real local quotes and review it every three months."
+  },
+  {
+   "id": "S054",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/couples-parking-and-security/index.html"
+   ],
+   "before": "The fees are posted at the lots themselves, no page invents them, and the couple&rsquo;s pocket habit carries enough small change for the day&rsquo;s stops, the four-second transaction replacing the wallet-negotiation in a doorway, doubled if the month is a two-machine one.",
+   "after": "Between you, keep enough small change in a pocket for the day&rsquo;s stops, so paying takes seconds instead of a wallet search in a doorway, and double it if you have two bikes for the month."
+  },
+  {
+   "id": "S055",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/long-stay-tourists-parking-and-security/index.html"
+   ],
+   "before": "The fees are posted at the lots themselves in the city&rsquo;s own plain way, no page invents them, and the pocket habit, small change carried as part of the riding kit, turns the busiest forecourt into a four-second transaction rather than a wallet-negotiation in a doorway.",
+   "after": "Check the fee posted at each lot, and carry small change as part of your riding kit so paying takes seconds rather than a search through your wallet."
+  },
+  {
+   "id": "S056",
+   "kind": "sentence",
+   "files": [
+    "hanoi-scooter-rental/honda-vision-vs-yamaha-mio-selection-guide/index.html"
+   ],
+   "before": "This comparison is about which machine serves a Hanoi rider better, and it uses the operator's verified published rates, general knowledge of the two model lines and cautious riding guidance, with nothing invented and no policy claimed that the shop has not published.",
+   "after": "This comparison looks at which machine serves a Hanoi rider better, using the operator's verified published rates, general knowledge of the two model lines and cautious riding guidance; confirm any policy question with the shop."
+  },
+  {
+   "id": "S057",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/expats-break-even-thinking/index.html"
+   ],
+   "before": "Here we build the method rather than a single number, quote only rental figures that are verified, do not invent ownership costs, and count something every expat runs short of and standard break-even sums ignore: hassle.",
+   "after": "So build a method rather than chase a single number, using verified rental figures, pricing ownership costs from real quotes, and counting something every expat runs short of and standard break-even sums ignore: hassle."
+  },
+  {
+   "id": "S058",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/riders-with-a-passenger-route-planning/index.html"
+   ],
+   "before": "The passenger should always know the plan's next stop, because a passenger with a known stop tolerates everything between here and there, while a passenger without one invents their own, usually at the worst moment.",
+   "after": "The passenger should always know the plan's next stop, because a passenger with a known stop tolerates everything between here and there, while a passenger without one will start asking for a stop of their own, usually at the worst moment."
+  },
+  {
+   "id": "S059",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/digital-nomads-route-planning/index.html"
+   ],
+   "before": "Build three or four variants, rain-safe, rush and quiet, before weather or work demands them, and allow time margins on every leg rather than relying on estimated times, which no reliable source will invent.",
+   "after": "Build three or four variants, rain-safe, rush and quiet, before weather or work demands them, and allow time margins on every leg rather than relying on estimated times."
+  },
+  {
+   "id": "S060",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/budget-travelers-parking/index.html"
+   ],
+   "before": "Any question about charges for marks is between you and the shop; we do not invent policies, which is why it is worth discussing before you ride away.",
+   "after": "Any question about charges for marks is between you and the shop, so discuss it before you ride away."
+  },
+  {
+   "id": "S061",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-cat-ba-route-planning/index.html"
+   ],
+   "before": "It invents no schedules, durations or conditions, because the crossing and the sky file their own reports daily.",
+   "after": "The crossing schedule and the weather change daily, so check both on the day."
+  },
+  {
+   "id": "S062",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/cau-giay-rental-planning/index.html"
+   ],
+   "before": "Here is how to plan the whole rental around that geography, with no invented branches, delivery promises or journey times.",
+   "after": "Here is how to plan the whole rental around that one location; if you are hoping for delivery, ask the shop directly."
+  },
+  {
+   "id": "S063",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/cau-giay-parking-guide/index.html"
+   ],
+   "before": "Here is how parking works around Cau Giay, the habits that keep a rental bike watched, and the questions to ask locally; we don&rsquo;t invent guaranteed spots, fixed fees or official rules.",
+   "after": "Here is how parking works around Cau Giay, the habits that keep a rental bike watched, and the questions to ask locally, since spots, fees and rules vary from place to place."
+  },
+  {
+   "id": "S064",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/cau-giay-traffic-guide/index.html",
+    "motorbike-rental-hanoi-old-quarter/thanh-xuan-traffic-guide/index.html"
+   ],
+   "before": "It makes no live-traffic claims and invents no rules.",
+   "after": ""
+  },
+  {
+   "id": "S065",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-ninh-binh-fuel-and-rest-stops/index.html"
+   ],
+   "before": "Then set your rhythm out loud, or at least in your own head, because a stop rule decided in the morning survives the afternoon&rsquo;s ambition far better than one invented on the fly.",
+   "after": "Then set your stop rule before you leave, because one decided in the morning holds up far better against the afternoon&rsquo;s ambition than one made up on the fly."
+  },
+  {
+   "id": "S066",
+   "kind": "sentence",
+   "files": [
+    "hanoi-scooter-rental/automatic-scooter-route-planning-checks-and-mistakes/index.html"
+   ],
+   "before": "Riders with a fallback never have to invent one in the rain, and rescheduling on an automatic costs nothing but a key turn.",
+   "after": "Riders with a fallback never have to improvise one in the rain, and rescheduling on an automatic costs nothing but a key turn."
+  },
+  {
+   "id": "S067",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-ha-giang-one-day-feasibility/index.html"
+   ],
+   "before": "We do not invent forecasts, because the one you read this morning is the only one that counts, and one copied into an article last month is useless.",
+   "after": "Only the forecast you read that morning counts; an older one is no guide to the day."
+  },
+  {
+   "id": "S068",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/dong-da-parking-guide/index.html"
+   ],
+   "before": "Here is how parking around Dong Da works, the habits that keep a rental bike safe, and the questions to ask locally; we don&rsquo;t invent guaranteed spots, fixed fees or official rules.",
+   "after": "Here is how parking around Dong Da works, the habits that keep a rental bike safe, and the questions to ask locally, since spots, fees and rules vary from place to place."
+  },
+  {
+   "id": "S069",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/dong-da-rental-planning/index.html"
+   ],
+   "before": "Here is how to plan the rental around that geography, with no invented branches, delivery promises or journey times.",
+   "after": "Here is how to plan the rental around that geography; ask the shop directly about delivery and journey times."
+  },
+  {
+   "id": "S070",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/dong-da-traffic-guide/index.html"
+   ],
+   "before": "We make no live-traffic claims and invent no rules; follow what local riders actually do.",
+   "after": "Watch what local riders do and follow their lead."
+  },
+  {
+   "id": "S071",
+   "kind": "sentence",
+   "files": [
+    "renting-a-motorbike-in-vietnam/restricted-roads-expats/index.html"
+   ],
+   "before": "The expat defense is the reading habit, demonstrated by behavior that matches the plates, and it works better than any excuse invented at the roadside.",
+   "after": "The expat defense is the reading habit, demonstrated by behavior that matches the plates, and it works better than any excuse made up at the roadside."
+  },
+  {
+   "id": "S072",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/digital-nomads-paperwork-questions/index.html"
+   ],
+   "before": "Every answer about legal requirements, for foreign ownership, transfer or insurance, should come from current official sources, which change on their own schedule, so we invent none of them.",
+   "after": "Every answer about legal requirements, for foreign ownership, transfer or insurance, should come from current official sources, which change on their own schedule."
+  },
+  {
+   "id": "S073",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/budget-travelers-vs-automatic-scooter/index.html"
+   ],
+   "before": "The 50cc class costs 200,000 VND per day at Motorbike Rental - Nguyen Tu, 112 Nguyen Van Cu, Long Bien, Hanoi, and that is the only rate we quote: the comparison below weighs routes, loads, comfort and costs for the travelers who ask, without inventing prices.",
+   "after": "The 50cc class costs 200,000 VND per day at Motorbike Rental - Nguyen Tu, 112 Nguyen Van Cu, Long Bien, Hanoi, and the comparison below weighs routes, loads, comfort and costs for the travelers who ask."
+  },
+  {
+   "id": "S074",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/digital-nomads-break-even-thinking/index.html"
+   ],
+   "before": "Here we work through the sums openly: the costs of owning, only rental rates that can be verified today, no invented purchase prices or market rumours, and a reminder to check every changing variable yourself.",
+   "after": "Work through the sums openly: list the costs of owning, use rental rates you can verify today, rely on real purchase quotes rather than market rumours, and check every changing variable yourself."
+  },
+  {
+   "id": "S075",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/honda-wave-vs-50cc-scooter-rental-cost/index.html"
+   ],
+   "before": "Every figure below comes from the shop's verified pricing, and this comparison takes particular care with the 50cc side, because only a daily rate is published for that category, and a guide that invented weekly or monthly numbers would be worse than no guide at all.",
+   "after": "Every figure below comes from the shop's verified pricing, and the 50cc side needs particular care, because only a daily rate is published for that category."
+  },
+  {
+   "id": "S076",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/students-ownership-costs/index.html"
+   ],
+   "before": "No fees are quoted here, because invented official numbers mislead readers; check current requirements and amounts with official sources before buying, not after.",
+   "after": "Check current requirements and amounts with official sources before buying, not after."
+  },
+  {
+   "id": "S077",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/long-stay-tourists-resale-planning/index.html"
+   ],
+   "before": "It keeps the discipline throughout: no invented prices, no folklore about models, official requirements left with official sources, and the verified rental figures held up as the exit-free alternative.",
+   "after": "Throughout, check prices yourself, ignore folklore about models, take official requirements to official sources, and keep the verified rental figures in view as the exit-free alternative."
+  },
+  {
+   "id": "S078",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/occasional-riders-break-even-thinking/index.html"
+   ],
+   "before": "The comparison below uses verified rental rates as the baseline and does not invent a universal answer.",
+   "after": "The comparison below uses verified rental rates as the baseline, so you can work out your own answer."
+  },
+  {
+   "id": "S079",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/project-workers-ownership-costs/index.html"
+   ],
+   "before": "Size the reserve from your own risk tolerance and the bike&rsquo;s age and history; no figure is given here, because invented contingency numbers mislead readers.",
+   "after": "Size the reserve from your own risk tolerance and the bike&rsquo;s age and history."
+  },
+  {
+   "id": "S080",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/honda-wave-vs-electric-motorbike-rental-cost/index.html"
+   ],
+   "before": "Every rental figure below comes from the shop's published pricing, and where a practical detail such as charging depends on your booking, we say so and point you to the shop rather than inventing numbers.",
+   "after": "Every rental figure below comes from the shop's published pricing; where a practical detail such as charging depends on your booking, ask the shop."
+  },
+  {
+   "id": "S081",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-ha-long-one-day-feasibility/index.html"
+   ],
+   "before": "Below we take the one-day idea seriously, look at what it costs and what it gives up, and avoid inventing riding times, because your own day sets the schedule.",
+   "after": "Below we take the one-day idea seriously, look at what it costs and what it gives up, and leave the riding times to you, because your own day sets the schedule."
+  },
+  {
+   "id": "S082",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/students-break-even-thinking/index.html"
+   ],
+   "before": "Use the method here, avoid invented numbers, and check the live questions with someone who has no side in the decision.",
+   "after": "Use the method here, keep estimates clearly marked as estimates, and check the live questions with someone who has no side in the decision."
+  },
+  {
+   "id": "S083",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/teachers-rent-vs-buy-decision/index.html"
+   ],
+   "before": "The decision is graded here like a good rubric would grade it: criteria stated in advance, no invented numbers, and every live fact referred to the official sources responsible for it.",
+   "after": "Grade the decision like a good rubric would: set your criteria in advance, use real numbers, and check every live fact with the official sources responsible for it."
+  },
+  {
+   "id": "S084",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/experienced-riders-route-planning/index.html"
+   ],
+   "before": "No invented travel times, no borrowed schedules, just the craft applied to the city's own material.",
+   "after": "Set your own pace and timings on the day rather than borrowing someone else's schedule."
+  },
+  {
+   "id": "S085",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/frequent-commuters-contract-questions/index.html"
+   ],
+   "before": "None of the answers are invented here, all of them are given at the shop.",
+   "after": "Get all of these answers at the shop."
+  },
+  {
+   "id": "S086",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/city-commuters-city-traffic/index.html"
+   ],
+   "before": "The verified 200,000 VND daily rate for the 50cc class means every calm, predictable commute is priced in advance, with no invented weekly or monthly figures to mislead the budget.",
+   "after": "The verified 200,000 VND daily rate for the 50cc class means every calm, predictable commute is priced in advance."
+  },
+  {
+   "id": "S087",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/students-rental-paperwork-questions/index.html"
+   ],
+   "before": "Deposit practices are individual to the shop and no page invents them, so the written answers are the protection, and the deposit guide covers the general landscape with the same caution.",
+   "after": "Deposit practices are individual to the shop, so the written answers are your protection, and the deposit guide covers the general picture."
+  },
+  {
+   "id": "S088",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/expats-rental-paperwork-questions/index.html"
+   ],
+   "before": "Deposit practices are individual to the shop, so no page should invent them, and the deposit guide covers the general Hanoi landscape with the same caution while the conversation at the shop collects the binding answers.",
+   "after": "Deposit practices are individual to the shop, so use the deposit guide for the general Hanoi picture and the conversation at the shop for the binding answers."
+  },
+  {
+   "id": "S089",
+   "kind": "heading",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-cuc-phuong-fuel-and-rest-stops/index.html"
+   ],
+   "before": "Food Without Invented Kitchens",
+   "after": "Planning Food Stops"
+  },
+  {
+   "id": "S090",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/weekend-visitors-pre-ride-inspection/index.html"
+   ],
+   "before": "Below is the full process, the walk-around, the condition photos and the conversation at the shop, based only on what the rider can see, with careful wording on everything else and no invented shop guarantees.",
+   "after": "Below is the full process, the walk-around, the condition photos and the conversation at the shop, based on what the rider can see, with anything else confirmed directly with the shop."
+  },
+  {
+   "id": "S091",
+   "kind": "sentence",
+   "files": [
+    "faq/index.html"
+   ],
+   "before": "The website intentionally preserves those ranges instead of inventing a single exact number.",
+   "after": "These figures are ranges, not single fixed prices."
+  },
+  {
+   "id": "S092",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/old-quarter-day-ride-ideas/index.html"
+   ],
+   "before": "Our approach: no invented journey times, no live-traffic promises, no made-up parking rules, and every ride starts from Motorbike Rental - Nguyen Tu at 112 Nguyen Van Cu in Long Bien, open daily from 09:00 to 21:00.",
+   "after": "Every ride starts from Motorbike Rental - Nguyen Tu at 112 Nguyen Van Cu in Long Bien, open daily from 09:00 to 21:00, so allow extra time for traffic and check parking locally."
+  },
+  {
+   "id": "S093",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/50cc-vs-125cc-hanoi/index.html"
+   ],
+   "before": "Nothing here invents specifications; where a detail varies by model or depends on legal definitions, we say so.",
+   "after": "Where a detail varies by model or depends on legal definitions, check it for the specific bike before you ride."
+  },
+  {
+   "id": "S094",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-ha-long-fuel-and-rest-stops/index.html"
+   ],
+   "before": "It names no stations and invents no distances, because the route&rsquo;s live fuel map is refreshed weekly at the shop, not in articles.",
+   "after": "Ask the shop for current fuel stop suggestions along the route before you set out."
+  },
+  {
+   "id": "S095",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/giang-vo-day-ride-ideas/index.html"
+   ],
+   "before": "No invented durations, no guaranteed openings, just the hinge quarter&rsquo;s own geometry doing what it does best.",
+   "after": "Check opening hours before you go, and take each leg at your own pace."
+  },
+  {
+   "id": "S096",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/ha-dong-parking-guide/index.html"
+   ],
+   "before": "Riders based here park more often than they expect, usually in local, watched spots that are best learned on the day, so we cover the general habits without inventing rules or fees.",
+   "after": "Riders based here park more often than they expect, usually in local, watched spots whose rules and fees are best learned on the day."
+  },
+  {
+   "id": "S097",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/ha-dong-day-ride-ideas/index.html",
+    "motorbike-rental-hanoi-old-quarter/hoang-mai-day-ride-ideas/index.html",
+    "motorbike-rental-hanoi-old-quarter/truc-bach-day-ride-ideas/index.html"
+   ],
+   "before": "No times are invented, because the day&rsquo;s clock belongs to the flow.",
+   "after": "Let the day&rsquo;s traffic set the timing."
+  },
+  {
+   "id": "S098",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-ha-long-route-planning/index.html"
+   ],
+   "before": "It refuses to invent distances, durations or road conditions, because the road writes those fresh every morning.",
+   "after": "Journey times and road conditions change from day to day, so treat any figure you hear as a rough guide."
+  },
+  {
+   "id": "S099",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/hai-ba-trung-rental-planning/index.html"
+   ],
+   "before": "We plan the whole rental around that, with no invented branches, no delivery promises and no quoted journey times.",
+   "after": "Plan the whole rental around that, and ask the shop directly about delivery and journey times."
+  },
+  {
+   "id": "S100",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/hai-ba-trung-parking-guide/index.html"
+   ],
+   "before": "Here is how parking around the district works, the habits that keep a rental bike watched, and the questions worth asking locally; we do not invent guaranteed spots, fixed fees or official rules.",
+   "after": "Here is how parking around the district works, the habits that keep a rental bike watched, and the questions worth asking locally about spots, fees and rules."
+  },
+  {
+   "id": "S101",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/hai-ba-trung-traffic-guide/index.html"
+   ],
+   "before": "We make no live-traffic claims, because no guide can, and invent no rules, because local street habits are what really count.",
+   "after": "Conditions change from day to day, and local street habits are what really count."
+  },
+  {
+   "id": "S102",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/first-time-visitors-parking-strategy/index.html"
+   ],
+   "before": "The first-time visitor's preparation is not memorizing the map; it is recognizing the pattern, rows of bikes parked neatly, a stool-keeper nearby, and joining it rather than inventing a new spot.",
+   "after": "The first-time visitor's preparation is not memorizing the map; it is recognizing the pattern, rows of bikes parked neatly, a stool-keeper nearby, and joining it rather than picking a new spot of your own."
+  },
+  {
+   "id": "S103",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/couples-bridges-and-inclines/index.html"
+   ],
+   "before": "The riverside cafe was invented for exactly this decision, and Hanoi supplies them on both banks.",
+   "after": "A riverside cafe is a good place to wait out the rain, and Hanoi has them on both banks."
+  },
+  {
+   "id": "S104",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/ba-dinh-rental-planning/index.html"
+   ],
+   "before": "We cover what the geography means for pickup day, which verified fleet machines suit Ba Dinh riding, how the district's boulevard character shapes the daily riding, how parking works around landmarks and residential lanes, how the river crossing should be planned without invented journey times, how the rental period should be matched to the calendar, and what to ask at the shop so the whole stay runs on verified facts.",
+   "after": "We cover what the geography means for pickup day, which verified fleet machines suit Ba Dinh riding, how the district's boulevard character shapes the daily riding, how parking works around landmarks and residential lanes, how to plan the river crossing with time to spare, how the rental period should be matched to the calendar, and what to ask at the shop so the whole stay runs on verified facts."
+  },
+  {
+   "id": "S105",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/long-stay-tourists-rent-vs-buy-decision/index.html"
+   ],
+   "before": "Ownership side: a negotiated purchase price, current official fees, a repair buffer, an insurance question and a resale estimate, all in pencil, because the market prices them case by case and no guide may invent them.",
+   "after": "Ownership side: a negotiated purchase price, current official fees, a repair buffer, an insurance question and a resale estimate, all in pencil, because the market prices them case by case."
+  },
+  {
+   "id": "S106",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/honda-wave-vs-50cc-scooter-rental-cost/index.html"
+   ],
+   "before": "Any source that quotes a 50cc weekly or monthly price is inventing one, so none is quoted here.",
+   "after": "For a longer 50cc rental, ask the shop for its weekly or monthly price directly."
+  },
+  {
+   "id": "S107",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/hoang-mai-rental-planning/index.html"
+   ],
+   "before": "We plan the rental from a Hoang Mai base, covering pickup, choice of bike, rental period and the first week, with no invented journey times, no branches that do not exist and no promises the shop has not made.",
+   "after": "Here is how to plan the rental from a Hoang Mai base, covering pickup, choice of bike, rental period and the first week, and what to confirm with the shop before you ride."
+  },
+  {
+   "id": "S108",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/thanh-xuan-day-ride-ideas/index.html"
+   ],
+   "before": "Nothing needs inventing, the southwest morning&rsquo;s pleasures are the openness, the sky and the pace, and the district&rsquo;s position puts its start minutes from the home grid.",
+   "after": "The southwest morning&rsquo;s pleasures are the openness, the sky and the pace, and the district&rsquo;s position puts its start minutes from home."
+  },
+  {
+   "id": "S109",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/my-dinh-day-ride-ideas/index.html"
+   ],
+   "before": "No invented durations, no guaranteed openings, just the modern west&rsquo;s own geometry doing what it does best.",
+   "after": "Check opening hours before you set out, and allow flexible ride times."
+  },
+  {
+   "id": "S110",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/short-stay-visitors-parking/index.html"
+   ],
+   "before": "Join a row the way the neighbors did rather than inventing a spot, and prefer attended areas when they exist.",
+   "after": "Join a row the way the neighbors did rather than making your own spot, and prefer attended areas when they exist."
+  },
+  {
+   "id": "S111",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/city-commuters-rental-paperwork-questions/index.html"
+   ],
+   "before": "It deliberately invents no deposit amounts, no document rules and no policies: verified rental prices and periods are on the <a href=\"/hanoi-motorbike-rental-cost/\">cost hub</a>, the general question bank is the <a href=\"/faq/\">FAQ</a> page, and the end-to-end process is the <a href=\"/hanoi-motorbike-rental/how-to-rent-a-motorbike-in-hanoi/\">how-to-rent guide</a>.",
+   "after": "Confirm deposit amounts, document rules and policies with the shop; verified rental prices and periods are on the <a href=\"/hanoi-motorbike-rental-cost/\">cost hub</a>, the general question bank is the <a href=\"/faq/\">FAQ</a> page, and the end-to-end process is the <a href=\"/hanoi-motorbike-rental/how-to-rent-a-motorbike-in-hanoi/\">how-to-rent guide</a>."
+  },
+  {
+   "id": "S112",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/expats-rental-paperwork-questions/index.html"
+   ],
+   "before": "Licensing is the topic where invented answers do the most harm, so the expat's question list asks rather than assumes.",
+   "after": "Licensing is the topic where wrong answers do the most harm, so ask rather than assume."
+  },
+  {
+   "id": "S113",
+   "kind": "sentence",
+   "files": [
+    "faq/index.html"
+   ],
+   "before": "A range means the exact monthly price can vary within that published range, so it should not be converted into a single invented figure.",
+   "after": "A range means the exact monthly price can vary within it, so ask the shop for the figure that applies to your bike and dates."
+  },
+  {
+   "id": "S114",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/first-time-residents-break-even-thinking/index.html"
+   ],
+   "before": "The comparison below uses verified rental rates and does not invent a break-even month.",
+   "after": "The comparison below uses verified rental rates, and your own circumstances set the break-even month."
+  },
+  {
+   "id": "S115",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/long-stay-tourists-resale-planning/index.html"
+   ],
+   "before": "The exit plan below invents no market prices, repeats no myths about which models hold their value, and points every current requirement (transfer rules, official fees) to current official sources.",
+   "after": "Follow the exit plan below, ignore myths about which models hold their value, and check every current requirement (transfer rules, official fees) with official sources."
+  },
+  {
+   "id": "S116",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/nam-tu-liem-day-ride-ideas/index.html"
+   ],
+   "before": "Here is a set of day rides built on landmarks and rider comfort, not invented schedules, because nobody can reliably predict journey times in Hanoi traffic.",
+   "after": "Here is a set of day rides built on landmarks and rider comfort rather than fixed schedules, because nobody can reliably predict journey times in Hanoi traffic."
+  },
+  {
+   "id": "S117",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/nam-tu-liem-traffic-guide/index.html"
+   ],
+   "before": "We describe the traffic here, the wide roads, the main route east toward Cau Giay, Ba Dinh and the centre, event-day surges around the stadium, commute times and habits that work everywhere, with no live-traffic claims, invented journey times or promises the streets cannot keep.",
+   "after": "Below are the wide roads, the main route east toward Cau Giay, Ba Dinh and the centre, event-day surges around the stadium, and commuting habits that work everywhere, though actual journey times depend on the traffic on the day."
+  },
+  {
+   "id": "S118",
+   "kind": "sentence",
+   "files": [
+    "hanoi-scooter-rental/automatic-scooter-parking-checks-and-mistakes/index.html"
+   ],
+   "before": "Watch how locals arrange their machines and how attendants direct flow, and copy the pattern rather than inventing one.",
+   "after": "Watch how locals arrange their machines and how attendants direct flow, and copy the pattern rather than making up your own."
+  },
+  {
+   "id": "S119",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/students-parking-strategy/index.html"
+   ],
+   "before": "What the habit never does is invent answers, plant the machine where the answers were no, or assume yesterday's terms hold at a place never met.",
+   "after": "If you get no clear answer, do not guess; do not park where the answers were no, and do not assume yesterday's terms hold at a new place."
+  },
+  {
+   "id": "S120",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/expats-parking-strategy/index.html"
+   ],
+   "before": "What the strategy never does is invent an answer, plant itself where the answers were no, or assume that yesterday's terms hold at a place never visited.",
+   "after": "Never guess an answer, park where the answers were no, or assume that yesterday's terms hold at a place you have not visited."
+  },
+  {
+   "id": "S121",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/budget-travelers-rental-paperwork-questions/index.html"
+   ],
+   "before": "No deposit figures are invented here: the amount, form, coverage and return timing of the deposit are set by the shop's terms, and the four questions that get those answers are the budget traveler's script at the shop.",
+   "after": "The amount, form, coverage and return timing of the deposit are set by the shop's terms, so those four questions are the budget traveler's script at the shop."
+  },
+  {
+   "id": "S122",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/project-workers-rent-vs-buy-decision/index.html"
+   ],
+   "before": "No legal or market rules are invented here, and there is no universal answer, because a project worker can calculate their own.",
+   "after": "There is no universal answer, but a project worker can calculate their own."
+  },
+  {
+   "id": "S123",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/students-resale-planning/index.html"
+   ],
+   "before": "The shop at 112 Nguyen Van Cu will never invent a resale figure, and neither should any guide a student reads.",
+   "after": "Treat any resale figure given in advance as a guess."
+  },
+  {
+   "id": "S124",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/honda-wave-vs-electric-motorbike-rental-cost/index.html"
+   ],
+   "before": "No specifications are invented here.",
+   "after": ""
+  },
+  {
+   "id": "S125",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/new-riders-route-planning/index.html"
+   ],
+   "before": "No travel times are quoted here, because they depend on time of day, weather, luck and your own pace, and an invented number helps nobody.",
+   "after": "Travel times depend on time of day, weather, luck and your own pace, so a fixed number is little help."
+  },
+  {
+   "id": "S126",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/students-ownership-costs/index.html"
+   ],
+   "before": "Nobody can give a single figure, because it depends on the bike, the mileage, the mechanic and luck, and any number would be invented.",
+   "after": "Nobody can give a single figure, because it depends on the bike, the mileage, the mechanic and luck."
+  },
+  {
+   "id": "S127",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/tall-riders-rental-paperwork-questions/index.html"
+   ],
+   "before": "None of the advice here invents rules.",
+   "after": ""
+  },
+  {
+   "id": "S128",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/city-commuters-parking-strategy/index.html"
+   ],
+   "before": "The safest rule of thumb is to park where five bikes are already parked rather than inventing a sixth space.",
+   "after": "The safest rule of thumb is to park where five bikes are already parked rather than starting a space of your own."
+  },
+  {
+   "id": "S129",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/riders-with-luggage-rental-paperwork-questions/index.html"
+   ],
+   "before": "Nothing here invents shop policy, because rental terms vary across Hanoi.",
+   "after": "Rental terms vary across Hanoi, so confirm each policy with your shop."
+  },
+  {
+   "id": "S130",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/honda-vision-vs-electric-motorbike-rental-cost/index.html",
+    "hanoi-motorbike-rental-cost/honda-vision-vs-honda-air-blade-rental-cost/index.html"
+   ],
+   "before": "Nothing in this comparison pads either ladder with invented extras, promotions or bundle discounts, and no missing figure is estimated in place.",
+   "after": "Do not add extras or discounts to either ladder, and ask the shop for any figure that is missing."
+  },
+  {
+   "id": "S131",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/project-workers-commuting-setup/index.html"
+   ],
+   "before": "Below is that setup, with the verified prices where they matter and no invented terms.",
+   "after": "Below is that setup, with verified prices where they matter."
+  },
+  {
+   "id": "S132",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/short-riders-vs-automatic-scooter/index.html"
+   ],
+   "before": "If a one-day trial on either machine goes well and you want to extend, ask at the shop before your return time, and you will get the real figures, not an invented one.",
+   "after": "If a one-day trial on either machine goes well and you want to extend, ask at the shop before your return time."
+  },
+  {
+   "id": "S133",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/new-riders-route-planning/index.html"
+   ],
+   "before": "No invented travel times, because the realistic unit for a first week is your own comfortable ride, discovered day by day.",
+   "after": "In the first week, plan by your own comfortable ride length, found day by day, rather than by set travel times."
+  },
+  {
+   "id": "S134",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/long-stay-tourists-ownership-costs/index.html"
+   ],
+   "before": "The plan below uses cost categories instead of invented numbers, leaves official questions to official sources, and uses the verified rental prices as the yardstick for owning.",
+   "after": "Plan by cost category, fill in each line with real quotes, take official questions to official sources, and use the verified rental prices as the yardstick for owning."
+  },
+  {
+   "id": "S135",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/digital-nomads-ownership-costs/index.html"
+   ],
+   "before": "Below, those categories are set out clearly with no invented prices, ending with the verified rental figures as the most reliable benchmark the ownership costs can be measured against.",
+   "after": "Below, those categories are set out one by one, ending with the verified rental figures as the most reliable benchmark for measuring the ownership costs."
+  },
+  {
+   "id": "S136",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-ha-long-luggage-packing/index.html"
+   ],
+   "before": "Here is how to pack for the trip: priorities in order, weight placed where the bike handles it best, the rain layer tried on in advance, and dry storage treated as your safe, without invented weights, volumes or capacities, because what fits depends on the specific bike at the shop on your day.",
+   "after": "Here is how to pack for the trip: priorities in order, weight placed where the bike handles it best, the rain layer tried on in advance, and dry storage kept for valuables; check what fits on the specific bike at the shop on your day."
+  },
+  {
+   "id": "S137",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/occasional-riders-resale-planning/index.html"
+   ],
+   "before": "No procedures are invented here, because transfer steps and obligations belong to the offices that handle them, but as the seller you should know what the process requires, from the source, before the first viewing.",
+   "after": "Transfer steps and obligations are set by the offices that handle them, so as the seller, learn what the process requires from those offices before the first viewing."
+  },
+  {
+   "id": "S138",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/dong-da-rental-planning/index.html"
+   ],
+   "before": "At markets and around the mound's park, watch how the locals leave their machines and copy them, and where a watched row is unclear, ask rather than invent.",
+   "after": "At markets and around the mound's park, watch how the locals leave their machines and copy them, and where a watched row is unclear, ask rather than guess."
+  },
+  {
+   "id": "S139",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/couples-monthly-budget/index.html"
+   ],
+   "before": "The fees are posted at the lots themselves in the city&rsquo;s own plain way, no page invents them, but the line&rsquo;s shape is plannable, the couple who lingers at the busy attractions and the lakefront stretches pays the voice more often, and the couple whose month lives in the quieter streets pays it rarely.",
+   "after": "Check the fee posted at each lot; a couple who lingers at the busy attractions and the lakefront stretches pays more often, and a couple who spends the month in quieter streets pays rarely."
+  },
+  {
+   "id": "S140",
+   "kind": "sentence",
+   "files": [
+    "hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter-checks-and-mistakes/index.html"
+   ],
+   "before": "Use the main stand wherever the surface allows it, follow the existing row rather than inventing a new angle, lock the steering every single time, and never leave a helmet unclipped on the seat while you step into a shop.",
+   "after": "Use the main stand wherever the surface allows it, follow the angle of the existing row, lock the steering every single time, and never leave a helmet unclipped on the seat while you step into a shop."
+  },
+  {
+   "id": "S141",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/ha-dong-rental-planning/index.html",
+    "motorbike-rental-hanoi-old-quarter/hoang-mai-rental-planning/index.html"
+   ],
+   "before": "Parking is the district's main daily question, and the advice here is general rather than invented.",
+   "after": "Parking is the district's main daily question."
+  },
+  {
+   "id": "S142",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/expats-monthly-budget/index.html"
+   ],
+   "before": "Parking is the line the centre invented and the suburbs forgave, and an expat&rsquo;s month pays it daily in some districts and never in others.",
+   "after": "Parking is a budget line paid mostly in the centre rather than the suburbs, and an expat&rsquo;s month pays it daily in some districts and never in others."
+  },
+  {
+   "id": "S143",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/long-bien-parking-guide/index.html"
+   ],
+   "before": "We describe the habits, flag what varies from street to street, and do not invent rules or guarantees that no Hanoi parking spot really offers.",
+   "after": "Learn the local habits and watch for what varies from street to street, because no Hanoi parking spot comes with fixed rules or guarantees."
+  },
+  {
+   "id": "S144",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/ba-dinh-parking-guide/index.html"
+   ],
+   "before": "As everywhere in our area guides, we publish no invented rules and promise no guaranteed spots, because parking in Hanoi is a street-level fact, not a list.",
+   "after": "Parking in Hanoi is settled street by street, so expect no guaranteed spots and check each place as you arrive."
+  },
+  {
+   "id": "S145",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/long-stay-visitors-parking-strategy/index.html"
+   ],
+   "before": "Cautious wording throughout, no invented fees or rules, verified prices only.",
+   "after": "Fees and rules differ from lot to lot, so check them where you park."
+  },
+  {
+   "id": "S146",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/old-quarter-parking-guide/index.html"
+   ],
+   "before": "Here is the practical answer: the habits riders actually follow, the constraints that shape every decision, and the questions to check locally, with no invented rules or guaranteed spots.",
+   "after": "Here is the practical answer: the habits riders actually follow, the constraints that shape every decision, and the questions to check locally, since no spot is guaranteed."
+  },
+  {
+   "id": "S147",
+   "kind": "sentence",
+   "files": [
+    "motorbike-guides/motorbike-brakes-troubleshooting/index.html"
+   ],
+   "before": "Rear brakes matter in every low-speed maneuver Hanoi invents.",
+   "after": "Rear brakes matter in every low-speed maneuver in Hanoi traffic."
+  },
+  {
+   "id": "S148",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/students-pickup-planning/index.html"
+   ],
+   "before": "The plan uses verified facts only, with no promised delivery and no invented pickup arrangements.",
+   "after": "Confirm any pickup or delivery arrangements with the shop before the day."
+  },
+  {
+   "id": "S149",
+   "kind": "sentence",
+   "files": [
+    "hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-selection-guide/index.html"
+   ],
+   "before": "Rate lists circulate online, age badly and sometimes invent numbers outright, and a budget that rests on one collapses at the shop.",
+   "after": "Rate lists circulate online, age badly and are sometimes wrong from the start, and a budget built on one falls apart at the shop."
+  },
+  {
+   "id": "S150",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/weekend-visitors-rainy-day-planning/index.html"
+   ],
+   "before": "What the shop itself supplies belongs to its stated terms, asked at the shop, and no page invents a gear promise on the shop's behalf, the rider's own kit is the layer that decides the day.",
+   "after": "Ask at the shop what gear it supplies, but plan around your own kit, since that is the layer that decides the day."
+  },
+  {
+   "id": "S151",
+   "kind": "heading",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-ba-vi-fuel-and-rest-stops/index.html"
+   ],
+   "before": "Range Thinking Without Invented Numbers",
+   "after": "Thinking About Range"
+  },
+  {
+   "id": "S152",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/city-commuters-daily-rental-planning/index.html"
+   ],
+   "before": "Refuse invented anchors.",
+   "after": "Do not plan around a guess."
+  },
+  {
+   "id": "S153",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/budget-travelers-choosing-a-50cc/index.html"
+   ],
+   "before": "Refuse invented extensions.",
+   "after": "Do not guess at extension rates."
+  },
+  {
+   "id": "S154",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/solo-travelers-pre-ride-inspection/index.html"
+   ],
+   "before": "Nothing here invents rules about what any particular shop accepts; it is simply the solo traveler's own record, made because no one else is keeping one.",
+   "after": "Keep these photos as your own record, and ask the shop what documentation it accepts at return."
+  },
+  {
+   "id": "S155",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/digital-nomads-paperwork-questions/index.html"
+   ],
+   "before": "Requirements for foreign ownership, registration and transfer come from current official sources and change on their own schedule, so we invent no rules.",
+   "after": "Requirements for foreign ownership, registration and transfer come from current official sources and change on their own schedule."
+  },
+  {
+   "id": "S156",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/ba-dinh-day-ride-ideas/index.html"
+   ],
+   "before": "Parking at the landmark layer follows the same rule as everywhere in Hanoi: use the attended rows, ask the shop what has proven reliable, and never invent a rule where a person should be asked.",
+   "after": "Parking at the landmarks follows the same rule as everywhere in Hanoi: use the attended rows, ask the shop what has proven reliable, and when in doubt, ask someone nearby rather than guess."
+  },
+  {
+   "id": "S157",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-bac-ninh-one-day-feasibility/index.html",
+    "hanoi-motorbike-trips/hanoi-to-hoa-binh-one-day-feasibility/index.html"
+   ],
+   "before": "Nothing below invents a time, a distance or a condition.",
+   "after": ""
+  },
+  {
+   "id": "S158",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/new-hanoi-residents-monthly-budget/index.html"
+   ],
+   "before": "Think in habits rather than invented figures: fuel is bought in small top-ups at city pumps, more often in a month of errands.",
+   "after": "Think in habits rather than fixed figures: fuel is bought in small top-ups at city pumps, more often in a month of errands."
+  },
+  {
+   "id": "S159",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-cat-ba-safety-checklist/index.html"
+   ],
+   "before": "Nothing here invents conditions or schedules, it simply arranges what the shop says, what the machine needs, and what the day decides, so that the island is a memory and not a lesson.",
+   "after": "Conditions and schedules change, so each check combines what the shop says, what the machine needs and what the day brings."
+  },
+  {
+   "id": "S160",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-ha-long-safety-checklist/index.html"
+   ],
+   "before": "Below is the full list, covering bike, gear, documents, route, weather and calendar; we do not invent road conditions or closures, because those change daily.",
+   "after": "Below is the full list, covering bike, gear, documents, route, weather and calendar; check road conditions and closures on the day, because they change daily."
+  },
+  {
+   "id": "S161",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-mai-chau-safety-checklist/index.html"
+   ],
+   "before": "Here is the plain version of that list, covering the bike, gear, documents, route knowledge, weather and calendar, without invented road conditions, live closures or anything else an article cannot know.",
+   "after": "Here is the plain version of that list, covering the bike, gear, documents, route knowledge, weather and calendar; road conditions and closures you will need to check on the day."
+  },
+  {
+   "id": "S162",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-sapa-safety-checklist/index.html"
+   ],
+   "before": "Nothing here invents conditions, durations or forecasts, it arranges what the shop says, what the machine needs and what the day decides, so the mountain is a memory and not a lesson.",
+   "after": "Conditions, riding times and forecasts change, so the checklist works from what the shop says, what the machine needs and what the day brings."
+  },
+  {
+   "id": "S163",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/couples-ownership-costs/index.html"
+   ],
+   "before": "Each of those habits removes a little waste, and none of them requires inventing a single price, only discipline.",
+   "after": "Each of those habits removes a little waste, and none of them needs a price estimate, only discipline."
+  },
+  {
+   "id": "S164",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/solo-travelers-parking-strategy/index.html"
+   ],
+   "before": "Second, the sidewalk pattern: bikes lined up along building fronts in residential and commercial streets, usually following the pattern already established, in front of the other bikes rather than inventing a new row.",
+   "after": "Second, the sidewalk pattern: bikes lined up along building fronts in residential and commercial streets, usually following the pattern already established, in front of the other bikes rather than starting a new row."
+  },
+  {
+   "id": "S165",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/index.html"
+   ],
+   "before": "If you still prefer a 50cc bike, ask us directly for the current longer-term quote because we will not fill an unverified gap with an invented figure.",
+   "after": "If you still prefer a 50cc bike, ask us directly for the current longer-term quote."
+  },
+  {
+   "id": "S166",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/short-riders-parking/index.html"
+   ],
+   "before": "Join the row rather than inventing a new one, tuck your mirrors clear of the walking lane, and leave your machine no wider than its neighbours.",
+   "after": "Join the row rather than starting a new one, tuck your mirrors clear of the walking lane, and leave your machine no wider than its neighbours."
+  },
+  {
+   "id": "S167",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/soc-son-day-ride-ideas/index.html"
+   ],
+   "before": "Soc Son is the district a day ride was invented for, wide, open and layered, with village roads that run quiet in the mornings, market towns that keep their own calendar and through routes that reach the city, the edge of the map and the country beyond it.",
+   "after": "Soc Son is the district made for a day ride, wide, open and layered, with village roads that run quiet in the mornings, market towns that keep their own calendar and through routes that reach the city, the edge of the map and the country beyond it."
+  },
+  {
+   "id": "S168",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/beginners-passenger-use/index.html"
+   ],
+   "before": "A 50cc carrying two settles into a calm pace, and we will not invent numbers for it; what matters is that you neither push the bike to keep up with the fastest traffic nor ride so slowly that everyone has to go around you.",
+   "after": "A 50cc carrying two settles into a calm pace; what matters is that you neither push the bike to keep up with the fastest traffic nor ride so slowly that everyone has to go around you."
+  },
+  {
+   "id": "S169",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/teachers-maintenance-expectations/index.html"
+   ],
+   "before": "The baseline this sets is the whole month&rsquo;s reference point, the small changes readable precisely because the normal was named, and a teacher of all riders understands the value of a baseline, being the profession that invented the mark scheme.",
+   "after": "This baseline is the month&rsquo;s reference point, because small changes are easy to spot once the starting condition is recorded."
+  },
+  {
+   "id": "S170",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/students-used-bike-inspection/index.html"
+   ],
+   "before": "Sellers who rush, who invent a competing buyer, who refuse the test ride, or who quote a discount that expires the moment you ask a second question are all answering questions they were not asked, about themselves.",
+   "after": "Sellers who rush, who make up a competing buyer, who refuse the test ride, or who quote a discount that expires the moment you ask a second question are all answering questions they were not asked, about themselves."
+  },
+  {
+   "id": "S171",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/teachers-used-bike-inspection/index.html"
+   ],
+   "before": "No purchase prices are invented, no legal requirements are quoted, and every binding rule about registration and transfer is deferred to the current official sources that actually grade those exams.",
+   "after": "Check purchase prices against the market yourself, and take every binding rule about registration and transfer from current official sources."
+  },
+  {
+   "id": "S172",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/old-quarter-parking-guide/index.html"
+   ],
+   "before": "That is the whole guide, held to its own standard: verified facts about the shop, cautious description of habits and constraints, no invented rules and no guaranteed spaces, and a clear pointer to where the live answers live.",
+   "after": "Spaces are not guaranteed, so ask the shop and the attendants for the current rules."
+  },
+  {
+   "id": "S173",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/index.html"
+   ],
+   "before": "Rather than invent a monthly number, the correct instruction is to contact us for a current quote if you specifically want a 50cc bike for a longer stay.",
+   "after": "If you specifically want a 50cc bike for a longer stay, contact us for a current quote."
+  },
+  {
+   "id": "S174",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/long-stay-tourists-monthly-budget/index.html"
+   ],
+   "before": "No page invents the fees, they are posted at the lots themselves in the city&rsquo;s own plain way, but the line&rsquo;s shape is plannable, the tourist who rides mostly in the quieter streets and the free kerbs pays the line rarely, and the tourist whose month lives at the busy addresses pays it several times a day, and both travelers are riding the same verified rental at the same verified rate.",
+   "after": "The line is easy to plan: a tourist who rides mostly in the quieter streets and parks at free kerbs pays it rarely, while one whose month centres on the busy addresses pays it several times a day, even on the same verified rental at the same rate."
+  },
+  {
+   "id": "S175",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/honda-click-short-vs-long-term-cost/index.html",
+    "hanoi-motorbike-rental-cost/honda-vision-short-vs-long-term-cost/index.html",
+    "hanoi-motorbike-rental-cost/yamaha-sirius-short-vs-long-term-cost/index.html"
+   ],
+   "before": "Nothing beyond those numbers is invented: no discounts, no bundles, no estimated monthly midpoint.",
+   "after": "Do not plan on a midpoint of the monthly range or on any discount or bundle."
+  },
+  {
+   "id": "S176",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/french-quarter-day-ride-ideas/index.html"
+   ],
+   "before": "No invented durations, no guaranteed openings, just the quarter&rsquo;s own geometry doing what it does best.",
+   "after": "Check opening times before you set out, and let each leg take as long as it needs."
+  },
+  {
+   "id": "S177",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/electric-motorbike-short-vs-long-term-cost/index.html",
+    "hanoi-motorbike-rental-cost/honda-air-blade-short-vs-long-term-cost/index.html"
+   ],
+   "before": "Nothing beyond those numbers is invented: no discounts, no bundles, no estimated midpoints.",
+   "after": "Plan with those three numbers as they stand, without assuming discounts, bundles or midpoints."
+  },
+  {
+   "id": "S178",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/yamaha-mio-short-vs-long-term-cost/index.html"
+   ],
+   "before": "Only those numbers are used, nothing invented is added, and you will see where each option stops making sense.",
+   "after": "Comparing the three shows where each option stops making sense."
+  },
+  {
+   "id": "S179",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/yamaha-mio-short-vs-long-term-cost/index.html"
+   ],
+   "before": "Every figure quoted here is verified, and where a range exists the guide says so and sends you to the shop rather than inventing a midpoint.",
+   "after": "Where a figure is a range, the exact rate is the one the shop confirms, not the midpoint."
+  },
+  {
+   "id": "S180",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/honda-click-vs-automatic-scooter-rental-cost/index.html"
+   ],
+   "before": "No speculation about what a premium might include and no invented comparisons, just the verified rates of the class set out as a ladder, with the Click on the bottom rung, the step-up tier above it, and the cost of moving between them.",
+   "after": "The verified rates of the class are set out as a ladder, with the Click on the bottom rung, the step-up tier above it, and the cost of moving between them."
+  },
+  {
+   "id": "S181",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/thanh-xuan-parking-guide/index.html"
+   ],
+   "before": "Around the malls, market blocks and larger developments, parking is organised, with attended rows, marked strips and the informal patterns of a busy street; everywhere, arrive slowly, see what others are doing, and follow that pattern rather than inventing your own.",
+   "after": "Around the malls, market blocks and larger developments, parking is organised, with attended rows, marked strips and the informal patterns of a busy street; everywhere, arrive slowly, see what others are doing, and follow that pattern rather than making up your own."
+  },
+  {
+   "id": "S182",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/riders-with-light-luggage-parking/index.html"
+   ],
+   "before": "Overnight is when the weather happens, when curious hands have hours instead of minutes, and when your own memory of what was left where starts inventing things.",
+   "after": "Overnight is when the weather happens, when curious hands have hours instead of minutes, and when your own memory of what was left where becomes unreliable."
+  },
+  {
+   "id": "S183",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/old-quarter-day-ride-ideas/index.html"
+   ],
+   "before": "We do not invent rules about which bridges carry what; ask people who know.",
+   "after": "Ask too about any limits on which bikes may use each bridge."
+  },
+  {
+   "id": "S184",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/budget-travelers-return-checklist/index.html"
+   ],
+   "before": "The budget page's deposit caution closes the section: no figure here invents what a release should look like beyond the shop's stated terms honored as written, and the traveler's protection is procedural rather than psychic.",
+   "after": "Judge the deposit release against the shop's stated terms, and protect yourself by having those terms in writing."
+  },
+  {
+   "id": "S185",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/50cc-scooter-daily-price/index.html"
+   ],
+   "before": "Riders sometimes assume a 50cc <a href=\"/hanoi-motorbike-rental-cost/50cc-scooter-weekly-price/\">weekly rate</a> exists at some proportion of the daily, invent a number, and plan around it.",
+   "after": "Riders sometimes assume a 50cc <a href=\"/hanoi-motorbike-rental-cost/50cc-scooter-weekly-price/\">weekly rate</a> exists at some proportion of the daily, guess a number, and plan around it."
+  },
+  {
+   "id": "S186",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/older-riders-daily-rental-planning/index.html"
+   ],
+   "before": "Beyond the rate itself, the items worth planning for are fuel, any deposit the shop holds, and your own food and stops; how fuel and deposits are handled is confirmed at pickup rather than invented here.",
+   "after": "Beyond the rate itself, plan for fuel, any deposit the shop holds, and your own food and stops, and confirm how fuel and deposits are handled at pickup."
+  },
+  {
+   "id": "S187",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/long-stay-tourists-ownership-costs/index.html"
+   ],
+   "before": "The buffer&rsquo;s size is a live market question no guide may invent, but its existence is not negotiable, and neither is its cousin, the time buffer.",
+   "after": "Size the money buffer from the current market, but always keep one, along with a time buffer."
+  },
+  {
+   "id": "S188",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/digital-nomads-ownership-costs/index.html"
+   ],
+   "before": "The buffer&rsquo;s size is a live market question no guide may invent, but its existence is structural, and so is its twin, the time buffer.",
+   "after": "The buffer&rsquo;s size depends on the current market, but you will need one either way, and a time buffer too."
+  },
+  {
+   "id": "S189",
+   "kind": "sentence",
+   "files": [
+    "faq/index.html"
+   ],
+   "before": "It helps you compare models and rental periods, but it does not confirm availability, create a reservation or invent a discount.",
+   "after": "It helps you compare models and rental periods, but it does not confirm availability, create a reservation or apply a discount."
+  },
+  {
+   "id": "S190",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/bac-tu-liem-day-ride-ideas/index.html"
+   ],
+   "before": "Nothing needs inventing, the western day&rsquo;s pleasures are the openness, the sky and the unhurried pace, and the rider who returns by early afternoon keeps the ride a pleasure rather than a project.",
+   "after": "The western day&rsquo;s pleasures are the openness, the sky and the unhurried pace, and returning by early afternoon keeps the ride relaxed."
+  },
+  {
+   "id": "S191",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/business-travelers-parking-strategy/index.html"
+   ],
+   "before": "The cautious reading applies to all three layers the same way: no invented prices, no invented rules, and every arrangement confirmed at the moment of parking rather than assumed from a pattern.",
+   "after": "The same caution applies to all three layers: do not assume prices or rules, and confirm every arrangement at the moment of parking rather than from a pattern."
+  },
+  {
+   "id": "S192",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/long-stay-visitors-rental-paperwork-questions/index.html"
+   ],
+   "before": "The cautious wording holds: no page invents a shop's deposit policy, and none should.",
+   "after": "Each shop sets its own deposit policy."
+  },
+  {
+   "id": "S193",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/new-hanoi-residents-monthly-budget/index.html"
+   ],
+   "before": "No page invents what the shop states freely.",
+   "after": ""
+  },
+  {
+   "id": "S194",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/business-travelers-commuting-setup/index.html"
+   ],
+   "before": "Hanoi gets busy in the morning and again in the late afternoon, eases in the middle of the day, is quieter in the evening, and changes across the week; you don&rsquo;t need invented minutes, just one week of your own observation.",
+   "after": "Hanoi gets busy in the morning and again in the late afternoon, eases in the middle of the day, is quieter in the evening, and changes across the week, and one week of your own observation will show you the pattern on your route."
+  },
+  {
+   "id": "S195",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/new-riders-parking-strategy/index.html"
+   ],
+   "before": "The city's parking runs on a simple division: most destinations worth visiting have an arrangement, either an attended lot or an accepted sidewalk pattern, and the rider's job is to find the arrangement rather than invent one.",
+   "after": "The city's parking runs on a simple division: most destinations worth visiting have an arrangement, either an attended lot or an accepted sidewalk pattern, and the rider's job is to find the arrangement rather than improvise one."
+  },
+  {
+   "id": "S196",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/budget-travelers-vs-automatic-scooter/index.html"
+   ],
+   "before": "The class limits are covered in detail, without invented specifications, in the guide to <a href=\"/hanoi-50cc-motorbike-rental/50cc-vs-125cc-hanoi/\">50cc versus 125cc machines in Hanoi</a>, and the same point applies here: the small class is not a lesser machine, just one suited to different roads.",
+   "after": "The class limits are covered in detail in the guide to <a href=\"/hanoi-50cc-motorbike-rental/50cc-vs-125cc-hanoi/\">50cc versus 125cc machines in Hanoi</a>, and the same point applies here: the small class is not a lesser machine, just one suited to different roads."
+  },
+  {
+   "id": "S197",
+   "kind": "sentence",
+   "files": [
+    "hanoi-scooter-rental/honda-air-blade-vs-yamaha-mio-selection-guide/index.html"
+   ],
+   "before": "The comparison below uses the operator's published figures and general knowledge of the two model lines, with nothing invented.",
+   "after": "The comparison below uses the operator's published figures and general knowledge of the two model lines."
+  },
+  {
+   "id": "S198",
+   "kind": "sentence",
+   "files": [
+    "hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter-selection-guide/index.html"
+   ],
+   "before": "The comparison below uses the operator's verified rates and cautious, general guidance about both energy systems, with nothing invented about range figures, charging times or battery life, because those depend on the specific unit.",
+   "after": "The comparison below uses the operator's verified rates and general guidance about both energy systems; range figures, charging times and battery life depend on the specific unit."
+  },
+  {
+   "id": "S199",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/honda-wave-vs-50cc-scooter-rental-cost/index.html"
+   ],
+   "before": "A shop that publishes carefully is a shop worth trusting with the question, and inventing figures on their behalf would betray both the reader and the business.",
+   "after": "A shop that publishes carefully is a shop worth trusting with the question."
+  },
+  {
+   "id": "S200",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/digital-nomads-rent-vs-buy-decision/index.html"
+   ],
+   "before": "Instead it offers a clear decision framework, verified figures where they exist and no invented ownership prices.",
+   "after": "What follows is a clear decision framework that uses verified figures where they exist; get ownership prices from real sellers."
+  },
+  {
+   "id": "S201",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/digital-nomads-rent-vs-buy-decision/index.html"
+   ],
+   "before": "Here we work through that decision openly, with verified rental figures where they exist, clearly marked estimates everywhere else, and no invented numbers.",
+   "after": "Here we work through that decision with verified rental figures where they exist and clearly marked estimates everywhere else."
+  },
+  {
+   "id": "S202",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/hai-ba-trung-rental-planning/index.html"
+   ],
+   "before": "Parking along it follows the city's rule, attended rows and watched spaces, never an invented spot.",
+   "after": "Park along it as elsewhere in the city, in attended rows and watched spaces."
+  },
+  {
+   "id": "S203",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/business-travelers-pre-ride-inspection/index.html"
+   ],
+   "before": "The escalation rule needs no invented policy to state: a fault that affects safety is a different machine, a fault that does not is a note, and the gray zone between them is the staff's to resolve, which they do, routinely and without drama, because the fleet at 150,000 and 200,000 VND per day is maintained to be ridden.",
+   "after": "A simple escalation rule works: a fault that affects safety means asking for a different machine, a fault that does not is a note, and the gray zone between them is the staff's to resolve, which they do, routinely and without drama, because the fleet at 150,000 and 200,000 VND per day is maintained to be ridden."
+  },
+  {
+   "id": "S204",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-soc-son-return-planning/index.html"
+   ],
+   "before": "Ask the shop how much margin to allow for the season&rsquo;s daylight, how your day has gone and how tired you are; we will not invent a figure.",
+   "after": "Ask the shop how much margin to allow for the season&rsquo;s daylight, and adjust it for how your day has gone and how tired you are."
+  },
+  {
+   "id": "S205",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/new-hanoi-residents-contract-questions/index.html"
+   ],
+   "before": "None of the answers are invented here, all of them are given at the shop, and all of them are cheaper than the surprise they replace.",
+   "after": "Get every one of these answers at the shop; each is cheaper than the surprise it prevents."
+  },
+  {
+   "id": "S206",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/city-commuters-traffic-preparation/index.html"
+   ],
+   "before": "The rider who hesitates in the middle of a merge forces everyone else to invent a plan around them, which is the exact opposite of preparation.",
+   "after": "The rider who hesitates in the middle of a merge forces everyone else to plan around them, which is the exact opposite of preparation."
+  },
+  {
+   "id": "S207",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/remote-workers-commuting-setup/index.html"
+   ],
+   "before": "The full terms, what the month includes and how it renews, live at the shop, stated in person and confirmed at handover, and the page respects that boundary by not inventing over it.",
+   "after": "Get the full terms, what the month includes and how it renews, in person at the shop, and confirm them at handover."
+  },
+  {
+   "id": "S208",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/teachers-commuting-setup/index.html"
+   ],
+   "before": "The full terms, what the month includes and how it renews, live at the shop, stated in person at handover, and the page respects that boundary by not inventing over it.",
+   "after": "Get the full terms, what the month includes and how it renews, from the shop in person at handover."
+  },
+  {
+   "id": "S209",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/teachers-paperwork-questions/index.html"
+   ],
+   "before": "The framework invents no answers about what foreign buyers require, what transfer involves or what insurance must be arranged, because those rules belong to current official sources that change on their own schedule.",
+   "after": "What foreign buyers require, what transfer involves and what insurance must be arranged are set by current official sources that change on their own schedule, so check them there."
+  },
+  {
+   "id": "S210",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/expats-return-checklist/index.html"
+   ],
+   "before": "The fuel question is the return's classic, and the cautious answer is the agreement's answer: ask at signing what level the machine should come back at, and honor whatever was written, because fuel terms are individual to the shop and no page should invent them.",
+   "after": "The fuel question is the classic one at return: ask at signing what level the machine should come back at, and honor whatever was written, because fuel terms are individual to the shop."
+  },
+  {
+   "id": "S211",
+   "kind": "sentence",
+   "files": [
+    "motorbike-guides/best-time-to-ride-motorbike-hanoi/index.html"
+   ],
+   "before": "The guide describes the general character of the seasons rather than inventing statistics, because specific temperatures and rainfall patterns belong to the forecast for your dates, which you should always check.",
+   "after": "Always check the forecast for your dates for specific temperatures and rainfall."
+  },
+  {
+   "id": "S212",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/budget-travelers-rental-paperwork-questions/index.html"
+   ],
+   "before": "A shop's stated terms are the reference; a page that invents them would be doing the traveler no favors, and this one does not.",
+   "after": "Treat the shop's stated terms as the reference, and ask about anything they do not cover."
+  },
+  {
+   "id": "S213",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/tay-ho-traffic-guide/index.html"
+   ],
+   "before": "The local staged left turn, crossing in two moves where the road division allows, is the pattern to copy rather than a technique to invent.",
+   "after": "The local staged left turn, crossing in two moves where the road division allows, is the pattern to copy."
+  },
+  {
+   "id": "S214",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/digital-nomads-return-checklist/index.html"
+   ],
+   "before": "Here is a nomad's return routine, organized around a working week, with no invented policies and no terms beyond what the signed agreement says.",
+   "after": "Here is a nomad's return routine, organized around a working week; for policies and terms, go by what the signed agreement says."
+  },
+  {
+   "id": "S215",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/ha-dong-parking-guide/index.html",
+    "motorbike-rental-hanoi-old-quarter/truc-bach-parking-guide/index.html"
+   ],
+   "before": "Nothing here quotes a price for any specific lot, because parking practice in Hanoi shifts with the ground, the hour and the attendant, and a guide that invents it does the rider a disservice.",
+   "after": "Parking practice and fees in Hanoi shift with the ground, the hour and the attendant, so ask the attendant before you leave the bike."
+  },
+  {
+   "id": "S216",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/couples-monthly-budget/index.html"
+   ],
+   "before": "None of these lines carries an invented number, the fuel is bought at the pump, the fees are posted at the lots, and what the rental includes by way of kit is asked at the shop before the line is drawn.",
+   "after": "Fuel costs what the pump charges, parking costs what the lot posts, and the kit the rental includes is worth asking about at the shop before you buy any gear."
+  },
+  {
+   "id": "S217",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/long-stay-tourists-monthly-budget/index.html"
+   ],
+   "before": "None of these lines carries an invented number, the fuel is bought at the city&rsquo;s pumps, the parking fees are posted at the lots themselves, and the gear&rsquo;s necessary half is asked at the rental shop.",
+   "after": "Check fuel prices at the city&rsquo;s pumps and parking fees at the lots themselves, and ask the rental shop about the gear you need."
+  },
+  {
+   "id": "S218",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/new-riders-parking-strategy/index.html"
+   ],
+   "before": "Ask at the shop which lock the machine has and how it likes to be used, disk lock, chain, grip lock, and use it the way the <a href=\"/hanoi-motorbike-rental/new-riders-pickup-planning/\">handover</a> demonstrated, not the way improvisation invents at the first stop.",
+   "after": "Ask at the shop which lock the machine has and how it likes to be used, disk lock, chain, grip lock, and use it the way the <a href=\"/hanoi-motorbike-rental/new-riders-pickup-planning/\">handover</a> demonstrated rather than improvising at the first stop."
+  },
+  {
+   "id": "S219",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/long-stay-tourists-contract-questions/index.html"
+   ],
+   "before": "A shop that rents by the month has met every version of the bending calendar and will say what its practice is for each, which is worth more to a flexible traveler than any discount a page could invent.",
+   "after": "A shop that rents by the month has seen every version of the changing calendar, so ask how it handles each one."
+  },
+  {
+   "id": "S220",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/long-stay-visitors-traffic-preparation/index.html"
+   ],
+   "before": "The advice below builds that progression, with careful legal wording, verified prices only, and no invented rules.",
+   "after": "The advice below builds that progression."
+  },
+  {
+   "id": "S221",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/50cc-scooter-short-vs-long-term-cost/index.html"
+   ],
+   "before": "The long-term mistake is paying daily into a month out of inertia, or inventing a monthly number to plan around.",
+   "after": "The long-term mistake is paying daily into a month out of inertia, or guessing a monthly number to plan around."
+  },
+  {
+   "id": "S222",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/50cc-scooter-short-vs-long-term-cost/index.html"
+   ],
+   "before": "Both approaches fail: the daily rate over thirty days costs more than any published monthly rate, and an invented rate is not a plan, just a guess with a budget attached.",
+   "after": "Both approaches fail: the daily rate over thirty days costs more than any published monthly rate, and a guessed rate is not a plan."
+  },
+  {
+   "id": "S223",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/long-stay-tourists-parking-and-security/index.html"
+   ],
+   "before": "The mistake is believing security a product the rental sold rather than a pattern the rider keeps, the lock treated as a talisman and the standing hours left to chance, when the truth is humbler and better, security is behaviour, behaviour is portable, and the tourist&rsquo;s month is exactly the kind of riding behaviour was invented for.",
+   "after": "The mistake is treating security as something the rental provides rather than a habit you keep, relying on the lock alone and leaving the parked hours to chance, when good habits protect the bike at every stop of the month."
+  },
+  {
+   "id": "S224",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/interns-contract-questions/index.html"
+   ],
+   "before": "The mistake is believing the questions can wait until they matter, the early-end policy asked about after the early ending, the deposit clarified after the deposit mattered, the walk-around standard invented at the walk-around.",
+   "after": "The mistake is believing the questions can wait until they matter, the early-end policy asked about after the early ending, the deposit clarified after the deposit mattered, the walk-around standard agreed only at the walk-around itself."
+  },
+  {
+   "id": "S225",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/project-workers-contract-questions/index.html"
+   ],
+   "before": "The mistake is believing the questions can wait until they matter, the early-finish policy asked about after the early finish, the deposit clarified after the deposit mattered, the walk-around standard invented at the walk-around.",
+   "after": "The mistake is believing the questions can wait until they matter, the early-finish policy asked about after the early finish, the deposit clarified after the deposit mattered, the walk-around standard settled only at the walk-around itself."
+  },
+  {
+   "id": "S226",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/long-stay-tourists-commuting-setup/index.html"
+   ],
+   "before": "The mistake is re-inventing the month&rsquo;s ordinary days daily, the coffee sought by serendipity and the market found by luck each time, and the whole month paying a small tax of attention on movements that a fortnight of looping would have made free.",
+   "after": "The mistake is working out the month&rsquo;s ordinary trips from scratch each day, hunting for the coffee and the market every time, when a fortnight of riding the same loops would make those trips automatic."
+  },
+  {
+   "id": "S227",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/project-workers-contract-questions/index.html"
+   ],
+   "before": "The mistake is the question asked in the last week, the early finish arriving and the terms being invented by stress on the shop&rsquo;s doorstep, the scope&rsquo;s quietest unknown becoming its loudest negotiation exactly when the leaving has no time left for one.",
+   "after": "The mistake is asking the question in the last week, when the early finish has arrived and the terms are worked out under stress on the shop&rsquo;s doorstep, with no time left to negotiate."
+  },
+  {
+   "id": "S228",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/new-hanoi-residents-commuting-setup/index.html"
+   ],
+   "before": "The mornings are long enough already without re-inventing them.",
+   "after": "The mornings are long enough already without solving the same problem every day."
+  },
+  {
+   "id": "S229",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/hai-ba-trung-traffic-guide/index.html"
+   ],
+   "before": "The riders who cruise its slow lane while the traffic passes close by are paying attention to the wrong layer, and the riders who treat its access points as improvised parking are inventing rules where questions belong.",
+   "after": "The riders who cruise its slow lane while the traffic passes close by are paying attention to the wrong layer, and riders who park at its access points should ask first rather than assume."
+  },
+  {
+   "id": "S230",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/hoang-mai-parking-guide/index.html",
+    "motorbike-rental-hanoi-old-quarter/thanh-xuan-parking-guide/index.html"
+   ],
+   "before": "No fee is quoted here because no fee is invented.",
+   "after": "Fees vary from lot to lot, so check before you park."
+  },
+  {
+   "id": "S231",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/cau-giay-parking-guide/index.html"
+   ],
+   "before": "The mistake is treating the modern district's ease as a license for improvisation, inventing spots on unwatched stretches because the streets look calm.",
+   "after": "The mistake is treating the modern district's ease as a license for improvisation, parking on unwatched stretches because the streets look calm."
+  },
+  {
+   "id": "S232",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/digital-nomads-ownership-costs/index.html"
+   ],
+   "before": "No guide can predict what any machine will fetch, and this one refuses to invent resale figures, but the structural fact is safe to state: patience sells machines at one price and deadlines at another.",
+   "after": "No one can predict what a given machine will fetch, but patience sells machines at one price and deadlines at another."
+  },
+  {
+   "id": "S233",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-ha-giang-one-day-feasibility/index.html"
+   ],
+   "before": "The answer is not a polite maybe; it depends on four things, the distance, the high country, the weather and the rider, and we do not invent numbers for any of them.",
+   "after": "The answer is not a polite maybe; it depends on four things, the distance, the high country, the weather and the rider, and none of them comes with a fixed number."
+  },
+  {
+   "id": "S234",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-sapa-one-day-feasibility/index.html"
+   ],
+   "before": "The answer is not a flat no; it depends on four factors, the distance, the mountain, the weather and the rider, and we won&rsquo;t put invented numbers on any of them.",
+   "after": "The answer is not a flat no; it depends on four factors, the distance, the mountain, the weather and the rider, and none of them has a fixed number."
+  },
+  {
+   "id": "S235",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/city-commuters-daily-rental-planning/index.html"
+   ],
+   "before": "The plan deliberately refuses to invent weekly rates, monthly rates, deposit terms, or delivery promises, because none of those are verified here; where a detail belongs to the shop, the advice is to ask at the shop.",
+   "after": "Ask the shop directly about weekly and monthly rates, deposit terms and delivery."
+  },
+  {
+   "id": "S236",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/teachers-monthly-budget/index.html"
+   ],
+   "before": "No specific fuel price, no deposit, no discount and no pause policy is invented here, because those numbers live at the pump, on the calendar and at the shop respectively, and the plan that uses real answers from all three places is the plan that survives contact with the term.",
+   "after": "Fuel prices, deposits, discounts and any pause policy come from the pump, the calendar and the shop, so get real answers from each place before you settle the budget."
+  },
+  {
+   "id": "S237",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/new-hanoi-residents-monthly-budget/index.html"
+   ],
+   "before": "The plan&rsquo;s last layer is the conversation, the money questions the shop answers daily and no page invents, the confirmed rate for the chosen machine, the payment rhythm and its dates, what deposits or document holds the arrangement involves, what the maintenance side includes, and what happens at renewal, all of it asked at 112 Nguyen Van Cu, open daily 09:00 to 21:00, and all of it turning the plan&rsquo;s assumptions into the shop&rsquo;s own words.",
+   "after": "The plan&rsquo;s last layer is the conversation, the money questions the shop answers daily, the confirmed rate for the chosen machine, the payment rhythm and its dates, what deposits or document holds the arrangement involves, what the maintenance side includes, and what happens at renewal, all of it asked at 112 Nguyen Van Cu, open daily 09:00 to 21:00, and all of it turning the plan&rsquo;s assumptions into the shop&rsquo;s own words."
+  },
+  {
+   "id": "S238",
+   "kind": "sentence",
+   "files": [
+    "hanoi-scooter-rental/automatic-scooter-route-planning-checks-and-mistakes/index.html"
+   ],
+   "before": "Riders with a fallback never have to invent one.",
+   "after": "Riders with a fallback never have to improvise one in the rain."
+  },
+  {
+   "id": "S239",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/expats-rainy-day-planning/index.html"
+   ],
+   "before": "The premise kept throughout: no live-weather claims, no forecast promises, no invented shop rules about riding in rain.",
+   "after": "Check the forecast yourself, and ask the shop about any rules for riding in rain."
+  },
+  {
+   "id": "S240",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/short-riders-traffic-preparation/index.html"
+   ],
+   "before": "The prepared short rider filters with a plan: keep to the established lines rather than inventing gaps, ride at the speed of the surrounding flow, and treat every closing gap as a reason to slow rather than to lean.",
+   "after": "The prepared short rider filters with a plan: keep to the established lines rather than forcing gaps, ride at the speed of the surrounding flow, and treat every closing gap as a reason to slow rather than to lean."
+  },
+  {
+   "id": "S241",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/expats-ownership-costs/index.html"
+   ],
+   "before": "Here we set out those categories for expats, do not invent any ownership figures, since used bikes, parts and official fees vary too much for reliable averages, and compare the whole picture with the one set of figures that is verified and published: the rental rates of the shop named below, quoted for comparison only.",
+   "after": "Below are those categories for expats; used bikes, parts and official fees vary too much for reliable averages, so price your own case and compare it with the published rental rates of the shop named below."
+  },
+  {
+   "id": "S242",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/remote-workers-commuting-setup/index.html"
+   ],
+   "before": "The setup that carries it deserves the same seriousness any commuter gives a two-hour route, the machine matched to the hops, the routine built to survive weeks, the gear arranged so the working day rides comfortably, and the whole arrangement anchored in verified rates rather than invented promises.",
+   "after": "The setup that carries it deserves the same seriousness any commuter gives a two-hour route, the machine matched to the hops, the routine built to survive weeks, the gear arranged so the working day rides comfortably, and the whole arrangement based on verified rates rather than assumptions."
+  },
+  {
+   "id": "S243",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/students-rent-vs-buy-decision/index.html"
+   ],
+   "before": "The decision here is built around the student calendar, semesters rather than years and gaps rather than continuity, using only verified rental prices, no invented ownership prices, and no pretence that a small budget is just a smaller version of a big one.",
+   "after": "The decision here is built around the student calendar, semesters rather than years and gaps rather than continuity, using verified rental prices and treating a small budget as its own case rather than a smaller version of a big one."
+  },
+  {
+   "id": "S244",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-cat-ba-return-planning/index.html"
+   ],
+   "before": "It invents no schedules, durations or conditions, it simply arranges the questions the day will ask and the checks the morning of the return will have to answer.",
+   "after": "Check the crossing schedule and conditions on the day, and run the checks below on the morning of the return."
+  },
+  {
+   "id": "S245",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-sapa-return-planning/index.html"
+   ],
+   "before": "It invents no schedules, durations or conditions, it arranges the questions the day will ask and the checks the morning of the return will have to answer.",
+   "after": "Schedules, durations and conditions change, so prepare for the questions the day will ask and run the checks on the morning of the return."
+  },
+  {
+   "id": "S246",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/thanh-xuan-parking-guide/index.html"
+   ],
+   "before": "None of this is an invented rule, it is the shape of organized parking in a working district, and the shape is read in a day and used for a stay.",
+   "after": "This is the usual shape of organized parking in a working district, and you can learn it in a day and use it for your whole stay."
+  },
+  {
+   "id": "S247",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/experienced-riders-rainy-day-planning/index.html"
+   ],
+   "before": "The scope note on weather itself: no live-weather claims, no invented season calendars, no forecast promises, because a rental guide owns response rather than prediction.",
+   "after": "Plan how you will respond to the weather rather than trying to predict it."
+  },
+  {
+   "id": "S248",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/budget-travelers-rainy-day-planning/index.html"
+   ],
+   "before": "The seasonal caution repeats the scope note in closing: no live-weather claims, no invented season calendars, and the traveler's own weather sources own the forecast.",
+   "after": "For the forecast itself, rely on your own weather sources rather than a fixed season calendar."
+  },
+  {
+   "id": "S249",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/experienced-riders-pickup-planning/index.html"
+   ],
+   "before": "Anything further, delivery, exceptions, special arrangements, belongs to the shop's stated terms asked directly, and no page invents them.",
+   "after": "For anything further, such as delivery, exceptions or special arrangements, ask the shop directly."
+  },
+  {
+   "id": "S250",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/long-stay-visitors-pre-ride-inspection/index.html"
+   ],
+   "before": "The rider does not need to invent a process; the rider needs to use consistently whatever process the shop already has.",
+   "after": "Use whatever process the shop already has, and use it consistently."
+  },
+  {
+   "id": "S251",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/teachers-commuting-setup/index.html"
+   ],
+   "before": "The setup that carries it deserves the same seriousness the lesson plan gets, the machine matched to the route and the cargo, the routine built to survive weeks, the gear arranged so the teaching day rides comfortably, and the whole arrangement anchored in verified rates rather than invented promises.",
+   "after": "The setup that carries it deserves the same seriousness the lesson plan gets, the machine matched to the route and the cargo, the routine built to survive weeks, the gear arranged so the teaching day rides comfortably, and the whole arrangement based on verified rates rather than assumptions."
+  },
+  {
+   "id": "S252",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/expats-route-planning/index.html"
+   ],
+   "before": "The variants share one design spine: they are the same routes wearing different margins, not new routes invented under pressure, and the resident who planned them that way never rides an unverified street on a hard day.",
+   "after": "The variants share one design: they are the same routes with different margins, not new routes improvised under pressure, so on a hard day you never ride an untested street."
+  },
+  {
+   "id": "S253",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/50cc-scooter-monthly-price/index.html"
+   ],
+   "before": "Nothing beyond it is invented here: no guessed monthly rate, no pro-rated weekly rate, no assumed long-stay discount.",
+   "after": "Do not guess a monthly rate, pro-rate a weekly one or assume a long-stay discount."
+  },
+  {
+   "id": "S254",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/50cc-scooter-weekly-price/index.html"
+   ],
+   "before": "That single figure comes from the shop's published price list, and nothing beyond it is invented here: no guessed weekly rate, no assumed monthly rate, no estimated discount.",
+   "after": "That figure comes from the shop's published price list; for weekly or monthly rates or any discount, ask the shop."
+  },
+  {
+   "id": "S255",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/budget-travelers-city-traffic/index.html"
+   ],
+   "before": "We do not invent weekly or monthly rates; ask the shop directly about longer terms, since they depend on current availability.",
+   "after": "For weekly or monthly rates, ask the shop directly, since longer terms depend on current availability."
+  },
+  {
+   "id": "S256",
+   "kind": "sentence",
+   "files": [
+    "hanoi-scooter-rental/automatic-scooter-for-daily-commuting-checks-and-mistakes/index.html"
+   ],
+   "before": "Commuting is the use case the whole category was invented for, and the checks below simply protect it.",
+   "after": "The checks below keep that commuting rhythm running smoothly."
+  },
+  {
+   "id": "S257",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/honda-air-blade-monthly-price/index.html"
+   ],
+   "before": "That figure comes from the shop's published prices, with nothing invented added: no promotions, no bundles, no estimated discounts for longer rentals.",
+   "after": "That figure comes from the shop's published prices; ask the shop directly about promotions, bundles or discounts for longer rentals."
+  },
+  {
+   "id": "S258",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/budget-travelers-pickup-planning/index.html"
+   ],
+   "before": "Delivery arrangements and any exceptions belong to the shop's stated terms asked directly, and no page invents them.",
+   "after": "Ask the shop directly about delivery arrangements and any exceptions."
+  },
+  {
+   "id": "S259",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/index.html"
+   ],
+   "before": "For weekly or monthly 50cc rental we quote individually &mdash; we will not invent rates we have not verified.",
+   "after": "For weekly or monthly 50cc rental we quote individually &mdash; ask us for the rate for your dates."
+  },
+  {
+   "id": "S260",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/semi-automatic-motorbike-weekly-price/index.html"
+   ],
+   "before": "The figure comes from the shop’s published price list, with no invented bundles, promotions or hidden extras.",
+   "after": "The figure comes from the shop’s published price list."
+  },
+  {
+   "id": "S261",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/budget-travelers-daily-rental-planning/index.html"
+   ],
+   "before": "We do not invent weekly or monthly rates; ask the shop directly about longer terms, since they are agreed at the shop rather than published.",
+   "after": "Weekly and monthly rates are agreed at the shop rather than published, so ask directly about longer terms."
+  },
+  {
+   "id": "S262",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/city-commuters-pickup-planning/index.html"
+   ],
+   "before": "No opening hours, delivery promises or promotions are invented here.",
+   "after": "Ask the shop directly about opening hours, delivery and promotions."
+  },
+  {
+   "id": "S263",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/honda-air-blade-weekly-price/index.html",
+    "hanoi-motorbike-rental-cost/honda-click-weekly-price/index.html"
+   ],
+   "before": "That figure comes from the shop's published prices, with nothing invented added: no promotions, no bundles, no estimates.",
+   "after": "That figure comes from the shop's published prices; ask the shop about any promotions or bundles."
+  },
+  {
+   "id": "S264",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/yamaha-mio-weekly-price/index.html"
+   ],
+   "before": "That Mio price is taken directly from the shop's published list, without any invented discounts, packages or guesses.",
+   "after": "That Mio price is taken directly from the shop's published list, so plan without assuming discounts or packages."
+  },
+  {
+   "id": "S265",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/electric-motorbike-weekly-price/index.html"
+   ],
+   "before": "That weekly price is the shop's published figure as it stands, without invented promotions, bundles or estimates.",
+   "after": "That weekly price is the shop's published figure as it stands; ask the shop about any promotions or bundles."
+  },
+  {
+   "id": "S266",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/business-travelers-traffic-preparation/index.html"
+   ],
+   "before": "A rider who has watched the language for twenty minutes decodes it on the first ride; a rider who has not spends the first ride inventing it incorrectly.",
+   "after": "A rider who has watched the language for twenty minutes decodes it on the first ride; a rider who has not spends the first ride guessing at it."
+  },
+  {
+   "id": "S267",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/long-stay-tourists-commuting-setup/index.html"
+   ],
+   "before": "Week one, the quarter learned, the exits ridden, the first loops formed and the timing watched, the city&rsquo;s thick hours and quiet windows noted in the traveler&rsquo;s own head rather than trusted to a page&rsquo;s invented minutes.",
+   "after": "Week one, the quarter learned, the exits ridden, the first loops formed and the timing watched, the city&rsquo;s thick hours and quiet windows noted from the traveler&rsquo;s own riding."
+  },
+  {
+   "id": "S268",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/long-stay-tourists-break-even-thinking/index.html"
+   ],
+   "before": "There is no universal month count, and any source offering one is inventing it.",
+   "after": "There is no universal month count, so be wary of any source that offers one."
+  },
+  {
+   "id": "S269",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/students-break-even-thinking/index.html"
+   ],
+   "before": "There is no universal number, and any guide that offers one is inventing it.",
+   "after": "There is no universal number, so be wary of any guide that offers one."
+  },
+  {
+   "id": "S270",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/new-riders-rental-paperwork-questions/index.html"
+   ],
+   "before": "A shop that confirms its own published prices without prompting has earned trust in its other answers; one that invents a special price for a first-timer has told you something more useful than any discount.",
+   "after": "A shop that confirms its own published prices without prompting has earned trust in its other answers; one that quotes a different price to a first-timer has told you something more useful than any discount."
+  },
+  {
+   "id": "S271",
+   "kind": "sentence",
+   "files": [
+    "motorbike-guides/index.html"
+   ],
+   "before": "These guides are written for visitors and expats renting motorbikes in Hanoi, with neutral, factual information and no invented promises.",
+   "after": "These guides are written for visitors and expats renting motorbikes in Hanoi, with neutral, factual information."
+  },
+  {
+   "id": "S272",
+   "kind": "sentence",
+   "files": [
+    "renting-a-motorbike-in-vietnam/riding-hanoi-vs-ho-chi-minh-city/index.html"
+   ],
+   "before": "It sticks to the general character of each city, the feel of the traffic, the layout of the streets and the rhythm of the riding day, and avoids invented statistics or rankings, because which city is better depends on what kind of rider you are.",
+   "after": "It sticks to the general character of each city, the feel of the traffic, the layout of the streets and the rhythm of the riding day, because which city is better depends on what kind of rider you are."
+  },
+  {
+   "id": "S273",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/couples-daily-rental-planning/index.html"
+   ],
+   "before": "This plan deliberately avoids inventing weekly rates, monthly rates, deposit amounts, or delivery promises, because none of those figures are verified on this site.",
+   "after": "Weekly rates, monthly rates, deposit amounts and delivery options are not verified on this site, so treat them as questions for the shop."
+  },
+  {
+   "id": "S274",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/expats-parking-strategy/index.html"
+   ],
+   "before": "No invented terms, no assumed ones.",
+   "after": "Do not assume the terms at any spot."
+  },
+  {
+   "id": "S275",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/students-parking-strategy/index.html"
+   ],
+   "before": "The scams guide's caution covers the city's few genuinely dishonest edges, and the habit never invents the answers it does not get.",
+   "after": "For the city's few bad actors, read the scams guide, and if you do not get a clear answer, do not guess."
+  },
+  {
+   "id": "S276",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/expats-traffic-preparation/index.html"
+   ],
+   "before": "For expats, traffic readiness is a long-term skill: a first month learning the city's rhythms, a commuting routine that fits them, and cautious habits that keep a year of daily riding uneventful, with safety advice framed carefully and no invented rules where official ones apply.",
+   "after": "For expats, traffic readiness is a long-term skill: a first month learning the city's rhythms, a commuting routine that fits them, and cautious habits that keep a year of daily riding uneventful, with official rules followed wherever they apply."
+  },
+  {
+   "id": "S277",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/hoan-kiem-traffic-guide/index.html"
+   ],
+   "before": "We describe its character without live-traffic claims or invented rules, and show how preparation turns it from an obstacle into part of the experience.",
+   "after": "Here is what its traffic is like, and how preparation turns it from an obstacle into part of the experience."
+  },
+  {
+   "id": "S278",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/truc-bach-parking-guide/index.html"
+   ],
+   "before": "A rider based here parks more often than the small area suggests, so we cover parking carefully, with no invented rules and no fees we cannot verify.",
+   "after": "A rider based here parks more often than the small area suggests, so it pays to check the rules and fees at each stop."
+  },
+  {
+   "id": "S279",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/west-lake-traffic-guide/index.html"
+   ],
+   "before": "Follow the pattern of the riders around you rather than inventing a technique imported from quieter countries.",
+   "after": "Follow the pattern of the riders around you rather than a technique learned in quieter countries."
+  },
+  {
+   "id": "S280",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-cat-ba-two-day-itinerary/index.html"
+   ],
+   "before": "It invents no schedules or conditions, because the crossing and the sky file their own reports.",
+   "after": "Check the crossing schedule and the weather on the day."
+  },
+  {
+   "id": "S281",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-trips/hanoi-to-ha-long-two-day-itinerary/index.html"
+   ],
+   "before": "As always, we do not invent riding times, distances or conditions; your dates, the road and the shop&rsquo;s advice set the schedule.",
+   "after": "Let your dates, the road and the shop&rsquo;s advice set the schedule."
+  },
+  {
+   "id": "S282",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/solo-travelers-parking-strategy/index.html"
+   ],
+   "before": "None of this invents rules about what anyone may leave anywhere; it is simply the strategy that keeps a solo day trip from turning into an insurance conversation.",
+   "after": "These habits keep a solo day trip from turning into an insurance conversation."
+  },
+  {
+   "id": "S283",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/students-passenger-use/index.html"
+   ],
+   "before": "Two riders means two helmets, always, with no exceptions that social pressure can invent.",
+   "after": "Two riders means two helmets, always, whatever the social pressure."
+  },
+  {
+   "id": "S284",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/thanh-xuan-route-connections/index.html"
+   ],
+   "before": "Nothing needs inventing here, the pleasure is the openness itself, and the district&rsquo;s position puts its start minutes from home.",
+   "after": "The pleasure is the openness itself, and the district&rsquo;s position puts its start minutes from home."
+  },
+  {
+   "id": "S285",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/bac-tu-liem-route-connections/index.html"
+   ],
+   "before": "Nothing needs inventing here, the pleasure is the openness itself, and the district&rsquo;s position puts its start five calm minutes from home.",
+   "after": "The pleasure is the openness itself, and the district&rsquo;s position puts its start five calm minutes from home."
+  },
+  {
+   "id": "S286",
+   "kind": "sentence",
+   "files": [
+    "hanoi-scooter-rental/electric-motorbike-vs-automatic-scooter-selection-guide/index.html"
+   ],
+   "before": "Online rate lists age badly, and this comparison in particular suffers from invented numbers, because electric models vary widely between operators.",
+   "after": "Online rate lists age badly, and electric rates are especially unreliable because the models vary widely between operators."
+  },
+  {
+   "id": "S287",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/expats-return-checklist/index.html"
+   ],
+   "before": "Usually, and the checklist plans for it: the renewal conversation anchors to the verified price ladders on the cost hub and asks whether the rate holds, whether the same machine continues, and how the deposit carries across, all questions for the shop and the agreement rather than for any page to invent.",
+   "after": "Usually, and the checklist plans for it: the renewal conversation anchors to the verified price ladders on the cost hub and asks whether the rate holds, whether the same machine continues, and how the deposit carries across, all questions to settle with the shop and in the agreement."
+  },
+  {
+   "id": "S288",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/old-quarter-route-connections/index.html"
+   ],
+   "before": "The distance is modest, but the minutes depend on your route, the time of day and conditions that change constantly, and an invented estimate would be a promise no one can keep.",
+   "after": "The distance is modest, but the minutes depend on your route, the time of day and conditions that change constantly."
+  },
+  {
+   "id": "S289",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/old-quarter-traffic-guide/index.html"
+   ],
+   "before": "We do not quote live traffic levels, predict hourly congestion or invent one-way rules; we describe how the area generally behaves, how to prepare, and what to ask locally on the day from people who ride it every morning.",
+   "after": "Below is how the area generally behaves and how to prepare; for current traffic and one-way streets, ask people who ride it every morning."
+  },
+  {
+   "id": "S290",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/city-commuters-bridges-and-inclines/index.html"
+   ],
+   "before": "We do not invent performance specifications, top speeds or gradient figures, because none of those numbers are verified for any specific machine.",
+   "after": "Performance specifications, top speeds and gradient figures are not verified for any specific rental machine, so do not plan around them."
+  },
+  {
+   "id": "S291",
+   "kind": "sentence",
+   "files": [
+    "motorbike-rental-hanoi-old-quarter/old-quarter-parking-guide/index.html"
+   ],
+   "before": "We do not quote parking fees, because they vary by location and time and are not published shop prices, and inventing a number would be worse than admitting we don't know.",
+   "after": "Parking fees vary by location and time, and they are separate from the shop's rental prices."
+  },
+  {
+   "id": "S292",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/teachers-paperwork-questions/index.html"
+   ],
+   "before": "What applies to foreign buyers by nationality, visa status and length of stay is set by current official sources that change, so no rules are invented here.",
+   "after": "What applies to foreign buyers by nationality, visa status and length of stay is set by official sources and can change."
+  },
+  {
+   "id": "S293",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/long-stay-tourists-break-even-thinking/index.html"
+   ],
+   "before": "The worksheet is built over the next sections, using posted figures for renting and clear estimates for owning, without inventing any number the market has not published.",
+   "after": "Build the worksheet over the next sections, using posted figures for renting and clear estimates for owning that you check against real quotes."
+  },
+  {
+   "id": "S294",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/couples-daily-rental-planning/index.html"
+   ],
+   "before": "What the plan should not contain are invented weekly or monthly rates for the 50cc class.",
+   "after": "Do not build weekly or monthly 50cc rates into the plan by guesswork."
+  },
+  {
+   "id": "S295",
+   "kind": "heading",
+   "files": [
+    "hanoi-motorbike-rental-cost/index.html"
+   ],
+   "before": "What the price page does not invent",
+   "after": "What the price list does not include"
+  },
+  {
+   "id": "S296",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental-cost/honda-wave-vs-50cc-scooter-rental-cost/index.html"
+   ],
+   "before": "Base the machine decision on a real price from the shop, not an invented number.",
+   "after": "Base the machine decision on a real price from the shop, not a guess."
+  },
+  {
+   "id": "S297",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/budget-travelers-city-traffic/index.html"
+   ],
+   "before": "The class limits themselves, not the law of physics or any local rule worth inventing here, are explained calmly in the guide to <a href=\"/hanoi-50cc-motorbike-rental/50cc-vs-125cc-hanoi/\">50cc versus 125cc machines in Hanoi</a>.",
+   "after": "The class limits themselves are explained in the guide to <a href=\"/hanoi-50cc-motorbike-rental/50cc-vs-125cc-hanoi/\">50cc versus 125cc machines in Hanoi</a>."
+  },
+  {
+   "id": "S298",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/teachers-resale-planning/index.html"
+   ],
+   "before": "The plan below invents no market prices or demand forecasts and refers every paperwork requirement to current official sources.",
+   "after": "Check market prices yourself, and confirm every paperwork requirement with current official sources."
+  },
+  {
+   "id": "S299",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-for-sale/students-break-even-thinking/index.html"
+   ],
+   "before": "At 112 Nguyen Van Cu in Long Bien, Hanoi, open daily 09:00 to 21:00, the shop at Motorbike Rental - Nguyen Tu will confirm the verified monthly figures class by class, explain deposits, terms and what the numbers include, and happily poke holes in a student&rsquo;s ownership assumptions, without ever inventing a market price for a machine it has not seen and without pretending the purchase is always wrong.",
+   "after": "At 112 Nguyen Van Cu in Long Bien, Hanoi, open daily 09:00 to 21:00, ask Motorbike Rental - Nguyen Tu to confirm the verified monthly figures class by class and explain deposits, terms and what the numbers include, and use the visit to test your ownership assumptions."
+  },
+  {
+   "id": "S300",
+   "kind": "sentence",
+   "files": [
+    "hanoi-50cc-motorbike-rental/first-time-visitors-parking/index.html"
+   ],
+   "before": "Where there is no attendant, follow the rows that already exist rather than inventing a new one.",
+   "after": "Where there is no attendant, follow the rows that already exist rather than starting a new one."
+  },
+  {
+   "id": "S301",
+   "kind": "sentence",
+   "files": [
+    "hanoi-motorbike-rental/students-return-checklist/index.html"
+   ],
+   "before": "Yes, and the checklist serves that ending the same way: the condition review, fuel question and belongings sweep run identically, and the renewal conversation asks the standing questions, rate for the next term, same machine or a swap, and how the deposit carries across, with the answers belonging to the shop and the agreement rather than to any page to invent.",
+   "after": "Yes, and the checklist serves that ending the same way: the condition review, fuel question and belongings sweep run identically, and the renewal conversation asks the standing questions, rate for the next term, same machine or a swap, and how the deposit carries across, with the answers coming from the shop and the agreement."
+  },
+  {
+   "id": "S302",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/frequent-commuters-parking-and-security/index.html"
+   ],
+   "before": "What each lot offers and charges is posted where it operates, and no page needs to invent it.",
+   "after": "Read those terms at the lot before you commit to a regular spot."
+  },
+  {
+   "id": "S303",
+   "kind": "sentence",
+   "files": [
+    "monthly-motorbike-rental-hanoi/new-hanoi-residents-parking-and-security/index.html"
+   ],
+   "before": "What each lot offers is posted at the lot itself, and no page invents it.",
+   "after": ""
+  }
+ ]
+}
