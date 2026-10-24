@@ -44,6 +44,7 @@ const lb=(JSON.parse(homeSchema)['@graph']||[]).find(n=>n['@type']==='LocalBusin
 if(lb.telephone!==b.phoneTel) errors.push('index.html: LocalBusiness telephone does not match config');
 if(lb.hasMap!==mapsUrl) errors.push('index.html: LocalBusiness hasMap does not match config');
 if(!lb.address||lb.address.streetAddress!==b.streetAddress||lb.address.addressLocality!==b.locality) errors.push('index.html: LocalBusiness address does not match config');
+if(b.geo&&(!lb.geo||lb.geo.latitude!==b.geo.latitude||lb.geo.longitude!==b.geo.longitude)) errors.push('index.html: LocalBusiness geo does not match config');
 // Structured rental offers mirror the price table (same source, ranges kept as ranges).
 const svc=(JSON.parse(homeSchema)['@graph']||[]).find(n=>n['@type']==='Service')||{};
 const offers=((svc.hasOfferCatalog||{}).itemListElement)||[];

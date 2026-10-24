@@ -928,6 +928,9 @@ body.chat-keyboard-open .chat-log{
 .rates-note,.legal-updated{color:var(--muted);font-size:.92rem;margin-top:var(--s3)}
 address.nap{font-style:normal;line-height:1.8;margin:var(--s3) 0}
 .deposit-points{margin-top:var(--s3)}
+.lez-note{margin:var(--s4) 0;padding:var(--s3) var(--s4);border-left:4px solid var(--brand);background:var(--surface-2);border-radius:0 var(--r-sm,10px) var(--r-sm,10px) 0}
+.source-line{color:var(--muted);font-size:.92rem}
+.source-line a{text-decoration:underline}
 @media (max-width:560px){
   .rates-table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
   .rates-table,.rates-table tbody,.rates-table tr,.rates-table th,.rates-table td{display:block;width:100%}

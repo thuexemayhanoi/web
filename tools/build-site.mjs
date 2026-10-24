@@ -213,8 +213,23 @@ function napBlock(){
   const b=system.business;
   return '<!-- SLOT:NAP:START -->\n<address class="nap">\n<strong>'+escapeTocText(b.name)+'</strong><br>\n'+escapeTocText(b.address)+'<br>\nPhone / Zalo: <a href="tel:'+attr(b.phoneTel)+'">'+escapeTocText(b.phone)+'</a><br>\nEmail: <a href="mailto:'+attr(b.email)+'">'+escapeTocText(b.email)+'</a><br>\nHours: '+escapeTocText(b.hoursDisplay)+'\n</address>\n<!-- SLOT:NAP:END -->';
 }
+// Local rules that change over time (Hanoi Low Emission Zone) live in data/site-system.json > localRules,
+// with the date they were last checked and their official sources. <!-- SLOT:LEZ --> renders the full
+// section and <!-- SLOT:LEZ_NOTE --> a short pointer; update the data once and every page follows.
+function lezBlock(){
+  const z=(system.localRules||{}).lowEmissionZone;
+  if(!z) return '';
+  const rows=(z.phases||[]).map(p=>'<tr><th scope="row">'+escapeTocText(p.period)+'</th><td>'+escapeTocText(p.where)+'</td><td>'+escapeTocText(p.rules)+'</td></tr>').join('\n');
+  const src=(z.sources||[]).map(x=>'<a href="'+attr(x.url)+'" rel="noopener">'+escapeTocText(x.label)+'</a> ('+escapeTocText(x.publisher)+(x.lang?', '+escapeTocText(x.lang):'')+')').join('; ');
+  return '<!-- SLOT:LEZ:START -->\n<p class="legal-updated">Checked against official sources on '+longDate(z.asOf)+'.</p>\n<p>'+escapeTocText(z.summary)+'</p>\n<ul class="check-list">'+(z.points||[]).map(x=>'<li>'+escapeTocText(x)+'</li>').join('')+'</ul>\n<div class="table-scroll" role="region" aria-label="Low Emission Zone timetable" tabindex="0">\n<table>\n<thead><tr><th scope="col">Period</th><th scope="col">Where</th><th scope="col">What applies</th></tr></thead>\n<tbody>\n'+rows+'\n</tbody>\n</table>\n</div>\n<p>'+escapeTocText(z.forRenters)+'</p>\n<p class="source-line">Sources: '+src+'.</p>\n<!-- SLOT:LEZ:END -->';
+}
+function lezNoteBlock(){
+  const z=(system.localRules||{}).lowEmissionZone;
+  if(!z) return '';
+  return '<!-- SLOT:LEZ_NOTE:START -->\n<p class="lez-note"><strong>Central Hanoi since 1 July 2026:</strong> '+escapeTocText(z.noteShort)+' <a href="'+attr(z.guideHref)+'">What the Low Emission Zone means for renters</a>.</p>\n<!-- SLOT:LEZ_NOTE:END -->';
+}
 function syncDataSlots(html){
-  for(const [name,fn] of [['RATES',ratesBlock],['DEPOSITS',depositsBlock],['NAP',napBlock]]){
+  for(const [name,fn] of [['RATES',ratesBlock],['DEPOSITS',depositsBlock],['NAP',napBlock],['LEZ',lezBlock],['LEZ_NOTE',lezNoteBlock]]){
     const re=new RegExp('<!-- SLOT:'+name+':START -->[\\s\\S]*?<!-- SLOT:'+name+':END -->','g');
     const marker='<!-- SLOT:'+name+' -->';
     if(!re.test(html)&&!html.includes(marker)) continue;
@@ -356,7 +371,7 @@ function schemaFor(html,pagePath){
   if(pagePath==='index.html'){
     graph.push({'@type':'WebSite','@id':system.domain+'/#website',url:system.domain+'/',name:system.brand.siteName,alternateName:system.brand.siteAlternateNames,inLanguage:system.language,image:system.brand.logoAbsolute,publisher:{'@id':system.domain+'/#business'}});
     graph.push({'@type':'WebPage','@id':system.domain+'/#webpage',url:canonical,name:title,description,inLanguage:system.language,isPartOf:{'@id':system.domain+'/#website'},about:{'@id':system.domain+'/#service'},primaryImageOfPage:{'@type':'ImageObject',url:system.brand.logoAbsolute}});
-    graph.push({'@type':'LocalBusiness','@id':system.domain+'/#business',name:system.business.name,alternateName:system.business.alternateName,url:system.domain+'/',logo:system.brand.logoAbsolute,image:system.brand.logoAbsolute,telephone:system.business.phoneTel,email:system.business.email,address:{'@type':'PostalAddress',streetAddress:system.business.streetAddress,addressLocality:system.business.locality,addressRegion:system.business.region,addressCountry:system.business.country},areaServed:{'@type':'City',name:'Hanoi'},openingHoursSpecification:[{'@type':'OpeningHoursSpecification',dayOfWeek:['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],opens:String(system.business.openHour).padStart(2,'0')+':00',closes:String(system.business.closeHour).padStart(2,'0')+':00'}],hasMap:system.business.mapsUrl,sameAs:system.social,...(system.business.priceRange?{priceRange:system.business.priceRange}:{})});
+    graph.push({'@type':'LocalBusiness','@id':system.domain+'/#business',name:system.business.name,alternateName:system.business.alternateName,url:system.domain+'/',logo:system.brand.logoAbsolute,image:system.brand.logoAbsolute,telephone:system.business.phoneTel,email:system.business.email,address:{'@type':'PostalAddress',streetAddress:system.business.streetAddress,addressLocality:system.business.locality,addressRegion:system.business.region,addressCountry:system.business.country},areaServed:{'@type':'City',name:'Hanoi'},openingHoursSpecification:[{'@type':'OpeningHoursSpecification',dayOfWeek:['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],opens:String(system.business.openHour).padStart(2,'0')+':00',closes:String(system.business.closeHour).padStart(2,'0')+':00'}],hasMap:system.business.mapsUrl,...(system.business.geo?{geo:{'@type':'GeoCoordinates',latitude:system.business.geo.latitude,longitude:system.business.geo.longitude}}:{}),sameAs:system.social,...(system.business.priceRange?{priceRange:system.business.priceRange}:{})});
     graph.push({'@type':'Service','@id':system.domain+'/#service',name:'Hanoi Motorbike Rental',serviceType:'Motorbike rental in Hanoi',description:'Scooter, semi-automatic, 50cc and electric motorbike rental with verified daily, weekly and monthly prices where published.',provider:{'@id':system.domain+'/#business'},areaServed:{'@type':'City',name:'Hanoi'},url:system.domain+'/',hasOfferCatalog:offerCatalog()});
   }else{
     const row=matrixByPath.get(pagePath)||{};

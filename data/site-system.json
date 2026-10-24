@@ -31,6 +31,7 @@
     "phoneTel": "+84942467674",
     "email": "nguyentuantu8x@gmail.com",
     "mapsUrl": "https://maps.google.com/maps?cid=7448790013669858019",
+    "geo": { "latitude": 21.0409957, "longitude": 105.8691971, "source": "Google Maps listing of the shop (cid link above), read 2026-10-24" },
     "timezone": "Asia/Ho_Chi_Minh",
     "openHour": 9,
     "closeHour": 21,

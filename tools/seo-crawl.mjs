@@ -71,7 +71,7 @@ const pages = new Map();
 const SLOT_RE = /<!-- (SLOT|HOOK|FEATURE):([A-Za-z_]+):START -->[\s\S]*?<!-- \1:\2:END -->/g;
 const REGION_SLOTS = {
   RELATED: 'related', POST_NAV: 'postnav', FAMILY_NAV: 'family', AUTHOR: 'author', CTA: 'cta', TOC: 'toc',
-  HUB_INDEX: 'hubindex', SOURCES: 'sources', RATES: 'data', DEPOSITS: 'data', NAP: 'data', SCHEMA: 'schema', SOCIAL_META: 'schema'
+  HUB_INDEX: 'hubindex', SOURCES: 'sources', RATES: 'data', DEPOSITS: 'data', NAP: 'data', LEZ: 'data', LEZ_NOTE: 'data', SCHEMA: 'schema', SOCIAL_META: 'schema'
 };
 
 function regionsOf(c) {
