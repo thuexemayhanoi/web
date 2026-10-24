@@ -23,7 +23,9 @@ try{
 function editorialHash(html){
   let m=(html.match(/<main\b[\s\S]*?(?:<\/main>|<!-- SHARED_FOOTER_START -->)/i)||[''])[0];
   m=m.replace(/<!-- (SLOT|HOOK):([A-Z_]+):START -->[\s\S]*?<!-- \1:\2:END -->/g,' ').replace(/<nav class="crumbs"[\s\S]*?<\/nav>/i,' ');
-  const text=m.replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();
+  // Inline tags are dropped without a space, so moving link or emphasis markup
+  // around unchanged words ("rental</a> guide," vs "rental guide</a>,") is not an edit.
+  const text=m.replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<\/?(?:a|strong|em|b|i|span|abbr|code|time|small|mark)\b[^>]*>/gi,'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();
   return crypto.createHash('sha1').update(text).digest('hex').slice(0,16);
 }
 let dateDrift=0;

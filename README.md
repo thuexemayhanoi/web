@@ -301,3 +301,16 @@ the same URL; About/Contact or their schema are missing; the privacy or terms pa
 falls below a complete document; or editorial text talks about "inventing" data.
 `robots.txt` (normalized by `tools/seo-fix.mjs`) disallows `/data/`, `/tools/`,
 `/reports/`, `/factory/` and `/site/`.
+
+### Keyword owners and anchors (B17)
+
+The homepage owns "Hanoi Motorbike Rental"; `/hanoi-motorbike-rental/` is the
+"Hanoi Motorbike Rental Guide". Shared navigation, footer, cards and breadcrumbs
+use the "Guide" label for the hub, and the publisher box on every article links
+the homepage with "Hanoi motorbike rental". `qa-seo-guard` fails when an
+exact-match anchor for any researched keyword (`reports/seo-intel.json`
+clusters) points somewhere other than that keyword's owner URL.
+
+`tools/seo-fix.mjs` ignores inline tags (`a`, `strong`, `em`, …) when hashing
+editorial text, so moving link markup around unchanged words does not change a
+page's `lastmod`.

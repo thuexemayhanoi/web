@@ -29,6 +29,9 @@ function editorial(html){
   return m.replace(/<!-- (SLOT|HOOK):([A-Z_]+):START -->[\s\S]*?<!-- \1:\2:END -->/g,' ');
 }
 
+const NAMED={amp:'&',quot:'"',apos:"'",lt:'<',gt:'>',nbsp:' ',rsquo:'’',lsquo:'‘',rdquo:'”',ldquo:'“',mdash:'—',ndash:'–',hellip:'…',middot:'·'};
+const decode=(v)=>v.replace(/&#x([0-9a-f]+);/gi,(_,h)=>String.fromCodePoint(parseInt(h,16))).replace(/&#(\d+);/g,(_,n)=>String.fromCodePoint(Number(n))).replace(/&([a-z]+);/gi,(m,n)=>NAMED[n.toLowerCase()]??m);
+
 // 1. NAP and map link come from data/site-system.json everywhere.
 const mapsUrl=b.mapsUrl;
 for(const p of indexable){
@@ -83,6 +86,31 @@ for(const [cls,label] of [['dd-link','desktop menu'],['dr-link','mobile menu']])
     else seen.set(m[1],m[2]);
   }
 }
+// The homepage owns "Hanoi Motorbike Rental"; the rental hub is the "... Guide".
+// Shared links must not hand the head term to the hub, and articles link home with it.
+const HEAD_TO_HUB=/<a\b[^>]*href="\/hanoi-motorbike-rental\/"[^>]*>\s*Hanoi Motorbike Rental\s*<\/a>/i;
+if(HEAD_TO_HUB.test(header)||HEAD_TO_HUB.test(read('site/partials/footer.html'))) errors.push('shared nav/footer: rental hub linked with the homepage head term "Hanoi Motorbike Rental"');
+if(/\btitle":\s*"Hanoi Motorbike Rental"/.test(JSON.stringify(system.cards['/hanoi-motorbike-rental/']||{}))) errors.push('site-system.json: rental hub card uses the homepage head term as its title');
+for(const p of indexable){
+  const crumbs=(pages.get(p).match(/<nav class="crumbs"[\s\S]*?<\/nav>/)||[''])[0];
+  if(HEAD_TO_HUB.test(crumbs)) errors.push(p+': breadcrumb links the rental hub with the homepage head term');
+}
+if(!/<a href="\/">Hanoi motorbike rental<\/a>/.test(read('site/partials/author-box.html'))) errors.push('author-box: missing the head-term link to the homepage');
+// Every exact-match anchor for a researched keyword points at that keyword's owner URL.
+if(fs.existsSync(path.join(ROOT,'reports/seo-intel.json'))){
+  const owners=new Map();
+  for(const c of JSON.parse(read('reports/seo-intel.json')).clusters||[]){
+    const own=(c.owner&&c.owner.url||'').replace(system.domain,'');
+    if(own) for(const ph of [c.lead,...(c.phrases||[]).map(x=>x.phrase)]) owners.set(String(ph).toLowerCase(),own);
+  }
+  for(const p of indexable){
+    for(const m of pages.get(p).matchAll(/<a\b[^>]*href="([^"#?]*)[^"]*"[^>]*>([\s\S]*?)<\/a>/g)){
+      const t=decode(m[2].replace(/<[^>]+>/g,' ')).replace(/\s+/g,' ').trim().toLowerCase();
+      const own=owners.get(t);
+      if(own&&(m[1].replace(system.domain,'')||'/')!==own) errors.push(p+': anchor "'+t+'" links '+m[1]+' but the keyword owner is '+own);
+    }
+  }
+}
 for(const href of ['/about/','/contact/']){
   const file=href.slice(1)+'index.html';
   if(!pages.has(file)) errors.push(file+': company page missing');
@@ -110,8 +138,6 @@ for(const p of indexable){
 }
 
 // 6. Meta descriptions fit the snippet (Google truncates around 155-160 characters).
-const NAMED={amp:'&',quot:'"',apos:"'",lt:'<',gt:'>',nbsp:' ',rsquo:'’',lsquo:'‘',rdquo:'”',ldquo:'“',mdash:'—',ndash:'–',hellip:'…',middot:'·'};
-const decode=(v)=>v.replace(/&#x([0-9a-f]+);/gi,(_,h)=>String.fromCodePoint(parseInt(h,16))).replace(/&#(\d+);/g,(_,n)=>String.fromCodePoint(Number(n))).replace(/&([a-z]+);/gi,(m,n)=>NAMED[n.toLowerCase()]??m);
 for(const p of indexable){
   const d=decode((pages.get(p).match(/<meta name="description" content="([^"]*)"/)||[])[1]||'');
   if(d.length>160) errors.push(p+': meta description '+d.length+' chars (max 160)');

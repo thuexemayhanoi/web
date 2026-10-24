@@ -134,5 +134,13 @@
     "commit": "this commit",
     "changes": "139 meta descriptions of 161-165 characters (flagged by the OpenSEO live crawl) shortened to 146-157 characters with the same meaning, topic phrase and numbers; Open Graph/Twitter copies and related cards follow through the build. qa-seo-guard fails on any description over 160 characters; factory meta_description_max_chars 180 -> 160 so new drafts match.",
     "verification": "validator: lengths 140-158, digits subset, unique site-wide; qa-seo-guard; full CI QA suite locally"
+  },
+  {
+    "id": "B17",
+    "date": "2026-10-24",
+    "priority": "P1",
+    "commit": "this commit",
+    "changes": "Head-term cannibalization fixed with evidence from an anchor audit: the homepage (owner of 'hanoi motorbike rental', 2,400/mo VN) had no contextual link with that anchor, while /hanoi-motorbike-rental/ (H1 'Hanoi Motorbike Rental Guide') received it from the menu (2,008), footer (1,004), breadcrumbs (177), its card and 273 body links. Hub labels in header, drawer, footer, card catalog and 177 breadcrumbs now say 'Guide'; 272 body anchors absorbed the adjacent word ('guide', 'page', 'overview of', 'fleet') with unchanged text; one generic mention now links the homepage; the publisher box on 988 articles links the homepage with 'Hanoi motorbike rental'. Exact-match 'Hanoi Motorbike Rental' anchors pointing at the hub: 3,462 (menu 2,008, footer 1,004, breadcrumbs 177, body 273) -> 0; across all 20 keyword clusters no exact-match anchor now points away from its owner. seo-fix editorial hash ignores inline tags so these markup-only edits keep each page's lastmod (0 pages changed date).",
+    "verification": "anchor audit script; qa-seo-guard keyword-owner rule (negative-tested); full CI QA suite locally"
   }
 ]

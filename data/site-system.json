@@ -176,7 +176,7 @@
   },
   "cards": {
     "/hanoi-motorbike-rental/": {
-      "title": "Hanoi Motorbike Rental",
+      "title": "Hanoi Motorbike Rental Guide",
       "description": "Models, requirements, verified prices and pickup in Long Bien.",
       "icon": "<svg class=\"card-ico\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M12 3l2.7 6.2 6.8.6-5.2 4.5 1.6 6.7L12 17.5l-5.9 3.5 1.6-6.7-5.2-4.5 6.8-.6L12 3z\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
     },
