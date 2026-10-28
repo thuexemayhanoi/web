@@ -478,17 +478,12 @@
         "French Quarter Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-594-french-quarter-day-ride-ideas.webp",
-      "status": "PUBLISHED_PENDING_DEPLOY",
-      "source_type": "Wikimedia Commons stock photograph",
-      "commons_title": "File:Hanoi Downtown Street Life.jpg",
-      "commons_url": "https://commons.wikimedia.org/wiki/File:Hanoi_Downtown_Street_Life.jpg",
-      "license": "CC BY-SA 3.0",
-      "artist": "Maryam Laura Moazedi, www.moazedi.org",
-      "image_bytes": 289226,
-      "image_sha256": "bdccf6f275ca4e76cb12f3c8a04f7c2b4e55228a3da18ba63059f0e7da4e1330",
-      "width": 1200,
-      "height": 800,
-      "alt": "Hanoi Downtown Street Life — illustrative image for french quarter hanoi motorbike day ride ideas"
+      "status": "FAILED_TOPIC_QA_REMOVED",
+      "rejected_source": {
+        "commons_title": "File:Hanoi Downtown Street Life.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Hanoi_Downtown_Street_Life.jpg",
+        "reason": "Commons file is categorized as Hanoi Old Quarter, so its French Quarter location is not sufficiently verified"
+      }
     },
     {
       "batch_position": 27,
@@ -931,10 +926,10 @@
       "status": "FAILED_RETRYABLE"
     }
   ],
-  "published_count": 15,
-  "failed_count": 35,
+  "published_count": 14,
+  "failed_count": 36,
   "skipped_count": 0,
   "last_attempt_at": "2026-10-28T05:18:15.603932+00:00",
   "source_note": "Attributed Wikimedia Commons stock photography, not AI-generated or the owner's fleet photos; live status must be verified separately.",
-  "quality_review": "4 unsuitable photographs removed after visual/topic audit; do not count these as published"
+  "quality_review": "5 unsuitable/ambiguous photos removed after independent topic QA; 14 suitable images remain pending live verification"
 }
