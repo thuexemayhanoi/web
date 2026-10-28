@@ -1,0 +1,227 @@
+{
+  "batch_id": "web-images-003",
+  "status": "PARTIAL_PENDING_DEPLOY",
+  "generated_at": "2026-10-28T08:36:14.101225+00:00",
+  "source_type": "Wikimedia Commons stock photos",
+  "published_count": 14,
+  "failed_count": 11,
+  "skipped_count": 0,
+  "published": [
+    {
+      "id": "SEO-516",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/old-quarter-parking-guide/",
+      "article": "motorbike-rental-hanoi-old-quarter/old-quarter-parking-guide/index.html",
+      "image_path": "/assets/img/articles/seo-516-old-quarter-parking-guide.webp",
+      "bytes": 294104,
+      "sha256": "295f3f79857f926f809481b9c9b1cde080fa3713a725b7105d596afb26df24e1",
+      "commons_title": "File:Vietnam hanoi old quarter.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Vietnam_hanoi_old_quarter.jpg",
+      "artist": "Maryam Laura Moazedi, www.moazedi.org",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": "SEO-525",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/west-lake-rental-planning/",
+      "article": "motorbike-rental-hanoi-old-quarter/west-lake-rental-planning/index.html",
+      "image_path": "/assets/img/articles/seo-525-west-lake-rental-planning.webp",
+      "bytes": 154872,
+      "sha256": "b2d5f223e0c2cb9ef762aac81274d8bc0f749d5fdd0473a1e55b0d78630deaa6",
+      "commons_title": "File:Temple on West Lake, 2003, Hanoi 6.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Temple_on_West_Lake,_2003,_Hanoi_6.jpg",
+      "artist": "Syced",
+      "license": "CC0"
+    },
+    {
+      "id": "SEO-535",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/long-bien-rental-planning/",
+      "article": "motorbike-rental-hanoi-old-quarter/long-bien-rental-planning/index.html",
+      "image_path": "/assets/img/articles/seo-535-long-bien-rental-planning.webp",
+      "bytes": 256982,
+      "sha256": "1b2c6c32b5f5336697c7a77bbe6b8ff1539f7402820dfd03522af2185469e5d4",
+      "commons_title": "File:Hanoi cau long bien.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hanoi_cau_long_bien.jpg",
+      "artist": "ntt",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": "SEO-545",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/dong-da-rental-planning/",
+      "article": "motorbike-rental-hanoi-old-quarter/dong-da-rental-planning/index.html",
+      "image_path": "/assets/img/articles/seo-545-dong-da-rental-planning.webp",
+      "bytes": 213998,
+      "sha256": "52c2cf697d38bf43ace5a540d3963d23e23c715f334beb5f4a57cd04db8cf03e",
+      "commons_title": "File:Gò Đống Đa.JPG",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:G%C3%B2_%C4%90%E1%BB%91ng_%C4%90a.JPG",
+      "artist": "Tonbi ko",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "SEO-550",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/hai-ba-trung-rental-planning/",
+      "article": "motorbike-rental-hanoi-old-quarter/hai-ba-trung-rental-planning/index.html",
+      "image_path": "/assets/img/articles/seo-550-hai-ba-trung-rental-planning.webp",
+      "bytes": 237884,
+      "sha256": "b9062897f343781456dab40cc2a5d1a60446fcc5fdd4360c1cb0ddf04329771d",
+      "commons_title": "File:Hai Bà Trưng Temple.JPG",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hai_B%C3%A0_Tr%C6%B0ng_Temple.JPG",
+      "artist": "[Tycho]",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": "SEO-570",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/thanh-xuan-rental-planning/",
+      "article": "motorbike-rental-hanoi-old-quarter/thanh-xuan-rental-planning/index.html",
+      "image_path": "/assets/img/articles/seo-570-thanh-xuan-rental-planning.webp",
+      "bytes": 203560,
+      "sha256": "d022ee1489f73e3631a9a1676c1f12099c6fa9703a983a65194d5fb840b58fca",
+      "commons_title": "File:Quận Thanh Xuân.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Qu%E1%BA%ADn_Thanh_Xu%C3%A2n.jpg",
+      "artist": "Victor311",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "SEO-585",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/truc-bach-rental-planning/",
+      "article": "motorbike-rental-hanoi-old-quarter/truc-bach-rental-planning/index.html",
+      "image_path": "/assets/img/articles/seo-585-truc-bach-rental-planning.webp",
+      "bytes": 188720,
+      "sha256": "baa2062b5985fc4f74b3c407880d9a82925c2da17114fc1aeecca11ab5791847",
+      "commons_title": "File:John McCain shot down, Truc Bach lake, Hanoi - panoramio.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:John_McCain_shot_down,_Truc_Bach_lake,_Hanoi_-_panoramio.jpg",
+      "artist": "David Holt",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": "SEO-590",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/french-quarter-rental-planning/",
+      "article": "motorbike-rental-hanoi-old-quarter/french-quarter-rental-planning/index.html",
+      "image_path": "/assets/img/articles/seo-590-french-quarter-rental-planning.webp",
+      "bytes": 252550,
+      "sha256": "087816d27093a2b912e4f57c585f337c30f4377bcbdfe0fc1bd3e8c65d4f3e68",
+      "commons_title": "File:Hanoi French Quarter Baker.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hanoi_French_Quarter_Baker.jpg",
+      "artist": "Maryam Laura Moazedi, www.moazedi.org",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": "SEO-595",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/my-dinh-rental-planning/",
+      "article": "motorbike-rental-hanoi-old-quarter/my-dinh-rental-planning/index.html",
+      "image_path": "/assets/img/articles/seo-595-my-dinh-rental-planning.webp",
+      "bytes": 255320,
+      "sha256": "bb0da35d72f43c78df3beb05b9c5e3d23a78fd0bc21c1d29209e331acd23f398",
+      "commons_title": "File:SVD My Dinh 1.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:SVD_My_Dinh_1.jpg",
+      "artist": "Gkbank ( thảo luận )",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": "SEO-706",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-tam-dao-route-planning/",
+      "article": "hanoi-motorbike-trips/hanoi-to-tam-dao-route-planning/index.html",
+      "image_path": "/assets/img/articles/seo-706-hanoi-to-tam-dao-route-planning.webp",
+      "bytes": 272600,
+      "sha256": "4a0ca7947d4064aebad77ea6006d6308a0081dd2c5d2536270147795389198fb",
+      "commons_title": "File:Noctuidae sp - 9-2010 - Tam Dao - North Vietnam - Flickr - Bennyboymothman.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Noctuidae_sp_-_9-2010_-_Tam_Dao_-_North_Vietnam_-_Flickr_-_Bennyboymothman.jpg",
+      "artist": "Ben Sale from UK",
+      "license": "CC BY 2.0"
+    },
+    {
+      "id": "SEO-787",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-bac-ninh-route-planning/",
+      "article": "hanoi-motorbike-trips/hanoi-to-bac-ninh-route-planning/index.html",
+      "image_path": "/assets/img/articles/seo-787-hanoi-to-bac-ninh-route-planning.webp",
+      "bytes": 198960,
+      "sha256": "de3603c7301c62414b93a64c66bfe9f6b39054d3bb23021844eed4598f890c59",
+      "commons_title": "File:Trường Chuyên Bắc Ninh lớp.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Tr%C6%B0%E1%BB%9Dng_Chuy%C3%AAn_B%E1%BA%AFc_Ninh_l%E1%BB%9Bp.jpg",
+      "artist": "Zing.vn",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "SEO-805",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-perfume-pagoda-route-planning/",
+      "article": "hanoi-motorbike-trips/hanoi-to-perfume-pagoda-route-planning/index.html",
+      "image_path": "/assets/img/articles/seo-805-hanoi-to-perfume-pagoda-route-planning.webp",
+      "bytes": 252516,
+      "sha256": "70128226c022df1753c785188f7afd7bf5de9a28177aa0d81b921037d958239e",
+      "commons_title": "File:A temple in Perfume Pagoda.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:A_temple_in_Perfume_Pagoda.jpg",
+      "artist": "Jack French from San Francisco, USA",
+      "license": "CC BY 2.0"
+    },
+    {
+      "id": "SEO-824",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-cuc-phuong-one-day-feasibility/",
+      "article": "hanoi-motorbike-trips/hanoi-to-cuc-phuong-one-day-feasibility/index.html",
+      "image_path": "/assets/img/articles/seo-824-hanoi-to-cuc-phuong-one-day-feasibility.webp",
+      "bytes": 289562,
+      "sha256": "312f35caa64dd481144b68ee76af28e29e5a6b0c60a9f485c2498f3bb52bc864",
+      "commons_title": "File:Acanthosaura Cúc Phương 11.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Acanthosaura_C%C3%BAc_Ph%C6%B0%C6%A1ng_11.jpg",
+      "artist": "Caitlin 0000",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "SEO-833",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-yen-tu-one-day-feasibility/",
+      "article": "hanoi-motorbike-trips/hanoi-to-yen-tu-one-day-feasibility/index.html",
+      "image_path": "/assets/img/articles/seo-833-hanoi-to-yen-tu-one-day-feasibility.webp",
+      "bytes": 291012,
+      "sha256": "0d89adc0ec417b40465225514975b766b4c8cfcb5c8235624714095136e6764d",
+      "commons_title": "File:Đường lên Yên Tử.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:%C4%90%C6%B0%E1%BB%9Dng_l%C3%AAn_Y%C3%AAn_T%E1%BB%AD.jpg",
+      "artist": "Thang Nguyen from Nottingham, United Kingdom",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "failed": [
+    {
+      "id": "SEO-530",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-540",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-555",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-560",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-565",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-575",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-580",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-600",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-605",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-796",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-814",
+      "error": "No relevant reusable-license landscape photograph found"
+    }
+  ],
+  "skipped": [],
+  "disclaimer": "Not live verified until GitHub Pages deploy and public URL checks."
+}
