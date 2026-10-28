@@ -1,0 +1,57 @@
+name: Publish SEO image batch 002
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/image-batches/batch-002.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: web-article-images-batch-002
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install image processor
+        run: python -m pip install --disable-pip-version-check pillow==11.3.0
+      - name: Download, verify, and insert unique Commons photos
+        run: python tools/publish-commons-image-batch.py docs/image-batches/batch-002.json
+      - name: QA page and SEO safety
+        run: |
+          node tools/qa-site.mjs
+          node tools/qa-seo-guard.mjs
+          node tools/qa-article-ui.mjs
+          node tools/seo-audit.mjs
+      - name: Commit and push verified images without overwriting writers
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "rentbike-image-bot"
+          git config user.email "nguyentuantu2482@users.noreply.github.com"
+          git add docs/image-batches/batch-002.json docs/image-batches/batch-002-report.json assets/img/articles hanoi-motorbike-trips motorbike-rental-hanoi-old-quarter
+          if git diff --cached --quiet; then
+            echo "No valid new images; nothing to publish."
+            exit 0
+          fi
+          git commit -m "media: publish verified batch 002 Commons WebP illustrations"
+          git fetch origin main
+          if [ "$(git rev-parse origin/main)" != "$(git rev-parse HEAD^)" ]; then
+            echo "main advanced during image production; abort stale write without overwriting other work"
+            exit 1
+          fi
+          git push origin HEAD:main
