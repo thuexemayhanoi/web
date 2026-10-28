@@ -23,7 +23,10 @@ ROOT = Path(__file__).resolve().parents[1]
 API = "https://commons.wikimedia.org/w/api.php"
 UA = "HanoiEditorialImagePublisher/1.0 (https://app.rentbikehanoi.com/; nguyentuantu2482@gmail.com)"
 MAX_ITEMS = 50
-MAX_CANDIDATES = 16
+MAX_CANDIDATES = 24
+MAX_SEARCH_QUERIES = 3
+SEARCH_OFFSETS = (0, 50, 100)
+_SEARCH_CACHE = {}
 
 spec = importlib.util.spec_from_file_location("previous_image_publisher", ROOT / "tools/publish-image-batch.py")
 previous = importlib.util.module_from_spec(spec)
@@ -43,11 +46,14 @@ def request_bytes(url, max_bytes=15_000_000):
             raise ValueError("Download exceeds maximum permitted size")
         return data
 
-def search(query):
+def search(query, offset=0):
+    key = (query, offset)
+    if key in _SEARCH_CACHE:
+        return _SEARCH_CACHE[key]
     params = {
         "action": "query", "format": "json", "formatversion": "2",
         "generator": "search", "gsrsearch": query,
-        "gsrnamespace": "6", "gsrlimit": "50",
+        "gsrnamespace": "6", "gsrlimit": "50", "gsroffset": str(offset),
         "prop": "imageinfo", "iiprop": "url|size|mime|extmetadata",
         "iiurlwidth": "1600",
     }
@@ -55,7 +61,9 @@ def search(query):
     result = json.loads(request_bytes(url, max_bytes=3_000_000).decode("utf-8"))
     if "error" in result:
         raise ValueError("Wikimedia API: " + clean(result["error"].get("info", ""), 180))
-    return result.get("query", {}).get("pages", [])
+    pages = result.get("query", {}).get("pages", [])
+    _SEARCH_CACHE[key] = pages
+    return pages
 
 def acceptable(page, anchor):
     infos = page.get("imageinfo") or []
@@ -173,14 +181,18 @@ def main():
             if target.exists():
                 raise ValueError("Image path already exists; do not overwrite")
             candidates = []
-            for q in item["search_queries"][:2]:
-                try:
-                    candidates += search(q)
-                except Exception as exc:
-                    print(f"SEARCH WARNING {item['content_id']} {str(exc)[:150]}", flush=True)
-                # Always check both location queries: the first results may be
-                # dominated by biological specimens or historical archives.
-                time.sleep(0.4)
+            for q in item["search_queries"][:MAX_SEARCH_QUERIES]:
+                for offset in SEARCH_OFFSETS:
+                    try:
+                        page = search(q, offset)
+                        candidates.extend(page)
+                        if len(page) < 50:
+                            break
+                    except Exception as exc:
+                        print(f"SEARCH WARNING {item['content_id']} {str(exc)[:150]}", flush=True)
+                        break
+                    # Respect the Commons API while scanning deeper results.
+                    time.sleep(0.4)
             valid = []
             used_titles = set()
             for p in candidates:
