@@ -193,17 +193,12 @@
         "Long Bien Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-538-long-bien-route-connections.webp",
-      "status": "PUBLISHED_PENDING_DEPLOY",
-      "source_type": "Wikimedia Commons stock photograph",
-      "commons_title": "File:Long Bien Bridge destroyed by LGBs 1972.jpg",
-      "commons_url": "https://commons.wikimedia.org/wiki/File:Long_Bien_Bridge_destroyed_by_LGBs_1972.jpg",
-      "license": "Public domain",
-      "artist": "USAF",
-      "image_bytes": 269816,
-      "image_sha256": "196ccad554c96efcf555a9fa5a8798e700eb23ebcac85fded10e0e443572e0da",
-      "width": 1200,
-      "height": 800,
-      "alt": "Long Bien Bridge destroyed by LGBs 1972 — illustrative image for long bien hanoi motorbike route connections"
+      "status": "FAILED_TOPIC_QA_REMOVED",
+      "rejected_source": {
+        "commons_title": "File:Long Bien Bridge destroyed by LGBs 1972.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Long_Bien_Bridge_destroyed_by_LGBs_1972.jpg",
+        "reason": "Historic image of Long Bien Bridge destroyed in 1972 is unsuitable for a current route guide"
+      }
     },
     {
       "batch_position": 10,
@@ -463,17 +458,12 @@
         "French Quarter Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-593-french-quarter-route-connections.webp",
-      "status": "PUBLISHED_PENDING_DEPLOY",
-      "source_type": "Wikimedia Commons stock photograph",
-      "commons_title": "File:Vietnam hanoi old quarter.jpg",
-      "commons_url": "https://commons.wikimedia.org/wiki/File:Vietnam_hanoi_old_quarter.jpg",
-      "license": "CC BY-SA 3.0",
-      "artist": "Maryam Laura Moazedi, www.moazedi.org",
-      "image_bytes": 294104,
-      "image_sha256": "295f3f79857f926f809481b9c9b1cde080fa3713a725b7105d596afb26df24e1",
-      "width": 1200,
-      "height": 800,
-      "alt": "Vietnam hanoi old quarter — illustrative image for french quarter hanoi motorbike route connections"
+      "status": "FAILED_TOPIC_QA_REMOVED",
+      "rejected_source": {
+        "commons_title": "File:Vietnam hanoi old quarter.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Vietnam_hanoi_old_quarter.jpg",
+        "reason": "Old Quarter photograph misrepresents the French Quarter location"
+      }
     },
     {
       "batch_position": 26,
@@ -603,17 +593,12 @@
         "Tam Dao Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-706-hanoi-to-tam-dao-route-planning.webp",
-      "status": "PUBLISHED_PENDING_DEPLOY",
-      "source_type": "Wikimedia Commons stock photograph",
-      "commons_title": "File:Hypeniinae sp - 9-2010 - Tam Dao - North Vietnam - Flickr - Bennyboymothman.jpg",
-      "commons_url": "https://commons.wikimedia.org/wiki/File:Hypeniinae_sp_-_9-2010_-_Tam_Dao_-_North_Vietnam_-_Flickr_-_Bennyboymothman.jpg",
-      "license": "CC BY 2.0",
-      "artist": "Ben Sale from UK",
-      "image_bytes": 277762,
-      "image_sha256": "87cea5c3cf22207aed2e88df1b7af3786b7fb07ae855a4aebd41d14e7426ac58",
-      "width": 1200,
-      "height": 800,
-      "alt": "Hypeniinae sp - 9-2010 - Tam Dao - North Vietnam - Flickr - Bennyboymothman — illustrative image for hanoi to tam dao motorbike route planning"
+      "status": "FAILED_TOPIC_QA_REMOVED",
+      "rejected_source": {
+        "commons_title": "File:Hypeniinae sp - 9-2010 - Tam Dao - North Vietnam - Flickr - Bennyboymothman.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Hypeniinae_sp_-_9-2010_-_Tam_Dao_-_North_Vietnam_-_Flickr_-_Bennyboymothman.jpg",
+        "reason": "Moth photograph from Tam Dao does not illustrate a motorbike route"
+      }
     },
     {
       "batch_position": 34,
@@ -788,17 +773,12 @@
         "Bac Ninh Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-787-hanoi-to-bac-ninh-route-planning.webp",
-      "status": "PUBLISHED_PENDING_DEPLOY",
-      "source_type": "Wikimedia Commons stock photograph",
-      "commons_title": "File:Tonkin. Environs de Bac-ninh. De Bac-ninh à Phulo ; halte au bac du Song-co - (photogr.) A. S(alles) - btv1b53172508t (3 of 3).jpg",
-      "commons_url": "https://commons.wikimedia.org/wiki/File:Tonkin._Environs_de_Bac-ninh._De_Bac-ninh_%C3%A0_Phulo_;_halte_au_bac_du_Song-co_-_(photogr.)_A._S(alles)_-_btv1b53172508t_(3_of_3).jpg",
-      "license": "Public domain",
-      "artist": "Salles, André (1860-1929). Photographe",
-      "image_bytes": 236828,
-      "image_sha256": "119429164297d4b2dcdd76d95ae897cc23f03e9bb8e447faed35aad6d6b55400",
-      "width": 1200,
-      "height": 800,
-      "alt": "Tonkin. Environs de Bac-ninh. De Bac-ninh à Phulo ; halte au bac du Song-co - (photogr.) A. S(alles) - btv1b53172508t (3 of 3 — illustrative image for hanoi to bac ninh motorbike r"
+      "status": "FAILED_TOPIC_QA_REMOVED",
+      "rejected_source": {
+        "commons_title": "File:Tonkin. Environs de Bac-ninh. De Bac-ninh à Phulo ; halte au bac du Song-co - (photogr.) A. S(alles) - btv1b53172508t (3 of 3).jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Tonkin._Environs_de_Bac-ninh._De_Bac-ninh_%C3%A0_Phulo_;_halte_au_bac_du_Song-co_-_(photogr.)_A._S(alles)_-_btv1b53172508t_(3_of_3).jpg",
+        "reason": "Historic ferry photograph is unsuitable for current Bac Ninh route planning"
+      }
     },
     {
       "batch_position": 43,
@@ -951,9 +931,10 @@
       "status": "FAILED_RETRYABLE"
     }
   ],
-  "published_count": 19,
-  "failed_count": 31,
+  "published_count": 15,
+  "failed_count": 35,
   "skipped_count": 0,
   "last_attempt_at": "2026-10-28T05:18:15.603932+00:00",
-  "source_note": "Attributed Wikimedia Commons stock photography, not AI-generated or the owner's fleet photos; live status must be verified separately."
+  "source_note": "Attributed Wikimedia Commons stock photography, not AI-generated or the owner's fleet photos; live status must be verified separately.",
+  "quality_review": "4 unsuitable photographs removed after visual/topic audit; do not count these as published"
 }

@@ -3,8 +3,8 @@
   "status": "PARTIAL_PENDING_DEPLOY",
   "generated_at": "2026-10-28T05:18:15.603932+00:00",
   "source_type": "Wikimedia Commons stock photos",
-  "published_count": 19,
-  "failed_count": 31,
+  "published_count": 15,
+  "failed_count": 35,
   "skipped_count": 0,
   "published": [
     {
@@ -68,18 +68,6 @@
       "license": "CC BY 2.0"
     },
     {
-      "id": "SEO-538",
-      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/long-bien-route-connections/",
-      "article": "motorbike-rental-hanoi-old-quarter/long-bien-route-connections/index.html",
-      "image_path": "/assets/img/articles/seo-538-long-bien-route-connections.webp",
-      "bytes": 269816,
-      "sha256": "196ccad554c96efcf555a9fa5a8798e700eb23ebcac85fded10e0e443572e0da",
-      "commons_title": "File:Long Bien Bridge destroyed by LGBs 1972.jpg",
-      "commons_url": "https://commons.wikimedia.org/wiki/File:Long_Bien_Bridge_destroyed_by_LGBs_1972.jpg",
-      "artist": "USAF",
-      "license": "Public domain"
-    },
-    {
       "id": "SEO-588",
       "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/truc-bach-route-connections/",
       "article": "motorbike-rental-hanoi-old-quarter/truc-bach-route-connections/index.html",
@@ -104,18 +92,6 @@
       "license": "CC BY-SA 3.0"
     },
     {
-      "id": "SEO-593",
-      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/french-quarter-route-connections/",
-      "article": "motorbike-rental-hanoi-old-quarter/french-quarter-route-connections/index.html",
-      "image_path": "/assets/img/articles/seo-593-french-quarter-route-connections.webp",
-      "bytes": 294104,
-      "sha256": "295f3f79857f926f809481b9c9b1cde080fa3713a725b7105d596afb26df24e1",
-      "commons_title": "File:Vietnam hanoi old quarter.jpg",
-      "commons_url": "https://commons.wikimedia.org/wiki/File:Vietnam_hanoi_old_quarter.jpg",
-      "artist": "Maryam Laura Moazedi, www.moazedi.org",
-      "license": "CC BY-SA 3.0"
-    },
-    {
       "id": "SEO-594",
       "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/french-quarter-day-ride-ideas/",
       "article": "motorbike-rental-hanoi-old-quarter/french-quarter-day-ride-ideas/index.html",
@@ -126,18 +102,6 @@
       "commons_url": "https://commons.wikimedia.org/wiki/File:Hanoi_Downtown_Street_Life.jpg",
       "artist": "Maryam Laura Moazedi, www.moazedi.org",
       "license": "CC BY-SA 3.0"
-    },
-    {
-      "id": "SEO-706",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-tam-dao-route-planning/",
-      "article": "hanoi-motorbike-trips/hanoi-to-tam-dao-route-planning/index.html",
-      "image_path": "/assets/img/articles/seo-706-hanoi-to-tam-dao-route-planning.webp",
-      "bytes": 277762,
-      "sha256": "87cea5c3cf22207aed2e88df1b7af3786b7fb07ae855a4aebd41d14e7426ac58",
-      "commons_title": "File:Hypeniinae sp - 9-2010 - Tam Dao - North Vietnam - Flickr - Bennyboymothman.jpg",
-      "commons_url": "https://commons.wikimedia.org/wiki/File:Hypeniinae_sp_-_9-2010_-_Tam_Dao_-_North_Vietnam_-_Flickr_-_Bennyboymothman.jpg",
-      "artist": "Ben Sale from UK",
-      "license": "CC BY 2.0"
     },
     {
       "id": "SEO-724",
@@ -186,18 +150,6 @@
       "commons_url": "https://commons.wikimedia.org/wiki/File:Hoa_Binh_Dam_in_Vietnam.jpg",
       "artist": "VN.NguyenDucDuy",
       "license": "CC BY-SA 4.0"
-    },
-    {
-      "id": "SEO-787",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-bac-ninh-route-planning/",
-      "article": "hanoi-motorbike-trips/hanoi-to-bac-ninh-route-planning/index.html",
-      "image_path": "/assets/img/articles/seo-787-hanoi-to-bac-ninh-route-planning.webp",
-      "bytes": 236828,
-      "sha256": "119429164297d4b2dcdd76d95ae897cc23f03e9bb8e447faed35aad6d6b55400",
-      "commons_title": "File:Tonkin. Environs de Bac-ninh. De Bac-ninh à Phulo ; halte au bac du Song-co - (photogr.) A. S(alles) - btv1b53172508t (3 of 3).jpg",
-      "commons_url": "https://commons.wikimedia.org/wiki/File:Tonkin._Environs_de_Bac-ninh._De_Bac-ninh_%C3%A0_Phulo_;_halte_au_bac_du_Song-co_-_(photogr.)_A._S(alles)_-_btv1b53172508t_(3_of_3).jpg",
-      "artist": "Salles, André (1860-1929). Photographe",
-      "license": "Public domain"
     },
     {
       "id": "SEO-823",
@@ -360,8 +312,25 @@
     {
       "id": "SEO-032",
       "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-538",
+      "error": "Historic image of Long Bien Bridge destroyed in 1972 is unsuitable for a current route guide"
+    },
+    {
+      "id": "SEO-593",
+      "error": "Old Quarter photograph misrepresents the French Quarter location"
+    },
+    {
+      "id": "SEO-706",
+      "error": "Moth photograph from Tam Dao does not illustrate a motorbike route"
+    },
+    {
+      "id": "SEO-787",
+      "error": "Historic ferry photograph is unsuitable for current Bac Ninh route planning"
     }
   ],
   "skipped": [],
-  "disclaimer": "Not live verified until GitHub Pages deploy and public URL checks."
+  "disclaimer": "Not live verified until GitHub Pages deploy and public URL checks.",
+  "quality_review": "4 unsuitable photographs removed after visual/topic audit; do not count these as published"
 }
