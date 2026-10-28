@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parents[1]
 API = "https://commons.wikimedia.org/w/api.php"
 UA = "HanoiEditorialImagePublisher/1.0 (https://app.rentbikehanoi.com/; nguyentuantu2482@gmail.com)"
 MAX_ITEMS = 50
-MAX_CANDIDATES = 8
+MAX_CANDIDATES = 16
 
 spec = importlib.util.spec_from_file_location("previous_image_publisher", ROOT / "tools/publish-image-batch.py")
 previous = importlib.util.module_from_spec(spec)
@@ -47,7 +47,7 @@ def search(query):
     params = {
         "action": "query", "format": "json", "formatversion": "2",
         "generator": "search", "gsrsearch": query,
-        "gsrnamespace": "6", "gsrlimit": "30",
+        "gsrnamespace": "6", "gsrlimit": "50",
         "prop": "imageinfo", "iiprop": "url|size|mime|extmetadata",
         "iiurlwidth": "1600",
     }
@@ -178,8 +178,8 @@ def main():
                     candidates += search(q)
                 except Exception as exc:
                     print(f"SEARCH WARNING {item['content_id']} {str(exc)[:150]}", flush=True)
-                if len(candidates) >= 10:
-                    break
+                # Always check both location queries: the first results may be
+                # dominated by biological specimens or historical archives.
                 time.sleep(0.4)
             valid = []
             used_titles = set()
