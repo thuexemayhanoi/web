@@ -92,6 +92,8 @@ def acceptable(page, anchor):
     # from present-day travel/rental guides even when a place name matches.
     if re.search(r"(?i)\b(map|diagram|flag|logo|icon|poster|drawing|screenshot|ai.generated|midjourney|moth|hypeniinae|butterfly|insect|beetle|bird|snake|lizard|frog|orchid|flower|fungus|mushroom|species|specimen|destroyed|bombed|wartime|tonkin|photogr|archival|vintage)\b", title):
         return None
+    if re.search(r"(?i)\b(stadium|railway station|train station|insect|fly|nhặng)\b", title):
+        return None
     if re.search(r"\b(?:18[0-9]{2}|19[0-8][0-9])\b", title):
         return None
     description = clean((ext.get("ImageDescription") or {}).get("value", ""), 500)
@@ -158,6 +160,11 @@ def main():
     existing = json.loads(report_path.read_text(encoding="utf-8")) if report_path.exists() else {"published": []}
     published = list(existing.get("published", []))
     seen = {x.get("commons_title") for x in published}
+    # Never retry photos explicitly rejected by manual subject QA.
+    for old_item in manifest["items"]:
+        rejected = old_item.get("previous_rejected_source") or {}
+        if rejected.get("title"):
+            seen.add(rejected["title"])
     hashes = {x.get("sha256") for x in published}
     failures = []
     skipped = []
