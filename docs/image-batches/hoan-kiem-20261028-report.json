@@ -1,0 +1,19 @@
+{
+  "batch_id": "web-image-hoan-kiem-20261028",
+  "status": "PUBLISHED_PENDING_DEPLOY",
+  "published_count": 1,
+  "source_type": "Original AI-generated editorial illustration, not fleet photograph",
+  "published": [
+    {
+      "id": "SEO-520",
+      "article": "motorbike-rental-hanoi-old-quarter/hoan-kiem-rental-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/hoan-kiem-rental-planning/",
+      "image_path": "/assets/img/articles/seo-520-hoan-kiem-rental-planning.webp",
+      "bytes": 286650,
+      "sha256": "bc69fe295087039c0e7b2047b7265f8b8991ac1cf2e6fbb640d4d83a211fb296",
+      "width": 1536,
+      "height": 1024,
+      "alt": "AI illustration of parked rental scooters beside Hoan Kiem Lake in central Hanoi"
+    }
+  ]
+}
