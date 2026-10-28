@@ -80,7 +80,7 @@ def acceptable(page, anchor):
     ratio = info["width"] / info["height"]
     if not 1.18 <= ratio <= 2.2:
         return None
-    if re.search(r"(?i)\\b(map|diagram|flag|logo|icon|poster|drawing|screenshot|ai generated|midjourney)\\b", title):
+    if re.search(r"(?i)\b(map|diagram|flag|logo|icon|poster|drawing|screenshot|ai generated|midjourney)\b", title):
         return None
     description = clean((ext.get("ImageDescription") or {}).get("value", ""), 500)
     searchable = norm(title + " " + description)
@@ -95,7 +95,7 @@ def acceptable(page, anchor):
         return None
     artist_html = (ext.get("Artist") or {}).get("value", "")
     artist = clean(artist_html, 110) or "Wikimedia Commons contributor"
-    match = re.search(r'href=["\\'](https?://[^"\\']+)', artist_html)
+    match = re.search(r'href="(https?://[^"]+)"', artist_html)
     artist_url = html.unescape(match.group(1)) if match else page_url
     if not artist_url.startswith("https://"):
         artist_url = page_url
@@ -121,12 +121,12 @@ def figure(item, source, width, height):
         'Cropped and compressed for this article.'
     )
     return (
-        '    <figure class="article-feature-image" style="margin:1.25rem 0 1.5rem;">\\n'
+        '    <figure class="article-feature-image" style="margin:1.25rem 0 1.5rem;">\n'
         f'      <img src="{e(item["image_path"])}" width="{width}" height="{height}" '
         f'alt="{e(alt)}" loading="lazy" decoding="async" '
-        'style="display:block;width:100%;height:auto;border-radius:12px;">\\n'
-        f'      <figcaption style="font-size:0.875rem;opacity:0.75;margin-top:0.4rem;">{caption}</figcaption>\\n'
-        '    </figure>\\n\\n'
+        'style="display:block;width:100%;height:auto;border-radius:12px;">\n'
+        f'      <figcaption style="font-size:0.875rem;opacity:0.75;margin-top:0.4rem;">{caption}</figcaption>\n'
+        '    </figure>\n\n'
     ), alt
 
 def main():
@@ -152,7 +152,7 @@ def main():
             if not article.is_file():
                 raise FileNotFoundError(item["article"])
             body = article.read_text(encoding="utf-8")
-            match = re.search(r"<article\\b[^>]*>(.*?)</article>", body, re.I | re.S)
+            match = re.search(r"<article\b[^>]*>(.*?)</article>", body, re.I | re.S)
             if not match:
                 raise ValueError("Article element missing")
             if previous.has_meaningful_image(match.group(1)):
@@ -228,7 +228,7 @@ def main():
     manifest["skipped_count"] = len(skipped)
     manifest["last_attempt_at"] = datetime.now(timezone.utc).isoformat()
     manifest["source_note"] = "Attributed Wikimedia Commons stock photography, not AI-generated or the owner's fleet photos; live status must be verified separately."
-    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     report = {
         "batch_id": manifest["batch_id"], "status": manifest["status"],
         "generated_at": manifest["last_attempt_at"], "source_type": "Wikimedia Commons stock photos",
@@ -237,7 +237,7 @@ def main():
         "failed": failures, "skipped": skipped,
         "disclaimer": "Not live verified until GitHub Pages deploy and public URL checks."
     }
-    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"RESULT published={len(published)} failed={len(failures)} skipped={len(skipped)}", flush=True)
     if not published:
         raise RuntimeError("No new image generated; refuse a misleading success commit")
