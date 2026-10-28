@@ -1,7 +1,7 @@
 {
   "batch_id": "web-images-001",
   "generated_at": "2026-10-28T02:26:58.844247+00:00",
-  "status": "PUBLISHED_PENDING_DEPLOY",
+  "status": "LIVE_VERIFIED",
   "source_type": "Curated attributed Unsplash stock photos (not AI-generated)",
   "published_count": 50,
   "failed_count": 0,
@@ -510,5 +510,10 @@
   ],
   "failed": [],
   "skipped": [],
-  "disclaimer": "PUBLISHED_PENDING_DEPLOY is not a live website verification. Confirm GitHub Pages deployment and public URLs separately."
+  "disclaimer": "50 attributed illustrative Unsplash stock photos, not AI-generated and not genuine shop fleet photos. The owner's real-photo SEO requirement remains a separate task.",
+  "live_verified_count": 50,
+  "live_verification_date": "2026-10-28",
+  "deploy_commit": "54ece56ded656787744f7445a27c32ec4acd0b6f",
+  "deploy_run_url": "https://github.com/thuexemayhanoi/web/actions/runs/40621010898",
+  "live_verification_method": "GitHub Pages deployment success and fresh live HTML checks of all 49 initial URLs plus the final 50th; each has exact WebP image and unchanged canonical"
 }
