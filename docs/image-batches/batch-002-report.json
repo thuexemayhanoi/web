@@ -1,10 +1,10 @@
 {
   "batch_id": "web-images-002",
   "status": "PARTIAL_PENDING_DEPLOY",
-  "generated_at": "2026-10-28T05:18:15.603932+00:00",
+  "generated_at": "2026-10-28T05:23:45.887718+00:00",
   "source_type": "Wikimedia Commons stock photos",
-  "published_count": 14,
-  "failed_count": 36,
+  "published_count": 17,
+  "failed_count": 33,
   "skipped_count": 0,
   "published": [
     {
@@ -174,103 +174,103 @@
       "commons_url": "https://commons.wikimedia.org/wiki/File:Sapa_Vietnam_(198458739).jpeg",
       "artist": "Jason Wu",
       "license": "CC BY 3.0"
+    },
+    {
+      "id": "SEO-743",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-sapa-one-day-feasibility/",
+      "article": "hanoi-motorbike-trips/hanoi-to-sapa-one-day-feasibility/index.html",
+      "image_path": "/assets/img/articles/seo-743-hanoi-to-sapa-one-day-feasibility.webp",
+      "bytes": 290068,
+      "sha256": "b80689e531b968b62ba1189ce4e5a2505acde6bc6740863b6df5788f6afea03b",
+      "commons_title": "File:Terraced fields Sa Pa 6.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Terraced_fields_Sa_Pa_6.jpg",
+      "artist": "Robert Tannemaat",
+      "license": "CC BY 2.0"
+    },
+    {
+      "id": "SEO-744",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-sapa-two-day-itinerary/",
+      "article": "hanoi-motorbike-trips/hanoi-to-sapa-two-day-itinerary/index.html",
+      "image_path": "/assets/img/articles/seo-744-hanoi-to-sapa-two-day-itinerary.webp",
+      "bytes": 282534,
+      "sha256": "d078e97f3f4dbce5aeb98f651fffc71deedd8f6e33f530d094b0c8e9f1d0d9f8",
+      "commons_title": "File:Sapa Vietnam (198458737).jpeg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Sapa_Vietnam_(198458737).jpeg",
+      "artist": "Jason Wu",
+      "license": "CC BY 3.0"
+    },
+    {
+      "id": "SEO-733",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-cat-ba-route-planning/",
+      "article": "hanoi-motorbike-trips/hanoi-to-cat-ba-route-planning/index.html",
+      "image_path": "/assets/img/articles/seo-733-hanoi-to-cat-ba-route-planning.webp",
+      "bytes": 273036,
+      "sha256": "401764afa6f4735e177b26a77d6e9ac53a312db0186388cc9fd52228e0999987",
+      "commons_title": "File:At the beach, Cat Ba Island (4856530572).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:At_the_beach,_Cat_Ba_Island_(4856530572).jpg",
+      "artist": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+      "license": "CC BY-SA 2.0"
     }
   ],
   "failed": [
-    {
-      "id": "SEO-518",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-519",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-534",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-539",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-543",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-544",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-548",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-549",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-553",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-554",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-558",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-559",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-563",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-564",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-583",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-584",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-598",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-599",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-608",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-609",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
-    {
-      "id": "SEO-031",
-      "error": "No relevant reusable-license landscape photograph found"
-    },
     {
       "id": "SEO-697",
       "error": "No relevant reusable-license landscape photograph found"
     },
     {
-      "id": "SEO-715",
+      "id": "SEO-698",
       "error": "No relevant reusable-license landscape photograph found"
     },
     {
-      "id": "SEO-733",
+      "id": "SEO-699",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-701",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-705",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-725",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-726",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-728",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-732",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-746",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-750",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-734",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-735",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-737",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-741",
       "error": "No relevant reusable-license landscape photograph found"
     },
     {
@@ -278,51 +278,74 @@
       "error": "No relevant reusable-license landscape photograph found"
     },
     {
+      "id": "SEO-752",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-753",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-755",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-759",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-770",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-771",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-773",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-777",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
       "id": "SEO-760",
       "error": "No relevant reusable-license landscape photograph found"
     },
     {
-      "id": "SEO-796",
+      "id": "SEO-761",
       "error": "No relevant reusable-license landscape photograph found"
     },
     {
-      "id": "SEO-805",
+      "id": "SEO-762",
       "error": "No relevant reusable-license landscape photograph found"
     },
     {
-      "id": "SEO-814",
+      "id": "SEO-764",
       "error": "No relevant reusable-license landscape photograph found"
     },
     {
-      "id": "SEO-048",
+      "id": "SEO-768",
       "error": "No relevant reusable-license landscape photograph found"
     },
     {
-      "id": "SEO-032",
+      "id": "SEO-715",
       "error": "No relevant reusable-license landscape photograph found"
     },
     {
-      "id": "SEO-538",
-      "error": "Historic image of Long Bien Bridge destroyed in 1972 is unsuitable for a current route guide"
+      "id": "SEO-716",
+      "error": "No relevant reusable-license landscape photograph found"
     },
     {
-      "id": "SEO-593",
-      "error": "Old Quarter photograph misrepresents the French Quarter location"
+      "id": "SEO-717",
+      "error": "No relevant reusable-license landscape photograph found"
     },
     {
-      "id": "SEO-706",
-      "error": "Moth photograph from Tam Dao does not illustrate a motorbike route"
-    },
-    {
-      "id": "SEO-787",
-      "error": "Historic ferry photograph is unsuitable for current Bac Ninh route planning"
-    },
-    {
-      "id": "SEO-594",
-      "error": "Commons file is categorized as Hanoi Old Quarter, so its French Quarter location is not sufficiently verified"
+      "id": "SEO-719",
+      "error": "No relevant reusable-license landscape photograph found"
     }
   ],
   "skipped": [],
-  "disclaimer": "Not live verified until GitHub Pages deploy and public URL checks.",
-  "quality_review": "5 unsuitable/ambiguous photos removed after independent topic QA; 14 suitable images remain pending live verification"
+  "disclaimer": "Not live verified until GitHub Pages deploy and public URL checks."
 }

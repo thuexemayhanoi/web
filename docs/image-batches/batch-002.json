@@ -1,6 +1,6 @@
 {
   "batch_id": "web-images-002",
-  "status": "PLANNED_RETRY",
+  "status": "PARTIAL_PENDING_DEPLOY",
   "source_type": "Wikimedia Commons attributed stock photography, not AI-generated or fleet photos",
   "source_matrix": "data/content-matrix.csv",
   "previous_batch": "docs/image-batches/batch-001.json",
@@ -372,7 +372,7 @@
         "Tam Coc Ninh Binh"
       ],
       "image_path": "/assets/img/articles/seo-697-hanoi-to-ninh-binh-route-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 15
     },
     {
@@ -387,7 +387,7 @@
         "Tam Coc Ninh Binh"
       ],
       "image_path": "/assets/img/articles/seo-698-hanoi-to-ninh-binh-one-day-feasibility.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 16
     },
     {
@@ -402,7 +402,7 @@
         "Tam Coc Ninh Binh"
       ],
       "image_path": "/assets/img/articles/seo-699-hanoi-to-ninh-binh-two-day-itinerary.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 17
     },
     {
@@ -417,7 +417,7 @@
         "Tam Coc Ninh Binh"
       ],
       "image_path": "/assets/img/articles/seo-701-hanoi-to-ninh-binh-weather-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 18
     },
     {
@@ -432,7 +432,7 @@
         "Tam Coc Ninh Binh"
       ],
       "image_path": "/assets/img/articles/seo-705-hanoi-to-ninh-binh-return-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 19
     },
     {
@@ -447,7 +447,7 @@
         "Halong Bay Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-725-hanoi-to-ha-long-one-day-feasibility.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 20
     },
     {
@@ -462,7 +462,7 @@
         "Halong Bay Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-726-hanoi-to-ha-long-two-day-itinerary.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 21
     },
     {
@@ -477,7 +477,7 @@
         "Halong Bay Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-728-hanoi-to-ha-long-weather-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 22
     },
     {
@@ -492,7 +492,7 @@
         "Halong Bay Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-732-hanoi-to-ha-long-return-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 23
     },
     {
@@ -507,8 +507,18 @@
         "Sapa rice terraces Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-743-hanoi-to-sapa-one-day-feasibility.webp",
-      "status": "PLANNED",
-      "batch_position": 24
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 24,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Terraced fields Sa Pa 6.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Terraced_fields_Sa_Pa_6.jpg",
+      "license": "CC BY 2.0",
+      "artist": "Robert Tannemaat",
+      "image_bytes": 290068,
+      "image_sha256": "b80689e531b968b62ba1189ce4e5a2505acde6bc6740863b6df5788f6afea03b",
+      "width": 1200,
+      "height": 800,
+      "alt": "Terraced fields Sa Pa 6 — illustrative image for hanoi to sapa motorbike one day feasibility"
     },
     {
       "content_id": "SEO-744",
@@ -522,8 +532,18 @@
         "Sapa rice terraces Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-744-hanoi-to-sapa-two-day-itinerary.webp",
-      "status": "PLANNED",
-      "batch_position": 25
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 25,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Sapa Vietnam (198458737).jpeg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Sapa_Vietnam_(198458737).jpeg",
+      "license": "CC BY 3.0",
+      "artist": "Jason Wu",
+      "image_bytes": 282534,
+      "image_sha256": "d078e97f3f4dbce5aeb98f651fffc71deedd8f6e33f530d094b0c8e9f1d0d9f8",
+      "width": 1200,
+      "height": 800,
+      "alt": "Sapa Vietnam (198458737) — illustrative image for hanoi to sapa motorbike two day itinerary"
     },
     {
       "content_id": "SEO-746",
@@ -537,7 +557,7 @@
         "Sapa rice terraces Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-746-hanoi-to-sapa-weather-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 26
     },
     {
@@ -552,7 +572,7 @@
         "Sapa rice terraces Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-750-hanoi-to-sapa-return-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 27
     },
     {
@@ -567,8 +587,18 @@
         "Cat Ba beach Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-733-hanoi-to-cat-ba-route-planning.webp",
-      "status": "PLANNED",
-      "batch_position": 28
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 28,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:At the beach, Cat Ba Island (4856530572).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:At_the_beach,_Cat_Ba_Island_(4856530572).jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+      "image_bytes": 273036,
+      "image_sha256": "401764afa6f4735e177b26a77d6e9ac53a312db0186388cc9fd52228e0999987",
+      "width": 1200,
+      "height": 800,
+      "alt": "At the beach, Cat Ba Island (4856530572) — illustrative image for hanoi to cat ba motorbike route planning"
     },
     {
       "content_id": "SEO-734",
@@ -582,7 +612,7 @@
         "Cat Ba beach Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-734-hanoi-to-cat-ba-one-day-feasibility.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 29
     },
     {
@@ -597,7 +627,7 @@
         "Cat Ba beach Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-735-hanoi-to-cat-ba-two-day-itinerary.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 30
     },
     {
@@ -612,7 +642,7 @@
         "Cat Ba beach Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-737-hanoi-to-cat-ba-weather-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 31
     },
     {
@@ -627,7 +657,7 @@
         "Cat Ba beach Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-741-hanoi-to-cat-ba-return-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 32
     },
     {
@@ -642,7 +672,7 @@
         "Dong Van Ha Giang Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-751-hanoi-to-ha-giang-route-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 33
     },
     {
@@ -657,7 +687,7 @@
         "Dong Van Ha Giang Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-752-hanoi-to-ha-giang-one-day-feasibility.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 34
     },
     {
@@ -672,7 +702,7 @@
         "Dong Van Ha Giang Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-753-hanoi-to-ha-giang-two-day-itinerary.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 35
     },
     {
@@ -687,7 +717,7 @@
         "Dong Van Ha Giang Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-755-hanoi-to-ha-giang-weather-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 36
     },
     {
@@ -702,7 +732,7 @@
         "Dong Van Ha Giang Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-759-hanoi-to-ha-giang-return-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 37
     },
     {
@@ -717,7 +747,7 @@
         "Pu Luong rice terraces"
       ],
       "image_path": "/assets/img/articles/seo-770-hanoi-to-pu-luong-one-day-feasibility.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 38
     },
     {
@@ -732,7 +762,7 @@
         "Pu Luong rice terraces"
       ],
       "image_path": "/assets/img/articles/seo-771-hanoi-to-pu-luong-two-day-itinerary.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 39
     },
     {
@@ -747,7 +777,7 @@
         "Pu Luong rice terraces"
       ],
       "image_path": "/assets/img/articles/seo-773-hanoi-to-pu-luong-weather-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 40
     },
     {
@@ -762,7 +792,7 @@
         "Pu Luong rice terraces"
       ],
       "image_path": "/assets/img/articles/seo-777-hanoi-to-pu-luong-return-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 41
     },
     {
@@ -777,7 +807,7 @@
         "Moc Chau tea hills"
       ],
       "image_path": "/assets/img/articles/seo-760-hanoi-to-moc-chau-route-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 42
     },
     {
@@ -792,7 +822,7 @@
         "Moc Chau tea hills"
       ],
       "image_path": "/assets/img/articles/seo-761-hanoi-to-moc-chau-one-day-feasibility.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 43
     },
     {
@@ -807,7 +837,7 @@
         "Moc Chau tea hills"
       ],
       "image_path": "/assets/img/articles/seo-762-hanoi-to-moc-chau-two-day-itinerary.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 44
     },
     {
@@ -822,7 +852,7 @@
         "Moc Chau tea hills"
       ],
       "image_path": "/assets/img/articles/seo-764-hanoi-to-moc-chau-weather-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 45
     },
     {
@@ -837,7 +867,7 @@
         "Moc Chau tea hills"
       ],
       "image_path": "/assets/img/articles/seo-768-hanoi-to-moc-chau-return-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 46
     },
     {
@@ -852,7 +882,7 @@
         "Mai Chau rice fields"
       ],
       "image_path": "/assets/img/articles/seo-715-hanoi-to-mai-chau-route-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 47
     },
     {
@@ -867,7 +897,7 @@
         "Mai Chau rice fields"
       ],
       "image_path": "/assets/img/articles/seo-716-hanoi-to-mai-chau-one-day-feasibility.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 48
     },
     {
@@ -882,7 +912,7 @@
         "Mai Chau rice fields"
       ],
       "image_path": "/assets/img/articles/seo-717-hanoi-to-mai-chau-two-day-itinerary.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 49
     },
     {
@@ -897,14 +927,14 @@
         "Mai Chau rice fields"
       ],
       "image_path": "/assets/img/articles/seo-719-hanoi-to-mai-chau-weather-planning.webp",
-      "status": "PLANNED",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 50
     }
   ],
-  "published_count": 14,
-  "failed_count": 0,
+  "published_count": 17,
+  "failed_count": 33,
   "skipped_count": 0,
-  "last_attempt_at": "2026-10-28T05:18:15.603932+00:00",
+  "last_attempt_at": "2026-10-28T05:23:45.887718+00:00",
   "source_note": "Attributed Wikimedia Commons stock photography, not AI-generated or the owner's fleet photos; live status must be verified separately.",
   "quality_review": "5 unsuitable/ambiguous photos removed after independent topic QA; 14 suitable images remain pending live verification",
   "previous_attempts": [
