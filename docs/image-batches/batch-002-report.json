@@ -1,0 +1,367 @@
+{
+  "batch_id": "web-images-002",
+  "status": "PARTIAL_PENDING_DEPLOY",
+  "generated_at": "2026-10-28T05:18:15.603932+00:00",
+  "source_type": "Wikimedia Commons stock photos",
+  "published_count": 19,
+  "failed_count": 31,
+  "skipped_count": 0,
+  "published": [
+    {
+      "id": "SEO-523",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/hoan-kiem-route-connections/",
+      "article": "motorbike-rental-hanoi-old-quarter/hoan-kiem-route-connections/index.html",
+      "image_path": "/assets/img/articles/seo-523-hoan-kiem-route-connections.webp",
+      "bytes": 289070,
+      "sha256": "fd5a6a5d492cd99b338da2be4687163a6fc2b7f0eb240b64521290a07023f292",
+      "commons_title": "File:Hoan Kiem Lake, Hanoi (4856109038).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hoan_Kiem_Lake,_Hanoi_(4856109038).jpg",
+      "artist": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "id": "SEO-524",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/hoan-kiem-day-ride-ideas/",
+      "article": "motorbike-rental-hanoi-old-quarter/hoan-kiem-day-ride-ideas/index.html",
+      "image_path": "/assets/img/articles/seo-524-hoan-kiem-day-ride-ideas.webp",
+      "bytes": 207172,
+      "sha256": "4a99a6340f234341ed98b446c6c4accab25b5ed915011c0536c9ebc7712c599e",
+      "commons_title": "File:Hoan Kiem Lake, Hanoi (4856113056).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hoan_Kiem_Lake,_Hanoi_(4856113056).jpg",
+      "artist": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "id": "SEO-528",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/west-lake-route-connections/",
+      "article": "motorbike-rental-hanoi-old-quarter/west-lake-route-connections/index.html",
+      "image_path": "/assets/img/articles/seo-528-west-lake-route-connections.webp",
+      "bytes": 210682,
+      "sha256": "581cd4f6386849791d1f98b462cc597a11f76c98d9fee931e648ce9ca760ebf0",
+      "commons_title": "File:Temple on West Lake, 2003, Hanoi 2.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Temple_on_West_Lake,_2003,_Hanoi_2.jpg",
+      "artist": "Syced",
+      "license": "CC0"
+    },
+    {
+      "id": "SEO-529",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/west-lake-day-ride-ideas/",
+      "article": "motorbike-rental-hanoi-old-quarter/west-lake-day-ride-ideas/index.html",
+      "image_path": "/assets/img/articles/seo-529-west-lake-day-ride-ideas.webp",
+      "bytes": 216442,
+      "sha256": "587ac9117fe48c47c3e9d743aad75fc7b9ec3b64025d64660981f7a494612511",
+      "commons_title": "File:Temple on West Lake, 2003, Hanoi 9.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Temple_on_West_Lake,_2003,_Hanoi_9.jpg",
+      "artist": "Syced",
+      "license": "CC0"
+    },
+    {
+      "id": "SEO-533",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/tay-ho-route-connections/",
+      "article": "motorbike-rental-hanoi-old-quarter/tay-ho-route-connections/index.html",
+      "image_path": "/assets/img/articles/seo-533-tay-ho-route-connections.webp",
+      "bytes": 260944,
+      "sha256": "ccde78d041504c0aa71a9bb99094027a802442960e523c709c017a84f6432fdb",
+      "commons_title": "File:Hô Tây, Hanoi (4282156200).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:H%C3%B4_T%C3%A2y,_Hanoi_(4282156200).jpg",
+      "artist": "Joe Le Merou from Taipei, Taiwan",
+      "license": "CC BY 2.0"
+    },
+    {
+      "id": "SEO-538",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/long-bien-route-connections/",
+      "article": "motorbike-rental-hanoi-old-quarter/long-bien-route-connections/index.html",
+      "image_path": "/assets/img/articles/seo-538-long-bien-route-connections.webp",
+      "bytes": 269816,
+      "sha256": "196ccad554c96efcf555a9fa5a8798e700eb23ebcac85fded10e0e443572e0da",
+      "commons_title": "File:Long Bien Bridge destroyed by LGBs 1972.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Long_Bien_Bridge_destroyed_by_LGBs_1972.jpg",
+      "artist": "USAF",
+      "license": "Public domain"
+    },
+    {
+      "id": "SEO-588",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/truc-bach-route-connections/",
+      "article": "motorbike-rental-hanoi-old-quarter/truc-bach-route-connections/index.html",
+      "image_path": "/assets/img/articles/seo-588-truc-bach-route-connections.webp",
+      "bytes": 221192,
+      "sha256": "677042e96a8ecfc5e6ba672884ee7eb2ca83765db8b4a2a962667416a0bd394d",
+      "commons_title": "File:Truc bach lake hanoi 2007 01.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Truc_bach_lake_hanoi_2007_01.jpg",
+      "artist": "Rolf Müller ( User:Rolfmueller )",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": "SEO-589",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/truc-bach-day-ride-ideas/",
+      "article": "motorbike-rental-hanoi-old-quarter/truc-bach-day-ride-ideas/index.html",
+      "image_path": "/assets/img/articles/seo-589-truc-bach-day-ride-ideas.webp",
+      "bytes": 189252,
+      "sha256": "5e1365e4b2af939e5f51efbb3f01205c4c0a46117bbe5b80a93aedaee8ba07c5",
+      "commons_title": "File:Truc bach lake mccain memorial hanoi 2007 01.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Truc_bach_lake_mccain_memorial_hanoi_2007_01.jpg",
+      "artist": "Rolf Müller ( User:Rolfmueller )",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": "SEO-593",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/french-quarter-route-connections/",
+      "article": "motorbike-rental-hanoi-old-quarter/french-quarter-route-connections/index.html",
+      "image_path": "/assets/img/articles/seo-593-french-quarter-route-connections.webp",
+      "bytes": 294104,
+      "sha256": "295f3f79857f926f809481b9c9b1cde080fa3713a725b7105d596afb26df24e1",
+      "commons_title": "File:Vietnam hanoi old quarter.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Vietnam_hanoi_old_quarter.jpg",
+      "artist": "Maryam Laura Moazedi, www.moazedi.org",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": "SEO-594",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/french-quarter-day-ride-ideas/",
+      "article": "motorbike-rental-hanoi-old-quarter/french-quarter-day-ride-ideas/index.html",
+      "image_path": "/assets/img/articles/seo-594-french-quarter-day-ride-ideas.webp",
+      "bytes": 289226,
+      "sha256": "bdccf6f275ca4e76cb12f3c8a04f7c2b4e55228a3da18ba63059f0e7da4e1330",
+      "commons_title": "File:Hanoi Downtown Street Life.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hanoi_Downtown_Street_Life.jpg",
+      "artist": "Maryam Laura Moazedi, www.moazedi.org",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": "SEO-706",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-tam-dao-route-planning/",
+      "article": "hanoi-motorbike-trips/hanoi-to-tam-dao-route-planning/index.html",
+      "image_path": "/assets/img/articles/seo-706-hanoi-to-tam-dao-route-planning.webp",
+      "bytes": 277762,
+      "sha256": "87cea5c3cf22207aed2e88df1b7af3786b7fb07ae855a4aebd41d14e7426ac58",
+      "commons_title": "File:Hypeniinae sp - 9-2010 - Tam Dao - North Vietnam - Flickr - Bennyboymothman.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hypeniinae_sp_-_9-2010_-_Tam_Dao_-_North_Vietnam_-_Flickr_-_Bennyboymothman.jpg",
+      "artist": "Ben Sale from UK",
+      "license": "CC BY 2.0"
+    },
+    {
+      "id": "SEO-724",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ha-long-route-planning/",
+      "article": "hanoi-motorbike-trips/hanoi-to-ha-long-route-planning/index.html",
+      "image_path": "/assets/img/articles/seo-724-hanoi-to-ha-long-route-planning.webp",
+      "bytes": 288318,
+      "sha256": "e941a553e3b91544a2293738838a5455744e20a9c9ffa752e7c9204e6980168f",
+      "commons_title": "File:Halong Bay in Vietnam.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Halong_Bay_in_Vietnam.jpg",
+      "artist": "Thomas Hirsch / User:Ravn",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": "SEO-742",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-sapa-route-planning/",
+      "article": "hanoi-motorbike-trips/hanoi-to-sapa-route-planning/index.html",
+      "image_path": "/assets/img/articles/seo-742-hanoi-to-sapa-route-planning.webp",
+      "bytes": 279584,
+      "sha256": "2baaba2f4a625795f863a3e71f8eed9704c61cc6b073d00f0d46c31b167b7642",
+      "commons_title": "File:Sapa Vietnam (198458743).jpeg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Sapa_Vietnam_(198458743).jpeg",
+      "artist": "Jason Wu",
+      "license": "CC BY 3.0"
+    },
+    {
+      "id": "SEO-769",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-pu-luong-route-planning/",
+      "article": "hanoi-motorbike-trips/hanoi-to-pu-luong-route-planning/index.html",
+      "image_path": "/assets/img/articles/seo-769-hanoi-to-pu-luong-route-planning.webp",
+      "bytes": 253922,
+      "sha256": "7aa9907b917999897fada8796dfcc0e83d3079af89d2c52d29803a68f844ffc0",
+      "commons_title": "File:Pu Luong Thanh Hoa.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Pu_Luong_Thanh_Hoa.jpg",
+      "artist": "Milomaskirovka",
+      "license": "CC0"
+    },
+    {
+      "id": "SEO-778",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-hoa-binh-route-planning/",
+      "article": "hanoi-motorbike-trips/hanoi-to-hoa-binh-route-planning/index.html",
+      "image_path": "/assets/img/articles/seo-778-hanoi-to-hoa-binh-route-planning.webp",
+      "bytes": 219160,
+      "sha256": "1b5aaee680a4c4f4509e2f4d2a58de24f7746311a02858fe3142da8850940f5d",
+      "commons_title": "File:Hoa Binh Dam in Vietnam.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hoa_Binh_Dam_in_Vietnam.jpg",
+      "artist": "VN.NguyenDucDuy",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "SEO-787",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-bac-ninh-route-planning/",
+      "article": "hanoi-motorbike-trips/hanoi-to-bac-ninh-route-planning/index.html",
+      "image_path": "/assets/img/articles/seo-787-hanoi-to-bac-ninh-route-planning.webp",
+      "bytes": 236828,
+      "sha256": "119429164297d4b2dcdd76d95ae897cc23f03e9bb8e447faed35aad6d6b55400",
+      "commons_title": "File:Tonkin. Environs de Bac-ninh. De Bac-ninh à Phulo ; halte au bac du Song-co - (photogr.) A. S(alles) - btv1b53172508t (3 of 3).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Tonkin._Environs_de_Bac-ninh._De_Bac-ninh_%C3%A0_Phulo_;_halte_au_bac_du_Song-co_-_(photogr.)_A._S(alles)_-_btv1b53172508t_(3_of_3).jpg",
+      "artist": "Salles, André (1860-1929). Photographe",
+      "license": "Public domain"
+    },
+    {
+      "id": "SEO-823",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-cuc-phuong-route-planning/",
+      "article": "hanoi-motorbike-trips/hanoi-to-cuc-phuong-route-planning/index.html",
+      "image_path": "/assets/img/articles/seo-823-hanoi-to-cuc-phuong-route-planning.webp",
+      "bytes": 180350,
+      "sha256": "431e19d43ca6dd4e7207caeec850f5299451a386ecee9f685c0c6ca1641861d7",
+      "commons_title": "File:Parque Nacional de Cuc Phuong (5182009321).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_de_Cuc_Phuong_(5182009321).jpg",
+      "artist": "pululante",
+      "license": "CC BY 2.0"
+    },
+    {
+      "id": "SEO-832",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-yen-tu-route-planning/",
+      "article": "hanoi-motorbike-trips/hanoi-to-yen-tu-route-planning/index.html",
+      "image_path": "/assets/img/articles/seo-832-hanoi-to-yen-tu-route-planning.webp",
+      "bytes": 137624,
+      "sha256": "4c47aba519e8686e252f8ecf650be23e050b4b5e5d932b06831720ec06066453",
+      "commons_title": "File:Cáp treo núi Yên Tử.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:C%C3%A1p_treo_n%C3%BAi_Y%C3%AAn_T%E1%BB%AD.jpg",
+      "artist": "Thang Nguyen from Nottingham, United Kingdom",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "id": "SEO-049",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-sapa-motorbike-route/",
+      "article": "hanoi-motorbike-trips/hanoi-to-sapa-motorbike-route/index.html",
+      "image_path": "/assets/img/articles/seo-049-hanoi-to-sapa-motorbike-route.webp",
+      "bytes": 240116,
+      "sha256": "0dbd6ac334edaad6f4b0cccb040c93c5a575227ee1e625ddaf0e19a721a03a77",
+      "commons_title": "File:Sapa Vietnam (198458739).jpeg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Sapa_Vietnam_(198458739).jpeg",
+      "artist": "Jason Wu",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "failed": [
+    {
+      "id": "SEO-518",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-519",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-534",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-539",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-543",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-544",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-548",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-549",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-553",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-554",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-558",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-559",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-563",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-564",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-583",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-584",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-598",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-599",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-608",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-609",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-031",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-697",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-715",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-733",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-751",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-760",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-796",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-805",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-814",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-048",
+      "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-032",
+      "error": "No relevant reusable-license landscape photograph found"
+    }
+  ],
+  "skipped": [],
+  "disclaimer": "Not live verified until GitHub Pages deploy and public URL checks."
+}

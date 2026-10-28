@@ -1,6 +1,6 @@
 {
   "batch_id": "web-images-002",
-  "status": "PLANNED",
+  "status": "PARTIAL_PENDING_DEPLOY",
   "source_type": "Wikimedia Commons attributed stock photography, not AI-generated or fleet photos",
   "source_matrix": "data/content-matrix.csv",
   "previous_batch": "docs/image-batches/batch-001.json",
@@ -23,7 +23,7 @@
         "Old Quarter Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-518-old-quarter-route-connections.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 2,
@@ -38,7 +38,7 @@
         "Old Quarter Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-519-old-quarter-day-ride-ideas.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 3,
@@ -53,7 +53,17 @@
         "Hoan Kiem Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-523-hoan-kiem-route-connections.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Hoan Kiem Lake, Hanoi (4856109038).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hoan_Kiem_Lake,_Hanoi_(4856109038).jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+      "image_bytes": 289070,
+      "image_sha256": "fd5a6a5d492cd99b338da2be4687163a6fc2b7f0eb240b64521290a07023f292",
+      "width": 1200,
+      "height": 800,
+      "alt": "Hoan Kiem Lake, Hanoi (4856109038) — illustrative image for hoan kiem hanoi motorbike route connections"
     },
     {
       "batch_position": 4,
@@ -68,7 +78,17 @@
         "Hoan Kiem Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-524-hoan-kiem-day-ride-ideas.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Hoan Kiem Lake, Hanoi (4856113056).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hoan_Kiem_Lake,_Hanoi_(4856113056).jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+      "image_bytes": 207172,
+      "image_sha256": "4a99a6340f234341ed98b446c6c4accab25b5ed915011c0536c9ebc7712c599e",
+      "width": 1200,
+      "height": 800,
+      "alt": "Hoan Kiem Lake, Hanoi (4856113056) — illustrative image for hoan kiem hanoi motorbike day ride ideas"
     },
     {
       "batch_position": 5,
@@ -83,7 +103,17 @@
         "West Lake Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-528-west-lake-route-connections.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Temple on West Lake, 2003, Hanoi 2.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Temple_on_West_Lake,_2003,_Hanoi_2.jpg",
+      "license": "CC0",
+      "artist": "Syced",
+      "image_bytes": 210682,
+      "image_sha256": "581cd4f6386849791d1f98b462cc597a11f76c98d9fee931e648ce9ca760ebf0",
+      "width": 1200,
+      "height": 800,
+      "alt": "Temple on West Lake, 2003, Hanoi 2 — illustrative image for west lake hanoi motorbike route connections"
     },
     {
       "batch_position": 6,
@@ -98,7 +128,17 @@
         "West Lake Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-529-west-lake-day-ride-ideas.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Temple on West Lake, 2003, Hanoi 9.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Temple_on_West_Lake,_2003,_Hanoi_9.jpg",
+      "license": "CC0",
+      "artist": "Syced",
+      "image_bytes": 216442,
+      "image_sha256": "587ac9117fe48c47c3e9d743aad75fc7b9ec3b64025d64660981f7a494612511",
+      "width": 1200,
+      "height": 800,
+      "alt": "Temple on West Lake, 2003, Hanoi 9 — illustrative image for west lake hanoi motorbike day ride ideas"
     },
     {
       "batch_position": 7,
@@ -113,7 +153,17 @@
         "Tay Ho Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-533-tay-ho-route-connections.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Hô Tây, Hanoi (4282156200).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:H%C3%B4_T%C3%A2y,_Hanoi_(4282156200).jpg",
+      "license": "CC BY 2.0",
+      "artist": "Joe Le Merou from Taipei, Taiwan",
+      "image_bytes": 260944,
+      "image_sha256": "ccde78d041504c0aa71a9bb99094027a802442960e523c709c017a84f6432fdb",
+      "width": 1200,
+      "height": 800,
+      "alt": "Hô Tây, Hanoi (4282156200) — illustrative image for tay ho hanoi motorbike route connections"
     },
     {
       "batch_position": 8,
@@ -128,7 +178,7 @@
         "Tay Ho Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-534-tay-ho-day-ride-ideas.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 9,
@@ -143,7 +193,17 @@
         "Long Bien Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-538-long-bien-route-connections.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Long Bien Bridge destroyed by LGBs 1972.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Long_Bien_Bridge_destroyed_by_LGBs_1972.jpg",
+      "license": "Public domain",
+      "artist": "USAF",
+      "image_bytes": 269816,
+      "image_sha256": "196ccad554c96efcf555a9fa5a8798e700eb23ebcac85fded10e0e443572e0da",
+      "width": 1200,
+      "height": 800,
+      "alt": "Long Bien Bridge destroyed by LGBs 1972 — illustrative image for long bien hanoi motorbike route connections"
     },
     {
       "batch_position": 10,
@@ -158,7 +218,7 @@
         "Long Bien Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-539-long-bien-day-ride-ideas.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 11,
@@ -173,7 +233,7 @@
         "Ba Dinh Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-543-ba-dinh-route-connections.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 12,
@@ -188,7 +248,7 @@
         "Ba Dinh Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-544-ba-dinh-day-ride-ideas.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 13,
@@ -203,7 +263,7 @@
         "Dong Da Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-548-dong-da-route-connections.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 14,
@@ -218,7 +278,7 @@
         "Dong Da Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-549-dong-da-day-ride-ideas.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 15,
@@ -233,7 +293,7 @@
         "Hai Ba Trung Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-553-hai-ba-trung-route-connections.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 16,
@@ -248,7 +308,7 @@
         "Hai Ba Trung Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-554-hai-ba-trung-day-ride-ideas.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 17,
@@ -263,7 +323,7 @@
         "Cau Giay Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-558-cau-giay-route-connections.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 18,
@@ -278,7 +338,7 @@
         "Cau Giay Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-559-cau-giay-day-ride-ideas.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 19,
@@ -293,7 +353,7 @@
         "Nam Tu Liem Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-563-nam-tu-liem-route-connections.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 20,
@@ -308,7 +368,7 @@
         "Nam Tu Liem Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-564-nam-tu-liem-day-ride-ideas.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 21,
@@ -323,7 +383,7 @@
         "Ha Dong Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-583-ha-dong-route-connections.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 22,
@@ -338,7 +398,7 @@
         "Ha Dong Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-584-ha-dong-day-ride-ideas.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 23,
@@ -353,7 +413,17 @@
         "Truc Bach Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-588-truc-bach-route-connections.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Truc bach lake hanoi 2007 01.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Truc_bach_lake_hanoi_2007_01.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Rolf Müller ( User:Rolfmueller )",
+      "image_bytes": 221192,
+      "image_sha256": "677042e96a8ecfc5e6ba672884ee7eb2ca83765db8b4a2a962667416a0bd394d",
+      "width": 1200,
+      "height": 800,
+      "alt": "Truc bach lake hanoi 2007 01 — illustrative image for truc bach hanoi motorbike route connections"
     },
     {
       "batch_position": 24,
@@ -368,7 +438,17 @@
         "Truc Bach Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-589-truc-bach-day-ride-ideas.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Truc bach lake mccain memorial hanoi 2007 01.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Truc_bach_lake_mccain_memorial_hanoi_2007_01.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Rolf Müller ( User:Rolfmueller )",
+      "image_bytes": 189252,
+      "image_sha256": "5e1365e4b2af939e5f51efbb3f01205c4c0a46117bbe5b80a93aedaee8ba07c5",
+      "width": 1200,
+      "height": 800,
+      "alt": "Truc bach lake mccain memorial hanoi 2007 01 — illustrative image for truc bach hanoi motorbike day ride ideas"
     },
     {
       "batch_position": 25,
@@ -383,7 +463,17 @@
         "French Quarter Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-593-french-quarter-route-connections.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Vietnam hanoi old quarter.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Vietnam_hanoi_old_quarter.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Maryam Laura Moazedi, www.moazedi.org",
+      "image_bytes": 294104,
+      "image_sha256": "295f3f79857f926f809481b9c9b1cde080fa3713a725b7105d596afb26df24e1",
+      "width": 1200,
+      "height": 800,
+      "alt": "Vietnam hanoi old quarter — illustrative image for french quarter hanoi motorbike route connections"
     },
     {
       "batch_position": 26,
@@ -398,7 +488,17 @@
         "French Quarter Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-594-french-quarter-day-ride-ideas.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Hanoi Downtown Street Life.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hanoi_Downtown_Street_Life.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Maryam Laura Moazedi, www.moazedi.org",
+      "image_bytes": 289226,
+      "image_sha256": "bdccf6f275ca4e76cb12f3c8a04f7c2b4e55228a3da18ba63059f0e7da4e1330",
+      "width": 1200,
+      "height": 800,
+      "alt": "Hanoi Downtown Street Life — illustrative image for french quarter hanoi motorbike day ride ideas"
     },
     {
       "batch_position": 27,
@@ -413,7 +513,7 @@
         "My Dinh Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-598-my-dinh-route-connections.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 28,
@@ -428,7 +528,7 @@
         "My Dinh Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-599-my-dinh-day-ride-ideas.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 29,
@@ -443,7 +543,7 @@
         "Soc Son Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-608-soc-son-route-connections.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 30,
@@ -458,7 +558,7 @@
         "Soc Son Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-609-soc-son-day-ride-ideas.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 31,
@@ -473,7 +573,7 @@
         "Ba Vi Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-031-hanoi-to-ba-vi-motorbike-route.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 32,
@@ -488,7 +588,7 @@
         "Ninh Binh Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-697-hanoi-to-ninh-binh-route-planning.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 33,
@@ -503,7 +603,17 @@
         "Tam Dao Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-706-hanoi-to-tam-dao-route-planning.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Hypeniinae sp - 9-2010 - Tam Dao - North Vietnam - Flickr - Bennyboymothman.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hypeniinae_sp_-_9-2010_-_Tam_Dao_-_North_Vietnam_-_Flickr_-_Bennyboymothman.jpg",
+      "license": "CC BY 2.0",
+      "artist": "Ben Sale from UK",
+      "image_bytes": 277762,
+      "image_sha256": "87cea5c3cf22207aed2e88df1b7af3786b7fb07ae855a4aebd41d14e7426ac58",
+      "width": 1200,
+      "height": 800,
+      "alt": "Hypeniinae sp - 9-2010 - Tam Dao - North Vietnam - Flickr - Bennyboymothman — illustrative image for hanoi to tam dao motorbike route planning"
     },
     {
       "batch_position": 34,
@@ -518,7 +628,7 @@
         "Mai Chau Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-715-hanoi-to-mai-chau-route-planning.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 35,
@@ -533,7 +643,17 @@
         "Ha Long Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-724-hanoi-to-ha-long-route-planning.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Halong Bay in Vietnam.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Halong_Bay_in_Vietnam.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Thomas Hirsch / User:Ravn",
+      "image_bytes": 288318,
+      "image_sha256": "e941a553e3b91544a2293738838a5455744e20a9c9ffa752e7c9204e6980168f",
+      "width": 1200,
+      "height": 800,
+      "alt": "Halong Bay in Vietnam — illustrative image for hanoi to ha long motorbike route planning"
     },
     {
       "batch_position": 36,
@@ -548,7 +668,7 @@
         "Cat Ba Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-733-hanoi-to-cat-ba-route-planning.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 37,
@@ -563,7 +683,17 @@
         "Sapa Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-742-hanoi-to-sapa-route-planning.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Sapa Vietnam (198458743).jpeg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Sapa_Vietnam_(198458743).jpeg",
+      "license": "CC BY 3.0",
+      "artist": "Jason Wu",
+      "image_bytes": 279584,
+      "image_sha256": "2baaba2f4a625795f863a3e71f8eed9704c61cc6b073d00f0d46c31b167b7642",
+      "width": 1200,
+      "height": 800,
+      "alt": "Sapa Vietnam (198458743) — illustrative image for hanoi to sapa motorbike route planning"
     },
     {
       "batch_position": 38,
@@ -578,7 +708,7 @@
         "Ha Giang Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-751-hanoi-to-ha-giang-route-planning.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 39,
@@ -593,7 +723,7 @@
         "Moc Chau Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-760-hanoi-to-moc-chau-route-planning.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 40,
@@ -608,7 +738,17 @@
         "Pu Luong Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-769-hanoi-to-pu-luong-route-planning.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Pu Luong Thanh Hoa.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Pu_Luong_Thanh_Hoa.jpg",
+      "license": "CC0",
+      "artist": "Milomaskirovka",
+      "image_bytes": 253922,
+      "image_sha256": "7aa9907b917999897fada8796dfcc0e83d3079af89d2c52d29803a68f844ffc0",
+      "width": 1200,
+      "height": 800,
+      "alt": "Pu Luong Thanh Hoa — illustrative image for hanoi to pu luong motorbike route planning"
     },
     {
       "batch_position": 41,
@@ -623,7 +763,17 @@
         "Hoa Binh Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-778-hanoi-to-hoa-binh-route-planning.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Hoa Binh Dam in Vietnam.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Hoa_Binh_Dam_in_Vietnam.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "VN.NguyenDucDuy",
+      "image_bytes": 219160,
+      "image_sha256": "1b5aaee680a4c4f4509e2f4d2a58de24f7746311a02858fe3142da8850940f5d",
+      "width": 1200,
+      "height": 800,
+      "alt": "Hoa Binh Dam in Vietnam — illustrative image for hanoi to hoa binh motorbike route planning"
     },
     {
       "batch_position": 42,
@@ -638,7 +788,17 @@
         "Bac Ninh Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-787-hanoi-to-bac-ninh-route-planning.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Tonkin. Environs de Bac-ninh. De Bac-ninh à Phulo ; halte au bac du Song-co - (photogr.) A. S(alles) - btv1b53172508t (3 of 3).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Tonkin._Environs_de_Bac-ninh._De_Bac-ninh_%C3%A0_Phulo_;_halte_au_bac_du_Song-co_-_(photogr.)_A._S(alles)_-_btv1b53172508t_(3_of_3).jpg",
+      "license": "Public domain",
+      "artist": "Salles, André (1860-1929). Photographe",
+      "image_bytes": 236828,
+      "image_sha256": "119429164297d4b2dcdd76d95ae897cc23f03e9bb8e447faed35aad6d6b55400",
+      "width": 1200,
+      "height": 800,
+      "alt": "Tonkin. Environs de Bac-ninh. De Bac-ninh à Phulo ; halte au bac du Song-co - (photogr.) A. S(alles) - btv1b53172508t (3 of 3 — illustrative image for hanoi to bac ninh motorbike r"
     },
     {
       "batch_position": 43,
@@ -653,7 +813,7 @@
         "Duong Lam Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-796-hanoi-to-duong-lam-route-planning.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 44,
@@ -668,7 +828,7 @@
         "Perfume Pagoda Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-805-hanoi-to-perfume-pagoda-route-planning.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 45,
@@ -683,7 +843,7 @@
         "Soc Son Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-814-hanoi-to-soc-son-route-planning.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 46,
@@ -698,7 +858,17 @@
         "Cuc Phuong Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-823-hanoi-to-cuc-phuong-route-planning.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Parque Nacional de Cuc Phuong (5182009321).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_de_Cuc_Phuong_(5182009321).jpg",
+      "license": "CC BY 2.0",
+      "artist": "pululante",
+      "image_bytes": 180350,
+      "image_sha256": "431e19d43ca6dd4e7207caeec850f5299451a386ecee9f685c0c6ca1641861d7",
+      "width": 1200,
+      "height": 800,
+      "alt": "Parque Nacional de Cuc Phuong (5182009321) — illustrative image for hanoi to cuc phuong motorbike route planning"
     },
     {
       "batch_position": 47,
@@ -713,7 +883,17 @@
         "Yen Tu Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-832-hanoi-to-yen-tu-route-planning.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Cáp treo núi Yên Tử.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:C%C3%A1p_treo_n%C3%BAi_Y%C3%AAn_T%E1%BB%AD.jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Thang Nguyen from Nottingham, United Kingdom",
+      "image_bytes": 137624,
+      "image_sha256": "4c47aba519e8686e252f8ecf650be23e050b4b5e5d932b06831720ec06066453",
+      "width": 1200,
+      "height": 800,
+      "alt": "Cáp treo núi Yên Tử — illustrative image for hanoi to yen tu motorbike route planning"
     },
     {
       "batch_position": 48,
@@ -728,7 +908,7 @@
         "Ha Long Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-048-hanoi-to-ha-long-motorbike-route.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     },
     {
       "batch_position": 49,
@@ -743,7 +923,17 @@
         "Sapa Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-049-hanoi-to-sapa-motorbike-route.webp",
-      "status": "PLANNED"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Sapa Vietnam (198458739).jpeg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Sapa_Vietnam_(198458739).jpeg",
+      "license": "CC BY 3.0",
+      "artist": "Jason Wu",
+      "image_bytes": 240116,
+      "image_sha256": "0dbd6ac334edaad6f4b0cccb040c93c5a575227ee1e625ddaf0e19a721a03a77",
+      "width": 1200,
+      "height": 800,
+      "alt": "Sapa Vietnam (198458739) — illustrative image for hanoi to sapa motorbike"
     },
     {
       "batch_position": 50,
@@ -758,7 +948,12 @@
         "Perfume Pagoda Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-032-hanoi-to-perfume-pagoda-motorbike-route.webp",
-      "status": "PLANNED"
+      "status": "FAILED_RETRYABLE"
     }
-  ]
+  ],
+  "published_count": 19,
+  "failed_count": 31,
+  "skipped_count": 0,
+  "last_attempt_at": "2026-10-28T05:18:15.603932+00:00",
+  "source_note": "Attributed Wikimedia Commons stock photography, not AI-generated or the owner's fleet photos; live status must be verified separately."
 }
