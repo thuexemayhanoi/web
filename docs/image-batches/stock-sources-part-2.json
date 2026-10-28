@@ -1,0 +1,52 @@
+{
+  "batch_id": "web-images-001",
+  "source_type": "Unsplash stock",
+  "note": "Candidate sources only; not yet published; attribute photographer and do not label as AI-generated or as fleet photos",
+  "photos": [
+    {
+      "position": 7,
+      "desc": "Small boats on green water surrounded by massive rocky cliffs",
+      "url": "https://images.unsplash.com/photo-1785347926123-74cf33a5cae1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8Mnx8bmluaCUyMGJpbmglMjB2aWV0bmFtJTIwdGFtJTIwY29jJTIwcmljZSUyMGZpZWxkc3xlbnwxfHx8fDE3OTMxNTM5NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/EKH2yKixJg0/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8Mnx8bmluaCUyMGJpbmglMjB2aWV0bmFtJTIwdGFtJTIwY29jJTIwcmljZSUyMGZpZWxkc3xlbnwxfHx8fDE3OTMxNTM5NTN8MA",
+      "photographer": "Hussain Badshah",
+      "profile": "https://unsplash.com/@badshah05",
+      "id": "photo-1785347926123-74cf33a5cae1"
+    },
+    {
+      "position": 18,
+      "desc": "Winding road through lush green mountains and trees",
+      "url": "https://images.unsplash.com/photo-1777378455431-e92ad2568c32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8OXx8YmElMjB2aSUyMHZpZXRuYW0lMjB3aW5kaW5nJTIwbW91bnRhaW4lMjByb2FkfGVufDF8fHx8MTc5MzE1Mzk1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/mz9cxyUhzNg/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8OXx8YmElMjB2aSUyMHZpZXRuYW0lMjB3aW5kaW5nJTIwbW91bnRhaW4lMjByb2FkfGVufDF8fHx8MTc5MzE1Mzk1M3ww",
+      "photographer": "Nguyen Quan",
+      "profile": "https://unsplash.com/@m_quan",
+      "id": "photo-1777378455431-e92ad2568c32"
+    },
+    {
+      "position": 29,
+      "desc": "a group of bikers riding down a winding road",
+      "url": "https://images.unsplash.com/photo-1675757275576-c387423d1391?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8Mnx8YmElMjB2aSUyMHZpZXRuYW0lMjB3aW5kaW5nJTIwbW91bnRhaW4lMjByb2FkfGVufDF8fHx8MTc5MzE1Mzk1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/GBwkNypTZ-4/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8Mnx8YmElMjB2aSUyMHZpZXRuYW0lMjB3aW5kaW5nJTIwbW91bnRhaW4lMjByb2FkfGVufDF8fHx8MTc5MzE1Mzk1M3ww",
+      "photographer": "Huy Nguyen",
+      "profile": "https://unsplash.com/@huynguyen_pch",
+      "id": "photo-1675757275576-c387423d1391"
+    },
+    {
+      "position": 39,
+      "desc": "A winding road through lush green mountains with two cars driving along it",
+      "url": "https://images.unsplash.com/photo-1787052972213-82e8af1ce659?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8M3x8YmElMjB2aSUyMHZpZXRuYW0lMjB3aW5kaW5nJTIwbW91bnRhaW4lMjByb2FkfGVufDF8fHx8MTc5MzE1Mzk1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/MhkqqxQoFK8/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8M3x8YmElMjB2aSUyMHZpZXRuYW0lMjB3aW5kaW5nJTIwbW91bnRhaW4lMjByb2FkfGVufDF8fHx8MTc5MzE1Mzk1M3ww",
+      "photographer": "Adrià Sánchez Roqué",
+      "profile": "https://unsplash.com/@asr_optical",
+      "id": "photo-1787052972213-82e8af1ce659"
+    },
+    {
+      "position": 49,
+      "desc": "A motorcyclist riding along a winding mountain road through lush green hills",
+      "url": "https://images.unsplash.com/photo-1790577845230-ef7f32107829?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8MXx8YmElMjB2aSUyMHZpZXRuYW0lMjB3aW5kaW5nJTIwbW91bnRhaW4lMjByb2FkfGVufDF8fHx8MTc5MzE1Mzk1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/1i1-uAIsPzE/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8MXx8YmElMjB2aSUyMHZpZXRuYW0lMjB3aW5kaW5nJTIwbW91bnRhaW4lMjByb2FkfGVufDF8fHx8MTc5MzE1Mzk1M3ww",
+      "photographer": "Tyler Zhang",
+      "profile": "https://unsplash.com/@tylerzhang",
+      "id": "photo-1790577845230-ef7f32107829"
+    }
+  ]
+}
