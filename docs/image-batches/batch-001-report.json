@@ -1,11 +1,11 @@
 {
   "batch_id": "web-images-001",
-  "generated_at": "2026-10-28T02:23:44.118270+00:00",
+  "generated_at": "2026-10-28T02:26:58.844247+00:00",
   "status": "PUBLISHED_PENDING_DEPLOY",
   "source_type": "Curated attributed Unsplash stock photos (not AI-generated)",
-  "published_count": 49,
+  "published_count": 50,
   "failed_count": 0,
-  "skipped_count": 1,
+  "skipped_count": 0,
   "published": [
     {
       "position": 2,
@@ -496,15 +496,19 @@
       "sha256": "b52c64840c0a3e06d3d18ee915f107b12d9cdb439164f1c6be8a7038ed0f4d92",
       "photo_id": "photo-1712876156776-dbf5457e769a",
       "photographer": "Elric Pxl"
-    }
-  ],
-  "failed": [],
-  "skipped": [
+    },
     {
       "position": 1,
       "article": "hanoi-motorbike-rental/how-to-rent-a-motorbike-in-hanoi/index.html",
-      "reason": "Existing article image; no overwrite"
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/how-to-rent-a-motorbike-in-hanoi/",
+      "image_path": "/assets/img/articles/seo-003-how-to-rent-a-motorbike-in-hanoi.webp",
+      "bytes": 287172,
+      "sha256": "e7320f301cfa4aeee0428659b649d0ec1894c835bfa79089f80fa2c7b1364f1c",
+      "photo_id": "photo-1613131145282-9476375618e1",
+      "photographer": "Elliot Andrews"
     }
   ],
+  "failed": [],
+  "skipped": [],
   "disclaimer": "PUBLISHED_PENDING_DEPLOY is not a live website verification. Confirm GitHub Pages deployment and public URLs separately."
 }

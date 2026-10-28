@@ -19,8 +19,14 @@
       "primary_keyword": "how to rent a motorbike in hanoi",
       "topic_brief": "Step-by-step rental process article. Explain decisions and checks without inventing deposit, license or delivery policy.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "SKIPPED_ALREADY_ILLUSTRATED",
-      "image_path": "/assets/img/articles/seo-003-how-to-rent-a-motorbike-in-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-003-how-to-rent-a-motorbike-in-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1613131145282-9476375618e1",
+      "image_bytes": 287172,
+      "image_sha256": "e7320f301cfa4aeee0428659b649d0ec1894c835bfa79089f80fa2c7b1364f1c",
+      "photographer": "Elliot Andrews",
+      "alt": "People riding motorcycle on road near building during daytime"
     },
     {
       "batch_position": 2,
@@ -905,8 +911,8 @@
       "alt": "A man riding a motorcycle down a street at night"
     }
   ],
-  "published_count": 49,
+  "published_count": 50,
   "failed_count": 0,
-  "skipped_count": 1,
+  "skipped_count": 0,
   "source_note": "Curated real Unsplash stock photos, not AI-generated and not photographs of the shop's own motorbikes; these do not satisfy the SEO audit's owner-real-photo requirement."
 }
