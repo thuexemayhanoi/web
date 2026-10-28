@@ -3,7 +3,7 @@
   "source": "data/content-matrix.csv",
   "scope": "Only CLUSTER articles lacking an appropriate image; at execution verify live page before creating or editing",
   "expected_images": 50,
-  "status": "PLANNED",
+  "status": "PUBLISHED_PENDING_DEPLOY",
   "total_cluster_articles_in_matrix": 988,
   "format": "webp",
   "min_bytes": 100000,
@@ -19,7 +19,7 @@
       "primary_keyword": "how to rent a motorbike in hanoi",
       "topic_brief": "Step-by-step rental process article. Explain decisions and checks without inventing deposit, license or delivery policy.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
+      "status": "SKIPPED_ALREADY_ILLUSTRATED",
       "image_path": "/assets/img/articles/seo-003-how-to-rent-a-motorbike-in-hanoi.webp"
     },
     {
@@ -31,8 +31,14 @@
       "primary_keyword": "honda wave rental price hanoi",
       "topic_brief": "Verified Honda Wave price cluster: 150,000 VND/day, 700,000 VND/week, 900,000-1,200,000 VND/month. Cover semi-automatic riding, period comparisons and rider fit; never invent availability, deposits or policies.",
       "visual_direction": "Motorbike model close-up or illustrative cost-comparison scene, without prices in image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-017-honda-wave-rental-price-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-017-honda-wave-rental-price-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1549171916-ba20fdbb8b15",
+      "image_bytes": 240506,
+      "image_sha256": "3fefb32e1cd7edf176ae2419932d833bb450270c0cebb9007509af275a219605",
+      "photographer": "Huỳnh  Tấn Hậu",
+      "alt": "Black underbone motorcycle parked beside restaurant"
     },
     {
       "batch_position": 3,
@@ -43,8 +49,14 @@
       "primary_keyword": "electric motorbike rental hanoi",
       "topic_brief": "Electric motorbike cluster: verified 200,000 VND/day, 1,000,000 VND/week, 1,500,000 VND/month. Cover charging, range planning and who electric suits; no invented range claims or policies.",
       "visual_direction": "Automatic scooter product/editorial travel scene",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-021-electric-motorbike-rental-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-021-electric-motorbike-rental-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1761150284277-a5ab9758862c",
+      "image_bytes": 278602,
+      "image_sha256": "ed01ffc19171c99176c5795f5d6d2ae495adda70cf0f4e5d4b51ac7001b41ccb",
+      "photographer": "Juup Schram",
+      "alt": "White electric scooter parked near lush green plants"
     },
     {
       "batch_position": 4,
@@ -55,8 +67,14 @@
       "primary_keyword": "motorbike rental for expats in hanoi",
       "topic_brief": "Expat-focused monthly rental cluster. Use verified monthly ranges (900,000-1,200,000 for 150k models, 1,500,000 Air Blade/electric, 1,800,000-2,000,000 Vision). Cautious on registration checks and documents; no invented requirements.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-022-motorbike-rental-for-expats-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-022-motorbike-rental-for-expats-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1771948676966-eddba0c97c4e",
+      "image_bytes": 197650,
+      "image_sha256": "e25df336698c1fe7e37c154616e4889996ee0d0f8e8aa3d756c76f6d06cd5df9",
+      "photographer": "Evgeny Matveev",
+      "alt": "Two people ride a scooter through a city street"
     },
     {
       "batch_position": 5,
@@ -67,8 +85,14 @@
       "primary_keyword": "50cc scooter rental for beginners in hanoi",
       "topic_brief": "Beginner 50cc cluster: verified 200,000 VND/day for 50cc machines. Cover first-ride confidence, practice areas and cautious legal pointers without inventing license rules; 50cc day price only, no invented weekly/monthly.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-023-50cc-scooter-rental-for-beginners-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-023-50cc-scooter-rental-for-beginners-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1538408756343-b97b3347d585",
+      "image_bytes": 239340,
+      "image_sha256": "1abfc5672e73c244f71b0578f6c06a1909931429442fce227652d704ee27a6bd",
+      "photographer": "Wilco de Meijer",
+      "alt": "Gray moped parked near body of water"
     },
     {
       "batch_position": 6,
@@ -79,8 +103,14 @@
       "primary_keyword": "motorbike parking in hanoi old quarter",
       "topic_brief": "Old Quarter parking cluster: street parking customs, attended lots, sidewalk rules and caution about no-parking zones. No invented fee amounts; describe practices generally and advise checking locally.",
       "visual_direction": "Recognizable public streetscape of the named Hanoi area, not a fake shop image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-024-motorbike-parking-old-quarter-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-024-motorbike-parking-old-quarter-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1787174778739-53d8f337d9ea",
+      "image_bytes": 235530,
+      "image_sha256": "cb8fa1fde095136ead0b56b4c635f83be88a0b08d8b74a1ce0d9411cafbc8690",
+      "photographer": "Adrià Sánchez Roqué",
+      "alt": "Motorbikes parked under a red awning beside a street food stall in hanoi"
     },
     {
       "batch_position": 7,
@@ -91,8 +121,14 @@
       "primary_keyword": "hanoi to ninh binh motorbike",
       "topic_brief": "Ninh Binh route cluster: riding directions overview (CT.01/QL.1A direction), day-trip structure, stops such as Tam Coc, Trang An and Hoa Lu, and safety planning. General knowledge only, cautious and non-invented.",
       "visual_direction": "Illustrated Hanoi or Vietnam route scene tied to the destination",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-025-hanoi-to-ninh-binh-motorbike-route.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-025-hanoi-to-ninh-binh-motorbike-route.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1785347926123-74cf33a5cae1",
+      "image_bytes": 151048,
+      "image_sha256": "51309c8eb91789c9f64a186edba3b8b21d4a77a006e3c109c313aec1a1255158",
+      "photographer": "Hussain Badshah",
+      "alt": "Small boats on green water surrounded by massive rocky cliffs"
     },
     {
       "batch_position": 8,
@@ -103,8 +139,14 @@
       "primary_keyword": "motorbike fuel in hanoi",
       "topic_brief": "Fuel cluster: fuel station density in Hanoi, common fuel types at Vietnamese pumps, fueling etiquette and range planning for day trips. Cautious wording on fuel grades; no invented prices.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-026-motorbike-fuel-guide-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-026-motorbike-fuel-guide-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1775289393829-843e1dcdbc87",
+      "image_bytes": 218532,
+      "image_sha256": "2cc84861b3b6cd147d46896ad32f03567000875bc4090a796cc3d44bc13161fb",
+      "photographer": "Nguyen Minh",
+      "alt": "Man rides motorcycle at a shell gas station"
     },
     {
       "batch_position": 9,
@@ -115,8 +157,14 @@
       "primary_keyword": "motorbike license vietnam tourists",
       "topic_brief": "Tourist license awareness cluster: why license questions matter, general license categories, and why requirements must be verified with official sources rather than forums. Cautious wording only; no definitive legal claims, and direct readers to ask us and official channels.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-034-motorbike-license-vietnam-tourists.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-034-motorbike-license-vietnam-tourists.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1583431444107-84dbfa3a4026",
+      "image_bytes": 228124,
+      "image_sha256": "a917969db240c4a18a02c4bc4bb203440ef4613d00de27879a0ea6f047f6a908",
+      "photographer": "zibik",
+      "alt": "Person in pink jacket wearing white helmet riding white and black motorcycle during daytime"
     },
     {
       "batch_position": 10,
@@ -127,8 +175,14 @@
       "primary_keyword": "buying a used motorbike in hanoi",
       "topic_brief": "Used-motorbike buying cluster: the buy-versus-rent decision for long stays, what to inspect on a used bike, paperwork and ownership transfer topics to verify with official sources, and why many expats rent monthly instead. No invented prices or procedures.",
       "visual_direction": "Compare buying and renting a motorbike without invented prices",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-042-buying-a-used-motorbike-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-042-buying-a-used-motorbike-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1664785864004-608f9777dec7",
+      "image_bytes": 156294,
+      "image_sha256": "ade8ff929c22c06b85893c99d23231e043dded3acd40f9334c615bdb96a6fd64",
+      "photographer": "Phuoc PhamTran",
+      "alt": "A motorcycle parked on the side of a street"
     },
     {
       "batch_position": 11,
@@ -139,8 +193,14 @@
       "primary_keyword": "motorbike rental deposit hanoi",
       "topic_brief": "Deposit awareness cluster: how deposits generally work in motorbike rental, why established shops prefer cash deposits to held passports, what to agree in writing before riding, and the questions that prevent disputes at return. Describe practices generally; our specific terms are agreed directly and no invented policies.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-051-motorbike-rental-deposit-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-051-motorbike-rental-deposit-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1643804926339-e94f0a655185",
+      "image_bytes": 158594,
+      "image_sha256": "bf916f2c50e402e8e1ccac2b4dc16a06b73cd32e80194c381f877da0f1e34088",
+      "photographer": "Filip Szalbot",
+      "alt": "A bunch of keys sitting on top of a wooden table"
     },
     {
       "batch_position": 12,
@@ -151,8 +211,14 @@
       "primary_keyword": "50cc vs 125cc hanoi",
       "topic_brief": "Engine-size comparison cluster: what 50cc and larger machines each offer for Hanoi riders, city-lane agility versus longer-road comfort, who each size suits including license considerations to verify, and verified pricing context for the 50cc tier at 200,000 VND per day. No invented specifications or policies.",
       "visual_direction": "50cc city scooter rider context, no license guarantee",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-056-50cc-vs-125cc-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-056-50cc-vs-125cc-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1654697147753-90ebb2bb8438",
+      "image_bytes": 234982,
+      "image_sha256": "98f86ca56702b2e377b490d44dc870222d0741f65215d2308cfba07f6544dfd0",
+      "photographer": "Lance Chang",
+      "alt": "A scooter parked next to a scooter on a sidewalk"
     },
     {
       "batch_position": 13,
@@ -163,8 +229,14 @@
       "primary_keyword": "yamaha sirius rental hanoi",
       "topic_brief": "Yamaha Sirius model cluster under the main rental guide: verified 150,000 VND/day, 700,000 VND/week, 900,000-1,200,000 VND/month. Explain semi-automatic riding and durability; no invented policies.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-020-yamaha-sirius-rental-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-020-yamaha-sirius-rental-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1695013147209-1516a20f0cdd",
+      "image_bytes": 258516,
+      "image_sha256": "69aec6c4ec3eaecf1324210ba9e69d74126b994ef914eaa57512b9a1dd638a17",
+      "photographer": "Christo Joseph",
+      "alt": "A black motorcycle parked on the side of a road"
     },
     {
       "batch_position": 14,
@@ -175,8 +247,14 @@
       "primary_keyword": "honda click rental price hanoi",
       "topic_brief": "Verified Honda Click price cluster: 150,000 VND/day, 700,000 VND/week, 900,000-1,200,000 VND/month. Position as budget automatic; compare with Mio and Vision without inventing policies.",
       "visual_direction": "Motorbike model close-up or illustrative cost-comparison scene, without prices in image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-018-honda-click-rental-price-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-018-honda-click-rental-price-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1628798211398-29d5c9773fbd",
+      "image_bytes": 161162,
+      "image_sha256": "d11d7a300ac72b16fb70d2e6946541b6463bc68ce89e4e94711213d8326703d6",
+      "photographer": "Mehmet Talha Onuk",
+      "alt": "Black and gray motor scooter parked beside brown brick wall"
     },
     {
       "batch_position": 15,
@@ -187,8 +265,14 @@
       "primary_keyword": "scooter vs semi automatic hanoi",
       "topic_brief": "Comparison cluster between automatic scooters and semi-automatic bikes: how each transmits power, which suits beginners, traffic behavior, and model examples with verified prices (150,000 VND/day tier and the premium automatics). No invented policies.",
       "visual_direction": "Automatic scooter product/editorial travel scene",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-036-scooter-vs-semi-automatic-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-036-scooter-vs-semi-automatic-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1660725997223-efbedf3397fb",
+      "image_bytes": 182126,
+      "image_sha256": "445b0765432b8d46e89e89db713cf01e9e50217f88d568f70c2c2dd810a27341",
+      "photographer": "Hervé Papaux",
+      "alt": "A motorcycle parked on a road"
     },
     {
       "batch_position": 16,
@@ -199,8 +283,14 @@
       "primary_keyword": "monthly motorbike rental hanoi expats model choice",
       "topic_brief": "Long-term rental cluster for expats, focused on matching model type and verified monthly pricing to long-term use. Use verified monthly prices where relevant and never invent discounts, deposits, maintenance guarantees or contract terms.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-610-expats-model-choice.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-610-expats-model-choice.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1726038563107-3eef0ef11367",
+      "image_bytes": 228870,
+      "image_sha256": "b247d059cb642a4ae43312d0ce5f2eee36f5abfe08c565f99023b2708c9d7bbe",
+      "photographer": "WL Rai",
+      "alt": "A group of motor scooters parked in front of a yellow building"
     },
     {
       "batch_position": 17,
@@ -211,8 +301,14 @@
       "primary_keyword": "west lake motorbike ride hanoi",
       "topic_brief": "West Lake riding cluster: the loop around Tay Ho, connecting from the Old Quarter, traffic character by section, and stops in general terms. Cross-link parking habits; no invented fees, and describe practices generally.",
       "visual_direction": "Recognizable public streetscape of the named Hanoi area, not a fake shop image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-033-west-lake-motorbike-ride-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-033-west-lake-motorbike-ride-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1790815646916-18f756384f0f",
+      "image_bytes": 236502,
+      "image_sha256": "21e8b261c6ae2eb3ed2d1a41c970084b637d10694b758d60251ea380fb5352f3",
+      "photographer": "Hạnh Kiều",
+      "alt": "Silhouettes of people on a bench and motorbikes by a lake at dusk"
     },
     {
       "batch_position": 18,
@@ -223,8 +319,14 @@
       "primary_keyword": "hanoi to ba vi motorbike route planning",
       "topic_brief": "Destination cluster for a Hanoi-to-Ba Vi motorbike trip, focused on route-planning questions, road types and checkpoints that should be verified before departure. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
       "visual_direction": "Illustrated Hanoi or Vietnam route scene tied to the destination",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-688-hanoi-to-ba-vi-route-planning.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-688-hanoi-to-ba-vi-route-planning.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1777378455431-e92ad2568c32",
+      "image_bytes": 283712,
+      "image_sha256": "4f21d6a9bad1990125e434d4e9e8c21bc058f48918e9ba1cecce75fb182be39a",
+      "photographer": "Nguyen Quan",
+      "alt": "Winding road through lush green mountains and trees"
     },
     {
       "batch_position": 19,
@@ -235,8 +337,14 @@
       "primary_keyword": "motorbike helmet guide hanoi",
       "topic_brief": "Helmet and gear awareness cluster: why a proper helmet matters in Hanoi traffic, how to check the fit of a rental helmet, when it makes sense to buy your own, and general gear habits. Describe practices generally; do not invent stock, brands or prices, and refer readers to us for specifics.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-029-motorbike-helmet-guide-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-029-motorbike-helmet-guide-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1556570508-121c77af2a75",
+      "image_bytes": 101718,
+      "image_sha256": "fa52a32363d32329af77d7b2c6eded6ea30a986fce3df2b98097babb68996d1f",
+      "photographer": "Gijs Coolen",
+      "alt": "Grayscale selective focus photography of full-face helmet on desk"
     },
     {
       "batch_position": 20,
@@ -247,8 +355,14 @@
       "primary_keyword": "motorbike rental scams vietnam",
       "topic_brief": "Rental-scam awareness cluster: commonly reported problems such as unclear damage liability, document disputes and phantom fees, described generally; the habits that prevent them, including photos at pickup, written terms and choosing established shops. Never accuse anyone or invent incidents.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-043-motorbike-rental-scams-vietnam.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-043-motorbike-rental-scams-vietnam.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1766324532545-5796beb3aaae",
+      "image_bytes": 110662,
+      "image_sha256": "4b2f4374d25f6fe150a7c2fcb34593393ce02cd287b790019a4c551317b3091b",
+      "photographer": "Tuaans",
+      "alt": "Man sitting on scooter looking at phone"
     },
     {
       "batch_position": 21,
@@ -259,8 +373,14 @@
       "primary_keyword": "buy vs rent motorbike hanoi expats rent vs buy decision",
       "topic_brief": "Buying-versus-renting cluster for expats, focused on deciding between rental flexibility and ownership responsibility for this audience. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
       "visual_direction": "Compare buying and renting a motorbike without invented prices",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-841-expats-rent-vs-buy-decision.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-841-expats-rent-vs-buy-decision.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1647105996370-a9781dff6a14",
+      "image_bytes": 224056,
+      "image_sha256": "980fdaf6027b9bf970153b2f254ea505ab8256b9ed60807008c027ef78c61047",
+      "photographer": "Akela Biker",
+      "alt": "A motorcycle parked in front of a building with blue shutters"
     },
     {
       "batch_position": 22,
@@ -271,8 +391,14 @@
       "primary_keyword": "hanoi motorbike rental first-time visitors bike choice",
       "topic_brief": "Audience-specific Hanoi rental cluster for first-time visitors, focused strictly on selecting a suitable rental bike for the rider profile, trip length and confidence level. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-057-first-time-visitors-bike-choice.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-057-first-time-visitors-bike-choice.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1730313533691-badce0b6e376",
+      "image_bytes": 268760,
+      "image_sha256": "b13e94d02ea36c257220c121144ba16a5ec5da7f0f96d49966a738131548c238",
+      "photographer": "Dynamic Wang",
+      "alt": "A man and a woman standing next to motorcycles"
     },
     {
       "batch_position": 23,
@@ -283,8 +409,14 @@
       "primary_keyword": "50cc motorbike hanoi beginners choosing a 50cc",
       "topic_brief": "50cc cluster for beginners, focused on how to decide whether a 50cc option fits the rider and city use. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
       "visual_direction": "50cc city scooter rider context, no license guarantee",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-230-beginners-choosing-a-50cc.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-230-beginners-choosing-a-50cc.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1565793132381-4c8677c5a72c",
+      "image_bytes": 140734,
+      "image_sha256": "fc5ec1b049f25833f658a6722d026a9f0a5e91f6c6a1495c924a9f616dc0cb1a",
+      "photographer": "Tristan Gevaux",
+      "alt": "Grayscale photo of moped bike on street"
     },
     {
       "batch_position": 24,
@@ -295,8 +427,14 @@
       "primary_keyword": "honda wave vs yamaha sirius",
       "topic_brief": "Comparison cluster of the two semi-automatic rentals, both verified at 150,000 VND/day, 700,000 VND/week, 900,000-1,200,000 VND/month. Compare gear shifting, rider fit and city behavior in general terms; no invented specifications or policies.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-028-honda-wave-vs-yamaha-sirius-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-028-honda-wave-vs-yamaha-sirius-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1708400586139-2ba956acf25f",
+      "image_bytes": 170674,
+      "image_sha256": "c2d4233ca09ff546136e24491a4e9c5a7b91aa0030235eecbcd5c9b8bd0c4f73",
+      "photographer": "Dũng Nguyễn",
+      "alt": "A group of motorcycles parked under a tree"
     },
     {
       "batch_position": 25,
@@ -307,8 +445,14 @@
       "primary_keyword": "honda air blade rental price hanoi",
       "topic_brief": "Verified Honda Air Blade price cluster: 200,000 VND/day, 1,000,000 VND/week, 1,500,000 VND/month. Cover who the larger automatic suits and compare with Vision pricing.",
       "visual_direction": "Motorbike model close-up or illustrative cost-comparison scene, without prices in image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-019-honda-air-blade-rental-price-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-019-honda-air-blade-rental-price-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1674891683584-467b6e23f81b",
+      "image_bytes": 217310,
+      "image_sha256": "5e6178ae22a769a45add228d200072dbce83a25b99632fd2b1e0d36f9441fc16",
+      "photographer": "UAVWRIGHT Productions",
+      "alt": "A scooter is parked in front of a fence"
     },
     {
       "batch_position": 26,
@@ -319,8 +463,14 @@
       "primary_keyword": "honda vision vs air blade",
       "topic_brief": "Comparison of the two premium automatics: verified Honda Vision rates of 200,000 VND/day, 1,000,000 VND/week and 1,800,000-2,000,000 VND/month against Honda Air Blade rates of 200,000 VND/day, 1,000,000 VND/week and 1,500,000 VND/month. Compare comfort and monthly arithmetic; no invented policies.",
       "visual_direction": "Automatic scooter product/editorial travel scene",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-037-honda-vision-vs-air-blade-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-037-honda-vision-vs-air-blade-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1773394089961-c4730d1e69bc",
+      "image_bytes": 212150,
+      "image_sha256": "3819e9184c1911fcf3920431357290940031482b0d88458f32eb9bf967ae22ab",
+      "photographer": "Khanh Do",
+      "alt": "Two white scooters parked on a street"
     },
     {
       "batch_position": 27,
@@ -331,8 +481,14 @@
       "primary_keyword": "monthly motorbike rental hanoi expats monthly budget",
       "topic_brief": "Long-term rental cluster for expats, focused on planning rental cost plus normal operating expenses without inventing discounts. Use verified monthly prices where relevant and never invent discounts, deposits, maintenance guarantees or contract terms.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-611-expats-monthly-budget.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-611-expats-monthly-budget.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1772064230751-0fc06a888904",
+      "image_bytes": 138884,
+      "image_sha256": "ed06f5e37a94c47c3f43cda67b1daebcf514e4f460473de221a7e8d4bf2592e3",
+      "photographer": "Yu Ko",
+      "alt": "Two scooters parked against a yellow wall"
     },
     {
       "batch_position": 28,
@@ -343,8 +499,14 @@
       "primary_keyword": "hoan kiem lake motorbike",
       "topic_brief": "Hoan Kiem riding cluster: the lake loop, the Old Quarter core streets, weekend pedestrian arrangements to verify on the day, and parking caution in the densest part of the city. Describe practices generally; no invented fees or schedules.",
       "visual_direction": "Recognizable public streetscape of the named Hanoi area, not a fake shop image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-038-hoan-kiem-lake-riding-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-038-hoan-kiem-lake-riding-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1789611618857-2497224faa1c",
+      "image_bytes": 255464,
+      "image_sha256": "3db8e67749b55737821e763009f4ad449d949262d01e5a81b51576a32bb933c6",
+      "photographer": "Harrisun S",
+      "alt": "The turtle tower on a small island in hoan kiem lake in hanoi"
     },
     {
       "batch_position": 29,
@@ -355,8 +517,14 @@
       "primary_keyword": "hanoi to ba vi motorbike one day feasibility",
       "topic_brief": "Destination cluster for a Hanoi-to-Ba Vi motorbike trip, focused on whether a same-day plan is realistic in principle and what factors can make it unsuitable, without fabricated times. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
       "visual_direction": "Illustrated Hanoi or Vietnam route scene tied to the destination",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-689-hanoi-to-ba-vi-one-day-feasibility.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-689-hanoi-to-ba-vi-one-day-feasibility.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1675757275576-c387423d1391",
+      "image_bytes": 226314,
+      "image_sha256": "974c429e5f0dcde4e39751b4bbd803bac18985cf43d276ec74f381170c7a0e0e",
+      "photographer": "Huy Nguyen",
+      "alt": "A group of bikers riding down a winding road"
     },
     {
       "batch_position": 30,
@@ -367,8 +535,14 @@
       "primary_keyword": "motorbike maintenance checklist hanoi",
       "topic_brief": "Renter-focused maintenance awareness cluster: pre-ride checks for tires, brakes, lights, horn and fuel; what a renter should flag to us versus ignore; and how to treat a rental bike with respect. Frame as practical checks; never invent service intervals, policies or procedures.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-030-motorbike-maintenance-checklist-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-030-motorbike-maintenance-checklist-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1636761358757-0a616eb9e17e",
+      "image_bytes": 131686,
+      "image_sha256": "653298691330354b71414052cb5e777083f7584532e13d91d63846457e90e29a",
+      "photographer": "Angry._.Kat",
+      "alt": "A man working on a motorcycle in a garage"
     },
     {
       "batch_position": 31,
@@ -379,8 +553,14 @@
       "primary_keyword": "riding a motorbike with a child in vietnam",
       "topic_brief": "Family riding awareness cluster: child helmets and fit, why requirements for carrying children must be verified with official sources, practical alternatives for families, and what to ask us before riding with a child. Cautious wording only; no invented rules or policies.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-045-riding-a-motorbike-with-a-child-in-vietnam.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-045-riding-a-motorbike-with-a-child-in-vietnam.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1785049344773-9da61ea410a3",
+      "image_bytes": 237706,
+      "image_sha256": "2f4f86070007a70feafa29396382f61ec078a5566c22fd540c644e47e08022fb",
+      "photographer": "Paul Macdonald",
+      "alt": "Family with two children riding a scooter on a street"
     },
     {
       "batch_position": 32,
@@ -391,8 +571,14 @@
       "primary_keyword": "buy vs rent motorbike hanoi expats used bike inspection",
       "topic_brief": "Buying-versus-renting cluster for expats, focused on a used-bike inspection framework covering visible condition and questions before purchase. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
       "visual_direction": "Compare buying and renting a motorbike without invented prices",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-842-expats-used-bike-inspection.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-842-expats-used-bike-inspection.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1736775205983-2534f5e69212",
+      "image_bytes": 103640,
+      "image_sha256": "4bb2724e001844acf456e3aff2ba639814f9533136cf400700d947ce00027c97",
+      "photographer": "Tim Kuhn",
+      "alt": "A close up of a motorcycle tire and brake"
     },
     {
       "batch_position": 33,
@@ -403,8 +589,14 @@
       "primary_keyword": "hanoi motorbike rental first-time visitors pre-ride inspection",
       "topic_brief": "Audience-specific Hanoi rental cluster for first-time visitors, focused strictly on a practical pre-ride inspection covering tires, brakes, controls and visible condition without inventing shop guarantees. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-058-first-time-visitors-pre-ride-inspection.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-058-first-time-visitors-pre-ride-inspection.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1783791088536-c50efae9c2ff",
+      "image_bytes": 113464,
+      "image_sha256": "06290a161489c9eb9dd86dbcc9b2329d8c890412d446ceb8c24b89922b917e00",
+      "photographer": "Ronnzy Moto",
+      "alt": "White motorcycle rear wheel with disc brake and chain"
     },
     {
       "batch_position": 34,
@@ -415,8 +607,14 @@
       "primary_keyword": "50cc motorbike hanoi beginners city traffic",
       "topic_brief": "50cc cluster for beginners, focused on what low-speed urban traffic changes for 50cc planning and confidence. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
       "visual_direction": "50cc city scooter rider context, no license guarantee",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-231-beginners-city-traffic.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-231-beginners-city-traffic.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1743485754066-f45e26489e9a",
+      "image_bytes": 176276,
+      "image_sha256": "0807e69afb8a581ce2b7f66ca68f6e0277d518c107c717885410d7c77c2ad129",
+      "photographer": "Kevin Charit",
+      "alt": "Busy street in hanoi, vietnam, decorated with flags"
     },
     {
       "batch_position": 35,
@@ -427,8 +625,14 @@
       "primary_keyword": "yamaha mio rental price hanoi",
       "topic_brief": "Verified Yamaha Mio price cluster: 150,000 VND/day, 700,000 VND/week, 900,000-1,200,000 VND/month. Position as a light budget automatic for city riding; compare with the Honda Click without inventing availability, deposits or policies.",
       "visual_direction": "Motorbike model close-up or illustrative cost-comparison scene, without prices in image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-027-yamaha-mio-rental-price-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-027-yamaha-mio-rental-price-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1643225765909-9f0cb9181b0c",
+      "image_bytes": 238896,
+      "image_sha256": "2033e785238ad122a9217182832171f4826abd3e491a1b960556c60411ca9e6b",
+      "photographer": "Johnson Hung",
+      "alt": "A blue scooter parked in front of a stone wall"
     },
     {
       "batch_position": 36,
@@ -439,8 +643,14 @@
       "primary_keyword": "honda click vs yamaha mio",
       "topic_brief": "Comparison of the two budget automatics at the verified 150,000 VND per day, 700,000 VND per week and 900,000-1,200,000 VND per month tier: how the Honda Click and Yamaha Mio differ in character, size and city use, with identical pricing arithmetic. No invented policies.",
       "visual_direction": "Automatic scooter product/editorial travel scene",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-047-honda-click-vs-yamaha-mio-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-047-honda-click-vs-yamaha-mio-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1751183848275-c48ca47d2d28",
+      "image_bytes": 181280,
+      "image_sha256": "a7f55ac715ae712d30104a41fb3d75112b053d72d5d7d80da97eb9f17fa4461c",
+      "photographer": "mdreza jalali",
+      "alt": "Dashboard view of a red scooter"
     },
     {
       "batch_position": 37,
@@ -451,8 +661,14 @@
       "primary_keyword": "monthly motorbike rental hanoi expats maintenance expectations",
       "topic_brief": "Long-term rental cluster for expats, focused on what long-term renters should monitor and what to ask the shop without promising service terms. Use verified monthly prices where relevant and never invent discounts, deposits, maintenance guarantees or contract terms.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-612-expats-maintenance-expectations.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-612-expats-maintenance-expectations.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1746014995710-cfb7596d8967",
+      "image_bytes": 126266,
+      "image_sha256": "9925af7c59414ee6bad0d884b05d283eb58b8ff7efd6bbdd555af4ca7d00f878",
+      "photographer": "setengah limasore",
+      "alt": "A motorcyclist is pouring oil into their motorcycle"
     },
     {
       "batch_position": 38,
@@ -463,8 +679,14 @@
       "primary_keyword": "long bien bridge motorbike",
       "topic_brief": "Long Bien Bridge riding cluster: the bridge's role in Hanoi riding, river and Old Quarter approaches, surface and traffic character, and how it connects the Long Bien side with the center. General knowledge only, cautious and non-invented.",
       "visual_direction": "Recognizable public streetscape of the named Hanoi area, not a fake shop image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-040-long-bien-bridge-motorbike-guide-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-040-long-bien-bridge-motorbike-guide-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1762333329631-5c5941fec44c",
+      "image_bytes": 267278,
+      "image_sha256": "2c78ec17267bd75e4e8324b01cf2413151e1c58cda0b38e84df282f1e3717ee8",
+      "photographer": "Easy Lee",
+      "alt": "Long bien bridge in hanoi, vietnam, on a sunny day"
     },
     {
       "batch_position": 39,
@@ -475,8 +697,14 @@
       "primary_keyword": "hanoi to ba vi motorbike two day itinerary",
       "topic_brief": "Destination cluster for a Hanoi-to-Ba Vi motorbike trip, focused on a flexible two-day structure with rest and weather contingencies rather than fixed timing promises. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
       "visual_direction": "Illustrated Hanoi or Vietnam route scene tied to the destination",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-690-hanoi-to-ba-vi-two-day-itinerary.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-690-hanoi-to-ba-vi-two-day-itinerary.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1787052972213-82e8af1ce659",
+      "image_bytes": 249340,
+      "image_sha256": "af3c35714a3161816b43d977f63bb3068cb121db7bec9af5d031097362c65986",
+      "photographer": "Adrià Sánchez Roqué",
+      "alt": "A winding road through lush green mountains with two cars driving along it"
     },
     {
       "batch_position": 40,
@@ -487,8 +715,14 @@
       "primary_keyword": "riding a motorbike in hanoi rainy season",
       "topic_brief": "Rainy season riding cluster: what Hanoi rain feels like for riders, longer braking distances, visibility habits, wet paint and metal surfaces, gear choices and when to simply stop for coffee. Cautious practical guidance; no invented statistics or policies.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-035-riding-a-motorbike-in-hanoi-rainy-season.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-035-riding-a-motorbike-in-hanoi-rainy-season.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1632675776835-158debd58a67",
+      "image_bytes": 164174,
+      "image_sha256": "6d95e9bb7019df5427fc2807f4f595a71d2e515bddd38ddf93a57b645ab4e1d0",
+      "photographer": "Giang Nguyen",
+      "alt": "A person riding a motorcycle with a cover on it"
     },
     {
       "batch_position": 41,
@@ -499,8 +733,14 @@
       "primary_keyword": "hanoi motorbike traffic rules",
       "topic_brief": "Traffic-rules awareness cluster: the general rules of the road that matter to riders in Hanoi, how enforcement feels in practice, and why current official sources must be consulted for requirements such as helmets, licensing and restrictions. Cautious wording only; no definitive legal claims.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-055-hanoi-motorbike-traffic-rules.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-055-hanoi-motorbike-traffic-rules.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1751285840498-cd89e20aaa97",
+      "image_bytes": 236330,
+      "image_sha256": "dbd4855747865649f8c2d96d8ac5b7afa53d3b00fe4c52e9c960872971bdf40d",
+      "photographer": "Mauro Lima",
+      "alt": "Traffic jam of motorbikes in a city street"
     },
     {
       "batch_position": 42,
@@ -511,8 +751,14 @@
       "primary_keyword": "buy vs rent motorbike hanoi expats ownership costs",
       "topic_brief": "Buying-versus-renting cluster for expats, focused on cost categories beyond purchase price, contrasted cautiously with verified rental pricing. Never imply that the rental business has bikes for sale; legal or registration details require current official sources.",
       "visual_direction": "Compare buying and renting a motorbike without invented prices",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-843-expats-ownership-costs.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-843-expats-ownership-costs.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1636761358774-6c14f281d5c3",
+      "image_bytes": 100788,
+      "image_sha256": "ff241baa583f35b3bdd17aa5772bdbc490e8070f1d061bf832ad3015cdcfff53",
+      "photographer": "Angry._.Kat",
+      "alt": "A close up of a person working on a motorcycle"
     },
     {
       "batch_position": 43,
@@ -523,8 +769,14 @@
       "primary_keyword": "hanoi motorbike rental first-time visitors rental paperwork questions",
       "topic_brief": "Audience-specific Hanoi rental cluster for first-time visitors, focused strictly on the questions to clarify before renting while avoiding invented deposit, license or document rules. Keep the article distinct from the main rental hub and sibling audience pages; use verified business facts only where relevant.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-059-first-time-visitors-rental-paperwork-questions.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-059-first-time-visitors-rental-paperwork-questions.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1586441133374-ed1cb4007a47",
+      "image_bytes": 204408,
+      "image_sha256": "b0d7b263499b0d81997b2cc9bd0e0368fb96c9030b482332c2f366e666154774",
+      "photographer": "CardMapr.nl",
+      "alt": "A passport and a boarding pass are on a bag"
     },
     {
       "batch_position": 44,
@@ -535,8 +787,14 @@
       "primary_keyword": "50cc motorbike hanoi beginners parking",
       "topic_brief": "50cc cluster for beginners, focused on parking and maneuverability considerations for compact urban use. Keep the verified 50cc price at 200,000 VND/day when price is relevant; do not invent longer-term pricing, legal guarantees or vehicle specifications.",
       "visual_direction": "50cc city scooter rider context, no license guarantee",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-232-beginners-parking.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-232-beginners-parking.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1778533190510-94c66c9d42ca",
+      "image_bytes": 263398,
+      "image_sha256": "1ebd60582710daef3021932a8a1fee062b9ee674e91901f613e2b3624a110780",
+      "photographer": "Céline Cao",
+      "alt": "A woman walks down a street lined with parked motorcycles"
     },
     {
       "batch_position": 45,
@@ -547,8 +805,14 @@
       "primary_keyword": "honda wave rental daily price hanoi",
       "topic_brief": "Pricing cluster for Honda Wave focused on daily rental price. Use only the verified prices available on the site; if a period has no verified figure, explicitly direct readers to contact rather than estimating.",
       "visual_direction": "Motorbike model close-up or illustrative cost-comparison scene, without prices in image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-441-honda-wave-daily-price.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-441-honda-wave-daily-price.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1715708336899-3134c9e10c7c",
+      "image_bytes": 293862,
+      "image_sha256": "610da81847aaaceed36532fb367282e3594257df8e138d2843f7e97bc14c8f8d",
+      "photographer": "Nicole Geri",
+      "alt": "A motorcycle parked on the side of a road"
     },
     {
       "batch_position": 46,
@@ -559,8 +823,14 @@
       "primary_keyword": "electric scooter vs petrol scooter",
       "topic_brief": "Comparison cluster: the electric motorbike at verified 200,000 VND per day, 1,000,000 VND per week and 1,500,000 VND per month against the petrol automatics, covering charging versus fueling, riding character, range planning and city suitability. No invented specifications; cautious where performance varies by model.",
       "visual_direction": "Automatic scooter product/editorial travel scene",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-050-electric-vs-petrol-scooter-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-050-electric-vs-petrol-scooter-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1590417395630-10bb7c3a36b0",
+      "image_bytes": 124170,
+      "image_sha256": "d0b52050e91e6edd4e61998a3bd52637bf85b4d65cf6e52ec1dd72110e403bc4",
+      "photographer": "Kumpan Electric",
+      "alt": "White and blue motor scooter"
     },
     {
       "batch_position": 47,
@@ -571,8 +841,14 @@
       "primary_keyword": "monthly motorbike rental hanoi expats parking and security",
       "topic_brief": "Long-term rental cluster for expats, focused on building safe daily parking habits and questions for home or workplace parking. Use verified monthly prices where relevant and never invent discounts, deposits, maintenance guarantees or contract terms.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-613-expats-parking-and-security.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-613-expats-parking-and-security.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1772418591739-b18510830579",
+      "image_bytes": 200890,
+      "image_sha256": "b7c69ff70636d23dfcd90a493a7e58798537b18169ed894d1ef25e38d9b7cfcd",
+      "photographer": "Florian Schmid",
+      "alt": "Phuc long building with motorcycles parked outside"
     },
     {
       "batch_position": 48,
@@ -583,8 +859,14 @@
       "primary_keyword": "old quarter hanoi motorbike rental planning",
       "topic_brief": "Local riding cluster for Old Quarter, focused on how the area relates to the verified Long Bien shop location and practical rental planning. Avoid fake branches, delivery promises, live traffic data or invented parking rules; keep Long Bien pickup context accurate.",
       "visual_direction": "Recognizable public streetscape of the named Hanoi area, not a fake shop image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-515-old-quarter-rental-planning.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-515-old-quarter-rental-planning.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1712994121512-33d1261919c7",
+      "image_bytes": 161122,
+      "image_sha256": "3312e15b03b85489689e0436648d7a4cd2e5988cde99bbab44f8d01984101715",
+      "photographer": "Jacek Janiczak",
+      "alt": "A motorcycle parked in a narrow alley way"
     },
     {
       "batch_position": 49,
@@ -595,8 +877,14 @@
       "primary_keyword": "hanoi to ba vi motorbike bike choice",
       "topic_brief": "Destination cluster for a Hanoi-to-Ba Vi motorbike trip, focused on what bike characteristics matter for this destination and which verified rental categories to discuss. Require current checks for road restrictions, weather and closures; do not fabricate distance, duration or live conditions.",
       "visual_direction": "Illustrated Hanoi or Vietnam route scene tied to the destination",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-691-hanoi-to-ba-vi-bike-choice.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-691-hanoi-to-ba-vi-bike-choice.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1790577845230-ef7f32107829",
+      "image_bytes": 204618,
+      "image_sha256": "0a567f50b49b0b039a2d0f9c6a26845cb5e3b5854ce3ad501b81a1febcd0c9b8",
+      "photographer": "Tyler Zhang",
+      "alt": "A motorcyclist riding along a winding mountain road through lush green hills"
     },
     {
       "batch_position": 50,
@@ -607,8 +895,18 @@
       "primary_keyword": "riding a motorbike at night in hanoi",
       "topic_brief": "Night riding cluster: how Hanoi riding changes after dark, lighting and visibility habits, reading unfamiliar streets, avoiding unlit hazards, and when to simply leave the bike parked. Cautious practical guidance; no invented statistics.",
       "visual_direction": "Contextual Hanoi motorbike rental editorial image",
-      "status": "PLANNED",
-      "image_path": "/assets/img/articles/seo-039-motorbike-night-riding-hanoi.webp"
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "image_path": "/assets/img/articles/seo-039-motorbike-night-riding-hanoi.webp",
+      "source_type": "Unsplash stock photo, not AI generated",
+      "photo_id": "photo-1712876156776-dbf5457e769a",
+      "image_bytes": 177256,
+      "image_sha256": "b52c64840c0a3e06d3d18ee915f107b12d9cdb439164f1c6be8a7038ed0f4d92",
+      "photographer": "Elric Pxl",
+      "alt": "A man riding a motorcycle down a street at night"
     }
-  ]
+  ],
+  "published_count": 49,
+  "failed_count": 0,
+  "skipped_count": 1,
+  "source_note": "Curated real Unsplash stock photos, not AI-generated and not photographs of the shop's own motorbikes; these do not satisfy the SEO audit's owner-real-photo requirement."
 }

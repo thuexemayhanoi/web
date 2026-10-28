@@ -1,0 +1,510 @@
+{
+  "batch_id": "web-images-001",
+  "generated_at": "2026-10-28T02:23:44.118270+00:00",
+  "status": "PUBLISHED_PENDING_DEPLOY",
+  "source_type": "Curated attributed Unsplash stock photos (not AI-generated)",
+  "published_count": 49,
+  "failed_count": 0,
+  "skipped_count": 1,
+  "published": [
+    {
+      "position": 2,
+      "article": "hanoi-motorbike-rental-cost/honda-wave-rental-price-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-wave-rental-price-hanoi/",
+      "image_path": "/assets/img/articles/seo-017-honda-wave-rental-price-hanoi.webp",
+      "bytes": 240506,
+      "sha256": "3fefb32e1cd7edf176ae2419932d833bb450270c0cebb9007509af275a219605",
+      "photo_id": "photo-1549171916-ba20fdbb8b15",
+      "photographer": "Huỳnh  Tấn Hậu"
+    },
+    {
+      "position": 3,
+      "article": "hanoi-scooter-rental/electric-motorbike-rental-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/electric-motorbike-rental-hanoi/",
+      "image_path": "/assets/img/articles/seo-021-electric-motorbike-rental-hanoi.webp",
+      "bytes": 278602,
+      "sha256": "ed01ffc19171c99176c5795f5d6d2ae495adda70cf0f4e5d4b51ac7001b41ccb",
+      "photo_id": "photo-1761150284277-a5ab9758862c",
+      "photographer": "Juup Schram"
+    },
+    {
+      "position": 4,
+      "article": "monthly-motorbike-rental-hanoi/motorbike-rental-for-expats-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/motorbike-rental-for-expats-hanoi/",
+      "image_path": "/assets/img/articles/seo-022-motorbike-rental-for-expats-hanoi.webp",
+      "bytes": 197650,
+      "sha256": "e25df336698c1fe7e37c154616e4889996ee0d0f8e8aa3d756c76f6d06cd5df9",
+      "photo_id": "photo-1771948676966-eddba0c97c4e",
+      "photographer": "Evgeny Matveev"
+    },
+    {
+      "position": 5,
+      "article": "hanoi-50cc-motorbike-rental/50cc-scooter-rental-for-beginners-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/50cc-scooter-rental-for-beginners-hanoi/",
+      "image_path": "/assets/img/articles/seo-023-50cc-scooter-rental-for-beginners-hanoi.webp",
+      "bytes": 239340,
+      "sha256": "1abfc5672e73c244f71b0578f6c06a1909931429442fce227652d704ee27a6bd",
+      "photo_id": "photo-1538408756343-b97b3347d585",
+      "photographer": "Wilco de Meijer"
+    },
+    {
+      "position": 6,
+      "article": "motorbike-rental-hanoi-old-quarter/motorbike-parking-old-quarter-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/motorbike-parking-old-quarter-hanoi/",
+      "image_path": "/assets/img/articles/seo-024-motorbike-parking-old-quarter-hanoi.webp",
+      "bytes": 235530,
+      "sha256": "cb8fa1fde095136ead0b56b4c635f83be88a0b08d8b74a1ce0d9411cafbc8690",
+      "photo_id": "photo-1787174778739-53d8f337d9ea",
+      "photographer": "Adrià Sánchez Roqué"
+    },
+    {
+      "position": 7,
+      "article": "hanoi-motorbike-trips/hanoi-to-ninh-binh-motorbike-route/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ninh-binh-motorbike-route/",
+      "image_path": "/assets/img/articles/seo-025-hanoi-to-ninh-binh-motorbike-route.webp",
+      "bytes": 151048,
+      "sha256": "51309c8eb91789c9f64a186edba3b8b21d4a77a006e3c109c313aec1a1255158",
+      "photo_id": "photo-1785347926123-74cf33a5cae1",
+      "photographer": "Hussain Badshah"
+    },
+    {
+      "position": 8,
+      "article": "motorbike-guides/motorbike-fuel-guide-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-guides/motorbike-fuel-guide-hanoi/",
+      "image_path": "/assets/img/articles/seo-026-motorbike-fuel-guide-hanoi.webp",
+      "bytes": 218532,
+      "sha256": "2cc84861b3b6cd147d46896ad32f03567000875bc4090a796cc3d44bc13161fb",
+      "photo_id": "photo-1775289393829-843e1dcdbc87",
+      "photographer": "Nguyen Minh"
+    },
+    {
+      "position": 9,
+      "article": "renting-a-motorbike-in-vietnam/motorbike-license-vietnam-tourists/index.html",
+      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/motorbike-license-vietnam-tourists/",
+      "image_path": "/assets/img/articles/seo-034-motorbike-license-vietnam-tourists.webp",
+      "bytes": 228124,
+      "sha256": "a917969db240c4a18a02c4bc4bb203440ef4613d00de27879a0ea6f047f6a908",
+      "photo_id": "photo-1583431444107-84dbfa3a4026",
+      "photographer": "zibik"
+    },
+    {
+      "position": 10,
+      "article": "hanoi-motorbike-for-sale/buying-a-used-motorbike-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/buying-a-used-motorbike-hanoi/",
+      "image_path": "/assets/img/articles/seo-042-buying-a-used-motorbike-hanoi.webp",
+      "bytes": 156294,
+      "sha256": "ade8ff929c22c06b85893c99d23231e043dded3acd40f9334c615bdb96a6fd64",
+      "photo_id": "photo-1664785864004-608f9777dec7",
+      "photographer": "Phuoc PhamTran"
+    },
+    {
+      "position": 11,
+      "article": "hanoi-motorbike-rental/motorbike-rental-deposit-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/motorbike-rental-deposit-hanoi/",
+      "image_path": "/assets/img/articles/seo-051-motorbike-rental-deposit-hanoi.webp",
+      "bytes": 158594,
+      "sha256": "bf916f2c50e402e8e1ccac2b4dc16a06b73cd32e80194c381f877da0f1e34088",
+      "photo_id": "photo-1643804926339-e94f0a655185",
+      "photographer": "Filip Szalbot"
+    },
+    {
+      "position": 12,
+      "article": "hanoi-50cc-motorbike-rental/50cc-vs-125cc-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/50cc-vs-125cc-hanoi/",
+      "image_path": "/assets/img/articles/seo-056-50cc-vs-125cc-hanoi.webp",
+      "bytes": 234982,
+      "sha256": "98f86ca56702b2e377b490d44dc870222d0741f65215d2308cfba07f6544dfd0",
+      "photo_id": "photo-1654697147753-90ebb2bb8438",
+      "photographer": "Lance Chang"
+    },
+    {
+      "position": 13,
+      "article": "hanoi-motorbike-rental/yamaha-sirius-rental-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/yamaha-sirius-rental-hanoi/",
+      "image_path": "/assets/img/articles/seo-020-yamaha-sirius-rental-hanoi.webp",
+      "bytes": 258516,
+      "sha256": "69aec6c4ec3eaecf1324210ba9e69d74126b994ef914eaa57512b9a1dd638a17",
+      "photo_id": "photo-1695013147209-1516a20f0cdd",
+      "photographer": "Christo Joseph"
+    },
+    {
+      "position": 14,
+      "article": "hanoi-motorbike-rental-cost/honda-click-rental-price-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-click-rental-price-hanoi/",
+      "image_path": "/assets/img/articles/seo-018-honda-click-rental-price-hanoi.webp",
+      "bytes": 161162,
+      "sha256": "d11d7a300ac72b16fb70d2e6946541b6463bc68ce89e4e94711213d8326703d6",
+      "photo_id": "photo-1628798211398-29d5c9773fbd",
+      "photographer": "Mehmet Talha Onuk"
+    },
+    {
+      "position": 15,
+      "article": "hanoi-scooter-rental/scooter-vs-semi-automatic-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/scooter-vs-semi-automatic-hanoi/",
+      "image_path": "/assets/img/articles/seo-036-scooter-vs-semi-automatic-hanoi.webp",
+      "bytes": 182126,
+      "sha256": "445b0765432b8d46e89e89db713cf01e9e50217f88d568f70c2c2dd810a27341",
+      "photo_id": "photo-1660725997223-efbedf3397fb",
+      "photographer": "Hervé Papaux"
+    },
+    {
+      "position": 16,
+      "article": "monthly-motorbike-rental-hanoi/expats-model-choice/index.html",
+      "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/expats-model-choice/",
+      "image_path": "/assets/img/articles/seo-610-expats-model-choice.webp",
+      "bytes": 228870,
+      "sha256": "b247d059cb642a4ae43312d0ce5f2eee36f5abfe08c565f99023b2708c9d7bbe",
+      "photo_id": "photo-1726038563107-3eef0ef11367",
+      "photographer": "WL Rai"
+    },
+    {
+      "position": 17,
+      "article": "motorbike-rental-hanoi-old-quarter/west-lake-motorbike-ride-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/west-lake-motorbike-ride-hanoi/",
+      "image_path": "/assets/img/articles/seo-033-west-lake-motorbike-ride-hanoi.webp",
+      "bytes": 236502,
+      "sha256": "21e8b261c6ae2eb3ed2d1a41c970084b637d10694b758d60251ea380fb5352f3",
+      "photo_id": "photo-1790815646916-18f756384f0f",
+      "photographer": "Hạnh Kiều"
+    },
+    {
+      "position": 18,
+      "article": "hanoi-motorbike-trips/hanoi-to-ba-vi-route-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ba-vi-route-planning/",
+      "image_path": "/assets/img/articles/seo-688-hanoi-to-ba-vi-route-planning.webp",
+      "bytes": 283712,
+      "sha256": "4f21d6a9bad1990125e434d4e9e8c21bc058f48918e9ba1cecce75fb182be39a",
+      "photo_id": "photo-1777378455431-e92ad2568c32",
+      "photographer": "Nguyen Quan"
+    },
+    {
+      "position": 19,
+      "article": "motorbike-guides/motorbike-helmet-guide-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-guides/motorbike-helmet-guide-hanoi/",
+      "image_path": "/assets/img/articles/seo-029-motorbike-helmet-guide-hanoi.webp",
+      "bytes": 101718,
+      "sha256": "fa52a32363d32329af77d7b2c6eded6ea30a986fce3df2b98097babb68996d1f",
+      "photo_id": "photo-1556570508-121c77af2a75",
+      "photographer": "Gijs Coolen"
+    },
+    {
+      "position": 20,
+      "article": "renting-a-motorbike-in-vietnam/motorbike-rental-scams-vietnam/index.html",
+      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/motorbike-rental-scams-vietnam/",
+      "image_path": "/assets/img/articles/seo-043-motorbike-rental-scams-vietnam.webp",
+      "bytes": 110662,
+      "sha256": "4b2f4374d25f6fe150a7c2fcb34593393ce02cd287b790019a4c551317b3091b",
+      "photo_id": "photo-1766324532545-5796beb3aaae",
+      "photographer": "Tuaans"
+    },
+    {
+      "position": 21,
+      "article": "hanoi-motorbike-for-sale/expats-rent-vs-buy-decision/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/expats-rent-vs-buy-decision/",
+      "image_path": "/assets/img/articles/seo-841-expats-rent-vs-buy-decision.webp",
+      "bytes": 224056,
+      "sha256": "980fdaf6027b9bf970153b2f254ea505ab8256b9ed60807008c027ef78c61047",
+      "photo_id": "photo-1647105996370-a9781dff6a14",
+      "photographer": "Akela Biker"
+    },
+    {
+      "position": 22,
+      "article": "hanoi-motorbike-rental/first-time-visitors-bike-choice/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/first-time-visitors-bike-choice/",
+      "image_path": "/assets/img/articles/seo-057-first-time-visitors-bike-choice.webp",
+      "bytes": 268760,
+      "sha256": "b13e94d02ea36c257220c121144ba16a5ec5da7f0f96d49966a738131548c238",
+      "photo_id": "photo-1730313533691-badce0b6e376",
+      "photographer": "Dynamic Wang"
+    },
+    {
+      "position": 23,
+      "article": "hanoi-50cc-motorbike-rental/beginners-choosing-a-50cc/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-choosing-a-50cc/",
+      "image_path": "/assets/img/articles/seo-230-beginners-choosing-a-50cc.webp",
+      "bytes": 140734,
+      "sha256": "fc5ec1b049f25833f658a6722d026a9f0a5e91f6c6a1495c924a9f616dc0cb1a",
+      "photo_id": "photo-1565793132381-4c8677c5a72c",
+      "photographer": "Tristan Gevaux"
+    },
+    {
+      "position": 24,
+      "article": "hanoi-motorbike-rental/honda-wave-vs-yamaha-sirius-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/honda-wave-vs-yamaha-sirius-hanoi/",
+      "image_path": "/assets/img/articles/seo-028-honda-wave-vs-yamaha-sirius-hanoi.webp",
+      "bytes": 170674,
+      "sha256": "c2d4233ca09ff546136e24491a4e9c5a7b91aa0030235eecbcd5c9b8bd0c4f73",
+      "photo_id": "photo-1708400586139-2ba956acf25f",
+      "photographer": "Dũng Nguyễn"
+    },
+    {
+      "position": 25,
+      "article": "hanoi-motorbike-rental-cost/honda-air-blade-rental-price-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-air-blade-rental-price-hanoi/",
+      "image_path": "/assets/img/articles/seo-019-honda-air-blade-rental-price-hanoi.webp",
+      "bytes": 217310,
+      "sha256": "5e6178ae22a769a45add228d200072dbce83a25b99632fd2b1e0d36f9441fc16",
+      "photo_id": "photo-1674891683584-467b6e23f81b",
+      "photographer": "UAVWRIGHT Productions"
+    },
+    {
+      "position": 26,
+      "article": "hanoi-scooter-rental/honda-vision-vs-air-blade-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/honda-vision-vs-air-blade-hanoi/",
+      "image_path": "/assets/img/articles/seo-037-honda-vision-vs-air-blade-hanoi.webp",
+      "bytes": 212150,
+      "sha256": "3819e9184c1911fcf3920431357290940031482b0d88458f32eb9bf967ae22ab",
+      "photo_id": "photo-1773394089961-c4730d1e69bc",
+      "photographer": "Khanh Do"
+    },
+    {
+      "position": 27,
+      "article": "monthly-motorbike-rental-hanoi/expats-monthly-budget/index.html",
+      "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/expats-monthly-budget/",
+      "image_path": "/assets/img/articles/seo-611-expats-monthly-budget.webp",
+      "bytes": 138884,
+      "sha256": "ed06f5e37a94c47c3f43cda67b1daebcf514e4f460473de221a7e8d4bf2592e3",
+      "photo_id": "photo-1772064230751-0fc06a888904",
+      "photographer": "Yu Ko"
+    },
+    {
+      "position": 28,
+      "article": "motorbike-rental-hanoi-old-quarter/hoan-kiem-lake-riding-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/hoan-kiem-lake-riding-hanoi/",
+      "image_path": "/assets/img/articles/seo-038-hoan-kiem-lake-riding-hanoi.webp",
+      "bytes": 255464,
+      "sha256": "3db8e67749b55737821e763009f4ad449d949262d01e5a81b51576a32bb933c6",
+      "photo_id": "photo-1789611618857-2497224faa1c",
+      "photographer": "Harrisun S"
+    },
+    {
+      "position": 29,
+      "article": "hanoi-motorbike-trips/hanoi-to-ba-vi-one-day-feasibility/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ba-vi-one-day-feasibility/",
+      "image_path": "/assets/img/articles/seo-689-hanoi-to-ba-vi-one-day-feasibility.webp",
+      "bytes": 226314,
+      "sha256": "974c429e5f0dcde4e39751b4bbd803bac18985cf43d276ec74f381170c7a0e0e",
+      "photo_id": "photo-1675757275576-c387423d1391",
+      "photographer": "Huy Nguyen"
+    },
+    {
+      "position": 30,
+      "article": "motorbike-guides/motorbike-maintenance-checklist-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-guides/motorbike-maintenance-checklist-hanoi/",
+      "image_path": "/assets/img/articles/seo-030-motorbike-maintenance-checklist-hanoi.webp",
+      "bytes": 131686,
+      "sha256": "653298691330354b71414052cb5e777083f7584532e13d91d63846457e90e29a",
+      "photo_id": "photo-1636761358757-0a616eb9e17e",
+      "photographer": "Angry._.Kat"
+    },
+    {
+      "position": 31,
+      "article": "renting-a-motorbike-in-vietnam/riding-a-motorbike-with-a-child-in-vietnam/index.html",
+      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/riding-a-motorbike-with-a-child-in-vietnam/",
+      "image_path": "/assets/img/articles/seo-045-riding-a-motorbike-with-a-child-in-vietnam.webp",
+      "bytes": 237706,
+      "sha256": "2f4f86070007a70feafa29396382f61ec078a5566c22fd540c644e47e08022fb",
+      "photo_id": "photo-1785049344773-9da61ea410a3",
+      "photographer": "Paul Macdonald"
+    },
+    {
+      "position": 32,
+      "article": "hanoi-motorbike-for-sale/expats-used-bike-inspection/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/expats-used-bike-inspection/",
+      "image_path": "/assets/img/articles/seo-842-expats-used-bike-inspection.webp",
+      "bytes": 103640,
+      "sha256": "4bb2724e001844acf456e3aff2ba639814f9533136cf400700d947ce00027c97",
+      "photo_id": "photo-1736775205983-2534f5e69212",
+      "photographer": "Tim Kuhn"
+    },
+    {
+      "position": 33,
+      "article": "hanoi-motorbike-rental/first-time-visitors-pre-ride-inspection/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/first-time-visitors-pre-ride-inspection/",
+      "image_path": "/assets/img/articles/seo-058-first-time-visitors-pre-ride-inspection.webp",
+      "bytes": 113464,
+      "sha256": "06290a161489c9eb9dd86dbcc9b2329d8c890412d446ceb8c24b89922b917e00",
+      "photo_id": "photo-1783791088536-c50efae9c2ff",
+      "photographer": "Ronnzy Moto"
+    },
+    {
+      "position": 34,
+      "article": "hanoi-50cc-motorbike-rental/beginners-city-traffic/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-city-traffic/",
+      "image_path": "/assets/img/articles/seo-231-beginners-city-traffic.webp",
+      "bytes": 176276,
+      "sha256": "0807e69afb8a581ce2b7f66ca68f6e0277d518c107c717885410d7c77c2ad129",
+      "photo_id": "photo-1743485754066-f45e26489e9a",
+      "photographer": "Kevin Charit"
+    },
+    {
+      "position": 35,
+      "article": "hanoi-motorbike-rental-cost/yamaha-mio-rental-price-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/yamaha-mio-rental-price-hanoi/",
+      "image_path": "/assets/img/articles/seo-027-yamaha-mio-rental-price-hanoi.webp",
+      "bytes": 238896,
+      "sha256": "2033e785238ad122a9217182832171f4826abd3e491a1b960556c60411ca9e6b",
+      "photo_id": "photo-1643225765909-9f0cb9181b0c",
+      "photographer": "Johnson Hung"
+    },
+    {
+      "position": 36,
+      "article": "hanoi-scooter-rental/honda-click-vs-yamaha-mio-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/honda-click-vs-yamaha-mio-hanoi/",
+      "image_path": "/assets/img/articles/seo-047-honda-click-vs-yamaha-mio-hanoi.webp",
+      "bytes": 181280,
+      "sha256": "a7f55ac715ae712d30104a41fb3d75112b053d72d5d7d80da97eb9f17fa4461c",
+      "photo_id": "photo-1751183848275-c48ca47d2d28",
+      "photographer": "mdreza jalali"
+    },
+    {
+      "position": 37,
+      "article": "monthly-motorbike-rental-hanoi/expats-maintenance-expectations/index.html",
+      "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/expats-maintenance-expectations/",
+      "image_path": "/assets/img/articles/seo-612-expats-maintenance-expectations.webp",
+      "bytes": 126266,
+      "sha256": "9925af7c59414ee6bad0d884b05d283eb58b8ff7efd6bbdd555af4ca7d00f878",
+      "photo_id": "photo-1746014995710-cfb7596d8967",
+      "photographer": "setengah limasore"
+    },
+    {
+      "position": 38,
+      "article": "motorbike-rental-hanoi-old-quarter/long-bien-bridge-motorbike-guide-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/long-bien-bridge-motorbike-guide-hanoi/",
+      "image_path": "/assets/img/articles/seo-040-long-bien-bridge-motorbike-guide-hanoi.webp",
+      "bytes": 267278,
+      "sha256": "2c78ec17267bd75e4e8324b01cf2413151e1c58cda0b38e84df282f1e3717ee8",
+      "photo_id": "photo-1762333329631-5c5941fec44c",
+      "photographer": "Easy Lee"
+    },
+    {
+      "position": 39,
+      "article": "hanoi-motorbike-trips/hanoi-to-ba-vi-two-day-itinerary/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ba-vi-two-day-itinerary/",
+      "image_path": "/assets/img/articles/seo-690-hanoi-to-ba-vi-two-day-itinerary.webp",
+      "bytes": 249340,
+      "sha256": "af3c35714a3161816b43d977f63bb3068cb121db7bec9af5d031097362c65986",
+      "photo_id": "photo-1787052972213-82e8af1ce659",
+      "photographer": "Adrià Sánchez Roqué"
+    },
+    {
+      "position": 40,
+      "article": "motorbike-guides/riding-a-motorbike-in-hanoi-rainy-season/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-guides/riding-a-motorbike-in-hanoi-rainy-season/",
+      "image_path": "/assets/img/articles/seo-035-riding-a-motorbike-in-hanoi-rainy-season.webp",
+      "bytes": 164174,
+      "sha256": "6d95e9bb7019df5427fc2807f4f595a71d2e515bddd38ddf93a57b645ab4e1d0",
+      "photo_id": "photo-1632675776835-158debd58a67",
+      "photographer": "Giang Nguyen"
+    },
+    {
+      "position": 41,
+      "article": "renting-a-motorbike-in-vietnam/hanoi-motorbike-traffic-rules/index.html",
+      "url": "https://app.rentbikehanoi.com/renting-a-motorbike-in-vietnam/hanoi-motorbike-traffic-rules/",
+      "image_path": "/assets/img/articles/seo-055-hanoi-motorbike-traffic-rules.webp",
+      "bytes": 236330,
+      "sha256": "dbd4855747865649f8c2d96d8ac5b7afa53d3b00fe4c52e9c960872971bdf40d",
+      "photo_id": "photo-1751285840498-cd89e20aaa97",
+      "photographer": "Mauro Lima"
+    },
+    {
+      "position": 42,
+      "article": "hanoi-motorbike-for-sale/expats-ownership-costs/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-for-sale/expats-ownership-costs/",
+      "image_path": "/assets/img/articles/seo-843-expats-ownership-costs.webp",
+      "bytes": 100788,
+      "sha256": "ff241baa583f35b3bdd17aa5772bdbc490e8070f1d061bf832ad3015cdcfff53",
+      "photo_id": "photo-1636761358774-6c14f281d5c3",
+      "photographer": "Angry._.Kat"
+    },
+    {
+      "position": 43,
+      "article": "hanoi-motorbike-rental/first-time-visitors-rental-paperwork-questions/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental/first-time-visitors-rental-paperwork-questions/",
+      "image_path": "/assets/img/articles/seo-059-first-time-visitors-rental-paperwork-questions.webp",
+      "bytes": 204408,
+      "sha256": "b0d7b263499b0d81997b2cc9bd0e0368fb96c9030b482332c2f366e666154774",
+      "photo_id": "photo-1586441133374-ed1cb4007a47",
+      "photographer": "CardMapr.nl"
+    },
+    {
+      "position": 44,
+      "article": "hanoi-50cc-motorbike-rental/beginners-parking/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-50cc-motorbike-rental/beginners-parking/",
+      "image_path": "/assets/img/articles/seo-232-beginners-parking.webp",
+      "bytes": 263398,
+      "sha256": "1ebd60582710daef3021932a8a1fee062b9ee674e91901f613e2b3624a110780",
+      "photo_id": "photo-1778533190510-94c66c9d42ca",
+      "photographer": "Céline Cao"
+    },
+    {
+      "position": 45,
+      "article": "hanoi-motorbike-rental-cost/honda-wave-daily-price/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-rental-cost/honda-wave-daily-price/",
+      "image_path": "/assets/img/articles/seo-441-honda-wave-daily-price.webp",
+      "bytes": 293862,
+      "sha256": "610da81847aaaceed36532fb367282e3594257df8e138d2843f7e97bc14c8f8d",
+      "photo_id": "photo-1715708336899-3134c9e10c7c",
+      "photographer": "Nicole Geri"
+    },
+    {
+      "position": 46,
+      "article": "hanoi-scooter-rental/electric-vs-petrol-scooter-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-scooter-rental/electric-vs-petrol-scooter-hanoi/",
+      "image_path": "/assets/img/articles/seo-050-electric-vs-petrol-scooter-hanoi.webp",
+      "bytes": 124170,
+      "sha256": "d0b52050e91e6edd4e61998a3bd52637bf85b4d65cf6e52ec1dd72110e403bc4",
+      "photo_id": "photo-1590417395630-10bb7c3a36b0",
+      "photographer": "Kumpan Electric"
+    },
+    {
+      "position": 47,
+      "article": "monthly-motorbike-rental-hanoi/expats-parking-and-security/index.html",
+      "url": "https://app.rentbikehanoi.com/monthly-motorbike-rental-hanoi/expats-parking-and-security/",
+      "image_path": "/assets/img/articles/seo-613-expats-parking-and-security.webp",
+      "bytes": 200890,
+      "sha256": "b7c69ff70636d23dfcd90a493a7e58798537b18169ed894d1ef25e38d9b7cfcd",
+      "photo_id": "photo-1772418591739-b18510830579",
+      "photographer": "Florian Schmid"
+    },
+    {
+      "position": 48,
+      "article": "motorbike-rental-hanoi-old-quarter/old-quarter-rental-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/old-quarter-rental-planning/",
+      "image_path": "/assets/img/articles/seo-515-old-quarter-rental-planning.webp",
+      "bytes": 161122,
+      "sha256": "3312e15b03b85489689e0436648d7a4cd2e5988cde99bbab44f8d01984101715",
+      "photo_id": "photo-1712994121512-33d1261919c7",
+      "photographer": "Jacek Janiczak"
+    },
+    {
+      "position": 49,
+      "article": "hanoi-motorbike-trips/hanoi-to-ba-vi-bike-choice/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ba-vi-bike-choice/",
+      "image_path": "/assets/img/articles/seo-691-hanoi-to-ba-vi-bike-choice.webp",
+      "bytes": 204618,
+      "sha256": "0a567f50b49b0b039a2d0f9c6a26845cb5e3b5854ce3ad501b81a1febcd0c9b8",
+      "photo_id": "photo-1790577845230-ef7f32107829",
+      "photographer": "Tyler Zhang"
+    },
+    {
+      "position": 50,
+      "article": "motorbike-guides/motorbike-night-riding-hanoi/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-guides/motorbike-night-riding-hanoi/",
+      "image_path": "/assets/img/articles/seo-039-motorbike-night-riding-hanoi.webp",
+      "bytes": 177256,
+      "sha256": "b52c64840c0a3e06d3d18ee915f107b12d9cdb439164f1c6be8a7038ed0f4d92",
+      "photo_id": "photo-1712876156776-dbf5457e769a",
+      "photographer": "Elric Pxl"
+    }
+  ],
+  "failed": [],
+  "skipped": [
+    {
+      "position": 1,
+      "article": "hanoi-motorbike-rental/how-to-rent-a-motorbike-in-hanoi/index.html",
+      "reason": "Existing article image; no overwrite"
+    }
+  ],
+  "disclaimer": "PUBLISHED_PENDING_DEPLOY is not a live website verification. Confirm GitHub Pages deployment and public URLs separately."
+}
