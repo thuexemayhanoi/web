@@ -1,6 +1,6 @@
 {
   "batch_id": "web-images-002",
-  "status": "PARTIAL_PENDING_DEPLOY",
+  "status": "DEPLOYED_QA_PASS_PARTIAL_LIVE_VERIFICATION",
   "generated_at": "2026-10-28T08:17:59.954972+00:00",
   "source_type": "Wikimedia Commons stock photos",
   "published_count": 33,
@@ -497,5 +497,14 @@
       }
     ],
     "kept": 33
-  }
+  },
+  "deploy_commit": "73ec52da40a4bd98f84a7f9df2e7208d752e1980",
+  "deploy_run_url": "https://github.com/thuexemayhanoi/web/actions/runs/40656141200",
+  "site_qa_run_url": "https://github.com/thuexemayhanoi/web/actions/runs/40656141373",
+  "public_live_samples_confirmed": [
+    "SEO-751",
+    "SEO-716"
+  ],
+  "public_full_verification": "NOT_COMPLETED",
+  "remaining_to_fill": 17
 }

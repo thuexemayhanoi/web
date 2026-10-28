@@ -1,6 +1,6 @@
 {
   "batch_id": "web-images-002",
-  "status": "PARTIAL_PENDING_DEPLOY",
+  "status": "DEPLOYED_QA_PASS_PARTIAL_LIVE_VERIFICATION",
   "source_type": "Wikimedia Commons attributed stock photography, not AI-generated or fleet photos",
   "source_matrix": "data/content-matrix.csv",
   "previous_batch": "docs/image-batches/batch-001.json",
@@ -1325,7 +1325,7 @@
     "topic_mismatches_removed_before_final_deploy": 5,
     "note": "Stock photos with attribution, not generated AI or owner's fleet photos. 17 image files committed and GitHub Pages deployment succeeded; only 13 public HTML pages were directly read.",
     "latest_image_recovery_commit": "e484d91236a59889b0c7149e11fc08d6cc5c76e4",
-    "latest_deploy_run_url": "https://github.com/thuexemayhanoi/web/actions/runs/40655800005",
+    "latest_deploy_run_url": "https://github.com/thuexemayhanoi/web/actions/runs/40656141200",
     "latest_deploy_result": "SUCCESS",
     "rejected_mismatched_images": [
       "SEO-699",
@@ -1338,7 +1338,19 @@
       "SEO-751",
       "SEO-716"
     ],
-    "live_full_verification": "PENDING"
+    "live_full_verification": "PENDING",
+    "latest_deploy_commit": "73ec52da40a4bd98f84a7f9df2e7208d752e1980",
+    "site_qa_result": "SUCCESS",
+    "site_qa_run_url": "https://github.com/thuexemayhanoi/web/actions/runs/40656141373",
+    "batch_002_valid_published_assets": 33,
+    "images_rejected_topic_qa": 4,
+    "public_live_samples_confirmed": [
+      "SEO-751",
+      "SEO-716"
+    ],
+    "full_33_live_verification": "NOT_COMPLETED"
   },
-  "retry_strategy": "2026-10-28: preserve 17 previously published assets, retry only 33 failed items with broad place-name queries, paginated cached Commons searches, and existing license/topic/image QA. No AI or shop photos claimed."
+  "retry_strategy": "2026-10-28: preserve 17 previously published assets, retry only 33 failed items with broad place-name queries, paginated cached Commons searches, and existing license/topic/image QA. No AI or shop photos claimed.",
+  "deploy_commit": "73ec52da40a4bd98f84a7f9df2e7208d752e1980",
+  "deploy_run_url": "https://github.com/thuexemayhanoi/web/actions/runs/40656141200"
 }
