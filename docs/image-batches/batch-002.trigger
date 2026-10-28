@@ -1,2 +1,2 @@
-retry=2
-purpose=fill 36 remaining slots after topic QA; max 50 article images total
+retry=3
+purpose=retry 33 unpublished image slots; preserve 17 existing images; Commons only; paginated cached search; strict QA; no paid AI API
