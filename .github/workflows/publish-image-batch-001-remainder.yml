@@ -1,0 +1,68 @@
+name: Complete 50-image SEO batch — remaining article
+
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/publish-image-batch-001-remainder.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: article-factory-v3
+  cancel-in-progress: false
+
+jobs:
+  finish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m pip install --disable-pip-version-check "Pillow>=11,<13"
+      - name: Complete remaining article image without overwriting 49 published images
+        run: |
+          set -euo pipefail
+          python3 tools/publish-image-batch.py
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from PIL import Image
+          report=json.loads(Path('docs/image-batches/batch-001-report.json').read_text())
+          assert report['published_count']==50, f"Expected 50, got {report['published_count']}"
+          assert report['failed_count']==0 and report['skipped_count']==0
+          assert len({r['photo_id'] for r in report['published']})==50
+          for r in report['published']:
+              f=Path(r['image_path'].lstrip('/'))
+              assert 100_000 <= f.stat().st_size <= 300_000
+              with Image.open(f) as im: im.verify()
+              assert Path(r['article']).read_text().count(r['image_path'])==1
+          print("50/50 distinct images verified, each 100-300 KB")
+          PY
+      - name: Full SEO QA
+        run: |
+          set -euo pipefail
+          node tools/build-site.mjs
+          node tools/qa-site.mjs
+          node tools/seo-audit.mjs
+          node tools/qa-seo-guard.mjs
+          node tools/build-site.mjs --check
+      - name: Commit only missing article, report and manifest
+        run: |
+          set -euo pipefail
+          git config user.name "rentbike-seo-bot"
+          git config user.email "nguyentuantu2482@users.noreply.github.com"
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "$(git rev-parse HEAD)" || { echo "main changed, abort"; exit 1; }
+          git rm .github/workflows/publish-image-batch-001-remainder.yml
+          git add docs/image-batches/batch-001.json docs/image-batches/batch-001-report.json assets/img/articles/seo-003-how-to-rent-a-motorbike-in-hanoi.webp hanoi-motorbike-rental/how-to-rent-a-motorbike-in-hanoi/index.html
+          git diff --cached --check
+          git commit -m "media: complete first 50-image SEO batch; preserve author logo"
+          git push origin HEAD:main
