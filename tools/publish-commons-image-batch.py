@@ -80,12 +80,20 @@ def acceptable(page, anchor):
     ratio = info["width"] / info["height"]
     if not 1.18 <= ratio <= 2.2:
         return None
-    if re.search(r"(?i)\b(map|diagram|flag|logo|icon|poster|drawing|screenshot|ai generated|midjourney)\b", title):
+    # Exclude biological specimens, wartime/destruction and archival material
+    # from present-day travel/rental guides even when a place name matches.
+    if re.search(r"(?i)\b(map|diagram|flag|logo|icon|poster|drawing|screenshot|ai.generated|midjourney|moth|hypeniinae|butterfly|insect|beetle|bird|snake|lizard|frog|orchid|flower|fungus|mushroom|species|specimen|destroyed|bombed|wartime|tonkin|photogr|archival|vintage)\b", title):
+        return None
+    if re.search(r"\b(?:18[0-9]{2}|19[0-8][0-9])\b", title):
         return None
     description = clean((ext.get("ImageDescription") or {}).get("value", ""), 500)
-    searchable = norm(title + " " + description)
-    anchor_terms = [norm(s.strip()) for s in anchor.split("|") if s.strip()]
-    if not anchor_terms or not any(a in searchable for a in anchor_terms):
+    anchor_terms = [norm(term.strip()) for term in anchor.split("|") if term.strip()]
+    # Require the actual location in the file title; metadata alone can mention
+    # a place even when the picture shows an unrelated animal or object.
+    normalized_title = norm(title)
+    if not anchor_terms or not any(term in normalized_title for term in anchor_terms):
+        return None
+    if "french quarter" in anchor_terms and "old quarter" in normalized_title:
         return None
     url = info.get("thumburl") or info.get("url", "")
     if not url.startswith("https://upload.wikimedia.org/"):
@@ -155,6 +163,9 @@ def main():
             match = re.search(r"<article\b[^>]*>(.*?)</article>", body, re.I | re.S)
             if not match:
                 raise ValueError("Article element missing")
+            if item.get("status") in ("PUBLISHED_PENDING_DEPLOY", "LIVE_VERIFIED") and item["image_path"] in body and target.exists():
+                print(f"ALREADY PUBLISHED {item['content_id']}", flush=True)
+                continue
             if previous.has_meaningful_image(match.group(1)):
                 item["status"] = "SKIPPED_ALREADY_ILLUSTRATED"
                 skipped.append({"id": item["content_id"], "reason": "Article already has meaningful image"})
