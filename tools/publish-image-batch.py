@@ -92,6 +92,14 @@ def build_figure(item: dict, source: dict, width: int, height: int) -> str:
         '    </figure>\n\n'
     )
 
+def has_meaningful_image(body: str) -> bool:
+    for match in re.finditer(r'<img\\b[^>]*>', body, re.I):
+        tag = match.group(0)
+        if 'post-author-logo' in tag or '/assets/img/logo-116.png' in tag:
+            continue
+        return True
+    return False
+
 def insert_before_first_h2(article_path: Path, figure: str, image_path: str) -> bool:
     original = article_path.read_text(encoding="utf-8")
     match = re.search(r'<article\b[^>]*>(.*?)</article>', original, re.I | re.S)
@@ -120,7 +128,9 @@ def main():
         raise ValueError(f"Expected 50 manifest items and unique sources, got {len(manifest['items'])}/{len(sources)}")
     if len({p["id"] for p in sources.values()}) != 50:
         raise ValueError("Duplicate Unsplash photo IDs in batch")
-    published, failed, skipped = [], [], []
+    previous = json.loads(REPORT.read_text(encoding="utf-8")) if REPORT.exists() else {"published": []}
+    published = list(previous.get("published", []))
+    failed, skipped = [], []
     seen_sha = set()
     for item in manifest["items"][:MAX_IMAGES]:
         pos = item["batch_position"]
