@@ -1,6 +1,6 @@
 {
   "batch_id": "web-images-002",
-  "status": "DEPLOYED_QA_PASS_PARTIAL_LIVE_VERIFICATION",
+  "status": "PARTIAL_PENDING_DEPLOY",
   "source_type": "Wikimedia Commons attributed stock photography, not AI-generated or fleet photos",
   "source_matrix": "data/content-matrix.csv",
   "previous_batch": "docs/image-batches/batch-001.json",
@@ -373,8 +373,18 @@
         "Trang An"
       ],
       "image_path": "/assets/img/articles/seo-697-hanoi-to-ninh-binh-route-planning.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 15
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 15,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Tân Thành, Ninh Bình, Ninh Bình Province, Vietnam - panoramio.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:T%C3%A2n_Th%C3%A0nh,_Ninh_B%C3%ACnh,_Ninh_B%C3%ACnh_Province,_Vietnam_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "artist": "Bich Le",
+      "image_bytes": 290898,
+      "image_sha256": "fec2b4b35f0ee718ba90f5cccbb9f927de6146e3bff11024fda9b064fe5d213d",
+      "width": 1200,
+      "height": 800,
+      "alt": "Tân Thành, Ninh Bình, Ninh Bình Province, Vietnam - panoramio — illustrative image for hanoi to ninh binh motorbike route planning"
     },
     {
       "content_id": "SEO-698",
@@ -389,8 +399,18 @@
         "Trang An"
       ],
       "image_path": "/assets/img/articles/seo-698-hanoi-to-ninh-binh-one-day-feasibility.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 16
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 16,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Ninh Bình.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Ninh_B%C3%ACnh.jpg",
+      "license": "CC BY 2.0",
+      "artist": "Santiago LLobet from Barcelona, Spain",
+      "image_bytes": 299370,
+      "image_sha256": "db3658fcd484f1501b93c0f1b11fb9b7cfa6b85bb38ef74398688a260c350c94",
+      "width": 1200,
+      "height": 800,
+      "alt": "Ninh Bình — illustrative image for hanoi to ninh binh motorbike one day feasibility"
     },
     {
       "content_id": "SEO-699",
@@ -405,8 +425,18 @@
         "Trang An"
       ],
       "image_path": "/assets/img/articles/seo-699-hanoi-to-ninh-binh-two-day-itinerary.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 17
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 17,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Ninh Binh Railway Station.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Ninh_Binh_Railway_Station.jpg",
+      "license": "CC BY 2.0",
+      "artist": "anjči",
+      "image_bytes": 242866,
+      "image_sha256": "03b01cea8f84cd1863afdd141bab4294d565d636b4a79b19c9e65abaea18355b",
+      "width": 1200,
+      "height": 800,
+      "alt": "Ninh Binh Railway Station — illustrative image for hanoi to ninh binh motorbike two day itinerary"
     },
     {
       "content_id": "SEO-701",
@@ -421,8 +451,18 @@
         "Trang An"
       ],
       "image_path": "/assets/img/articles/seo-701-hanoi-to-ninh-binh-weather-planning.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 18
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 18,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Ninh Binh Stadium 2023.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Ninh_Binh_Stadium_2023.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Mrhp2211",
+      "image_bytes": 286696,
+      "image_sha256": "ff5350cb5bc94e6a601bb724c0723d64549157264e93018347551462ad238a15",
+      "width": 1200,
+      "height": 800,
+      "alt": "Ninh Binh Stadium 2023 — illustrative image for hanoi to ninh binh motorbike weather planning"
     },
     {
       "content_id": "SEO-705",
@@ -437,8 +477,18 @@
         "Trang An"
       ],
       "image_path": "/assets/img/articles/seo-705-hanoi-to-ninh-binh-return-planning.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 19
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 19,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Tam Coc by Tuan Mai \"002\" (8889012696).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Tam_Coc_by_Tuan_Mai_%22002%22_(8889012696).jpg",
+      "license": "CC BY 2.0",
+      "artist": "Tuấn Mai",
+      "image_bytes": 211760,
+      "image_sha256": "c6a54b31e0c7a6c2a2ca0ba34dc0d61f61382ea9543f6d481e90c1c8c99c77f9",
+      "width": 1200,
+      "height": 800,
+      "alt": "Tam Coc by Tuan Mai \"002\" (8889012696) — illustrative image for hanoi to ninh binh motorbike return planning"
     },
     {
       "content_id": "SEO-725",
@@ -453,8 +503,18 @@
         "Ha Long Bay"
       ],
       "image_path": "/assets/img/articles/seo-725-hanoi-to-ha-long-one-day-feasibility.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 20
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 20,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Halong Bay (4856475534).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Halong_Bay_(4856475534).jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+      "image_bytes": 227496,
+      "image_sha256": "bc210d3b2bd3d9c416235a740fb9976d7b16cc73671d6bc0db0197274f0dba97",
+      "width": 1200,
+      "height": 800,
+      "alt": "Halong Bay (4856475534) — illustrative image for hanoi to ha long motorbike one day feasibility"
     },
     {
       "content_id": "SEO-726",
@@ -469,8 +529,18 @@
         "Ha Long Bay"
       ],
       "image_path": "/assets/img/articles/seo-726-hanoi-to-ha-long-two-day-itinerary.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 21
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 21,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Halong Bay (4855923207).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Halong_Bay_(4855923207).jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+      "image_bytes": 175810,
+      "image_sha256": "71a994bd36d62ff897fdb261a8b7b4ee19353c23e096164b72c018630fe0c15e",
+      "width": 1200,
+      "height": 800,
+      "alt": "Halong Bay (4855923207) — illustrative image for hanoi to ha long motorbike two day itinerary"
     },
     {
       "content_id": "SEO-728",
@@ -485,8 +555,18 @@
         "Ha Long Bay"
       ],
       "image_path": "/assets/img/articles/seo-728-hanoi-to-ha-long-weather-planning.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 22
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 22,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Halong Bay (4856397322).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Halong_Bay_(4856397322).jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+      "image_bytes": 222616,
+      "image_sha256": "29a1dabb4621c3d85046a9c96b82a768882fac73fd1a22a1ab6da88cf5a216a7",
+      "width": 1200,
+      "height": 800,
+      "alt": "Halong Bay (4856397322) — illustrative image for hanoi to ha long motorbike weather planning"
     },
     {
       "content_id": "SEO-732",
@@ -501,8 +581,18 @@
         "Ha Long Bay"
       ],
       "image_path": "/assets/img/articles/seo-732-hanoi-to-ha-long-return-planning.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 23
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 23,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Halong Bay (4855825485).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Halong_Bay_(4855825485).jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+      "image_bytes": 267112,
+      "image_sha256": "782ac74717ff636bca8dd3eb3d8b77d2ad2873a1c023ae3f5a34c40769cc9147",
+      "width": 1200,
+      "height": 800,
+      "alt": "Halong Bay (4855825485) — illustrative image for hanoi to ha long motorbike return planning"
     },
     {
       "content_id": "SEO-743",
@@ -567,8 +657,18 @@
         "Sapa Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-746-hanoi-to-sapa-weather-planning.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 26
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 26,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Landscape in Sa Pa (Vietnam).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Landscape_in_Sa_Pa_(Vietnam).jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Wikimedia Commons contributor",
+      "image_bytes": 274392,
+      "image_sha256": "6d345afa7d7a23933f6674aa4b3194fad4860dacf5d73154cabad3148ed03114",
+      "width": 1200,
+      "height": 800,
+      "alt": "Landscape in Sa Pa (Vietnam) — illustrative image for hanoi to sapa motorbike weather planning"
     },
     {
       "content_id": "SEO-750",
@@ -583,8 +683,18 @@
         "Sapa Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-750-hanoi-to-sapa-return-planning.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 27
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 27,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Sa Pa, Bac Ha market.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Sa_Pa,_Bac_Ha_market.jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "AJ Oswald",
+      "image_bytes": 275456,
+      "image_sha256": "8ec9ffd4de7021ef934c87ae6349b57b34d1bf8ee73c35cb71a5ada41d3edd07",
+      "width": 1200,
+      "height": 800,
+      "alt": "Sa Pa, Bac Ha market — illustrative image for hanoi to sapa motorbike return planning"
     },
     {
       "content_id": "SEO-733",
@@ -624,8 +734,18 @@
         "Cat Ba Island"
       ],
       "image_path": "/assets/img/articles/seo-734-hanoi-to-cat-ba-one-day-feasibility.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 29
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 29,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Cat Ba agriculture.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Cat_Ba_agriculture.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Till Niermann",
+      "image_bytes": 283670,
+      "image_sha256": "33bbb8d4771eadaa8898057c4382b74394fe9f74bba8aacded21229f573af97d",
+      "width": 1200,
+      "height": 800,
+      "alt": "Cat Ba agriculture — illustrative image for hanoi to cat ba motorbike one day feasibility"
     },
     {
       "content_id": "SEO-735",
@@ -640,8 +760,18 @@
         "Cat Ba Island"
       ],
       "image_path": "/assets/img/articles/seo-735-hanoi-to-cat-ba-two-day-itinerary.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 30
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 30,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Cat Ba mountains (4856484654).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Cat_Ba_mountains_(4856484654).jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+      "image_bytes": 288654,
+      "image_sha256": "600ad27bad7e55b5191ce80dbac0fded1b161d4f09ee3fa6e4042bb9389e6d3c",
+      "width": 1200,
+      "height": 800,
+      "alt": "Cat Ba mountains (4856484654) — illustrative image for hanoi to cat ba motorbike two day itinerary"
     },
     {
       "content_id": "SEO-737",
@@ -656,8 +786,18 @@
         "Cat Ba Island"
       ],
       "image_path": "/assets/img/articles/seo-737-hanoi-to-cat-ba-weather-planning.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 31
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 31,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Cat Ba Island (4856495802).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Cat_Ba_Island_(4856495802).jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+      "image_bytes": 287250,
+      "image_sha256": "6f9ca603517469b51836f542e066a3fd9c6af5539b070cee9be57c144a26bdda",
+      "width": 1200,
+      "height": 800,
+      "alt": "Cat Ba Island (4856495802) — illustrative image for hanoi to cat ba motorbike weather planning"
     },
     {
       "content_id": "SEO-741",
@@ -672,8 +812,18 @@
         "Cat Ba Island"
       ],
       "image_path": "/assets/img/articles/seo-741-hanoi-to-cat-ba-return-planning.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 32
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 32,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Cat Ba mountains (4855866481).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Cat_Ba_mountains_(4855866481).jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+      "image_bytes": 261086,
+      "image_sha256": "2be7e812921cac75254b0ec6988afa0b8c9d7cfc8077178256a1328fd4760863",
+      "width": 1200,
+      "height": 800,
+      "alt": "Cat Ba mountains (4855866481) — illustrative image for hanoi to cat ba motorbike return planning"
     },
     {
       "content_id": "SEO-751",
@@ -688,8 +838,18 @@
         "Ha Giang Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-751-hanoi-to-ha-giang-route-planning.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 33
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 33,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Lũng Cú Hà Giang - panoramio.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:L%C5%A9ng_C%C3%BA_H%C3%A0_Giang_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "artist": "Bich Le",
+      "image_bytes": 223782,
+      "image_sha256": "99f21cf85ea0520ed3c18de3ecd10d28b4498b24aa628351ef896e5d0bee7dd8",
+      "width": 1200,
+      "height": 800,
+      "alt": "Lũng Cú Hà Giang - panoramio — illustrative image for hanoi to ha giang motorbike route planning"
     },
     {
       "content_id": "SEO-752",
@@ -704,8 +864,18 @@
         "Ha Giang Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-752-hanoi-to-ha-giang-one-day-feasibility.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 34
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 34,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Nhặng xanh Hà Giang.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Nh%E1%BA%B7ng_xanh_H%C3%A0_Giang.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "vi:User:Nguyenvuhiep",
+      "image_bytes": 189716,
+      "image_sha256": "cc2e7d1722c4f8ba831e32e81c9e635c308fd541ebf29ed0dcf0fe1f48744a83",
+      "width": 1200,
+      "height": 800,
+      "alt": "Nhặng xanh Hà Giang — illustrative image for hanoi to ha giang motorbike one day feasibility"
     },
     {
       "content_id": "SEO-753",
@@ -832,8 +1002,18 @@
         "Moc Chau Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-760-hanoi-to-moc-chau-route-planning.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 42
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 42,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Đồi Chè Trái Tim - Mộc Châu.png",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%93i_Ch%C3%A8_Tr%C3%A1i_Tim_-_M%E1%BB%99c_Ch%C3%A2u.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Motbit",
+      "image_bytes": 255932,
+      "image_sha256": "5817b105ef8b069825d5fc855c7c3c568b6ad4379f45b1f84130c55cb4c0e13c",
+      "width": 1200,
+      "height": 800,
+      "alt": "Đồi Chè Trái Tim - Mộc Châu — illustrative image for hanoi to moc chau motorbike route planning"
     },
     {
       "content_id": "SEO-761",
@@ -912,8 +1092,18 @@
         "Mai Chau Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-715-hanoi-to-mai-chau-route-planning.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 47
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 47,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:Mai Chau - Pfahlhüttenhaus im Pomcoon Village.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Mai_Chau_-_Pfahlh%C3%BCttenhaus_im_Pomcoon_Village.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Franzfoto",
+      "image_bytes": 220430,
+      "image_sha256": "a4e7e18d1cddd0d0d298c080cd20330963db6e8c4e190ad2276af29fa7868b3c",
+      "width": 1200,
+      "height": 800,
+      "alt": "Mai Chau - Pfahlhüttenhaus im Pomcoon Village — illustrative image for hanoi to mai chau motorbike route planning"
     },
     {
       "content_id": "SEO-716",
@@ -928,8 +1118,18 @@
         "Mai Chau Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-716-hanoi-to-mai-chau-one-day-feasibility.webp",
-      "status": "FAILED_RETRYABLE",
-      "batch_position": 48
+      "status": "PUBLISHED_PENDING_DEPLOY",
+      "batch_position": 48,
+      "source_type": "Wikimedia Commons stock photograph",
+      "commons_title": "File:On the way to Mai Chau town. (4115411134).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:On_the_way_to_Mai_Chau_town._(4115411134).jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Greg Willis from Denver, CO, usa",
+      "image_bytes": 213050,
+      "image_sha256": "ed6f43ed9b6c08e8f82727cbee1b437773875bd764b7978ff2c008d840983e05",
+      "width": 1200,
+      "height": 800,
+      "alt": "On the way to Mai Chau town. (4115411134) — illustrative image for hanoi to mai chau motorbike one day feasibility"
     },
     {
       "content_id": "SEO-717",
@@ -964,10 +1164,10 @@
       "batch_position": 50
     }
   ],
-  "published_count": 17,
-  "failed_count": 33,
+  "published_count": 37,
+  "failed_count": 13,
   "skipped_count": 0,
-  "last_attempt_at": "2026-10-28T05:23:45.887718+00:00",
+  "last_attempt_at": "2026-10-28T08:17:59.954972+00:00",
   "source_note": "Attributed Wikimedia Commons stock photography, not AI-generated or the owner's fleet photos; live status must be verified separately.",
   "quality_review": "5 unsuitable/ambiguous photos removed after independent topic QA; 14 suitable images remain pending live verification",
   "previous_attempts": [
