@@ -1,6 +1,6 @@
 {
   "batch_id": "web-images-002",
-  "status": "PARTIAL_PENDING_DEPLOY",
+  "status": "DEPLOYED_QA_PASS_PARTIAL_LIVE_VERIFICATION",
   "generated_at": "2026-10-28T05:23:45.887718+00:00",
   "source_type": "Wikimedia Commons stock photos",
   "published_count": 17,
@@ -347,5 +347,26 @@
     }
   ],
   "skipped": [],
-  "disclaimer": "Not live verified until GitHub Pages deploy and public URL checks."
+  "disclaimer": "Not live verified until GitHub Pages deploy and public URL checks.",
+  "qa": {
+    "github_pages_deploy": "SUCCESS",
+    "github_pages_run_url": "https://github.com/thuexemayhanoi/web/actions/runs/40637755598",
+    "all_17_html_and_webp_present_in_main": true,
+    "image_size_range_bytes": [
+      137624,
+      290068
+    ],
+    "images_with_unique_paths_and_alt": 17,
+    "public_url_read_confirmed": 13,
+    "public_url_read_unconfirmed": 4,
+    "unconfirmed_urls": [
+      "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/west-lake-route-connections/",
+      "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/tay-ho-route-connections/",
+      "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-sapa-one-day-feasibility/",
+      "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-sapa-two-day-itinerary/"
+    ],
+    "unconfirmed_reason": "Web reader returned internal errors for these four pages; this does not establish HTTP 404 or prove they are live.",
+    "topic_mismatches_removed_before_final_deploy": 5,
+    "note": "Stock photos with attribution, not generated AI or owner's fleet photos. 17 image files committed and GitHub Pages deployment succeeded; only 13 public HTML pages were directly read."
+  }
 }
