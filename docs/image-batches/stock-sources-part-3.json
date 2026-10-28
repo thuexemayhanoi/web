@@ -1,0 +1,133 @@
+{
+  "batch_id": "web-images-001",
+  "source_type": "Unsplash stock",
+  "note": "Candidate sources only; not yet published; attribute photographer and do not label as AI-generated or as fleet photos",
+  "photos": [
+    {
+      "position": 5,
+      "desc": "gray moped parked near body of water",
+      "url": "https://images.unsplash.com/photo-1538408756343-b97b3347d585?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8Nnx8NTBjYyUyMG1vcGVkJTIwc2Nvb3RlcnxlbnwxfHx8fDE3OTMxNTM5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/TXLKzl0tOyk/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8Nnx8NTBjYyUyMG1vcGVkJTIwc2Nvb3RlcnxlbnwxfHx8fDE3OTMxNTM5MTB8MA",
+      "photographer": "Wilco de Meijer",
+      "profile": "https://unsplash.com/@wildemeijer",
+      "id": "photo-1538408756343-b97b3347d585"
+    },
+    {
+      "position": 8,
+      "desc": "Man rides motorcycle at a shell gas station",
+      "url": "https://images.unsplash.com/photo-1775289393829-843e1dcdbc87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8MXx8bW90b3JjeWNsZSUyMGdhcyUyMHN0YXRpb24lMjByZWZ1ZWxpbmd8ZW58MXx8fHwxNzkzMTUzOTA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/vLJmVn5jaQA/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8MXx8bW90b3JjeWNsZSUyMGdhcyUyMHN0YXRpb24lMjByZWZ1ZWxpbmd8ZW58MXx8fHwxNzkzMTUzOTA5fDA",
+      "photographer": "Nguyen Minh",
+      "profile": "https://unsplash.com/@ngminh8895",
+      "id": "photo-1775289393829-843e1dcdbc87"
+    },
+    {
+      "position": 9,
+      "desc": "person in pink jacket wearing white helmet riding white and black motorcycle during daytime",
+      "url": "https://images.unsplash.com/photo-1583431444107-84dbfa3a4026?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8MTB8fHZpZXRuYW0lMjBtb3RvcmN5Y2xlJTIwZHJpdmluZyUyMGxpY2Vuc2V8ZW58MXx8fHwxNzkzMTUzOTI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/ZUne5zg0RfA/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8MTB8fHZpZXRuYW0lMjBtb3RvcmN5Y2xlJTIwZHJpdmluZyUyMGxpY2Vuc2V8ZW58MXx8fHwxNzkzMTUzOTI2fDA",
+      "photographer": "zibik",
+      "profile": "https://unsplash.com/@zibik",
+      "id": "photo-1583431444107-84dbfa3a4026"
+    },
+    {
+      "position": 11,
+      "desc": "a bunch of keys sitting on top of a wooden table",
+      "url": "https://images.unsplash.com/photo-1643804926339-e94f0a655185?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8M3x8bW90b3JiaWtlJTIwcGFwZXJ3b3JrJTIwa2V5cyUyMHJlbnRhbHxlbnwxfHx8fDE3OTMxNTM5MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/PxiAc1aElFQ/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8M3x8bW90b3JiaWtlJTIwcGFwZXJ3b3JrJTIwa2V5cyUyMHJlbnRhbHxlbnwxfHx8fDE3OTMxNTM5MTF8MA",
+      "photographer": "Filip Szalbot",
+      "profile": "https://unsplash.com/@fess0",
+      "id": "photo-1643804926339-e94f0a655185"
+    },
+    {
+      "position": 12,
+      "desc": "a scooter parked next to a scooter on a sidewalk",
+      "url": "https://images.unsplash.com/photo-1654697147753-90ebb2bb8438?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8Mnx8ZWxlY3RyaWMlMjB2cyUyMGdhc29saW5lJTIwc2Nvb3RlcnxlbnwxfHx8fDE3OTMxNTM5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/MM16U6TeTY8/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8Mnx8ZWxlY3RyaWMlMjB2cyUyMGdhc29saW5lJTIwc2Nvb3RlcnxlbnwxfHx8fDE3OTMxNTM5MTB8MA",
+      "photographer": "Lance Chang",
+      "profile": "https://unsplash.com/@carmendis",
+      "id": "photo-1654697147753-90ebb2bb8438"
+    },
+    {
+      "position": 17,
+      "desc": "Silhouettes of people on a bench and motorbikes by a lake at dusk",
+      "url": "https://images.unsplash.com/photo-1790815646916-18f756384f0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8N3x8d2VzdCUyMGxha2UlMjBoYW5vaSUyMHNjb290ZXJ8ZW58MXx8fHwxNzkzMTUzOTA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/CO9U5LGQKN8/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8N3x8d2VzdCUyMGxha2UlMjBoYW5vaSUyMHNjb290ZXJ8ZW58MXx8fHwxNzkzMTUzOTA5fDA",
+      "photographer": "Hạnh Kiều",
+      "profile": "https://unsplash.com/@hanhkv67",
+      "id": "photo-1790815646916-18f756384f0f"
+    },
+    {
+      "position": 22,
+      "desc": "A man and a woman standing next to motorcycles",
+      "url": "https://images.unsplash.com/photo-1730313533691-badce0b6e376?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8MTJ8fG1vdG9yYmlrZSUyMGZ1ZWwlMjBwdW1wJTIwdmlldG5hbXxlbnwxfHx8fDE3OTMxNTM4OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/hlLeWxbcT2U/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8MTJ8fG1vdG9yYmlrZSUyMGZ1ZWwlMjBwdW1wJTIwdmlldG5hbXxlbnwxfHx8fDE3OTMxNTM4OTl8MA",
+      "photographer": "Dynamic Wang",
+      "profile": "https://unsplash.com/@dynamicwang",
+      "id": "photo-1730313533691-badce0b6e376"
+    },
+    {
+      "position": 23,
+      "desc": "grayscale photo of moped bike on street",
+      "url": "https://images.unsplash.com/photo-1565793132381-4c8677c5a72c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8NXx8NTBjYyUyMG1vcGVkJTIwc2Nvb3RlcnxlbnwxfHx8fDE3OTMxNTM5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/AxPlUZfVuQA/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8NXx8NTBjYyUyMG1vcGVkJTIwc2Nvb3RlcnxlbnwxfHx8fDE3OTMxNTM5MTB8MA",
+      "photographer": "Tristan Gevaux",
+      "profile": "https://unsplash.com/@tristan_gevaux",
+      "id": "photo-1565793132381-4c8677c5a72c"
+    },
+    {
+      "position": 26,
+      "desc": "Two white scooters parked on a street",
+      "url": "https://images.unsplash.com/photo-1773394089961-c4730d1e69bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8Nnx8aG9uZGElMjB2aXNpb24lMjBzY29vdGVyfGVufDF8fHx8MTc5MzE1Mzg5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/UzdumUfNrXs/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8Nnx8aG9uZGElMjB2aXNpb24lMjBzY29vdGVyfGVufDF8fHx8MTc5MzE1Mzg5OHww",
+      "photographer": "Khanh Do",
+      "profile": "https://unsplash.com/@donguyenkhanhs",
+      "id": "photo-1773394089961-c4730d1e69bc"
+    },
+    {
+      "position": 28,
+      "desc": "The Turtle Tower on a small island in Hoan Kiem Lake in Hanoi",
+      "url": "https://images.unsplash.com/photo-1789611618857-2497224faa1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8OXx8aGFub2klMjBob2FuJTIwa2llbSUyMGxha2UlMjBtb3RvcmJpa2V8ZW58MXx8fHwxNzkzMTUzOTA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/2J4xx58FtHs/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8OXx8aGFub2klMjBob2FuJTIwa2llbSUyMGxha2UlMjBtb3RvcmJpa2V8ZW58MXx8fHwxNzkzMTUzOTA5fDA",
+      "photographer": "Harrisun S",
+      "profile": "https://unsplash.com/@harrisunsdz",
+      "id": "photo-1789611618857-2497224faa1c"
+    },
+    {
+      "position": 32,
+      "desc": "A close up of a motorcycle tire and brake",
+      "url": "https://images.unsplash.com/photo-1736775205983-2534f5e69212?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8N3x8bW90b3JjeWNsZSUyMG1lY2hhbmljJTIwaW5zcGVjdGlvbiUyMHRpcmUlMjBicmFrZXxlbnwxfHx8fDE3OTMxNTM5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/2MSu0riDW5Y/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8N3x8bW90b3JjeWNsZSUyMG1lY2hhbmljJTIwaW5zcGVjdGlvbiUyMHRpcmUlMjBicmFrZXxlbnwxfHx8fDE3OTMxNTM5MTB8MA",
+      "photographer": "Tim Kuhn",
+      "profile": "https://unsplash.com/@tiku06",
+      "id": "photo-1736775205983-2534f5e69212"
+    },
+    {
+      "position": 33,
+      "desc": "White motorcycle rear wheel with disc brake and chain",
+      "url": "https://images.unsplash.com/photo-1783791088536-c50efae9c2ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8MXx8bW90b3JjeWNsZSUyMG1lY2hhbmljJTIwaW5zcGVjdGlvbiUyMHRpcmUlMjBicmFrZXxlbnwxfHx8fDE3OTMxNTM5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/4PjA0uijmVs/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8MXx8bW90b3JjeWNsZSUyMG1lY2hhbmljJTIwaW5zcGVjdGlvbiUyMHRpcmUlMjBicmFrZXxlbnwxfHx8fDE3OTMxNTM5MTB8MA",
+      "photographer": "Ronnzy Moto",
+      "profile": "https://unsplash.com/@ronnzymoto",
+      "id": "photo-1783791088536-c50efae9c2ff"
+    },
+    {
+      "position": 46,
+      "desc": "white and blue motor scooter",
+      "url": "https://images.unsplash.com/photo-1590417395630-10bb7c3a36b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8MXx8ZWxlY3RyaWMlMjB2cyUyMGdhc29saW5lJTIwc2Nvb3RlcnxlbnwxfHx8fDE3OTMxNTM5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/dQglqa3X_iE/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8MXx8ZWxlY3RyaWMlMjB2cyUyMGdhc29saW5lJTIwc2Nvb3RlcnxlbnwxfHx8fDE3OTMxNTM5MTB8MA",
+      "photographer": "Kumpan Electric",
+      "profile": "https://unsplash.com/@kumpan_electric",
+      "id": "photo-1590417395630-10bb7c3a36b0"
+    },
+    {
+      "position": 48,
+      "desc": "a motorcycle parked in a narrow alley way",
+      "url": "https://images.unsplash.com/photo-1712994121512-33d1261919c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8NXx8aGFub2klMjBjaXR5JTIwc3RyZWV0JTIwc2Nvb3RlcnxlbnwxfHx8fDE3OTMxNTM5MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "download_location": "https://api.unsplash.com/photos/LgA53SXAaS0/download?ixid=M3wxMDc5ODEyfDB8MXxzZWFyY2h8NXx8aGFub2klMjBjaXR5JTIwc3RyZWV0JTIwc2Nvb3RlcnxlbnwxfHx8fDE3OTMxNTM5MTF8MA",
+      "photographer": "Jacek Janiczak",
+      "profile": "https://unsplash.com/@jacekjaniczak",
+      "id": "photo-1712994121512-33d1261919c7"
+    }
+  ]
+}
