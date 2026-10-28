@@ -3,8 +3,8 @@
   "status": "PARTIAL_PENDING_DEPLOY",
   "generated_at": "2026-10-28T08:17:59.954972+00:00",
   "source_type": "Wikimedia Commons stock photos",
-  "published_count": 37,
-  "failed_count": 13,
+  "published_count": 33,
+  "failed_count": 17,
   "skipped_count": 0,
   "published": [
     {
@@ -236,30 +236,6 @@
       "license": "CC BY 2.0"
     },
     {
-      "id": "SEO-699",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ninh-binh-two-day-itinerary/",
-      "article": "hanoi-motorbike-trips/hanoi-to-ninh-binh-two-day-itinerary/index.html",
-      "image_path": "/assets/img/articles/seo-699-hanoi-to-ninh-binh-two-day-itinerary.webp",
-      "bytes": 242866,
-      "sha256": "03b01cea8f84cd1863afdd141bab4294d565d636b4a79b19c9e65abaea18355b",
-      "commons_title": "File:Ninh Binh Railway Station.jpg",
-      "commons_url": "https://commons.wikimedia.org/wiki/File:Ninh_Binh_Railway_Station.jpg",
-      "artist": "anjči",
-      "license": "CC BY 2.0"
-    },
-    {
-      "id": "SEO-701",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ninh-binh-weather-planning/",
-      "article": "hanoi-motorbike-trips/hanoi-to-ninh-binh-weather-planning/index.html",
-      "image_path": "/assets/img/articles/seo-701-hanoi-to-ninh-binh-weather-planning.webp",
-      "bytes": 286696,
-      "sha256": "ff5350cb5bc94e6a601bb724c0723d64549157264e93018347551462ad238a15",
-      "commons_title": "File:Ninh Binh Stadium 2023.jpg",
-      "commons_url": "https://commons.wikimedia.org/wiki/File:Ninh_Binh_Stadium_2023.jpg",
-      "artist": "Mrhp2211",
-      "license": "CC BY-SA 4.0"
-    },
-    {
       "id": "SEO-705",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ninh-binh-return-planning/",
       "article": "hanoi-motorbike-trips/hanoi-to-ninh-binh-return-planning/index.html",
@@ -332,18 +308,6 @@
       "license": "CC BY-SA 3.0"
     },
     {
-      "id": "SEO-750",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-sapa-return-planning/",
-      "article": "hanoi-motorbike-trips/hanoi-to-sapa-return-planning/index.html",
-      "image_path": "/assets/img/articles/seo-750-hanoi-to-sapa-return-planning.webp",
-      "bytes": 275456,
-      "sha256": "8ec9ffd4de7021ef934c87ae6349b57b34d1bf8ee73c35cb71a5ada41d3edd07",
-      "commons_title": "File:Sa Pa, Bac Ha market.jpg",
-      "commons_url": "https://commons.wikimedia.org/wiki/File:Sa_Pa,_Bac_Ha_market.jpg",
-      "artist": "AJ Oswald",
-      "license": "CC BY-SA 2.0"
-    },
-    {
       "id": "SEO-734",
       "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-cat-ba-one-day-feasibility/",
       "article": "hanoi-motorbike-trips/hanoi-to-cat-ba-one-day-feasibility/index.html",
@@ -402,18 +366,6 @@
       "commons_url": "https://commons.wikimedia.org/wiki/File:L%C5%A9ng_C%C3%BA_H%C3%A0_Giang_-_panoramio.jpg",
       "artist": "Bich Le",
       "license": "CC BY 3.0"
-    },
-    {
-      "id": "SEO-752",
-      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ha-giang-one-day-feasibility/",
-      "article": "hanoi-motorbike-trips/hanoi-to-ha-giang-one-day-feasibility/index.html",
-      "image_path": "/assets/img/articles/seo-752-hanoi-to-ha-giang-one-day-feasibility.webp",
-      "bytes": 189716,
-      "sha256": "cc2e7d1722c4f8ba831e32e81c9e635c308fd541ebf29ed0dcf0fe1f48744a83",
-      "commons_title": "File:Nhặng xanh Hà Giang.jpg",
-      "commons_url": "https://commons.wikimedia.org/wiki/File:Nh%E1%BA%B7ng_xanh_H%C3%A0_Giang.jpg",
-      "artist": "vi:User:Nguyenvuhiep",
-      "license": "CC BY-SA 3.0"
     },
     {
       "id": "SEO-760",
@@ -504,8 +456,46 @@
     {
       "id": "SEO-719",
       "error": "No relevant reusable-license landscape photograph found"
+    },
+    {
+      "id": "SEO-699",
+      "error": "Rejected by manual topic QA: Railway station photo does not illustrate a motorbike itinerary"
+    },
+    {
+      "id": "SEO-701",
+      "error": "Rejected by manual topic QA: Stadium photo is off-topic for motorbike weather planning"
+    },
+    {
+      "id": "SEO-750",
+      "error": "Rejected by manual topic QA: Bac Ha market is not a reliable illustration of Sa Pa return planning"
+    },
+    {
+      "id": "SEO-752",
+      "error": "Rejected by manual topic QA: Vietnamese green fly specimen is unrelated to a Ha Giang motorbike guide"
     }
   ],
   "skipped": [],
-  "disclaimer": "Not live verified until GitHub Pages deploy and public URL checks."
+  "disclaimer": "Not live verified until GitHub Pages deploy and public URL checks.",
+  "manual_topic_qa": {
+    "date": "2026-10-28",
+    "rejected": [
+      {
+        "id": "SEO-699",
+        "reason": "Railway station photo does not illustrate a motorbike itinerary"
+      },
+      {
+        "id": "SEO-701",
+        "reason": "Stadium photo is off-topic for motorbike weather planning"
+      },
+      {
+        "id": "SEO-750",
+        "reason": "Bac Ha market is not a reliable illustration of Sa Pa return planning"
+      },
+      {
+        "id": "SEO-752",
+        "reason": "Vietnamese green fly specimen is unrelated to a Ha Giang motorbike guide"
+      }
+    ],
+    "kept": 33
+  }
 }

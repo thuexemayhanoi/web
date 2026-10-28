@@ -425,18 +425,13 @@
         "Trang An"
       ],
       "image_path": "/assets/img/articles/seo-699-hanoi-to-ninh-binh-two-day-itinerary.webp",
-      "status": "PUBLISHED_PENDING_DEPLOY",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 17,
-      "source_type": "Wikimedia Commons stock photograph",
-      "commons_title": "File:Ninh Binh Railway Station.jpg",
-      "commons_url": "https://commons.wikimedia.org/wiki/File:Ninh_Binh_Railway_Station.jpg",
-      "license": "CC BY 2.0",
-      "artist": "anjči",
-      "image_bytes": 242866,
-      "image_sha256": "03b01cea8f84cd1863afdd141bab4294d565d636b4a79b19c9e65abaea18355b",
-      "width": 1200,
-      "height": 800,
-      "alt": "Ninh Binh Railway Station — illustrative image for hanoi to ninh binh motorbike two day itinerary"
+      "qa_rejection_reason": "Railway station photo does not illustrate a motorbike itinerary",
+      "previous_rejected_source": {
+        "title": "File:Ninh Binh Railway Station.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Ninh_Binh_Railway_Station.jpg"
+      }
     },
     {
       "content_id": "SEO-701",
@@ -451,18 +446,13 @@
         "Trang An"
       ],
       "image_path": "/assets/img/articles/seo-701-hanoi-to-ninh-binh-weather-planning.webp",
-      "status": "PUBLISHED_PENDING_DEPLOY",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 18,
-      "source_type": "Wikimedia Commons stock photograph",
-      "commons_title": "File:Ninh Binh Stadium 2023.jpg",
-      "commons_url": "https://commons.wikimedia.org/wiki/File:Ninh_Binh_Stadium_2023.jpg",
-      "license": "CC BY-SA 4.0",
-      "artist": "Mrhp2211",
-      "image_bytes": 286696,
-      "image_sha256": "ff5350cb5bc94e6a601bb724c0723d64549157264e93018347551462ad238a15",
-      "width": 1200,
-      "height": 800,
-      "alt": "Ninh Binh Stadium 2023 — illustrative image for hanoi to ninh binh motorbike weather planning"
+      "qa_rejection_reason": "Stadium photo is off-topic for motorbike weather planning",
+      "previous_rejected_source": {
+        "title": "File:Ninh Binh Stadium 2023.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Ninh_Binh_Stadium_2023.jpg"
+      }
     },
     {
       "content_id": "SEO-705",
@@ -683,18 +673,13 @@
         "Sapa Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-750-hanoi-to-sapa-return-planning.webp",
-      "status": "PUBLISHED_PENDING_DEPLOY",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 27,
-      "source_type": "Wikimedia Commons stock photograph",
-      "commons_title": "File:Sa Pa, Bac Ha market.jpg",
-      "commons_url": "https://commons.wikimedia.org/wiki/File:Sa_Pa,_Bac_Ha_market.jpg",
-      "license": "CC BY-SA 2.0",
-      "artist": "AJ Oswald",
-      "image_bytes": 275456,
-      "image_sha256": "8ec9ffd4de7021ef934c87ae6349b57b34d1bf8ee73c35cb71a5ada41d3edd07",
-      "width": 1200,
-      "height": 800,
-      "alt": "Sa Pa, Bac Ha market — illustrative image for hanoi to sapa motorbike return planning"
+      "qa_rejection_reason": "Bac Ha market is not a reliable illustration of Sa Pa return planning",
+      "previous_rejected_source": {
+        "title": "File:Sa Pa, Bac Ha market.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Sa_Pa,_Bac_Ha_market.jpg"
+      }
     },
     {
       "content_id": "SEO-733",
@@ -864,18 +849,13 @@
         "Ha Giang Vietnam"
       ],
       "image_path": "/assets/img/articles/seo-752-hanoi-to-ha-giang-one-day-feasibility.webp",
-      "status": "PUBLISHED_PENDING_DEPLOY",
+      "status": "FAILED_RETRYABLE",
       "batch_position": 34,
-      "source_type": "Wikimedia Commons stock photograph",
-      "commons_title": "File:Nhặng xanh Hà Giang.jpg",
-      "commons_url": "https://commons.wikimedia.org/wiki/File:Nh%E1%BA%B7ng_xanh_H%C3%A0_Giang.jpg",
-      "license": "CC BY-SA 3.0",
-      "artist": "vi:User:Nguyenvuhiep",
-      "image_bytes": 189716,
-      "image_sha256": "cc2e7d1722c4f8ba831e32e81c9e635c308fd541ebf29ed0dcf0fe1f48744a83",
-      "width": 1200,
-      "height": 800,
-      "alt": "Nhặng xanh Hà Giang — illustrative image for hanoi to ha giang motorbike one day feasibility"
+      "qa_rejection_reason": "Vietnamese green fly specimen is unrelated to a Ha Giang motorbike guide",
+      "previous_rejected_source": {
+        "title": "File:Nhặng xanh Hà Giang.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Nh%E1%BA%B7ng_xanh_H%C3%A0_Giang.jpg"
+      }
     },
     {
       "content_id": "SEO-753",
@@ -1164,12 +1144,12 @@
       "batch_position": 50
     }
   ],
-  "published_count": 37,
-  "failed_count": 13,
+  "published_count": 33,
+  "failed_count": 17,
   "skipped_count": 0,
   "last_attempt_at": "2026-10-28T08:17:59.954972+00:00",
   "source_note": "Attributed Wikimedia Commons stock photography, not AI-generated or the owner's fleet photos; live status must be verified separately.",
-  "quality_review": "5 unsuitable/ambiguous photos removed after independent topic QA; 14 suitable images remain pending live verification",
+  "quality_review": "5 unsuitable/ambiguous photos removed after independent topic QA; 14 suitable images remain pending live verification; 2026-10-28 manual audit rejected 4 misleading images (railway station, stadium, Bac Ha market, insect specimen).",
   "previous_attempts": [
     {
       "attempt": "initial",
@@ -1343,7 +1323,22 @@
     ],
     "unconfirmed_reason": "Web reader returned internal errors for these four pages; this does not establish HTTP 404 or prove they are live.",
     "topic_mismatches_removed_before_final_deploy": 5,
-    "note": "Stock photos with attribution, not generated AI or owner's fleet photos. 17 image files committed and GitHub Pages deployment succeeded; only 13 public HTML pages were directly read."
+    "note": "Stock photos with attribution, not generated AI or owner's fleet photos. 17 image files committed and GitHub Pages deployment succeeded; only 13 public HTML pages were directly read.",
+    "latest_image_recovery_commit": "e484d91236a59889b0c7149e11fc08d6cc5c76e4",
+    "latest_deploy_run_url": "https://github.com/thuexemayhanoi/web/actions/runs/40655800005",
+    "latest_deploy_result": "SUCCESS",
+    "rejected_mismatched_images": [
+      "SEO-699",
+      "SEO-701",
+      "SEO-750",
+      "SEO-752"
+    ],
+    "published_after_manual_topic_qa": 33,
+    "live_sample_checked": [
+      "SEO-751",
+      "SEO-716"
+    ],
+    "live_full_verification": "PENDING"
   },
   "retry_strategy": "2026-10-28: preserve 17 previously published assets, retry only 33 failed items with broad place-name queries, paginated cached Commons searches, and existing license/topic/image QA. No AI or shop photos claimed."
 }
