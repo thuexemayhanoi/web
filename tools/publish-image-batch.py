@@ -93,7 +93,7 @@ def build_figure(item: dict, source: dict, width: int, height: int) -> str:
     )
 
 def has_meaningful_image(body: str) -> bool:
-    for match in re.finditer(r'<img\\b[^>]*>', body, re.I):
+    for match in re.finditer(r'<img\b[^>]*>', body, re.I):
         tag = match.group(0)
         if 'post-author-logo' in tag or '/assets/img/logo-116.png' in tag:
             continue
@@ -106,7 +106,7 @@ def insert_before_first_h2(article_path: Path, figure: str, image_path: str) -> 
     if not match:
         raise ValueError("Missing article element")
     body = match.group(1)
-    if image_path in original or re.search(r'<img\b', body, re.I):
+    if image_path in original or has_meaningful_image(body):
         return False
     h2 = re.search(r'(?m)^[ \t]*<h2\b', body, re.I)
     if not h2:
@@ -144,8 +144,11 @@ def main():
             m = re.search(r'<article\b[^>]*>(.*?)</article>', page, re.I | re.S)
             if not m:
                 raise ValueError("Missing article element")
-            if item["image_path"] in page or re.search(r'<img\b', m.group(1), re.I):
-                skipped.append({"position":pos,"article":item["article"],"reason":"Existing article image; no overwrite"})
+            if item["image_path"] in page and target.exists() and item.get("status") in ("PUBLISHED_PENDING_DEPLOY", "LIVE_VERIFIED"):
+                print(f"ALREADY PUBLISHED {pos:02d}", flush=True)
+                continue
+            if item["image_path"] in page or has_meaningful_image(m.group(1)):
+                skipped.append({"position":pos,"article":item["article"],"reason":"Existing meaningful article image; no overwrite"})
                 item["status"] = "SKIPPED_ALREADY_ILLUSTRATED"
                 continue
             if target.exists():
