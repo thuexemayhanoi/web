@@ -1,0 +1,764 @@
+{
+  "batch_id": "web-images-002",
+  "status": "PLANNED",
+  "source_type": "Wikimedia Commons attributed stock photography, not AI-generated or fleet photos",
+  "source_matrix": "data/content-matrix.csv",
+  "previous_batch": "docs/image-batches/batch-001.json",
+  "expected_images": 50,
+  "format": "WebP",
+  "min_bytes": 100000,
+  "max_bytes": 300000,
+  "notes": "Image publisher must verify each article remains unillustrated before writing; failed candidates are not counted as published; preserve all SEO metadata.",
+  "items": [
+    {
+      "batch_position": 1,
+      "content_id": "SEO-518",
+      "article": "motorbike-rental-hanoi-old-quarter/old-quarter-route-connections/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/old-quarter-route-connections/",
+      "silo": "Local Areas",
+      "primary_keyword": "old quarter hanoi motorbike route connections",
+      "subject_anchor": "Old Quarter|Pho Co",
+      "search_queries": [
+        "Old Quarter Hanoi",
+        "Old Quarter Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-518-old-quarter-route-connections.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 2,
+      "content_id": "SEO-519",
+      "article": "motorbike-rental-hanoi-old-quarter/old-quarter-day-ride-ideas/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/old-quarter-day-ride-ideas/",
+      "silo": "Local Areas",
+      "primary_keyword": "old quarter hanoi motorbike day ride ideas",
+      "subject_anchor": "Old Quarter|Pho Co",
+      "search_queries": [
+        "Old Quarter Hanoi",
+        "Old Quarter Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-519-old-quarter-day-ride-ideas.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 3,
+      "content_id": "SEO-523",
+      "article": "motorbike-rental-hanoi-old-quarter/hoan-kiem-route-connections/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/hoan-kiem-route-connections/",
+      "silo": "Local Areas",
+      "primary_keyword": "hoan kiem hanoi motorbike route connections",
+      "subject_anchor": "Hoan Kiem|Hoàn Kiếm",
+      "search_queries": [
+        "Hoan Kiem Lake Hanoi",
+        "Hoan Kiem Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-523-hoan-kiem-route-connections.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 4,
+      "content_id": "SEO-524",
+      "article": "motorbike-rental-hanoi-old-quarter/hoan-kiem-day-ride-ideas/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/hoan-kiem-day-ride-ideas/",
+      "silo": "Local Areas",
+      "primary_keyword": "hoan kiem hanoi motorbike day ride ideas",
+      "subject_anchor": "Hoan Kiem|Hoàn Kiếm",
+      "search_queries": [
+        "Hoan Kiem Lake Hanoi",
+        "Hoan Kiem Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-524-hoan-kiem-day-ride-ideas.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 5,
+      "content_id": "SEO-528",
+      "article": "motorbike-rental-hanoi-old-quarter/west-lake-route-connections/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/west-lake-route-connections/",
+      "silo": "Local Areas",
+      "primary_keyword": "west lake hanoi motorbike route connections",
+      "subject_anchor": "West Lake|Ho Tay|Hồ Tây",
+      "search_queries": [
+        "West Lake Hanoi",
+        "West Lake Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-528-west-lake-route-connections.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 6,
+      "content_id": "SEO-529",
+      "article": "motorbike-rental-hanoi-old-quarter/west-lake-day-ride-ideas/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/west-lake-day-ride-ideas/",
+      "silo": "Local Areas",
+      "primary_keyword": "west lake hanoi motorbike day ride ideas",
+      "subject_anchor": "West Lake|Ho Tay|Hồ Tây",
+      "search_queries": [
+        "West Lake Hanoi",
+        "West Lake Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-529-west-lake-day-ride-ideas.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 7,
+      "content_id": "SEO-533",
+      "article": "motorbike-rental-hanoi-old-quarter/tay-ho-route-connections/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/tay-ho-route-connections/",
+      "silo": "Local Areas",
+      "primary_keyword": "tay ho hanoi motorbike route connections",
+      "subject_anchor": "Tay Ho|Tây Hồ|West Lake",
+      "search_queries": [
+        "Tay Ho Hanoi",
+        "Tay Ho Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-533-tay-ho-route-connections.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 8,
+      "content_id": "SEO-534",
+      "article": "motorbike-rental-hanoi-old-quarter/tay-ho-day-ride-ideas/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/tay-ho-day-ride-ideas/",
+      "silo": "Local Areas",
+      "primary_keyword": "tay ho hanoi motorbike day ride ideas",
+      "subject_anchor": "Tay Ho|Tây Hồ|West Lake",
+      "search_queries": [
+        "Tay Ho Hanoi",
+        "Tay Ho Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-534-tay-ho-day-ride-ideas.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 9,
+      "content_id": "SEO-538",
+      "article": "motorbike-rental-hanoi-old-quarter/long-bien-route-connections/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/long-bien-route-connections/",
+      "silo": "Local Areas",
+      "primary_keyword": "long bien hanoi motorbike route connections",
+      "subject_anchor": "Long Bien|Long Biên",
+      "search_queries": [
+        "Long Bien Bridge Hanoi",
+        "Long Bien Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-538-long-bien-route-connections.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 10,
+      "content_id": "SEO-539",
+      "article": "motorbike-rental-hanoi-old-quarter/long-bien-day-ride-ideas/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/long-bien-day-ride-ideas/",
+      "silo": "Local Areas",
+      "primary_keyword": "long bien hanoi motorbike day ride ideas",
+      "subject_anchor": "Long Bien|Long Biên",
+      "search_queries": [
+        "Long Bien Bridge Hanoi",
+        "Long Bien Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-539-long-bien-day-ride-ideas.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 11,
+      "content_id": "SEO-543",
+      "article": "motorbike-rental-hanoi-old-quarter/ba-dinh-route-connections/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/ba-dinh-route-connections/",
+      "silo": "Local Areas",
+      "primary_keyword": "ba dinh hanoi motorbike route connections",
+      "subject_anchor": "Ba Dinh|Ba Đình",
+      "search_queries": [
+        "Ba Dinh Hanoi",
+        "Ba Dinh Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-543-ba-dinh-route-connections.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 12,
+      "content_id": "SEO-544",
+      "article": "motorbike-rental-hanoi-old-quarter/ba-dinh-day-ride-ideas/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/ba-dinh-day-ride-ideas/",
+      "silo": "Local Areas",
+      "primary_keyword": "ba dinh hanoi motorbike day ride ideas",
+      "subject_anchor": "Ba Dinh|Ba Đình",
+      "search_queries": [
+        "Ba Dinh Hanoi",
+        "Ba Dinh Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-544-ba-dinh-day-ride-ideas.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 13,
+      "content_id": "SEO-548",
+      "article": "motorbike-rental-hanoi-old-quarter/dong-da-route-connections/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/dong-da-route-connections/",
+      "silo": "Local Areas",
+      "primary_keyword": "dong da hanoi motorbike route connections",
+      "subject_anchor": "Dong Da|Đống Đa",
+      "search_queries": [
+        "Dong Da Hanoi",
+        "Dong Da Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-548-dong-da-route-connections.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 14,
+      "content_id": "SEO-549",
+      "article": "motorbike-rental-hanoi-old-quarter/dong-da-day-ride-ideas/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/dong-da-day-ride-ideas/",
+      "silo": "Local Areas",
+      "primary_keyword": "dong da hanoi motorbike day ride ideas",
+      "subject_anchor": "Dong Da|Đống Đa",
+      "search_queries": [
+        "Dong Da Hanoi",
+        "Dong Da Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-549-dong-da-day-ride-ideas.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 15,
+      "content_id": "SEO-553",
+      "article": "motorbike-rental-hanoi-old-quarter/hai-ba-trung-route-connections/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/hai-ba-trung-route-connections/",
+      "silo": "Local Areas",
+      "primary_keyword": "hai ba trung hanoi motorbike route connections",
+      "subject_anchor": "Hai Ba Trung|Hai Bà Trưng",
+      "search_queries": [
+        "Hai Ba Trung Hanoi",
+        "Hai Ba Trung Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-553-hai-ba-trung-route-connections.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 16,
+      "content_id": "SEO-554",
+      "article": "motorbike-rental-hanoi-old-quarter/hai-ba-trung-day-ride-ideas/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/hai-ba-trung-day-ride-ideas/",
+      "silo": "Local Areas",
+      "primary_keyword": "hai ba trung hanoi motorbike day ride ideas",
+      "subject_anchor": "Hai Ba Trung|Hai Bà Trưng",
+      "search_queries": [
+        "Hai Ba Trung Hanoi",
+        "Hai Ba Trung Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-554-hai-ba-trung-day-ride-ideas.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 17,
+      "content_id": "SEO-558",
+      "article": "motorbike-rental-hanoi-old-quarter/cau-giay-route-connections/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/cau-giay-route-connections/",
+      "silo": "Local Areas",
+      "primary_keyword": "cau giay hanoi motorbike route connections",
+      "subject_anchor": "Cau Giay|Cầu Giấy",
+      "search_queries": [
+        "Cau Giay Hanoi",
+        "Cau Giay Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-558-cau-giay-route-connections.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 18,
+      "content_id": "SEO-559",
+      "article": "motorbike-rental-hanoi-old-quarter/cau-giay-day-ride-ideas/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/cau-giay-day-ride-ideas/",
+      "silo": "Local Areas",
+      "primary_keyword": "cau giay hanoi motorbike day ride ideas",
+      "subject_anchor": "Cau Giay|Cầu Giấy",
+      "search_queries": [
+        "Cau Giay Hanoi",
+        "Cau Giay Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-559-cau-giay-day-ride-ideas.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 19,
+      "content_id": "SEO-563",
+      "article": "motorbike-rental-hanoi-old-quarter/nam-tu-liem-route-connections/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/nam-tu-liem-route-connections/",
+      "silo": "Local Areas",
+      "primary_keyword": "nam tu liem hanoi motorbike route connections",
+      "subject_anchor": "Nam Tu Liem|Nam Từ Liêm",
+      "search_queries": [
+        "Nam Tu Liem Hanoi",
+        "Nam Tu Liem Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-563-nam-tu-liem-route-connections.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 20,
+      "content_id": "SEO-564",
+      "article": "motorbike-rental-hanoi-old-quarter/nam-tu-liem-day-ride-ideas/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/nam-tu-liem-day-ride-ideas/",
+      "silo": "Local Areas",
+      "primary_keyword": "nam tu liem hanoi motorbike day ride ideas",
+      "subject_anchor": "Nam Tu Liem|Nam Từ Liêm",
+      "search_queries": [
+        "Nam Tu Liem Hanoi",
+        "Nam Tu Liem Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-564-nam-tu-liem-day-ride-ideas.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 21,
+      "content_id": "SEO-583",
+      "article": "motorbike-rental-hanoi-old-quarter/ha-dong-route-connections/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/ha-dong-route-connections/",
+      "silo": "Local Areas",
+      "primary_keyword": "ha dong hanoi motorbike route connections",
+      "subject_anchor": "Ha Dong|Hà Đông",
+      "search_queries": [
+        "Ha Dong Hanoi",
+        "Ha Dong Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-583-ha-dong-route-connections.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 22,
+      "content_id": "SEO-584",
+      "article": "motorbike-rental-hanoi-old-quarter/ha-dong-day-ride-ideas/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/ha-dong-day-ride-ideas/",
+      "silo": "Local Areas",
+      "primary_keyword": "ha dong hanoi motorbike day ride ideas",
+      "subject_anchor": "Ha Dong|Hà Đông",
+      "search_queries": [
+        "Ha Dong Hanoi",
+        "Ha Dong Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-584-ha-dong-day-ride-ideas.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 23,
+      "content_id": "SEO-588",
+      "article": "motorbike-rental-hanoi-old-quarter/truc-bach-route-connections/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/truc-bach-route-connections/",
+      "silo": "Local Areas",
+      "primary_keyword": "truc bach hanoi motorbike route connections",
+      "subject_anchor": "Truc Bach|Trúc Bạch",
+      "search_queries": [
+        "Truc Bach Lake Hanoi",
+        "Truc Bach Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-588-truc-bach-route-connections.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 24,
+      "content_id": "SEO-589",
+      "article": "motorbike-rental-hanoi-old-quarter/truc-bach-day-ride-ideas/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/truc-bach-day-ride-ideas/",
+      "silo": "Local Areas",
+      "primary_keyword": "truc bach hanoi motorbike day ride ideas",
+      "subject_anchor": "Truc Bach|Trúc Bạch",
+      "search_queries": [
+        "Truc Bach Lake Hanoi",
+        "Truc Bach Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-589-truc-bach-day-ride-ideas.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 25,
+      "content_id": "SEO-593",
+      "article": "motorbike-rental-hanoi-old-quarter/french-quarter-route-connections/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/french-quarter-route-connections/",
+      "silo": "Local Areas",
+      "primary_keyword": "french quarter hanoi motorbike route connections",
+      "subject_anchor": "French Quarter|Trang Tien|Tràng Tiền",
+      "search_queries": [
+        "French Quarter Hanoi",
+        "French Quarter Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-593-french-quarter-route-connections.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 26,
+      "content_id": "SEO-594",
+      "article": "motorbike-rental-hanoi-old-quarter/french-quarter-day-ride-ideas/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/french-quarter-day-ride-ideas/",
+      "silo": "Local Areas",
+      "primary_keyword": "french quarter hanoi motorbike day ride ideas",
+      "subject_anchor": "French Quarter|Trang Tien|Tràng Tiền",
+      "search_queries": [
+        "French Quarter Hanoi",
+        "French Quarter Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-594-french-quarter-day-ride-ideas.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 27,
+      "content_id": "SEO-598",
+      "article": "motorbike-rental-hanoi-old-quarter/my-dinh-route-connections/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/my-dinh-route-connections/",
+      "silo": "Local Areas",
+      "primary_keyword": "my dinh hanoi motorbike route connections",
+      "subject_anchor": "My Dinh|Mỹ Đình",
+      "search_queries": [
+        "My Dinh Hanoi",
+        "My Dinh Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-598-my-dinh-route-connections.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 28,
+      "content_id": "SEO-599",
+      "article": "motorbike-rental-hanoi-old-quarter/my-dinh-day-ride-ideas/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/my-dinh-day-ride-ideas/",
+      "silo": "Local Areas",
+      "primary_keyword": "my dinh hanoi motorbike day ride ideas",
+      "subject_anchor": "My Dinh|Mỹ Đình",
+      "search_queries": [
+        "My Dinh Hanoi",
+        "My Dinh Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-599-my-dinh-day-ride-ideas.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 29,
+      "content_id": "SEO-608",
+      "article": "motorbike-rental-hanoi-old-quarter/soc-son-route-connections/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/soc-son-route-connections/",
+      "silo": "Local Areas",
+      "primary_keyword": "soc son hanoi motorbike route connections",
+      "subject_anchor": "Soc Son|Sóc Sơn",
+      "search_queries": [
+        "Soc Son Hanoi",
+        "Soc Son Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-608-soc-son-route-connections.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 30,
+      "content_id": "SEO-609",
+      "article": "motorbike-rental-hanoi-old-quarter/soc-son-day-ride-ideas/index.html",
+      "url": "https://app.rentbikehanoi.com/motorbike-rental-hanoi-old-quarter/soc-son-day-ride-ideas/",
+      "silo": "Local Areas",
+      "primary_keyword": "soc son hanoi motorbike day ride ideas",
+      "subject_anchor": "Soc Son|Sóc Sơn",
+      "search_queries": [
+        "Soc Son Hanoi",
+        "Soc Son Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-609-soc-son-day-ride-ideas.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 31,
+      "content_id": "SEO-031",
+      "article": "hanoi-motorbike-trips/hanoi-to-ba-vi-motorbike-route/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ba-vi-motorbike-route/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to ba vi motorbike",
+      "subject_anchor": "Ba Vi|Ba Vì",
+      "search_queries": [
+        "Ba Vi Vietnam",
+        "Ba Vi Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-031-hanoi-to-ba-vi-motorbike-route.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 32,
+      "content_id": "SEO-697",
+      "article": "hanoi-motorbike-trips/hanoi-to-ninh-binh-route-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ninh-binh-route-planning/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to ninh binh motorbike route planning",
+      "subject_anchor": "Ninh Binh|Ninh Bình",
+      "search_queries": [
+        "Ninh Binh Vietnam",
+        "Ninh Binh Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-697-hanoi-to-ninh-binh-route-planning.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 33,
+      "content_id": "SEO-706",
+      "article": "hanoi-motorbike-trips/hanoi-to-tam-dao-route-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-tam-dao-route-planning/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to tam dao motorbike route planning",
+      "subject_anchor": "Tam Dao|Tam Đảo",
+      "search_queries": [
+        "Tam Dao Vietnam",
+        "Tam Dao Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-706-hanoi-to-tam-dao-route-planning.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 34,
+      "content_id": "SEO-715",
+      "article": "hanoi-motorbike-trips/hanoi-to-mai-chau-route-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-mai-chau-route-planning/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to mai chau motorbike route planning",
+      "subject_anchor": "Mai Chau|Mai Châu",
+      "search_queries": [
+        "Mai Chau Vietnam",
+        "Mai Chau Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-715-hanoi-to-mai-chau-route-planning.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 35,
+      "content_id": "SEO-724",
+      "article": "hanoi-motorbike-trips/hanoi-to-ha-long-route-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ha-long-route-planning/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to ha long motorbike route planning",
+      "subject_anchor": "Ha Long|Hạ Long",
+      "search_queries": [
+        "Ha Long Bay Vietnam",
+        "Ha Long Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-724-hanoi-to-ha-long-route-planning.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 36,
+      "content_id": "SEO-733",
+      "article": "hanoi-motorbike-trips/hanoi-to-cat-ba-route-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-cat-ba-route-planning/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to cat ba motorbike route planning",
+      "subject_anchor": "Cat Ba|Cát Bà",
+      "search_queries": [
+        "Cat Ba Island Vietnam",
+        "Cat Ba Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-733-hanoi-to-cat-ba-route-planning.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 37,
+      "content_id": "SEO-742",
+      "article": "hanoi-motorbike-trips/hanoi-to-sapa-route-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-sapa-route-planning/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to sapa motorbike route planning",
+      "subject_anchor": "Sapa|Sa Pa",
+      "search_queries": [
+        "Sapa Vietnam",
+        "Sapa Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-742-hanoi-to-sapa-route-planning.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 38,
+      "content_id": "SEO-751",
+      "article": "hanoi-motorbike-trips/hanoi-to-ha-giang-route-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ha-giang-route-planning/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to ha giang motorbike route planning",
+      "subject_anchor": "Ha Giang|Hà Giang",
+      "search_queries": [
+        "Ha Giang Vietnam",
+        "Ha Giang Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-751-hanoi-to-ha-giang-route-planning.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 39,
+      "content_id": "SEO-760",
+      "article": "hanoi-motorbike-trips/hanoi-to-moc-chau-route-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-moc-chau-route-planning/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to moc chau motorbike route planning",
+      "subject_anchor": "Moc Chau|Mộc Châu",
+      "search_queries": [
+        "Moc Chau Vietnam",
+        "Moc Chau Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-760-hanoi-to-moc-chau-route-planning.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 40,
+      "content_id": "SEO-769",
+      "article": "hanoi-motorbike-trips/hanoi-to-pu-luong-route-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-pu-luong-route-planning/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to pu luong motorbike route planning",
+      "subject_anchor": "Pu Luong|Pù Luông",
+      "search_queries": [
+        "Pu Luong Vietnam",
+        "Pu Luong Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-769-hanoi-to-pu-luong-route-planning.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 41,
+      "content_id": "SEO-778",
+      "article": "hanoi-motorbike-trips/hanoi-to-hoa-binh-route-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-hoa-binh-route-planning/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to hoa binh motorbike route planning",
+      "subject_anchor": "Hoa Binh|Hòa Bình",
+      "search_queries": [
+        "Hoa Binh Vietnam",
+        "Hoa Binh Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-778-hanoi-to-hoa-binh-route-planning.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 42,
+      "content_id": "SEO-787",
+      "article": "hanoi-motorbike-trips/hanoi-to-bac-ninh-route-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-bac-ninh-route-planning/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to bac ninh motorbike route planning",
+      "subject_anchor": "Bac Ninh|Bắc Ninh",
+      "search_queries": [
+        "Bac Ninh Vietnam",
+        "Bac Ninh Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-787-hanoi-to-bac-ninh-route-planning.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 43,
+      "content_id": "SEO-796",
+      "article": "hanoi-motorbike-trips/hanoi-to-duong-lam-route-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-duong-lam-route-planning/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to duong lam motorbike route planning",
+      "subject_anchor": "Duong Lam|Đường Lâm",
+      "search_queries": [
+        "Duong Lam Village Vietnam",
+        "Duong Lam Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-796-hanoi-to-duong-lam-route-planning.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 44,
+      "content_id": "SEO-805",
+      "article": "hanoi-motorbike-trips/hanoi-to-perfume-pagoda-route-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-perfume-pagoda-route-planning/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to perfume pagoda motorbike route planning",
+      "subject_anchor": "Perfume Pagoda|Huong Tich|Hương Tích",
+      "search_queries": [
+        "Perfume Pagoda Vietnam",
+        "Perfume Pagoda Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-805-hanoi-to-perfume-pagoda-route-planning.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 45,
+      "content_id": "SEO-814",
+      "article": "hanoi-motorbike-trips/hanoi-to-soc-son-route-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-soc-son-route-planning/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to soc son motorbike route planning",
+      "subject_anchor": "Soc Son|Sóc Sơn",
+      "search_queries": [
+        "Soc Son Hanoi",
+        "Soc Son Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-814-hanoi-to-soc-son-route-planning.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 46,
+      "content_id": "SEO-823",
+      "article": "hanoi-motorbike-trips/hanoi-to-cuc-phuong-route-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-cuc-phuong-route-planning/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to cuc phuong motorbike route planning",
+      "subject_anchor": "Cuc Phuong|Cúc Phương",
+      "search_queries": [
+        "Cuc Phuong National Park Vietnam",
+        "Cuc Phuong Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-823-hanoi-to-cuc-phuong-route-planning.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 47,
+      "content_id": "SEO-832",
+      "article": "hanoi-motorbike-trips/hanoi-to-yen-tu-route-planning/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-yen-tu-route-planning/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to yen tu motorbike route planning",
+      "subject_anchor": "Yen Tu|Yên Tử",
+      "search_queries": [
+        "Yen Tu Mountain Vietnam",
+        "Yen Tu Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-832-hanoi-to-yen-tu-route-planning.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 48,
+      "content_id": "SEO-048",
+      "article": "hanoi-motorbike-trips/hanoi-to-ha-long-motorbike-route/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-ha-long-motorbike-route/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to ha long motorbike",
+      "subject_anchor": "Ha Long|Hạ Long",
+      "search_queries": [
+        "Ha Long Bay Vietnam",
+        "Ha Long Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-048-hanoi-to-ha-long-motorbike-route.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 49,
+      "content_id": "SEO-049",
+      "article": "hanoi-motorbike-trips/hanoi-to-sapa-motorbike-route/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-sapa-motorbike-route/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to sapa motorbike",
+      "subject_anchor": "Sapa|Sa Pa",
+      "search_queries": [
+        "Sapa Vietnam",
+        "Sapa Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-049-hanoi-to-sapa-motorbike-route.webp",
+      "status": "PLANNED"
+    },
+    {
+      "batch_position": 50,
+      "content_id": "SEO-032",
+      "article": "hanoi-motorbike-trips/hanoi-to-perfume-pagoda-motorbike-route/index.html",
+      "url": "https://app.rentbikehanoi.com/hanoi-motorbike-trips/hanoi-to-perfume-pagoda-motorbike-route/",
+      "silo": "Trips & Travel",
+      "primary_keyword": "hanoi to perfume pagoda motorbike",
+      "subject_anchor": "Perfume Pagoda|Huong Tich|Hương Tích",
+      "search_queries": [
+        "Perfume Pagoda Vietnam",
+        "Perfume Pagoda Vietnam"
+      ],
+      "image_path": "/assets/img/articles/seo-032-hanoi-to-perfume-pagoda-motorbike-route.webp",
+      "status": "PLANNED"
+    }
+  ]
+}
