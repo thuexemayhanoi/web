@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'docs/image-batches/batch-002.json'
+      - 'docs/image-batches/batch-002.trigger'
 
 permissions:
   contents: write
